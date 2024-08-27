@@ -1,0 +1,1564 @@
+{
+	"guideName": "Jubi's guide (NE Hunter Project Epoch)",
+	"guideAuthor": "Jubi (discord: jubi_7)",
+	"guideSections": [
+		{
+			"sectionName": "Teldrassil (1-10)",
+			"sectionSteps": [
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.61,
+							"yCoord": 44.79,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Conservator Ilthalaine",
+							"npcId": 2079,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Balance of Nature",
+									"questId": 456,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.11,
+							"yCoord": 42.44,
+							"coordsMap": "Teldrassil",
+							"comment": "Kill the nightsabers first",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Young Nightsaber",
+							"npcId": 2031,
+							"count": 7,
+							"questId": 456,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": []
+						},
+						{
+							"npcName": "Young Thistle Boar",
+							"npcId": 1984,
+							"count": 4,
+							"questId": 456,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": []
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.93,
+							"yCoord": 42.03,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Dirania Silvershine",
+							"npcId": 8583,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "A Good Friend",
+									"questId": 4495,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.94,
+							"yCoord": 42.49,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Melithar Staghelm",
+							"npcId": 2077,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Woodland Protector",
+									"questId": 458,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.31,
+							"yCoord": 41.15,
+							"coordsMap": "Teldrassil",
+							"comment": "Sell junk. Buy 3 stacks of arrows",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Keina",
+							"npcId": 3589,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": []
+						}
+					],
+					"onlyForClasses": [
+						"1"
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.64,
+							"yCoord": 44.67,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Conservator Ilthalaine",
+							"npcId": 2079,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Balance of Nature",
+									"questId": 456,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"npcName": "Conservator Ilthalaine",
+							"npcId": 2079,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Balance of Nature",
+									"questId": 457,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								},
+								{
+									"questName": "Etched Sigil",
+									"questId": 3117,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": [
+						"1"
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.06,
+							"yCoord": 35.24,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Thistle Boar",
+									"npcId": 1985,
+									"count": 5,
+									"questId": 457,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": []
+								},
+								{
+									"npcName": "Mangy Nightsaber",
+									"npcId": 2032,
+									"count": 5,
+									"questId": 457,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 54.63,
+							"yCoord": 33,
+							"coordsMap": "Teldrassil",
+							"comment": "Start casting hearthstone as soon as you start talking with him.",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Iverron",
+							"npcId": 8584,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "A Good Friend",
+									"questId": 4495,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								},
+								{
+									"questName": "A Friend in Need",
+									"questId": 3519,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.66,
+							"yCoord": 44.64,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Conservator Ilthalaine",
+							"npcId": 2079,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Balance of Nature",
+									"questId": 457,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.86,
+							"yCoord": 45.17,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Tarindrella",
+							"npcId": 1992,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Woodland Protector",
+									"questId": 458,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								},
+								{
+									"questName": "The Woodland Protector",
+									"questId": 459,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.01,
+							"yCoord": 42.2,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"npcName": "Alanea Miststriker",
+							"npcId": 45087,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Corruption in Shadowglen",
+									"questId": 26179,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.9,
+							"yCoord": 41.93,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Dirania Silvershine",
+							"npcId": 8583,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "A Friend in Need",
+									"questId": 3519,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								},
+								{
+									"questName": "Iverron's Antidote",
+									"questId": 3521,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.85,
+							"yCoord": 41.86,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Frenzied Moonkin",
+									"npcId": 45088,
+									"count": 8,
+									"questId": 26179,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Natook",
+									"npcId": 45089,
+									"count": 1,
+									"questId": 26179,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.11,
+							"yCoord": 42.28,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"npcName": "Alanea Miststriker",
+							"npcId": 45087,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Corruption in Shadowglen",
+									"questId": 26179,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.32,
+							"yCoord": 41.13,
+							"coordsMap": "Teldrassil",
+							"comment": "Sell junk. Need 3s 70c for white bow + serpent sting",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Keina",
+							"npcId": 3589,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": []
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.83,
+							"yCoord": 41.67,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Gilshalan Windwalker",
+									"npcId": 2082,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": []
+								},
+								{
+									"questName": "Webwood Venom",
+									"questId": 916,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.64,
+							"yCoord": 40.47,
+							"coordsMap": "Teldrassil",
+							"comment": "Up the ramp. Learn serpent sting",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Ayanna Everstride",
+							"npcId": 3596,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Etched Sigil",
+									"questId": 3117,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": [
+						"1"
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.83,
+							"yCoord": 38.33,
+							"coordsMap": "Teldrassil",
+							"comment": "Fall through the holes in the ramp",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"itemName": "Moonpetal Lily",
+							"count": 4,
+							"questId": 3521,
+							"questObjectiveIndex": 2,
+							"toLootNpcs": [],
+							"depth": 0,
+							"type": "Get",
+							"subTasks": []
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 54.63,
+							"yCoord": 38.97,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"itemName": "Hyacinth Mushroom",
+							"questId": 3521,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Grellkin",
+									"npcId": 1989
+								}
+							],
+							"count": 7,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": []
+						},
+						{
+							"itemName": "Fel Moss",
+							"questId": 3521,
+							"questObjectiveIndex": 3,
+							"toLootNpcs": [
+								{
+									"npcName": "Grellkin",
+									"npcId": 1989
+								}
+							],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": []
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 56.66,
+							"yCoord": 33.75,
+							"coordsMap": "Teldrassil",
+							"comment": "After getting the items from the spiders die to death warp to the starting area",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"itemName": "Webwood Ichor",
+							"questId": 3521,
+							"questObjectiveIndex": 3,
+							"toLootNpcs": [
+								{
+									"npcName": "Webwood spider",
+									"npcId": 1986
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": []
+						},
+						{
+							"itemName": "Webwood Venom Sac",
+							"count": 10,
+							"questId": 916,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Webwood spider",
+									"npcId": 1986
+								}
+							],
+							"depth": 0,
+							"type": "Get",
+							"subTasks": []
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.84,
+							"yCoord": 45.14,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Tarindrella",
+							"npcId": 1992,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Woodland Protector",
+									"questId": 459,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.9,
+							"yCoord": 41.99,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Dirania Silvershine",
+							"npcId": 8583,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 3521,
+									"questName": "Iverron's Antidote",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								},
+								{
+									"questName": "Iverron's Antidote",
+									"questId": 3522,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.32,
+							"yCoord": 41.13,
+							"coordsMap": "Teldrassil",
+							"comment": "Sell junk",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Keina",
+							"npcId": 3589,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.81,
+							"yCoord": 41.67,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Gilshalan Windwalker",
+							"npcId": 2082,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Webwood Venom",
+									"questId": 916,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								},
+								{
+									"questName": "Webwood Egg",
+									"questId": 917,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 54.62,
+							"yCoord": 32.99,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Iverron",
+							"npcId": 8584,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Iverron's Antidote",
+									"questId": 3522,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 56.71,
+							"yCoord": 26.46,
+							"coordsMap": "Teldrassil",
+							"comment": "After getting the egg die to death warp",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"itemName": "Webwood Egg",
+							"questId": 917,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": []
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.84,
+							"yCoord": 41.68,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Gilshalan Windwalker",
+							"npcId": 2082,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Webwood Egg",
+									"questId": 917,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								},
+								{
+									"questName": "Tenaron's Summons",
+									"questId": 920,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.09,
+							"yCoord": 39.42,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Tenaron Stormgrip",
+							"npcId": 3514,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Tenaron's Summons",
+									"questId": 920,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								},
+								{
+									"questName": "Crown of the Earth",
+									"questId": 921,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.96,
+							"yCoord": 33.33,
+							"coordsMap": "Teldrassil",
+							"comment": "Fill the fial at the well",
+							"itemId": 5185,
+							"itemName": "Crystal phial",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"itemName": "Filled Crystal Phial",
+							"questId": 921,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": []
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.59,
+							"yCoord": 41.74,
+							"coordsMap": "Teldrassil",
+							"comment": "If enough mobs are alive pull a bunch to death warp. Otherwise, walk it out running around the tree from the lakes' side.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.64,
+							"yCoord": 40.49,
+							"coordsMap": "Teldrassil",
+							"comment": "Learn Arcane shot if level 6",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						}
+					],
+					"onlyForClasses": [
+						"1"
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"coordsMap": "Teldrassil",
+							"xCoord": 59.09,
+							"yCoord": 39.42,
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Tenaron Stormgrip",
+							"npcId": 3514,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Crown of the Earth",
+									"questId": 921,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": []
+								},
+								{
+									"questName": "Crown of the Earth",
+									"questId": 928,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.31,
+							"yCoord": 41.11,
+							"coordsMap": "Teldrassil",
+							"comment": "Sell junk. Buy 2 stacks of arrows",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Keina",
+							"npcId": 3589,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": []
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 61.19,
+							"yCoord": 47.68,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": []
+						},
+						{
+							"npcName": "Porthannius",
+							"npcId": 6780,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Dolanaar Delivery",
+									"questId": 2159,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": []
+								}
+							]
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.5,
+							"yCoord": 56.29,
+							"coordsMap": "Teldrassil",
+							"comment": "Save Small Spider Leg x7 and Small Egg x9 for a quest/cooking while doing Zenn's quest.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Zenn Foulhoof",
+							"npcId": 2150,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Zenn's Bidding",
+									"questId": 488,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 56.11,
+							"yCoord": 57.63,
+							"coordsMap": "Teldrassil",
+							"comment": "If the patrol happens to be nearby when you get to town accept their quest.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Syral Bladeleaf",
+							"npcId": 2083,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Denalan's Earth",
+									"questId": 997,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.8,
+							"yCoord": 57.25,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Athridas Bearmantle",
+							"npcId": 2078,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "A Troubling Breeze",
+									"questId": 475,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.53,
+							"yCoord": 56.92,
+							"coordsMap": "Teldrassil",
+							"comment": "Upstairs, upper floor. Don't learn first aids yet.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Tallonkai Swiftroot",
+							"npcId": 3567,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Twisted Hatred",
+									"questId": 932,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Emerald Dreamcatcher",
+									"questId": 2438,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.93,
+							"yCoord": 59.18,
+							"coordsMap": "Teldrassil",
+							"comment": "Jump down. Pull and kill the nearby owl. Sell junk while you are at it.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Jeena Featherbow",
+							"npcId": 3610,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Demons In Fel Rock",
+									"questId": 26180,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.67,
+							"yCoord": 59.78,
+							"coordsMap": "Teldrassil",
+							"comment": ">>>SET HEARTHSTONE<<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Innkeeper Keldamyr",
+							"npcId": 6736,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Dolanaar Delivery",
+									"questId": 2159,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.67,
+							"yCoord": 59.75,
+							"coordsMap": "Teldrassil",
+							"comment": "If you didn't reach level 6 in Shadowgleen talk to the trainer afterwards to learn Arcane shot",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"npcName": "Melarith",
+							"npcId": 6781,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Attack on the Gnarlpine",
+									"questId": 26176,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 56.19,
+							"yCoord": 61.64,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Corithras Moonrage",
+							"npcId": 3515,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Crown of the Earth",
+									"questId": 928,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Crown of the Earth",
+									"questId": 929,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.18,
+							"yCoord": 61.23,
+							"coordsMap": "Teldrassil",
+							"comment": "Learn cooking. Need spider legs x7 and eggs x9",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Zarrin",
+							"npcId": 6286,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Recipe of the Kaldorei",
+									"questId": 4161,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.67,
+							"yCoord": 60.65,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Malorne Bladeleaf",
+							"npcId": 3604,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Herbal Medicine",
+									"questId": 26182,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.99,
+							"yCoord": 63,
+							"coordsMap": "Teldrassil",
+							"comment": "Kill the owl behind the house and some nightsabers while running towards the lake.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.83,
+							"yCoord": 68.54,
+							"coordsMap": "Teldrassil",
+							"comment": "Wait out the roleplay when turning the quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Denalan",
+							"npcId": 2080,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Denalan's Earth",
+									"questId": 997,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Timberling Seeds",
+									"questId": 918,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Timberling Sprouts",
+									"questId": 919,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "All around the lake. Preferably the southern side of it. If dynamic spawns are on you won't have to go too far away.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Timberling Sprout",
+							"questId": 919,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 12,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Timberling Seed",
+							"questId": 918,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.88,
+							"yCoord": 68.53,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Denalan",
+							"npcId": 2080,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Timberling Sprouts",
+									"questId": 919,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Timberling Seeds",
+									"questId": 918,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Rellian Greenspyre",
+									"questId": 922,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.32,
+							"yCoord": 65.38,
+							"coordsMap": "Teldrassil",
+							"comment": "Climb up from here to get out of the lake",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				}
+			],
+			"nextSectionVal": 1,
+			"defaultForRace": 3
+		},
+		{
+			"sectionName": "Darkshore (12-20)",
+			"sectionSteps": [
+				{
+					"stepTasks": [
+						{
+							"comment": "Do something",
+							"depth": 0,
+							"subTasks": [],
+							"type": "Comment"
+						}
+					],
+					"onlyForClasses": []
+				}
+			],
+			"nextSectionVal": -1,
+			"defaultForRace": -1
+		}
+	]
+}
