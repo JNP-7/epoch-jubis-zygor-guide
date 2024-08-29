@@ -1,13 +1,17 @@
 27/08/2024:
 
-	1h: Creating repository
+	1h: Created repository to store these files
 	1.5h: Imported raw data from the WA's log and sorted quests in sections from levels 1 to 31
 
 28/08/2024:
 
 	1.5h: Sorted quests in sections from levels 31 to 46
 	
+29/08/2024:
+
+	1h: Sorted quests in sections from levels 46 to 60
+	
 ------------
 Total:
 
-	4h
+	5h
