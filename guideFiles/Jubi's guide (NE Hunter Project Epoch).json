@@ -1360,6 +1360,13 @@
 							"isCustom": false
 						},
 						{
+							"comment": "Learn herbalism here. Track herbs can be used to track some quest items.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"npcName": "Malorne Bladeleaf",
 							"npcId": 3604,
 							"depth": 0,
@@ -1371,7 +1378,7 @@
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
-									"isCustom": false
+									"isCustom": true
 								}
 							],
 							"isCustom": false
@@ -1539,6 +1546,55 @@
 					"onlyForClasses": []
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 66.05,
+							"yCoord": 60.11,
+							"coordsMap": "Teldrassil",
+							"comment": "Kill owls and spiders on the way for the satyr quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Look around to see if the rare is around, he paths into the house",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"coordsMap": "Teldrassil",
+							"xCoord": 67.98,
+							"yCoord": 59.6,
+							"comment": "Click the furniture inside the house",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Emerald Dreamcatcher",
+									"count": 1,
+									"questId": 2438,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -1551,10 +1607,17 @@
 							"yCoord": 58.53
 						},
 						{
+							"comment": "You can cheese the mobs by jumping up and down the ledges of the house",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gnarlpine Warrior",
-							"npcId": 2008,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Gaerolas Talvethren",
+							"npcId": 2107,
+							"depth": 0,
+							"type": "Talk to",
 							"subTasks": [
 								{
 									"depth": 1,
@@ -1563,42 +1626,125 @@
 									"questName": "A Troubling Breeze",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Gnarlpine Corruption",
+									"questId": 476,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 63.3,
+							"yCoord": 58.06,
 							"coordsMap": "Teldrassil",
+							"comment": "Fill the phial at the moonwell",
+							"itemId": 5619,
+							"itemName": "Jade Phial",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 66.12,
-							"yCoord": 58.26
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Uruson",
-							"npcId": 14428,
 							"subTasks": [
 								{
+									"itemName": "Filled Jade Phial",
+									"questId": 929,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 476,
-									"questName": "Gnarlpine Corruption",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Cats southwest of the moonwell. If missing lots of owls there are some extra on the road to Shadowgleen. Try to finish cooking quest",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Nightsaber Fang",
+									"questId": 488,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Nightsaber",
+											"npcId": 2042
+										}
+									],
+									"count": 3,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Strigid Owl Feather",
+									"questId": 488,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Strigid Owl",
+											"npcId": 1995
+										}
+									],
+									"count": 3,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Webwood Spider Silk",
+									"questId": 488,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [
+										{
+											"npcName": "Webwood Lurker",
+											"npcId": 1998
+										}
+									],
+									"count": 3,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Small Spider Leg",
+									"questId": 4161,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Webwood Lurker",
+											"npcId": 1998
+										}
+									],
+									"count": 7,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -1644,10 +1790,10 @@
 							"yCoord": 57.74
 						},
 						{
+							"npcName": "Syral Bladeleaf",
+							"npcId": 2083,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Strigid Owl",
-							"npcId": 1995,
+							"type": "Talk to",
 							"subTasks": [
 								{
 									"depth": 1,
@@ -1658,7 +1804,7 @@
 									"type": "Accept quest"
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -1718,6 +1864,14 @@
 									"questName": "The Emerald Dreamcatcher",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Ferocitas the Dream Eater",
+									"questId": 2459,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -1725,35 +1879,16 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Teldrassil",
+							"comment": "Repair/Buy arrows if needed at the inn and train level 8 skills if at that level",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 55.52,
-							"yCoord": 56.91
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tallonkai Swiftroot",
-							"npcId": 3567,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2459,
-									"questName": "Ferocitas the Dream Eater",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -1821,6 +1956,13 @@
 							"yCoord": 61.3
 						},
 						{
+							"comment": "Need to save some items to reach Cooking 15 for a quest in Darkshore. 14 small eggs, can be adquired in Darkshore later too.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"depth": 0,
 							"isCustom": false,
 							"npcName": "Zarrin",
@@ -1838,6 +1980,33 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.34,
+							"yCoord": 55.93,
+							"coordsMap": "Teldrassil",
+							"comment": "The are 3 Fel Cones here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Fel Cone",
+									"questId": 489,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 3,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -1860,6 +2029,74 @@
 							"type": "Turn in quest"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 68.41,
+							"yCoord": 53.86,
+							"coordsMap": "Teldrassil",
+							"comment": "The chest in this camp is not worth going for if the respawns are fast",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Gnarlpine Mystic",
+									"npcId": 7235,
+									"count": 7,
+									"questId": 2459,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Tallonkai's Jewel",
+									"questId": 2459,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Ferocitas the Dream Eater",
+											"npcId": 7234
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [
+										{
+											"comment": "The gem is inside the container that Ferocitas drops",
+											"itemId": 8049,
+											"itemName": "Gnarlpine Necklace",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.1,
+							"yCoord": 59.69,
+							"coordsMap": "Teldrassil",
+							"comment": "Die around this place to deathwarp to Dolanaar",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -1893,16 +2130,77 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 54.65,
+							"yCoord": 52.63,
+							"coordsMap": "Teldrassil",
+							"comment": "Look for the Satyr boss inside the cave. Path towards the lower level where the pond is. If he is in 1 of the 2 balconies, go through the first corridor the went north at the entrance of the cave.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Demon Essence",
+									"questId": 26180,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Shadow Sprite",
+											"npcId": 2003
+										},
+										{
+											"npcName": "Rascal Sprite",
+											"npcId": 2002
+										},
+										{
+											"npcName": "Dark Sprite",
+											"npcId": 2004
+										},
+										{
+											"npcName": "Vicious Grell",
+											"npcId": 2005
+										}
+									],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Melenas' Head",
+									"questId": 932,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Lord Melenas",
+											"npcId": 2038
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 52.8,
-							"yCoord": 56.72
+							"yCoord": 56.72,
+							"coordsMap": "Teldrassil",
+							"comment": "Look for the patrol and accept their quest if you haven't yet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -1912,7 +2210,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 487,
 									"questName": "The Road to Darnassus",
 									"subTasks": [],
@@ -1924,16 +2222,108 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 48.49,
+							"yCoord": 54.88,
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Gnarlpine Amulet",
+									"questId": 487,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Gnarlpine Ambusher",
+											"npcId": 2152
+										}
+									],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Gnarlpine Ambusher",
+									"npcId": 2152,
+									"count": 4,
+									"questId": 26176,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.44,
+							"yCoord": 60.45,
+							"coordsMap": "Teldrassil",
+							"comment": "The are exactly 4 shamans between the 2 camps",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Gnarlpine Warrior",
+									"npcId": 2008,
+									"count": 4,
+									"questId": 26176,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Gnarlpine Defender",
+									"npcId": 2010,
+									"count": 4,
+									"questId": 26176,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Gnarlpine Shaman",
+									"npcId": 2009,
+									"count": 4,
+									"questId": 26176,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 42.7,
-							"yCoord": 76.22
+							"yCoord": 76.22,
+							"coordsMap": "Teldrassil",
+							"comment": "Kill anything on your way pathing around the southern side of the mountain. Avoid the rare Owl if it's around. Interact with the tree to get the quest.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -1944,6 +2334,108 @@
 							"type": "Accept quest"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 42.4,
+							"yCoord": 67.12,
+							"coordsMap": "Teldrassil",
+							"comment": "Fill the phial at the moonwell",
+							"itemId": 5623,
+							"itemName": "Amethyst Phial",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Vial of Blessed Water",
+									"questId": 934,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 39.59,
+							"yCoord": 65.4,
+							"coordsMap": "Teldrassil",
+							"comment": "After looting the herbs, go further north to check if the rare spider is alive. If it's there you can't kill it.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Lily Whip",
+									"questId": 26182,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Grind furbolgs untill you are 4420XP away from level 10. If you are >5020XP away, grind until you are 5270XP away then.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"coordsMap": "Teldrassil",
+							"xCoord": 37.32,
+							"yCoord": 67.07,
+							"comment": "Die while near the mountains to death warp to Darnassus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.73,
+							"yCoord": 46.53,
+							"coordsMap": "Darnassus",
+							"comment": "Learn staves for 9s",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Ilyenia Moonfire",
+									"npcId": 11866,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -1970,37 +2462,14 @@
 									"questName": "Rellian Greenspyre",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.4,
-							"yCoord": 21.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Rellian Greenspyre",
-							"npcId": 3517,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 923,
 									"questName": "Tumors",
+									"questId": 923,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -2063,37 +2532,24 @@
 									"questName": "The Temple of the Moon",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.58,
-							"yCoord": 85.85
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Priestess A'moora",
-							"npcId": 7313,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2518,
 									"questName": "Tears of the Moon",
-									"subTasks": [],
-									"type": "Accept quest"
+									"questId": 2518,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "HS back to Dolanaar",
+											"itemId": 6948,
+											"itemName": "Hearthstone",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -2114,13 +2570,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Melarith",
 							"npcId": 6781,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26176,
 									"questName": "Attack on the Gnarlpine",
 									"subTasks": [],
@@ -2151,42 +2607,19 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26180,
 									"questName": "Demons In Fel Rock",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 55.91,
-							"yCoord": 59.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jeena Featherbow",
-							"npcId": 3610,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26181,
 									"questName": "Purifying the Essence",
+									"questId": 26181,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -2280,6 +2713,14 @@
 									"questName": "Crown of the Earth",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Crown of the Earth",
+									"questId": 7383,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -2290,30 +2731,25 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Teldrassil",
+							"comment": "Purify the demon essence in the moonwell",
+							"itemId": 600061,
+							"itemName": "Demon Essence",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 56.06,
-							"yCoord": 61.69
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Corithras Moonrage",
-							"npcId": 3515,
+							"type": "Comment",
 							"subTasks": [
 								{
+									"itemName": "Purified Essence",
+									"count": 1,
+									"questId": 0,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
 									"depth": 1,
-									"isCustom": false,
-									"questId": 7383,
-									"questName": "Crown of the Earth",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
 					]
 				},
@@ -2349,6 +2785,44 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": "Only do this if you grinded to 5270XP instead of 4420XP because you were too short on XP",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"coordsMap": "Teldrassil",
+							"xCoord": 60.85,
+							"yCoord": 68.52,
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Denalan",
+							"npcId": 2080,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Glowing Fruit",
+									"questId": 930,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -2368,40 +2842,9 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26181,
 									"questName": "Purifying the Essence",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.85,
-							"yCoord": 68.52
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Denalan",
-							"npcId": 2080,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 930,
-									"questName": "The Glowing Fruit",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -2423,6 +2866,13 @@
 							"yCoord": 59.6
 						},
 						{
+							"comment": "Train level 10 skills",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"depth": 0,
 							"isCustom": false,
 							"npcName": "Dazalar",
@@ -2440,6 +2890,35 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.06,
+							"yCoord": 60.03,
+							"coordsMap": "Teldrassil",
+							"comment": "Tame a spider",
+							"itemId": 15921,
+							"itemName": "Taming Rod",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Tame a Webwood Lurker",
+									"questId": 6063,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"comment": "If you cant abandon the spider after taming it, log out inside the inn even of you are in combat. Same thing for the 2 following quests",
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -2466,6 +2945,14 @@
 									"questName": "Taming the Beast",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Taming the Beast",
+									"questId": 6101,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -2473,35 +2960,32 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 56.3,
+							"yCoord": 71.75,
 							"coordsMap": "Teldrassil",
+							"comment": "Tame a cat",
+							"itemId": 15922,
+							"itemName": "Taming Rod",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 56.73,
-							"yCoord": 59.5
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Dazalar",
-							"npcId": 3601,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"goalName": "Tame a Nightsaber Stalker",
 									"questId": 6101,
-									"questName": "Taming the Beast",
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -2528,6 +3012,14 @@
 									"questName": "Taming the Beast",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Taming the Beast",
+									"questId": 6102,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -2535,35 +3027,33 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 57.39,
+							"yCoord": 74.65,
 							"coordsMap": "Teldrassil",
+							"comment": "Tame an owl",
+							"itemId": 15923,
+							"itemName": "Taming Rod",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 56.67,
-							"yCoord": 59.59
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Dazalar",
-							"npcId": 3601,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"goalName": "Tame a Strigid Screecher",
 									"questId": 6102,
-									"questName": "Taming the Beast",
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"comment": "Consider deathwarping in the neares furbolg camp, it also may have a chest",
+									"depth": 1,
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -2590,37 +3080,14 @@
 									"questName": "Taming the Beast",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 56.64,
-							"yCoord": 59.53
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Dazalar",
-							"npcId": 3601,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6103,
 									"questName": "Training the Beast",
+									"questId": 6103,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -2628,26 +3095,153 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 55.92,
+							"yCoord": 59.23,
 							"coordsMap": "Teldrassil",
+							"comment": "You can buy level 10 arrows now, a quiver with some extra slots and the level 11 bow if you have spare money. Fill the quiver and buy the bow later if you still don't have the money.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 43.57,
-							"yCoord": 32.09
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "Tame an Owl near Dolanaar",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 927,
-							"questName": "The Moss-twined Heart",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "Keep your pet alive!!!! You can use it and it wont run away, but if it dies you can't rez it until getting to Darnassus, making the next quests much more harder.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 48.9,
+							"yCoord": 48.66,
+							"coordsMap": "Teldrassil",
+							"comment": "Ride the cart if it's nearby. Check/bind your keybind to get out of a vehicle or type <slash>leavevehicle once you arrive to the spot close to the pass through the mountains.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 49.57,
+							"yCoord": 45.1,
+							"coordsMap": "Teldrassil",
+							"comment": "Go into the mountains and try to <slash>target Corrupted Treant. Kill it if it's inside the cave and then drop down.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"xCoord": 45.62,
+							"yCoord": 42.39,
+							"coordsMap": "Teldrassil",
+							"comment": "Type <slash>target Lord to check if the rare spider is around. If so kill it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 43.07,
+							"yCoord": 42.99,
+							"coordsMap": "Teldrassil",
+							"comment": "Kill the tramplers for the tumors while running down the river",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Mossy Tumor",
+									"questId": 923,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"xCoord": 43.07,
+									"yCoord": 42.99,
+									"coordsMap": "Teldrassil",
+									"comment": "Check if Blackmoss is around and kill it if so (kite backwards and keep agro). Don't need to accept the quest yet if you kill it.",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 47.11,
+							"yCoord": 26.46,
+							"coordsMap": "Teldrassil",
+							"comment": "If the spider is not there check [41,25] afterwards",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Silvery Spinnerets",
+									"questId": 2518,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Lady Sathrah",
+											"npcId": 7319
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.83,
+							"yCoord": 25.65,
+							"coordsMap": "Teldrassil",
+							"comment": "Check for the Corrupted Treant here if you didn't kill it before",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -2668,6 +3262,13 @@
 							"questName": "The Shimmering Frond",
 							"subTasks": [],
 							"type": "Accept quest"
+						},
+						{
+							"comment": "Don't bother with the chests around here and be careful about the Matriarch, they hit like a truck and heal.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -2722,7 +3323,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26178,
 									"questName": "Bloodfeather Eggs",
 									"subTasks": [],
@@ -2732,6 +3333,45 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.42,
+							"yCoord": 34.11,
+							"coordsMap": "Teldrassil",
+							"comment": "Fill the vial in the moonwell",
+							"itemId": 18152,
+							"itemName": "Amethyst Phial",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Filled Amethyst Phial",
+									"questId": 7383,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "Lead Mist to the Sentinel near the moonwell",
+									"questId": 938,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -2758,6 +3398,14 @@
 									"questName": "The Enchanted Glade",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Mist",
+									"questId": 938,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -2765,35 +3413,55 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 35.26,
+							"yCoord": 35.32,
 							"coordsMap": "Teldrassil",
+							"comment": "There is a roaming rare here (white harpy), keep an eye out.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 38.24,
-							"yCoord": 34.43
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sentinel Arynia Cloudsbreak",
-							"npcId": 3519,
 							"subTasks": [
 								{
+									"itemName": "Bloodfeather Belt",
+									"questId": 937,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Bloodfeather Rogue",
+											"npcId": 2017
+										},
+										{
+											"npcName": "Bloodfeather Harpy",
+											"npcId": 2015
+										},
+										{
+											"npcName": "Bloodfeather Sorceress",
+											"npcId": 2018
+										}
+									],
+									"count": 6,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 938,
-									"questName": "Mist",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
+								},
+								{
+									"itemName": "Bloodfeather Egg",
+									"questId": 26178,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 6,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -2815,7 +3483,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26178,
 									"questName": "Bloodfeather Eggs",
 									"subTasks": [],
@@ -2851,6 +3519,14 @@
 									"questName": "The Enchanted Glade",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Teldrassil",
+									"questId": 940,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -2858,35 +3534,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 35.05,
+							"yCoord": 39.34,
 							"coordsMap": "Teldrassil",
+							"comment": "Die near the mountains to deathwarp to Darnassus",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 38.3,
-							"yCoord": 34.42
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sentinel Arynia Cloudsbreak",
-							"npcId": 3519,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 940,
-									"questName": "Teldrassil",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -2959,28 +3619,6 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 40.26,
-							"yCoord": 8.93
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 6103,
-							"questName": "Training the Beast",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 40.34,
 							"yCoord": 8.73
 						},
@@ -2991,12 +3629,27 @@
 							"npcId": 4146,
 							"subTasks": [
 								{
+									"questName": "Training the Beast",
+									"questId": 6103,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 6071,
-									"questName": "The Hunter's Path",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"comment": "Being able to accept this quest is a bug",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Hunter's Path",
+									"questId": 6071,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -3028,6 +3681,14 @@
 									"questName": "Tears of the Moon",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Sathrah's Sacrifice",
+									"questId": 2520,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -3035,26 +3696,29 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darnassus",
+							"comment": "Drop down into the temple's moonwell",
+							"itemId": 8155,
+							"itemName": "Sathrah's Sacrifice",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.66,
-							"yCoord": 86.01
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 2520,
-							"questName": "Sathrah's Sacrifice",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Comment",
+							"subTasks": [
+								{
+									"goalName": "Offer the sacrifice at the fountain",
+									"questId": 2520,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -3088,6 +3752,45 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 65.13,
+							"yCoord": 68.53,
+							"coordsMap": "Darnassus",
+							"comment": "Buy a stack of meat for your owl and feed it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Jaeana",
+									"npcId": 4169,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 86.53,
+							"yCoord": 35.53,
+							"coordsMap": "Darnassus",
+							"comment": "Ride the cart to Dolanaar if it is around.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -3098,6 +3801,13 @@
 							"type": "Go to",
 							"xCoord": 56.69,
 							"yCoord": 59.53
+						},
+						{
+							"comment": "Buy the level 11 bow if you couldn't before and restock arrows",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -3112,6 +3822,13 @@
 									"questName": "The Hunter's Path",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"comment": "Only if it was bugged and you could accept it",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -3143,37 +3860,14 @@
 									"questName": "Crown of the Earth",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 56.19,
-							"yCoord": 61.65
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Corithras Moonrage",
-							"npcId": 3515,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 935,
 									"questName": "Crown of the Earth",
+									"questId": 935,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -3205,68 +3899,63 @@
 									"questName": "Return to Denalan",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.87,
-							"yCoord": 68.52
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Denalan",
-							"npcId": 2080,
-							"subTasks": [
+								},
 								{
+									"questName": "The Glowing Fruit",
+									"questId": 930,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 2499,
-									"questName": "Oakenscowl",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.87,
-							"yCoord": 68.52
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Denalan",
-							"npcId": 2080,
-							"subTasks": [
+									"type": "Turn in quest",
+									"subTasks": [
+										{
+											"comment": "Only if you hand't before because you were short on XP for level 10",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 931,
 									"questName": "The Shimmering Frond",
+									"questId": 931,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
+								},
+								{
+									"questName": "The Moss-twined Heart",
+									"questId": 927,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [
+										{
+											"questName": "Planting the Heart",
+											"questId": 941,
+											"depth": 2,
+											"type": "Accept quest",
+											"subTasks": [],
+											"isCustom": false
+										},
+										{
+											"questName": "Planting the Heart",
+											"questId": 941,
+											"depth": 2,
+											"type": "Turn in quest",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"questName": "Oakenscowl",
+									"questId": 2499,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -3318,97 +4007,30 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 53.04,
+							"yCoord": 74.53,
 							"coordsMap": "Teldrassil",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 60.83,
-							"yCoord": 68.5
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Denalan",
-							"npcId": 2080,
 							"subTasks": [
 								{
+									"itemName": "Gargantuan Tumor",
+									"questId": 2499,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 927,
-									"questName": "The Moss-twined Heart",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.84,
-							"yCoord": 68.46
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Denalan",
-							"npcId": 2080,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 941,
-									"questName": "Planting the Heart",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.82,
-							"yCoord": 68.5
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Denalan",
-							"npcId": 2080,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 941,
-									"questName": "Planting the Heart",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -3440,6 +4062,21 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 56.21,
+							"yCoord": 57.84,
+							"coordsMap": "Teldrassil",
+							"comment": "Buy level 12 spells if you leveled up. Check if the cart is around to ride it to Darnassus. Otherwise, do some cardio.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -3488,68 +4125,22 @@
 									"questName": "Teldrassil",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 34.74,
-							"yCoord": 9.04
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Arch Druid Fandral Staghelm",
-							"npcId": 3516,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 952,
 									"questName": "Grove of the Ancients",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 34.74,
-							"yCoord": 9.04
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Arch Druid Fandral Staghelm",
-							"npcId": 3516,
-							"subTasks": [
-								{
+									"questId": 952,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 935,
-									"questName": "Crown of the Earth",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Crown of the Earth",
+									"questId": 935,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -3581,37 +4172,14 @@
 									"questName": "Nessa Shadowsong",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 56.3,
-							"yCoord": 92.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Nessa Shadowsong",
-							"npcId": 10118,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6341,
 									"questName": "The Bounty of Teldrassil",
+									"questId": 6341,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -3643,6 +4211,14 @@
 									"questName": "The Bounty of Teldrassil",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Flight to Auberdine",
+									"questId": 6342,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -3650,35 +4226,16 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Teldrassil",
+							"comment": "Fly to Darkshore",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 58.4,
-							"yCoord": 94.01
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Vesprystus",
-							"npcId": 3838,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6342,
-									"questName": "Flight to Auberdine",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 1,
