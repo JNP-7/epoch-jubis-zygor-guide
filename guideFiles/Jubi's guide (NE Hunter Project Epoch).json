@@ -4251,12 +4251,21 @@
 							"yCoord": 45.56
 						},
 						{
+							"npcName": "Gwennyth Bly'Leggonde",
+							"npcId": 10219,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 3524,
-							"questName": "Washed Ashore",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Washed Ashore",
+									"questId": 3524,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -4285,6 +4294,14 @@
 									"questName": "Flight to Auberdine",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Return to Nessa",
+									"questId": 6343,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -4292,35 +4309,27 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 36.99,
+							"yCoord": 44.17,
 							"coordsMap": "Darkshore",
+							"comment": ">>> Set Hearthstone <<",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 36.82,
-							"yCoord": 44.31
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Innkeeper Shaussiy",
+							"npcId": 6737,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Laird",
-							"npcId": 4200,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6343,
-									"questName": "Return to Nessa",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Talk to",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -4362,16 +4371,25 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 37.75,
-							"yCoord": 43.44
+							"xCoord": 37.39,
+							"yCoord": 43.65
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"questId": 4811,
-							"questName": "The Red Crystal",
-							"subTasks": [],
-							"type": "Accept quest"
+							"npcName": "Barithras Moonshade",
+							"npcId": 3583,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 947,
+									"questName": "Cave Mushrooms",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
 						}
 					]
 				},
@@ -4395,11 +4413,19 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26199,
 									"questName": "Balancing the Forest",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "The Red Crystal",
+									"questId": 4811,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -4460,16 +4486,140 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 38.8,
+							"yCoord": 44.92,
+							"coordsMap": "Darkshore",
+							"comment": "Run through the slope beside the road and then to the beach",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 36.81,
+							"yCoord": 50.32,
+							"coordsMap": "Darkshore",
+							"comment": "Interact with the sea creature",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Sea Creature Bones",
+									"questId": 3524,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.12,
+							"yCoord": 52.45,
+							"coordsMap": "Darkshore",
+							"comment": "Trap the rabid bear",
+							"itemId": 7586,
+							"itemName": "Tharnariun's Hope",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Rabid Thistle Bear Captured",
+									"questId": 2118,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 39.17,
+							"yCoord": 52.68,
+							"coordsMap": "Darkshore",
+							"comment": "Explore the furbolg camp",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "\tFind a corrupt furbolg camp",
+									"questId": 984,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 0,
+							"yCoord": 0,
+							"coordsMap": "Current map",
+							"comment": "Kill crabs for the box's quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Crawler Leg",
+									"questId": 983,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Pygmy Tide Crawler",
+											"npcId": 2231
+										}
+									],
+									"count": 6,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 36.64,
-							"yCoord": 46.3
+							"yCoord": 46.3,
+							"coordsMap": "Darkshore",
+							"comment": "Interact with the box",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -4478,28 +4628,14 @@
 							"questName": "Buzzbox 827",
 							"subTasks": [],
 							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.64,
-							"yCoord": 46.3
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 1001,
 							"questName": "Buzzbox 411",
+							"questId": 1001,
+							"depth": 0,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
 					]
 				},
@@ -4528,68 +4664,14 @@
 									"questName": "Washed Ashore",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.61,
-							"yCoord": 45.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gwennyth Bly'Leggonde",
-							"npcId": 10219,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4681,
 									"questName": "Washed Ashore",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.39,
-							"yCoord": 43.65
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Barithras Moonshade",
-							"npcId": 3583,
-							"subTasks": [
-								{
+									"questId": 4681,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 947,
-									"questName": "Cave Mushrooms",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -4641,13 +4723,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Lucina Nightbow",
 							"npcId": 45118,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26202,
 									"questName": "Welcome to Auberdine",
 									"subTasks": [],
@@ -4657,6 +4739,65 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 33.59,
+							"yCoord": 42.22,
+							"coordsMap": "Darkshore",
+							"comment": "Run through the docks and then jump down. Track beasts on",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Thresher Eye",
+									"questId": 1001,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Darkshore Thresher",
+											"npcId": 2185
+										}
+									],
+									"count": 3,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 31.87,
+							"yCoord": 46.25,
+							"coordsMap": "Darkshore",
+							"comment": "Interact with the turtle's skull",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Sea Turtle Remains",
+									"questId": 4681,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -4714,62 +4855,17 @@
 									"questName": "Plagued Lands",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.83,
-							"yCoord": 43.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tharnariun Treetender",
-							"npcId": 3701,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2138,
 									"questName": "Cleansing of the Infected",
+									"questId": 2138,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 39.34,
-							"yCoord": 43.45
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 984,
-							"questName": "How Big a Threat?",
-							"subTasks": [],
-							"type": "Turn in quest"
 						}
 					]
 				},
@@ -4814,12 +4910,28 @@
 							"npcId": 3693,
 							"subTasks": [
 								{
+									"questName": "How Big a Threat?",
+									"questId": 984,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 4761,
-									"questName": "Thundris Windweaver",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "How Big a Threat?",
+									"questId": 985,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Thundris Windweaver",
+									"questId": 4761,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -4858,6 +4970,21 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"coordsMap": "Darkshore",
+							"xCoord": 37.57,
+							"yCoord": 41.72,
+							"comment": "Buy x10 Mild spices from the dwarf and cook 9 eggs if you have them. If you don't or the striders' quest is not unlocked it means you need 5 eggs more (cooking 15)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -4871,13 +4998,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Quartermaster Nyana",
 							"npcId": 45119,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26202,
 									"questName": "Welcome to Auberdine",
 									"subTasks": [],
@@ -4892,13 +5019,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 37.69,
-							"yCoord": 40.73
+							"yCoord": 40.73,
+							"coordsMap": "Darkshore",
+							"comment": "If it isn't unlocked you need cooking 10 (maybe 15)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -4918,6 +5046,30 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.49,
+							"yCoord": 40.53,
+							"coordsMap": "Darkshore",
+							"comment": "Buy 6 slot bags for every bag slot you are missing. Fill quiver with arrows and some extra just in case.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Dalmond",
+									"npcId": 4182,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -4944,68 +5096,30 @@
 									"questName": "Thundris Windweaver",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.43,
-							"yCoord": 40.19
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Thundris Windweaver",
-							"npcId": 3649,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4762,
 									"questName": "The Cliffspring River",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.42,
-							"yCoord": 40.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Thundris Windweaver",
-							"npcId": 3649,
-							"subTasks": [
-								{
+									"questId": 4762,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 958,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Tools of the Highborne",
+									"questId": 958,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Bashal'Aran",
+									"questId": 954,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -5016,44 +5130,24 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 37.1,
+							"yCoord": 38.74,
 							"coordsMap": "Darkshore",
+							"comment": "Jump off the house to the shore in front",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 37.42,
-							"yCoord": 40.18
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Thundris Windweaver",
-							"npcId": 3649,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 954,
-									"questName": "Bashal'Aran",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
 							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 44.21,
-							"yCoord": 36.33
+							"yCoord": 36.33,
+							"comment": "Grind while on the way, prio Striders",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -5068,6 +5162,14 @@
 									"questName": "Bashal'Aran",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Bashal'Aran",
+									"questId": 955,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -5075,35 +5177,36 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
+							"comment": "Clear the grells to the south. When you are done pull the satyr thats close to the quest giver in the north side of the ruins. Turn in and accept the quests and then finish it off to instantly finish it.",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.21,
-							"yCoord": 36.33
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Asterion",
-							"npcId": 3650,
-							"subTasks": [
+							"itemName": "Grell Earring",
+							"count": 8,
+							"questId": 955,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 955,
-									"questName": "Bashal'Aran",
-									"subTasks": [],
-									"type": "Accept quest"
+									"npcName": "Vile Sprite",
+									"npcId": 2189
+								},
+								{
+									"npcName": "Wild Grell",
+									"npcId": 2190
 								}
 							],
-							"type": "Talk to"
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -5130,6 +5233,14 @@
 									"questName": "Bashal'Aran",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Bashal'Aran",
+									"questId": 956,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -5137,26 +5248,25 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.21,
-							"yCoord": 36.31
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
+							"itemName": "Ancient Moonstone Seal",
 							"questId": 956,
-							"questName": "Bashal'Aran",
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Deth'ryll Satyr",
+									"npcId": 2212
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -5183,6 +5293,14 @@
 									"questName": "Bashal'Aran",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Bashal'Aran",
+									"questId": 957,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -5190,35 +5308,75 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 47.25,
+							"yCoord": 48.73,
 							"coordsMap": "Darkshore",
+							"comment": "Grind south to the crystal. Get as many strider meat as you can.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 44.21,
-							"yCoord": 36.34
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Asterion",
-							"npcId": 3650,
 							"subTasks": [
 								{
+									"goalName": "Locate the red crystal",
+									"questId": 4811,
+									"questObjectiveIndex": 1,
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 957,
-									"questName": "Bashal'Aran",
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 43.53,
+							"yCoord": 49.92,
+							"coordsMap": "Darkshore",
+							"comment": "Move here and kill both types of moonkins. There are 2 young ones here and you can finish them in the cave north, which has 5",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Young Moonkin",
+									"npcId": 10159,
+									"count": 5,
+									"questId": 26199,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Moonkin",
+									"npcId": 10158,
+									"count": 10,
+									"questId": 26199,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Save any eggs you might need to reach a higher level of cooking",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -5271,71 +5429,302 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26199,
 									"questName": "Balancing the Forest",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.68,
-							"yCoord": 43.46
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sentinel Glynda Nal'Shea",
-							"npcId": 2930,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26200,
-									"questName": "Balancing the Forest",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.68,
-							"yCoord": 43.46
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sentinel Glynda Nal'Shea",
-							"npcId": 2930,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4811,
 									"questName": "The Red Crystal",
+									"questId": 4811,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Balancing the Forest",
+									"questId": 26200,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "As Water Cascades",
+									"questId": 4812,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Sell junk at the vendor inside the inn",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 37.81,
+							"yCoord": 44.05,
+							"coordsMap": "Darkshore",
+							"comment": ">>> Fill the water tube <<<",
+							"itemId": 14338,
+							"itemName": "Empty Water Tube",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Moonwell Water Tube",
+									"questId": 4812,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 46.25,
+							"yCoord": 45.52,
+							"coordsMap": "Darkshore",
+							"comment": "Go here first to kill the first Oracle there are only 3, and you need all of them for the quest. The others are on caves to the south past the crystal",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Moonkin Oracle",
+									"npcId": 10157,
+									"count": 3,
+									"questId": 26200,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Raging Moonkin",
+									"npcId": 10160,
+									"count": 10,
+									"questId": 26200,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"coordsMap": "Darkshore",
+							"xCoord": 47.27,
+							"yCoord": 48.71,
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "As Water Cascades",
+									"questId": 4812,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Fragments Within",
+									"questId": 4813,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 40.29,
+							"yCoord": 59.81,
+							"coordsMap": "Darkshore",
+							"comment": "Grind south to the sentinel. Don't worry much about strider meat.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Sentinel Tysha Moonblade",
+							"npcId": 3639,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Fall of Ameth'Aran",
+									"questId": 953,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 42.32,
+							"yCoord": 61.81,
+							"coordsMap": "Darkshore",
+							"comment": "Burn the seal",
+							"itemId": 5338,
+							"itemName": "Ancient Moonstone Seal",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Destroy the seal at the ancient flame",
+									"questId": 957,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"itemName": "Highborne Relic",
+							"count": 7,
+							"questId": 958,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Wailing Highborne",
+									"npcId": 2178
+								},
+								{
+									"npcName": "Writhing Highborne",
+									"npcId": 2177
+								}
+							],
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Anaya's Pendant",
+							"questId": 963,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Anaya Dawnrunner",
+									"npcId": 3667
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 42.65,
+							"yCoord": 63.1,
+							"coordsMap": "Darkshore",
+							"comment": "Interact with the tablet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Read the Fall of Ameth'Aran",
+									"questId": 953,
+									"questObjectiveIndex": 2,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 43.31,
+							"yCoord": 58.73,
+							"coordsMap": "Darkshore",
+							"comment": "Interact with the other tablet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Read the Lay of Ameth'Aran",
+									"questId": 953,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Darkshore",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 40.27,
+							"yCoord": 59.77
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Sentinel Tysha Moonblade",
+							"npcId": 3639,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 953,
+									"questName": "The Fall of Ameth'Aran",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -5345,6 +5734,93 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 39.01,
+							"yCoord": 56.57,
+							"coordsMap": "Darkshore",
+							"comment": "Use any temporary consumable buff or guardian thaat you have. You are grinding these for a while",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Blackwood Pathfinder",
+									"npcId": 2167,
+									"count": 8,
+									"questId": 985,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Blackwood Windtalker",
+									"npcId": 2324,
+									"count": 5,
+									"questId": 985,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "You have a vendor at [36,56]. Also, there is a rare for some easy silver at [35,55]",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Grind the furbolgs until you are level 15 and a half (around 4 full clears). Sell junk aafter every round at the vendor and kill bears + striders if you need to wait out respawns.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "You NEED to do this for 2 reasons. 1 is to make sure you reach Ashenvale at level 20. The other is that you are short on linen to level first aids.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 37.18,
+							"yCoord": 62.26,
+							"coordsMap": "Darkshore",
+							"comment": "While going south make sure you have at least 5 strider meat and finish killing the rabid bears",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"questId": 4722,
+							"questName": "Beached Sea Turtle",
+							"subTasks": [],
+							"type": "Accept quest"
+						}
+					]
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -5353,27 +5829,63 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 37.7,
-							"yCoord": 43.47
+							"xCoord": 36.13,
+							"yCoord": 70.94
+						},
+						{
+							"questName": "Beached Sea Creature",
+							"questId": 4728,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Darkshore",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 43.58,
+							"yCoord": 76.32
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Sentinel Glynda Nal'Shea",
-							"npcId": 2930,
+							"npcName": "Onu",
+							"npcId": 3616,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 4812,
-									"questName": "As Water Cascades",
+									"questId": 952,
+									"questName": "Grove of the Ancients",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Hearth back to Auberdine. Make sure you have 5 strider meat!!!",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -5431,187 +5943,6 @@
 									"questName": "The Twilight's Hammer",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 47.27,
-							"yCoord": 48.71
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 4812,
-							"questName": "As Water Cascades",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 47.27,
-							"yCoord": 48.71
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 4813,
-							"questName": "The Fragments Within",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 40.29,
-							"yCoord": 59.81
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 953,
-							"questName": "The Fall of Ameth'Aran",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 40.27,
-							"yCoord": 59.77
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sentinel Tysha Moonblade",
-							"npcId": 3639,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 953,
-									"questName": "The Fall of Ameth'Aran",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.18,
-							"yCoord": 62.26
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 4722,
-							"questName": "Beached Sea Turtle",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.13,
-							"yCoord": 70.94
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Greymist Netter",
-							"npcId": 2204,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4728,
-									"questName": "Beached Sea Creature",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 43.58,
-							"yCoord": 76.32
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Onu",
-							"npcId": 3616,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 952,
-									"questName": "Grove of the Ancients",
-									"subTasks": [],
-									"type": "Turn in quest"
 								}
 							],
 							"type": "Talk to"
