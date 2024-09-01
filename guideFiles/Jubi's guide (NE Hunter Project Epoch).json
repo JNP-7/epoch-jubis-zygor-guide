@@ -59,7 +59,7 @@
 							"npcId": 1984,
 							"count": 4,
 							"questId": 456,
-							"questObjectiveIndex": 1,
+							"questObjectiveIndex": 2,
 							"depth": 0,
 							"type": "Kill",
 							"subTasks": []
@@ -218,7 +218,7 @@
 									"npcId": 1985,
 									"count": 5,
 									"questId": 457,
-									"questObjectiveIndex": 1,
+									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": []
@@ -1922,31 +1922,17 @@
 									"questName": "Crown of the Earth",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questId": 933,
+									"questName": "Crown of the Earth",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 56.5,
-							"yCoord": 61.54
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 933,
-							"questName": "Crown of the Earth",
-							"subTasks": [],
-							"type": "Accept quest"
 						}
 					]
 				},
@@ -2296,7 +2282,7 @@
 									"npcId": 2010,
 									"count": 4,
 									"questId": 26176,
-									"questObjectiveIndex": 2,
+									"questObjectiveIndex": 3,
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": [],
@@ -2307,7 +2293,7 @@
 									"npcId": 2009,
 									"count": 4,
 									"questId": 26176,
-									"questObjectiveIndex": 2,
+									"questObjectiveIndex": 4,
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": [],
