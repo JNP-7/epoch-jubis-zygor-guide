@@ -2349,14 +2349,14 @@
 							"yCoord": 67.12,
 							"coordsMap": "Teldrassil",
 							"comment": "Fill the phial at the moonwell",
-							"itemId": 5623,
-							"itemName": "Amethyst Phial",
+							"itemId": 5621,
+							"itemName": "Tourmaline Phial",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
 								{
-									"itemName": "Vial of Blessed Water",
-									"questId": 934,
+									"itemName": "Filled Tourmaline Phial",
+									"questId": 933,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
