@@ -7164,37 +7164,22 @@
 									"questName": "Onu",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 43.55,
-							"yCoord": 76.31
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Onu",
-							"npcId": 3616,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 944,
 									"questName": "The Master's Glaive",
+									"questId": 944,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Onu is meditating",
+									"questId": 960,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -7202,47 +7187,75 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 36.85,
+							"yCoord": 76.64,
 							"coordsMap": "Darkshore",
+							"comment": "Kill Moonstalkers and bears on your way to the Murloc camp.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 43.56,
-							"yCoord": 76.31
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "Once you get there, kill all the murlocs to start the event. The first wave takes a while",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Onu",
-							"npcId": 3616,
+							"type": "Comment",
 							"subTasks": [
 								{
+									"npcName": "Murkdeep",
+									"npcId": 10323,
+									"count": 1,
+									"questId": 4740,
+									"questObjectiveIndex": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 960,
-									"questName": "Onu is meditating",
+									"type": "Kill",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 39.55,
+							"yCoord": 84.15,
+							"coordsMap": "Darkshore",
+							"comment": "Keep killing bears and moonstalkers on the way to Master's glaive",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "There are not enough spawns of Twilight Disciples to finish the custom quest!!! You will have to wait for respawns regardless",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 38.59,
-							"yCoord": 86.25
+							"yCoord": 86.25,
+							"coordsMap": "Darkshore",
+							"comment": "Summon the scrying bowl",
+							"itemId": 5251,
+							"itemName": "Phial of Scrying",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -7251,28 +7264,14 @@
 							"questName": "The Master's Glaive",
 							"subTasks": [],
 							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.59,
-							"yCoord": 86.25
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 949,
 							"questName": "The Twilight Camp",
+							"questId": 949,
+							"depth": 0,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
 					]
 				},
@@ -7280,13 +7279,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 38.58,
-							"yCoord": 86.12
+							"yCoord": 86.12,
+							"coordsMap": "Darkshore",
+							"comment": "Interact with the book",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -7295,28 +7295,14 @@
 							"questName": "The Twilight Camp",
 							"subTasks": [],
 							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.58,
-							"yCoord": 86.12
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 950,
 							"questName": "Return to Onu",
+							"questId": 950,
+							"depth": 0,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
 					]
 				},
@@ -7352,16 +7338,58 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"goalName": "Escort Therylune",
+							"questId": 945,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Twilight Disciple",
+							"npcId": 2338,
+							"count": 8,
+							"questId": 26201,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"npcName": "Twilight Thug",
+							"npcId": 2339,
+							"count": 8,
+							"questId": 26201,
+							"questObjectiveIndex": 2,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"comment": ">>> Wait for the disciples to spawn to finish this <<<",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
+							"comment": "You can abandon this and accept it again when you reach Ironforge",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 39.23,
-							"yCoord": 87.38
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -7372,6 +7400,37 @@
 							"type": "Accept quest"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 41.35,
+							"yCoord": 80.65,
+							"coordsMap": "Darkshore",
+							"comment": "Keep working on Moonstalkers. Bears should be done already",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Grizzled Scalp",
+							"questId": 1003,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Grizzled Thistle Bear",
+									"npcId": 2165
+								}
+							],
+							"count": 4,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -7399,13 +7458,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 43.57,
-							"yCoord": 76.37
+							"yCoord": 76.37,
+							"coordsMap": "Darkshore",
+							"comment": "If you are very low on Moonstalker pelts you can go kill some around the lake in [42,81]",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -7420,6 +7480,14 @@
 									"questName": "Return to Onu",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Mathystra Relics",
+									"questId": 951,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -7430,44 +7498,30 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 35.77,
+							"yCoord": 83.73,
 							"coordsMap": "Darkshore",
+							"comment": "Finish Moonstalkers on the way if not done yet",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 43.57,
-							"yCoord": 76.37
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Onu",
-							"npcId": 3616,
-							"subTasks": [
+							"itemName": "Fine Moonstalker Pelt",
+							"questId": 986,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 951,
-									"questName": "Mathystra Relics",
-									"subTasks": [],
-									"type": "Accept quest"
+									"npcName": "Moonstalker Sire",
+									"npcId": 2237
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
+							"count": 5,
 							"depth": 0,
-							"isCustom": false,
+							"type": "Get",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.77,
-							"yCoord": 83.73
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -7482,6 +7536,14 @@
 									"questName": "The Absent Minded Prospector",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Absent Minded Prospector",
+									"questId": 731,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -7489,35 +7551,55 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
+							"comment": "There is no point in pre-clearing since you will get respawns on the way out (or worse, during the last fight)",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.75,
-							"yCoord": 83.74
+							"isCustom": false
 						},
 						{
+							"comment": "As long as you pull the Behemoths and the dwarf is in combat the quest won't progress, so just kill everything before he reaches the end of the excavation site",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Prospector Remtravel",
-							"npcId": 2917,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 731,
-									"questName": "The Absent Minded Prospector",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "The final fight happens when the dwarf gets close to the stairs on the south. To the right of those stairs 3 mobs will spawn. Kill the caster as fast as you can and keep an eye on the dwarf's health to see if he is getting attacked.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"goalName": "\tEscort Prospector Remtravel",
+							"questId": 731,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 34.82,
+							"yCoord": 80.55,
+							"coordsMap": "Darkshore",
+							"comment": "A rare crab can spawn here, decent green boots",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -7576,21 +7658,12 @@
 							"yCoord": 85.52
 						},
 						{
+							"questName": "Beached Sea Turtle",
+							"questId": 4732,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Owlsen",
-							"npcId": 347,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4732,
-									"questName": "Beached Sea Turtle",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -7617,97 +7690,18 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
+							"comment": "Hearthstone back to Auberdine after getting all 4 sea creatures",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.58,
-							"yCoord": 45.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gwennyth Bly'Leggonde",
-							"npcId": 10219,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4733,
-									"questName": "Beached Sea Creature",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.58,
-							"yCoord": 45.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gwennyth Bly'Leggonde",
-							"npcId": 10219,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4732,
-									"questName": "Beached Sea Turtle",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.58,
-							"yCoord": 45.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gwennyth Bly'Leggonde",
-							"npcId": 10219,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4732,
-									"questName": "Beached Sea Turtle",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -7734,6 +7728,30 @@
 									"questName": "Beached Sea Creature",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Beached Sea Turtle",
+									"questId": 4732,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Beached Sea Turtle",
+									"questId": 4732,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Beached Sea Creature",
+									"questId": 4733,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -7775,21 +7793,31 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 39.35,
-							"yCoord": 43.45
+							"yCoord": 43.45,
+							"coordsMap": "Darkshore",
+							"comment": "Go turn the other quests while the roleplay happens",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Terenthis",
+							"npcId": 3693,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 986,
-							"questName": "A Lost Master",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "A Lost Master",
+									"questId": 986,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -7818,37 +7846,14 @@
 									"questName": "The Absent Minded Prospector",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.49,
-							"yCoord": 41.83
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Archaeologist Hollee",
-							"npcId": 2913,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 741,
 									"questName": "The Absent Minded Prospector",
+									"questId": 741,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -7887,6 +7892,18 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": ">>> Refill arrows <<< Also, check out the quartermaster for some upgrades",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -7918,16 +7935,132 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 50.48,
+							"yCoord": 35.02,
+							"coordsMap": "Darkshore",
+							"comment": "Grab the ingredients for the summon and kill the ENTIRE camp (good xp + cloth)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 52.37,
+							"yCoord": 35.99,
+							"coordsMap": "Darkshore",
+							"comment": "Once you are done with the first half, go to the moountain cave and kill the Den Mother",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Den Mother",
+									"npcId": 6788,
+									"count": 1,
+									"questId": 2139,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.91,
+							"yCoord": 33.72,
+							"coordsMap": "Darkshore",
+							"comment": "Back to the camp, keep killing things and looting ingredients",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 52.41,
+							"yCoord": 33.36,
+							"coordsMap": "Darkshore",
+							"comment": "Combine the items and use them at the bonfire. Loot the talisman off the basket after killing the demon",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Talisman of Corruption",
+									"questId": 4763,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 56.68,
+							"yCoord": 26.96,
+							"coordsMap": "Darkshore",
+							"comment": "Go around the tower on your way to the Nagas to get extra xp and cloth",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.74,
+							"yCoord": 21.89,
+							"coordsMap": "Darkshore",
+							"comment": "The rare mage Naga can drop a blue ring",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Mathystra Relic",
+							"questId": 951,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 6,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 56.7,
-							"yCoord": 13.53
+							"yCoord": 13.53,
+							"coordsMap": "Darkshore",
+							"comment": "Pull a strider and a crab to the gnome if you can and accept the quest before killing them",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -7947,6 +8080,70 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "From the crabs, the striders and the murlocs in the sunken ship to the west",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Top of Gelkak's Key",
+							"questId": 2098,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Giant Foreststrider",
+									"npcId": 2323
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Middle of Gelkak's Key",
+							"questId": 2098,
+							"questObjectiveIndex": 2,
+							"toLootNpcs": [
+								{
+									"npcName": "Greymist Oracle",
+									"npcId": 2207
+								},
+								{
+									"npcName": "Greymist Tidehunter",
+									"npcId": 2208
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Bottom of Gelkak's Key",
+							"questId": 2098,
+							"questObjectiveIndex": 3,
+							"toLootNpcs": [
+								{
+									"npcName": "Raging Reef Crawler",
+									"npcId": 2236
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -7973,6 +8170,14 @@
 									"questName": "Gyromast's Retrieval",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Gyromast's Revenge",
+									"questId": 2078,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -7980,35 +8185,30 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 55.87,
+							"yCoord": 18.12,
 							"coordsMap": "Darkshore",
+							"comment": "Activate the robot and run back to the gnome",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 56.7,
-							"yCoord": 13.49
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "The Threshwackonator 4100",
+							"npcId": 6669,
+							"count": 1,
+							"questId": 2078,
+							"questObjectiveIndex": 1,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gelkak Gyromast",
-							"npcId": 6667,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2078,
-									"questName": "Gyromast's Revenge",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -8031,6 +8231,25 @@
 							"type": "Turn in quest"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "DON'T SELL THE WATERBREATHING POTIONS BY MISTAKE. You will need them for some quests down the line",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Die to deathwarp to the GY north of Auberdine",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -8067,13 +8286,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 37.42,
-							"yCoord": 40.17
+							"yCoord": 40.17,
+							"coordsMap": "Darkshore",
+							"comment": "You should be exalted. >>> Reefill arrows <<< and buy the blue neck off the quartermaster",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -8098,13 +8318,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 43.61,
-							"yCoord": 76.31
+							"yCoord": 76.31,
+							"coordsMap": "Darkshore",
+							"comment": "Try to grab the cart again",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -8129,13 +8350,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 44.36,
-							"yCoord": 76.47
+							"yCoord": 76.47,
+							"coordsMap": "Darkshore",
+							"comment": ">>> Grab the horn inside the chest <<< Use it if the druid falls asleep (bind it)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -8153,6 +8375,17 @@
 								}
 							],
 							"type": "Talk to"
+						},
+						{
+							"itemName": "Horn of Awakening",
+							"questId": 5321,
+							"questObjectiveIndex": 2,
+							"toLootNpcs": [],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -8160,13 +8393,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 44.99,
-							"yCoord": 85.33
+							"yCoord": 85.33,
+							"coordsMap": "Darkshore",
+							"comment": "You have more than enough time to do all of this, so don't worry",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -8181,40 +8415,34 @@
 									"questName": "A Lost Master",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Escape Through Force",
+									"questId": 994,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.99,
-							"yCoord": 85.33
 						},
 						{
+							"comment": "Kill things ahead of him so he doesn't stop walking as much",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Volcor",
-							"npcId": 3692,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 994,
-									"questName": "Escape Through Force",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"goalName": "Help Volcor to the road",
+							"questId": 994,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -8246,8 +8474,33 @@
 								}
 							],
 							"type": "Talk to"
+						},
+						{
+							"goalName": "Protect Aynasha",
+							"questId": 5713,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 44.79,
+							"yCoord": 93.72,
+							"coordsMap": "Darkshore",
+							"comment": "Avoid the main road so you don't trigger the ambushes",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 2,

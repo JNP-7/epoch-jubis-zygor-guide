@@ -23,7 +23,11 @@
 
 	2h: Detailing 2nd section WIP (almost done)
 	
+04/09/2024:
+
+	1h: Detailed 2/24 sections
+	
 ------------
 Total:
 
-	14.5h
+	15.5h
