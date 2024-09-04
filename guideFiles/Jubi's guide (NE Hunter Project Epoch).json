@@ -8514,13 +8514,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 27.28,
-							"yCoord": 35.49
+							"yCoord": 35.49,
+							"coordsMap": "Ashenvale",
+							"comment": "While you are in Ashenvale, try to save up to 10 Lean Wolf Flanks and 6 Gooey Spider Legs",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -8560,37 +8561,6 @@
 							"questName": "One Shot.  One Kill.",
 							"subTasks": [],
 							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.8,
-							"yCoord": 37.14
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sentinel Onaeya",
-							"npcId": 11806,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27298,
-									"questName": "Call to Arms: Ashenvale",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
 						}
 					]
 				},
@@ -8645,11 +8615,27 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26245,
 									"questName": "Forsaken Looters",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "The Tower of Althalaxx",
+									"questId": 967,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Tower of Althalaxx",
+									"questId": 970,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -8657,60 +8643,109 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 30.05,
+							"yCoord": 31.56,
 							"coordsMap": "Ashenvale",
+							"comment": "Kill any of the mobs here and then some, 100% drop rate. Cultists WILL kill you fast",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 26.22,
-							"yCoord": 38.69
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 967,
-							"questName": "The Tower of Althalaxx",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.22,
-							"yCoord": 38.69
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
+							"itemName": "Glowing Soul Gem",
 							"questId": 970,
-							"questName": "The Tower of Althalaxx",
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 31.89,
+							"yCoord": 24.63,
+							"coordsMap": "Ashenvale",
+							"comment": "Turn on Herb tracking, it will show you where plant bundles are",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "There are not enough thugs in the area to complete the quest (only 6/10). Kill the ones near the tent (4) to make them respawn first",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Bathran's Hair",
+							"questId": 1010,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 5,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Forsaken Seeker",
+							"npcId": 3732,
+							"count": 5,
+							"questId": 26245,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"npcName": "Forsaken Herbalist",
+							"npcId": 3733,
+							"count": 5,
+							"questId": 26245,
+							"questObjectiveIndex": 2,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"npcName": "Forsaken Thug",
+							"npcId": 3734,
+							"count": 10,
+							"questId": 26245,
+							"questObjectiveIndex": 3,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 26.23,
-							"yCoord": 38.68
+							"yCoord": 38.68,
+							"coordsMap": "Ashenvale",
+							"comment": "Will need to wait out the tower of Althalaxx roleplay",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -8720,42 +8755,19 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26245,
 									"questName": "Forsaken Looters",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.22,
-							"yCoord": 38.67
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Delgren the Purifier",
-							"npcId": 3663,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 970,
 									"questName": "The Tower of Althalaxx",
+									"questId": 970,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -8787,37 +8799,14 @@
 									"questName": "Bathran's Hair",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.41,
-							"yCoord": 38.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Orendil Broadleaf",
-							"npcId": 3847,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1020,
 									"questName": "Orendil's Cure",
+									"questId": 1020,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -8887,16 +8876,42 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 20.15,
+							"yCoord": 50.5,
+							"coordsMap": "Ashenvale",
+							"comment": "First go here, then to the hidden hunter trainer",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 18.19,
+							"yCoord": 59.85,
+							"coordsMap": "Ashenvale",
+							"comment": "Learn spells and sell junk",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 34.71,
-							"yCoord": 48.87
+							"yCoord": 48.87,
+							"coordsMap": "Ashenvale",
+							"comment": "If you find the rare spider on your way to Atranaar, don't bother. 3 minute fight with the potential to kill you for 27s (helmet is good for warriors and pallies tho)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -8937,7 +8952,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26362,
 									"questName": "Attack on the Foulweald",
 									"subTasks": [],
@@ -8968,7 +8983,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26237,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
@@ -9011,6 +9026,59 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 34.86,
+							"yCoord": 50.89,
+							"coordsMap": "Ashenvale",
+							"comment": ">>> Refill arrows <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 37.35,
+							"yCoord": 51.8,
+							"coordsMap": "Ashenvale",
+							"comment": "Some roleplay will play out. Keep turning the rest of the quests. You will accept the follow up later",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"questId": 1020,
+							"questName": "Orendil's Cure",
+							"subTasks": [],
+							"type": "Turn in quest"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 36.98,
+							"yCoord": 49.28,
+							"coordsMap": "Ashenvale",
+							"comment": ">>> Set Hearthstone <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -9035,95 +9103,34 @@
 									"questName": "Raene's Cleansing",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.61,
-							"yCoord": 49.63
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Raene Wolfrunner",
-							"npcId": 3691,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1054,
 									"questName": "Culling the Threat",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.35,
-							"yCoord": 51.8
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 1020,
-							"questName": "Orendil's Cure",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.35,
-							"yCoord": 51.8
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pelturas Whitemoon",
-							"npcId": 3894,
-							"subTasks": [
-								{
+									"questId": 1054,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1033,
-									"questName": "Elune's Tear",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 34.4,
+							"yCoord": 48.07,
+							"coordsMap": "Ashenvale",
+							"comment": "Fly to Auberdine",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -9188,6 +9195,18 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": "Try to grab the cart to Ameth'Aran or walk down there",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -9207,11 +9226,19 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26237,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Annals of Hajiri",
+									"questId": 26238,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -9219,35 +9246,26 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
+							"comment": "While you wait between waves use all the linen you have. You should be 80 First aids at least by now.",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 40.62,
-							"yCoord": 62.02
+							"isCustom": false
 						},
 						{
+							"goalName": "Defend Ashalen",
+							"questId": 26238,
+							"questObjectiveIndex": 1,
+							"count": 1,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Ashalen",
-							"npcId": 45190,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26238,
-									"questName": "Annals of Hajiri",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -9269,11 +9287,19 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26238,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Annals of Hajiri",
+									"questId": 26239,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -9281,35 +9307,18 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
+							"comment": "Hearthstone back to Ashenvale",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 40.61,
-							"yCoord": 61.97
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Ashalen",
-							"npcId": 45190,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26239,
-									"questName": "Annals of Hajiri",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -9351,22 +9360,22 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 36.62,
-							"yCoord": 49.6
+							"xCoord": 37.35,
+							"yCoord": 51.8
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Raene Wolfrunner",
-							"npcId": 3691,
+							"npcName": "Pelturas Whitemoon",
+							"npcId": 3894,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 1054,
-									"questName": "Culling the Threat",
+									"questId": 1033,
+									"questName": "Elune's Tear",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
@@ -9374,16 +9383,106 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 37.68,
+							"yCoord": 52.39,
+							"coordsMap": "Ashenvale",
+							"comment": "First go here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 41.42,
+							"yCoord": 50.5,
+							"coordsMap": "Ashenvale",
+							"comment": "Run up to the lake from here afterwards",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 46.17,
+							"yCoord": 45.89,
+							"coordsMap": "Ashenvale",
+							"comment": "The rare elemental is not worth killing if the devs haven't added a 100% chance drop for greens on regular rares. They drop nothing most of the time otherwise.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Elune's Tear",
+									"questId": 1033,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.83,
+							"yCoord": 35.06,
+							"coordsMap": "Ashenvale",
+							"comment": "Kite him to the mountains to the south",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Dal Bloodclaw's Skull",
+									"questId": 1054,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Dal Bloodclaw",
+											"npcId": 3987
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 38.64,
+							"yCoord": 44.75,
+							"coordsMap": "Ashenvale",
+							"comment": "After killing the furbolg go through the mountains to this spot. Jump down to the tree trunk to not die from the fall",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 37.33,
-							"yCoord": 51.8
+							"yCoord": 51.8,
+							"coordsMap": "Ashenvale",
+							"comment": "Let the roleplay play out, we will get the quest later",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -9413,27 +9512,94 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 37.33,
-							"yCoord": 51.8
+							"xCoord": 36.62,
+							"yCoord": 49.6
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Pelturas Whitemoon",
-							"npcId": 3894,
+							"npcName": "Raene Wolfrunner",
+							"npcId": 3691,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 1034,
-									"questName": "The Ruins of Stardust",
+									"questId": 1054,
+									"questName": "Culling the Threat",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 28.55,
+							"yCoord": 60.22,
+							"coordsMap": "Ashenvale",
+							"comment": "Go to the demons area killing some wolves and spiders on the way",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 25.7,
+							"yCoord": 61.54,
+							"coordsMap": "Ashenvale",
+							"comment": "Split pull the two hounds and then trap the succubus (hits like a truck). Kill the orc before the CC expires",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Ilkrud Magthrull's Tome",
+									"questId": 973,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Ilkrud Magthrull",
+											"npcId": 3664
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 18.2,
+							"yCoord": 59.94,
+							"coordsMap": "Ashenvale",
+							"comment": "Back to the hidden hunter trainer to sell junk",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 18.24,
+							"yCoord": 46.58,
+							"coordsMap": "Ashenvale",
+							"comment": "Here afterwards and drop down to the lake",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -9460,6 +9626,14 @@
 									"questName": "Raene's Cleansing",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Raene's Cleansing",
+									"questId": 1023,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -9467,47 +9641,40 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ashenvale",
+							"comment": "Kill any of the murlocs around to get the gem while you go to the beach to the west",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 20.28,
-							"yCoord": 42.4
+							"isCustom": false
 						},
 						{
+							"itemName": "Glowing Gem",
+							"questId": 1023,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 1,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Teronis' Corpse",
-							"npcId": 3891,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1023,
-									"questName": "Raene's Cleansing",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 14.81,
-							"yCoord": 31.24
+							"yCoord": 31.24,
+							"coordsMap": "Ashenvale",
+							"comment": "Kill the Nagas for the heads while you are questing around here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -9527,6 +9694,39 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "There is a rare Naga that can (should, it was bugged) the follow up quest item, try to kill here after turning in the first part",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 14.24,
+							"yCoord": 20.66,
+							"coordsMap": "Ashenvale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Ancient Statuette",
+									"questId": 1007,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -9553,6 +9753,14 @@
 									"questName": "The Ancient Statuette",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Ruuzel",
+									"questId": 1009,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -9560,35 +9768,84 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 16.88,
+							"yCoord": 19.85,
 							"coordsMap": "Ashenvale",
+							"comment": "Talk to the elf to start the event",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 14.8,
-							"yCoord": 31.21
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Talen",
-							"npcId": 3846,
-							"subTasks": [
+							"itemName": "Annals of hajiri",
+							"questId": 26239,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1009,
-									"questName": "Ruuzel",
-									"subTasks": [],
-									"type": "Accept quest"
+									"npcName": "Liallas",
+									"npcId": 45192
 								}
 							],
-							"type": "Talk to"
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"comment": "The turn in NPC will take a while to respawn. Go do the rest of the quests in the meantime",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 7.78,
+							"yCoord": 14.01,
+							"coordsMap": "Ashenvale",
+							"comment": "Heads drop from any Naga",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Ring of Zoram",
+							"questId": 1009,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Ruuzel",
+									"npcId": 3943
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Wrathtail Head",
+							"questId": 1008,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 20,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -9604,17 +9861,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Ashalen",
 							"npcId": 45191,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26239,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Annals of Hajiri",
+									"questId": 26240,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -9625,30 +9890,31 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 14.81,
+							"yCoord": 31.24,
 							"coordsMap": "Ashenvale",
+							"comment": "Ugly ass chest piece, it is what it is...",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 16.88,
-							"yCoord": 19.85
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Talen",
+							"npcId": 3846,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Ashalen",
-							"npcId": 45191,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "Ruuzel",
+									"questId": 1009,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26240,
-									"questName": "Annals of Hajiri",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -9656,35 +9922,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 14.81,
-							"yCoord": 31.24
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 1009,
-							"questName": "Ruuzel",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 26.18,
-							"yCoord": 38.63
+							"yCoord": 38.63,
+							"coordsMap": "Ashenvale",
+							"comment": "Slow heavy hitting staff!!!",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -9730,37 +9975,14 @@
 									"questName": "The Zoram Strand",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 34.67,
-							"yCoord": 48.92
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Shindrell Swiftfire",
-							"npcId": 3845,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1134,
 									"questName": "Pridewings of Stonetalon",
+									"questId": 1134,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -9787,42 +10009,19 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26240,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 34.76,
-							"yCoord": 49.74
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tyraeth Morningshade",
-							"npcId": 45193,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26241,
 									"questName": "Annals of Hajiri",
+									"questId": 26241,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -9833,13 +10032,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 36.56,
-							"yCoord": 49.59
+							"yCoord": 49.59,
+							"coordsMap": "Ashenvale",
+							"comment": "You can delete the journal after this",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -9854,37 +10054,14 @@
 									"questName": "Raene's Cleansing",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.56,
-							"yCoord": 49.59
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Raene Wolfrunner",
-							"npcId": 3691,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1025,
 									"questName": "An Aggressive Defense",
+									"questId": 1025,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -9900,8 +10077,8 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 37.31,
-							"yCoord": 51.79
+							"xCoord": 37.33,
+							"yCoord": 51.8
 						},
 						{
 							"depth": 0,
@@ -9915,7 +10092,7 @@
 									"questId": 1034,
 									"questName": "The Ruins of Stardust",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
@@ -9923,16 +10100,66 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 34.83,
+							"yCoord": 65.59,
+							"coordsMap": "Ashenvale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Handful of Stardust",
+							"questId": 1034,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 5,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 33.56,
+							"yCoord": 67.41,
+							"coordsMap": "Ashenvale",
+							"comment": "Fill the phial here",
+							"itemId": 60176,
+							"itemName": "Glass Phial",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Filled Glass Phial",
+									"questId": 26241,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 49.82,
-							"yCoord": 67.16
+							"yCoord": 67.16,
+							"coordsMap": "Ashenvale",
+							"comment": "You have a hunter trainer here, can buy ammo and the alchemy supplies guy sells pots",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -9952,6 +10179,112 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 50.87,
+							"yCoord": 61.56,
+							"coordsMap": "Ashenvale",
+							"comment": "Finish the Den watchers and Ursa in the camp to the west. You will have to go east for the others. The amulets are dropped from any furbolg",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Foulweald Den Watcher",
+							"npcId": 3746,
+							"count": 1,
+							"questId": 1025,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Foulweald Ursa",
+							"npcId": 3749,
+							"count": 2,
+							"questId": 1025,
+							"questObjectiveIndex": 2,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Foulweald Totemic ",
+							"npcId": 3750,
+							"count": 10,
+							"questId": 1025,
+							"questObjectiveIndex": 3,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Foulweald Warrior",
+							"npcId": 3743,
+							"count": 12,
+							"questId": 1025,
+							"questObjectiveIndex": 4,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Foulweald amulet",
+							"questId": 26362,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 15,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.06,
+							"yCoord": 69.56,
+							"coordsMap": "Ashenvale",
+							"comment": "Don't use a water breathing potion for this. You can pull with your pet easy enough. Also, don't bother with the rare elemental. Too high level",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Need 5 intact elemental bracers from the elementals",
+							"itemId": 5456,
+							"itemName": "Divining Scroll",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Divined Scroll",
+									"questId": 1016,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -9983,6 +10316,21 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 42.43,
+							"yCoord": 70.99,
+							"coordsMap": "Ashenvale",
+							"comment": "To Stonetalon. >>> Refill arrows <<< At the lodge first",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -10733,6 +11081,37 @@
 									"isCustom": false,
 									"questId": 1025,
 									"questName": "An Aggressive Defense",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Ashenvale",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 37.31,
+							"yCoord": 51.79
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Pelturas Whitemoon",
+							"npcId": 3894,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 1034,
+									"questName": "The Ruins of Stardust",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
