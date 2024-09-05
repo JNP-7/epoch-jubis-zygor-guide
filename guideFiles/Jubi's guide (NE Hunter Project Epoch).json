@@ -10336,13 +10336,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 59,
-							"yCoord": 62.55
+							"yCoord": 62.55,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": "Kill any wyvern and humanoid on your way there. Don't bother with the spiders at the start, they will root you.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -10414,7 +10415,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26364,
 									"questName": "Torching the Stockpiles",
 									"subTasks": [],
@@ -10424,6 +10425,110 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.48,
+							"yCoord": 67.08,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": ">>> Light up the torch <<<",
+							"itemId": 60418,
+							"itemName": "Unlit Torch",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.47,
+							"yCoord": 54.06,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": "First go here and kil the operators for the plans",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Super Reaper 6000 Blueprints",
+							"questId": 1093,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Venture Co. Operator",
+									"npcId": 3988
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 65.82,
+							"yCoord": 50.99,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": "Now go to the lumbermill, there are a bunch of supplies around here.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "The spullies are the boxes scattered around the area. If you need to sell, there is a hidden vendor at [66,60]",
+							"itemId": 60417,
+							"itemName": "Lit Torch",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"goalName": "Venture Co. Supplies burned",
+							"questId": 26364,
+							"questObjectiveIndex": 1,
+							"count": 8,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"npcName": "Venture Co. Logger",
+							"npcId": 3989,
+							"count": 10,
+							"questId": 1071,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Venture Co. Deforester",
+							"npcId": 3991,
+							"count": 10,
+							"questId": 1071,
+							"questObjectiveIndex": 2,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -10450,37 +10555,14 @@
 									"questName": "Super Reaper 6000",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 59,
-							"yCoord": 62.52
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Ziz Fizziks",
-							"npcId": 4201,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1094,
 									"questName": "Further Instructions",
+									"questId": 1094,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -10512,68 +10594,22 @@
 									"questName": "A Gnome's Respite",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 59.51,
-							"yCoord": 67.16
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gaxim Rustfizzle",
-							"npcId": 4077,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1075,
 									"questName": "A Scroll from Mauren",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 59.52,
-							"yCoord": 67.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gaxim Rustfizzle",
-							"npcId": 4077,
-							"subTasks": [
-								{
+									"questId": 1075,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1072,
-									"questName": "An Old Colleague",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "An Old Colleague",
+									"questId": 1072,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -10584,13 +10620,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 59.85,
-							"yCoord": 66.92
+							"yCoord": 66.92,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": "The follow up quest is not worth it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -10600,7 +10637,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26364,
 									"questName": "Torching the Stockpiles",
 									"subTasks": [],
@@ -10612,16 +10649,50 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 51.22,
+							"yCoord": 47.24,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": "You can finish pridewings on your way down",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "While killing these, check [48,47] and [54,36] (in the mountains) for Pridewing Patriarch, can drop a +5 agi cloack",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Pridewing Venom Sac",
+							"questId": 1134,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 12,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 37.13,
-							"yCoord": 8.06
+							"yCoord": 8.06,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": "Don't kill the antlers on your way up, you need them for a quest soon",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -10674,6 +10745,84 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 36.45,
+							"yCoord": 7.21,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": "Get the FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stonetalon Mountains",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 36.13,
+							"yCoord": 7.09
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Bapper Tookwinkle",
+							"npcId": 45338,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26358,
+									"questName": "Tinkering in the Vale",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 35.8,
+							"yCoord": 6.37,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": "She also sells potions. If you need arrows there is a vendor here. DON'T SET HEARTHSTONE",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Centrica Nightsong",
+							"npcId": 45337,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26356,
+									"questName": "Mirkfallon Lake",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -10687,13 +10836,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Vallourek Nightsong",
 							"npcId": 45339,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26360,
 									"questName": "Vines of the Lake",
 									"subTasks": [],
@@ -10718,13 +10867,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Hunter Kyana",
 							"npcId": 45335,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26354,
 									"questName": "Hunting in Serenity",
 									"subTasks": [],
@@ -10736,6 +10885,273 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 0,
+							"yCoord": 0,
+							"coordsMap": "Current map",
+							"comment": "A couple of antlers here. Then back to the lake",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 46.99,
+							"yCoord": 32.27,
+							"coordsMap": "Stonetalon Mountains",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Courser fur",
+							"count": 10,
+							"questId": 26354,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Antlered Courser",
+									"npcId": 4018
+								},
+								{
+									"npcName": "Great Courser",
+									"npcId": 4019
+								}
+							],
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.86,
+							"yCoord": 38.69,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": "Start the elementals' quests here. Circle the lake to your left (if facing south, clockwise on the minimap)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Water Vine",
+							"questId": 26360,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"itemName": "Mirkfallon Essence",
+							"questId": 26356,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Mirkfallon Spirit",
+									"npcId": 45336
+								}
+							],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Finish pridewings if need be",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Pridewing Venom Sac",
+							"count": 12,
+							"questId": 1134,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"coordsMap": "Stonetalon Mountains",
+							"xCoord": 34.83,
+							"yCoord": 58.63,
+							"comment": "On your way down avoid the fire elementals. Kill the harpies and the basilisks. There are not enough ambushers in the zone",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "You can dodge the basilisks' sleep by running away from melee range (your pet too).",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "The rares around here are tough and drop nothing mostly. The only one that's worth it is the custom elemental. Some chests laying around",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "The next step lists all the objectives here",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"npcName": "Bloodfury Harpy",
+							"npcId": 4022,
+							"count": 7,
+							"questId": 1057,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Bloodfury Ambusher",
+							"npcId": 4025,
+							"count": 7,
+							"questId": 1057,
+							"questObjectiveIndex": 2,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Bloodfury Slayer",
+							"npcId": 4024,
+							"count": 7,
+							"questId": 1057,
+							"questObjectiveIndex": 3,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Bloodfury Roguefeather",
+							"npcId": 4023,
+							"count": 7,
+							"questId": 1057,
+							"questObjectiveIndex": 4,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Scorched Scale",
+							"questId": 26358,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Blackened Basilisk",
+									"npcId": 4044
+								},
+								{
+									"npcName": "Scorched Basilisk",
+									"npcId": 4041
+								},
+								{
+									"npcName": "Singed Basilisk",
+									"npcId": 4042
+								}
+							],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"itemName": "Raging Core",
+							"questId": 26358,
+							"questObjectiveIndex": 2,
+							"toLootNpcs": [
+								{
+									"npcName": "Enraged Stone Spirit",
+									"npcId": 4034
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 29.77,
+							"yCoord": 77.87,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": "When done go to Desolace to say hello to Rexxar and grab the FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 64.7,
+							"yCoord": 10.52,
+							"coordsMap": "Desolace",
+							"comment": "Grab the FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Fly to stone talon peak",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -10744,22 +11160,69 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 36.13,
-							"yCoord": 7.09
+							"xCoord": 37.1,
+							"yCoord": 7.99
+						},
+						{
+							"npcName": "Keeper Albagorm",
+							"npcId": 3994,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Reclaiming the Charred Vale",
+									"questId": 1057,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Reclaiming the Charred Vale",
+									"questId": 1059,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stonetalon Mountains",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 37.36,
+							"yCoord": 6.74
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bapper Tookwinkle",
-							"npcId": 45338,
+							"isCustom": true,
+							"npcName": "Vallourek Nightsong",
+							"npcId": 45339,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26358,
-									"questName": "Tinkering in the Vale",
+									"isCustom": true,
+									"questId": 26360,
+									"questName": "Vines of the Lake",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Vines of the Lake",
+									"questId": 26361,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -10775,82 +11238,20 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 35.6,
-							"yCoord": 6.82
+							"xCoord": 37.35,
+							"yCoord": 6.2
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Illyanie",
-							"npcId": 4188,
+							"isCustom": true,
+							"npcName": "Hunter Kyana",
+							"npcId": 45335,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27296,
-									"questName": "Call to Arms: Stonetalon Mountains",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.8,
-							"yCoord": 6.37
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Centrica Nightsong",
-							"npcId": 45337,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26356,
-									"questName": "Mirkfallon Lake",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.8,
-							"yCoord": 6.35
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Centrica Nightsong",
-							"npcId": 45337,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26356,
-									"questName": "Mirkfallon Lake",
+									"isCustom": true,
+									"questId": 26354,
+									"questName": "Hunting in Serenity",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -10873,13 +11274,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Bapper Tookwinkle",
 							"npcId": 45338,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26358,
 									"questName": "Tinkering in the Vale",
 									"subTasks": [],
@@ -10894,160 +11295,24 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.1,
-							"yCoord": 7.99
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 1057,
-							"questName": "Reclaiming the Charred Vale",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.1,
-							"yCoord": 7.99
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 1059,
-							"questName": "Reclaiming the Charred Vale",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.36,
-							"yCoord": 6.74
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Vallourek Nightsong",
-							"npcId": 45339,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26360,
-									"questName": "Vines of the Lake",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.36,
-							"yCoord": 6.74
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Vallourek Nightsong",
-							"npcId": 45339,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26361,
-									"questName": "Vines of the Lake",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.35,
-							"yCoord": 6.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hunter Kyana",
-							"npcId": 45335,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26354,
-									"questName": "Hunting in Serenity",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stonetalon Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 35.83,
-							"yCoord": 6.38
+							"yCoord": 6.38,
+							"coordsMap": "Stonetalon Mountains",
+							"comment": "Turn this one first to avoid her becoming a frog before turning in everything",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Centrica Nightsong",
 							"npcId": 45337,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26361,
 									"questName": "Vines of the Lake",
 									"subTasks": [],
@@ -11057,6 +11322,51 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 35.8,
+							"yCoord": 6.35,
+							"coordsMap": "Stonetalon Mountains",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Centrica Nightsong",
+							"npcId": 45337,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26356,
+									"questName": "Mirkfallon Lake",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Make sure you have turned everything in and HS back to Astranaar",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -11134,13 +11444,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Sentinel Thenysil",
 							"npcId": 4079,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26362,
 									"questName": "Attack on the Foulweald",
 									"subTasks": [],
@@ -11165,48 +11475,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Tyraeth Morningshade",
 							"npcId": 45193,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26241,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 34.76,
-							"yCoord": 49.73
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tyraeth Morningshade",
-							"npcId": 45193,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26242,
 									"questName": "Annals of Hajiri",
+									"questId": 26242,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -11245,6 +11532,47 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": "Forget about the quests not listed here, we are (almost) done with Ashenvale forever, the second half is garbage compared to new Hillsbrad, sadly :(",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 22.69,
+							"yCoord": 52.62,
+							"coordsMap": "Ashenvale",
+							"comment": "Talk to the NPC to start the event",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Lilyn Darkriver",
+									"npcId": 11712,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "Recieve Aessina's Boon",
+									"questId": 26242,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -11258,13 +11586,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Tyraeth Morningshade",
 							"npcId": 45193,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26242,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
@@ -11274,6 +11602,38 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Fly to Darnassus",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 40.36,
+							"yCoord": 8.88,
+							"coordsMap": "Darnassus",
+							"comment": "Train spells",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 51.71,
+							"yCoord": 12.13,
+							"coordsMap": "Darnassus",
+							"comment": "Train wool bandages  to craft them while on the boat to Menethil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -11300,6 +11660,14 @@
 									"questName": "The Absent Minded Prospector",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Absent Minded Prospector",
+									"questId": 942,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -11307,35 +11675,29 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darnassus",
+							"xCoord": 58.37,
+							"yCoord": 94.01,
+							"coordsMap": "Teldrassil",
+							"comment": "Fly to Darkshore",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 31.25,
-							"yCoord": 84.17
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 32.42,
+							"yCoord": 43.79,
+							"coordsMap": "Darkshore",
+							"comment": "Grab the boat to menethil and craft bandages while waiting/on it",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Chief Archaeologist Greywhisker",
-							"npcId": 2912,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 942,
-									"questName": "The Absent Minded Prospector",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 3,
