@@ -11711,13 +11711,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 8.55,
-							"yCoord": 55.83
+							"yCoord": 55.83,
+							"coordsMap": "Wetlands",
+							"comment": "Jump early on the boat towards this guy",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -11737,6 +11738,29 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 8.03,
+							"yCoord": 56.32,
+							"coordsMap": "Wetlands",
+							"comment": "Talk to the alchemy supplies guy and check for pots",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Dewin Shimmerdawn",
+							"npcId": 1453,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -11794,37 +11818,14 @@
 									"questName": "The Third Fleet",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 10.87,
-							"yCoord": 59.68
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "First Mate Fitzsimmons",
-							"npcId": 1239,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 463,
 									"questName": "The Greenwarden",
+									"questId": 463,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -11851,7 +11852,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26386,
 									"questName": "Oars O'er the Bay",
 									"subTasks": [],
@@ -11861,6 +11862,41 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 0,
+							"yCoord": 0,
+							"coordsMap": "Current map",
+							"comment": ">>> SET HEARTHSTONE <<< and buy a flagon of mead",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Innkeeper Helbrek",
+							"npcId": 1464,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"itemName": "Flagon of Mead",
+									"questId": 288,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -11873,6 +11909,31 @@
 							"type": "Go to",
 							"xCoord": 10.79,
 							"yCoord": 60.4
+						},
+						{
+							"npcName": "Archaeologist Flagongut",
+							"npcId": 2911,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Absent Minded Prospector",
+									"questId": 942,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Absent Minded Prospector",
+									"questId": 943,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -11885,26 +11946,27 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 10.82,
+							"yCoord": 61.33,
 							"coordsMap": "Wetlands",
+							"comment": "Train heavy woolen bandages if first aid is 115 (should be by now)",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 10.79,
-							"yCoord": 60.4
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Fremal Doohickey",
+							"npcId": 3181,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 943,
-							"questName": "The Absent Minded Prospector",
+							"type": "Talk to",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -11931,6 +11993,14 @@
 									"questName": "The Third Fleet",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Cursed Crew",
+									"questId": 289,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -11938,35 +12008,26 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 11.1,
+							"yCoord": 58.43,
 							"coordsMap": "Wetlands",
+							"comment": ">>> Refill arrows <<< Half quiver is enough, next level you get better arrows",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 10.84,
-							"yCoord": 59.56
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "You can ignore the gyroscope quest, it'll be a while untill you do it",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "First Mate Fitzsimmons",
-							"npcId": 1239,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 289,
-									"questName": "The Cursed Crew",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -12034,44 +12095,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.91,
-							"yCoord": 57.92
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Red Jack Flint",
-							"npcId": 4455,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1132,
-									"questName": "Fiora Longears",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 9.88,
-							"yCoord": 57.36
+							"yCoord": 57.36,
+							"coordsMap": "Wetlands",
+							"comment": "For some reason the quest ends here in this server. You will need to do a custom quest to unlock the follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -12091,6 +12122,29 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 11.1,
+							"yCoord": 58.43,
+							"coordsMap": "Wetlands",
+							"comment": "Talk to the engi supplies guy and buy a bronze tube for the Duskwood quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Neal Allen",
+							"npcId": 1448,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -12124,6 +12178,97 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 14.89,
+							"yCoord": 41.5,
+							"coordsMap": "Wetlands",
+							"comment": "Kill all the regular murlocs around these camps. And keep an eye out for young crocolisks",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Bluegill Murloc",
+							"npcId": 1024,
+							"count": 12,
+							"questId": 279,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 18.03,
+							"yCoord": 39.84,
+							"coordsMap": "Wetlands",
+							"comment": "Go here for the murloc's head",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Gobbler's Head",
+									"questId": 279,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Gobbler",
+											"npcId": 1259
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 20.61,
+							"yCoord": 44.39,
+							"coordsMap": "Wetlands",
+							"comment": "Go here and clear the crocolisks pathing towards Menethil. You can get unlucky with this one",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Young Crocolisk Skin",
+							"questId": 484,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Young Wetlands Crocolisk",
+									"npcId": 1417
+								}
+							],
+							"count": 4,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you dont get enough, don't worry you can finish it later. Get on the ferry as soon as you see it",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -12155,6 +12300,37 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": "Take the ferry to hillsbrad. Craft bandages while waiting/on the boat",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "About the Hillsbrad event. It's worth it. A lot. Espcially if you are the first one to get there since sudden death means that you get to finish the event as soon as you cap.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you are defending, you get credit for the quest as long as you step once inside the cap range.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -12174,7 +12350,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26387,
 									"questName": "Syndicate Magic",
 									"subTasks": [],
@@ -12198,21 +12374,12 @@
 							"yCoord": 58.29
 						},
 						{
+							"questName": "WANTED: Beve Perenolde",
+							"questId": 26404,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Phin Odelic",
-							"npcId": 2711,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26404,
-									"questName": "WANTED: Beve Perenolde",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": true
 						}
 					]
 				},
@@ -12229,6 +12396,13 @@
 							"yCoord": 58.85
 						},
 						{
+							"comment": ">>> SET HEARTHSTONE <<<",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"depth": 0,
 							"isCustom": false,
 							"npcName": "Innkeeper Anderson",
@@ -12236,7 +12410,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26397,
 									"questName": "Decorating the Inn",
 									"subTasks": [],
@@ -12267,11 +12441,19 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26398,
 									"questName": "Purging the Lions",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Assistance to Jenna",
+									"questId": 26408,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -12313,30 +12495,30 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 48.67,
+							"yCoord": 59.15,
 							"coordsMap": "Hillsbrad Foothills",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 49.41,
-							"yCoord": 59
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Kundric Zanden",
+							"npcId": 2378,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marshal Redpath",
-							"npcId": 2263,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "Breaking the Armory",
+									"questId": 26374,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27294,
-									"questName": "Call to Arms: Hillsbrad Foothills",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -12344,35 +12526,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 48.67,
-							"yCoord": 59.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26374,
-							"questName": "Breaking the Armory",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 48.19,
-							"yCoord": 59.17
+							"yCoord": 59.17,
+							"coordsMap": "Hillsbrad Foothills",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -12382,42 +12542,19 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26329,
 									"questName": "Hillsbrad Assault",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 48.23,
-							"yCoord": 59.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Magistrate Henry Maleb",
-							"npcId": 2276,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26330,
 									"questName": "Hillsbrad Defense",
+									"questId": 26330,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -12428,13 +12565,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 50.83,
-							"yCoord": 57.01
+							"yCoord": 57.01,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Might sell some pots too",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -12444,7 +12582,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26402,
 									"questName": "Mudsnout Concoction",
 									"subTasks": [],
@@ -12475,7 +12613,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26395,
 									"questName": "A Venom That Cures",
 									"subTasks": [],
@@ -12487,26 +12625,122 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 49.4,
+							"yCoord": 52.42,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Get the FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 54.63,
+							"yCoord": 36.61,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Go towards the tower. Specially if sudden death. Kill the lions and the bears on the way",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you have to cap the tower, simply kill the quest mobs around while capping it",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 40.18,
+							"yCoord": 48.07,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Go towards where the spiders are and finish the lions and bears quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Starving Mountain Lion",
+							"npcId": 2384,
+							"count": 10,
+							"questId": 26398,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"itemName": "Bear fur",
+							"questId": 26397,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Vicious Gray Bear",
+									"npcId": 2354
+								}
+							],
+							"count": 10,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 42.48,
-							"yCoord": 49.01
+							"yCoord": 49.01,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "When done with the spiders go to the dwarves' house",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Moss Venom",
+							"questId": 26395,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Giant Moss Creeper",
+									"npcId": 2349
+								}
+							],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Jenna Thunderbrew",
 							"npcId": 45464,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26408,
 									"questName": "Assistance to Jenna",
 									"subTasks": [],
@@ -12521,27 +12755,43 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 46.68,
-							"yCoord": 50.29
+							"yCoord": 50.29,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": ">>> Be aware <<< Check that your HS cooldown is less than 14 minutes",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "This quest has a 15min timer. The idea is to do quests and finish this one then HS back to Southshore to turn it in.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Captain Thallen",
 							"npcId": 45415,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26375,
 									"questName": "Defense of Southshore",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "A Scout in Need",
+									"questId": 26391,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -12549,35 +12799,232 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 52.35,
+							"yCoord": 56.04,
 							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Talk to the farmer and click the gossip to get a 1 time use 100% speed mount.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 46.68,
-							"yCoord": 50.29
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Darren Malvew",
+							"npcId": 2382,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Thallen",
-							"npcId": 45415,
+							"type": "Talk to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 26.13,
+							"yCoord": 59.88,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Straight line. Avoid getting dazed",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Guard Paxton",
+							"npcId": 45447,
+							"depth": 0,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"itemName": "Paxton's Report",
+									"questId": 26375,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26391,
-									"questName": "A Scout in Need",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 30.59,
+							"yCoord": 42.89,
+							"coordsMap": "Hillsbrad Foothills",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Guard Tristan",
+							"npcId": 45423,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"itemName": "Tristan's Report",
+									"questId": 26375,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 65.15,
+							"yCoord": 45.96,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Full gas, no brakes. You have to finish 2 quests and HS back before the timer runs out",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you get VERY unlucky and don't finish the tower's quest after 1 full clear accept defeat and restart the timer quest. You don't have enough time",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Syndicate Armor Scrap",
+							"questId": 26391,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Syndicate Watchman",
+									"npcId": 2261
+								},
+								{
+									"npcName": "Syndicate Shadow Mage",
+									"npcId": 2244
+								},
+								{
+									"npcName": "Syndicate Rogue",
+									"npcId": 2260
+								}
+							],
+							"count": 10,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 64.03,
+							"yCoord": 58.71,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "This part is nasty. Mobs have some levels on you. Shamans hit like trucks and the regular mobs put a -50% hit chance debuff on their target",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you have to pull to mobs very close to each other hit the regular Gnolls first. When they begin casting their blindness debuff, move away from melee range (>5 yards) and it will miss.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Mudsnout Ichor",
+							"questId": 26402,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Mudsnout Gnoll",
+									"npcId": 2372
+								},
+								{
+									"npcName": "Mudsnout Shaman",
+									"npcId": 2373
+								}
+							],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 69.98,
+							"yCoord": 78.7,
+							"coordsMap": "Hillsbrad Foothills",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Guard Emily",
+							"npcId": 45446,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"itemName": "Emily's Report",
+									"questId": 26375,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Southshore. If you were fast and are waiting for the HS cooldown DON'T cut it short. HS out as soon as the CD is back",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -12593,13 +13040,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Innkeeper Anderson",
 							"npcId": 2352,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26397,
 									"questName": "Decorating the Inn",
 									"subTasks": [],
@@ -12624,110 +13071,41 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Captain Thallen",
 							"npcId": 45415,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26375,
 									"questName": "Defense of Southshore",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 46.64,
-							"yCoord": 50.32
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Thallen",
-							"npcId": 45415,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26376,
 									"questName": "Defense of Southshore",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 46.64,
-							"yCoord": 50.32
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Thallen",
-							"npcId": 45415,
-							"subTasks": [
-								{
+									"questId": 26376,
 									"depth": 1,
-									"isCustom": false,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "A Scout in Need",
 									"questId": 26391,
-									"questName": "A Scout in Need",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 46.64,
-							"yCoord": 50.32
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Thallen",
-							"npcId": 45415,
-							"subTasks": [
-								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26392,
-									"questName": "A Scout in Need",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"questName": "A Scout in Need",
+									"questId": 26392,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -12754,7 +13132,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26395,
 									"questName": "A Venom That Cures",
 									"subTasks": [],
@@ -12769,13 +13147,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 50.86,
-							"yCoord": 57.05
+							"yCoord": 57.05,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Some RP... turn other quests meanwhile",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -12785,7 +13164,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26402,
 									"questName": "Mudsnout Concoction",
 									"subTasks": [],
@@ -12816,7 +13195,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26398,
 									"questName": "Purging the Lions",
 									"subTasks": [],
@@ -12831,30 +13210,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 48.15,
-							"yCoord": 59.16
-						},
-						{
+							"yCoord": 59.16,
+							"coordsMap": "Current map",
+							"comment": "If you finished Hillsbrad assault/defense turn them in",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Magistrate Henry Maleb",
-							"npcId": 2276,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26329,
-									"questName": "Hillsbrad Assault",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -12878,7 +13241,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26403,
 									"questName": "Venom to the Syndicate",
 									"subTasks": [],
@@ -12888,6 +13251,21 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.35,
+							"yCoord": 52.41,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Fly back to Menethil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -12914,6 +13292,14 @@
 									"questName": "Claws from the Deep",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Reclaiming Goods",
+									"questId": 281,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -12921,35 +13307,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 11.05,
+							"yCoord": 58.39,
 							"coordsMap": "Wetlands",
+							"comment": ">>> Refill ammo <<< With lvl 25 ammo",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 8.37,
-							"yCoord": 58.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Karl Boran",
-							"npcId": 1242,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 281,
-									"questName": "Reclaiming Goods",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -12995,12 +13365,29 @@
 							"yCoord": 57.44
 						},
 						{
+							"npcName": "Captain Stoutfist",
+							"npcId": 2104,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 26376,
-							"questName": "Defense of Southshore",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Defense of Southshore",
+									"questId": 26376,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Defense of Southshore",
+									"questId": 26377,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -13008,45 +13395,40 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.91,
-							"yCoord": 57.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26377,
-							"questName": "Defense of Southshore",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 41.51,
-							"yCoord": 38.68
+							"yCoord": 38.68,
+							"coordsMap": "Wetlands",
+							"comment": "Finish young croc skins quest on your way",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Young Crocolisk Skin",
+							"count": 4,
+							"questId": 484,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Young Wetlands Crocolisk",
+									"npcId": 1417
+								}
+							],
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Wounded Burndural Messenger",
 							"npcId": 45245,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26283,
 									"questName": "Message to Menethil",
 									"subTasks": [],
@@ -13061,13 +13443,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 49.91,
-							"yCoord": 39.25
+							"yCoord": 39.25,
+							"coordsMap": "Wetlands",
+							"comment": "Also, the goblin near him sells some pots",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -13113,6 +13496,14 @@
 									"questName": "The Greenwarden",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Tramping Paws",
+									"questId": 276,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -13120,35 +13511,77 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 55.9,
+							"yCoord": 74.32,
 							"coordsMap": "Wetlands",
+							"comment": "Go to this camp first. You have to path back to the Greenwarden regardless",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 56.32,
-							"yCoord": 40.47
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 63.15,
+							"yCoord": 77.26,
+							"coordsMap": "Wetlands",
+							"comment": "Once you are done with the Gnolls there, head to the ghosts' cave.",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Rethiel the Greenwarden",
-							"npcId": 1244,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 276,
-									"questName": "Tramping Paws",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Ghost-Touched Ore",
+							"questId": 26377,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.44,
+							"yCoord": 63.26,
+							"coordsMap": "Wetlands",
+							"comment": "Finish the gnolls' quest while pathing towards the greenwarden",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Mosshide Gnoll",
+							"npcId": 1007,
+							"count": 15,
+							"questId": 276,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Mosshide Mongrel",
+							"npcId": 1008,
+							"count": 10,
+							"questId": 276,
+							"questObjectiveIndex": 2,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -13175,6 +13608,14 @@
 									"questName": "Tramping Paws",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Fire Taboo",
+									"questId": 277,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -13182,35 +13623,29 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 53.87,
+							"yCoord": 70.3,
 							"coordsMap": "Wetlands",
+							"comment": "Now go grab Loch Modan's FP since your HS is on CD and you have to go back to Menethil. This way we don't have to do all this treck again when going to IF",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 56.42,
-							"yCoord": 40.52
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 33.91,
+							"yCoord": 50.86,
+							"coordsMap": "Loch Modan",
+							"comment": "Grab the FP and fly to Menethil",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Rethiel the Greenwarden",
-							"npcId": 1244,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 277,
-									"questName": "Fire Taboo",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -13232,69 +13667,46 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26377,
 									"questName": "Defense of Southshore",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 11.54,
-							"yCoord": 59.6
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Brak Durnad",
-							"npcId": 1441,
-							"subTasks": [],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 11.54,
-							"yCoord": 59.6
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Brak Durnad",
-							"npcId": 1441,
-							"subTasks": [
+								},
 								{
+									"comment": "While waiting out the RP sell junk/organice inventory/craft bandages. DON'T SET HS. Is currently in southshore and we want it there.",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26379,
-									"questName": "Defense of Southshore",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Defense of Southshore",
+									"questId": 26379,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 11.44,
+							"yCoord": 59.44,
+							"coordsMap": "Wetlands",
+							"comment": ">>> Grab the crates <<< For the next step of Defense of Southshore",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -13321,68 +13733,22 @@
 									"questName": "Daily Delivery",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 8.58,
-							"yCoord": 55.83
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "James Halloran",
-							"npcId": 2094,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 484,
 									"questName": "Young Crocolisk Skins",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 8.58,
-							"yCoord": 55.83
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "James Halloran",
-							"npcId": 2094,
-							"subTasks": [
-								{
+									"questId": 484,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 471,
-									"questName": "Apprentice's Duties",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Apprentice's Duties",
+									"questId": 471,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -13409,7 +13775,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26283,
 									"questName": "Message to Menethil",
 									"subTasks": [],
@@ -13445,6 +13811,14 @@
 									"questName": "War Banners",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Don't Kill The Messenger",
+									"questId": 26284,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -13452,35 +13826,33 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 9.55,
+							"yCoord": 59.69,
 							"coordsMap": "Wetlands",
+							"comment": "Fly to southshore",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 9.85,
-							"yCoord": 57.44
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "If you were on a good pace, the next battle should be about to start",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Stoutfist",
-							"npcId": 2104,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26284,
-									"questName": "Don't Kill The Messenger",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Make sure you HS  is set to southshore. If not, set it after landing.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
