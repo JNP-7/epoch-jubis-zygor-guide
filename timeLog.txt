@@ -40,7 +40,11 @@
 
 	4h: Detailed 4/24 sections
 	
+12/09/2024:
+
+	1.5h: Detailing 5th section WIP
+	
 ------------
 Total:
 
-	26.5h
+	28h

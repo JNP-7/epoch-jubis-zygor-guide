@@ -7385,19 +7385,11 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"comment": "You can abandon this and accept it again when you reach Ironforge",
+							"comment": "If you got the book that starts a quest, delete it and abandon the quest. By the time you get to IF it's worth the XP of 4 mobs. Takes longer to walk up to the guy.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 968,
-							"questName": "The Powers Below",
-							"subTasks": [],
-							"type": "Accept quest"
 						}
 					]
 				},
@@ -14541,7 +14533,7 @@
 							"xCoord": 27.01,
 							"yCoord": 58.82,
 							"coordsMap": "Arathi Highlands",
-							"comment": "Buy scrolls, pots and ALL the first aids books, we are never comming back here.",
+							"comment": "Buy scrolls, pots and ALL the first aids books, we are never comming back here. We will learn them later.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -16676,18 +16668,6 @@
 					]
 				},
 				{
-					"stepTasks": [
-						{
-							"comment": "If you are not 150 first aid yet try to get it and learn silk bandages on the trainer (gnome) upstairs",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -16760,97 +16740,43 @@
 			"sectionName": "Duskwood (29-31)",
 			"sectionSteps": [
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"xCoord": 61.35,
+							"yCoord": 89.31,
+							"coordsMap": "Current map",
+							"comment": "Buy weapon skills + the green level 30 quiver. You can even store it in your current quiver until you hit 30",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 50.45,
-							"yCoord": 5.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gerrig Bonegrip",
-							"npcId": 2786,
 							"subTasks": [
 								{
+									"npcName": "Thalgus Thunderfist",
+									"npcId": 7976,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 968,
-									"questName": "The Powers Below",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"xCoord": 70.59,
+							"yCoord": 83.75,
+							"coordsMap": "Current map",
+							"comment": "Train spells",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 63.83,
-							"yCoord": 67.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sara Balloo",
-							"npcId": 2695,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 637,
-									"questName": "Sully Balloo's Letter",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "City of Ironforge",
-							"depth": 0,
-							"isCustom": false,
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.83,
-							"yCoord": 67.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sara Balloo",
-							"npcId": 2695,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 683,
-									"questName": "Sara Balloo's Plea",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -16892,6 +16818,69 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"xCoord": 63.83,
+							"yCoord": 67.95
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Sara Balloo",
+							"npcId": 2695,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 637,
+									"questName": "Sully Balloo's Letter",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Sara Balloo's Plea",
+									"questId": 683,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.68,
+							"yCoord": 48.08,
+							"coordsMap": "Current map",
+							"comment": "Get the FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Gryth Thurden",
+									"npcId": 1573,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "City of Ironforge",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
 							"xCoord": 39.04,
 							"yCoord": 56.19
 						},
@@ -16908,37 +16897,14 @@
 									"questName": "Sara Balloo's Plea",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "City of Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 39.13,
-							"yCoord": 56.09
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "King Magni Bronzebeard",
-							"npcId": 2784,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 686,
 									"questName": "A King's Tribute",
+									"questId": 686,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -16958,65 +16924,29 @@
 							"yCoord": 87.62
 						},
 						{
+							"npcName": "Grand Mason Marblesten",
+							"npcId": 2790,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 686,
-							"questName": "A King's Tribute",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "City of Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.69,
-							"yCoord": 87.63
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 689,
-							"questName": "A King's Tribute",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "City of Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 71.67,
-							"yCoord": 52.03
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lomac Gearstrip",
-							"npcId": 4081,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "A King's Tribute",
+									"questId": 686,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1072,
-									"questName": "An Old Colleague",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
+								},
+								{
+									"questName": "A King's Tribute",
+									"questId": 689,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -17055,13 +16985,52 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stormwind City",
+							"coordsMap": "City of Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"xCoord": 71.67,
+							"yCoord": 52.03
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Lomac Gearstrip",
+							"npcId": 4081,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 1072,
+									"questName": "An Old Colleague",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 62.79,
-							"yCoord": 34.13
+							"yCoord": 34.13,
+							"coordsMap": "Stormwind City",
+							"comment": "Take the tram and train first aids (book + wool bandages) while waiting/on it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Hopefully you get to 150 first aid, otherwise no silk bandages for you :(",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -17076,37 +17045,6 @@
 									"questName": "Speak with Shoni",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 54.95,
-							"yCoord": 54.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Brother Kristoff",
-							"npcId": 1444,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 343,
-									"questName": "Speaking of Fortitude",
-									"subTasks": [],
-									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
@@ -17176,6 +17114,30 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 52.88,
+							"yCoord": 44.8,
+							"coordsMap": "Stormwind City",
+							"comment": "If you reached 150 first aid, go learn slik bandages",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Shaina Fuller",
+									"npcId": 2327,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -17207,6 +17169,69 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 63.76,
+							"yCoord": 80.81,
+							"coordsMap": "Stormwind City",
+							"comment": "Store the first aids books you weren't able to learn except the one for Heavy silk bandages",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.83,
+							"yCoord": 68.92,
+							"coordsMap": "Stormwind City",
+							"comment": "Train weapon skills",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Woo Ping",
+									"npcId": 11867,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 69.48,
+							"yCoord": 71.3,
+							"coordsMap": "Stormwind City",
+							"comment": "Buy 1 Stormwind Seasoning herbs for the quest in Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Felicia Gump",
+									"npcId": 1303,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -17231,6 +17256,14 @@
 									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Missing Diplomat",
+									"questId": 1241,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -17238,79 +17271,38 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 70.93,
+							"yCoord": 72.66,
 							"coordsMap": "Stormwind City",
+							"comment": "Get the FP",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 80.18,
-							"yCoord": 43.99
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bishop DeLavey",
-							"npcId": 4960,
 							"subTasks": [
 								{
+									"npcName": "Dungar Longdrink",
+									"npcId": 352,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1241,
-									"questName": "The Missing Diplomat",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 77.02,
-							"yCoord": 30.3
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 343,
-							"questName": "Speaking of Fortitude",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
+							"xCoord": 70.83,
+							"yCoord": 74.83,
 							"coordsMap": "Stormwind City",
+							"comment": "Go here, near the border and jump then press W to fall bellow slowly the the stone walls that let you walk up to the valley of heroes",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 77.1,
-							"yCoord": 30.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 344,
-							"questName": "Brother Paxton",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -17337,37 +17329,14 @@
 									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 76.17,
-							"yCoord": 85.23
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jorgen",
-							"npcId": 4959,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1242,
 									"questName": "The Missing Diplomat",
+									"questId": 1242,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -17399,37 +17368,14 @@
 									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.15,
-							"yCoord": 74.23
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Elling Trias",
-							"npcId": 482,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
+									"questName": "The Missing Diplomat",
 									"questId": 1243,
-									"questName": "The Missing Diplomat",
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -17437,35 +17383,127 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 59.12,
+							"yCoord": 82.08,
+							"coordsMap": "Elwynn Forest",
+							"comment": "If it's nightime, enter Duskwood from this place near the border. Otherwise run straight to Darkshire",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "There is a custom quest that can only be completed by killing a mob that only spawns at night. Keep an eye out for when the daycicle changes so you can complete the quest.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Sadly, the timer that decides which part of the day cycle is happening doesn't seem consistent, varies between some hours to a couple of minutes, so just keep an eye out.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Look for Plagued Shambler alongside the river if it's night time. He spawns at [64,17]",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"xCoord": 73.37,
+									"yCoord": 46.36,
+									"coordsMap": "Duskwood",
+									"comment": "If you found it, kite it towards Darkshire and accept the WANTED quest near the townhall",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Otherwise, walk the road north of Darkshire and turn in and accept the next parts of The missing diplomat",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 73.37,
-							"yCoord": 46.32
+							"yCoord": 46.32,
+							"coordsMap": "Duskwood",
+							"comment": "Interact with the WANTED post and THEN kill the shambler if you were kiting it.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"questName": "Wanted: Plagued Shambler",
+							"questId": 26325,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Plagued Shambler",
-							"npcId": 45325,
+							"type": "Accept quest",
 							"subTasks": [
 								{
+									"npcName": "Plagued Shambler",
+									"npcId": 45325,
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26325,
-									"questName": "Wanted: Plagued Shambler",
+									"type": "Kill",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"comment": "Skip this step after accepting the quest if it wasn't night time or you couldn't find/kite the mob. We will do it latere or yo",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 73.94,
+							"yCoord": 44.47,
+							"coordsMap": "Duskwood",
+							"comment": ">>> SET HS <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Innkeeper Trelayne",
+									"npcId": 6790,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
