@@ -17470,7 +17470,7 @@
 									"isCustom": true
 								},
 								{
-									"comment": "Skip this step after accepting the quest if it wasn't night time or you couldn't find/kite the mob. We will do it latere or yo",
+									"comment": "Skip this step after accepting the quest if it wasn't night time or you couldn't find/kite the mob. We will do it later",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -17478,6 +17478,46 @@
 								}
 							],
 							"isCustom": true
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 73.67,
+							"yCoord": 46.77,
+							"coordsMap": "Duskwood",
+							"comment": "Turn this in whenever you manage to kill it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Commander Althea Ebonlocke",
+							"npcId": 264,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26325,
+									"questName": "Wanted: Plagued Shambler",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Night Watch",
+									"questId": 56,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
 						}
 					]
 				},
@@ -17509,13 +17549,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Scarlet Raven Tavern",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 73.83,
-							"yCoord": 43.46
+							"yCoord": 43.46,
+							"coordsMap": "Duskwood",
+							"comment": "Turn this in now if you gathered enough in Ashenvale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -17540,27 +17581,36 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 72.5,
+							"yCoord": 34.32,
 							"coordsMap": "Duskwood",
+							"comment": "If it was daytime and you didn't enter Darkshire through the northen road",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 73.67,
-							"yCoord": 46.77
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Commander Althea Ebonlocke",
-							"npcId": 264,
+							"npcName": "Watcher Backus",
+							"npcId": 840,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 26325,
-									"questName": "Wanted: Plagued Shambler",
+									"questId": 1243,
+									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Missing Diplomat",
+									"questId": 1244,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -17576,22 +17626,69 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 73.65,
-							"yCoord": 46.8
+							"xCoord": 75.75,
+							"yCoord": 45.32
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Commander Althea Ebonlocke",
-							"npcId": 264,
+							"npcName": "Madame Eva",
+							"npcId": 265,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 56,
-									"questName": "The Night Watch",
+									"questId": 101,
+									"questName": "The Totem of Infliction",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "The Legend of Stalvan",
+									"questId": 66,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 72.57,
+							"yCoord": 46.87,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Clerk Daltry",
+							"npcId": 267,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 66,
+									"questName": "The Legend of Stalvan",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Legend of Stalvan",
+									"questId": 67,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -17654,68 +17751,22 @@
 									"questName": "The Hermit",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.27,
-							"yCoord": 48.58
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Elaine Carevin",
-							"npcId": 633,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 164,
 									"questName": "Deliveries to Sven",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.27,
-							"yCoord": 48.58
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Elaine Carevin",
-							"npcId": 633,
-							"subTasks": [
-								{
+									"questId": 164,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 163,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Raven Hill",
+									"questId": 163,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -17723,190 +17774,52 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 77.9,
+							"yCoord": 48.28,
 							"coordsMap": "Duskwood",
+							"comment": "If you didn't manage to get a Bronze Tube in any of the vendors of Wetlands or Stormwind, try your luck with this guy",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 75.75,
-							"yCoord": 45.32
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Madame Eva",
-							"npcId": 265,
 							"subTasks": [
 								{
+									"npcName": "Herble Baubbletump",
+									"npcId": 3133,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 101,
-									"questName": "The Totem of Infliction",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 77.56,
+							"yCoord": 44.36,
 							"coordsMap": "Duskwood",
+							"comment": "Get the FP",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 75.75,
-							"yCoord": 45.32
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Madame Eva",
-							"npcId": 265,
 							"subTasks": [
 								{
+									"npcName": "Felicia Maline",
+									"npcId": 2409,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 66,
-									"questName": "The Legend of Stalvan",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.5,
-							"yCoord": 34.32
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watcher Backus",
-							"npcId": 840,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1243,
-									"questName": "The Missing Diplomat",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.53,
-							"yCoord": 34.35
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watcher Backus",
-							"npcId": 840,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1244,
-									"questName": "The Missing Diplomat",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.57,
-							"yCoord": 46.87
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Clerk Daltry",
-							"npcId": 267,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 66,
-									"questName": "The Legend of Stalvan",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.57,
-							"yCoord": 46.87
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Clerk Daltry",
-							"npcId": 267,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 67,
-									"questName": "The Legend of Stalvan",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -17933,53 +17846,25 @@
 									"questName": "Look To The Stars",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Look To The Stars",
+									"questId": 174,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Look To The Stars",
+									"questId": 175,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 79.77,
-							"yCoord": 47.89
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 174,
-							"questName": "Look To The Stars",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 79.77,
-							"yCoord": 47.89
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 175,
-							"questName": "Look To The Stars",
-							"subTasks": [],
-							"type": "Accept quest"
 						}
 					]
 				},
@@ -17997,13 +17882,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Sarae Dewlight",
 							"npcId": 45320,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26313,
 									"questName": "Life In Death",
 									"subTasks": [],
@@ -18013,6 +17898,32 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Turn on Herb Tracking to see if it works with the blossoms you have to gather for the custom quest, it didn't work during the beta unfortunately",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Don't worry too much about the vials of venom or the skeleton fingers. Just go straight to the other quests.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If at any point during questing in Duskwood you get the Old history book, just accept the quest",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -18039,6 +17950,126 @@
 									"questName": "Look To The Stars",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Look To The Stars",
+									"questId": 177,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 79.83,
+							"yCoord": 70.69,
+							"coordsMap": "Duskwood",
+							"comment": "Have to kill some grey mobs to progress this questline unfortunately...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Skeletal Warrior",
+									"npcId": 48,
+									"count": 8,
+									"questId": 56,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Skeletal Mage",
+									"npcId": 203,
+									"count": 6,
+									"questId": 56,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Mary's Looking Glass",
+									"questId": 177,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Insane Ghoul",
+											"npcId": 511
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Brightwood Bloom",
+									"questId": 26313,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [
+										{
+											"comment": "You can delay this and gather the first ones you got on respawn. Hopefully the respawn bug for world objects gets fixed on launch and the ones you gathered at the begining are up again",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 77.62,
+							"yCoord": 52.22
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Sarae Dewlight",
+							"npcId": 45320,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26313,
+									"questName": "Life In Death",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Life In Death",
+									"questId": 26314,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -18054,25 +18085,24 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 81.83,
-							"yCoord": 59.14
+							"xCoord": 79.78,
+							"yCoord": 47.88
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Blind Mary",
-							"npcId": 302,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 177,
-									"questName": "Look To The Stars",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"questId": 177,
+							"questName": "Look To The Stars",
+							"subTasks": [],
+							"type": "Turn in quest"
+						},
+						{
+							"questName": "Look To The Stars",
+							"questId": 181,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -18101,37 +18131,14 @@
 									"questName": "The Night Watch",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.64,
-							"yCoord": 46.89
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Althea Ebonlocke",
-							"npcId": 264,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 57,
 									"questName": "The Night Watch",
+									"questId": 57,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -18139,79 +18146,147 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 65.45,
+							"yCoord": 65.3,
 							"coordsMap": "Duskwood",
+							"comment": "Kill them towards the western side of the orchard",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 79.78,
-							"yCoord": 47.88
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 177,
-							"questName": "Look To The Stars",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 79.78,
-							"yCoord": 47.88
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 181,
-							"questName": "Look To The Stars",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 81.12,
-							"yCoord": 57.19
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Skeletal Horror",
-							"npcId": 202,
 							"subTasks": [
 								{
+									"npcName": "Nightbane Shadow Weaver",
+									"npcId": 533,
+									"count": 6,
+									"questId": 173,
+									"questObjectiveIndex": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 337,
-									"questName": "An Old History Book",
+									"type": "Kill",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 56.32,
+							"yCoord": 64.61,
+							"coordsMap": "Duskwood",
+							"comment": "Kill any wolves you might need to finish the cooking quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Lean Wolf Flank",
+									"questId": 90,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Young Black Ravager",
+											"npcId": 923
+										},
+										{
+											"npcName": "Black Ravager",
+											"npcId": 628
+										}
+									],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 44.98,
+							"yCoord": 80.82,
+							"coordsMap": "Duskwood",
+							"comment": "Go towards STV to grab the FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "If the tauren is there it means you are the first one in STV or not that many people have been in rebel camp lately. If so, Private Thorsen should be walking away from his usual spot. That will tell you if the event is still bugged or not.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 38.22,
+							"yCoord": 4.1,
+							"coordsMap": "Current map",
+							"comment": "Grab the FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 37.6,
+							"yCoord": 4.25,
+							"coordsMap": "Current map",
+							"comment": "Go to the slope and while running and turning your camera slowly towards your right (towards the tree) spam jump to get up here. You can run through the mountains to Duskwood from here.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 27.02,
+							"yCoord": 83.99,
+							"coordsMap": "Duskwood",
+							"comment": "Run to about this spot through the mountain range and then go to the farm",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 23.95,
+							"yCoord": 71.94,
+							"coordsMap": "Duskwood",
+							"comment": "Interact with the box",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Defias Docket",
+									"questId": 1244,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -18238,11 +18313,79 @@
 									"questName": "Raven Hill",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Jitters' Growling Gut",
+									"questId": 5,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 18.07,
+							"yCoord": 54.54,
+							"coordsMap": "Duskwood",
+							"comment": "Sell junk and buy some pots/the alchemy recipe",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Bliztik",
+									"npcId": 2481,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 21.3,
+							"yCoord": 47.41,
+							"coordsMap": "Duskwood",
+							"comment": "Go towards Abercrombie and kill AT LEASST 8 Skeletal Fiends and enough to finish the custom quest. We are far from done running to Raven Hill...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Fresh Bone Powder",
+									"questId": 26314,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Skeletal Fiend",
+											"npcId": 531
+										},
+										{
+											"npcName": "Skeletal Horror",
+											"npcId": 202
+										}
+									],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -18253,22 +18396,30 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 18.04,
-							"yCoord": 56.66
+							"xCoord": 28,
+							"yCoord": 31.49
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Jitters",
-							"npcId": 288,
+							"npcName": "Abercrombie",
+							"npcId": 289,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 5,
-									"questName": "Jitters' Growling Gut",
+									"questId": 165,
+									"questName": "The Hermit",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Supplies from Darkshire",
+									"questId": 148,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -18288,21 +18439,12 @@
 							"yCoord": 29.15
 						},
 						{
+							"questName": "The Weathered Grave",
+							"questId": 225,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Rabid Dire Wolf",
-							"npcId": 565,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 225,
-									"questName": "The Weathered Grave",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -18331,68 +18473,14 @@
 									"questName": "Deliveries to Sven",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 7.75,
-							"yCoord": 34.07
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sven Yorgen",
-							"npcId": 311,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 95,
 									"questName": "Sven's Revenge",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28,
-							"yCoord": 31.49
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Abercrombie",
-							"npcId": 289,
-							"subTasks": [
-								{
+									"questId": 95,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 165,
-									"questName": "The Hermit",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -18400,47 +18488,48 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.04,
-							"yCoord": 31.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Abercrombie",
-							"npcId": 289,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 148,
-									"questName": "Supplies from Darkshire",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
+							"xCoord": 56.55,
+							"yCoord": 52.54,
 							"coordsMap": "Westfall",
+							"comment": "Go to Sentinell Hill and grab the FP. It's a good way to get back to Scen later on.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Thor",
+									"npcId": 523,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Yes, our flight master is Thor himself. Surely your faction is cooler than that, right mudhutters?",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 41.52,
-							"yCoord": 66.84
+							"yCoord": 66.84,
+							"coordsMap": "Westfall",
+							"comment": "Trap or send your pet to the spirit. You don't want to get cursed, your pet can easily be cleansed.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -18449,42 +18538,43 @@
 							"questName": "The Legend of Stalvan",
 							"subTasks": [],
 							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Westfall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.52,
-							"yCoord": 66.84
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 68,
 							"questName": "The Legend of Stalvan",
+							"questId": 68,
+							"depth": 0,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Darkshire",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Scarlet Raven Tavern",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 73.84,
-							"yCoord": 43.58
+							"yCoord": 43.58,
+							"coordsMap": "Duskwood",
+							"comment": "If you already turned the quest in early skip this.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -18499,37 +18589,14 @@
 									"questName": "Jitters' Growling Gut",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.66,
-							"yCoord": 46.77
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Althea Ebonlocke",
-							"npcId": 264,
-							"subTasks": [
+								},
 								{
+									"questId": 90,
+									"questName": "Seasoned Wolf Kabobs",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 57,
-									"questName": "The Night Watch",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -18537,47 +18604,52 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Duskwood",
+							"comment": "Only accept/turn in the spiders' legs quest and its follow up if you already have the legs from Ashenvale. Otherwise, skip it.",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.66,
-							"yCoord": 46.77
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Althea Ebonlocke",
-							"npcId": 264,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 58,
-									"questName": "The Night Watch",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 72.63,
-							"yCoord": 46.86
+							"yCoord": 46.86,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Some NPC",
+							"depth": 0,
+							"subTasks": [
+								{
+									"questName": "The Legend of Stalvan",
+									"questId": 68,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Legend of Stalvan",
+									"questId": 69,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to",
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -18593,35 +18665,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.63,
-							"yCoord": 46.86
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 69,
-							"questName": "The Legend of Stalvan",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 72.55,
-							"yCoord": 47.6
+							"yCoord": 47.6,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -18636,37 +18686,14 @@
 									"questName": "The Weathered Grave",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.55,
-							"yCoord": 47.6
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sirra Von'Indi",
-							"npcId": 268,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 227,
 									"questName": "Morgan Ladimore",
+									"questId": 227,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -18698,37 +18725,14 @@
 									"questName": "Morgan Ladimore",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.61,
-							"yCoord": 46.77
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Althea Ebonlocke",
-							"npcId": 264,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 228,
 									"questName": "Mor'Ladim",
+									"questId": 228,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -18760,37 +18764,14 @@
 									"questName": "Worgen in the Woods",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.33,
-							"yCoord": 47.88
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Calor",
-							"npcId": 663,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 221,
 									"questName": "Worgen in the Woods",
+									"questId": 221,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -18822,37 +18803,14 @@
 									"questName": "Supplies from Darkshire",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.75,
-							"yCoord": 45.3
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Madame Eva",
-							"npcId": 265,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 149,
 									"questName": "Ghost Hair Thread",
+									"questId": 149,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -18884,37 +18842,14 @@
 									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.54,
-							"yCoord": 34.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watcher Backus",
-							"npcId": 840,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1245,
 									"questName": "The Missing Diplomat",
+									"questId": 1245,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -18922,61 +18857,73 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": "If you havent killed the Shambler in the north coast now it would be a good time to do it if it's night time",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 61.94,
+							"yCoord": 40.31,
+							"coordsMap": "Duskwood",
+							"comment": "Kill about 6 runners here and then finish the quest in the camps to the south. If the rare is up kill it, drops a decent head piece.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Nightbane Dark Runner",
+									"npcId": 205,
+									"count": 12,
+									"questId": 221,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 75.69,
+							"yCoord": 47.51,
 							"coordsMap": "Duskwood",
+							"comment": ">>> Refill arrows at the inn<<<",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 77.62,
-							"yCoord": 52.22
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Sarae Dewlight",
-							"npcId": 45320,
+							"npcName": "Calor",
+							"npcId": 663,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 26313,
-									"questName": "Life In Death",
+									"questId": 221,
+									"questName": "Worgen in the Woods",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 77.62,
-							"yCoord": 52.22
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sarae Dewlight",
-							"npcId": 45320,
-							"subTasks": [
+								},
 								{
+									"questName": "Worgen in the Woods",
+									"questId": 222,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26314,
-									"questName": "Life In Death",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -19008,37 +18955,14 @@
 									"questName": "Ghost Hair Thread",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 81.92,
-							"yCoord": 59.14
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Blind Mary",
-							"npcId": 302,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 154,
 									"questName": "Return the Comb",
+									"questId": 154,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -19059,48 +18983,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Sarae Dewlight",
 							"npcId": 45320,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26314,
 									"questName": "Life In Death",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 77.59,
-							"yCoord": 52.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sarae Dewlight",
-							"npcId": 45320,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26315,
 									"questName": "Life In Death",
+									"questId": 26315,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -19132,42 +19033,82 @@
 									"questName": "Return the Comb",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.71,
-							"yCoord": 45.32
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Madame Eva",
-							"npcId": 265,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 157,
 									"questName": "Deliver the Thread",
+									"questId": 157,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 73.78,
+							"yCoord": 67.79,
+							"coordsMap": "Duskwood",
+							"comment": "When done with this location move to the next one to the west",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Nightbane Vile Fang",
+									"npcId": 206,
+									"count": 10,
+									"questId": 222,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Only kill enough Vile Fangs to get to the cave (you will almost finisht them anyways), then kill the ones inside and move out to the next location",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 59.91,
+							"yCoord": 80.37,
+							"coordsMap": "Duskwood",
+							"comment": "When done with the previous location move to the next one to the west",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Nightbane Tainted One",
+									"npcId": 920,
+									"count": 8,
+									"questId": 222,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "The rare can drop a green that sells for half a gold, kill it if up.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -19182,54 +19123,152 @@
 							"yCoord": 77.75
 						},
 						{
+							"questName": "Sven's Revenge",
+							"questId": 95,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Defias Night Blade",
-							"npcId": 909,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 95,
-									"questName": "Sven's Revenge",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "Sven's Camp",
+							"questId": 230,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 49.11,
+							"yCoord": 33.72,
 							"coordsMap": "Duskwood",
+							"comment": "Fill the Phial at the moonwell",
+							"itemId": 60376,
+							"itemName": "Half Filled Phial",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 50.02,
-							"yCoord": 77.75
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Defias Night Blade",
-							"npcId": 909,
 							"subTasks": [
 								{
+									"goalName": "Serae's Final Experiment",
+									"questId": 26315,
+									"questObjectiveIndex": 1,
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 230,
-									"questName": "Sven's Camp",
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"comment": "There is an elite nightmare to the west of the groove. Drops a great chestpiece for rogues, but the STR is not worth loosing the spirit sadly. Maybe if it was AGI.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 22.53,
+							"yCoord": 48.65,
+							"coordsMap": "Duskwood",
+							"comment": "If you killed 8 before, killing the ones in the 2 east camps of the graveyard should be enough",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Skeletal Fiend",
+									"npcId": 531,
+									"count": 15,
+									"questId": 57,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": ">>> Important <<< You must have killed AT LEAST 5 skeletal horrors aswell.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Mor'Ladim should be around, look for him and kill it by running circles around the tree a tree ([20,41] for example).",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Mor'Ladim's Skull",
+									"questId": 228,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Mor'Ladim",
+											"npcId": 522
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 31.31,
+							"yCoord": 39.4,
+							"coordsMap": "Duskwood",
+							"comment": "Kill spiders on your way north to Abercrombie",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Vial of Spider Venom",
+									"questId": 101,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Black Widow Hatchling",
+											"npcId": 930
+										}
+									],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -19256,37 +19295,14 @@
 									"questName": "Deliver the Thread",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28,
-							"yCoord": 31.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Abercrombie",
-							"npcId": 289,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 158,
 									"questName": "Zombie Juice",
+									"questId": 158,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -19318,37 +19334,14 @@
 									"questName": "Sven's Camp",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 7.82,
-							"yCoord": 34.12
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sven Yorgen",
-							"npcId": 311,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 262,
 									"questName": "The Shadowy Figure",
+									"questId": 262,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -19359,13 +19352,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Lion's Pride Inn",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 38.13,
-							"yCoord": 68.15
+							"yCoord": 68.15,
+							"coordsMap": "Elwynn Forest",
+							"comment": "Sell junk to the innkeeper aswell",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -19380,6 +19374,14 @@
 									"questName": "The Legend of Stalvan",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Legend of Stalvan",
+									"questId": 70,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -19387,35 +19389,31 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Lion's Pride Inn",
+							"xCoord": 38.29,
+							"yCoord": 67.68,
+							"coordsMap": "Elwynn Forest",
+							"comment": ">>> Important <<< Go upstairs and get the letter inside the chest.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 38.13,
-							"yCoord": 68.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Innkeeper Farley",
-							"npcId": 295,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"itemName": "An Undelivered Letter",
 									"questId": 70,
-									"questName": "The Legend of Stalvan",
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -19442,37 +19440,14 @@
 									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.12,
-							"yCoord": 74.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Elling Trias",
-							"npcId": 482,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1246,
 									"questName": "The Missing Diplomat",
+									"questId": 1246,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -19480,128 +19455,16 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stormwind City",
+							"comment": "You should have enought wool to get to 150 first aid and enough to get to 180 afterwards for heavy silk bandages. Go to the bank an retrieve the book if you stored it before. Skip this otherwise",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.72,
-							"yCoord": 72.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Caretaker Folsom",
-							"npcId": 297,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 70,
-									"questName": "The Legend of Stalvan",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.72,
-							"yCoord": 72.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Caretaker Folsom",
-							"npcId": 297,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 72,
-									"questName": "The Legend of Stalvan",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.61,
-							"yCoord": 72.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Caretaker Folsom",
-							"npcId": 297,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 72,
-									"questName": "The Legend of Stalvan",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.61,
-							"yCoord": 72.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Caretaker Folsom",
-							"npcId": 297,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 74,
-									"questName": "The Legend of Stalvan",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -19638,13 +19501,155 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 42.72,
+							"yCoord": 72.27,
 							"coordsMap": "Stormwind City",
+							"comment": "Take your pet out because one of those ghosts that curse id about to respawn. Trap or intimidate",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"depth": 0,
 							"isCustom": false,
-							"subTasks": [],
+							"npcName": "Caretaker Folsom",
+							"npcId": 297,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 70,
+									"questName": "The Legend of Stalvan",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Legend of Stalvan",
+									"questId": 72,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 42.61,
+							"yCoord": 72.2,
+							"coordsMap": "Stormwind City",
+							"comment": "Interact with the box and the ghost will spawn",
+							"depth": 0,
 							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "The Legend of Stalvan",
+							"questId": 72,
+							"depth": 0,
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "The Legend of Stalvan",
+							"questId": 74,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 52.93,
+							"yCoord": 44.83,
+							"coordsMap": "Stormwind City",
+							"comment": "Learn silk bandages if you didn't reach 150 first aid before. Otherwise, skip this.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Shaina Fuller",
+									"npcId": 2327,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.37,
+							"yCoord": 36.39,
+							"coordsMap": "Stormwind City",
+							"comment": "You should be level 30 already. Go train and get Feign Death",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Einris Brightspear",
+									"npcId": 5515,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "lf you already have the Old History Book, no its a good time to go to [77,30] inside Stormwind keep and turning it in.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 74.28,
+							"yCoord": 56.8,
+							"coordsMap": "Stormwind City",
+							"comment": "Go here to get to where the Dwarf is first",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"xCoord": 74.04,
-							"yCoord": 59.1
+							"yCoord": 59.1,
+							"coordsMap": "Stormwind City",
+							"comment": "Two adds will spawn after you start the quest. Feign death and agro them with your pet then kill the dwarf",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -19659,6 +19664,14 @@
 									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Missing Diplomat",
+									"questId": 1447,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -19666,35 +19679,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stormwind City",
+							"goalName": "Defeat Dashel Stonefist",
+							"questId": 1447,
+							"questObjectiveIndex": 1,
+							"count": 1,
 							"depth": 0,
-							"isCustom": false,
+							"type": "Goal",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 74.04,
-							"yCoord": 59.1
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Dashel Stonefist",
-							"npcId": 4961,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1447,
-									"questName": "The Missing Diplomat",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -19721,59 +19718,14 @@
 									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 74.06,
-							"yCoord": 59.22
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 1247,
-							"questName": "The Missing Diplomat",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 76.99,
-							"yCoord": 30.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Milton Sheaf",
-							"npcId": 1440,
-							"subTasks": [
+								},
 								{
+									"questName": "The Missing Diplomat",
+									"questId": 1247,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 337,
-									"questName": "An Old History Book",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -19781,35 +19733,16 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stormwind City",
+							"comment": "If you forgot to buy the Stormwind herbs like I've done a dozen if times over the years now it's a good time to do so at [69,71]",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 76.99,
-							"yCoord": 30.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Milton Sheaf",
-							"npcId": 1440,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 538,
-									"questName": "Southshore",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -19836,37 +19769,14 @@
 									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.11,
-							"yCoord": 74.22
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Elling Trias",
-							"npcId": 482,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1248,
 									"questName": "The Missing Diplomat",
+									"questId": 1248,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -19874,35 +19784,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Duskwood",
+							"xCoord": 70.97,
+							"yCoord": 72.56,
+							"coordsMap": "Stormwind City",
+							"comment": "Fly to Darkshire",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 75.71,
-							"yCoord": 45.34
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Madame Eva",
-							"npcId": 265,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 101,
-									"questName": "The Totem of Infliction",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -19929,130 +19823,14 @@
 									"questName": "The Shadowy Figure",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.72,
-							"yCoord": 45.34
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Madame Eva",
-							"npcId": 265,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 265,
 									"questName": "The Shadowy Search Continues",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.69,
-							"yCoord": 47.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Calor",
-							"npcId": 663,
-							"subTasks": [
-								{
+									"questId": 265,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 221,
-									"questName": "Worgen in the Woods",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.69,
-							"yCoord": 47.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Calor",
-							"npcId": 663,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 222,
-									"questName": "Worgen in the Woods",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 77.61,
-							"yCoord": 52.23
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sarae Dewlight",
-							"npcId": 45320,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26315,
-									"questName": "Life In Death",
-									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20084,6 +19862,14 @@
 									"questName": "Mor'Ladim",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Daughter Who Lived",
+									"questId": 229,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20091,78 +19877,56 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 74.69,
+							"yCoord": 46.17,
 							"coordsMap": "Duskwood",
+							"comment": "She moves around",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 73.56,
-							"yCoord": 46.79
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Watcher Ladimore",
+							"npcId": 576,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Althea Ebonlocke",
-							"npcId": 264,
+							"type": "Talk to",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
 									"questId": 229,
 									"questName": "The Daughter Who Lived",
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questId": 231,
+									"questName": "A Daughter's Love",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 72.62,
+							"yCoord": 46.86,
 							"coordsMap": "Duskwood",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 73.56,
-							"yCoord": 46.79
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Althea Ebonlocke",
-							"npcId": 264,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 58,
-									"questName": "The Night Watch",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.62,
-							"yCoord": 46.86
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -20177,68 +19941,14 @@
 									"questName": "The Shadowy Search Continues",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.62,
-							"yCoord": 46.86
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Clerk Daltry",
-							"npcId": 267,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 266,
 									"questName": "Inquire at the Inn",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 74.96,
-							"yCoord": 45.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watcher Ladimore",
-							"npcId": 576,
-							"subTasks": [
-								{
+									"questId": 266,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 229,
-									"questName": "The Daughter Who Lived",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20249,35 +19959,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 73.85,
+							"yCoord": 44.47,
 							"coordsMap": "Duskwood",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 74.96,
-							"yCoord": 45.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 231,
-							"questName": "A Daughter's Love",
 							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Scarlet Raven Tavern",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.85,
-							"yCoord": 44.47
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -20292,99 +19980,30 @@
 									"questName": "Zombie Juice",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Scarlet Raven Tavern",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.85,
-							"yCoord": 44.47
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tavernkeep Smitts",
-							"npcId": 273,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 156,
 									"questName": "Gather Rot Blossoms",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Scarlet Raven Tavern",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.85,
-							"yCoord": 44.47
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tavernkeep Smitts",
-							"npcId": 273,
-							"subTasks": [
-								{
+									"questId": 156,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 266,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Inquire at the Inn",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Scarlet Raven Tavern",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.85,
-							"yCoord": 44.47
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tavernkeep Smitts",
-							"npcId": 273,
-							"subTasks": [
-								{
+									"questId": 266,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 453,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Finding the Shadowy Figure",
+									"questId": 453,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20395,13 +20014,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Scarlet Raven Tavern",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 73.84,
-							"yCoord": 43.4
+							"yCoord": 43.4,
+							"coordsMap": "Duskwood",
+							"comment": "Turn this in if you didn't before or if you forgot to buy the herbs",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -20410,12 +20030,12 @@
 							"npcId": 272,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 90,
 									"questName": "Seasoned Wolf Kabobs",
+									"questId": 90,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20423,28 +20043,99 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 75.43,
+							"yCoord": 47.77,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Calor",
+							"npcId": 663,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 222,
+									"questName": "Worgen in the Woods",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 223,
+									"questName": "Worgen in the Woods",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 75.34,
+							"yCoord": 48.94,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Jonathan Carevin",
+							"npcId": 661,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Worgen in the Woods",
+									"questId": 223,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Scarlet Raven Tavern",
+							"xCoord": 77.61,
+							"yCoord": 52.23,
+							"coordsMap": "Duskwood",
+							"comment": "After turning it in there will be some RP.But there is nothing else afterwards, you can leave.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 73.84,
-							"yCoord": 43.4
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Chef Grual",
-							"npcId": 272,
+							"isCustom": true,
+							"npcName": "Sarae Dewlight",
+							"npcId": 45320,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 90,
-									"questName": "Seasoned Wolf Kabobs",
+									"isCustom": true,
+									"questId": 26315,
+									"questName": "Life In Death",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -20452,6 +20143,145 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 80.11,
+							"yCoord": 55.32,
+							"coordsMap": "Duskwood",
+							"comment": "You need to have killed 5 horrors before. If you don't finish rot blossoms don't worry, you can come back after flying back from Redridge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Skeletal Horror",
+									"npcId": 202,
+									"count": 15,
+									"questId": 57,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Rot Blossom",
+									"questId": 156,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Skeletal Horror",
+											"npcId": 202
+										}
+									],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Skeleton Finger",
+									"questId": 101,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Skeletal Horror",
+											"npcId": 202
+										}
+									],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [
+										{
+											"comment": "If not already done from before",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Some of these will be grey, but what can you do...",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 73.66,
+							"yCoord": 46.77
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Commander Althea Ebonlocke",
+							"npcId": 264,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 57,
+									"questName": "The Night Watch",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Night Watch",
+									"questId": 58,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If you finished Rot Blossoms turn it in, but it's unlikely to get 8 from 10 mobs at a 80% drop rate",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you didn't kill the shambler before and its currently night time, now it's a good time to do so. Check the northen coast.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step if done with the shambler's quest or if it's day time and can't do it.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -20478,6 +20308,14 @@
 									"questName": "The Legend of Stalvan",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Legend of Stalvan",
+									"questId": 75,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20485,35 +20323,31 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 85.63,
+							"yCoord": 69.61,
 							"coordsMap": "Elwynn Forest",
+							"comment": "Get your pet ready, another ghost will spawn. Go upstairs and interact with the box.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 84.65,
-							"yCoord": 69.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marshal Haggard",
-							"npcId": 294,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"itemName": "A Faded Journal Page",
 									"questId": 75,
-									"questName": "The Legend of Stalvan",
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -20540,6 +20374,14 @@
 									"questName": "The Legend of Stalvan",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Legend of Stalvan",
+									"questId": 78,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20547,47 +20389,62 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Elwynn Forest",
+							"xCoord": 30.67,
+							"yCoord": 59.45,
+							"coordsMap": "Redridge Mountains",
+							"comment": "Get the FP. If not many players around consider doing Bellygrub's quest (check if it's up with Eagle eye)",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 84.57,
-							"yCoord": 69.48
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "Fly to Darkshire afterwards w/e you decide to do.",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marshal Haggard",
-							"npcId": 294,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 74.13,
+							"yCoord": 44.86,
+							"coordsMap": "Duskwood",
+							"comment": ">>> Refill arrows <<<",
+							"depth": 0,
+							"type": "Go to",
 							"subTasks": [
 								{
+									"npcName": "Mabel Solaj",
+									"npcId": 227,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 78,
-									"questName": "The Legend of Stalvan",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Scarlet Raven Tavern",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 73.82,
-							"yCoord": 44.67
+							"yCoord": 44.67,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -20602,37 +20459,14 @@
 									"questName": "The Legend of Stalvan",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Scarlet Raven Tavern",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.82,
-							"yCoord": 44.67
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tavernkeep Smitts",
-							"npcId": 273,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 79,
 									"questName": "The Legend of Stalvan",
+									"questId": 79,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20664,6 +20498,14 @@
 									"questName": "The Legend of Stalvan",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Legend of Stalvan",
+									"questId": 80,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20674,44 +20516,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 72.62,
+							"yCoord": 46.9,
 							"coordsMap": "Duskwood",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 73.68,
-							"yCoord": 46.7
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Althea Ebonlocke",
-							"npcId": 264,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 80,
-									"questName": "The Legend of Stalvan",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.62,
-							"yCoord": 46.9
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -20726,37 +20537,14 @@
 									"questName": "The Legend of Stalvan",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.62,
-							"yCoord": 46.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Clerk Daltry",
-							"npcId": 267,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 97,
 									"questName": "The Legend of Stalvan",
+									"questId": 97,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20788,6 +20576,14 @@
 									"questName": "The Legend of Stalvan",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Legend of Stalvan",
+									"questId": 98,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20795,26 +20591,121 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Duskwood",
+							"comment": "If you didn't finish Gather Rot Blossoms before, go back to [80,59] and finish it ",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Rot Blossom",
+									"count": 8,
+									"questId": 156,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Skeletal Horror",
+											"npcId": 202
+										}
+									],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 156,
+									"questName": "Gather Rot Blossoms",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 159,
+									"questName": "Juice Delivery",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 73.85,
+							"yCoord": 44.49,
+							"coordsMap": "Duskwood",
+							"comment": "Skip if already did before",
+							"depth": 0,
 							"type": "Go to",
-							"xCoord": 73.53,
-							"yCoord": 46.86
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Tavernkeep Smitts",
+							"npcId": 273,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 98,
-							"questName": "The Legend of Stalvan",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 156,
+									"questName": "Gather Rot Blossoms",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 159,
+									"questName": "Juice Delivery",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 76.5,
+							"yCoord": 35.14,
+							"coordsMap": "Duskwood",
+							"comment": "This is the last chance to finish the Shambler quest after killing Stalvan. If it's not night time simply abandone the quest.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Mistmantle Family Ring",
+									"questId": 98,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Stalvan Mistmantle",
+											"npcId": 315
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -20848,6 +20739,28 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 77.54,
+							"yCoord": 44.33,
+							"coordsMap": "Duskwood",
+							"comment": "Get the FP to Rebel camp in STV.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Upon landing, do the same \"parkour\" you did before and run to Raven hill through the mountains",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -20872,37 +20785,14 @@
 									"questName": "Finding the Shadowy Figure",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 18.15,
-							"yCoord": 56.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jitters",
-							"npcId": 288,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 268,
 									"questName": "Return to Sven",
+									"questId": 268,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20934,37 +20824,14 @@
 									"questName": "Return to Sven",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 7.94,
-							"yCoord": 33.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sven Yorgen",
-							"npcId": 311,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 323,
 									"questName": "Proving Your Worth",
+									"questId": 323,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -20984,23 +20851,224 @@
 							"yCoord": 29.05
 						},
 						{
+							"questName": "A Daughter's Love",
+							"questId": 231,
+							"depth": 0,
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 27.96,
+							"yCoord": 31.51,
+							"coordsMap": "Duskwood",
+							"comment": "Cool sword, too bad the weapon training skill system is garbage and you don't get to use your weapon for 30-60 min if you haven't used that weapon type since level 10 or so. Don't worry, you can buy a better staff in STV",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Skeletal Raider",
-							"npcId": 1110,
+							"npcName": "Abercrombie",
+							"npcId": 289,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 231,
-									"questName": "A Daughter's Love",
+									"questId": 159,
+									"questName": "Juice Delivery",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questId": 133,
+									"questName": "Ghoulish Effigy",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "This part is really cool if you have claustrophobia",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 23.28,
+							"yCoord": 35.05,
+							"coordsMap": "Duskwood",
+							"comment": "Kill the 5 Plague Spreaders surrounding the tomb (the one at the slope doesn't count).",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Be aware of the rare ghoul here, it can easily kill you if you ass pull many other mobs aswell.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 23.64,
+							"yCoord": 28.04,
+							"coordsMap": "Duskwood",
+							"comment": "Kill every plague spreader in the first hallway and the first \"open\" space. You should be at 15/20",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 20.51,
+							"yCoord": 27.67,
+							"coordsMap": "Duskwood",
+							"comment": "There is one more in the next room (16/20). Go to the other crypt through this hole.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 15.99,
+							"yCoord": 34.28,
+							"coordsMap": "Duskwood",
+							"comment": "We are looking to kill the raiders here (16 spawns and you need 15...). There is one in the room you entered through and then one more to the room to your right (west on minimap) from this waypoint",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 15.53,
+							"yCoord": 36.88,
+							"coordsMap": "Duskwood",
+							"comment": "There is 1 more here in this waypoint and another one in the room to your right (west on minimap).",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "You should be at 4/15 when leaving the crypt. Go outside and kill everything there",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "There are 2 more in the road around [19,39]. Once you are done go to Morbent's house atop the hill and finish the 2 quests by killing the ones around/inside the house",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 17.56,
+							"yCoord": 34.77,
+							"coordsMap": "Duskwood",
+							"comment": "Shopping list ahead. In short, try patience.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Plague Spreader",
+									"npcId": 604,
+									"count": 20,
+									"questId": 58,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Ghoul Fang",
+									"questId": 101,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Ghoul Rib",
+									"questId": 133,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 7,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Skeletal Raider",
+									"npcId": 1110,
+									"count": 15,
+									"questId": 323,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Skeletal Healer",
+									"npcId": 787,
+									"count": 5,
+									"questId": 323,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Skeletal Warder",
+									"npcId": 785,
+									"count": 5,
+									"questId": 323,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -21027,236 +21095,14 @@
 									"questName": "Proving Your Worth",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 7.77,
-							"yCoord": 33.97
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sven Yorgen",
-							"npcId": 311,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 269,
 									"questName": "Seeking Wisdom",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.34,
-							"yCoord": 47.97
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Calor",
-							"npcId": 663,
-							"subTasks": [
-								{
+									"questId": 269,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 222,
-									"questName": "Worgen in the Woods",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.34,
-							"yCoord": 47.97
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Calor",
-							"npcId": 663,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 223,
-									"questName": "Worgen in the Woods",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.35,
-							"yCoord": 48.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jonathan Carevin",
-							"npcId": 661,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 223,
-									"questName": "Worgen in the Woods",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Scarlet Raven Tavern",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.82,
-							"yCoord": 44.67
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 156,
-							"questName": "Gather Rot Blossoms",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Scarlet Raven Tavern",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.82,
-							"yCoord": 44.67
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 159,
-							"questName": "Juice Delivery",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.96,
-							"yCoord": 31.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Abercrombie",
-							"npcId": 289,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 159,
-									"questName": "Juice Delivery",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.96,
-							"yCoord": 31.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Abercrombie",
-							"npcId": 289,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 133,
-									"questName": "Ghoulish Effigy",
-									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -21288,6 +21134,14 @@
 									"questName": "Ghoulish Effigy",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Ogre Thieves",
+									"questId": 134,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -21295,16 +21149,75 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 33.43,
+							"yCoord": 76.25,
+							"coordsMap": "Duskwood",
+							"comment": "Interact with the crate",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Abercrombie's Crate",
+									"questId": 134,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 36.99,
+							"yCoord": 83.3,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Ogre's Monocle",
+									"questId": 181,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Zzarc' Vul",
+											"npcId": 300
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 27.99,
+							"yCoord": 31.45,
 							"coordsMap": "Duskwood",
+							"comment": "If somehow you didn't get the Old History book after this ordeal, consider killing every single ogre in the area to try to get it to drop.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 28.02,
-							"yCoord": 31.49
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -21318,38 +21231,15 @@
 									"questId": 134,
 									"questName": "Ogre Thieves",
 									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.99,
-							"yCoord": 31.45
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Abercrombie",
-							"npcId": 289,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 134,
-									"questName": "Ogre Thieves",
-									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Note to the Mayor",
+									"questId": 160,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -21357,47 +21247,69 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Duskwood",
+							"comment": "HS back to Darkshire",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 73.63,
+							"yCoord": 46.97,
+							"coordsMap": "Duskwood",
+							"comment": "Sell junk and fill quiver inside the inn",
+							"depth": 0,
 							"type": "Go to",
-							"xCoord": 27.99,
-							"yCoord": 31.45
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Commander Althea Ebonlocke",
+							"npcId": 264,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Abercrombie",
-							"npcId": 289,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 58,
+									"questName": "The Night Watch",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 160,
-									"questName": "Note to the Mayor",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"comment": "Pick the ammo pouch if you already have better regular bags (your quiver is already better). Surely you will get a dwarven hand cannon at level 52",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 72.02,
-							"yCoord": 46.61
+							"yCoord": 46.61,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -21412,37 +21324,14 @@
 									"questName": "Note to the Mayor",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.02,
-							"yCoord": 46.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lord Ello Ebonlocke",
-							"npcId": 263,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 251,
 									"questName": "Translate Abercrombie's Note",
+									"questId": 251,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -21453,13 +21342,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 72.58,
-							"yCoord": 47.65
+							"yCoord": 47.65,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -21474,37 +21363,14 @@
 									"questName": "Translate Abercrombie's Note",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.58,
-							"yCoord": 47.65
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sirra Von'Indi",
-							"npcId": 268,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 401,
 									"questName": "Wait for Sirra to Finish",
+									"questId": 401,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -21515,13 +21381,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 72.62,
-							"yCoord": 47.52
+							"yCoord": 47.52,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -21536,37 +21402,14 @@
 									"questName": "Wait for Sirra to Finish",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.62,
-							"yCoord": 47.52
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sirra Von'Indi",
-							"npcId": 268,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 252,
 									"questName": "Translation to Ello",
+									"questId": 252,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -21577,13 +21420,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 72.01,
-							"yCoord": 46.59
+							"yCoord": 46.59,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -21598,37 +21441,45 @@
 									"questName": "Translation to Ello",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.01,
-							"yCoord": 46.59
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lord Ello Ebonlocke",
-							"npcId": 263,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 253,
 									"questName": "Bride of the Embalmer",
+									"questId": 253,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 75.71,
+							"yCoord": 45.34
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Madame Eva",
+							"npcId": 265,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 101,
+									"questName": "The Totem of Infliction",
+									"subTasks": [],
+									"type": "Turn in quest"
 								}
 							],
 							"type": "Talk to"
@@ -21667,6 +21518,60 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 77.53,
+							"yCoord": 44.33,
+							"coordsMap": "Duskwood",
+							"comment": "Fly to Stormwind",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "If you took the ammo pouch store it in the bank upon landing",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.2,
+							"yCoord": 48.38,
+							"coordsMap": "Stormwind City",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Brother Sarno",
+							"npcId": 7917,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 2923,
+									"questName": "Tinkmaster Overspark",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -21691,37 +21596,14 @@
 									"questName": "Seeking Wisdom",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.05,
-							"yCoord": 46.02
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bishop Farthing",
-							"npcId": 1212,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 270,
 									"questName": "The Doomed Fleet",
+									"questId": 270,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -21758,6 +21640,83 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 76.99,
+							"yCoord": 30.55,
+							"coordsMap": "Stormwind City",
+							"comment": "Only if you didn't do it before, otherwise skip it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Milton Sheaf",
+							"npcId": 1440,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 337,
+									"questName": "An Old History Book",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Southshore",
+									"questId": 538,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 68.97,
+							"yCoord": 30.96,
+							"coordsMap": "Stormwind City",
+							"comment": "Take the tram to IF",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Level up first aid while riding the tram as usual.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Even if you get to 210 first aid in the tram don't go to the bank to retrieve the mageweave manual yet. You can get it in Booty bay and/or Ratchet later on",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "If you got to level 32, train skills before leaving",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 5,
@@ -21767,6 +21726,53 @@
 		{
 			"sectionName": "Wetlands & Hillsbrad Pt.2 (29-34)",
 			"sectionSteps": [
+				{
+					"stepTasks": [
+						{
+							"xCoord": 69.85,
+							"yCoord": 50.31,
+							"coordsMap": "Current map",
+							"comment": "Right as you exist the tram",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Tinkmaster Overspark",
+							"npcId": 7944,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 2923,
+									"questName": "Tinkmaster Overspark",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.63,
+							"yCoord": 47.87,
+							"coordsMap": "Current map",
+							"comment": "Fly to Menethil Harbor",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
