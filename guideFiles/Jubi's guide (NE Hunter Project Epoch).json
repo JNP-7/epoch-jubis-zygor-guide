@@ -21724,7 +21724,7 @@
 			"startLevel": 29
 		},
 		{
-			"sectionName": "Wetlands & Hillsbrad Pt.2 (29-34)",
+			"sectionName": "Wetlands & Hillsbrad Pt.2 (31-34)",
 			"sectionSteps": [
 				{
 					"stepTasks": [
@@ -23833,13 +23833,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 48.19,
-							"yCoord": 59.2
+							"yCoord": 59.2,
+							"coordsMap": "Hillsbrad Foothills",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -23863,10 +23863,36 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "TODO",
+							"xCoord": 47.55,
+							"yCoord": 64.19,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "The hunters cast frost nova early during the fight. The oracles heal",
 							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Torn Fin Tidehunter",
+									"npcId": 2377,
+									"count": 10,
+									"questId": 536,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Torn Fin Oracle",
+									"npcId": 2376,
+									"count": 10,
+									"questId": 536,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -23897,6 +23923,14 @@
 									"questName": "Down the Coast",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Farren's Proof",
+									"questId": 559,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -23907,30 +23941,35 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 47.55,
+							"yCoord": 64.19,
 							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Back to the murlocs",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.39,
-							"yCoord": 58.45
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lieutenant Farren Orinelle",
-							"npcId": 2228,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"itemName": "Murloc Head",
 									"questId": 559,
-									"questName": "Farren's Proof",
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Torn Fin Tidehunter",
+											"npcId": 2377
+										},
+										{
+											"npcName": "Torn Fin Oracle",
+											"npcId": 2376
+										}
+									],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -23959,37 +23998,14 @@
 									"questName": "Farren's Proof",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.41,
-							"yCoord": 58.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lieutenant Farren Orinelle",
-							"npcId": 2228,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 560,
 									"questName": "Farren's Proof",
+									"questId": 560,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -24021,37 +24037,14 @@
 									"questName": "Farren's Proof",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 49.54,
-							"yCoord": 58.75
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marshal Redpath",
-							"npcId": 2263,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
+									"questName": "Farren's Proof",
 									"questId": 561,
-									"questName": "Farren's Proof",
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -24067,40 +24060,80 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.4,
+							"xCoord": 51.41,
 							"yCoord": 58.51
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"questId": 561,
-							"questName": "Farren's Proof",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"npcName": "Lieutenant Farren Orinelle",
+							"npcId": 2228,
+							"subTasks": [
+								{
+									"questName": "Farren's Proof",
+									"questId": 561,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Stormwind Ho!",
+									"questId": 562,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 53.43,
+							"yCoord": 64.2,
 							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Focus on the Shorehunters early even if they are offshore. Otherwise you will be wating for spawns or running too far off.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.4,
-							"yCoord": 58.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 562,
-							"questName": "Stormwind Ho!",
-							"subTasks": [],
-							"type": "Accept quest"
+							"subTasks": [
+								{
+									"comment": "The Sirens' SWP can be nasty if you get hit by too many in a row, mind your HP.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Daggerspine Shorehunter",
+									"npcId": 2369,
+									"count": 10,
+									"questId": 562,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Daggerspine Siren",
+									"npcId": 2371,
+									"count": 10,
+									"questId": 562,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -24127,6 +24160,14 @@
 									"questName": "Stormwind Ho!",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Reassignment",
+									"questId": 563,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -24134,47 +24175,202 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 55.29,
+							"yCoord": 56.86,
 							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Go here and then upstream while killing the turtles. If you aren't too unlucky you will get 10 meats right after climbing the waterfall",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.43,
-							"yCoord": 58.49
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lieutenant Farren Orinelle",
-							"npcId": 2228,
 							"subTasks": [
 								{
+									"comment": "If unlucky you can finish this later when running to plaguelands",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 563,
-									"questName": "Reassignment",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"itemName": "Turtle Meat",
+									"questId": 555,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Snapjaw",
+											"npcId": 2408
+										}
+									],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.44,
+							"yCoord": 32.02,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Inside the cave loot the granite from the nodes",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Alterac Granite",
+									"questId": 689,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "The custom rare can be tanked by your pet and drops nice MP5 boots",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 44.72,
+							"yCoord": 79.64,
+							"coordsMap": "Alterac Mountains",
+							"comment": "First clear this camp and, most importantly, the 4 Hulking Mountain Lions. You want to start the respawns",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 40.24,
+							"yCoord": 83.9,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Afterwards go here and finish killing the 8 regular ones. Kill any Hulking lions you find",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Mountain Lion",
+									"npcId": 2406,
+									"count": 8,
+									"questId": 564,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 43.13,
+							"yCoord": 79.95,
+							"coordsMap": "Alterac Mountains",
+							"comment": "When done with the regular lions go back to where you started and finish killing the last 3 Hulking lions.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Hulking Mountain Lion",
+									"npcId": 2407,
+									"count": 10,
+									"questId": 564,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.45,
+							"yCoord": 80.42,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Kill the respawning mobs here then move onto the camp east of the road",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 56.27,
+							"yCoord": 66.79,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Finish off the quest. Try to outrange the mage to pull it outside the camp",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Syndicate Footpad",
+									"npcId": 2240,
+									"count": 12,
+									"questId": 505,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Syndicate Thief",
+									"npcId": 2241,
+									"count": 8,
+									"questId": 505,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Alterac Mountains",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 58.32,
-							"yCoord": 67.67
+							"yCoord": 67.67,
+							"coordsMap": "Alterac Mountains",
+							"comment": "The letters could be in both tables, but in this server they are usually in the table east of the road",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -24183,30 +24379,129 @@
 							"questName": "Foreboding Plans",
 							"subTasks": [],
 							"type": "Accept quest"
+						},
+						{
+							"questName": "Encrypted Letter",
+							"questId": 511,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 50.31,
+							"yCoord": 60.13,
 							"coordsMap": "Alterac Mountains",
+							"comment": "Kill some ogres here while moving straight to the mountain pass",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 58.32,
-							"yCoord": 67.67
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 50.21,
+							"yCoord": 49.89,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Go here and try to <slash>Lo'Grosh . It's a rare that has a 1/10 chance of dropping a 4.0s two handed lvl 32 mace. It's the best weapon for it's level.",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 511,
-							"questName": "Encrypted Letter",
+							"type": "Go to",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
+						},
+						{
+							"xCoord": 47.3,
+							"yCoord": 35.25,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Vendor things here and finish killing the ogres.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Rizz Loosebolt",
+									"npcId": 2684,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Dirty Knucklebones",
+									"questId": 500,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 9,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.58,
+							"yCoord": 44.01,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Track hidden to try and see the stealthed mobs. Gather the seeds in the baskets near the trees.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Wintercrisp Apple Seed",
+									"questId": 27718,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 6,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 42.96,
+							"yCoord": 85.02,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Go to WPL to grab the FP and fly back to Southshore.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Bibilfaz Featherwhistle",
+									"npcId": 12596,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "If you were unlucky when doing the Turtle Meat quest take a detour to the river while on your way to WPL",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -24217,87 +24512,25 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 49.51,
-							"yCoord": 58.78
+							"xCoord": 52.36,
+							"yCoord": 56.02
 						},
 						{
+							"npcName": "Darren Malvew",
+							"npcId": 2382,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marshal Redpath",
-							"npcId": 2263,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "Costly Menace",
+									"questId": 564,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 500,
-									"questName": "Crushridge Bounty",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 48.18,
-							"yCoord": 59.23
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Magistrate Henry Maleb",
-							"npcId": 2276,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 510,
-									"questName": "Foreboding Plans",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 48.16,
-							"yCoord": 59.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Magistrate Henry Maleb",
-							"npcId": 2276,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 505,
-									"questName": "Syndicate Assassins",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -24326,6 +24559,14 @@
 									"questName": "Encrypted Letter",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Letter to Stormpike",
+									"questId": 514,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -24333,57 +24574,36 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.1,
+							"yCoord": 59.2,
 							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Don't bother with the follow up yet",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 50.54,
-							"yCoord": 57.16
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Neema",
+							"npcId": 2364,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Loremaster Dibbs",
-							"npcId": 2277,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "A Rare Variety",
+									"questId": 27718,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 514,
-									"questName": "Letter to Stormpike",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.36,
-							"yCoord": 56.02
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 564,
-							"questName": "Costly Menace",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -24415,11 +24635,98 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 49.51,
+							"yCoord": 58.78,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Don't bother with the follow up yet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Marshal Redpath",
+							"npcId": 2263,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 500,
+									"questName": "Crushridge Bounty",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 48.18,
+							"yCoord": 59.23,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Don't bother with the follow up yet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Magistrate Henry Maleb",
+							"npcId": 2276,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 510,
+									"questName": "Foreboding Plans",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Syndicate Assassins",
+									"questId": 505,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.35,
+							"yCoord": 52.34,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Fly to Menethil if you haven't set your HS there. Otherwise, fly to IF",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 6,
 			"defaultForRace": -1,
-			"startLevel": 29
+			"startLevel": 31
 		},
 		{
 			"sectionName": "Duskwood final & 1k needles (34-35)",
@@ -29426,12 +29733,19 @@
 							"npcId": 2364,
 							"subTasks": [
 								{
+									"questId": 0,
+									"questName": "Watermelon Punch",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27718,
-									"questName": "A Rare Variety",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"comment": "Manually skip this step. No quest ID currently",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -29499,6 +29813,18 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "TODO: At some point around here gather the 4 Juicy Watermelons for Watermelon Punch",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -29581,12 +29907,12 @@
 							"npcId": 2364,
 							"subTasks": [
 								{
+									"questName": "Watermelon Punch",
+									"questId": 0,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27718,
-									"questName": "A Rare Variety",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
