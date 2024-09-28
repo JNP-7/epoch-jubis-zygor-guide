@@ -16782,7 +16782,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -16813,7 +16813,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -16876,7 +16876,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -16915,7 +16915,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -16954,7 +16954,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -16985,7 +16985,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -18528,6 +18528,13 @@
 							"comment": "Trap or send your pet to the spirit. You don't want to get cursed, your pet can easily be cleansed.",
 							"depth": 0,
 							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "While running to Moonbrook, check the water pond at [46,59]. If Vultros is up, kill him",
+							"depth": 0,
+							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
@@ -24735,91 +24742,74 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 38.71,
-							"yCoord": 87.61
-						},
-						{
+							"yCoord": 87.61,
+							"coordsMap": "Ironforge",
+							"comment": "This will trigger some roleplay, go learn spells and fill your quiver meanwhile",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 689,
-							"questName": "A King's Tribute",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "City of Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 74.41,
-							"yCoord": 11.96
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Grand Mason Marblesten",
+							"npcId": 2790,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Prospector Stormpike",
-							"npcId": 1356,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "A King's Tribute",
+									"questId": 689,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 514,
-									"questName": "Letter to Stormpike",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"xCoord": 69.89,
+							"yCoord": 83.02,
+							"coordsMap": "Ironforge",
+							"comment": "Train spells (Explosive trap!!!)",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 74.41,
-							"yCoord": 11.96
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 71.96,
+							"yCoord": 66.54,
+							"coordsMap": "Ironforge",
+							"comment": ">>> Fill quiver <<<",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Prospector Stormpike",
-							"npcId": 1356,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 525,
-									"questName": "Further Mysteries",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 38.84,
+							"yCoord": 87.77,
+							"coordsMap": "Ironforge",
+							"comment": "Finally, back to the Mason.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -24850,13 +24840,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 39.39,
-							"yCoord": 55.71
+							"yCoord": 55.71,
+							"coordsMap": "Ironforge",
+							"comment": "If you are close to 210 first aid you can go to the bank and get the mageweave bandage book",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -24876,6 +24867,60 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Ironforge",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 74.41,
+							"yCoord": 11.96
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Prospector Stormpike",
+							"npcId": 1356,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 514,
+									"questName": "Letter to Stormpike",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Further Mysteries",
+									"questId": 525,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 76.72,
+							"yCoord": 51.23,
+							"coordsMap": "Ironforge",
+							"comment": "Take the tram to SW and work on first aid",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -24902,37 +24947,14 @@
 									"questName": "Blessed Arm",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 59.72,
-							"yCoord": 34.04
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grimand Elmore",
-							"npcId": 1416,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 325,
 									"questName": "Armed and Ready",
+									"questId": 325,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -24971,6 +24993,21 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 71,
+							"yCoord": 72.51,
+							"coordsMap": "Stormwind City",
+							"comment": "Fly to Westfall",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -24995,6 +25032,14 @@
 									"questName": "Armed and Ready",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Morbent Fel",
+									"questId": 55,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -25002,55 +25047,68 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 17.01,
+							"yCoord": 33.38,
 							"coordsMap": "Duskwood",
+							"comment": "This quest was bugged. If you weaken him (intended way) killing the weakened version doesn't give credit. Killing the regular version takes a while and can be done by LoSing casts, but was completing the quest. Up to you. If the quest doesn't complete just abandon it, we are never getting back here. ",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 7.69,
-							"yCoord": 34.09
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sven Yorgen",
-							"npcId": 311,
 							"subTasks": [
 								{
+									"comment": "To weaken him equip the blessed arm (off hand weapon) and use the effect.",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 55,
-									"questName": "Morbent Fel",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"npcName": "Morbent Fel",
+									"npcId": 1200,
+									"count": 1,
+									"questId": 55,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 28.8,
+							"yCoord": 31.01,
 							"coordsMap": "Duskwood",
+							"comment": "Interact with the grave to summon Eliza",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 28.81,
-							"yCoord": 30.91
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Abercrombie",
-							"npcId": 289,
-							"subTasks": [],
-							"type": "Talk to"
+							"subTasks": [
+								{
+									"itemName": "The Embalmer's Heart",
+									"questId": 253,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Eliza",
+											"npcId": 314
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -25086,16 +25144,31 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 56.55,
+							"yCoord": 52.61,
+							"coordsMap": "Westfall",
+							"comment": "Run to Sentinel Hill then fly to Darkshire",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 72,
-							"yCoord": 46.62
+							"yCoord": 46.62,
+							"coordsMap": "Duskwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -25115,6 +25188,66 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Menethil",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 5.07,
+							"yCoord": 63.38,
+							"coordsMap": "Wetlands",
+							"comment": "Take the boat to Theramore",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "There are a couple quest lines missing in Dustwallow and some from TBC that remain, it's really weaird and lame... I understand not keeping the one where you find out that the Defias were the ones who kidnapped Varian, but the others...",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.52,
+							"yCoord": 51.27,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Get the FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Baldruc",
+									"npcId": 4321,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -25172,37 +25305,14 @@
 									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.02,
-							"yCoord": 48.59
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Samaul",
-							"npcId": 4964,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1265,
 									"questName": "The Missing Diplomat",
+									"questId": 1265,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -25234,37 +25344,14 @@
 									"questName": "Vimes's Report",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.18,
-							"yCoord": 48.53
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Garran Vimes",
-							"npcId": 4944,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 11123,
 									"questName": "Inspecting the Ruins",
+									"questId": 11123,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -25327,68 +25414,14 @@
 									"questName": "Fiora Longears",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.45,
-							"yCoord": 45.24
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Fiora Longears",
-							"npcId": 4456,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1133,
-									"questName": "Journey to Astranaar",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.45,
-							"yCoord": 45.24
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Fiora Longears",
-							"npcId": 4456,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1135,
 									"questName": "Highperch Venom",
+									"questId": 1135,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -25396,16 +25429,48 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 66.58,
+							"yCoord": 45.27,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": ">>> Set HS <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "You might want to buy 1 stack of lvl 35 water. You can do some AoE pulls with Explosive trap now that you just got the first rank (it's when it's most powerful relative to mob HP)",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Innkeeper Janene",
+									"npcId": 6272,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 66.26,
-							"yCoord": 49.09
+							"yCoord": 49.09,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "And yes, the questline ends abruptly here :/",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -25425,6 +25490,18 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If you forgot to buy 3 Soothing spices in Southshore now it's the time to do it from Helenia at [66,51]",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -25451,6 +25528,14 @@
 									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Missing Diplomat",
+									"questId": 1266,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -25466,25 +25551,42 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 59.67,
-							"yCoord": 41.18
+							"xCoord": 55.41,
+							"yCoord": 26.27
 						},
 						{
+							"npcName": "\"Swamp Eye\" Jarl",
+							"npcId": 4792,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Archmage Tervosh",
-							"npcId": 4967,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "Marsh Frog Legs",
+									"questId": 1218,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1266,
-									"questName": "The Missing Diplomat",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Marsh Frog Legs",
+									"questId": 1218,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [
+										{
+											"questName": "Jarl Needs Eyes",
+											"questId": 1206,
+											"depth": 2,
+											"type": "Accept quest",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -25492,79 +25594,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 55.41,
-							"yCoord": 26.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 1218,
-							"questName": "Marsh Frog Legs",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 55.41,
-							"yCoord": 26.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 1218,
-							"questName": "Marsh Frog Legs",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 55.39,
-							"yCoord": 26.24
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 1206,
-							"questName": "Jarl Needs Eyes",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 55.44,
-							"yCoord": 26.01
+							"yCoord": 26.01,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Interact with the dirt pile",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -25580,13 +25617,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 45.25,
-							"yCoord": 24.54
+							"yCoord": 24.54,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "As soon as you accept the follow up Hendel and the 2 guards will atck you. Take them off you with your pet and focus in Hendel",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -25601,6 +25639,14 @@
 									"questName": "The Missing Diplomat",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Missing Diplomat",
+									"questId": 1324,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -25608,35 +25654,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
+							"goalName": "Subdue Hendel",
+							"questId": 1324,
+							"questObjectiveIndex": 1,
+							"count": 1,
 							"depth": 0,
-							"isCustom": false,
+							"type": "Goal",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 45.25,
-							"yCoord": 24.54
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Private Hendel",
-							"npcId": 4966,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1324,
-									"questName": "The Missing Diplomat",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -25673,13 +25703,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 45.16,
-							"yCoord": 24.23
+							"yCoord": 24.23,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "It's not a quest but there is a turn-in for the final reward",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -25726,13 +25757,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 29.8,
-							"yCoord": 47.75
+							"yCoord": 47.75,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "The footprints don't give a quest. -1k XP for no reason. At least these don't block the questchain",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -25757,61 +25789,22 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 29.8,
-							"yCoord": 48.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Inspector Tarem",
-							"npcId": 23567,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1252,
-									"questName": "Lieutenant Paval Reethe",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
+							"yCoord": 48.2,
 							"coordsMap": "Dustwallow Marsh",
+							"comment": "The badge in the floor",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 29.62,
-							"yCoord": 48.55
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"questName": "Lieutenant Paval Reethe",
+							"questId": 1252,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Inspector Tarem",
-							"npcId": 23567,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1253,
-									"questName": "The Black Shield",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -25819,13 +25812,44 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Thousand Needles",
+							"xCoord": 29.62,
+							"yCoord": 48.55,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "The shield in the wall",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "The Black Shield",
+							"questId": 1253,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 30.54,
-							"yCoord": 23.87
+							"yCoord": 23.87,
+							"coordsMap": "Thousand Needles",
+							"comment": "Time for some leg day. Go to the elevator south of the barrens to get into 1k needles",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Once you are down there interact with the book near the dwarf's corpse",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -25841,44 +25865,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Feralas",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 89.65,
-							"yCoord": 46.53
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Falfindel Waywarder",
-							"npcId": 4048,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26568,
-									"questName": "The Sacred Flame",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
+							"yCoord": 46.53,
 							"coordsMap": "Feralas",
+							"comment": ">>> TURN IN ORDER IS IMPORTANT <<< First turn in the journal then do Reclaiming the Charred Vale. If you have auto turn in you might want to disable it for a moment",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 89.64,
-							"yCoord": 46.54
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -25887,43 +25881,20 @@
 							"npcId": 4048,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1100,
 									"questName": "Lonebrow's Journal",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Feralas",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 89.64,
-							"yCoord": 46.54
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Falfindel Waywarder",
-							"npcId": 4048,
-							"subTasks": [
-								{
+									"questId": 1100,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1059,
-									"questName": "Reclaiming the Charred Vale",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Reclaiming the Charred Vale",
+									"questId": 1059,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -25944,13 +25915,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Kristy Grant",
 							"npcId": 11826,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26565,
 									"questName": "Why Oh Wyvern",
 									"subTasks": [],
@@ -25981,7 +25952,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26567,
 									"questName": "Stitching Supplies",
 									"subTasks": [],
@@ -25993,16 +25964,132 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 89.49,
+							"yCoord": 45.85,
+							"coordsMap": "Feralas",
+							"comment": "Get the FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Thyssiana",
+									"npcId": 4319,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "From now on and until level 40 or so when explosive trap dmg starts to fall off relative to mob HP, you should try to do the following in group of mobs that you outlevel and are grouped together",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Place an explosive trap while you send your pet to gather a bunch of mobs (you can help with range attacks on far away ones) then take agro off of you with growl/intimidate. Start healing your pet as soon as you have gathered 3 and have growled them off of you.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "When 5 of them or so are gathered bring them back to the trap to trigger it. Once your trap is off CD again place another explosive trap, cas multishot and the feign death. Keep mend pet up and the mobs will die shortly after.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Practice with the wyverns in the area we are headed to. Yer a mage, Hunter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 13.65,
+							"yCoord": 38.14,
+							"coordsMap": "Thousand Needles",
+							"comment": "Go to the Wyvern area. The cat is there inside the nest and hard to see if you don't turn the camera to look inside. Target the cat (<slash>target Cody) and use the carrier",
+							"itemId": 60862,
+							"itemName": "Empty Pet Carrier",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Cody's carrier",
+									"questId": 26565,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"comment": "Any wyvern can drop the leather and the venom",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Dusty Leather",
+									"questId": 26567,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Highperch Venom Sac",
+									"questId": 1135,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Feralas",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 89.44,
-							"yCoord": 46.05
+							"yCoord": 46.05,
+							"coordsMap": "Feralas",
+							"comment": "If you f'ed up the quest turn in order before turn the one you missed now.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -26058,13 +26145,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 78.4,
-							"yCoord": 75.7
+							"yCoord": 75.7,
+							"coordsMap": "Thousand Needles",
+							"comment": "Marathon is over, there is even a finish line.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -32320,7 +32408,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -32351,7 +32439,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -32373,7 +32461,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -36549,7 +36637,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -42809,7 +42897,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -42840,7 +42928,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -42871,7 +42959,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -46087,7 +46175,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -46118,7 +46206,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -46149,7 +46237,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -46180,7 +46268,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -46211,7 +46299,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -46242,7 +46330,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -47570,7 +47658,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -47592,7 +47680,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -47623,7 +47711,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -47654,7 +47742,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -47685,7 +47773,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -47716,7 +47804,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -47747,7 +47835,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -51563,7 +51651,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -51585,7 +51673,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -57804,7 +57892,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -57835,7 +57923,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -57866,7 +57954,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -57897,7 +57985,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -62838,7 +62926,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -62869,7 +62957,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "City of Ironforge",
+							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
