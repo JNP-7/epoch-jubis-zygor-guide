@@ -48,19 +48,23 @@
 
 	7h: Detailed 5/24 sections (2nd worst section probably)
 	
-22/09/2024
+22/09/2024:
 
 	2.5h: Detailing 6th section WIP (almost done)
 	
-24/09/2024
+24/09/2024:
 
 	1.5h: Detailed 6/24 sections
 	
-28/09/2024
+28/09/2024:
 
 	2h: Detailing 7th section
+	
+02/10/2024:
+
+	2.5h: Detailed 7/24 sections
 	
 ------------
 Total:
 
-	41h
+	43.5h

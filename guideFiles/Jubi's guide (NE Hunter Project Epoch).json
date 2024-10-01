@@ -3123,7 +3123,7 @@
 							"xCoord": 48.9,
 							"yCoord": 48.66,
 							"coordsMap": "Teldrassil",
-							"comment": "Ride the cart if it's nearby. Check/bind your keybind to get out of a vehicle or type <slash>leavevehicle once you arrive to the spot close to the pass through the mountains.",
+							"comment": "Ride the cart if it's nearby. Check/bind your keybind to get out of a vehicle or type /leavevehicle once you arrive to the spot close to the pass through the mountains.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -3133,7 +3133,7 @@
 							"xCoord": 49.57,
 							"yCoord": 45.1,
 							"coordsMap": "Teldrassil",
-							"comment": "Go into the mountains and try to <slash>target Corrupted Treant. Kill it if it's inside the cave and then drop down.",
+							"comment": "Go into the mountains and try to /target Corrupted Treant. Kill it if it's inside the cave and then drop down.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -3143,7 +3143,7 @@
 							"xCoord": 45.62,
 							"yCoord": 42.39,
 							"coordsMap": "Teldrassil",
-							"comment": "Type <slash>target Lord to check if the rare spider is around. If so kill it",
+							"comment": "Type /target Lord to check if the rare spider is around. If so kill it",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -24413,7 +24413,7 @@
 							"xCoord": 50.21,
 							"yCoord": 49.89,
 							"coordsMap": "Alterac Mountains",
-							"comment": "Go here and try to <slash>Lo'Grosh . It's a rare that has a 1/10 chance of dropping a 4.0s two handed lvl 32 mace. It's the best weapon for it's level.",
+							"comment": "Go here and try to /target Lo'Grosh . It's a rare that has a 1/10 chance of dropping a 4.0s two handed lvl 32 mace. It's the best weapon for it's level.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -26026,7 +26026,7 @@
 							"xCoord": 13.65,
 							"yCoord": 38.14,
 							"coordsMap": "Thousand Needles",
-							"comment": "Go to the Wyvern area. The cat is there inside the nest and hard to see if you don't turn the camera to look inside. Target the cat (<slash>target Cody) and use the carrier",
+							"comment": "Go to the Wyvern area. The cat is there inside the nest and hard to see if you don't turn the camera to look inside. Target the cat (/target Cody) and use the carrier",
 							"itemId": 60862,
 							"itemName": "Empty Pet Carrier",
 							"depth": 0,
@@ -26099,7 +26099,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26565,
 									"questName": "Why Oh Wyvern",
 									"subTasks": [],
@@ -26130,7 +26130,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26567,
 									"questName": "Stitching Supplies",
 									"subTasks": [],
@@ -26156,13 +26156,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Peach",
 							"npcId": 45976,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26665,
 									"questName": "Driving License Approval",
 									"subTasks": [],
@@ -26172,6 +26172,29 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "/target Race Master then /beg",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"goalName": "/beg Race Master Kronkrider",
+									"questId": 26665,
+									"questObjectiveIndex": 3,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -26186,6 +26209,24 @@
 							"yCoord": 77.05
 						},
 						{
+							"comment": "/target Wizzle then /beg",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"goalName": "/beg Wizzle Brassbolts",
+									"questId": 26665,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
 							"depth": 0,
 							"isCustom": false,
 							"npcName": "Wizzle Brassbolts",
@@ -26198,37 +26239,14 @@
 									"questName": "The Brassbolts Brothers",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 78.12,
-							"yCoord": 77.08
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Wizzle Brassbolts",
-							"npcId": 4453,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1105,
 									"questName": "Hardened Shells",
+									"questId": 1105,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -26291,99 +26309,22 @@
 									"questName": "Rocket Car Parts",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 77.83,
-							"yCoord": 77.19
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kravel Koalbeard",
-							"npcId": 4452,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1111,
 									"questName": "Wharfmaster Dizzywig",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 77.83,
-							"yCoord": 77.19
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kravel Koalbeard",
-							"npcId": 4452,
-							"subTasks": [
-								{
+									"questId": 1111,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5762,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Hemet Nesingwary Jr.",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 80.1,
-							"yCoord": 76.63
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Zamek",
-							"npcId": 4709,
-							"subTasks": [
-								{
+									"questId": 5762,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27300,
-									"questName": "Call to Arms: Thousand Needles",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -26401,6 +26342,24 @@
 							"type": "Go to",
 							"xCoord": 80.11,
 							"yCoord": 75.9
+						},
+						{
+							"comment": "/target Razzeric then /plead",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"goalName": "/plead with Razzeric",
+									"questId": 26665,
+									"questObjectiveIndex": 2,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -26415,68 +26374,22 @@
 									"questName": "Load Lightening",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 80.11,
-							"yCoord": 75.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pozzik",
-							"npcId": 4630,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26561,
 									"questName": "The Ghost of the Flats",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 80.11,
-							"yCoord": 75.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pozzik",
-							"npcId": 4630,
-							"subTasks": [
-								{
+									"questId": 26561,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26666,
-									"questName": "Fresh Water Delivery",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"questName": "Fresh Water Delivery",
+									"questId": 26666,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -26494,6 +26407,24 @@
 							"type": "Go to",
 							"xCoord": 81.61,
 							"yCoord": 77.87
+						},
+						{
+							"comment": "/target Trackmaster then /plead",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"goalName": "/plead with Trackmaster Zherin",
+									"questId": 26665,
+									"questObjectiveIndex": 4,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -26518,13 +26449,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 78.53,
-							"yCoord": 75.68
+							"yCoord": 75.68,
+							"coordsMap": "Thousand Needles",
+							"comment": "Right click it as soon as you get it to use it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -26534,7 +26466,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26665,
 									"questName": "Driving License Approval",
 									"subTasks": [],
@@ -26546,24 +26478,152 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 78.36,
+							"yCoord": 73.84,
+							"coordsMap": "Thousand Needles",
+							"comment": "Right click on the device to get on top of the tower and give some water to the NPCs (3/10)",
+							"itemId": 61079,
+							"itemName": "Cool Sparkling Fresh Water",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "There is a box with a parachute in each tower so you don't get fall damage when going down.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Don't miss the NPC at the base of the tower!!!",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 76.5,
+							"yCoord": 85.21,
+							"coordsMap": "Thousand Needles",
+							"comment": "Kill all the Basilisks in this area. A couple of them are close together, so consider clearing some of the pulls with AOE as it was explained earlier.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "When you are done you will still be missing the 10 regular ones. We will kill them later in the north",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Saltstone Crystalhide",
+									"npcId": 4151,
+									"count": 10,
+									"questId": 1175,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Saltstone Gazer",
+									"npcId": 4150,
+									"count": 6,
+									"questId": 1175,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "As you move around the salt flats gather the 30 car parts and kill any beast you that drops something that you are missing, specially the Vultures for the bones!!! (very few of them)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"stepTasks": [
 						{
 							"coordsMap": "Thousand Needles",
+							"xCoord": 82.42,
+							"yCoord": 82.7,
+							"comment": "Go to the tower and give some water to the NPCs, don't miss the one at the base!!! (6/10)",
+							"itemId": 61079,
+							"itemName": "Cool Sparkling Fresh Water",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 86.96,
-							"yCoord": 81.04
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26560,
-							"questName": "Amber Memento",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 87.57,
+							"yCoord": 80.92,
+							"coordsMap": "Thousand Needles",
+							"comment": "Around the south eastern parth of the flat there is an elite ghost roaming around. Your pet can facetank it, no need to kite.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Chief Dusthoof",
+									"npcId": 45826,
+									"count": 1,
+									"questId": 26561,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"comment": "After killing the ghost use the item you just looted to accept a follow up quest",
+							"itemId": 60857,
+							"itemName": "Amber Memento",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"questName": "Amber Memento",
+									"questId": 26560,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
 						}
 					]
 				},
@@ -26571,23 +26631,136 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 84.54,
+							"yCoord": 69.59,
 							"coordsMap": "Thousand Needles",
+							"comment": "Keep killing quest mobs near the mountain range towards the tower, don't miss the one at the base as usual (9/10)",
+							"itemId": 61079,
+							"itemName": "Cool Sparkling Fresh Water",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
+							"subTasks": [],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 87.64,
+							"yCoord": 65.76,
+							"coordsMap": "Thousand Needles",
+							"comment": "AOE the 3 vultures... BTW, in classic there are more than twice as many here, that's why I told you to go out of your way to kill the vultures",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 81.47,
+							"yCoord": 58.47,
+							"coordsMap": "Thousand Needles",
+							"comment": "Keep killing quest mobs towards the tower. You should be done with the NPC at the base. If you are still missing 3 don't worry, the 3 at the base camp are off cooldown again and can be used to finish the quest.",
+							"itemId": 61079,
+							"itemName": "Cool Sparkling Fresh Water",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Water Dispensed",
+									"questId": 26666,
+									"questObjectiveIndex": 1,
+									"count": 10,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 82.2,
+							"yCoord": 55.43,
+							"coordsMap": "Thousand Needles",
+							"comment": "Go towards the tortoise area. You can AOE these down (max 5 at a time), but properly prepare and have full mana, max pet HP, keep Mend pet up at all times and have Bestial Wrath if possible",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Most likely you will be close to being done after a single AOE pull. Simply go on, no need to stay here as you can finish this by killing the roaming ones.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 79.27,
+							"yCoord": 51.31,
+							"coordsMap": "Thousand Needles",
+							"comment": "Go here. You will see a totem near the slope. Pull a bunch of mobs and die near it. This quest can only be turned on while dead...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 79.47,
-							"yCoord": 50.57
+							"yCoord": 50.57,
+							"coordsMap": "Thousand Needles",
+							"comment": "No need to accept the follo up since we are never going to Desolace to level up.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": ">>> TURN IN THE QUEST THEN REZ <<<",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "In beta 3 the quest was bugged and wasn't awarding XP, but theoretically you should be getting 3.4k XP + the warmode bonus (if you have it)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Spiritwalker Muata",
 							"npcId": 45827,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26560,
 									"questName": "Amber Memento",
 									"subTasks": [],
@@ -26597,6 +26770,119 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 78.58,
+							"yCoord": 59.3,
+							"coordsMap": "Thousand Needles",
+							"comment": "Go towards the crater and start killing some basilisks (4/10)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 76,
+							"yCoord": 53.81,
+							"coordsMap": "Thousand Needles",
+							"comment": "The north and kill some more (8-9/10)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 73.52,
+							"yCoord": 58.86,
+							"coordsMap": "Thousand Needles",
+							"comment": "Go towards this vulture. You should be done with basilisk + tortoises",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Saltstone Basilisk",
+									"npcId": 4147,
+									"count": 10,
+									"questId": 1175,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 71.62,
+							"yCoord": 72.73,
+							"coordsMap": "Thousand Needles",
+							"comment": "Finally go here if somehow not done with scorpids.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Shooping list ahead. Most likely you will be missing some vulture bones. Simply go east after going through the base camp and finish the quest",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Hollow Vulture Bone",
+							"questId": 1176,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 10,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Salty Scorpid Venom",
+							"questId": 1104,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 6,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Hardened Tortoise Shell",
+							"questId": 1105,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 9,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Rocket Car Parts",
+							"questId": 1110,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 30,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -26716,99 +27002,30 @@
 									"questName": "Load Lightening",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 80.17,
-							"yCoord": 75.85
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pozzik",
-							"npcId": 4630,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1178,
 									"questName": "Goblin Sponsorship",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 80.17,
-							"yCoord": 75.85
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pozzik",
-							"npcId": 4630,
-							"subTasks": [
-								{
+									"questId": 1178,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26666,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Fresh Water Delivery",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 80.17,
-							"yCoord": 75.85
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pozzik",
-							"npcId": 4630,
-							"subTasks": [
-								{
+									"questId": 26666,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26561,
-									"questName": "The Ghost of the Flats",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
+								},
+								{
+									"questName": "The Ghost of the Flats",
+									"questId": 26561,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -26845,6 +27062,47 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 74.32,
+							"yCoord": 95.45,
+							"coordsMap": "Thousand Needles",
+							"comment": "The only folow up you should have accepted is the one from the goblin (Goblin Sponsorship)`. Make sure you have it then go towards gadgetzan",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.05,
+							"yCoord": 29.33,
+							"coordsMap": "Tanaris",
+							"comment": "Get the FP then HS back to Theramore",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Bera Stonehammer",
+									"npcId": 7823,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -26902,37 +27160,14 @@
 									"questName": "The Orc Report",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.09,
-							"yCoord": 47.08
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Theramore Lieutenant",
-							"npcId": 4947,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1220,
 									"questName": "Captain Vimes",
+									"questId": 1220,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -26964,130 +27199,38 @@
 									"questName": "Captain Vimes",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.18,
-							"yCoord": 48.54
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Garran Vimes",
-							"npcId": 4944,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
 									"questId": 1252,
 									"questName": "Lieutenant Paval Reethe",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.18,
-							"yCoord": 48.54
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Garran Vimes",
-							"npcId": 4944,
-							"subTasks": [
-								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1259,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Lieutenant Paval Reethe",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.18,
-							"yCoord": 48.54
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Garran Vimes",
-							"npcId": 4944,
-							"subTasks": [
-								{
+									"questId": 1259,
 									"depth": 1,
-									"isCustom": false,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Black Shield",
 									"questId": 1253,
-									"questName": "The Black Shield",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.18,
-							"yCoord": 48.54
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Garran Vimes",
-							"npcId": 4944,
-							"subTasks": [
-								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1319,
-									"questName": "The Black Shield",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "The Black Shield",
+									"questId": 1319,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -27119,37 +27262,14 @@
 									"questName": "Lieutenant Paval Reethe",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.05,
-							"yCoord": 48.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Adjutant Tesoran",
-							"npcId": 4948,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1285,
 									"questName": "Daelin's Men",
+									"questId": 1285,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -27181,37 +27301,14 @@
 									"questName": "Daelin's Men",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.15,
-							"yCoord": 48.53
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Garran Vimes",
-							"npcId": 4944,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1286,
 									"questName": "The Deserters",
+									"questId": 1286,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -27243,37 +27340,14 @@
 									"questName": "The Black Shield",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.72,
-							"yCoord": 50.36
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Caz Twosprocket",
-							"npcId": 4941,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1320,
 									"questName": "The Black Shield",
+									"questId": 1320,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -27312,47 +27386,129 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 64.64,
+							"yCoord": 42.87,
 							"coordsMap": "Dustwallow Marsh",
+							"comment": "Go towards the coast and start killing some turtles while heading to The Barrens",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 55.11,
-							"yCoord": 16.58
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Mirefin Coastrunner",
-							"npcId": 4362,
 							"subTasks": [
 								{
+									"itemName": "Forked Mudrock Tongue",
+									"questId": 1204,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Mudrock Spikeshell",
+											"npcId": 4397
+										},
+										{
+											"npcName": "Mudrock Tortoise",
+											"npcId": 4396
+										}
+									],
+									"count": 8,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 635,
-									"questName": "Crystal in the Mountains",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"comment": "Ignore the drunk dude's quest",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
+						},
+						{
+							"xCoord": 58.05,
+							"yCoord": 17.99,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Stop here. We are killing some (a lot) Murlocs now. If you aren't done with the tortoises there are 3 more later on. Should be enough if you are 1 item off",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.47,
+							"yCoord": 20.35,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "AoE 4 (max 5) Murlocs at a time. Kill any of the ones that are not close together while waiting for trap CD. Yer a mage now, hunter.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "The droprate is awful, but you HAVE to finish this now.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Mirefin Head",
+									"questId": 1177,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 12,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 53.75,
+							"yCoord": 11.44,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "When done with the murlocs and the tortoises run to the border with the barrens",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 62.65,
+							"yCoord": 37.46,
+							"coordsMap": "The Barrens",
+							"comment": "At Ratchet deposit the quest items Mudrock tongue and the Murloc heads you just gathered. We won't be turning these in for a while",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "The Barrens",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 62.96,
-							"yCoord": 37.23
+							"yCoord": 37.23,
+							"coordsMap": "The Barrens",
+							"comment": "Don't take any followups",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -27372,6 +27528,30 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.06,
+							"yCoord": 37.15,
+							"coordsMap": "The Barrens",
+							"comment": "Get Ratchet's FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Bragok",
+									"npcId": 16227,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -27398,37 +27578,14 @@
 									"questName": "Goblin Sponsorship",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Barrens",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 62.67,
-							"yCoord": 36.29
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gazlowe",
-							"npcId": 3391,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1180,
 									"questName": "Goblin Sponsorship",
+									"questId": 1180,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -27460,6 +27617,14 @@
 									"questName": "Wharfmaster Dizzywig",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Parts for Kravel",
+									"questId": 1112,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -27467,35 +27632,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 63.64,
+							"yCoord": 38.65,
 							"coordsMap": "The Barrens",
+							"comment": "Take the boat to Booty Bay",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 63.35,
-							"yCoord": 38.43
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Wharfmaster Dizzywig",
-							"npcId": 3453,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1112,
-									"questName": "Parts for Kravel",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 7,
@@ -27559,37 +27708,6 @@
 									"isCustom": false,
 									"questId": 1181,
 									"questName": "Goblin Sponsorship",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.89,
-							"yCoord": 74.66
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Hecklebury Smotts",
-							"npcId": 2500,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27314,
-									"questName": "Call to Arms: Stranglethorn Vale",
 									"subTasks": [],
 									"type": "Accept quest"
 								}
