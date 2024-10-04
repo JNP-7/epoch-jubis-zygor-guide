@@ -27655,6 +27655,18 @@
 			"sectionName": "STV Pt.1 (35-37)",
 			"sectionSteps": [
 				{
+					"stepTasks": [
+						{
+							"comment": "While leveling in STV keep any Greenhill pages in your bag (RIP bagspace) while questing then store them in the bank when visiting Booty Bay",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -28992,123 +29004,6 @@
 					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.61,
-							"yCoord": 10.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sir S. J. Erlgadin",
-							"npcId": 718,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 191,
-									"questName": "Panther Mastery",
-									"subTasks": [],
-									"type": "Turn in quest"
-								},
-								{
-									"questName": "Panther Mastery",
-									"questId": 192,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.66,
-							"yCoord": 10.65
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Ajeck Rouack",
-							"npcId": 717,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 187,
-									"questName": "Tiger Mastery",
-									"subTasks": [],
-									"type": "Turn in quest"
-								},
-								{
-									"questName": "Tiger Mastery",
-									"questId": 188,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.69,
-							"yCoord": 10.78
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hemet Nesingwary",
-							"npcId": 715,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 194,
-									"questName": "Raptor Mastery",
-									"subTasks": [],
-									"type": "Turn in quest"
-								},
-								{
-									"questName": "Raptor Mastery",
-									"questId": 195,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
 					"stepTasks": [
 						{
 							"comment": "If you don't have Thorsen's quest go to the road where the event happens and check if he is there or if he is patrolling with eagle eye. If you already got the quest or after accepting it HS back to Booty bay",
@@ -29234,6 +29129,21 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 26.59,
+							"yCoord": 76.56,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go to the bank and store any Green hills pages you may have.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -29319,9 +29229,630 @@
 					"onlyForClasses": []
 				},
 				{
+					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"comment": "TODO: Go do Sin Dall's quest -> Trolls -> Elementals -> Raptors -> Crock skins ->Goblins -> Panthers -> Finish Kurzen",
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 35.61,
+							"yCoord": 10.57
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Sir S. J. Erlgadin",
+							"npcId": 718,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 191,
+									"questName": "Panther Mastery",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Panther Mastery",
+									"questId": 192,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 35.66,
+							"yCoord": 10.65
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Ajeck Rouack",
+							"npcId": 717,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 187,
+									"questName": "Tiger Mastery",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Tiger Mastery",
+									"questId": 188,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 35.69,
+							"yCoord": 10.78
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Hemet Nesingwary",
+							"npcId": 715,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 194,
+									"questName": "Raptor Mastery",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Raptor Mastery",
+									"questId": 195,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 32.27,
+							"yCoord": 17.26,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "You can go through the troll camp and clear it while on your way. You will need keys.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Paw of Sin'Dall",
+									"questId": 188,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Sin'Dall",
+											"npcId": 729
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 27.65,
+							"yCoord": 11.32,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go to the troll ruins and begin to gather keys and ears by killing troll.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "The Mystics hit extremely hard (as every caster NPC does...). Don't pull more than one at a time",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Whenever you find gfind an alliance captive go free it. You will probably have to go out of your way to finish this. Go to the next step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 24.71,
+							"yCoord": 8.98,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go to the tablet on top of the ruins first.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "The Fourth Troll Legend",
+									"questId": 207,
+									"questObjectiveIndex": 4,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 22.98,
+							"yCoord": 12.02,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Now to this tablet. Check the shopping list before leaving Troll City",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "The Third Troll Legend",
+									"questId": 207,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"itemName": "Bloodscalp Ear",
+							"questId": 189,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 15,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"goalName": "Adventurers Freed",
+							"questId": 26437,
+							"questObjectiveIndex": 1,
+							"count": 8,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 21.98,
+							"yCoord": 21.87,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go to the elementals' island and kill them",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Water elemental bracers",
+									"questId": 601,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Lesser Water Elemental",
+											"npcId": 691
+										}
+									],
+									"count": 6,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 24.71,
+							"yCoord": 23.16,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "To do this step w/o using a water breathing elixir first EXACTLY to this coordinate go here.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Now swim straight down. When you pull the Murlocs trap them and/or send your pet. Sac your pet if necessary and after you loot the table feign death.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "The Second Troll Legend",
+									"questId": 207,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 29.48,
+							"yCoord": 19.19,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Finally go here and loot the last tablet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "The First Troll Legend",
+									"questId": 207,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 30.86,
+							"yCoord": 23.07,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go AoE clear this raptor camp and then keep killing raptors to the south-east, towards the delta of the river.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 35.68,
+							"yCoord": 27.5,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Should be done around this spot.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Lashtail Raptor",
+									"npcId": 686,
+									"count": 10,
+									"questId": 195,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.53,
+							"yCoord": 29.78,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Begin killing Crocolisks here and run north towards the Venture Co. camp",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 42.56,
+							"yCoord": 21.16,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "If you got bad RNG on pelts kill the crocks inside the lake",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Snapjaw Crocolisk Skin",
+									"questId": 577,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Snapjaw Crocolisk",
+											"npcId": 1152
+										}
+									],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Check with eagle eye if there is an albino rare crocolisks at the north part of the lake (Gena). If so, kill it for a dagger that selss for 1g.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 42.6,
+							"yCoord": 18.37,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go to the top platform and kill Foreman Cozzle to get his key.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 43.09,
+							"yCoord": 18.87,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Drop down to the lumbermill and kill the Venture Co. Mechanics. They should drop a custom item that starts a quest.",
+							"itemId": 60666,
+							"itemName": "Experimental Mind Control Helmet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "The Janky Helmet",
+									"questId": 26483,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 43.35,
+							"yCoord": 20.37,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Loot the blueprints from the chest unlocking it with the key you looted from the Foreman",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Fuel Regulator Blueprints",
+									"questId": 1182,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 0,
+							"yCoord": 0,
+							"coordsMap": "Current map",
+							"comment": "Make your way towards the panthers to the east while getting the crystals from the geologists.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Tumbled Crystal",
+									"questId": 213,
+									"questObjectiveIndex": 213,
+									"toLootNpcs": [
+										{
+											"npcName": "Venture Co. Geologist",
+											"npcId": 1096
+										}
+									],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 48.3,
+							"yCoord": 22.23,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Track hidden on and run around this mound killing the stealthed panthers.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Shadowmaw Panther",
+									"npcId": 684,
+									"count": 10,
+									"questId": 192,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 45.58,
+							"yCoord": 8.35,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Back to the Kurzen camp. If you got Thorsen's quest later make a detour the the house with the records ([43,9]) before entering the cave to finish the first part.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Kurzen Commando",
+									"npcId": 938,
+									"count": 10,
+									"questId": 574,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Kurzen Headshrinker",
+									"npcId": 941,
+									"count": 6,
+									"questId": 574,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 49.6,
+							"yCoord": 7.58,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Only if you are on Thorsen's questline. Otherwise skip this after killing the commandos and hexshrinkers.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questId": 328,
+									"questName": "The Hidden Key",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 329,
+									"questName": "The Spy Revealed!",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "When everything that you could do is done HS back to booty bay",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -29334,150 +29865,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.87,
-							"yCoord": 3.53
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 207,
-							"questName": "Kurzen's Mystery",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.87,
-							"yCoord": 3.53
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 205,
-							"questName": "Troll Witchery",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.7,
-							"yCoord": 3.41
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Corporal Sethman",
-							"npcId": 1422,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26437,
-									"questName": "Stop The Shrinking",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.03,
-							"yCoord": 3.06
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lieutenant Doren",
-							"npcId": 469,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 574,
-									"questName": "Special Forces",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 27.02,
-							"yCoord": 77.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kebok",
-							"npcId": 737,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 189,
-									"questName": "Bloodscalp Ears",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
+							"yCoord": 77.2,
 							"coordsMap": "Stranglethorn Vale",
+							"comment": "Don't accept the follow up yet",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 27.02,
-							"yCoord": 77.2
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -29492,37 +29887,14 @@
 									"questName": "Hostile Takeover",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.02,
-							"yCoord": 77.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kebok",
-							"npcId": 737,
-							"subTasks": [
+								},
 								{
+									"questName": "Bloodscalp Ears",
+									"questId": 189,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 209,
-									"questName": "Skullsplitter Tusks",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -29554,99 +29926,30 @@
 									"questName": "Water Elementals",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.18,
-							"yCoord": 76.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Baron Revilgaz",
-							"npcId": 2496,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 602,
 									"questName": "Magical Analysis",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.18,
-							"yCoord": 76.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Baron Revilgaz",
-							"npcId": 2496,
-							"subTasks": [
-								{
+									"questId": 602,
 									"depth": 1,
-									"isCustom": false,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Goblin Sponsorship",
 									"questId": 1182,
-									"questName": "Goblin Sponsorship",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.18,
-							"yCoord": 76.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Baron Revilgaz",
-							"npcId": 2496,
-							"subTasks": [
-								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1183,
-									"questName": "Goblin Sponsorship",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Goblin Sponsorship",
+									"questId": 1183,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -29654,16 +29957,32 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 26.59,
+							"yCoord": 76.55,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Jump down and store Greenhill pages",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 28.26,
-							"yCoord": 77.53
+							"yCoord": 77.53,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Don't accept the follow up yet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -29685,6 +30004,21 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 27.54,
+							"yCoord": 77.76,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Fly to rebel camp",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -29693,8 +30027,223 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"xCoord": 37.87,
+							"yCoord": 3.53
+						},
+						{
+							"npcName": "Brother Nimetz",
+							"npcId": 739,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Kurzen's Mystery",
+									"questId": 207,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Troll Witchery",
+									"questId": 205,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 37.7,
+							"yCoord": 3.41
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Corporal Sethman",
+							"npcId": 1422,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26437,
+									"questName": "Stop The Shrinking",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.93,
+							"yCoord": 3.02,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": ">>> Refill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Corporal Bluth",
+									"npcId": 734,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 38.03,
+							"yCoord": 3.06,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Skip all but the first turn in if you didn't do Thorsen's questline. Don't accept Colonel Kurzen",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Lieutenant Doren",
+							"npcId": 469,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 574,
+									"questName": "Special Forces",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questId": 329,
+									"questName": "The Spy Revealed!",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 330,
+									"questName": "Patrol Schedules",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.68,
+							"yCoord": 3.37,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Only if you did Thorsen's questline",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Corporal Sethman",
+							"npcId": 1422,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 330,
+									"questName": "Patrol Schedules",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 331,
+									"questName": "Report to Doren",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.02,
+							"yCoord": 3.05,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Only if you did Thorsen's questline",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Lieutenant Doren",
+							"npcId": 469,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 331,
+									"questName": "Report to Doren",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 35.56,
-							"yCoord": 10.6
+							"yCoord": 10.6,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Through the usual mountain skip",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -29709,37 +30258,14 @@
 									"questName": "Panther Mastery",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.56,
-							"yCoord": 10.6
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sir S. J. Erlgadin",
-							"npcId": 718,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 193,
 									"questName": "Panther Mastery",
+									"questId": 193,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -29753,7 +30279,6 @@
 							"xCoord": 35.68,
 							"yCoord": 10.76,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "TODO: Check this step again. It's the lashtail raptor's quest",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -29785,6 +30310,21 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.21,
+							"yCoord": 4.03,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Back to rebel camp and fly to Stormwind",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 8,
