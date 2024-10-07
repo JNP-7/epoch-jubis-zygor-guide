@@ -29139,6 +29139,13 @@
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
+						},
+						{
+							"comment": "If you want to try and tame the rare spectral triger you should stable your pet now too. After you get to rebel camp simply tame w/e beast that's around (and you have food for!!!)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -29372,6 +29379,13 @@
 									"isCustom": false
 								}
 							],
+							"isCustom": false
+						},
+						{
+							"comment": "If you stabled your pet one of the elder tigers around Sin'Dall's mound is a good temporary substitute.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -29972,6 +29986,38 @@
 					"onlyForClasses": []
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 27.59,
+							"yCoord": 77.43,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Don't accept the follow up yet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Scooty",
+							"npcId": 7853,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Janky Helmet",
+									"questId": 26483,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -30390,6 +30436,14 @@
 									"questName": "Mazen's Behest",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Mazen's Behest",
+									"questId": 1364,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -30397,35 +30451,67 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 67.39,
+							"yCoord": 36.29,
 							"coordsMap": "Stormwind City",
+							"comment": "Train spells",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.33,
-							"yCoord": 73.85
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 69.13,
+							"yCoord": 30.79,
+							"coordsMap": "Stormwind City",
+							"comment": "Tram to IF, train first aids while on it",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Acolyte Dellis",
-							"npcId": 5386,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1364,
-									"questName": "Mazen's Behest",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 71.85,
+							"yCoord": 66.28,
+							"coordsMap": "Ironforge",
+							"comment": "Fill quiver and buy Massive Longbow. 1 upgrade after 18 levels, yipie.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Skolmin Goldfury",
+							"npcId": 5122,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.74,
+							"yCoord": 47.9,
+							"coordsMap": "Ironforge",
+							"comment": "Fly to Southshore",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -30498,161 +30584,6 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 49.57,
-							"yCoord": 58.85
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marshal Redpath",
-							"npcId": 2263,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 504,
-									"questName": "Crushridge Warmongers",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 48.19,
-							"yCoord": 59.23
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Magistrate Henry Maleb",
-							"npcId": 2276,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 525,
-									"questName": "Further Mysteries",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 48.14,
-							"yCoord": 59.22
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Magistrate Henry Maleb",
-							"npcId": 2276,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 537,
-									"questName": "Dark Council",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 48.14,
-							"yCoord": 59.22
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Magistrate Henry Maleb",
-							"npcId": 2276,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 512,
-									"questName": "Noble Deaths",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 48.14,
-							"yCoord": 59.22
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Magistrate Henry Maleb",
-							"npcId": 2276,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27720,
-									"questName": "Justice Left Undone",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 51.11,
 							"yCoord": 59.11
 						},
@@ -30683,16 +30614,88 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 51.09,
+							"yCoord": 58.91,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": ">>> SET HS <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Alterac Mountains",
+							"xCoord": 48.19,
+							"yCoord": 59.23,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Skipping Crushridge warmongers from Redpath outside the town hall",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"depth": 0,
 							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
+							"npcName": "Magistrate Henry Maleb",
+							"npcId": 2276,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 525,
+									"questName": "Further Mysteries",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Dark Council",
+									"questId": 537,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Noble Deaths",
+									"questId": 512,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Justice Left Undone",
+									"questId": 27720,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 18.89,
-							"yCoord": 78.55
+							"yCoord": 78.55,
+							"coordsMap": "Alterac Mountains",
+							"comment": "To Dalaran's crater. Turn in the quest and accept the follow up.  Don't accept Magical Materiel (takes too long).",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -30707,6 +30710,14 @@
 									"questName": "Magical Analysis",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Ansirem's Key",
+									"questId": 603,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -30714,40 +30725,253 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 32.85,
+							"yCoord": 68.87,
 							"coordsMap": "Alterac Mountains",
+							"comment": "Go here to get into Alterac Mountains then go North",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 18.89,
-							"yCoord": 78.55
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 33.84,
+							"yCoord": 53.61,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Now here to get into the ruins. If you find the rare yeti don't get too close to him, he fears. Kill him at range.",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Archmage Ansirem Runeweaver",
-							"npcId": 2543,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 603,
-									"questName": "Ansirem's Key",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"stepTasks": [
 						{
-							"comment": "TODO: At some point around here gather the 4 Juicy Watermelons for Watermelon Punch",
+							"comment": "Clear your way to the town hall. The tall building you can see north-east as you enter thorugh the hole. Prioritize enforcerers and mages over warmongers (slower to kill) to get the books.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "As you enter type /target Grel'Borg and put a mark. Keep looking for him, he patrols. When he is on a safe spot out of the castle just kill him while draining his mana. Interrput rain of fire with intimidation + traps.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Perenolde Tiara",
+							"questId": 543,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Grel'borg the Miser",
+									"npcId": 2417
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.53,
+							"yCoord": 46.51,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Inside the townhall. Trap the ogre inside, loot the book then run out + feign death",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Worn Leather Book",
+									"questId": 540,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.64,
+							"yCoord": 38.89,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Make sure you have the 5 books that drop from any ogre before leaving!",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Some potions in the goblin. If the recipe is limited stock buy it.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Recovered Tome",
+							"count": 5,
+							"questId": 540,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 34.1,
+							"yCoord": 38.27,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Drop down here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 31.84,
+							"yCoord": 33.17,
+							"coordsMap": "Alterac Mountains",
+							"comment": "In the small house wait for Nancy to go outside then pull and kill grandpa. You can also try to split pull them. Don't fight them both at the same time, Nancy won't stop healing him.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Grandpa Vishas",
+									"npcId": 3985,
+									"count": 1,
+									"questId": 27720,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 40.47,
+							"yCoord": 19.52,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Gather the Watermelons for Watermelon Punch custom quest. Didn't do it during the beta, but it's most likely here.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 39.49,
+							"yCoord": 15.68,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Kill the Orc (Nagaz). Mind the stealthed mobs.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Head of Nagaz",
+									"questId": 537,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Nagaz",
+											"npcId": 2320
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.44,
+							"yCoord": 31.6,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Go east towards WPL. You should already have the signets or be almost done. Simply split pull the Argus mages in each camp (4 camps, 4 mages).",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Argus Shadow Mage",
+									"npcId": 2318,
+									"count": 4,
+									"questId": 537,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Alterac Signet Ring",
+									"questId": 512,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 7,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "If you were trying to get the rare spectral tiger he is usually around [44,17]. Abandon the temp pet if you find it then tame it. You can also just kill him for a 40s vendor pendant, the winterspring blue tiger is more cool.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Also, if you somehow got the Assassin Letter in the event of Southshore (it's bugged, the cryer never starts it) Baron Vardus is in the first encampment of the slope [48,17]",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -30757,66 +30981,18 @@
 					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Hillsbrad Foothills",
+							"comment": "When done, HS back to Southshore or grab WPL FP if you didn't before then HS (you should have the first time you went to Alterac for the ogres).",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.48,
-							"yCoord": 56.97
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Loremaster Dibbs",
-							"npcId": 2277,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 540,
-									"questName": "Preserving Knowledge",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.48,
-							"yCoord": 56.97
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Loremaster Dibbs",
-							"npcId": 2277,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 542,
-									"questName": "Return to Milton",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -30843,6 +31019,13 @@
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"comment": "No ID since I couldn't do it during beta. Don't know if there is a follow up either.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -30853,29 +31036,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Southshore Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 48.19,
-							"yCoord": 59.21
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 512,
-							"questName": "Noble Deaths",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Southshore Town Hall",
+							"coordsMap": "Hillsbrad Foothills",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
@@ -30896,6 +31057,22 @@
 									"questName": "Dark Council",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Noble Deaths",
+									"questId": 512,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Justice Left Undone",
+									"questId": 27720,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -30906,32 +31083,65 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Southshore Town Hall",
+							"coordsMap": "Hillsbrad Foothills",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 48.18,
-							"yCoord": 59.18
+							"xCoord": 50.48,
+							"yCoord": 56.97
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Magistrate Henry Maleb",
-							"npcId": 2276,
+							"npcName": "Loremaster Dibbs",
+							"npcId": 2277,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 27720,
-									"questName": "Justice Left Undone",
+									"questId": 540,
+									"questName": "Preserving Knowledge",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Return to Milton",
+									"questId": 542,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.12,
+							"yCoord": 55.19,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Second floor >>> Fill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 49.39,
+							"yCoord": 52.35,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Fly to Arathi Highlands. Keep an eye out for the Forsaken courier and Fozruk while flying. Chances are if they don't show up they are the beggining of their patrol routes.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -30947,46 +31157,15 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Indon Cliffreach",
 							"npcId": 46066,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26685,
 									"questName": "To The Hills",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 45.85,
-							"yCoord": 47.46
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Nials",
-							"npcId": 2700,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 681,
-									"questName": "Northfold Manor",
 									"subTasks": [],
 									"type": "Accept quest"
 								}
@@ -31061,13 +31240,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 62.42,
-							"yCoord": 33.82
+							"yCoord": 33.82,
+							"coordsMap": "Arathi Highlands",
+							"comment": "The turn in is from a random drop from 30 something mobs. You most likely won't have it. Just accept the quest.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -31076,30 +31256,59 @@
 							"questName": "Crystal in the Mountains",
 							"subTasks": [],
 							"type": "Turn in quest"
+						},
+						{
+							"questName": "The Princess Trapped",
+							"questId": 642,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 80.38,
+							"yCoord": 40.12,
 							"coordsMap": "Arathi Highlands",
+							"comment": "Enter the cave through the slope behind the tree here.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 62.49,
-							"yCoord": 33.86
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 87.03,
+							"yCoord": 31.54,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Inside the cave go here to get to the upper level where you will turn in the quest",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 642,
-							"questName": "The Princess Trapped",
+							"type": "Go to",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
+						},
+						{
+							"comment": "Surveyors hit hard and try to root you!!! (NPC casters and elemental damage in general is not overbuffed by custom changes BTW)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Mote of Myzrael",
+							"questId": 642,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 12,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -31120,30 +31329,50 @@
 							"questName": "The Princess Trapped",
 							"subTasks": [],
 							"type": "Turn in quest"
+						},
+						{
+							"questName": "Stones of Binding",
+							"questId": 651,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 66.7,
+							"yCoord": 29.78,
 							"coordsMap": "Arathi Highlands",
+							"comment": "Loot 1 of the keys",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 84.31,
-							"yCoord": 30.8
+							"subTasks": [
+								{
+									"itemName": "Cresting Key",
+									"questId": 651,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
+							"comment": "Also take note where Fozruk (the giant) is. Patrols don't move unless they are in render distance of someone. He also starts his route here, so chances are he won't get too far away.",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 651,
-							"questName": "Stones of Binding",
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -31170,6 +31399,14 @@
 									"questName": "Hints of a New Plague?",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Hints of a New Plague?",
+									"questId": 658,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -31177,35 +31414,26 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 59.78,
+							"yCoord": 59.27,
 							"coordsMap": "Arathi Highlands",
+							"comment": "Inside this house is where the courier spanws. Otherwise, follow the road.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 60.24,
-							"yCoord": 53.71
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "TODO",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Quae",
-							"npcId": 2712,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 658,
-									"questName": "Hints of a New Plague?",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
