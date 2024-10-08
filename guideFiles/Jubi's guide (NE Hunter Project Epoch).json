@@ -31419,14 +31419,37 @@
 							"xCoord": 59.78,
 							"yCoord": 59.27,
 							"coordsMap": "Arathi Highlands",
-							"comment": "Inside this house is where the courier spanws. Otherwise, follow the road.",
+							"comment": "Inside this house is where the courier spanws. Chances are he is there if you didn't spot him before. Otherwise, follow the road.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "TODO",
+							"itemName": "Sealed Folder",
+							"questId": 658,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Forsaken Courier",
+									"npcId": 2714
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Spllit the Courier but don't leave the bodyguards near the house because we are about to go there",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you can'f find the Courier just skip these steps and go straight to the troll camp. Try to finish it later",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -31460,37 +31483,14 @@
 									"questName": "Hints of a New Plague?",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.12,
-							"yCoord": 53.79
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Quae",
-							"npcId": 2712,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 657,
 									"questName": "Hints of a New Plague?",
+									"questId": 657,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -31522,6 +31522,14 @@
 									"questName": "Hints of a New Plague?",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Hints of a New Plague?",
+									"questId": 660,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -31529,35 +31537,27 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
+							"comment": "Follow the Nelf. You can try to kill the orcs ahead of time so she doesn't stop.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.17,
-							"yCoord": 53.82
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kinelory",
-							"npcId": 2713,
+							"type": "Comment",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"goalName": "Protect Kinelory",
 									"questId": 660,
-									"questName": "Hints of a New Plague?",
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -31584,37 +31584,14 @@
 									"questName": "Hints of a New Plague?",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.13,
-							"yCoord": 53.88
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Quae",
-							"npcId": 2712,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
+									"questName": "Hints of a New Plague?",
 									"questId": 661,
-									"questName": "Hints of a New Plague?",
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -31622,18 +31599,130 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 52.12,
+							"yCoord": 50.74,
 							"coordsMap": "Arathi Highlands",
+							"comment": "Loot another key. Be careful with the eles. They outlevel you and hit hard.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 67.59,
-							"yCoord": 78.43
+							"subTasks": [
+								{
+									"itemName": "Thundering Key",
+									"questId": 651,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 68.2,
+							"yCoord": 74.41,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Go to the troll cabe. Prioritize Shadowhunters > Witch Doctor > The rest. The Shadowhunter can only be found inside the cave.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Shadow Hunter Knife",
+									"questId": 691,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [
+										{
+											"npcName": "Witherbark Shadow Hunter",
+											"npcId": 2557
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 69.7,
+							"yCoord": 58.58,
+							"coordsMap": "Arathi Highlands",
+							"comment": "After you get the knife make your way out towards the eatern mountain range. Should be able to finish the rest on the way out.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Witherbark Tusk",
+									"questId": 691,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Witherbark Medicine Pouch",
+									"questId": 691,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Witherbark Witch Doctor",
+											"npcId": 2555
+										}
+									],
+									"count": 4,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 73,
+							"yCoord": 52.44,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Go here to enter the elemental plateau",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Try to avoid the spiders since they try to root you",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you see a Gryphon called Fireplume flying around put a mark on it. You have to find it during one of the quests",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -31649,17 +31738,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Atrasies the Ancient",
 							"npcId": 46012,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26685,
 									"questName": "To The Hills",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Cooling Waters",
+									"questId": 26686,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -31667,35 +31764,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 85.38,
+							"yCoord": 73.14,
 							"coordsMap": "Arathi Highlands",
+							"comment": "Go here. Get full HP then fall down.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 82.7,
-							"yCoord": 57.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Atrasies the Ancient",
-							"npcId": 46012,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26686,
-									"questName": "Cooling Waters",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -31711,48 +31792,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Randal Alestone",
 							"npcId": 46019,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26671,
 									"questName": "The Rumbling Fields",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 90.51,
-							"yCoord": 71.49
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Randal Alestone",
-							"npcId": 46019,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26672,
 									"questName": "When Life Gives You... Berries?",
+									"questId": 26672,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -31773,22 +31831,132 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Paula Alestone",
 							"npcId": 46018,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26670,
 									"questName": "Waterlogged Journal",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Save The Animals",
+									"questId": 26682,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "The quest Save the animals has been bugged in betas 2.5 and 3, but I could it complete during beta 2. Basically, she will ask you to find the Gryphon I mentioned earlier and then will need meat from the spiders and berries from the berry bushes you might have seen while walking there.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "I will be detailing the other quests as if the follow ups to the bugged one didn't exists since I don't remember their order exactly. The idea is to find the gryphon after you get out of the dwarves' fields while cooling the fire elementals and then, before going to talk to the water elemental, turn it in to unlock the other quests that ask you for food. This way you can do 3 gathering quests at the same time.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If the quest works at the end of the questline you will get a free flight to Aerie peak. Make sure you get the FP there before going back to the dwarves in Arathi.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step after reading",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 93.08,
+							"yCoord": 67.88,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Use the rope on the animals then bring them back to the dwarf at the docks. Remove Cheetah while running to her because the animals tend to lag behind. This is the step that is usually bugged, you don't get progression after bringing them back. Finish the other 2 quests anyways",
+							"itemId": 61116,
+							"itemName": "Sturdy Rope",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Terrified Animal Saved",
+									"questId": 26682,
+									"questObjectiveIndex": 1,
+									"count": 6,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Frantic Earth",
+									"npcId": 46038,
+									"count": 7,
+									"questId": 26671,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Rambling Earth",
+									"npcId": 46015,
+									"count": 7,
+									"questId": 26671,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Bushel of Shadowberry",
+									"questId": 26672,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [
+										{
+											"comment": "In the berry bushes in the fields.",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -31804,17 +31972,24 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Paula Alestone",
 							"npcId": 46018,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26682,
 									"questName": "Save The Animals",
+									"questId": 26682,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"comment": "Accept the follow up if it's not bugged anymore",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -31825,89 +32000,36 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 93.66,
-							"yCoord": 71.5
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Paula Alestone",
-							"npcId": 46018,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26682,
-									"questName": "Save The Animals",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 90.49,
-							"yCoord": 71.55
+							"yCoord": 71.55,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Get the MP5 food, better than 10 agi.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Randal Alestone",
 							"npcId": 46019,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26671,
 									"questName": "The Rumbling Fields",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 90.49,
-							"yCoord": 71.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Randal Alestone",
-							"npcId": 46019,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26672,
 									"questName": "When Life Gives You... Berries?",
+									"questId": 26672,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -31915,35 +32037,35 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 87.85,
+							"yCoord": 47.83,
 							"coordsMap": "Arathi Highlands",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 93.73,
-							"yCoord": 71.73
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Paula Alestone",
-							"npcId": 46018,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"itemName": "Cooled Aqual Essence",
 									"questId": 26682,
-									"questName": "Save The Animals",
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Aqual Sprayer",
+											"npcId": 46027
+										}
+									],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -31959,17 +32081,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Atrasies the Ancient",
 							"npcId": 46012,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26686,
 									"questName": "Cooling Waters",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Painful Dousing",
+									"questId": 26687,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -31977,35 +32107,42 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
+							"comment": "Go around the mound using the item the quest gave you when the fire elementals are below 30-40% hp",
+							"itemId": 61144,
+							"itemName": "Bottle of Sootinhg Waters",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 82.81,
-							"yCoord": 57.28
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Atrasies the Ancient",
-							"npcId": 46012,
+							"type": "Comment",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"itemName": "Raging Bindings",
 									"questId": 26687,
-									"questName": "A Painful Dousing",
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Raging Cinders",
+											"npcId": 46034
+										}
+									],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
+						},
+						{
+							"comment": "If the dwarf's quest wasn't bugged, turn on Track Beasts to try to find Fireplume",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -32021,48 +32158,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Atrasies the Ancient",
 							"npcId": 46012,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26687,
 									"questName": "A Painful Dousing",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 82.72,
-							"yCoord": 57.16
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Atrasies the Ancient",
-							"npcId": 46012,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26688,
 									"questName": "An Audience With Water",
+									"questId": 26688,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -32073,58 +32187,44 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 89.29,
-							"yCoord": 35.27
+							"yCoord": 35.27,
+							"coordsMap": "Arathi Highlands",
+							"comment": "If the dwarf's quest wans't bugged. Turn in the quest about finding the gryphon then accept the follow ups. Go talk to the water ele afterwards",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Aquamentus",
 							"npcId": 45839,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26688,
 									"questName": "An Audience With Water",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 89.29,
-							"yCoord": 35.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Aquamentus",
-							"npcId": 45839,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26689,
 									"questName": "Close The Vents",
+									"questId": 26689,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"questName": "Offering Of Feathers",
+									"questId": 26690,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -32132,35 +32232,74 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 85.57,
+							"yCoord": 52.44,
 							"coordsMap": "Arathi Highlands",
+							"comment": "Go towards the mound of the fire elemental while closing the vents. Run laps around the mound killing raptors for the feathers.",
+							"itemId": 61147,
+							"itemName": "Rushing Waters",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 89.29,
-							"yCoord": 35.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Aquamentus",
-							"npcId": 45839,
 							"subTasks": [
 								{
+									"goalName": "Steam Vent Closed",
+									"questId": 26689,
+									"questObjectiveIndex": 1,
+									"count": 8,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26690,
-									"questName": "Offering Of Feathers",
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"itemName": "Pristine Strider Feather",
+									"questId": 26690,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Blazing Strider",
+											"npcId": 46029
+										}
+									],
+									"count": 6,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"comment": "Run counter clockwise around the mound ideally ending in the southern part of it",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "If the dwarf's quest wasn't bugged, go turn the spider meat and the berries quest then do the rest before turning the water elemental's quests.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Skip this step. TODO: If the dwarf's quest is fixed this is probably where you go do it",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -32176,79 +32315,63 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Aquamentus",
 							"npcId": 45839,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26689,
 									"questName": "Close The Vents",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 89.34,
-							"yCoord": 35.28
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Aquamentus",
-							"npcId": 45839,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26690,
 									"questName": "Offering Of Feathers",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 89.34,
-							"yCoord": 35.28
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Aquamentus",
-							"npcId": 45839,
-							"subTasks": [
-								{
+									"questId": 26690,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26691,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
 									"questName": "An Audience With Air",
+									"questId": 26691,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Arathi Highlands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 89.34,
+							"yCoord": 35.28
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Aquamentus",
+							"npcId": 45839,
+							"subTasks": [
+								{
+									"comment": "Ask the water ele for an audience with the air ele.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -32268,12 +32391,29 @@
 							"yCoord": 43
 						},
 						{
+							"npcName": "Aeromir",
+							"npcId": 46037,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 26691,
-							"questName": "An Audience With Air",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "An Audience With Air",
+									"questId": 26691,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Assistance Of Air",
+									"questId": 26693,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
 						}
 					]
 				},
@@ -32290,12 +32430,20 @@
 							"yCoord": 43
 						},
 						{
+							"npcName": "Aeromir",
+							"npcId": 46037,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 26693,
-							"questName": "Assistance Of Air",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"comment": "Ask the air ele to go back to the water ele...",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": true
 						}
 					]
 				},
@@ -32313,17 +32461,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Aquamentus",
 							"npcId": 45839,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26693,
 									"questName": "Assistance Of Air",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Cooling The Fury",
+									"questId": 26694,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -32331,35 +32487,32 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
+							"xCoord": 897,
+							"yCoord": 37.61,
+							"coordsMap": "Current map",
+							"comment": "Use the item from the quest on the hostile water elementals when they are 30-40% HP",
+							"itemId": 61148,
+							"itemName": "Calming Air",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 89.33,
-							"yCoord": 35.35
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Aquamentus",
-							"npcId": 45839,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"goalName": "Boling Wanderer Calmed",
 									"questId": 26694,
-									"questName": "Cooling The Fury",
+									"questObjectiveIndex": 1,
+									"count": 8,
+									"depth": 1,
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -32375,48 +32528,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Aquamentus",
 							"npcId": 45839,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26694,
 									"questName": "Cooling The Fury",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 89.38,
-							"yCoord": 35.31
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Aquamentus",
-							"npcId": 45839,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26695,
 									"questName": "Return To Fire",
+									"questId": 26695,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -32427,120 +32557,52 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 82.8,
-							"yCoord": 57.22
+							"yCoord": 57.22,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Wait out the RP event. Apparently Earth dude is no more and troll neighbours are to blame.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Atrasies the Ancient",
 							"npcId": 46012,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26695,
 									"questName": "Return To Fire",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 82.8,
-							"yCoord": 57.22
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Atrasies the Ancient",
-							"npcId": 46012,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26696,
 									"questName": "Convening The Council",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 82.74,
-							"yCoord": 57.21
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Atrasies the Ancient",
-							"npcId": 46012,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
 									"questId": 26696,
-									"questName": "Convening The Council",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 82.74,
-							"yCoord": 57.21
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Atrasies the Ancient",
-							"npcId": 46012,
-							"subTasks": [
-								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26697,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Convening The Council",
+									"questId": 26696,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
 									"questName": "The Southern Hills",
+									"questId": 26697,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -32551,17 +32613,29 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 78.37,
-							"yCoord": 73.25
+							"yCoord": 73.25,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Go slightly past this rock to comple the objective. Then, turn the quest at the rock",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Discover the southern hills",
+									"questId": 26697,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"questId": 26697,
 							"questName": "The Southern Hills",
 							"subTasks": [],
@@ -32583,55 +32657,27 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"questId": 26698,
 							"questName": "Furious Flaying",
 							"subTasks": [],
 							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 78.3,
-							"yCoord": 73.22
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26699,
 							"questName": "Blazing Hills Berserkers",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
+							"questId": 26699,
 							"depth": 0,
-							"isCustom": false,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 78.3,
-							"yCoord": 73.22
+							"isCustom": true
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26700,
 							"questName": "Bindings Of My Brethren",
+							"questId": 26700,
+							"depth": 0,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": true
 						}
 					]
 				},
@@ -32639,21 +32685,25 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 78.82,
-							"yCoord": 78.3
-						},
-						{
+							"yCoord": 78.3,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Chances are the first troll you kill will drop the item that begins the elite quest. If not, kil a few more. Accept the quest and turn it in at the rock",
+							"itemId": 61149,
+							"itemName": "Subjugation Report",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 26701,
-							"questName": "The Dark Shamans",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "The Dark Shamans",
+									"questId": 26701,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
 						}
 					]
 				},
@@ -32671,99 +32721,190 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"questId": 26701,
 							"questName": "The Dark Shamans",
 							"subTasks": [],
 							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 78.38,
-							"yCoord": 73.26
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26702,
 							"questName": "The Dark Shamans",
+							"questId": 26702,
+							"depth": 0,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": true
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 79,
+							"yCoord": 80,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Kill the berserkers around the hut in front of you to 1v1 the elite. You can pet tank it no problem, just pop CDs and keep mend pet up.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Drezco's Head",
+									"questId": 26702,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Dark Shaman Drezco",
+											"npcId": 46035
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 68.68,
+							"yCoord": 84.04,
+							"coordsMap": "Current map",
+							"comment": "Kill the trolls on your way towards the cave. Probably don't need to kill every single one since they will respawn on your way back.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 66,
+							"yCoord": 85.91,
+							"coordsMap": "Current map",
+							"comment": "As you enter the cave go to the first hallway to the left. The elite is at the end of it.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "This elite is a caster. Elite casters are busted, but the ones that constantly cast can be cheesed by hidding behind a corner every time they are about to finish a cast. Turn growl off, use distracting shot and everytime she is about to finish a cast hide behind the rock to your right",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Enwi's Head",
+									"questId": 26702,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Dark Shaman Enwi",
+											"npcId": 46036
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Go back towards the rock while finishng any remaining quest. Shopping list ahead.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"npcName": "Witherbark Berserker",
+									"npcId": 46032,
+									"count": 8,
+									"questId": 26699,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Corrupted Bindings",
+									"questId": 26700,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Witherbark Flame Bender",
+											"npcId": 46030
+										}
+									],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Witherbark Flayer",
+									"npcId": 46033,
+									"count": 8,
+									"questId": 26698,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 78.15,
-							"yCoord": 73.19
+							"yCoord": 73.19,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Back at the rock",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"questId": 26698,
 							"questName": "Furious Flaying",
 							"subTasks": [],
 							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 78.15,
-							"yCoord": 73.19
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26700,
 							"questName": "Bindings Of My Brethren",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
+							"questId": 26700,
 							"depth": 0,
-							"isCustom": false,
+							"type": "Turn in quest",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 78.15,
-							"yCoord": 73.19
+							"isCustom": true
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26699,
 							"questName": "Blazing Hills Berserkers",
+							"questId": 26699,
+							"depth": 0,
+							"type": "Turn in quest",
 							"subTasks": [],
-							"type": "Turn in quest"
+							"isCustom": true
 						}
 					]
 				},
@@ -32780,26 +32921,50 @@
 							"yCoord": 57.25
 						},
 						{
+							"npcName": "Atrasies the Ancient",
+							"npcId": 46012,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 26702,
-							"questName": "The Dark Shamans",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Dark Shamans",
+									"questId": 26702,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Southshore",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 50.31,
-							"yCoord": 58.89
+							"yCoord": 58.89,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Cool pants",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -32819,6 +32984,36 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.14,
+							"yCoord": 55.13,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": ">>> Refill quiver <<< Second floor of the house",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.35,
+							"yCoord": 52.32,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Fly to Arathi Highlands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -32881,6 +33076,18 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "TODO",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
