@@ -33080,10 +33080,25 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "TODO",
+							"xCoord": 25.52,
+							"yCoord": 30.15,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Get the last key",
 							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Burning Key",
+									"questId": 651,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -33102,54 +33117,37 @@
 							"yCoord": 57.43
 						},
 						{
+							"questName": "Stones of Binding",
+							"questId": 651,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Rumbling Exile",
-							"npcId": 2592,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 651,
-									"questName": "Stones of Binding",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "Breaking the Keystone",
+							"questId": 652,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 31.25,
+							"yCoord": 64.94,
 							"coordsMap": "Arathi Highlands",
+							"comment": "Access the Naga area by following the road here",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 36.27,
-							"yCoord": 57.43
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Rumbling Exile",
-							"npcId": 2592,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 652,
-									"questName": "Breaking the Keystone",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -33307,66 +33305,223 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
+							"comment": "Escort the gnome",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 33.85,
-							"yCoord": 80.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Doctor Draxlegauge",
-							"npcId": 2774,
+							"type": "Comment",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"goalName": "Defend Professor Phizzlethorpe",
 									"questId": 665,
-									"questName": "Sunken Treasure",
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Arathi Highlands",
+							"comment": "Equip the googles and drink one of your Elixir of Water Breathing",
+							"itemName": "Googles of Gem Hunting",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 33.85,
-							"yCoord": 80.56
+							"isCustom": false
 						},
 						{
+							"comment": "Basically go boat to boat retrieving charts and logs, killing the Nagas and gathering gems",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Doctor Draxlegauge",
-							"npcId": 2774,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 23.68,
+							"yCoord": 84.21,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Enter the first ship through this \"window\" (not the hole below). Dismiss your pet before going in.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 23.66,
+							"yCoord": 84.12,
+							"coordsMap": "Arathi Highlands",
+							"comment": "The log is inside a kettle in the very first room",
+							"depth": 0,
+							"type": "Go to",
 							"subTasks": [
 								{
+									"itemName": "Maiden's Folly Log",
+									"questId": 662,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 666,
-									"questName": "Sunken Treasure",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
+						},
+						{
+							"xCoord": 23.02,
+							"yCoord": 84.44,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Continue in the current floor inside the ship. Go through the doorframe to the west then enter the next room through the door to your right (north). The charts are to the left as you go in.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Maiden's Folly Charts",
+									"questId": 662,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Exit the ship through one of the windows to the north. Dismiss your pet before doing so.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 20.9,
+							"yCoord": 85.66,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Enter the second ship through the \"window\" here. Dismiss pet before going in.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 20.48,
+							"yCoord": 85.61,
+							"coordsMap": "Arathi Highlands",
+							"comment": "The charts are to your left as you go in.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Spirit of Silverpine Charts",
+									"questId": 662,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 20.64,
+							"yCoord": 85.1,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Exit the ship through the window with a cannon north west of where the charts you just looted were (dismiss pet...). Then, swim downwards and enter the lower level through the hole of the ship. The logs will be in the floor in front of you",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Some item",
+									"questId": 662,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "There might be also a chest to your left",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Finish the killing quest and the gems' quest by finishing the lap counter clockwise",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Daggerspine Raider",
+							"npcId": 2595,
+							"count": 10,
+							"questId": 664,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Daggerspine Sorceress",
+							"npcId": 2596,
+							"count": 3,
+							"questId": 664,
+							"questObjectiveIndex": 2,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Elven Gem",
+							"questId": 666,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 10,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -33408,38 +33563,33 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 33.8,
-							"yCoord": 80.46
+							"xCoord": 33.85,
+							"yCoord": 80.56
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"questId": 666,
-							"questName": "Sunken Treasure",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 33.8,
-							"yCoord": 80.46
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 668,
-							"questName": "Sunken Treasure",
-							"subTasks": [],
-							"type": "Accept quest"
+							"npcName": "Doctor Draxlegauge",
+							"npcId": 2774,
+							"subTasks": [
+								{
+									"questId": 666,
+									"questName": "Sunken Treasure",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 668,
+									"questName": "Sunken Treasure",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
 						}
 					]
 				},
@@ -33499,6 +33649,14 @@
 									"questName": "Sunken Treasure",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Sunken Treasure",
+									"questId": 669,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -33506,35 +33664,156 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 21.97,
+							"yCoord": 79.29,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Go back to Arathi through the same tunnel you got here.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 53.78,
+							"yCoord": 77.38,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Enter the Ogre cave here. The quest NPC is at the end.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 54.72,
+							"yCoord": 81.78,
+							"coordsMap": "Arathi Highlands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Trelane's Wand of Invocation",
+									"questId": 693,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Kor'gresh Coldrage",
+											"npcId": 2793
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"stepTasks": [
 						{
 							"coordsMap": "Arathi Highlands",
+							"xCoord": 67.46,
+							"yCoord": 40.45,
+							"comment": "Go find Fozruk. He patrols around the 4 elemental stones (all the area). However, he doesn't move if he is not in render distance of someone, so chances are that you will find him by using eagle eye between the elemental stones from this tree.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 32.39,
-							"yCoord": 81.47
+							"subTasks": [
+								{
+									"comment": "Mind you, Eagle eye has a limit render distance on Trinity Core, it's not like classic where you can render anything as long as you dont leave your current zone.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Rod of Order",
+									"questId": 652,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Fozruk",
+											"npcId": 2611
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Kite him towards the elemental stone to the southwest (the one that gave you the quest). The adds will eventually give up. Toggle cower in your pet and spam distracting shot on CD. He will knock you down if he gets too close, so keep your distance.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 36.17,
+							"yCoord": 57.98,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Place a trap before turning this in. An elite giant will spawn and try to kill you. Trap (or sac pet), run and FD.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Shakes O'Breen",
-							"npcId": 2610,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 669,
-									"questName": "Sunken Treasure",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"questId": 652,
+							"questName": "Breaking the Keystone",
+							"subTasks": [],
+							"type": "Turn in quest"
+						},
+						{
+							"questName": "Myzrael's Allies",
+							"questId": 653,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 45.5,
+							"yCoord": 47.63,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Buy 1 stack (x20) of level 35 meat. Your pet will get sacced A LOT very soon.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Narj Deepslice",
+									"npcId": 2814,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -33568,110 +33847,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 45.78,
+							"yCoord": 46.16,
 							"coordsMap": "Arathi Highlands",
+							"comment": "With some luck you are very close to getting level 40. If",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 46.59,
-							"yCoord": 47.03
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Skuerto",
-							"npcId": 2789,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 694,
-									"questName": "Trelane's Defenses",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.17,
-							"yCoord": 57.98
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 652,
-							"questName": "Breaking the Keystone",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.1,
-							"yCoord": 58.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 653,
-							"questName": "Myzrael's Allies",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Arathi Highlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 45.75,
-							"yCoord": 47.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Nials",
-							"npcId": 2700,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 681,
-									"questName": "Northfold Manor",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 9,
@@ -64187,18 +64375,6 @@
 		{
 			"sectionName": "Plaguelands Pt.2 (58-60)",
 			"sectionSteps": [
-				{
-					"stepTasks": [
-						{
-							"comment": "Do something",
-							"depth": 0,
-							"subTasks": [],
-							"type": "Comment",
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
