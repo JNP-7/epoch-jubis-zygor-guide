@@ -33873,6 +33873,29 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 43.69,
+							"yCoord": 31.73,
+							"coordsMap": "Ironforge",
+							"comment": "Silk donation. You should have more than enough. Only 1 of each type will give you XP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Mistina Steelshield",
+							"npcId": 14723,
+							"subTasks": [],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"coordsMap": "Ironforge",
 							"depth": 0,
 							"isCustom": false,
@@ -33894,6 +33917,14 @@
 									"questName": "Myzrael's Allies",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Theldurin the Lost",
+									"questId": 687,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -33904,45 +33935,40 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 76.86,
+							"yCoord": 51.16,
 							"coordsMap": "Ironforge",
+							"comment": "Tram to SW, first aid if you have any mageweave. Save 15 silk for a quest and store it in bank when you get back to booty bay.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 43.69,
-							"yCoord": 31.73
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Mistina Steelshield",
-							"npcId": 14723,
 							"subTasks": [],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ironforge",
+							"xCoord": 67.38,
+							"yCoord": 36.27,
+							"coordsMap": "Stormwind City",
+							"comment": "Learn spells if you reached 40",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 73.68,
-							"yCoord": 47.73
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bubulo Acerbus",
-							"npcId": 14724,
-							"subTasks": [],
-							"type": "Talk to"
+							"subTasks": [
+								{
+									"npcName": "Einris Brightspear",
+									"npcId": 5515,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -34038,6 +34064,21 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 70.94,
+							"yCoord": 72.63,
+							"coordsMap": "Stormwind City",
+							"comment": "Fly to Booty Bay",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -34124,30 +34165,16 @@
 									"questName": "Ansirem's Key",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questId": 610,
+									"questName": "\"Pretty Boy\" Duncan",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.26,
-							"yCoord": 77.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Catelyn the Blade",
-							"npcId": 2542,
-							"subTasks": [],
 							"type": "Talk to"
 						}
 					]
@@ -34177,6 +34204,14 @@
 									"questName": "Venture Company Mining",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Zanzil's Secret",
+									"questId": 621,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -34184,57 +34219,28 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 27.05,
+							"yCoord": 77.37,
 							"coordsMap": "Stranglethorn Vale",
+							"comment": ">>> Set HS <<< And buy a stack (x20) of lvl35 water, you will need it.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 27.12,
-							"yCoord": 77.28
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Crank Fizzlebub",
-							"npcId": 2498,
 							"subTasks": [
 								{
+									"npcName": "Innkeeper Skindle",
+									"npcId": 6807,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 621,
-									"questName": "Zanzil's Secret",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.73,
-							"yCoord": 77.12
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 606,
-							"questName": "Scaring Shaky",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -34264,6 +34270,52 @@
 								}
 							],
 							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 26.59,
+							"yCoord": 76.54,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Bank x15 Silk Cloth",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 27.73,
+							"yCoord": 77.12
+						},
+						{
+							"npcName": "\"Sea Wolf\" MacKinley",
+							"npcId": 2501,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Scaring Shaky",
+									"questId": 606,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -34312,13 +34364,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Chel Moonwood",
 							"npcId": 45506,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26439,
 									"questName": "Wild Tulip",
 									"subTasks": [],
@@ -34330,35 +34382,28 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 28.28,
+							"yCoord": 74.61,
 							"coordsMap": "Stranglethorn Vale",
+							"comment": ">>> Refill quiver <<< But mind you, if you are about to hit 40 simply wait untill you level up to buy better arrows (or fill everything but 2 slots with lvl 40 arrows)",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 28.25,
-							"yCoord": 77.52
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Drizzlik",
-							"npcId": 2495,
 							"subTasks": [
 								{
+									"npcName": "Haren Kanmae",
+									"npcId": 2839,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 628,
-									"questName": "Excelsior",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -34392,70 +34437,90 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 26.91,
+							"yCoord": 69.78,
 							"coordsMap": "Stranglethorn Vale",
+							"comment": "Jump into the water and swim north",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 27.26,
-							"yCoord": 69.58
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "Killing order -> Duncan (gets pulled alone) -> First Raider to the right (pulls alone) -> First mage to the right run backwards so he moves slighlty towards you, so your pet can get into melee w/o ass pulling -> Turn in + accept quest then FD the las 2 mobs",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Catelyn's Blade",
+							"questId": 610,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "\"Pretty Boy\" Duncan",
+									"npcId": 2545
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "The Bloodsail Buccaneers",
 							"questId": 595,
-							"questName": "The Bloodsail Buccaneers",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Turn in quest",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.26,
-							"yCoord": 69.58
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 597,
 							"questName": "The Bloodsail Buccaneers",
+							"questId": 597,
+							"depth": 0,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 23.52,
+							"yCoord": 70,
 							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go here then climb to the goblin's statue. Place a frost trap hugging the statue, tunr on Cower and turn off growl on you pet. Pull the giant and spam distracting shot on CD while running circles around the statue: perma slowed 0% resist chance.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 27.24,
-							"yCoord": 69.55
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "Kill the giant, loot the belt and use it to accept the quest.",
+							"itemName": "Monogrammed Sash",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 597,
-							"questName": "The Bloodsail Buccaneers",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Comment",
+							"subTasks": [
+								{
+									"questName": "The Monogrammed Sash",
+									"questId": 8552,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -34478,6 +34543,18 @@
 							"type": "Accept quest"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "TODO",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -34533,6 +34610,37 @@
 									"isCustom": false,
 									"questId": 599,
 									"questName": "The Bloodsail Buccaneers",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 28.25,
+							"yCoord": 77.52
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Drizzlik",
+							"npcId": 2495,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 628,
+									"questName": "Excelsior",
 									"subTasks": [],
 									"type": "Accept quest"
 								}

@@ -81,7 +81,11 @@
 	4h: Detailing 9th section
 	1.5h: Detailed 9/24 sections
 	
+10/10/2024
+
+	1h: Detailing 10th section
+	
 ------------
 Total:
 
-	56.5h
+	57.5h
