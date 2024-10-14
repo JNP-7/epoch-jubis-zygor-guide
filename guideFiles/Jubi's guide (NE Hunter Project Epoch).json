@@ -34406,37 +34406,6 @@
 					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.73,
-							"yCoord": 73.67
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Hecklebury Smotts",
-							"npcId": 2500,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 614,
-									"questName": "The Captain's Chest",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
 					"stepTasks": [
 						{
 							"xCoord": 26.91,
@@ -34531,40 +34500,6 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 23.7,
-							"yCoord": 71.39
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 8552,
-							"questName": "The Monogrammed Sash",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"stepTasks": [
-						{
-							"comment": "TODO",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 28.06,
 							"yCoord": 76.29
 						},
@@ -34581,6 +34516,14 @@
 									"questName": "The Bloodsail Buccaneers",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Bloodsail Buccaneers",
+									"questId": 599,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -34596,20 +34539,20 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 28.06,
-							"yCoord": 76.29
+							"xCoord": 27.68,
+							"yCoord": 76.73
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "First Mate Crazz",
-							"npcId": 2490,
+							"npcName": "Fin Fizracket",
+							"npcId": 2486,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 599,
-									"questName": "The Bloodsail Buccaneers",
+									"questId": 348,
+									"questName": "Stranglethorn Fever",
 									"subTasks": [],
 									"type": "Accept quest"
 								}
@@ -34658,75 +34601,30 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 27.68,
-							"yCoord": 76.73
+							"xCoord": 27.25,
+							"yCoord": 77.51
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Fin Fizracket",
-							"npcId": 2486,
+							"npcName": "Catelyn the Blade",
+							"npcId": 2542,
 							"subTasks": [
 								{
+									"questId": 610,
+									"questName": "\"Pretty Boy\" Duncan",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 348,
-									"questName": "Stranglethorn Fever",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.25,
-							"yCoord": 77.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Catelyn the Blade",
-							"npcId": 2542,
-							"subTasks": [],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.25,
-							"yCoord": 77.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Catelyn the Blade",
-							"npcId": 2542,
-							"subTasks": [
+									"isCustom": false
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 611,
 									"questName": "The Curse of the Tides",
+									"questId": 611,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -34789,37 +34687,14 @@
 									"questName": "The Bloodsail Buccaneers",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.15,
-							"yCoord": 76.97
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Fleet Master Seahorn",
-							"npcId": 2487,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 604,
 									"questName": "The Bloodsail Buccaneers",
+									"questId": 604,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -34882,37 +34757,14 @@
 									"questName": "The Monogrammed Sash",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.75,
-							"yCoord": 73.67
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Hecklebury Smotts",
-							"npcId": 2500,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 8553,
 									"questName": "The Captain's Cutlass",
+									"questId": 8553,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -34982,97 +34834,172 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
+							"comment": "Growl off, cower on, mend pet always up (he does AoE damage around him) and distracting shot if needed. Your foal is to kite him towards the entrance of booty bay while dealing AT LEAST half of his HP. The guards will finish him off for you.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.72,
-							"yCoord": 73.65
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Hecklebury Smotts",
-							"npcId": 2500,
+							"type": "Comment",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 615,
-									"questName": "The Captain's Cutlass",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.72,
-							"yCoord": 73.65
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sprogger",
-							"npcId": 2594,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 615,
-									"questName": "The Captain's Cutlass",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.73,
-							"yCoord": 73.65
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Hecklebury Smotts",
-							"npcId": 2500,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
+									"itemName": "Smotts' Chest",
 									"questId": 614,
-									"questName": "The Captain's Chest",
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Gorlash",
+											"npcId": 1492
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 33.59,
+							"yCoord": 73.74,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Kill all the pirates on your way here.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 36.23,
+							"yCoord": 69.97,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Then go where the giant is",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 27.2,
+							"yCoord": 82.67,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Kill all the swashbucklers on your way here. Try to avoid the warlocks, specially the ones with a succubus. If you have to fight one, trap trhe succubus otherwise you will get hit by a 400 damage lash of pain.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Bloodsail Charts",
+									"questId": 604,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Bloodsail Orders",
+									"questId": 604,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 25.64,
+							"yCoord": 85.69,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Interact with the dirt pile to loot the chest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Chest of Memories",
+									"questId": 26439,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 29.59,
+							"yCoord": 72.39,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Back to booty bay. Check the shopping list. If you didn't find the eye yet don't worry, there will be more chances.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Bloodsail Swashbuckler",
+									"npcId": 1563,
+									"count": 10,
+									"questId": 604,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Snuff",
+									"questId": 587,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 15,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Dizzy's Eye",
+									"questId": 576,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -35087,74 +35014,21 @@
 							"yCoord": 73.65
 						},
 						{
+							"npcName": "Captain Hecklebury Smotts",
+							"npcId": 2500,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 614,
-							"questName": "The Captain's Chest",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.21,
-							"yCoord": 75.73
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Chel Moonwood",
-							"npcId": 45506,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "The Captain's Chest",
+									"questId": 614,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26439,
-									"questName": "Wild Tulip",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.21,
-							"yCoord": 75.73
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Chel Moonwood",
-							"npcId": 45506,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26440,
-									"questName": "Wild Tulip",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -35188,6 +35062,58 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 28.21,
+							"yCoord": 75.73
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Chel Moonwood",
+							"npcId": 45506,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26439,
+									"questName": "Wild Tulip",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Wild Tulip",
+									"questId": 26440,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Do something",
+							"itemName": "TODO",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
