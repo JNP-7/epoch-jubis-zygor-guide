@@ -34836,60 +34836,6 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Growl off, cower on, mend pet always up (he does AoE damage around him) and distracting shot if needed. Your foal is to kite him towards the entrance of booty bay while dealing AT LEAST half of his HP. The guards will finish him off for you.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [
-								{
-									"itemName": "Smotts' Chest",
-									"questId": 614,
-									"questObjectiveIndex": 1,
-									"toLootNpcs": [
-										{
-											"npcName": "Gorlash",
-											"npcId": 1492
-										}
-									],
-									"count": 1,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 33.59,
-							"yCoord": 73.74,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Kill all the pirates on your way here.",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"xCoord": 36.23,
-							"yCoord": 69.97,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Then go where the giant is",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
 							"xCoord": 27.2,
 							"yCoord": 82.67,
 							"coordsMap": "Stranglethorn Vale",
@@ -34955,12 +34901,9 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 29.59,
-							"yCoord": 72.39,
-							"coordsMap": "Stranglethorn Vale",
 							"comment": "Back to booty bay. Check the shopping list. If you didn't find the eye yet don't worry, there will be more chances.",
 							"depth": 0,
-							"type": "Go to",
+							"type": "Comment",
 							"subTasks": [
 								{
 									"npcName": "Bloodsail Swashbuckler",
@@ -35000,6 +34943,60 @@
 						}
 					],
 					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 33.59,
+							"yCoord": 73.74,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Kill all the pirates on the way to booty bay.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 36.23,
+							"yCoord": 69.97,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Then go where the giant is",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"comment": "Growl off, cower on, mend pet always up (he does AoE damage around him) and distracting shot if needed. Your goal is to kite him towards the entrance of booty bay while dealing AT LEAST half of his HP. The guards will finish him off for you.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Smotts' Chest",
+									"questId": 614,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Gorlash",
+											"npcId": 1492
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
 				},
 				{
 					"onlyForClasses": [],
@@ -35103,19 +35100,6 @@
 					]
 				},
 				{
-					"stepTasks": [
-						{
-							"comment": "Do something",
-							"itemName": "TODO",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -35159,67 +35143,232 @@
 							"yCoord": 77.01
 						},
 						{
+							"npcName": "Fleet Master Seahorn",
+							"npcId": 2487,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 604,
-							"questName": "The Bloodsail Buccaneers",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.15,
-							"yCoord": 77.01
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 608,
-							"questName": "The Bloodsail Buccaneers",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.3,
-							"yCoord": 88.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodsail Sea Dog",
-							"npcId": 1565,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "The Bloodsail Buccaneers",
+									"questId": 604,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 624,
-									"questName": "Cortello's Riddle",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "The Bloodsail Buccaneers",
+									"questId": 608,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Hardest thing in the entire guide and probably not doable on a non-hunter. Skip this when done reading",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"coordsMap": "Stranglethorn Vale",
+							"xCoord": 29.91,
+							"yCoord": 89.33,
+							"comment": "Go to this ship first and clear the pirates on the deck, then kill Garr Salthoof. Since he is a Tauren his model goes through the deck, so he will get pulled through walls (and attack you aswell). His \"charge\" attack will deal half your HP, so try to get agro on your pet ASAP while he runs.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Afterwards heal your pet to full, put it on passive and set your pet to stay outside of the ship (near the palm tree, f.ex.).",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Go back on board and /target Captain to target Keelhaul. Command your pet to attack him and once he is aggroed press dive/sprint and put your pet on passive again. Your pet will run to the last stay position and will pull Keelhaul outside of his room. Hit/distract shot him and then jump off the ship with disengage towards the opposite direction your pet is going.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Your pet will despawn by distance before dying to mobs and Keelhaul will be chasing you. Once your pet despawns, resummon it, attack Keelhaul with it and feign death after it gets aggro. 1v1 the quest mob and go to the next ship.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"npcName": "Captain Keelhaul",
+							"npcId": 2548,
+							"count": 1,
+							"questId": 608,
+							"questObjectiveIndex": 2,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 30.18,
+							"yCoord": 89.42,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Now to the second ship. Same thing but /target Fleet (Firallon) and try to jump off the ship towards the east (3rd ship)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Fleet Master Firallon",
+									"npcId": 2546,
+									"count": 1,
+									"questId": 608,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 33.65,
+							"yCoord": 87.48,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "3rd ship, but this one we will be doing something different. Kill the pirates on deck then get inside the ship. Luckily you can pull everything here one by one and there is only 1 magus you need to fight.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"xCoord": 33.63,
+									"yCoord": 88.35,
+									"coordsMap": "Stranglethorn Vale",
+									"comment": "While on the middle level, hug your left (north) and kill the 2 pirates patrolling there. Before going through the doorframe that goes to the level below look right (south) and loot Cortello's riddle",
+									"itemId": 4056,
+									"itemName": "Cortello's Riddle",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [
+										{
+											"questName": "Cortello's Riddle",
+											"questId": 624,
+											"depth": 2,
+											"type": "Accept quest",
+											"subTasks": [],
+											"isCustom": false
+										},
+										{
+											"comment": "In theory this thing spawns in the 3 ships at the same time in Trinity Core. This one is the easiest to get by far, the other one are on the lowest level of the ship and are too hard to get.",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "After you get the quest (if you don't find it here skip it, -20k XP and a bag) /target Captian and do the usual or kill it by split pulling him from the mage.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"npcName": "Captain Stillwater",
+									"npcId": 2550,
+									"count": 1,
+									"questId": 608,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 39.52,
+							"yCoord": 76.6,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go to Jaguero isle and hug the west shoreline to try to avoid the stealthed panthers (Track hidden). Loot the dirt pile",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Daniel's Spice Box",
+									"questId": 26440,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Btw, if you are wondering why these kinds of split pulling shenanigans work is because, yes, it's not blizzlike. Social aggroed mobs don't get aggro \"pulses\" when you hit a mob that's \"tethered\" to them, so you can reset and split them by getting aggro on a different unit (you) other than the original target (your pet) and then making the original target despawn.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "TODO. Probably need to rearange quests to accept. Doing gorillas now?",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
