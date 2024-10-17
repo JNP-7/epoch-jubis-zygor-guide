@@ -27286,7 +27286,8 @@
 							"subTasks": [],
 							"type": "Go to",
 							"xCoord": 68.15,
-							"yCoord": 48.53
+							"yCoord": 48.53,
+							"comment": "Don't accept the follow up"
 						},
 						{
 							"depth": 0,
@@ -27301,14 +27302,6 @@
 									"questName": "Daelin's Men",
 									"subTasks": [],
 									"type": "Turn in quest"
-								},
-								{
-									"questName": "The Deserters",
-									"questId": 1286,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -27601,6 +27594,7 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"comment": "Don't accept the follow up",
 							"xCoord": 63.34,
 							"yCoord": 38.42
 						},
@@ -27617,14 +27611,6 @@
 									"questName": "Wharfmaster Dizzywig",
 									"subTasks": [],
 									"type": "Turn in quest"
-								},
-								{
-									"questName": "Parts for Kravel",
-									"questId": 1112,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -34183,13 +34169,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 27.12,
-							"yCoord": 77.28
+							"yCoord": 77.28,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Don't accept Zanzil's Secret yet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -34204,14 +34191,6 @@
 									"questName": "Venture Company Mining",
 									"subTasks": [],
 									"type": "Accept quest"
-								},
-								{
-									"questName": "Zanzil's Secret",
-									"questId": 621,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -34241,37 +34220,6 @@
 						}
 					],
 					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.77,
-							"yCoord": 76.46
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Privateer Bloads",
-							"npcId": 2494,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 617,
-									"questName": "Akiris by the Bundle",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
 				},
 				{
 					"stepTasks": [
@@ -35100,6 +35048,37 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 27.6,
+							"yCoord": 77.43,
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Scooty",
+							"npcId": 7853,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26484,
+									"questName": "The Janky Helmet",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -35361,7 +35340,19 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "TODO. Probably need to rearange quests to accept. Doing gorillas now?",
+							"xCoord": 36.37,
+							"yCoord": 64.19,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Now go do the gorilla related quests. Equip the helmet.",
+							"itemId": 60667,
+							"itemName": "Experimental Mind Control Helmet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "You need 10 gorilla fangs to summon the gorillas for STV Fever",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -35369,6 +35360,229 @@
 						}
 					],
 					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 33.07,
+							"yCoord": 65.41,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "When you are about to kill and Elder Mistvale Gorilla (30-40%) use the helmet to finish them off. You can't get loot so no giblets or fangs. Get this done ASAP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Elder Mistvale Gorilla experimented on",
+									"questId": 26484,
+									"questObjectiveIndex": 1,
+									"count": 8,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Mistvale Giblets",
+									"questId": 606,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Elder Mistvale Gorilla",
+											"npcId": 1557
+										}
+									],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 35.24,
+							"yCoord": 60.45,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "When you get 10 gorilla fangs go here. The summon is possibly bugged. If it doesn't work just abandone and go back to booty bay",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Witch Doctor Unbagwa",
+							"npcId": 1449,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"comment": "Give him the fangs to start the event",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Heart of Mokk",
+									"questId": 348,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Mokk the Savage",
+											"npcId": 1514
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 26.88,
+							"yCoord": 73.61,
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "\"Shaky\" Phillipe",
+							"npcId": 2502,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 606,
+									"questName": "Scaring Shaky",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 607,
+									"questName": "Return to MacKinley",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 27.65,
+							"yCoord": 76.73,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Only if the summoning wasn't bugged",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Fin Fizracket",
+							"npcId": 2486,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 348,
+									"questName": "Stranglethorn Fever",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 27.75,
+							"yCoord": 77.11,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Don't acccept the follow up yet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "\"Sea Wolf\" MacKinley",
+							"npcId": 2501,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 607,
+									"questName": "Return to MacKinley",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 27.58,
+							"yCoord": 77.4
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Scooty",
+							"npcId": 7853,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26484,
+									"questName": "The Janky Helmet",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
 				},
 				{
 					"onlyForClasses": [],
@@ -35402,6 +35616,74 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 37.97,
+							"yCoord": 3.07,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": ">>> Refill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Corporal Bluth",
+									"npcId": 734,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.52,
+							"yCoord": 24.08,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Kill Bhag'thera. Can pet tank or kite around a tree with trap. Becareful with the stealthed panther near the target",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Fang of Bhag'thera",
+									"questId": 193,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Bhag'thera",
+											"npcId": 728
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "TODO: Do trolls -> Venture Co. -> Raptors -> Kite elite raptor to camp ->Excelsior -> Underwater elite goblin -> HS back to Booty bay",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -35429,28 +35711,6 @@
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 43.15,
-							"yCoord": 18.34
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26483,
-							"questName": "The Janky Helmet",
-							"subTasks": [],
-							"type": "Accept quest"
 						}
 					]
 				},
@@ -35711,68 +35971,6 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 27.57,
-							"yCoord": 77.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Scooty",
-							"npcId": 7853,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26483,
-									"questName": "The Janky Helmet",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.57,
-							"yCoord": 77.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Scooty",
-							"npcId": 7853,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26484,
-									"questName": "The Janky Helmet",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 28.23,
 							"yCoord": 75.82
 						},
@@ -35851,37 +36049,6 @@
 									"questName": "Excelsior",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Duskwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.87,
-							"yCoord": 46.16
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watchmaster Sorigal",
-							"npcId": 5464,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1395,
-									"questName": "Supplies for Nethergarde",
-									"subTasks": [],
-									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
@@ -37207,6 +37374,102 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 26.77,
+							"yCoord": 76.46,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "TODO: Accept here. Sort out where",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Privateer Bloads",
+							"npcId": 2494,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 617,
+									"questName": "Akiris by the Bundle",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 27.74,
+							"yCoord": 77.14,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "TODO: Re arrange",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "\"Sea Wolf\" MacKinley",
+							"npcId": 2501,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Voodoo Dues",
+									"questId": 609,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 27.12,
+							"yCoord": 77.28,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "TODO: Re arrange accept order",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Crank Fizzlebub",
+							"npcId": 2498,
+							"subTasks": [
+								{
+									"questName": "Zanzil's Secret",
+									"questId": 621,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"coordsMap": "Stranglethorn Vale",
 							"depth": 0,
 							"isCustom": false,
@@ -37296,28 +37559,6 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 27.75,
-							"yCoord": 77.12
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 606,
-							"questName": "Scaring Shaky",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 28.25,
 							"yCoord": 75.82
 						},
@@ -37337,156 +37578,6 @@
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.25,
-							"yCoord": 60.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Witch Doctor Unbagwa",
-							"npcId": 1449,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 348,
-									"questName": "Stranglethorn Fever",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.87,
-							"yCoord": 73.6
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 606,
-							"questName": "Scaring Shaky",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.87,
-							"yCoord": 73.6
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 607,
-							"questName": "Return to MacKinley",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.58,
-							"yCoord": 77.4
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Scooty",
-							"npcId": 7853,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26484,
-									"questName": "The Janky Helmet",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.72,
-							"yCoord": 77.1
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 607,
-							"questName": "Return to MacKinley",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.74,
-							"yCoord": 77.14
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 609,
-							"questName": "Voodoo Dues",
-							"subTasks": [],
-							"type": "Accept quest"
 						}
 					]
 				},
@@ -37531,68 +37622,6 @@
 							"questName": "Wild Tulip",
 							"subTasks": [],
 							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 30.71,
-							"yCoord": 48.6
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Short John Mithril",
-							"npcId": 14508,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 7810,
-									"questName": "Arena Master",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Great Arena",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.6,
-							"yCoord": 47.45
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Short John Mithril",
-							"npcId": 14508,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 7810,
-									"questName": "Arena Master",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
 						}
 					]
 				},
