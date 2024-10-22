@@ -37027,10 +37027,67 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "TODO",
+							"xCoord": 64.43,
+							"yCoord": 19.53,
+							"coordsMap": "Swamp of Sorrows",
+							"comment": "Now go north to the road and then go to the waypoint (end of the lost ones' village) while looting crystal and killing fishermans for the rod. You can ignore the rest, they will respawn on your way out.",
 							"depth": 0,
-							"type": "Comment",
+							"type": "Go to",
 							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Polished Rod",
+							"questId": 26650,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Lost One Fisherman",
+									"npcId": 757
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"itemName": "Draenethyst Crystal",
+							"questId": 1389,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 6,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 64.41,
+							"yCoord": 18.42,
+							"coordsMap": "Swamp of Sorrows",
+							"comment": "Go to the cart and loot the chest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Wizards' Reagents",
+									"questId": 1421,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -37068,35 +37125,56 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 64.11,
+							"yCoord": 23.43,
 							"coordsMap": "Swamp of Sorrows",
+							"comment": "While escorting the human and after clearing the camp in the waypoint loot the crate and accept the quest",
+							"itemId": 6172,
+							"itemName": "Lost Supplies",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 53.67,
-							"yCoord": 28.94
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Galen Goodward",
-							"npcId": 5391,
 							"subTasks": [
 								{
+									"questName": "The Lost Supplies",
+									"questId": 1423,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1392,
-									"questName": "Noboru the Cudgel",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 52.28,
+							"yCoord": 29.89,
+							"coordsMap": "Swamp of Sorrows",
+							"comment": "Escort quest ends around this spot. He is suicidal, so keep a focus tab on him and assit him if he takes damage",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Escort Galen",
+									"questId": 1393,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -37111,21 +37189,12 @@
 							"yCoord": 39.73
 						},
 						{
+							"questName": "Galen's Escape",
+							"questId": 1393,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Swamp Jaguar",
-							"npcId": 767,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1393,
-									"questName": "Galen's Escape",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -37133,54 +37202,35 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Swamp of Sorrows",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.89,
-							"yCoord": 35.99
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Swamp Jaguar",
-							"npcId": 767,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1423,
-									"questName": "The Lost Supplies",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Swamp of Sorrows",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 29.65,
-							"yCoord": 36.31
+							"yCoord": 36.31,
+							"coordsMap": "Swamp of Sorrows",
+							"comment": "You should already be done with the chilis. If not look around for the remaining ones",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Karabor Chili",
+							"questId": 26653,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Ocniir",
 							"npcId": 45874,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26650,
 									"questName": "Freshly Polished Rods",
 									"subTasks": [],
@@ -37205,13 +37255,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Akmid",
 							"npcId": 45876,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26653,
 									"questName": "A Real Kick",
 									"subTasks": [],
@@ -37247,37 +37297,14 @@
 									"questName": "Noboru the Cudgel",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Swamp of Sorrows",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 25.8,
-							"yCoord": 31.67
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Magtoor",
-							"npcId": 1776,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1389,
 									"questName": "Draenethyst Crystals",
+									"questId": 1389,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -37298,13 +37325,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Manaar the Watcher",
 							"npcId": 45878,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26655,
 									"questName": "Wanted: Spinnaret",
 									"subTasks": [],
@@ -37340,6 +37367,14 @@
 									"questName": "The Lost Caravan",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Driftwood",
+									"questId": 1398,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -37347,35 +37382,265 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 54.82,
+							"yCoord": 61.82,
 							"coordsMap": "Swamp of Sorrows",
+							"comment": "Go to the tarantulas running through the south of Stonard. While you are at it, check on a database where \"Shadow Panther\"s are.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 26.82,
-							"yCoord": 59.63
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watcher Biggs",
-							"npcId": 5476,
 							"subTasks": [
 								{
+									"itemName": "Engorged Spider Fillet",
+									"questId": 26652,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Deathstrike Tarantula",
+											"npcId": 769
+										}
+									],
+									"count": 10,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1398,
-									"questName": "Driftwood",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
+						},
+						{
+							"comment": "You really want to look this up. There are 12 stealthed panthers scattered across the entire east of SoS and you need 8 drops that are not guarenteed. The quest is not well thought out.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 69.51,
+							"yCoord": 55.88,
+							"coordsMap": "Swamp of Sorrows",
+							"comment": "Jump into the lake and drink you 2nd Elixir of Water Breathing. Gather the relics and discover the temple",
+							"itemId": 5996,
+							"itemName": "Elixir of Water Breathing",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Atal'ai Artifact",
+							"questId": 9610,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 10,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [
+								{
+									"comment": "If you have an addon with markers on the minimap (pfQuest f.ex.) know that some of the markers are from the pre-dungeon area and not the actual lake. Just do a lap clockwise and you should be done",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"goalName": "Search for the Temple of Atal'Hakkar",
+							"questId": 1448,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 83.79,
+							"yCoord": 58.91,
+							"coordsMap": "Swamp of Sorrows",
+							"comment": "Go here to kill another panther, then go north while killing panther and crocks (look up the panther and crocolisks spawns)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Sturdy Crocolisk Skin",
+							"questId": 26648,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"itemName": "Rugged Panther Skin",
+							"questId": 26648,
+							"questObjectiveIndex": 2,
+							"toLootNpcs": [],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"xCoord": 70.26,
+							"yCoord": 10.58,
+							"coordsMap": "Swamp of Sorrows",
+							"comment": "With some luck you will be done with panthers and crocks around here. If not, finish it with the respawns while running south down the coast later (look up next step)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 75.89,
+							"yCoord": 4.65,
+							"coordsMap": "Swamp of Sorrows",
+							"comment": "Go here and run south down the coast while killing crabs and gathering wood. Mind you, the area is EXTREMELY buggy pathing wise for NPCs and pets (unless fixed). Toengage the crabs dismiss your pet, stand besides them and summon it again. Otherwise they will perma evade.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Massive Crawler Claw",
+							"questId": 26652,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Silt Crawler",
+									"npcId": 922
+								},
+								{
+									"npcName": "Monstrous Crawler",
+									"npcId": 1088
+								}
+							],
+							"count": 10,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"itemName": "Sundried Driftwood",
+							"questId": 1398,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [
+								{
+									"comment": "Most driftwoods are in the southern half of the coast, where the murlocs are",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Don't bother with the rare custom crab. 2 minute fight for 50s (or do if you are desperate for gold mount...)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "When done with the crabs, the driftwood, the panthers and the crocks hearth back to Darkshire.",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 75.71,
+							"yCoord": 46.3,
+							"coordsMap": "Duskwood",
+							"comment": "Now the quest we left behind",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Watchmaster Sorigal",
+							"npcId": 5464,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 1395,
+									"questName": "Supplies for Nethergarde",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 77.49,
+							"yCoord": 44.39,
+							"coordsMap": "Duskwood",
+							"comment": "Fly to The Harborage (custom SoS flightpath). If it's still bugged and doesnt show on the map simply walk back there.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Quest turn in order is scuffed because I can't know how you will get back to the quest hub. Simply turn in all, no need to accept anything else anymore.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -37391,13 +37656,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Innkeeper Finmir",
 							"npcId": 45877,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 9610,
 									"questName": "Pool of Tears",
 									"subTasks": [],
@@ -37422,13 +37687,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Moruul",
 							"npcId": 45885,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26648,
 									"questName": "Skins of the Swamp",
 									"subTasks": [],
@@ -37453,48 +37718,33 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Akmid",
 							"npcId": 45876,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26651,
 									"questName": "Karabor Stew",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Swamp of Sorrows",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.4,
-							"yCoord": 33.11
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Akmid",
-							"npcId": 45876,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26652,
 									"questName": "Eight Legged Fillets",
+									"questId": 26652,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
+								},
+								{
+									"questName": "Karabor Fire Stew",
+									"questId": 26654,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -37502,35 +37752,29 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Swamp of Sorrows",
+							"comment": "Go around town feeding the stew to the NPCs",
+							"itemId": 61038,
+							"itemName": "Karabore Fire Stew",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.4,
-							"yCoord": 33.11
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Akmid",
-							"npcId": 45876,
+							"type": "Comment",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"goalName": "Citizens Feed",
 									"questId": 26654,
-									"questName": "Karabor Fire Stew",
+									"questObjectiveIndex": 1,
+									"count": 10,
+									"depth": 1,
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -37546,49 +37790,17 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Akmid",
 							"npcId": 45876,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26654,
 									"questName": "Karabor Fire Stew",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"xCoord": 75.86,
-							"yCoord": 46.16,
-							"coordsMap": "Duskwood",
-							"comment": "TODO: Rearrange",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watchmaster Sorigal",
-							"npcId": 5464,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1395,
-									"questName": "Supplies for Nethergarde",
-									"subTasks": [],
-									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
@@ -37620,37 +37832,14 @@
 									"questName": "Driftwood",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Swamp of Sorrows",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 26.82,
-							"yCoord": 59.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watcher Biggs",
-							"npcId": 5476,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1425,
 									"questName": "Deliver the Shipment",
+									"questId": 1425,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -37661,13 +37850,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 67.56,
-							"yCoord": 19.19
+							"yCoord": 19.19,
+							"coordsMap": "Blasted Lands",
+							"comment": "To Nethergarde to turn in quests. Run up the tower first",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -37713,37 +37903,22 @@
 									"questName": "Deliver the Shipment",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.53,
-							"yCoord": 21.32
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Quartermaster Lungertz",
-							"npcId": 5393,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1423,
 									"questName": "The Lost Supplies",
+									"questId": 1423,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Supplies for Nethergarde",
+									"questId": 1395,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -37751,30 +37926,62 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 65.49,
+							"yCoord": 24.43,
+							"coordsMap": "Blasted Lands",
+							"comment": "Discover the FP then fly to booty bay",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Alexandra Constantine",
+									"npcId": 8609,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "You are probably level 42 now. If so, equip the Massive Longbow. Ranged weapon progression: starter bow -> lvl 3 vendor ->lvl 14 vendor -> lvl 26 quest -> lvl 42 vendor -> lvl 52 quest. Very good XD!11!1.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Blasted Lands",
+							"xCoord": 26.98,
+							"yCoord": 77.21,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Top floor",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 66.53,
-							"yCoord": 21.32
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Quartermaster Lungertz",
-							"npcId": 5393,
+							"npcName": "Krazek",
+							"npcId": 773,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 1395,
-									"questName": "Supplies for Nethergarde",
+									"questId": 2864,
+									"questName": "Tran'rek",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
@@ -37788,7 +37995,7 @@
 							"xCoord": 26.77,
 							"yCoord": 76.46,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "TODO: Accept here. Sort out where",
+							"comment": "Jump down and accept this",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -37814,34 +38021,56 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 27.74,
-							"yCoord": 77.14,
+							"xCoord": 26.58,
+							"yCoord": 76.54,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "TODO: Re arrange",
+							"comment": "Go to the bank and retrieve all the STV pages, pray to RNGesus. You need 15 and this is the last run north.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"npcName": "\"Sea Wolf\" MacKinley",
-							"npcId": 2501,
+							"comment": "Check the AH for pages",
 							"depth": 0,
-							"type": "Talk to",
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 27.1,
+							"yCoord": 77.5,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Back inside the inn",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Whiskey Slim",
+							"npcId": 2491,
 							"subTasks": [
 								{
-									"questName": "Voodoo Dues",
-									"questId": 609,
 									"depth": 1,
-									"type": "Accept quest",
+									"isCustom": false,
+									"questId": 580,
+									"questName": "Whiskey Slim's Lost Grog",
 									"subTasks": [],
-									"isCustom": false
+									"type": "Accept quest"
 								}
 							],
-							"isCustom": false
+							"type": "Talk to"
 						}
 					]
 				},
@@ -37852,7 +38081,6 @@
 							"xCoord": 27.12,
 							"yCoord": 77.28,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "TODO: Re arrange accept order",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -37878,13 +38106,466 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 27.06,
+							"yCoord": 77.35,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": ">>> SET HS <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Innkeeper Skindle",
+									"npcId": 6807,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 27.74,
+							"yCoord": 77.14,
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "\"Sea Wolf\" MacKinley",
+							"npcId": 2501,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Voodoo Dues",
+									"questId": 609,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Stoley's Debt",
+									"questId": 2872,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
 							"xCoord": 28.24,
 							"yCoord": 75.82,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "TODO: Accept here and rerarrange",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Chel Moonwood",
+							"npcId": 45506,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26441,
+									"questName": "Wild Tulip",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 28.29,
+							"yCoord": 74.61,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": ">>> Refill arrows <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Haren Kanmae",
+									"npcId": 2839,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 26.24,
+							"yCoord": 67.7,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go here by jumping off the BB docks. If you are low on Green Hill pages oyu might want to kill all the pirates by going the regular way",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 24.67,
+							"yCoord": 64.41,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Here afterwards and kill the nagas. Go to the fountain up the mountain for free 60s if rare is up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Akiris Reed",
+									"questId": 617,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Naga Explorer",
+											"npcId": 1907
+										}
+									],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 25.79,
+							"yCoord": 55.83,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Wave you mouse around the leaves here, the node is there but it's too hard too see...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"questId": 26441,
+							"questName": "Wild Tulip",
+							"subTasks": [],
+							"type": "Turn in quest"
+						},
+						{
+							"questName": "Wild Tulip",
+							"questId": 26442,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 28.09,
+							"yCoord": 51.04,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go to the south-western path of the arena. If you are desperate for pages, kill the pirates around (skip the warlocks)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 34.04,
+							"yCoord": 51.95,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Now to the Zanzil ruins",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 34.93,
+							"yCoord": 51.83,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Kill Jon Jon",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Jon-Jon's Golden Spyglass",
+									"questId": 609,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Jon-Jon the Crow",
+											"npcId": 2536
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 35.24,
+							"yCoord": 51.24,
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Maury's Clubbed Foot",
+									"questId": 609,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Maury \"Club Foot\" Wilkins",
+											"npcId": 2535
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 40.02,
+							"yCoord": 58.23,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Kill Chucky and finish getting the 12 mixtures (might take 2 full clears)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Chucky's Huge Ring",
+									"questId": 609,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [
+										{
+											"npcName": "Chucky \"Ten Thumbs\"",
+											"npcId": 2537
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Zanzil's Mixture",
+									"questId": 621,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 12,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 30.09,
+							"yCoord": 54.18,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Back to the southern road of the arena",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 26.92,
+							"yCoord": 38.64,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "And then to the pirate ship",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 27.35,
+							"yCoord": 36.72,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go to the captain's room and kill Captain Teuta",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Tulip's Pendant",
+									"questId": 26442,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Captain Teuta",
+											"npcId": 45508
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Daniel's Pendant",
+									"questId": 26442,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Captain Teuta",
+											"npcId": 45508
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.96,
+							"yCoord": 34.82,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Go to Bangalash's mound and kill the stealthed panther on the north side. Play rin around the rosie by placing a frost trap (same way you killed the giant in booty bay). Some adds will spawn a 50%. Let your pet take agroo and ignore them",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Head of Bangalash",
+									"questId": 208,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "King Bangalash",
+											"npcId": 731
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 35.72,
+							"yCoord": 10.8
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Hemet Nesingwary",
+							"npcId": 715,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 208,
+									"questName": "Big Game Hunter",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 35.7,
+							"yCoord": 10.6,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "If you got all 15 pages w/o using the AH this is the run",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -37893,14 +38574,304 @@
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Chel Moonwood",
-							"npcId": 45506,
+							"npcName": "Barnil Stonepot",
+							"npcId": 716,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 26441,
-									"questName": "Wild Tulip",
+									"questId": 338,
+									"questName": "The Green Hills of Stranglethorn",
+									"subTasks": [],
+									"type": "Accept quest"
+								},
+								{
+									"questName": "Chapter I",
+									"questId": 339,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Chapter I",
+									"questId": 339,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Chapter II",
+									"questId": 340,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Chapter II",
+									"questId": 340,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Chapter III",
+									"questId": 341,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Chapter III",
+									"questId": 341,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Chapter IV",
+									"questId": 342,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Chapter IV",
+									"questId": 342,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Green Hills of Stranglethorn",
+									"questId": 338,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.22,
+							"yCoord": 4.05,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Fly to Stormwind if you have at least 90g you will be able to buy your mount now.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stormwind City",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 69.41,
+							"yCoord": 40.61
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Brohann Caskbelly",
+							"npcId": 5384,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 1448,
+									"questName": "In Search of The Temple",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "To The Hinterlands",
+									"questId": 1449,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 68.88,
+							"yCoord": 30.97,
+							"coordsMap": "Stormwind City",
+							"comment": "Take the tram to IF and craft bandages. You should be level 225 by now.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 68.13,
+							"yCoord": 46.34,
+							"coordsMap": "Ironforge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Klockmort Spannerspan",
+							"npcId": 6169,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 2769,
+									"questName": "The Brassbolts Brothers",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Ironforge",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 77.22,
+							"yCoord": 12.05
+						},
+						{
+							"npcName": "Historian Karnik",
+							"npcId": 2916,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Azothan Relic",
+									"questId": 26641,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.64,
+							"yCoord": 47.77,
+							"coordsMap": "Ironforge",
+							"comment": "Fly to Menethil harbor",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 4.64,
+							"yCoord": 57.17,
+							"coordsMap": "Wetlands",
+							"comment": "Check the mailbox if the boat to darkshore is not around. If it is, do it in Darnassus",
+							"itemId": 46876,
+							"itemName": "Riding Training Pamphlet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "Learn to Ride in Darnassus",
+									"questId": 14085,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 36.37,
+							"yCoord": 45.58,
+							"coordsMap": "Darkshore",
+							"comment": "Fly to Darnassus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Teldrassil",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 55.51,
+							"yCoord": 92.13
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Erelas Ambersky",
+							"npcId": 7916,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 3661,
+									"questName": "Favored of Elune?",
 									"subTasks": [],
 									"type": "Accept quest"
 								}
@@ -37913,27 +38884,36 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
+							"xCoord": 38.68,
+							"yCoord": 16.15,
+							"coordsMap": "Darnassus",
+							"comment": "Check the mailbox near the bank if you didn't get it in Menethil",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 26.98,
-							"yCoord": 77.21
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Krazek",
-							"npcId": 773,
+							"npcName": "Jartsam",
+							"npcId": 4753,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 2864,
-									"questName": "Tran'rek",
+									"questId": 14085,
+									"questName": "Learn to Ride in Darnassus",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Tiger Riding",
+									"questId": 27627,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -37941,30 +38921,43 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": "Learn riding if you have 90g",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
+							"xCoord": 38.42,
+							"yCoord": 15.56,
+							"coordsMap": "Darnassus",
+							"comment": "Pick your favourite tiger. The best one is the piss colored one ofc.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 27.1,
-							"yCoord": 77.5
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Whiskey Slim",
-							"npcId": 2491,
+							"npcName": "Lelanai",
+							"npcId": 4730,
 							"subTasks": [
 								{
+									"questName": "Tiger Riding",
+									"questId": 27627,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 580,
-									"questName": "Whiskey Slim's Lost Grog",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -37972,113 +38965,41 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
+							"xCoord": 40.33,
+							"yCoord": 8.73,
+							"coordsMap": "Darnassus",
+							"comment": "Learn spells (how to use mail armor) if you have any spare money",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 27.73,
-							"yCoord": 77.1
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "HS back to booty bay",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 2872,
-							"questName": "Stoley's Debt",
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.25,
-							"yCoord": 75.82
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Chel Moonwood",
-							"npcId": 45506,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26441,
-									"questName": "Wild Tulip",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 25.79,
-							"yCoord": 55.83
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26441,
-							"questName": "Wild Tulip",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 25.79,
-							"yCoord": 55.83
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26442,
-							"questName": "Wild Tulip",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 27.09,
-							"yCoord": 77.25
+							"yCoord": 77.25,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "At the inn, lower floor",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -38124,6 +39045,14 @@
 									"questName": "Akiris by the Bundle",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Akiris by the Bundle",
+									"questId": 623,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -38131,33 +39060,49 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 26.58,
+							"yCoord": 76.54,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Retrieve the Murloc heads and the turtles tongues from the bank (the quests from Dustwallow)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 27.78,
+							"yCoord": 77.06,
 							"coordsMap": "Stranglethorn Vale",
+							"comment": "Skip the follow up",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 26.76,
-							"yCoord": 76.44
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "\"Sea Wolf\" MacKinley",
+							"npcId": 2501,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Privateer Bloads",
-							"npcId": 2494,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "Voodoo Dues",
+									"questId": 609,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 623,
-									"questName": "Akiris by the Bundle",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -38165,164 +39110,44 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 28.24,
+							"yCoord": 75.81,
 							"coordsMap": "Stranglethorn Vale",
+							"comment": "Will have to wait out a role play to turn the last one in. Just do some bandages or something",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 28.23,
-							"yCoord": 75.79
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Chel Moonwood",
 							"npcId": 45506,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
 									"questId": 26442,
 									"questName": "Wild Tulip",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.23,
-							"yCoord": 75.79
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Chel Moonwood",
-							"npcId": 45506,
-							"subTasks": [
-								{
 									"depth": 1,
-									"isCustom": false,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
 									"questId": 26443,
 									"questName": "Wild Tulip",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.78,
-							"yCoord": 77.06
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 609,
-							"questName": "Voodoo Dues",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.72,
-							"yCoord": 77.11
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 613,
-							"questName": "Cracking Maury's Foot",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.24,
-							"yCoord": 75.81
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Chel Moonwood",
-							"npcId": 45506,
-							"subTasks": [
-								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26443,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
 									"questName": "Wild Tulip",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.7,
-							"yCoord": 10.73
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hemet Nesingwary",
-							"npcId": 715,
-							"subTasks": [
-								{
+									"questId": 26443,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 197,
-									"questName": "Raptor Mastery",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -38330,358 +39155,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 25.89,
+							"yCoord": 73.15,
 							"coordsMap": "Stranglethorn Vale",
+							"comment": "Take the boat to Ratchet",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 35.7,
-							"yCoord": 10.6
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Barnil Stonepot",
-							"npcId": 716,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 338,
-									"questName": "The Green Hills of Stranglethorn",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.7,
-							"yCoord": 10.58
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Barnil Stonepot",
-							"npcId": 716,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 339,
-									"questName": "Chapter I",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.69,
-							"yCoord": 10.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Barnil Stonepot",
-							"npcId": 716,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 342,
-									"questName": "Chapter IV",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.69,
-							"yCoord": 10.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 339,
-							"questName": "Chapter I",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.69,
-							"yCoord": 10.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Barnil Stonepot",
-							"npcId": 716,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 341,
-									"questName": "Chapter III",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.69,
-							"yCoord": 10.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Barnil Stonepot",
-							"npcId": 716,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 340,
-									"questName": "Chapter II",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.69,
-							"yCoord": 10.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Barnil Stonepot",
-							"npcId": 716,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 340,
-									"questName": "Chapter II",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.69,
-							"yCoord": 10.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Barnil Stonepot",
-							"npcId": 716,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 341,
-									"questName": "Chapter III",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.69,
-							"yCoord": 10.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Barnil Stonepot",
-							"npcId": 716,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 342,
-									"questName": "Chapter IV",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.69,
-							"yCoord": 10.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Barnil Stonepot",
-							"npcId": 716,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 338,
-									"questName": "The Green Hills of Stranglethorn",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 35.72,
-							"yCoord": 10.8
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hemet Nesingwary",
-							"npcId": 715,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 208,
-									"questName": "Big Game Hunter",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.74,
-							"yCoord": 77.11
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 613,
-							"questName": "Cracking Maury's Foot",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 10,
@@ -38718,227 +39204,6 @@
 									"type": "Turn in quest"
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 77.22,
-							"yCoord": 12.05
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26641,
-							"questName": "Azothan Relic",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 69.41,
-							"yCoord": 40.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Brohann Caskbelly",
-							"npcId": 5384,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1448,
-									"questName": "In Search of The Temple",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 69.41,
-							"yCoord": 40.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Brohann Caskbelly",
-							"npcId": 5384,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1449,
-									"questName": "To The Hinterlands",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.97,
-							"yCoord": 59.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 14085,
-							"questName": "Learn to Ride in Darnassus",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 55.51,
-							"yCoord": 92.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Erelas Ambersky",
-							"npcId": 7916,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3661,
-									"questName": "Favored of Elune?",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.68,
-							"yCoord": 16.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jartsam",
-							"npcId": 4753,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 14085,
-									"questName": "Learn to Ride in Darnassus",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.69,
-							"yCoord": 16.03
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jartsam",
-							"npcId": 4753,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27627,
-									"questName": "Tiger Riding",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.42,
-							"yCoord": 15.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lelanai",
-							"npcId": 4730,
-							"subTasks": [],
 							"type": "Talk to"
 						}
 					]
