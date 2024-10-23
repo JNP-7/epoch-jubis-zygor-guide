@@ -38796,6 +38796,25 @@
 				{
 					"stepTasks": [
 						{
+							"comment": "If you don't have 90g for your mount then HS back to booty bay here. You will have enough after questing in Dustwallow. If that's the quest, check the steps in this section after this point and do them after finishing the next section (before flying to Gadgetzan).",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step. If you are not buying the mount now then skips steps until one of them tells you to HS back to Booty bay",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 55.64,
 							"yCoord": 47.77,
 							"coordsMap": "Ironforge",
@@ -39178,6 +39197,231 @@
 			"sectionName": "Dustwallow Marsh (43)",
 			"sectionSteps": [
 				{
+					"stepTasks": [
+						{
+							"xCoord": 63.08,
+							"yCoord": 37.14,
+							"coordsMap": "The Barrens",
+							"comment": "Fly to Theramore",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 67.71,
+							"yCoord": 48.91,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "This was bugged during beta, but hopefully (it better be) fixed by launch. If you have 225 firs aid (you should) turn friendly nameplates on and bind the quest item.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Doctor Gustaf VanHowzen",
+							"npcId": 12939,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 6624,
+									"questName": "Triage",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Critically injured > Badly injured > Injured",
+							"itemId": 16991,
+							"itemName": "Triage Bandage",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"goalName": "15 Patients Saved!",
+									"questId": 6624,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 67.7,
+							"yCoord": 48.96
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Doctor Gustaf VanHowzen",
+							"npcId": 12939,
+							"subTasks": [
+								{
+									"questName": "Triage",
+									"questId": 6624,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Learn any FA recipes if possible. Skip this afterwards.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 68.22,
+							"yCoord": 48.58,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Upstairs",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Captain Garran Vimes",
+							"npcId": 4944,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 1286,
+									"questName": "The Deserters",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 66.35,
+							"yCoord": 45.4,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Skip follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Morgan Stern",
+							"npcId": 4794,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 1204,
+									"questName": "Mudrock Soup and Bugs",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 66.55,
+							"yCoord": 45.23,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": ">>> Set HS <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Innkeeper Janene",
+									"npcId": 6272,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 65.39,
+							"yCoord": 50.84
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"questId": 26445,
+							"questName": "Wanted: King Krool",
+							"subTasks": [],
+							"type": "Accept quest"
+						}
+					]
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -39212,169 +39456,24 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.71,
-							"yCoord": 48.91
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Doctor Gustaf VanHowzen",
-							"npcId": 12939,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6624,
-									"questName": "Triage",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.7,
-							"yCoord": 48.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Doctor Gustaf VanHowzen",
-							"npcId": 12939,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6624,
-									"questName": "Triage",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.22,
-							"yCoord": 48.58
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Garran Vimes",
-							"npcId": 4944,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1286,
-									"questName": "The Deserters",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.35,
-							"yCoord": 45.4
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Morgan Stern",
-							"npcId": 4794,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1204,
-									"questName": "Mudrock Soup and Bugs",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.39,
-							"yCoord": 50.84
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26445,
-							"questName": "Wanted: King Krool",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 66.92,
-							"yCoord": 53.41
+							"yCoord": 53.41,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "On top of the watchtower",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Watcher Wallace",
 							"npcId": 45612,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26464,
 									"questName": "The Downed Zeppelin",
 									"subTasks": [],
@@ -39384,6 +39483,21 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 56.53,
+							"yCoord": 60.33,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Jump into the water and swim here. Then run up to the crashed zeppelin.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -39405,42 +39519,27 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26464,
 									"questName": "The Downed Zeppelin",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.71,
-							"yCoord": 56.53
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Cys Craftcharge",
-							"npcId": 45610,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26466,
 									"questName": "Grab The Goods",
+									"questId": 26466,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"questName": "Where In The World Is Beezil Linkspanner?",
+									"questId": 26465,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -39448,35 +39547,107 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
+							"comment": "Go around the area killing the oozes, looting them and looting the crates. If you see that Bubbling oozes have +5k HP is because they are still bugged and have their elite values. Try to avoid those.",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.71,
-							"yCoord": 56.53
+							"isCustom": false
 						},
 						{
+							"itemName": "Zeppelin Cargo",
+							"questId": 26466,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 8,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Cys Craftcharge",
-							"npcId": 45610,
+							"type": "Get",
 							"subTasks": [
 								{
+									"comment": "For these you can just check in any database for the world object \"Zeppelin Cargo\" since those are from an actual quest even if they are custom here. The boxes don't sparkle and they are brown, like the ENTIRE ZONE >:(. No need to wear your eyes down,",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26465,
-									"questName": "Where In The World Is Beezil Linkspanner?",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
+						},
+						{
+							"itemName": "Beezil Location Clue I",
+							"questId": 26465,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Bubbling Swamp Ooze",
+									"npcId": 4394
+								},
+								{
+									"npcName": "Corrosive Swamp Ooze",
+									"npcId": 4392
+								},
+								{
+									"npcName": "Acidic Swamp Ooze",
+									"npcId": 4393
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"itemName": "Beezil Location Clue II",
+							"questId": 26465,
+							"questObjectiveIndex": 2,
+							"toLootNpcs": [
+								{
+									"npcName": "Bubbling Swamp Ooze",
+									"npcId": 4394
+								},
+								{
+									"npcName": "Corrosive Swamp Ooze",
+									"npcId": 4392
+								},
+								{
+									"npcName": "Acidic Swamp Ooze",
+									"npcId": 4393
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"itemName": "Beezil Location Clue III",
+							"questId": 26465,
+							"questObjectiveIndex": 3,
+							"toLootNpcs": [
+								{
+									"npcName": "Bubbling Swamp Ooze",
+									"npcId": 4394
+								},
+								{
+									"npcName": "Corrosive Swamp Ooze",
+									"npcId": 4392
+								},
+								{
+									"npcName": "Acidic Swamp Ooze",
+									"npcId": 4393
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -39498,42 +39669,27 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26465,
 									"questName": "Where In The World Is Beezil Linkspanner?",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.7,
-							"yCoord": 56.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Cys Craftcharge",
-							"npcId": 45610,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26466,
 									"questName": "Grab The Goods",
+									"questId": 26466,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
+								},
+								{
+									"questName": "Defibrillated",
+									"questId": 26467,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -39541,35 +39697,29 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
+							"comment": "Turn in track humanoids and use the defibrilator on the goblins",
+							"itemId": 60663,
+							"itemName": "Bodged Defibrillator",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.7,
-							"yCoord": 56.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Cys Craftcharge",
-							"npcId": 45610,
+							"type": "Comment",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"goalName": "Crew Member \"Helped\"",
 									"questId": 26467,
-									"questName": "Defibrillated",
+									"questObjectiveIndex": 1,
+									"count": 6,
+									"depth": 1,
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -39591,42 +39741,19 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26467,
 									"questName": "Defibrillated",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.7,
-							"yCoord": 56.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Cys Craftcharge",
-							"npcId": 45610,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26482,
 									"questName": "Sniffotron MK IV",
+									"questId": 26482,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -39637,13 +39764,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 37.52,
-							"yCoord": 75.17
+							"yCoord": 75.17,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Mudsprocket doesn't exist, but this guy was moved here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -39652,43 +39780,12 @@
 							"npcId": 23579,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 11158,
 									"questName": "Bloodfen Feathers",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 31.14,
-							"yCoord": 66.08
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodfen Lashtail",
-							"npcId": 4357,
-							"subTasks": [
-								{
+									"questId": 11158,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 625,
-									"questName": "Cortello's Riddle",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -39696,57 +39793,83 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 33.88,
+							"yCoord": 66.02,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Move to this area while killing any raptors on the way",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 31.14,
-							"yCoord": 66.08
+							"yCoord": 66.08,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "If you did the questline",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"questName": "Cortello's Riddle",
+							"questId": 625,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodfen Lashtail",
-							"npcId": 4357,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 626,
-									"questName": "Cortello's Riddle",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "Cortello's Riddle",
+							"questId": 626,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.5,
-							"yCoord": 75.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
+							"itemName": "Bloodfen Feather",
 							"questId": 11158,
-							"questName": "Bloodfen Feathers",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Bloodfen Lashtail",
+									"npcId": 4357
+								},
+								{
+									"npcName": "Bloodfen Razormaw",
+									"npcId": 4356
+								}
+							],
+							"count": 5,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [
+								{
+									"comment": "Kill around the cave (can try to AoE some of them with the dynamite from STV quests) then move back south when you are almost done",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -39761,54 +39884,84 @@
 							"yCoord": 75.2
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
 							"npcName": "Brogg",
 							"npcId": 23579,
+							"depth": 0,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "Bloodfen Feathers",
+									"questId": 11158,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 11160,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Banner of the Stonemaul",
+									"questId": 11160,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "The Essence of Enmity",
+									"questId": 11161,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
 							"coordsMap": "Dustwallow Marsh",
+							"xCoord": 38.47,
+							"yCoord": 65.98,
+							"comment": "The banner is dropped by the Scalebanes inside the cave. Use the totem in the bodies of any dragon to gather the essence. Mind you, Ash tails do a lot of fire damage.",
+							"itemId": 33088,
+							"itemName": "Brogg's Totem",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 37.5,
-							"yCoord": 75.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Brogg",
-							"npcId": 23579,
 							"subTasks": [
 								{
+									"itemName": "Stonemaul Banner",
+									"questId": 11160,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Firemane Scalebane",
+											"npcId": 4328
+										}
+									],
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 11161,
-									"questName": "The Essence of Enmity",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"itemName": "Black Dragonkin Essence",
+									"questId": 11161,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -39835,73 +39988,53 @@
 									"questName": "Banner of the Stonemaul",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.51,
-							"yCoord": 75.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Brogg",
-							"npcId": 23579,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 11161,
 									"questName": "The Essence of Enmity",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.51,
-							"yCoord": 75.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Brogg",
-							"npcId": 23579,
-							"subTasks": [
-								{
+									"questId": 11161,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 11159,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Spirits of Stonemaul Hold",
+									"questId": 11159,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 40.56,
+							"yCoord": 68.2,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Go here and follow the road nort-east while interacting with the bones of the ogres. Kill the spirits to get quest progression",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Stonemaul Spirits laid to rest",
+									"questId": 11159,
+									"questObjectiveIndex": 1,
+									"count": 10,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -39928,37 +40061,14 @@
 									"questName": "Spirits of Stonemaul Hold",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.53,
-							"yCoord": 75.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Brogg",
-							"npcId": 23579,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 11162,
 									"questName": "Challenge to the Black Flight",
+									"questId": 11162,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -39969,44 +40079,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.53,
-							"yCoord": 75.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Brogg",
-							"npcId": 23579,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 11162,
-									"questName": "Challenge to the Black Flight",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 36.1,
-							"yCoord": 54.28
+							"yCoord": 54.28,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Weirdly the other NPCs don't try to help him. Just don't burst him and actually kill him. At 40% let the pet finish him off.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -40021,37 +40101,14 @@
 									"questName": "The Deserters",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.1,
-							"yCoord": 54.28
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Balos Jacken",
-							"npcId": 5089,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1287,
 									"questName": "The Deserters",
+									"questId": 1287,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -40090,24 +40147,103 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 34.68,
+							"yCoord": 22.99,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Go north to the spiders' mine. You can AoE down these",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Unpopped Darkmist Eye",
+									"questId": 1206,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 40,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.88,
+							"yCoord": 17.5,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Escort this guy. Try to pull mobs that are ahead of him so he doesn't stop walking",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "\"Stinky\" Ignatz",
+							"npcId": 4880,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 1222,
+									"questName": "Stinky's Escape",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "Help Stinky find Bogbean Leaves",
+									"questId": 1222,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 55.39,
-							"yCoord": 26.21
+							"yCoord": 26.21,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Skip the follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "\"Swamp Eye\" Jarl",
+							"npcId": 4792,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 1206,
-							"questName": "Jarl Needs Eyes",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Jarl Needs Eyes",
+									"questId": 1206,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -40115,545 +40251,38 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 61.86,
-							"yCoord": 32.17
+							"yCoord": 32.17,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Go to the shore and south. Escort this guy to Theramore. Keep a focus tab on him, he can get bursted down fast.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Argyle Wilkes",
 							"npcId": 45577,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26455,
 									"questName": "Cast Away",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.59,
-							"yCoord": 45.26
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bartender Lillian",
-							"npcId": 4893,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
+									"goalName": "Escort Argyle Wilkes",
 									"questId": 26455,
-									"questName": "Cast Away",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.74,
-							"yCoord": 48.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Doctor Gustaf VanHowzen",
-							"npcId": 12939,
-							"subTasks": [
-								{
+									"questObjectiveIndex": 1,
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 6624,
-									"questName": "Triage",
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.86,
-							"yCoord": 48.16
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Clerk Lendry",
-							"npcId": 5083,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26445,
-									"questName": "Wanted: King Krool",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.16,
-							"yCoord": 48.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Garran Vimes",
-							"npcId": 4944,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1287,
-									"questName": "The Deserters",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.17,
-							"yCoord": 48.53
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Garran Vimes",
-							"npcId": 4944,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 11143,
-									"questName": "A Grim Connection",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 46.67,
-							"yCoord": 24.64
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Darill",
-							"npcId": 23568,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 11143,
-									"questName": "A Grim Connection",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 46.67,
-							"yCoord": 24.64
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Darill",
-							"npcId": 23568,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 11144,
-									"questName": "Confirming the Suspicion",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 46.67,
-							"yCoord": 24.64
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Darill",
-							"npcId": 23568,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 11148,
-									"questName": "Arms of the Grimtotems",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 46.9,
-							"yCoord": 17.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 1222,
-							"questName": "Stinky's Escape",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 46.68,
-							"yCoord": 24.63
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Darill",
-							"npcId": 23568,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 11144,
-									"questName": "Confirming the Suspicion",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.7,
-							"yCoord": 56.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Cys Craftcharge",
-							"npcId": 45610,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26482,
-									"questName": "Sniffotron MK IV",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.7,
-							"yCoord": 56.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Cys Craftcharge",
-							"npcId": 45610,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26468,
-									"questName": "Sniff Him Out",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.68,
-							"yCoord": 56.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Cys Craftcharge",
-							"npcId": 45610,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26468,
-									"questName": "Sniff Him Out",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.07,
-							"yCoord": 66.09
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Beezil Linkspanner",
-							"npcId": 45609,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26468,
-									"questName": "Sniff Him Out",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.07,
-							"yCoord": 66.09
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Beezil Linkspanner",
-							"npcId": 45609,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26469,
-									"questName": "Beezil And The Burning Blade",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.7,
-							"yCoord": 56.6
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Cys Craftcharge",
-							"npcId": 45610,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26469,
-									"questName": "Beezil And The Burning Blade",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.7,
-							"yCoord": 56.59
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Cys Craftcharge",
-							"npcId": 45610,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26471,
-									"questName": "Burning Blade Dossier",
-									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -40700,18 +40329,898 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"xCoord": 66.59,
+							"yCoord": 45.26
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Bartender Lillian",
+							"npcId": 4893,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26455,
+									"questName": "Cast Away",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 68.16,
+							"yCoord": 48.51,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Upstairs",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Captain Garran Vimes",
+							"npcId": 4944,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 1287,
+									"questName": "The Deserters",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Grim Connection",
+									"questId": 11143,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.5,
+							"yCoord": 51.26,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Fly to Ratchet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.67,
+							"yCoord": 36.27,
+							"coordsMap": "The Barrens",
+							"comment": "Select the dialog option and he will give you the quest item",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Gazlowe",
+							"npcId": 3391,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"itemName": "Sniffotron Kit",
+									"questId": 26482,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.07,
+							"yCoord": 37.15,
+							"coordsMap": "The Barrens",
+							"comment": "Back to Theramore",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 46.67,
+							"yCoord": 24.64
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Captain Darill",
+							"npcId": 23568,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 11143,
+									"questName": "A Grim Connection",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Confirming the Suspicion",
+									"questId": 11144,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Arms of the Grimtotems",
+									"questId": 11148,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 41.36,
+							"yCoord": 11.86,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Go to the Grimtotem village. Get the armaments from the weapon stands and the plans from the elders",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Blackhoof Armaments",
+							"questId": 11148,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 7,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Grimtotem Battle Plan",
+							"questId": 11144,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [
+								{
+									"comment": "Get 4 notes from the elders to combine into the quest item",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 46.68,
+							"yCoord": 24.63
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Captain Darill",
+							"npcId": 23568,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 11144,
+									"questName": "Confirming the Suspicion",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Arms of the Grimtotems",
+									"questId": 11148,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 11149,
+									"questName": "Tabetha's Assistance",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.03,
+							"yCoord": 57.11,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "If the 2 apprentices' quests are available (3), accept them and do them. Not detailed here but will have indications later when to do them",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Tabetha",
+							"npcId": 6546,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 11149,
+									"questName": "Tabetha's Assistance",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 11150,
+									"questName": "Raze Direhorn Post!",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.79,
+							"yCoord": 47.28,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Burn the 3 tents with the torch. There is a forsaken in one of the tens. Kill her to get an item that starts a quest",
+							"itemId": 33072,
+							"itemName": "Tabetha's Torch",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"goalName": "North Tent Burned",
+							"questId": 11150,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"goalName": "Northeast Tent Burned",
+							"questId": 11150,
+							"questObjectiveIndex": 2,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"goalName": "East Tent Burned",
+							"questId": 11150,
+							"questObjectiveIndex": 3,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Use the letter to accept the quest",
+							"itemId": 33114,
+							"itemName": "Sealed Letter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"questId": 11185,
+									"questName": "The Apothecary's Letter",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "If Tabetha's apprentices' quests were available kill the 12 Grimtotems here",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.01,
+							"yCoord": 57.13,
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Tabetha",
+							"npcId": 6546,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Raze Direhorn Post!",
+									"questId": 11150,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 11151,
+									"questName": "Justice for the Hyals",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 45.48,
+							"yCoord": 57.72,
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Andello Porter",
+							"npcId": 23942,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Apothecary's Letter",
+									"questId": 11185,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 53.7,
+							"yCoord": 56.56
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Cys Craftcharge",
+							"npcId": 45610,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26482,
+									"questName": "Sniffotron MK IV",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Sniff Him Out",
+									"questId": 26468,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Don't cheat and try to go to the cave first. The robot will bug out its pathing. The quests doesn't complete until the robot finds the goblin.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"goalName": "Follow the Sniffotron",
+							"questId": 26468,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 52.07,
+							"yCoord": 66.09
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Beezil Linkspanner",
+							"npcId": 45609,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26468,
+									"questName": "Sniff Him Out",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Beezil And The Burning Blade",
+									"questId": 26469,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 53.7,
+							"yCoord": 56.6,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "If Tabetha's quests were available don't backtrack here. Do Ony -> Elite crock -> Turn in Ogre quest -> Finish and turn in Tabetha's quest -> Turn these quests in -> HS to Theramore",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Cys Craftcharge",
+							"npcId": 45610,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26469,
+									"questName": "Beezil And The Burning Blade",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Burning Blade Dossier",
+									"questId": 26471,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If Tabetha's farm quest were available (who knows why they aren't...) this is where you would kill the spiders and test the totems on the crocks. Then you would turn these in after turning the ogre's final quest to then turn the zeppelin quests and HSing back to Theramore",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step. -7k XP + mob XP if not available :(",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 52.15,
+							"yCoord": 75.75,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Go to Ony's lair and plant the banner. Careful with the spell casters that spawn in the first wave. Super long range. The boss is a pushover.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Stonemaul Clan Avenged",
+									"questId": 11162,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 44.55,
+							"yCoord": 77.95,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Can pet tank. Pop CDs and trap if you need to bandage",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Giant Crocolisk Tooth",
+									"count": 1,
+									"questId": 26445,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "King Krool",
+											"npcId": 45513
+										}
+									],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 37.53,
+							"yCoord": 75.15,
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Brogg",
+							"npcId": 23579,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 11162,
+									"questName": "Challenge to the Black Flight",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Theramore (or turn in Tabetha's quests if available, then HS)",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 67.86,
+							"yCoord": 48.16,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Upstairs",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Clerk Lendry",
+							"npcId": 5083,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26445,
+									"questName": "Wanted: King Krool",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 68.21,
+							"yCoord": 48.58,
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Captain Garran Vimes",
+							"npcId": 4944,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 11151,
+									"questName": "Justice for the Hyals",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 11152,
+									"questName": "Peace at Last",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.66,
+							"yCoord": 42.86,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Go to the GY and use the flowers on the grave",
+							"itemId": 33081,
+							"itemName": "Wreath",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Have to wait out the RP event there or it won't progress and the quest won't complete. Do first aids, drink some water, take a piss or something while you wait...",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "Wreath Laid",
+									"questId": 11152,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 68.21,
+							"yCoord": 48.58,
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Captain Garran Vimes",
+							"npcId": 4944,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Peace at Last",
+									"questId": 11152,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.92,
+							"yCoord": 49.9,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": ">>> Refill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Jensen Farran",
+									"npcId": 4892,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Dustwallow Marsh",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
 							"xCoord": 66.93,
 							"yCoord": 53.41
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Watcher Wallace",
 							"npcId": 45612,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26471,
 									"questName": "Burning Blade Dossier",
 									"subTasks": [],
@@ -40721,6 +41230,28 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If you didn't have enough money for your mount before now it's a good time to go buy it",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 67.5,
+							"yCoord": 51.27,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "When done fly to Gadgetzan",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 11,
