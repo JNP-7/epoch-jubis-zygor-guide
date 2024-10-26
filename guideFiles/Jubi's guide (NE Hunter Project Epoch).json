@@ -8227,7 +8227,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "DON'T SELL THE WATERBREATHING POTIONS BY MISTAKE. You will need them for some quests down the line",
+							"comment": "DON'T SELL OR DRINK THE WATERBREATHING POTIONS BY MISTAKE. You will need them for some quests down the line",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -17220,6 +17220,30 @@
 								{
 									"npcName": "Felicia Gump",
 									"npcId": 1303,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 69.39,
+							"yCoord": 71.68,
+							"coordsMap": "Stormwind City",
+							"comment": "Buy the Wild steelbloom he has in stock. You need a goldthorn too if you ever find one while questing (off a chest, f.ex.)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Bernard Gump",
+									"npcId": 1302,
 									"depth": 1,
 									"type": "Talk to",
 									"subTasks": [],
@@ -27648,6 +27672,13 @@
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
+						},
+						{
+							"comment": "Also, if you get any goldthorn off of chests, keep it. There is a fictional wolrd where someone is able to craft elixirs of fortitude on the server before going to Hinterlands",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -30917,6 +30948,32 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 39.22,
+							"yCoord": 14.71,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Go inside the house and loot the small wooden chest. Use the parchment to start a quest",
+							"itemId": 3706,
+							"itemName": "Ensorcelled Parchment",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questId": 551,
+									"questName": "The Ensorcelled Parchment",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 58.44,
 							"yCoord": 31.6,
 							"coordsMap": "Alterac Mountains",
@@ -31094,6 +31151,22 @@
 								{
 									"questName": "Return to Milton",
 									"questId": 542,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 551,
+									"questName": "The Ensorcelled Parchment",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 554,
+									"questName": "Stormpike's Deciphering",
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -33838,7 +33911,7 @@
 							"xCoord": 45.78,
 							"yCoord": 46.16,
 							"coordsMap": "Arathi Highlands",
-							"comment": "With some luck you are very close to getting level 40. If",
+							"comment": "With some luck you are very close to getting level 40. You probably don't have enough for mount, so just try to learn level 40 spells, specially to use mail.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -33916,6 +33989,37 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 74.48,
+							"yCoord": 12.01,
+							"coordsMap": "Ironforge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Prospector Stormpike",
+							"npcId": 1356,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 554,
+									"questName": "Stormpike's Deciphering",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -40293,13 +40397,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 66.36,
-							"yCoord": 45.39
+							"yCoord": 45.39,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": ">>> Don't use or sell the Elixir of Fortitude <<< ",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -41265,6 +41370,38 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 50.24,
+							"yCoord": 27.45,
+							"coordsMap": "Tanaris",
+							"comment": "While questing in Tanaris if you get the chicken beacon just hold it in your bags. It will be a while until we do that quest.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Senior Surveyor Fizzledowser",
+							"npcId": 7724,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 992,
+									"questName": "Gadgetzan Water Survey",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"coordsMap": "Tanaris",
 							"depth": 0,
 							"isCustom": false,
@@ -41306,13 +41443,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Kranz",
 							"npcId": 45711,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26513,
 									"questName": "Azeroth Space Society",
 									"subTasks": [],
@@ -41320,6 +41457,36 @@
 								}
 							],
 							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 51.89,
+							"yCoord": 27.03
+						},
+						{
+							"questName": "WANTED: Andre Firebeard",
+							"questId": 2875,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "WANTED: Caliph Scorpidsting",
+							"questId": 2781,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -41367,114 +41534,12 @@
 							"yCoord": 26.98
 						},
 						{
+							"questName": "The Super Egg-O-Matic",
+							"questId": 2741,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Curgle Cranklehop",
-							"npcId": 7763,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2741,
-									"questName": "The Super Egg-O-Matic",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.89,
-							"yCoord": 27.03
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Curgle Cranklehop",
-							"npcId": 7763,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2875,
-									"questName": "WANTED: Andre Firebeard",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.87,
-							"yCoord": 27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Curgle Cranklehop",
-							"npcId": 7763,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2781,
-									"questName": "WANTED: Caliph Scorpidsting",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.24,
-							"yCoord": 27.45
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Senior Surveyor Fizzledowser",
-							"npcId": 7724,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 992,
-									"questName": "Gadgetzan Water Survey",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -41497,12 +41562,12 @@
 							"npcId": 7408,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1707,
 									"questName": "Water Pouch Bounty",
+									"questId": 1707,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -41541,30 +41606,84 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 52.36,
+							"yCoord": 28.91,
+							"coordsMap": "Tanaris",
+							"comment": "Store your Elixir of Fortitude in the bank",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 64.78,
+							"yCoord": 23.72,
+							"coordsMap": "Tanaris",
+							"comment": "Now go to the port followin the road. New custom area with lots of quest.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "If in your way there you find a human NPC running talk to him and buy any Elixir of waterbreathing he may have",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Skip this step once you get there",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 65.5,
-							"yCoord": 24.17
+							"yCoord": 24.17,
+							"coordsMap": "Tanaris",
+							"comment": "Inside the inn",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Marai Ravenwater",
 							"npcId": 45531,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26516,
 									"questName": "Waste Removal",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Think Of The Animals",
+									"questId": 26515,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -41575,30 +41694,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 65.45,
+							"yCoord": 24.01,
 							"coordsMap": "Tanaris",
+							"comment": ">>> Set HS <<< In the new inn",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 65.51,
-							"yCoord": 24.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marai Ravenwater",
-							"npcId": 45531,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26515,
-									"questName": "Think Of The Animals",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -41627,37 +41730,14 @@
 									"questName": "Southsea Shakedown",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.02,
-							"yCoord": 23.89
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Security Chief Bilgewhizzle",
-							"npcId": 7882,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26520,
 									"questName": "No One Drinks For Free",
+									"questId": 26520,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -41689,37 +41769,14 @@
 									"questName": "Stoley's Debt",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.05,
-							"yCoord": 23.93
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Stoley",
-							"npcId": 7881,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2873,
 									"questName": "Stoley's Shipment",
+									"questId": 2873,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -41740,13 +41797,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Kyx Rustwrench",
 							"npcId": 45530,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26522,
 									"questName": "Water Co. Saviour",
 									"subTasks": [],
@@ -41758,30 +41815,109 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 65.26,
+							"yCoord": 22.92,
+							"coordsMap": "Tanaris",
+							"comment": "Press the dialog option",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Stelx",
+							"npcId": 45536,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"goalName": "Stelx Threatened",
+									"questId": 26520,
+									"questObjectiveIndex": 3,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 65.55,
+							"yCoord": 24.85,
+							"coordsMap": "Tanaris",
+							"comment": "Pick the dialog option",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Miki Smallsprocket",
+							"npcId": 45532,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"goalName": "Miki Smallsprocket Threatened",
+									"questId": 26520,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 65.49,
-							"yCoord": 21.92
+							"yCoord": 21.92,
+							"coordsMap": "Tanaris",
+							"comment": "Choose the dialog option after acepting the quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Inabit Wedgefeet",
 							"npcId": 45526,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26521,
 									"questName": "Boom! Boom! Boom!",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"goalName": "Inabit Wedgefeet Threatened",
+									"questId": 26520,
+									"questObjectiveIndex": 2,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -41802,48 +41938,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Goddard",
 							"npcId": 45525,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26513,
 									"questName": "Azeroth Space Society",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.88,
-							"yCoord": 21.31
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Goddard",
-							"npcId": 45525,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26507,
 									"questName": "The Perfect Fuel",
+									"questId": 26507,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -41880,6 +41993,40 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 66.64,
+							"yCoord": 22.14,
+							"coordsMap": "Tanaris",
+							"comment": "Choose the dialog option",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Gikkix",
+							"npcId": 8137,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"goalName": "Gikkix Threatened",
+									"questId": 26520,
+									"questObjectiveIndex": 4,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -41932,11 +42079,299 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26520,
 									"questName": "No One Drinks For Free",
 									"subTasks": [],
 									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.7,
+							"yCoord": 31.02,
+							"coordsMap": "Tanaris",
+							"comment": "Right as you step out of town turn right to the mountain range and kill the 4 scorpids for venom sacs, then the one on your way to the marker",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Once you get here clear the 3 tents and the water extractor (?) off of BANDITS. You need to kill at least 6 bandits between the 3 tents and the well. Only need 3 thiefs",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "North tents -> water well -> south tents -> west tents",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.17,
+							"yCoord": 23.43,
+							"coordsMap": "Tanaris",
+							"comment": "Now here, to the ruins. Kill the scorpid on the way. Finish off bandits ,thiefs, water pouches and batteries",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wastewander Bandit",
+							"npcId": 5618,
+							"count": 10,
+							"questId": 1690,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wastewander Thief",
+							"npcId": 5616,
+							"count": 10,
+							"questId": 1690,
+							"questObjectiveIndex": 2,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Wastewander Water Pouch",
+							"questId": 1707,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Wastewander Bandit",
+									"npcId": 5618
+								},
+								{
+									"npcName": "Wastewander Thief",
+									"npcId": 5616
+								}
+							],
+							"count": 5,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Ancient Battery",
+							"questId": 26507,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 8,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.91,
+							"yCoord": 22.45,
+							"coordsMap": "Tanaris",
+							"comment": "Back to the scorpids, they should have respawned. 10 kills for 6 drops. If you are missing some check the other 2 spawns you killed or go kill the 3 that can be found south of town",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Extracted Scorpid Venom Sac",
+							"questId": 26507,
+							"questObjectiveIndex": 2,
+							"toLootNpcs": [
+								{
+									"npcName": "Scorpid Hunter",
+									"npcId": 5422
+								}
+							],
+							"count": 6,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 65.91,
+							"yCoord": 21.36
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Goddard",
+							"npcId": 45525,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26507,
+									"questName": "The Perfect Fuel",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Perfect Fuel",
+									"questId": 26508,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.1,
+							"yCoord": 19.8,
+							"coordsMap": "Tanaris",
+							"comment": "Go to the coast, drink your 3rd water breathing elixir (if you bought one use that one to free bag space) and then swim south while cleaning animals, cleaning oil spillages and recovering underwater parts.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Use the Cleaning Supplies to clean the animals. Some might attack you",
+									"itemId": 60752,
+									"itemName": "Cleaning Supplies",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [
+										{
+											"goalName": "Oil Soaked Critter Cleansed",
+											"questId": 26515,
+											"questObjectiveIndex": 1,
+											"count": 8,
+											"depth": 2,
+											"type": "Goal",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": true
+								},
+								{
+									"comment": "Use the Oil Absorber to clean the spills",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [
+										{
+											"goalName": "Oil Spill Removed",
+											"questId": 26516,
+											"questObjectiveIndex": 1,
+											"count": 6,
+											"depth": 2,
+											"type": "Goal",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": true
+								},
+								{
+									"comment": "The filter parts are undewater, and are hard to see, so move your mouse around while killing sharks to see if the cursor changes",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [
+										{
+											"itemName": "Filter Parts",
+											"questId": 26522,
+											"questObjectiveIndex": 1,
+											"toLootNpcs": [],
+											"count": 8,
+											"depth": 2,
+											"type": "Get",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 65.52,
+							"yCoord": 24.18
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Marai Ravenwater",
+							"npcId": 45531,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26515,
+									"questName": "Think Of The Animals",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Waste Removal",
+									"questId": 26516,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Desperate Measures",
+									"questId": 26517,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -41952,8 +42387,81 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"xCoord": 66.75,
+							"yCoord": 22.95
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Kyx Rustwrench",
+							"npcId": 45530,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26522,
+									"questName": "Water Co. Saviour",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Workwomans Tools",
+									"questId": 26523,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 52.29,
+							"yCoord": 27.71,
+							"coordsMap": "Tanaris",
+							"comment": "Back to Gadgetzan. Choose the dialog option",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Buzzeck Bracketswing",
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"itemName": "Marai's Supplies",
+									"questId": 26517,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 52.42,
-							"yCoord": 28.44
+							"yCoord": 28.44,
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -41968,37 +42476,14 @@
 									"questName": "Wastewander Justice",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.42,
-							"yCoord": 28.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Chief Engineer Bilgewhizzle",
-							"npcId": 7407,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1691,
 									"questName": "More Wastewander Justice",
+									"questId": 1691,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -42009,13 +42494,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 52.44,
+							"yCoord": 28.45,
 							"coordsMap": "Tanaris",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 52.44,
-							"yCoord": 28.45
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -42037,429 +42522,36 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
+							"xCoord": 78.24,
+							"yCoord": 77.08,
+							"coordsMap": "Thousand Needles",
+							"comment": "Now go to the Mirage Raceway. No need to accept anything else from the gnomes",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.81,
-							"yCoord": 28.62
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Wizzle Brassbolts",
+							"npcId": 4453,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marin Noggenfogger",
-							"npcId": 7564,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 2769,
+									"questName": "The Brassbolts Brothers",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 2605,
-									"questName": "The Thirsty Goblin",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.78,
-							"yCoord": 27.41
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Andi Lynn",
-							"npcId": 11758,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5863,
-									"questName": "The Dunemaul Compound",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.91,
-							"yCoord": 21.36
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Goddard",
-							"npcId": 45525,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26507,
-									"questName": "The Perfect Fuel",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.91,
-							"yCoord": 21.36
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Goddard",
-							"npcId": 45525,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26508,
-									"questName": "The Perfect Fuel",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.52,
-							"yCoord": 24.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marai Ravenwater",
-							"npcId": 45531,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26515,
-									"questName": "Think Of The Animals",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.52,
-							"yCoord": 24.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marai Ravenwater",
-							"npcId": 45531,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26516,
-									"questName": "Waste Removal",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.52,
-							"yCoord": 24.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marai Ravenwater",
-							"npcId": 45531,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26517,
-									"questName": "Desperate Measures",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67,
-							"yCoord": 23.86
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Security Chief Bilgewhizzle",
-							"npcId": 7882,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 8366,
-									"questName": "Southsea Shakedown",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67,
-							"yCoord": 23.86
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 2875,
-							"questName": "WANTED: Andre Firebeard",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.05,
-							"yCoord": 23.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Stoley",
-							"npcId": 7881,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2873,
-									"questName": "Stoley's Shipment",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.05,
-							"yCoord": 23.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Stoley",
-							"npcId": 7881,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2874,
-									"questName": "Deliver to MacKinley",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.75,
-							"yCoord": 22.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kyx Rustwrench",
-							"npcId": 45530,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26522,
-									"questName": "Water Co. Saviour",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.75,
-							"yCoord": 22.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kyx Rustwrench",
-							"npcId": 45530,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26523,
-									"questName": "A Workwomans Tools",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.55,
-							"yCoord": 22.34
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Haughty Modiste",
-							"npcId": 15165,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 8365,
-									"questName": "Pirate Hats Ahoy!",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -42486,6 +42578,14 @@
 									"questName": "Goblin Sponsorship",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Eighteenth Pilot",
+									"questId": 1186,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -42496,44 +42596,21 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 80.24,
+							"yCoord": 76.19,
 							"coordsMap": "Thousand Needles",
+							"comment": "Don't accept the follow up 'Razzeric's Tweaking'. Could be worth it with 30min HS cooldown, definetly not otherwise.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 80.11,
-							"yCoord": 75.89
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "Choose the dialog option to get the battery",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pozzik",
-							"npcId": 4630,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1186,
-									"questName": "The Eighteenth Pilot",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Thousand Needles",
-							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 80.24,
-							"yCoord": 76.19
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -42548,6 +42625,17 @@
 									"questName": "The Eighteenth Pilot",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"itemName": "Battery Boosted Welder",
+									"questId": 26523,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -42555,35 +42643,18 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Thousand Needles",
+							"comment": "HS back to Tanaris' port",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 80.23,
-							"yCoord": 76.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Razzeric",
-							"npcId": 4706,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1187,
-									"questName": "Razzeric's Tweaking",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -42599,79 +42670,33 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Marai Ravenwater",
 							"npcId": 45531,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26517,
 									"questName": "Desperate Measures",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.5,
-							"yCoord": 24.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marai Ravenwater",
-							"npcId": 45531,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26518,
 									"questName": "Oil Baron Beatdown",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.5,
-							"yCoord": 24.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marai Ravenwater",
-							"npcId": 45531,
-							"subTasks": [
-								{
+									"questId": 26518,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26519,
-									"questName": "Sink The Rig",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"questName": "Sink The Rig",
+									"questId": 26519,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -42692,17 +42717,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Kyx Rustwrench",
 							"npcId": 45530,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26523,
 									"questName": "A Workwomans Tools",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Workwomans Tools",
+									"questId": 26524,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -42710,35 +42743,88 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 68.53,
+							"yCoord": 13.78,
 							"coordsMap": "Tanaris",
+							"comment": "Use the Oil Cannister at the base of the oil rig (right on the marker).",
+							"itemId": 60743,
+							"itemName": "Empty Oil Cannister",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 66.73,
-							"yCoord": 22.93
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kyx Rustwrench",
-							"npcId": 45530,
 							"subTasks": [
 								{
+									"itemName": "Filled Oil Cannister",
+									"questId": 26508,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26524,
-									"questName": "A Workwomans Tools",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Get on the oil rig and use the explosives on the orange barrells",
+							"itemId": 60755,
+							"itemName": "Timed Explosives",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"goalName": "Explosives Placed",
+									"questId": 26519,
+									"questObjectiveIndex": 1,
+									"count": 4,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						},
+						{
+							"comment": "The Overseer is in the top floor",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"npcName": "Oil Rig Worker",
+									"npcId": 45714,
+									"count": 8,
+									"questId": 26518,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Overseer Loonet",
+									"npcId": 45716,
+									"count": 1,
+									"questId": 26518,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -42754,48 +42840,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Goddard",
 							"npcId": 45525,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26508,
 									"questName": "The Perfect Fuel",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.9,
-							"yCoord": 21.3
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Goddard",
-							"npcId": 45525,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26509,
 									"questName": "The Perfect Container",
+									"questId": 26509,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -42816,13 +42879,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Poole",
 							"npcId": 45533,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26510,
 									"questName": "Even Better Fuel",
 									"subTasks": [],
@@ -42847,48 +42910,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Marai Ravenwater",
 							"npcId": 45531,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26518,
 									"questName": "Oil Baron Beatdown",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.5,
-							"yCoord": 24.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marai Ravenwater",
-							"npcId": 45531,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26519,
 									"questName": "Sink The Rig",
+									"questId": 26519,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -42896,135 +42936,460 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 66.98,
+							"yCoord": 35.74,
 							"coordsMap": "Tanaris",
+							"comment": "Go here and kill Hagesh",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.96,
-							"yCoord": 40.1
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 351,
-							"questName": "Find OOX-17/TN!",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.42,
-							"yCoord": 28.43
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Chief Engineer Bilgewhizzle",
-							"npcId": 7407,
 							"subTasks": [
 								{
+									"itemName": "Mutated Basilisk Gland",
+									"questId": 26510,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "HAgesh",
+											"npcId": 45710
+										}
+									],
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 1691,
-									"questName": "More Wastewander Justice",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 73.36,
+							"yCoord": 46.58,
 							"coordsMap": "Tanaris",
+							"comment": "Go into the pirate area through the tunnel south of were you are. Go to where Andre is while killing other pirates for the TF2 quest (pirate hats)",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 52.42,
-							"yCoord": 28.46
+							"subTasks": [
+								{
+									"itemName": "Firebeard's Head",
+									"questId": 2875,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Andre Firebeard",
+											"npcId": 7883
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
+							"comment": "While killing mobs here some might drop a footlocker. What you are looking for here is the Ship Shedule, an item that starts a quest. You can delte anything else (including the maps).",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 2781,
-							"questName": "WANTED: Caliph Scorpidsting",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "It's a 1.5% drop chance roughly between the footlocker drop rate (10%) and the contents of it (15% for the schedule), so don't bother grinding for it, it's just some extra.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 72.21,
+							"yCoord": 46.82,
 							"coordsMap": "Tanaris",
+							"comment": "Go to the second floor here to recover the shipment. 3 pirates pull on the second room, use the explosives you just got from the oil rig quest.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 52.44,
-							"yCoord": 28.44
+							"subTasks": [
+								{
+									"itemName": "Stoley's Shipment",
+									"questId": 2873,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Now go outside and finish the hats + the other pirates you might be missing.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"npcName": "Southsea Pirate",
+									"npcId": 7855,
+									"count": 10,
+									"questId": 8366,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Southsea Freebooter ",
+									"npcId": 7856,
+									"count": 10,
+									"questId": 8366,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Southsea Dock Worker",
+									"npcId": 7857,
+									"count": 10,
+									"questId": 8366,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Southsea Swashbuckler",
+									"npcId": 7858,
+									"count": 10,
+									"questId": 8366,
+									"questObjectiveIndex": 4,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Southsea Pirate Hat",
+									"questId": 20519,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 20,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If you didn't get the Ship Schedules just skip this step",
+							"itemId": 9250,
+							"itemName": "Ship Schedule",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"questId": 2876,
+									"questName": "Ship Schedules",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "While running around keep an eye out for Raging tempests (air elementals). Use the item while they are low HP (30%) to absorb them for a quest",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 62.57,
+							"yCoord": 37.73,
+							"coordsMap": "Tanaris",
+							"comment": "Back to the Wastewanderers (kill rogues, assassins and lock on the way area. You will se Scorpidsting running around at some point. He is guarded by 2 stealthed rogues.",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Spigot Operator Luglunket",
-							"npcId": 7408,
-							"subTasks": [],
-							"type": "Talk to"
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Wastewander Rogue",
+									"npcId": 5615,
+									"count": 8,
+									"questId": 1691,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Wastewander Assassin",
+									"npcId": 5623,
+									"count": 6,
+									"questId": 1691,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Wastewander Shadow Mage",
+									"npcId": 5617,
+									"count": 10,
+									"questId": 1691,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [
+										{
+											"comment": "Hit like trucks as per usual. Elemental damage (true damage practically) is very balanced with the mobs increased damage custom change!!!",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"itemName": "Caliph Scorpidsting's Head",
+									"questId": 2781,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Caliph Scorpidsting",
+											"npcId": 7847
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
+							"comment": "Check how many water pouches you have. Try to leave the area with an amount equal to a multiple of 5 (390 XP for every 5 puches).",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.44,
-							"yCoord": 28.44
+							"isCustom": false
 						},
 						{
+							"comment": "Skip this step",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Spigot Operator Luglunket",
-							"npcId": 7408,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 56.31,
+							"yCoord": 35.77,
+							"coordsMap": "Tanaris",
+							"comment": "Kill Basilisks and collect Raging tempests while making your way to the skeletons with the Fire Rocs at [46,39]",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Glasshide Glands",
+									"questId": 26510,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Glasshide Basilisk",
+											"npcId": 5419
+										}
+									],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"comment": "Use the charger on the Raging Tempests when low HP",
+									"itemId": 60760,
+									"itemName": "Bulky Battery Charger",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [
+										{
+											"goalName": "Battery Charged",
+											"questId": 26524,
+											"questObjectiveIndex": 1,
+											"count": 4,
+											"depth": 2,
+											"type": "Goal",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 45.8,
+							"yCoord": 38.37,
+							"coordsMap": "Tanaris",
+							"comment": "Just do laps around the bones killing vultures. It will take a while, drop rate is low (edited: seems drop rate has been increased as per the bug tracker)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Flame Sack",
+									"questId": 26521,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Fire Roc",
+											"npcId": 5429
+										}
+									],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.95,
+							"yCoord": 29.15,
+							"coordsMap": "Tanaris",
+							"comment": "Leave your pet behind. Use the pipe to complete the quest. 2 mobs will spawn, just disengage + FD",
+							"itemId": 8584,
+							"itemName": "Untapped Dowsing Widget",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Tapped Dowsing Widget",
+									"questId": 992,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 48.02,
+							"yCoord": 25.49,
+							"coordsMap": "Tanaris",
+							"comment": "Gnomes will attack you when you collect the quest items",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Gnome Car Parts",
+									"questId": 26509,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 6,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "7 nodes, 6 items required. Super party friendly quest... Too bad if you want to level with friends",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 50.23,
-							"yCoord": 27.43
+							"yCoord": 27.43,
+							"coordsMap": "Tanaris",
+							"comment": "Don't accept the follow up yet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -43054,24 +43419,55 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 50.23,
-							"yCoord": 27.43
+							"xCoord": 52.42,
+							"yCoord": 28.43
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Senior Surveyor Fizzledowser",
-							"npcId": 7724,
+							"npcName": "Chief Engineer Bilgewhizzle",
+							"npcId": 7407,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 82,
-									"questName": "Noxious Lair Investigation",
+									"questId": 1691,
+									"questName": "More Wastewander Justice",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "WANTED: Caliph Scorpidsting",
+									"questId": 2781,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 52.44,
+							"yCoord": 28.44,
+							"coordsMap": "Tanaris",
+							"comment": "Turn in as many water pouches as you can for some XP + a chance at potions",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Spigot Operator Luglunket",
+							"npcId": 7408,
+							"subTasks": [],
 							"type": "Talk to"
 						}
 					]
@@ -43090,13 +43486,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Inabit Wedgefeet",
 							"npcId": 45526,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26521,
 									"questName": "Boom! Boom! Boom!",
 									"subTasks": [],
@@ -43121,13 +43517,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Poole",
 							"npcId": 45533,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26510,
 									"questName": "Even Better Fuel",
 									"subTasks": [],
@@ -43152,17 +43548,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Goddard",
 							"npcId": 45525,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26509,
 									"questName": "The Perfect Container",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Dangerous Mixture",
+									"questId": 26511,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -43170,35 +43574,33 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 65.27,
+							"yCoord": 18.54,
 							"coordsMap": "Tanaris",
+							"comment": "Go to the gnome's north of town to mix the ingredients",
+							"itemId": 60748,
+							"itemName": "Crate of Rocket Fuel Ingredients",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 65.91,
-							"yCoord": 21.38
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Goddard",
-							"npcId": 45525,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"itemName": "Experimental Rocket Fuel",
 									"questId": 26511,
-									"questName": "A Dangerous Mixture",
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -43214,17 +43616,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Goddard",
 							"npcId": 45525,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26511,
 									"questName": "A Dangerous Mixture",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Final Countdown",
+									"questId": 26512,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -43232,66 +43642,34 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
+							"comment": "Pull the lever (Kronk!) that's besides Goddard then turn the quest in",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.9,
-							"yCoord": 21.32
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Goddard",
-							"npcId": 45525,
+							"type": "Comment",
 							"subTasks": [
 								{
+									"npcName": "Goddard",
+									"npcId": 45525,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26512,
-									"questName": "The Final Countdown",
-									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Talk to",
+									"subTasks": [
+										{
+											"questName": "The Final Countdown",
+											"questId": 26512,
+											"depth": 2,
+											"type": "Turn in quest",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.92,
-							"yCoord": 21.36
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Goddard",
-							"npcId": 45525,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26512,
-									"questName": "The Final Countdown",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -43307,13 +43685,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Poole",
 							"npcId": 45533,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26514,
 									"questName": "A.S.S. Overhaul",
 									"subTasks": [],
@@ -43328,6 +43706,61 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 66.55,
+							"yCoord": 22.34,
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Haughty Modiste",
+							"npcId": 15165,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 8365,
+									"questName": "Pirate Hats Ahoy!",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67,
+							"yCoord": 22,
+							"coordsMap": "Tanaris",
+							"comment": ">>> Refill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Jabbey",
+									"npcId": 8139,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"coordsMap": "Tanaris",
 							"depth": 0,
 							"isCustom": false,
@@ -43338,203 +43771,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Kyx Rustwrench",
 							"npcId": 45530,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26524,
 									"questName": "A Workwomans Tools",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.74,
-							"yCoord": 22.94
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kyx Rustwrench",
-							"npcId": 45530,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26525,
 									"questName": "Water Injection",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.76,
-							"yCoord": 45.84
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marvon Rivetseeker",
-							"npcId": 7771,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26529,
-									"questName": "Two Legged Vultures",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.71,
-							"yCoord": 45.81
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marvon Rivetseeker",
-							"npcId": 7771,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3161,
-									"questName": "Gahz'ridian",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.68,
-							"yCoord": 45.87
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marvon Rivetseeker",
-							"npcId": 7771,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26529,
-									"questName": "Two Legged Vultures",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.74,
-							"yCoord": 22.92
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kyx Rustwrench",
-							"npcId": 45530,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
 									"questId": 26525,
-									"questName": "Water Injection",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.76,
-							"yCoord": 22.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kyx Rustwrench",
-							"npcId": 45530,
-							"subTasks": [
-								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26526,
-									"questName": "A Saboteur In Our Midst",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -43545,75 +43800,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 67,
+							"yCoord": 23.86,
 							"coordsMap": "Tanaris",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 66.74,
-							"yCoord": 22.93
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kyx Rustwrench",
-							"npcId": 45530,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26526,
-									"questName": "A Saboteur In Our Midst",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.74,
-							"yCoord": 22.93
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kyx Rustwrench",
-							"npcId": 45530,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26527,
-									"questName": "Clear Accusations",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.99,
-							"yCoord": 23.87
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -43624,10 +43817,34 @@
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 26527,
-									"questName": "Clear Accusations",
+									"questId": 8366,
+									"questName": "Southsea Shakedown",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "WANTED: Andre Firebeard",
+									"questId": 2875,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 2876,
+									"questName": "Ship Schedules",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [
+										{
+											"comment": "Skip this step if you didn't get the item while doing pirates's quests",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -43638,49 +43855,35 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 67.05,
+							"yCoord": 23.95,
 							"coordsMap": "Tanaris",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 64.82,
-							"yCoord": 23.57
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"questId": 26528,
-							"questName": "Wanted: Doszurd",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.99,
-							"yCoord": 23.88
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Security Chief Bilgewhizzle",
-							"npcId": 7882,
+							"npcName": "Stoley",
+							"npcId": 7881,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 26528,
-									"questName": "Wanted: Doszurd",
+									"questId": 2873,
+									"questName": "Stoley's Shipment",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Deliver to MacKinley",
+									"questId": 2874,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -43701,13 +43904,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Kranz",
 							"npcId": 45711,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26514,
 									"questName": "A.S.S. Overhaul",
 									"subTasks": [],
@@ -43719,35 +43922,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.04,
+							"yCoord": 29.33,
 							"coordsMap": "Tanaris",
+							"comment": "Fly to Feralas' border with 1k needels",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.57,
-							"yCoord": 26.81
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tran'rek",
-							"npcId": 7876,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3362,
-									"questName": "Thistleshrub Valley",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 12,
@@ -46892,6 +47079,388 @@
 									"questName": "Rise of the Silithid",
 									"subTasks": [],
 									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "TODO: All the steps after this one need re arranging. Probably when going to the middle of Tanaris the first time",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 52.76,
+							"yCoord": 45.84
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Marvon Rivetseeker",
+							"npcId": 7771,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26529,
+									"questName": "Two Legged Vultures",
+									"subTasks": [],
+									"type": "Accept quest"
+								},
+								{
+									"questName": "Gahz'ridian",
+									"questId": 3161,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.25,
+							"yCoord": 46.08,
+							"coordsMap": "Tanaris",
+							"comment": "Go to the Zepelin crash. Get the fuel injectors from the looters or the crates. Get Marvon's things from the looters",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Fuel Injector",
+									"count": 8,
+									"questId": 26525,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Ravenous Looter",
+											"npcId": 45727
+										}
+									],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Marvon's Pocket Watch",
+									"questId": 26529,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Ravenous Looter",
+											"npcId": 45727
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Marvon's Brimmed Hat",
+									"questId": 26529,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Ravenous Looter",
+											"npcId": 45727
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Marvon's Ham Radio",
+									"questId": 26529,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [
+										{
+											"npcName": "Ravenous Looter",
+											"npcId": 45727
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 52.68,
+							"yCoord": 45.87
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Marvon Rivetseeker",
+							"npcId": 7771,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26529,
+									"questName": "Two Legged Vultures",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 66.74,
+							"yCoord": 22.92
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Kyx Rustwrench",
+							"npcId": 45530,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26525,
+									"questName": "Water Injection",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"comment": "Wait out the roleplay...",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "A Saboteur In Our Midst",
+									"questId": 26526,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Go around town talking to the guards to progress the quest",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"goalName": "Bruisers questioned",
+									"questId": 26526,
+									"questObjectiveIndex": 1,
+									"count": 6,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 66.74,
+							"yCoord": 22.93
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Kyx Rustwrench",
+							"npcId": 45530,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26526,
+									"questName": "A Saboteur In Our Midst",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Clear Accusations",
+									"questId": 26527,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 66.99,
+							"yCoord": 23.87
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Security Chief Bilgewhizzle",
+							"npcId": 7882,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26527,
+									"questName": "Clear Accusations",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 64.82,
+							"yCoord": 23.57,
+							"coordsMap": "Tanaris",
+							"comment": "The WANTED post right at the town's entrance will activate now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"questId": 26528,
+							"questName": "Wanted: Doszurd",
+							"subTasks": [],
+							"type": "Accept quest"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 53.03,
+							"yCoord": 33.19,
+							"coordsMap": "Tanaris",
+							"comment": "Place a trap at the goblin's feet and talk to him to start the fight. Can pet tank ez",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Doszurd",
+									"npcId": 45725,
+									"count": 1,
+									"questId": 26528,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 66.99,
+							"yCoord": 23.88
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Security Chief Bilgewhizzle",
+							"npcId": 7882,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26528,
+									"questName": "Wanted: Doszurd",
+									"subTasks": [],
+									"type": "Turn in quest"
 								}
 							],
 							"type": "Talk to"
