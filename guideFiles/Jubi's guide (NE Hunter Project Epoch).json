@@ -27672,13 +27672,6 @@
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
-						},
-						{
-							"comment": "Also, if you get any goldthorn off of chests, keep it. There is a fictional wolrd where someone is able to craft elixirs of fortitude on the server before going to Hinterlands",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -40400,7 +40393,6 @@
 							"xCoord": 66.36,
 							"yCoord": 45.39,
 							"coordsMap": "Dustwallow Marsh",
-							"comment": ">>> Don't use or sell the Elixir of Fortitude <<< ",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -41611,7 +41603,6 @@
 							"xCoord": 52.36,
 							"yCoord": 28.91,
 							"coordsMap": "Tanaris",
-							"comment": "Store your Elixir of Fortitude in the bank",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -46028,13 +46019,6 @@
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
-						},
-						{
-							"comment": "Also try to find a crafter for Elixir of fortitude. Slim chance if you are speedleveling at launch, but worth a try. If you found a goldthorn and bought the Wild steelbloom from the florist in SW you have the mats",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -46155,6 +46139,186 @@
 			"sectionName": "Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)",
 			"sectionSteps": [
 				{
+					"stepTasks": [
+						{
+							"xCoord": 9.52,
+							"yCoord": 59.66,
+							"coordsMap": "Wetlands",
+							"comment": "Fly to Loch Modan",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 47.09,
+							"yCoord": 80.95,
+							"coordsMap": "Loch Modan",
+							"comment": "Go to the border with Badlands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.41,
+							"yCoord": 76.77,
+							"coordsMap": "Badlands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Theldurin the Lost",
+							"npcId": 2785,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Theldurin the Lost",
+									"questId": 687,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 692,
+									"questName": "The Lost Fragments",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 53.66,
+							"yCoord": 81.34,
+							"coordsMap": "Badlands",
+							"comment": "Go south and kill the elementals for the fragments",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Torn Scroll Fragment",
+									"questId": 692,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Enraged Rock Elemental",
+											"npcId": 2791
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Crumpled Scroll Fragment",
+									"questId": 692,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Enraged Rock Elemental",
+											"npcId": 2791
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Singed Scroll Fragment",
+									"questId": 692,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Enraged Rock Elemental",
+											"npcId": 2791
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 51.41,
+							"yCoord": 76.77,
+							"coordsMap": "Badlands",
+							"comment": "Turn in and leave for Searing Gorge. Don't need to wait out the RP or accept the follow up (unless you want to finish the questline for w/e reason)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Theldurin the Lost",
+							"npcId": 2785,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 692,
+									"questName": "The Lost Fragments",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 0.12,
+							"yCoord": 63.54,
+							"coordsMap": "Badlands",
+							"comment": "Go to the border with Searing Gorge. Don't bother killing the level 55 rare elite buzzard. He doesn't drop the quest item",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -46177,33 +46341,77 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 62.96,
+							"yCoord": 62.45,
+							"coordsMap": "Searing Gorge",
+							"comment": "Go to the excavation site and kill at least 3 geologists to start the respawns.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Leave after clearing 3 w/o accepting the quest. We will be back soon",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 73.32,
+							"yCoord": 75.81,
+							"coordsMap": "Searing Gorge",
+							"comment": "Go to the mountains and kill Margol the Rager. Loot the item that starts the quest",
+							"itemId": 10000,
+							"itemName": "Margol's Horn",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questId": 3181,
+									"questName": "The Horn of the Beast",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 62.96,
+							"yCoord": 62.45,
 							"coordsMap": "Searing Gorge",
+							"comment": "Back to the excavation site. Finish killing the geologists.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 63.75,
-							"yCoord": 60.99
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Dorius Stonetender",
-							"npcId": 8284,
 							"subTasks": [
 								{
+									"npcName": "Dark Iron Geologist",
+									"npcId": 5839,
+									"count": 8,
+									"questId": 4449,
+									"questObjectiveIndex": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3367,
-									"questName": "Suntara Stones",
+									"type": "Kill",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -46211,75 +46419,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 74.4,
-							"yCoord": 19.09
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Dorius Stonetender",
-							"npcId": 8284,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3367,
-									"questName": "Suntara Stones",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 74.4,
-							"yCoord": 19.09
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Dorius Stonetender",
-							"npcId": 8284,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3368,
-									"questName": "Suntara Stones",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 65.5,
-							"yCoord": 62.17
+							"yCoord": 62.17,
+							"coordsMap": "Searing Gorge",
+							"comment": "Skip the follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -46295,21 +46442,31 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 63.75,
+							"yCoord": 60.99,
 							"coordsMap": "Searing Gorge",
+							"comment": "Start the escort quest",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 65.5,
-							"yCoord": 62.17
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"questId": 4450,
-							"questName": "Ledger from Tanaris",
-							"subTasks": [],
-							"type": "Accept quest"
+							"npcName": "Dorius Stonetender",
+							"npcId": 8284,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 3367,
+									"questName": "Suntara Stones",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
 						}
 					]
 				},
@@ -46317,13 +46474,144 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ironforge",
+							"xCoord": 74.4,
+							"yCoord": 19.09,
+							"coordsMap": "Searing Gorge",
+							"comment": "After the dwarf dies. Turn in the quest and accept the next one from the book he dropped in the ground",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Dorius Escort",
+									"questId": 3367,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"questName": "Suntara Stones",
+							"questId": 3367,
+							"depth": 0,
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "Suntara Stones",
+							"questId": 3368,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 31.57,
+							"yCoord": 33.3,
+							"coordsMap": "Searing Gorge",
+							"comment": "Go to Thorium Point",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 37.9,
+							"yCoord": 30.78,
+							"coordsMap": "Searing Gorge",
+							"comment": "Discover the FP then fly back to Loch Modan",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Lanie Reed",
+									"npcId": 2941,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 18.22,
+							"yCoord": 83.94,
+							"coordsMap": "Loch Modan",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Mountaineer Pebblebitty",
+							"npcId": 3836,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 3181,
+									"questName": "The Horn of the Beast",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 3182,
+									"questName": "Proof of Deed",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 33.97,
+							"yCoord": 50.98,
+							"coordsMap": "Loch Modan",
+							"comment": "Fly to Ironforge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 71.55,
-							"yCoord": 16.74
+							"yCoord": 16.74,
+							"coordsMap": "Ironforge",
+							"comment": "Don't accept the 2 followups. Will come back later on before going to Searing Gorge.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -46336,8 +46624,24 @@
 									"isCustom": false,
 									"questId": 3368,
 									"questName": "Suntara Stones",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"comment": "Turn this one in first. The other starts a rp sequence",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Proof of Deed",
+									"questId": 3182,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -46345,128 +46649,104 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ironforge",
+							"comment": "HS back to Feathermoon",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 71.55,
-							"yCoord": 16.74
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Curator Thorius",
-							"npcId": 8256,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3371,
-									"questName": "Dwarven Justice",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ironforge",
+							"xCoord": 30.66,
+							"yCoord": 43.43,
+							"coordsMap": "Feralas",
+							"comment": ">>> Fill quiver <<<",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 54.85,
-							"yCoord": 58.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Nissa Firestone",
-							"npcId": 5150,
 							"subTasks": [
 								{
+									"npcName": "Faralorn",
+									"npcId": 7942,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 6625,
-									"questName": "Alliance Trauma",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
+							"xCoord": 30.25,
+							"yCoord": 43.27,
+							"coordsMap": "Feralas",
+							"comment": "Fly to the border with 1k needles",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 67.72,
-							"yCoord": 48.88
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Doctor Gustaf VanHowzen",
-							"npcId": 12939,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6625,
-									"questName": "Alliance Trauma",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Dustwallow Marsh",
+							"xCoord": 89.65,
+							"yCoord": 46.54,
+							"coordsMap": "Feralas",
+							"comment": "Turn in the parcel before flying to Tanaris",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 67.73,
-							"yCoord": 48.93
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Falfindel Waywarder",
+							"npcId": 4048,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Doctor Gustaf VanHowzen",
-							"npcId": 12939,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 4281,
+									"questName": "Thalanaar Delivery",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 6624,
-									"questName": "Triage",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 89.51,
+							"yCoord": 45.89,
+							"coordsMap": "Feralas",
+							"comment": "Fly to Gadgetzan",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -46555,37 +46835,14 @@
 									"questName": "The Borrower",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.31,
-							"yCoord": 26.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Curgle Cranklehop",
-							"npcId": 7763,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2944,
 									"questName": "The Super Snapper FX",
+									"questId": 2944,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -46596,30 +46853,22 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 52.36,
-							"yCoord": 26.97
+							"yCoord": 26.97,
+							"coordsMap": "Tanaris",
+							"comment": "In the machine besides the gnome",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"questName": "The Super Egg-O-Matic",
+							"questId": 2741,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Curgle Cranklehop",
-							"npcId": 7763,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2741,
-									"questName": "The Super Egg-O-Matic",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -46686,35 +46935,18 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.96,
+							"yCoord": 29.63,
 							"coordsMap": "Tanaris",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 66.95,
-							"yCoord": 22.39
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Yeh'kinya",
-							"npcId": 8579,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3520,
-									"questName": "Screecher Spirits",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -46741,6 +46973,570 @@
 									"questName": "The Sunken Temple",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Stone Circle",
+									"questId": 3444,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Two Legged Vultures",
+									"questId": 26529,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Gahz'ridian",
+									"questId": 3161,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 51.25,
+							"yCoord": 46.08,
+							"coordsMap": "Tanaris",
+							"comment": "Go to the Zepelin crash. Get the fuel injectors from the looters or the crates. Get Marvon's things from the looters",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Fuel Injector",
+									"count": 8,
+									"questId": 26525,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Ravenous Looter",
+											"npcId": 45727
+										}
+									],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Marvon's Pocket Watch",
+									"questId": 26529,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Ravenous Looter",
+											"npcId": 45727
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Marvon's Brimmed Hat",
+									"questId": 26529,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Ravenous Looter",
+											"npcId": 45727
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Marvon's Ham Radio",
+									"questId": 26529,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [
+										{
+											"npcName": "Ravenous Looter",
+											"npcId": 45727
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 52.68,
+							"yCoord": 45.87
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Marvon Rivetseeker",
+							"npcId": 7771,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26529,
+									"questName": "Two Legged Vultures",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 36.57,
+							"yCoord": 46.4,
+							"coordsMap": "Tanaris",
+							"comment": "Kill any silithid for the insect parts. Collect any Gahz'ridian you find",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Centipaar Insect Parts",
+									"questId": 82,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "You can equip the helmet you got for the quest to track the Gahz'ridian (or use a DB addon that has all the nodes marked *cough*)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 39.63,
+							"yCoord": 51.15,
+							"coordsMap": "Tanaris",
+							"comment": "Start killing ogres and circle counter clock wise towards the cave to the south. Keep collecting Gahz'ridian",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 41.47,
+							"yCoord": 57.74,
+							"coordsMap": "Tanaris",
+							"comment": "Kill Gor'Marok here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Gor'marok the Ravager",
+									"npcId": 12046,
+									"count": 1,
+									"questId": 5863,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"npcName": "Dunemaul Brute",
+							"npcId": 5474,
+							"count": 10,
+							"questId": 5863,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Dunemaul Enforcer",
+							"npcId": 5472,
+							"count": 10,
+							"questId": 5863,
+							"questObjectiveIndex": 2,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you are still missing 2 brutes and enforcerers you can proceed to the next step and finish there",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"xCoord": 46.88,
+							"yCoord": 64.15,
+							"comment": "Now collect any Gahz'ridian you find in these ruins then move onto the next step",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 41.74,
+							"yCoord": 70.89,
+							"coordsMap": "Tanaris",
+							"comment": "Finish collecting the Gahz'ridian and any brutes/enforcerers you may be missing",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Gahz'ridian Ornament",
+									"questId": 3161,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 30,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.43,
+							"yCoord": 76.73,
+							"coordsMap": "Tanaris",
+							"comment": "Run close to Udum to get the exploration XP then go west to the valley with the elementals",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 28.28,
+							"yCoord": 69.46,
+							"coordsMap": "Tanaris",
+							"comment": "Kill dew collectors for the gland and the other 2 for the kill quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Laden Dew Gland",
+									"questId": 2605,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Thistleshrub Dew Collector",
+											"npcId": 5481
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Gnarled Thistleshrub",
+									"npcId": 5490,
+									"count": 8,
+									"questId": 3362,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Thistleshrub Rootshaper",
+									"npcId": 5485,
+									"count": 8,
+									"questId": 3362,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 62.88,
+							"yCoord": 68.58,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "While traveling through Un'Goro to Marshall's refugee gather 7 of each crystal type (nodes are static in Trinity core, just look them up)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"questId": 3844,
+							"questName": "It's a Secret to Everybody",
+							"subTasks": [],
+							"type": "Accept quest"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 63.07,
+							"yCoord": 68.97,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Underwater",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"questId": 3844,
+							"questName": "It's a Secret to Everybody",
+							"subTasks": [],
+							"type": "Turn in quest"
+						},
+						{
+							"questName": "It's a Secret to Everybody",
+							"questId": 3845,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 44.6,
+							"yCoord": 8.29,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Make sure you have 7 of each crystal (red, green, blue, yellow). Open the bag to loot the items.",
+							"itemId": 11107,
+							"itemName": "A Small Pack",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Linken",
+							"npcId": 8737,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 3845,
+									"questName": "It's a Secret to Everybody",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "It's a Secret to Everybody",
+									"questId": 3908,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 41.89,
+							"yCoord": 2.64,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Turn in the crystals, ignore the other quests",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "J.D. Collie",
+							"npcId": 9117,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 4284,
+									"questName": "Crystals of Power",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 4284,
+									"questName": "Crystals of Power",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 43.33,
+							"yCoord": 7.77,
+							"coordsMap": "Un'Goro Crater",
+							"comment": ">>> Refill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Nergal",
+									"npcId": 12959,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 45.19,
+							"yCoord": 5.85,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Discover the FP and fly to Gadgetzan",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Gryfe",
+									"npcId": 10583,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 51.81,
+							"yCoord": 28.57
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Marin Noggenfogger",
+							"npcId": 7564,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 2605,
+									"questName": "The Thirsty Goblin",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "In Good Taste",
+									"questId": 2606,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -46756,150 +47552,30 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 52.73,
-							"yCoord": 45.89
+							"xCoord": 51.09,
+							"yCoord": 26.95
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Marvon Rivetseeker",
-							"npcId": 7771,
+							"npcName": "Sprinkle",
+							"npcId": 7583,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 3444,
-									"questName": "The Stone Circle",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 62.88,
-							"yCoord": 68.58
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 3844,
-							"questName": "It's a Secret to Everybody",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.07,
-							"yCoord": 68.97
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 3844,
-							"questName": "It's a Secret to Everybody",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.07,
-							"yCoord": 68.97
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 3845,
-							"questName": "It's a Secret to Everybody",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.6,
-							"yCoord": 8.29
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Linken",
-							"npcId": 8737,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3845,
-									"questName": "It's a Secret to Everybody",
+									"questId": 2606,
+									"questName": "In Good Taste",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.6,
-							"yCoord": 8.29
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Linken",
-							"npcId": 8737,
-							"subTasks": [
+								},
 								{
+									"questName": "Sprinkle's Secret Ingredient",
+									"questId": 2641,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3908,
-									"questName": "It's a Secret to Everybody",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -47031,414 +47707,14 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 65.45,
+							"yCoord": 24.01,
 							"coordsMap": "Tanaris",
+							"comment": ">>> Set HS <<< In Tanaris port",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.81,
-							"yCoord": 28.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marin Noggenfogger",
-							"npcId": 7564,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2605,
-									"questName": "The Thirsty Goblin",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.81,
-							"yCoord": 28.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marin Noggenfogger",
-							"npcId": 7564,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2606,
-									"questName": "In Good Taste",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.09,
-							"yCoord": 26.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sprinkle",
-							"npcId": 7583,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2606,
-									"questName": "In Good Taste",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.09,
-							"yCoord": 26.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sprinkle",
-							"npcId": 7583,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2641,
-									"questName": "Sprinkle's Secret Ingredient",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.77,
-							"yCoord": 45.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marvon Rivetseeker",
-							"npcId": 7771,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3161,
-									"questName": "Gahz'ridian",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.25,
-							"yCoord": 64.66
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Homing Robot OOX-17/TN",
-							"npcId": 7784,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 351,
-									"questName": "Find OOX-17/TN!",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.25,
-							"yCoord": 64.66
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Homing Robot OOX-17/TN",
-							"npcId": 7784,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 648,
-									"questName": "Rescue OOX-17/TN!",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.23,
-							"yCoord": 27.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Senior Surveyor Fizzledowser",
-							"npcId": 7724,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 10,
-									"questName": "The Scrimshank Redemption",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.23,
-							"yCoord": 27.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Senior Surveyor Fizzledowser",
-							"npcId": 7724,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 110,
-									"questName": "Insect Part Analysis",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.92,
-							"yCoord": 26.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Alchemist Pestlezugg",
-							"npcId": 5594,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 110,
-									"questName": "Insect Part Analysis",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.92,
-							"yCoord": 26.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Alchemist Pestlezugg",
-							"npcId": 5594,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 113,
-									"questName": "Insect Part Analysis",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.24,
-							"yCoord": 27.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Senior Surveyor Fizzledowser",
-							"npcId": 7724,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 113,
-									"questName": "Insect Part Analysis",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.24,
-							"yCoord": 27.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Senior Surveyor Fizzledowser",
-							"npcId": 7724,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 162,
-									"questName": "Rise of the Silithid",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"stepTasks": [
-						{
-							"comment": "TODO: All the steps after this one need re arranging. Probably when going to the middle of Tanaris the first time",
-							"depth": 0,
-							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						}
@@ -47449,163 +47725,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.76,
-							"yCoord": 45.84
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marvon Rivetseeker",
-							"npcId": 7771,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": true,
-									"questId": 26529,
-									"questName": "Two Legged Vultures",
-									"subTasks": [],
-									"type": "Accept quest"
-								},
-								{
-									"questName": "Gahz'ridian",
-									"questId": 3161,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 51.25,
-							"yCoord": 46.08,
-							"coordsMap": "Tanaris",
-							"comment": "Go to the Zepelin crash. Get the fuel injectors from the looters or the crates. Get Marvon's things from the looters",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"itemName": "Fuel Injector",
-									"count": 8,
-									"questId": 26525,
-									"questObjectiveIndex": 1,
-									"toLootNpcs": [
-										{
-											"npcName": "Ravenous Looter",
-											"npcId": 45727
-										}
-									],
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": true
-								},
-								{
-									"itemName": "Marvon's Pocket Watch",
-									"questId": 26529,
-									"questObjectiveIndex": 1,
-									"toLootNpcs": [
-										{
-											"npcName": "Ravenous Looter",
-											"npcId": 45727
-										}
-									],
-									"count": 1,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": true
-								},
-								{
-									"itemName": "Marvon's Brimmed Hat",
-									"questId": 26529,
-									"questObjectiveIndex": 2,
-									"toLootNpcs": [
-										{
-											"npcName": "Ravenous Looter",
-											"npcId": 45727
-										}
-									],
-									"count": 1,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": true
-								},
-								{
-									"itemName": "Marvon's Ham Radio",
-									"questId": 26529,
-									"questObjectiveIndex": 3,
-									"toLootNpcs": [
-										{
-											"npcName": "Ravenous Looter",
-											"npcId": 45727
-										}
-									],
-									"count": 1,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": true
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.68,
-							"yCoord": 45.87
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marvon Rivetseeker",
-							"npcId": 7771,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": true,
-									"questId": 26529,
-									"questName": "Two Legged Vultures",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 66.74,
-							"yCoord": 22.92
+							"yCoord": 22.92,
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -47642,6 +47768,7 @@
 					]
 				},
 				{
+					"onlyForClasses": [],
 					"stepTasks": [
 						{
 							"comment": "Go around town talking to the guards to progress the quest",
@@ -47661,8 +47788,7 @@
 							],
 							"isCustom": false
 						}
-					],
-					"onlyForClasses": []
+					]
 				},
 				{
 					"onlyForClasses": [],
@@ -47697,6 +47823,38 @@
 									"type": "Accept quest",
 									"subTasks": [],
 									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 66.95,
+							"yCoord": 22.39,
+							"coordsMap": "Tanaris",
+							"comment": "Skip the follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Yeh'kinya",
+							"npcId": 8579,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 3520,
+									"questName": "Screecher Spirits",
+									"subTasks": [],
+									"type": "Turn in quest"
 								}
 							],
 							"type": "Talk to"
@@ -47749,7 +47907,7 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"questId": 26528,
 							"questName": "Wanted: Doszurd",
 							"subTasks": [],
@@ -47758,6 +47916,7 @@
 					]
 				},
 				{
+					"onlyForClasses": [],
 					"stepTasks": [
 						{
 							"xCoord": 53.03,
@@ -47779,6 +47938,216 @@
 									"isCustom": true
 								}
 							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 52.77,
+							"yCoord": 45.9
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Marvon Rivetseeker",
+							"npcId": 7771,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 3161,
+									"questName": "Gahz'ridian",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.71,
+							"yCoord": 69.04,
+							"coordsMap": "Tanaris",
+							"comment": "Go into the silithid hive through this tunnel",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 56.13,
+							"yCoord": 68.26,
+							"coordsMap": "Tanaris",
+							"comment": "Turn right in the first bifurcation",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 57.63,
+							"yCoord": 70.59,
+							"coordsMap": "Tanaris",
+							"comment": "Right again after crossing the first room",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 55.97,
+							"yCoord": 71.19,
+							"coordsMap": "Tanaris",
+							"comment": "Get the surveying gear",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Scrimshank's Surveying Gear",
+									"questId": 10,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.49,
+							"yCoord": 71.2,
+							"coordsMap": "Tanaris",
+							"comment": "If you didn't get the robot chicken beacon you can HS back to Tanaris port now. Otherwise, backtrack. Turn left on the first bifurcation",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 56.02,
+							"yCoord": 68.27,
+							"coordsMap": "Tanaris",
+							"comment": "Left again after crossing the room and you are out",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 60.25,
+							"yCoord": 64.66,
+							"coordsMap": "Tanaris",
+							"comment": "Use the Tanaris' beacon to accept to chicken quest",
+							"itemId": 8623,
+							"itemName": "OOX-17/TN Distress Beacon",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questId": 351,
+									"questName": "Find OOX-17/TN!",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Homing Robot OOX-17/TN",
+							"npcId": 7784,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 351,
+									"questName": "Find OOX-17/TN!",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"comment": "Start the escort",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Rescue OOX-17/TN!",
+									"questId": 648,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 61.25,
+							"yCoord": 53.66,
+							"coordsMap": "Tanaris",
+							"comment": "There is an ambush right before Caverns of time and thats it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Some objectivea\tEscort OOX-17/TN to safety",
+									"questId": 648,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Tanaris port",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -47814,6 +48183,184 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 50.23,
+							"yCoord": 27.44
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Senior Surveyor Fizzledowser",
+							"npcId": 7724,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 10,
+									"questName": "The Scrimshank Redemption",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Insect Part Analysis",
+									"questId": 110,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 50.23,
+							"yCoord": 27.44
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Senior Surveyor Fizzledowser",
+							"npcId": 7724,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 110,
+									"questName": "Insect Part Analysis",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 50.92,
+							"yCoord": 26.95
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Alchemist Pestlezugg",
+							"npcId": 5594,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 110,
+									"questName": "Insect Part Analysis",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Insect Part Analysis",
+									"questId": 113,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Tanaris",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 50.24,
+							"yCoord": 27.44
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Senior Surveyor Fizzledowser",
+							"npcId": 7724,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 113,
+									"questName": "Insect Part Analysis",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Rise of the Silithid",
+									"questId": 162,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 50.98,
+							"yCoord": 29.33,
+							"coordsMap": "Tanaris",
+							"comment": "Fly to Theramore",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 71.55,
+							"yCoord": 56.37,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "Boat to Menethil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 14,
