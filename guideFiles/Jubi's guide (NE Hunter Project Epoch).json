@@ -48879,6 +48879,207 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 31.95,
+							"yCoord": 57.42,
+							"coordsMap": "The Hinterlands",
+							"comment": "Third cage. Can AoE the camp down. Possible chest inside the tent",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Check Third Cage",
+									"questId": 2988,
+									"questObjectiveIndex": 3,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 37.05,
+							"yCoord": 71.46,
+							"coordsMap": "The Hinterlands",
+							"comment": "Dead dwarf top of the temple. While around the area kill spiders for silk and gather spider eggs",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"questId": 9476,
+							"questName": "In Pursuit of Featherbeard",
+							"subTasks": [],
+							"type": "Turn in quest"
+						},
+						{
+							"questName": "Reclaiming the Eggs",
+							"questId": 9475,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 34.13,
+							"yCoord": 72.77,
+							"coordsMap": "The Hinterlands",
+							"comment": "Go here and gather 2 of the eggs",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 33.69,
+							"yCoord": 75.08,
+							"coordsMap": "The Hinterlands",
+							"comment": "Ignore the exile's quest. 3 last eggs here, or at least in Trinity core. If not, check all the areas listed on the note you got after accepting the quest (check nort eastern slope last).",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Gryphon Egg",
+									"questId": 9475,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "The other things to gather here",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Shadraspawn Egg",
+									"questId": 26491,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 12,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [
+										{
+											"comment": "Any troll",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": true
+								},
+								{
+									"itemName": "Whitherbark Shawl Scrap",
+									"questId": 26498,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Perfect Broodguard Silk",
+									"questId": 26498,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Witherbark Broodguard",
+											"npcId": 2686
+										}
+									],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 40,
+							"yCoord": 65.69,
+							"coordsMap": "The Hinterlands",
+							"comment": "Jump down to the lake from here. Possible chest inside the tent",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 41.01,
+							"yCoord": 59.85,
+							"coordsMap": "The Hinterlands",
+							"comment": "Gather the mushroom then look around the lake for the black elite gryphon and kill it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Violet Tragan",
+									"questId": 2641,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Foulcrest Plume",
+									"questId": 26506,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Foulcrest",
+											"npcId": 45706
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"comment": "Make your way back to Aerie peak. Shopping list before first back",
 							"depth": 0,
 							"type": "Comment",
@@ -48964,28 +49165,66 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 10.04,
-							"yCoord": 43.51,
 							"coordsMap": "The Hinterlands",
-							"comment": "TODO: Turn in after first back to town",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Tizzie Sparkcraft",
-							"npcId": 45694,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 14.4,
+							"yCoord": 48.02
+						},
+						{
+							"npcName": "Golith Slatestrike",
+							"npcId": 45683,
+							"depth": 0,
+							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 26498,
-									"questName": "Falling Up To Grace",
+									"questId": 9470,
+									"questName": "A Gesture of Goodwill",
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"questId": 9475,
+									"questName": "Reclaiming the Eggs",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "The Hinterlands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 15.98,
+							"yCoord": 47.13
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Kerr Ironsight",
+							"npcId": 11813,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26491,
+									"questName": "Can't Make An Omelette Without...",
+									"subTasks": [],
+									"type": "Turn in quest"
 								}
 							],
 							"type": "Talk to"
@@ -48996,14 +49235,186 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 14.74,
-							"yCoord": 44.51,
 							"coordsMap": "The Hinterlands",
-							"comment": "TODO: Need to accept later",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 16.43,
+							"yCoord": 47.49
+						},
+						{
+							"npcName": "Claira Kindfeather",
+							"npcId": 11812,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "A Vicious Vocation",
+									"questId": 26496,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Primitive Pummeling",
+									"questId": 26493,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 9.84,
+							"yCoord": 44.52,
+							"coordsMap": "The Hinterlands",
+							"comment": "Going here first to free quest log space",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Gryphon Master Talonaxe",
+							"npcId": 5636,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 2988,
+									"questName": "Witherbark Cages",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Altar of Zul",
+									"questId": 2989,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Preying on the Predators",
+									"questId": 9471,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Stalking the Stalkers",
+									"questId": 26492,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Wanted: Foulcrest",
+									"questId": 26506,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "The Hinterlands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 9.82,
+							"yCoord": 44.7
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Gryphon Master Stonemace",
+							"npcId": 45697,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26489,
+									"questName": "Razorbeak Friends",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 10.04,
+							"yCoord": 43.51,
+							"coordsMap": "The Hinterlands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Tizzie Sparkcraft",
+							"npcId": 45694,
+							"subTasks": [
+								{
+									"questId": 26498,
+									"questName": "Falling Up To Grace",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Falling Up To Grace",
+									"questId": 26499,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "The Hinterlands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 14.74,
+							"yCoord": 44.53
 						},
 						{
 							"depth": 0,
@@ -49014,10 +49425,18 @@
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 2877,
-									"questName": "Skulk Rock Clean-up",
+									"questId": 2880,
+									"questName": "Troll Necklace Bounty",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Skulk Rock Clean-up",
+									"questId": 2877,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -49031,7 +49450,6 @@
 							"xCoord": 14.43,
 							"yCoord": 42.47,
 							"coordsMap": "The Hinterlands",
-							"comment": "TODO: Accept later",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -49071,7 +49489,6 @@
 							"xCoord": 13.79,
 							"yCoord": 43.78,
 							"coordsMap": "The Hinterlands",
-							"comment": "TODO: Accept later",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -49103,7 +49520,6 @@
 							"xCoord": 14,
 							"yCoord": 43.34,
 							"coordsMap": "The Hinterlands",
-							"comment": "TODO: Accept later, won't do follow up if no summon to IF",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -49129,529 +49545,48 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 14.1,
+							"yCoord": 41.59,
 							"coordsMap": "The Hinterlands",
+							"comment": "Face north after accepting the quest then go through the door to your right, behind the siege engine, and go upstairs. Thats where the inkeeper is",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 37.05,
-							"yCoord": 71.46
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": ">>> Set HS  <<<",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 9476,
-							"questName": "In Pursuit of Featherbeard",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.05,
-							"yCoord": 71.46
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 9475,
-							"questName": "Reclaiming the Eggs",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.05,
-							"yCoord": 71.49
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Witherbark Sadist",
-							"npcId": 2653,
+							"type": "Comment",
 							"subTasks": [
 								{
+									"npcName": "Innkeeper Thulfram",
+									"npcId": 7744,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 9475,
-									"questName": "Reclaiming the Eggs",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 14.4,
-							"yCoord": 48.02
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 9470,
-							"questName": "A Gesture of Goodwill",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 15.98,
-							"yCoord": 47.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kerr Ironsight",
-							"npcId": 11813,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26491,
-									"questName": "Can't Make An Omelette Without...",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 16.43,
-							"yCoord": 47.49
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26496,
-							"questName": "A Vicious Vocation",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 16.43,
-							"yCoord": 47.49
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26493,
-							"questName": "Primitive Pummeling",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 14.74,
-							"yCoord": 44.53
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Fraggar Thundermantle",
-							"npcId": 7884,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2880,
-									"questName": "Troll Necklace Bounty",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 14.76,
-							"yCoord": 44.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Fraggar Thundermantle",
-							"npcId": 7884,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2877,
-									"questName": "Skulk Rock Clean-up",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 14.43,
-							"yCoord": 42.47
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Truk Wildbeard",
-							"npcId": 4782,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26487,
-									"questName": "Turtle Power",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 14.43,
-							"yCoord": 42.47
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Truk Wildbeard",
-							"npcId": 4782,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26497,
-									"questName": "A Sticky Situation",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 13.85,
-							"yCoord": 43.78
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Murdug Drunkbelly",
-							"npcId": 45701,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26488,
-									"questName": "Prime Slime",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.84,
-							"yCoord": 44.52
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gryphon Master Talonaxe",
-							"npcId": 5636,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2988,
-									"questName": "Witherbark Cages",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.84,
-							"yCoord": 44.52
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gryphon Master Talonaxe",
-							"npcId": 5636,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2989,
-									"questName": "The Altar of Zul",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.81,
-							"yCoord": 44.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gryphon Master Talonaxe",
-							"npcId": 5636,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 9471,
-									"questName": "Preying on the Predators",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.81,
-							"yCoord": 44.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gryphon Master Talonaxe",
-							"npcId": 5636,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26492,
-									"questName": "Stalking the Stalkers",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.82,
-							"yCoord": 44.7
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gryphon Master Stonemace",
-							"npcId": 45697,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26489,
-									"questName": "Razorbeak Friends",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 10.04,
-							"yCoord": 43.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tizzie Sparkcraft",
-							"npcId": 45694,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26499,
-									"questName": "Falling Up To Grace",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 34.31,
-							"yCoord": 37.84
+							"yCoord": 37.84,
+							"coordsMap": "The Hinterlands",
+							"comment": "Can go up from the slope near the house south west of the marker",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -49661,42 +49596,19 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26499,
 									"questName": "Falling Up To Grace",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 34.31,
-							"yCoord": 37.84
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Ruppo Zipcoil",
-							"npcId": 2688,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
+									"questName": "Falling Up To Grace",
 									"questId": 26500,
-									"questName": "Falling Up To Grace",
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -49704,26 +49616,138 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 39.23,
+							"yCoord": 45.57,
 							"coordsMap": "The Hinterlands",
+							"comment": "Go here and start killing the howlers and the owlbeasts. Check the howler spawn, you barely can miss any",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 39.81,
-							"yCoord": 49.51
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 50.58,
+							"yCoord": 59.91,
+							"coordsMap": "The Hinterlands",
+							"comment": "Go towards here to kill the far away howler spwan. You should be done with owlbeasts aswell",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 485,
-							"questName": "Find OOX-09/HL!",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Primitive Owlbeast",
+									"npcId": 2928,
+									"count": 15,
+									"questId": 26493,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [
+										{
+											"comment": "Can finish later too",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 48.23,
+							"yCoord": 67.51,
+							"coordsMap": "The Hinterlands",
+							"comment": "Climb halfway through the stairs. Put a frost trap down. Send your pet to the keeprs and then command it to attack 1 of the far away trolls downstairs. Discover the altar while the mobs are distracted then go down and FD if your pet dies",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Search the Altar of Zul",
+									"questId": 2989,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.39,
+							"yCoord": 59.02,
+							"coordsMap": "The Hinterlands",
+							"comment": "Now go west while finishing howlers and owlbeasts (if needed)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Silvermane Howler",
+									"npcId": 2925,
+									"count": 15,
+									"questId": 26492,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Look for a summon to Ironforge (or even SW) for right after finishing the owlbeasts and these wolves",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Aerie peak (yes, to turn a single quest...)",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you managed to get a summon turn 'Parts From Afar' there then HS back. The turn in is at the forge and asks you to go back to Aerie peak afterwards. No idea what the follow up may be (or if there even is one...)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "The guide continues as if you didn't get a summon",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -49734,8 +49758,108 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"xCoord": 16.41,
+							"yCoord": 47.52
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Claira Kindfeather",
+							"npcId": 11812,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26493,
+									"questName": "Primitive Pummeling",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Savage Slam",
+									"questId": 26494,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 47.43,
+							"yCoord": 37.93,
+							"coordsMap": "The Hinterlands",
+							"comment": "Go to these ruins and gather the 3 horde supply crates in there (check on any DB) the gather the 4th one near the lake (marker). Fully loot the boxes so they respawn, don't be an ass.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Go to the chicken's lake and do a lap around it killing the fishes for meat and gathering the reeds. You won't finish now, but it will start the respawns.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 48.09,
+							"yCoord": 35.95,
+							"coordsMap": "The Hinterlands",
+							"comment": "Dive to the bottom of the lake and gather the item. Is pretty hard to see. It's besides the cages at the bottom, wiggle your mouse around there until the cursor changes or you spot the sparkles",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Warbling Altometer",
+									"questId": 26500,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 49.37,
-							"yCoord": 37.69
+							"yCoord": 37.69,
+							"coordsMap": "The Hinterlands",
+							"comment": "Use the beacon to accept the quest. If you haven't found the beacon yet just come back later",
+							"itemId": 8704,
+							"itemName": "OOX-09/HL Distress Beacon",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "Find OOX-09/HL!",
+									"questId": 485,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -49750,37 +49874,14 @@
 									"questName": "Find OOX-09/HL!",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 49.38,
-							"yCoord": 37.81
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Homing Robot OOX-09/HL",
-							"npcId": 7806,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 836,
 									"questName": "Rescue OOX-09/HL!",
+									"questId": 836,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -49788,114 +49889,278 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 58.03,
+							"yCoord": 50.28,
 							"coordsMap": "The Hinterlands",
+							"comment": "Escort the chicken. You will get ambushed by 3 owlbeasts at this spot. Quest ends right after",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 80.86,
-							"yCoord": 46.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 626,
-							"questName": "Cortello's Riddle",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 14.41,
-							"yCoord": 42.47
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Truk Wildbeard",
-							"npcId": 4782,
 							"subTasks": [
 								{
+									"goalName": "Escort OOX-09/HL to safety",
+									"questId": 836,
+									"questObjectiveIndex": 1,
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26487,
-									"questName": "Turtle Power",
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 57.47,
+							"yCoord": 38.76,
 							"coordsMap": "The Hinterlands",
+							"comment": "Go to the Oozes cave. You should have killed 8 stalkers on the way (check spawns on DB, they are stealthed), kill any owlbeast you might find too and check out the river for reeds and groupers",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 14.41,
-							"yCoord": 42.47
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Truk Wildbeard",
-							"npcId": 4782,
 							"subTasks": [
 								{
+									"comment": "1 crate outside the cave. 1 in the upper level right just as you go in. 1 in the middle level, 2 on the eastern room (and a rare), the last one in the south western room (with the giant ooze)",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26497,
-									"questName": "A Sticky Situation",
+									"type": "Comment",
+									"subTasks": [
+										{
+											"itemName": "Hinterlands Honey Ripple",
+											"questId": 26497,
+											"questObjectiveIndex": 1,
+											"toLootNpcs": [],
+											"count": 10,
+											"depth": 2,
+											"type": "Get",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"npcName": "Green Sludge",
+									"npcId": 2655,
+									"count": 10,
+									"questId": 2877,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
 									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 14.13,
-							"yCoord": 43.92
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Murdug Drunkbelly",
-							"npcId": 45701,
-							"subTasks": [
+									"isCustom": false
+								},
 								{
+									"npcName": "Jade Ooze",
+									"npcId": 2656,
+									"count": 10,
+									"questId": 2877,
+									"questObjectiveIndex": 2,
 									"depth": 1,
-									"isCustom": false,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Direglob Sample",
 									"questId": 26488,
-									"questName": "Prime Slime",
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "The Direglob",
+											"npcId": 45702
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.33,
+							"yCoord": 38.76,
+							"coordsMap": "The Hinterlands",
+							"comment": "Go up to this spot killing groupers and gathering reeds, then go south and start killing owlbeasts and stalkers",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 60.85,
+							"yCoord": 47.24,
+							"coordsMap": "The Hinterlands",
+							"comment": "Once you have killed 4 owlbeasts (5/10) begin to turn towards the west. 4 Owlbeasts south of the road (9/10) and lots of stalkers.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 55.98,
+							"yCoord": 46.03,
+							"coordsMap": "The Hinterlands",
+							"comment": "Last owlbeast here. You should be done with stalkers by now too",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Savage Owlbeast",
+									"npcId": 2929,
+									"count": 10,
+									"questId": 26494,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Silvermane Stalker",
+									"npcId": 2926,
+									"count": 15,
+									"questId": 26492,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 50.81,
+							"yCoord": 38.18,
+							"coordsMap": "The Hinterlands",
+							"comment": "Back to the lake if you need to to finish reeds + grouper meat",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Grouper Steak",
+									"questId": 26489,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Chunky Grouper",
+											"npcId": 45695
+										}
+									],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Royal Bite",
+									"questId": 26489,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 15,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 34.32,
+							"yCoord": 37.82,
+							"coordsMap": "The Hinterlands",
+							"comment": "Back to the gnomes in the mountains",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Ruppo Zipcoil",
+							"npcId": 2688,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26500,
+									"questName": "Falling Up To Grace",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Falling Up To Grace",
+									"questId": 26501,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "The Hinterlands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 16.44,
+							"yCoord": 47.48
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Claira Kindfeather",
+							"npcId": 11812,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26494,
+									"questName": "Savage Slam",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Owlkin Leadership",
+									"questId": 26495,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -49942,20 +50207,20 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 16.41,
-							"yCoord": 47.52
+							"xCoord": 14.41,
+							"yCoord": 42.47
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Claira Kindfeather",
-							"npcId": 11812,
+							"npcName": "Truk Wildbeard",
+							"npcId": 4782,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26493,
-									"questName": "Primitive Pummeling",
+									"isCustom": true,
+									"questId": 26497,
+									"questName": "A Sticky Situation",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -49973,84 +50238,22 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 16.41,
-							"yCoord": 47.52
+							"xCoord": 14.13,
+							"yCoord": 43.92
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Claira Kindfeather",
-							"npcId": 11812,
+							"isCustom": true,
+							"npcName": "Murdug Drunkbelly",
+							"npcId": 45701,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26494,
-									"questName": "Savage Slam",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.9,
-							"yCoord": 44.83
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gryphon Master Stonemace",
-							"npcId": 45697,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26489,
-									"questName": "Razorbeak Friends",
+									"isCustom": true,
+									"questId": 26488,
+									"questName": "Prime Slime",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.9,
-							"yCoord": 44.83
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gryphon Master Stonemace",
-							"npcId": 45697,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26490,
-									"questName": "Razorbeak Friends",
-									"subTasks": [],
-									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
@@ -50082,68 +50285,22 @@
 									"questName": "The Altar of Zul",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.82,
-							"yCoord": 44.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gryphon Master Talonaxe",
-							"npcId": 5636,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2990,
 									"questName": "Thadius Grimshade",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 9.82,
-							"yCoord": 44.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gryphon Master Talonaxe",
-							"npcId": 5636,
-							"subTasks": [
-								{
+									"questId": 2990,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26492,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Stalking the Stalkers",
+									"questId": 26492,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -50159,22 +50316,30 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 34.32,
-							"yCoord": 37.82
+							"xCoord": 9.9,
+							"yCoord": 44.83
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Ruppo Zipcoil",
-							"npcId": 2688,
+							"isCustom": true,
+							"npcName": "Gryphon Master Stonemace",
+							"npcId": 45697,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26500,
-									"questName": "Falling Up To Grace",
+									"isCustom": true,
+									"questId": 26489,
+									"questName": "Razorbeak Friends",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Razorbeak Friends",
+									"questId": 26490,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -50190,22 +50355,99 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 34.32,
-							"yCoord": 37.82
+							"xCoord": 10.03,
+							"yCoord": 43.5
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Ruppo Zipcoil",
-							"npcId": 2688,
+							"npcName": "Tizzie Sparkcraft",
+							"npcId": 45694,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26501,
 									"questName": "Falling Up To Grace",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Falling Up To Grace",
+									"questId": 26502,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 11.84,
+							"yCoord": 46.8,
+							"coordsMap": "The Hinterlands",
+							"comment": "Go in front of Falstad Windhammer and test the parachute. You will get team rocket blasted then it will automatically deploy",
+							"itemId": 60686,
+							"itemName": "Tizzie's Jetpack",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Parachute Tested",
+									"questId": 26502,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"comment": "26502",
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 10.04,
+							"yCoord": 43.45,
+							"coordsMap": "The Hinterlands",
+							"comment": "Back to the nest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Tizzie Sparkcraft",
+							"npcId": 45694,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26502,
+									"questName": "Falling Up To Grace",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Falling Up To Grace",
+									"questId": 26503,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -50216,25 +50458,26 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 11.86,
+							"yCoord": 46.85,
 							"coordsMap": "The Hinterlands",
+							"comment": "Finish the questline",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 16.44,
-							"yCoord": 47.48
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Claira Kindfeather",
-							"npcId": 11812,
+							"npcName": "Falstad Wildhammer",
+							"npcId": 5635,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 26494,
-									"questName": "Savage Slam",
+									"questId": 26503,
+									"questName": "Falling Up To Grace",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -50244,30 +50487,214 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 15.9,
+							"yCoord": 50.93,
 							"coordsMap": "The Hinterlands",
+							"comment": "Feed the gryphons",
+							"itemId": 60673,
+							"itemName": "Razorbeak Treats",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 16.44,
-							"yCoord": 47.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Claira Kindfeather",
-							"npcId": 11812,
 							"subTasks": [
 								{
+									"goalName": "Trained Razorbeak Fed",
+									"questId": 26490,
+									"questObjectiveIndex": 1,
+									"count": 7,
 									"depth": 1,
-									"isCustom": false,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 66.24,
+							"yCoord": 53.29,
+							"coordsMap": "The Hinterlands",
+							"comment": "Long run to the other corner of the map... There is an efigy at the top of thos mound. Use the item here to summon it",
+							"itemId": 60681,
+							"itemName": "Wildhammer Torch",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"xCoord": 67.71,
+									"yCoord": 53.07,
+									"coordsMap": "The Hinterlands",
+									"comment": "This chicken slaps. Has an execute and enrages when <40% hp. No match for the true and tested method of pilar + frost trap tho. Go to this rock, kill the 2 stalkers that are nearby, summon the chicken and play ring around the rosie with growl off, cower on and a frost trap.",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Rirrek",
+									"npcId": 45688,
+									"count": 1,
 									"questId": 26495,
-									"questName": "Owlkin Leadership",
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 64.09,
+							"yCoord": 61.44,
+							"coordsMap": "The Hinterlands",
+							"comment": "Check the bottom of this lake for a rare slime with eagle eye. If it's up just kill it for a wand, can vendor or sell on AH (probably no one will ahve money at this level range cause riding skill)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 72.51,
+							"yCoord": 66.13,
+							"coordsMap": "The Hinterlands",
+							"comment": "Go down to the beach from here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this afterwards",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 80.86,
+							"yCoord": 46.9,
+							"coordsMap": "The Hinterlands",
+							"comment": "Go here and finish Cortelo's riddle. Get meat from the turtles, take a photo of the elite one and gather wine bottles",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"questId": 626,
+							"questName": "Cortello's Riddle",
+							"subTasks": [],
+							"type": "Turn in quest"
+						},
+						{
+							"itemName": "Lean Turtle Flank",
+							"questId": 26487,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Saltwater Snapjaw",
+									"npcId": 2505
+								}
+							],
+							"count": 10,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"itemName": "Pupellyverbos Port",
+							"questId": 580,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 12,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Snapshot of Gammerita",
+							"questId": 2944,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [
+								{
+									"comment": "Use the camera while targeting the turtle. It's bugged, but it will agro on you in normal conditions after taking the picture (make sure you have room in your bags)",
+									"itemId": 9328,
+									"itemName": "Super Snapper FX",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Aerie peak",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "The Hinterlands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 14.41,
+							"yCoord": 42.47
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Truk Wildbeard",
+							"npcId": 4782,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 26487,
+									"questName": "Turtle Power",
+									"subTasks": [],
+									"type": "Turn in quest"
 								}
 							],
 							"type": "Talk to"
@@ -50283,22 +50710,22 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 9.75,
-							"yCoord": 44.43
+							"xCoord": 16.44,
+							"yCoord": 47.48
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Gryphon Master Talonaxe",
-							"npcId": 5636,
+							"npcName": "Claira Kindfeather",
+							"npcId": 11812,
 							"subTasks": [
 								{
+									"questName": "Owlkin Leadership",
+									"questId": 26495,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26506,
-									"questName": "Wanted: Foulcrest",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -50337,181 +50764,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 11.08,
+							"yCoord": 46.12,
 							"coordsMap": "The Hinterlands",
+							"comment": "Fly to IF",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 10.03,
-							"yCoord": 43.5
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tizzie Sparkcraft",
-							"npcId": 45694,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26501,
-									"questName": "Falling Up To Grace",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 10.03,
-							"yCoord": 43.5
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tizzie Sparkcraft",
-							"npcId": 45694,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26502,
-									"questName": "Falling Up To Grace",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 10.04,
-							"yCoord": 43.45
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tizzie Sparkcraft",
-							"npcId": 45694,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26502,
-									"questName": "Falling Up To Grace",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 10.04,
-							"yCoord": 43.46
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tizzie Sparkcraft",
-							"npcId": 45694,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26503,
-									"questName": "Falling Up To Grace",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 11.86,
-							"yCoord": 46.85
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Falstad Wildhammer",
-							"npcId": 5635,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26503,
-									"questName": "Falling Up To Grace",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 16.43,
-							"yCoord": 47.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 26495,
-							"questName": "Owlkin Leadership",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 15,
@@ -50525,97 +50790,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Loch Modan",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 31.82,
-							"yCoord": 54.72
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 3181,
-							"questName": "The Horn of the Beast",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Loch Modan",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 18.24,
-							"yCoord": 83.91
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Mountaineer Pebblebitty",
-							"npcId": 3836,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3181,
-									"questName": "The Horn of the Beast",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Loch Modan",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 18.24,
-							"yCoord": 83.91
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Mountaineer Pebblebitty",
-							"npcId": 3836,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3182,
-									"questName": "Proof of Deed",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 51.56,
-							"yCoord": 41.77
+							"yCoord": 41.77,
+							"coordsMap": "Ironforge",
+							"comment": "If you dind't get the summon to IF in Hinterlands don't accept the follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -50625,7 +50807,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26504,
 									"questName": "Parts From Afar",
 									"subTasks": [],
@@ -50640,13 +50822,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 71.42,
-							"yCoord": 16.21
+							"yCoord": 16.21,
+							"coordsMap": "Ironforge",
+							"comment": "Back to accept the quest we left behind before going to Hinterlands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -50661,6 +50844,14 @@
 									"questName": "Dwarven Justice",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "At Last!",
+									"questId": 3201,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -50668,35 +50859,47 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 75.6,
+							"yCoord": 23.21,
 							"coordsMap": "Ironforge",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 71.55,
-							"yCoord": 16.18
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Laris Geardawdle",
+							"npcId": 9616,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Curator Thorius",
-							"npcId": 8256,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 4512,
+									"questName": "A Little Slime Goes a Long Way",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3182,
-									"questName": "Proof of Deed",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "TODO: Getdrawing quests -> Get flare in military ward -> learn level 48 spells -> fly to Thelsamar",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -50721,37 +50924,6 @@
 									"isCustom": false,
 									"questId": 3448,
 									"questName": "Passing the Burden",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 70.92,
-							"yCoord": 15.87
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Curator Thorius",
-							"npcId": 8256,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3201,
-									"questName": "At Last!",
 									"subTasks": [],
 									"type": "Accept quest"
 								}
