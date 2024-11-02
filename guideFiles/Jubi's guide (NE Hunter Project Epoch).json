@@ -50793,7 +50793,7 @@
 							"xCoord": 51.56,
 							"yCoord": 41.77,
 							"coordsMap": "Ironforge",
-							"comment": "If you dind't get the summon to IF in Hinterlands don't accept the follow up",
+							"comment": "Only If you dind't get the summon to IF in Hinterlands. Don't accept the follow up as we won't be going back there",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -50890,18 +50890,6 @@
 					"onlyForClasses": []
 				},
 				{
-					"stepTasks": [
-						{
-							"comment": "TODO: Getdrawing quests -> Get flare in military ward -> learn level 48 spells -> fly to Thelsamar",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -50957,11 +50945,214 @@
 									"questName": "Passing the Burden",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questId": 3449,
+									"questName": "Arcane Runes",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 3450,
+									"questName": "An Easy Pickup",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 69.87,
+							"yCoord": 83.23,
+							"coordsMap": "Ironforge",
+							"comment": "Learn lvl 48 spells",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Regnus Thundergranite",
+									"npcId": 5117,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 70.97,
+							"yCoord": 94.25,
+							"coordsMap": "Ironforge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Xiggs Fuselighter",
+							"npcId": 8517,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "An Easy Pickup",
+									"questId": 3450,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 3451,
+									"questName": "Singal for Pickup",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Singal for Pickup",
+									"questId": 3451,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 71.69,
+							"yCoord": 66.38,
+							"coordsMap": "Ironforge",
+							"comment": ">>> Refill quiver <<< 2nd floor. Also, make sure you have the Standard Issue Flare in your bags. You should have gotten it from the dwarf in the Military Ward",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Skolmin Goldfury",
+									"npcId": 5122,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.63,
+							"yCoord": 47.88,
+							"coordsMap": "Ironforge",
+							"comment": "Fly to Loch Modan",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 35.49,
+							"yCoord": 48.24,
+							"coordsMap": "Loch Modan",
+							"comment": ">>> Set HS and buy 2 stacks of 45 water <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Innkeeper Hearthstove",
+									"npcId": 6734,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 18.22,
+							"yCoord": 83.95,
+							"coordsMap": "Loch Modan",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Mountaineer Pebblebitty",
+							"npcId": 3836,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "At Last!",
+									"questId": 3201,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 33.95,
+							"yCoord": 51.01,
+							"coordsMap": "Loch Modan",
+							"comment": "Back to Thelsamar, fly to Searing Gorge. It's 30s faster to just fly instead of going through the door with the key",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "While flying prepare a macro with /run SelectGossipOption(1) and bind it somewhere where is easy to spam. It click the first dialog option when talking to NPCs (that have one)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -50988,37 +51179,14 @@
 									"questName": "What the Flux?",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.57,
-							"yCoord": 28.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Master Smith Burninate",
-							"npcId": 14624,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27246,
 									"questName": "Grampy Stoutforge",
+									"questId": 27246,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -51050,68 +51218,22 @@
 									"questName": "Curse These Fat Fingers",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.54,
-							"yCoord": 27.94
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hansel Heavyhands",
-							"npcId": 14627,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 7727,
 									"questName": "Incendosaurs? Whateverosaur is More Like It",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.54,
-							"yCoord": 27.94
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hansel Heavyhands",
-							"npcId": 14627,
-							"subTasks": [
-								{
+									"questId": 7727,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 7724,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Fiery Menace!",
+									"questId": 7724,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -51122,30 +51244,38 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 37.63,
-							"yCoord": 26.68
+							"yCoord": 26.68,
+							"coordsMap": "Searing Gorge",
+							"comment": "WANTED post",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"questName": "WANTED: Overseer Maltorius",
+							"questId": 7701,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hansel Heavyhands",
-							"npcId": 14627,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 7701,
-									"questName": "WANTED: Overseer Maltorius",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "STOLEN: Smithing Tuyere and Lookout's Spyglass",
+							"questId": 7728,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "JOB OPPORTUNITY: Culling the Competition",
+							"questId": 7729,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -51153,83 +51283,49 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.64,
-							"yCoord": 26.65
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hansel Heavyhands",
-							"npcId": 14627,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 7728,
-									"questName": "STOLEN: Smithing Tuyere and Lookout's Spyglass",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 37.64,
-							"yCoord": 26.65
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hansel Heavyhands",
-							"npcId": 14627,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 7729,
-									"questName": "JOB OPPORTUNITY: Culling the Competition",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 39,
-							"yCoord": 38.87
+							"yCoord": 38.87,
+							"coordsMap": "Searing Gorge",
+							"comment": "Go down the slope to your left while facing the flight master",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Kalaran Windblade",
+							"npcId": 8479,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 3441,
-							"questName": "Divine Retribution",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Divine Retribution",
+									"questId": 3441,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Talk to him again and spam the gossip macro. You don't need to use the macro here, but on a later quest is heavily recommended",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [
+										{
+											"goalName": "Kalaran Story",
+											"questId": 3441,
+											"questObjectiveIndex": 1,
+											"count": 1,
+											"depth": 2,
+											"type": "Goal",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -51258,37 +51354,14 @@
 									"questName": "Divine Retribution",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 39,
-							"yCoord": 38.87
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kalaran Windblade",
-							"npcId": 8479,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3442,
 									"questName": "The Flawless Flame",
+									"questId": 3442,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -51296,61 +51369,152 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Searing Gorge",
+							"comment": "If at any point the Outhouse key drops while killing dwarves just hold onto the item. Will accept later.",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 32.48,
-							"yCoord": 55.24
+							"isCustom": false
 						},
 						{
+							"comment": "Look east and kill the elemental. Prioritize killing all the elementals you can while moving from place to place. Drop rate is atrocious.",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Dark Iron Lookout",
-							"npcId": 8566,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 39.03,
+							"yCoord": 47.94,
+							"coordsMap": "Searing Gorge",
+							"comment": "Kill one Steamsmith for a quest item (100% drop rate in Trinity core) tehn move west killing elementals, war golems and spiders",
+							"depth": 0,
+							"type": "Go to",
 							"subTasks": [
 								{
+									"itemName": "Smithing Tuyere",
+									"questId": 7728,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Dark Iron Steamsmith",
+											"npcId": 5840
+										}
+									],
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 4451,
-									"questName": "The Key to Freedom",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
+						},
+						{
+							"xCoord": 30.95,
+							"yCoord": 44.55,
+							"coordsMap": "Searing Gorge",
+							"comment": "Kill the elemental here and then the spiders. Start moving south",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Do something",
+							"depth": 0,
+							"subTasks": [],
+							"type": "Comment",
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"coordsMap": "Searing Gorge",
+							"xCoord": 30.95,
+							"yCoord": 44.55,
+							"comment": "Kill the elemental here and then the spiders. Start moving south",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 31.96,
+							"yCoord": 55.26,
+							"coordsMap": "Searing Gorge",
+							"comment": "Kill one of the lookouts for the other item (100% drop again)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Lookout's Spygalss",
+									"questId": 7728,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Dark Iron Lookout",
+											"npcId": 8566
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 29.79,
-							"yCoord": 71.16
+							"yCoord": 71.16,
+							"coordsMap": "Searing Gorge",
+							"comment": "Eles > Golems > Spiders",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Grampy Stoutforge",
 							"npcId": 46164,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27246,
 									"questName": "Grampy Stoutforge",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Do Slavers Keep Records?",
+									"questId": 27242,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "The quest item never dropped during beta. Should drop from slavers. Unsure what the follow up is. Turn it in as soon as you can, preferably before jumping down to the pit.",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -51358,35 +51522,116 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 33.36,
+							"yCoord": 74.82,
 							"coordsMap": "Searing Gorge",
+							"comment": "Go near the entrance to BRM and kill spiders and elementals at both side",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 29.81,
-							"yCoord": 71.41
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "If you get good RNG and finish either golem oils or hearts of flame early you can ignore the mobs that don't drop what you need",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bhurind Stoutforge",
-							"npcId": 46163,
+							"type": "Comment",
 							"subTasks": [
 								{
+									"comment": "If Hearts of Flame done, can ignore fire elementals. If golem oils done, can ignore war golems (unless you haven't finished the killign quest). Rock elementals drop both items, don't ignore.",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27242,
-									"questName": "Do Slavers Keep Records?",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
+						},
+						{
+							"xCoord": 39.01,
+							"yCoord": 39.13,
+							"coordsMap": "Searing Gorge",
+							"comment": "Backtrack and kill respawning golems, dwarves, spiders (should be almost done) and elementals you need",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Greater Lava Spider",
+									"npcId": 5858,
+									"count": 20,
+									"questId": 7724,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "You can keep going east of this spot to finish elementals. Skip this step afterwards",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Should be finishing these",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Heart of Flame",
+									"questId": 3442,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Inferno Elemental",
+											"npcId": 5852
+										},
+										{
+											"npcName": "Magma Elemental",
+											"npcId": 5855
+										}
+									],
+									"count": 4,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Golem Oil",
+									"questId": 3442,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Heavy War Golem",
+											"npcId": 5854
+										},
+										{
+											"npcName": "Magma Elemental",
+											"npcId": 5855
+										}
+									],
+									"count": 4,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -51413,6 +51658,14 @@
 									"questName": "The Flawless Flame",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Forging the Shaft",
+									"questId": 3443,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -51420,35 +51673,57 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"comment": "Before dropping into the pit kill the dwarf camps to the east then finish golems. If by some miracle the single slaver (there is another one where the Smiths were) drops the quest item, turn it in and accept the follow up. Guide proceeds as if this quest is still bugged.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Heavy War Golem",
+							"npcId": 5854,
+							"count": 20,
+							"questId": 7723,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"stepTasks": [
 						{
 							"coordsMap": "Searing Gorge",
+							"xCoord": 34.98,
+							"yCoord": 42.65,
+							"comment": "Go to the west side of the hole. Dismount, dismiss pet, and jump then press W (in this order or you wil break your knees with the fall).",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 39.15,
-							"yCoord": 38.99
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kalaran Windblade",
-							"npcId": 8479,
 							"subTasks": [
 								{
+									"comment": "After landing on the platform look west and jump to the rock, then just go down safely",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3443,
-									"questName": "Forging the Shaft",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"comment": "Kill slavers and taskmasters towards the north. Skip this step",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -51475,68 +51750,14 @@
 									"questName": "Dwarven Justice",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.27,
-							"yCoord": 25.72
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Dying Archaeologist",
-							"npcId": 8417,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3372,
 									"questName": "Release Them",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Loch Modan",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 18.28,
-							"yCoord": 83.78
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Mountaineer Pebblebitty",
-							"npcId": 3836,
-							"subTasks": [
-								{
+									"questId": 3372,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3201,
-									"questName": "At Last!",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -51544,119 +51765,364 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 43.68,
+							"yCoord": 27.84,
 							"coordsMap": "Searing Gorge",
+							"comment": "While running up the staris, at the crossroads, go north and kill every dwarf on the hallway. Then, do the same in the next room. While doing so read the rest of the step to get ready for the hardest fight on the run.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 39.14,
-							"yCoord": 39.25
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "Maltorius can't be LoS cheesed like the rest of the elite casters because he casts Shadow Word: Pain (SWP) on his main target (secondary if available), Power Word: Shield (PWS) on himself and Poly on secondary targets while casting Shadowbolts.",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kalaran Windblade",
-							"npcId": 8479,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "The problem is that he stops casting Shadowbolts when using anything else for a while, which makes him run into you regardless of wether you are in LoS or not. And worse, he runs out of mana in doing so. This wouldn't be a problem if it wasn't because, even if he has no weapons, he is some kind of Shaolin monk who can break stones with his firsts. Your pet can't face tank it, unless...",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "When he is oom and meleeing your pet you can trap him, cast mend pet/first aid, viper sting (doesn't break freezing trap somehow) and then FD + drink. You can reset the fight while his HP stays the same. To do this tho, make sure you don't have ANYTHING that can put a DoT on him (a certain trinket from a rare in Duskwood *cough*). Furthermore, after you use FD if mend pet's HoT heals your pet then you will be put into combat and won't be able to drink",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Read next step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "The plan is the following:",
+							"depth": 0,
+							"type": "Comment",
 							"subTasks": [
 								{
+									"comment": "Kill the 2 Taskmasters near the boxes at the south western side of the room. You are going to kit him to (almost) the bridge and need to go through there. Kill the look out by pulling him with LoS and split pulling him if necessary. Then, place a trap between the grinding stone and the bridge. This is the killing spot. If you go further he can reset by distance.",
 									"depth": 1,
-									"isCustom": false,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Turn growl off, your pet will get agro once and you won't be able to overtake it after the first FD. Use mend pet on your pet (will dispell any SWP, you specced into the talent RIGHT???) then drink to full.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Open by body pulling with your pet, use viper sting and while he casts shadow bolt (pet face tanks this) use distracting shot to overtake it on agro. Now, LoS every shadow bolt while draining him. 3 things will eventually happen:",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [
+										{
+											"comment": "He uses PWS, use Arcane Shot to dispel it (the level 46 rank onwards does this in TBC). NEVER use arcane shot for anything else, the shield is nasty.",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										},
+										{
+											"comment": "He uses SWP on your pet. No problem, just keep Mend pet up to dispell it.",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										},
+										{
+											"comment": "He uses polymorph. Use bestial wrath for you and your pet to become inmune. He won't do this anyomero during the fight, he won't have enough mana to do so.",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"comment": "Keep viper sting up. When he is below 25% mana eat a Shadowbolt to the face so he finally runs oom and starts chasing you. Bring him to the killing spot and trap him.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Read next step",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Now begins the actual loop of the fight. While trapped use mend pet, let mend pet tick once then FD + drink (make a /cast + /use macro). He will get some mana back while trapped. When there are 4-3 seconds left on the trap viper sting him again and let the trap run off then send your pet (with mend pet up ofc).",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "This repeats for more than 3 minutes (mobs will respawn, and bestial wrath will come off cd, don't worry)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Things that can go wrong:",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "Didn't  drain him in time so he uses PWS with the little mana he has -> Use Arcane shot to dispell it",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Trap gets resisted or your pet eats some fat crits -> Use intimidation, wing clip, pet on follow then kite him on the bridge while healing your pet. Bring it back to the killing spot before reaching the other end by crossing through him, trap CD should be up by then.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "FD gets resisted because the evil devs have made it resistible (*puke*) or you screw up the FD timing with mend pet (shame on you) -> Inmediately use a mana pot and heal your pet with bandages",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "You can always not kill him and simply loot the plans by saccing your pet. But then, why are you playing this class if you can't pull these things off dude... just play a lock or something and press 1 from lvl 1 to the heat death of the universe or something.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"itemName": "Head of Overseer Maltorius",
+							"questId": 7701,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Overseer Maltorius",
+									"npcId": 14621
+								}
+							],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 40.5,
+							"yCoord": 35.76,
+							"coordsMap": "Searing Gorge",
+							"comment": "Loot the plans, the mobs will have respawned if you killed Maltorius",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Secret Plans: Fiery Flux",
+									"questId": 7722,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Finish the killing quests and gathering the daggers. There is a slaver after the bridge towards the exist if you are only missing that (you are heading there)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"npcName": "Dark Iron Taskmaster",
+									"npcId": 5846,
+									"count": 15,
+									"questId": 7729,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Dark Iron Slaver",
+									"npcId": 5844,
+									"count": 15,
+									"questId": 7729,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Thorium Plated Dagger",
 									"questId": 3443,
-									"questName": "Forging the Shaft",
-									"subTasks": [],
-									"type": "Turn in quest"
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [
+										{
+											"comment": "Any dwarf dops them",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 47.61,
+							"yCoord": 41.76,
 							"coordsMap": "Searing Gorge",
+							"comment": "Go towards the the end of the bridge and drop down to the lower level where the Incendosaur is (look nort east)",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 39.13,
-							"yCoord": 38.93
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kalaran Windblade",
-							"npcId": 8479,
 							"subTasks": [
 								{
+									"comment": "Now kill every Incendosaur going forward. What do you mean there are only 13 of the 20 required? Ofc these things never happen while questing (kill the respawns...)",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3452,
-									"questName": "The Flame's Casing",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.42,
-							"yCoord": 27.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 7723,
-							"questName": "Curse These Fat Fingers",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.49,
-							"yCoord": 27.94
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hansel Heavyhands",
-							"npcId": 14627,
-							"subTasks": [
+									"isCustom": false
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
+									"npcName": "Incendosaur",
+									"npcId": 9318,
+									"count": 20,
 									"questId": 7727,
-									"questName": "Incendosaurs? Whateverosaur is More Like It",
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Thelsamar",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 33.9,
+							"yCoord": 50.89,
+							"coordsMap": "Loch Modan",
+							"comment": "Fly to Searing gorge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.71,
+							"yCoord": 28.36,
+							"coordsMap": "Searing Gorge",
+							"comment": ">>> Refill quiver and buy some meat while at it <<< Your pet willl get sacced a bunch probably",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Master Smith Burninate",
+							"npcId": 14624,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "What the Flux?",
+									"questId": 7722,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -51677,12 +52143,28 @@
 							"npcId": 14627,
 							"subTasks": [
 								{
+									"questName": "Curse These Fat Fingers",
+									"questId": 7723,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 7724,
-									"questName": "Fiery Menace!",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Incendosaurs? Whateverosaur is More Like It",
+									"questId": 7727,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Fiery Menace!",
+									"questId": 7724,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -51714,11 +52196,51 @@
 									"questName": "JOB OPPORTUNITY: Culling the Competition",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "STOLEN: Smithing Tuyere and Lookout's Spyglass",
+									"questId": 7728,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.73,
+							"yCoord": 26.65,
+							"coordsMap": "Searing Gorge",
+							"comment": "Only if you killed Maltorius, otherwise skip this step",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Lookout Captain Lolo Longstriker",
+							"npcId": 14634,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "WANTED: Overseer Maltorius",
+									"questId": 7701,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -51729,27 +52251,110 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 38.83,
-							"yCoord": 27.67
+							"xCoord": 39.14,
+							"yCoord": 39.25
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Taskmaster Scrange",
-							"npcId": 14626,
+							"npcName": "Kalaran Windblade",
+							"npcId": 8479,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 7728,
-									"questName": "STOLEN: Smithing Tuyere and Lookout's Spyglass",
+									"questId": 3443,
+									"questName": "Forging the Shaft",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Flame's Casing",
+									"questId": 3452,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 25.02,
+							"yCoord": 31.01,
+							"coordsMap": "Searing Gorge",
+							"comment": "Go here and get the gossip macro ready, you are about to use it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Twilight Fireguards are a very though fight. They cast a 350-450 damage fireball (sometimes twice in a row...) to the secondary targets, thats you. So you will need to trap then heal (bandages or FD + eating) or straight up health pot. Pop CDs when fighting them and keep mend pet up.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Geomancers on the other hand are a joke. Just pet tank it and run out of rain of fire. Your pet can stand on it, it deals less damage than their melees.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 26.97,
+							"yCoord": 26.05,
+							"coordsMap": "Searing Gorge",
+							"comment": "Once you reach this other spot put your pet on stay a little further behind (near the slope) and read the next step",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 31.01,
+							"yCoord": 28.72,
+							"coordsMap": "Searing Gorge",
+							"comment": "Send your pet to attack the fireguard near the caged night elf. Pop sprint/dive and once the npcs are aggroed put it on passive so it runs back to the stay spot. Run past everything tho the marker on the map where there are no mobs",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Full HP on you and pet. Split pull the fireguard guarding the cage then kill it (pop CDs, use pots if needed etc)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Plan: locate one of the far away necromancers, send pet to nearby fireguard then into one of the Idolaters around the lave pit. Afterwards, send it to the far away geomancer, accept the quest, spam the gossip macro while talking the elf, turn in and accept next quest. Finally, get on top of the stone of the lava pit (on top, not on the borders or you will burn), loot the item, run back to the safe spot and feign death.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you were too slow while talking to the elf just do all the steps mentioned in 2-3 rounds of pet sacs. Skip to next step when done reading.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -51779,82 +52384,137 @@
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.73,
-							"yCoord": 26.34
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
 							"npcName": "Zamael Lunthistle",
 							"npcId": 8436,
+							"depth": 0,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"comment": "Spam the macro while talking to him /run SelectGossipOption(1)",
 									"depth": 1,
-									"isCustom": false,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "Zamael Story",
 									"questId": 3377,
-									"questName": "Prayer to Elune",
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.73,
-							"yCoord": 26.34
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
 							"npcName": "Zamael Lunthistle",
 							"npcId": 8436,
+							"depth": 0,
+							"type": "Talk to",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3378,
 									"questName": "Prayer to Elune",
+									"questId": 3377,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Prayer to Elune",
+									"questId": 3378,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 29.15,
+							"yCoord": 25.86,
+							"coordsMap": "Searing Gorge",
+							"comment": "Remember, on top of it or you will die to lava",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Mysterious Artifact",
+									"questId": 3372,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 25.75,
+							"yCoord": 36.55,
+							"coordsMap": "Searing Gorge",
+							"comment": "Now go kill any of the Shamans (easiest ones, it doesn't matter which) for the Prayer to Elune. 100% drop chance. You probably have the Symbol of Ragnaros too from killing the elites before. Just listing it in case",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Prayer to Elune",
+									"questId": 3378,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Symbol of Ragnaros",
+									"questId": 3452,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 38.99,
-							"yCoord": 38.69
+							"yCoord": 38.69,
+							"coordsMap": "Searing Gorge",
+							"comment": "The following accept/turn in sequence is stupid, don't question it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -51869,6 +52529,14 @@
 									"questName": "The Flame's Casing",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Torch of Retribution",
+									"questId": 3453,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -51894,12 +52562,21 @@
 							"npcId": 8479,
 							"subTasks": [
 								{
+									"comment": "Ask him to carft the torch and wait out the RP (takes a while, craft or kill things)",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3453,
-									"questName": "The Torch of Retribution",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"goalName": "Torch Creation",
+									"questId": 3453,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -51931,6 +52608,14 @@
 									"questName": "The Torch of Retribution",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Torch of Retribution",
+									"questId": 3454,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -51941,61 +52626,22 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 39.01,
-							"yCoord": 39.08
+							"yCoord": 39.1,
+							"coordsMap": "Searing Gorge",
+							"comment": "Interact with the torch to turn in the next part",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"questName": "The Torch of Retribution",
+							"questId": 3454,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kalaran Windblade",
-							"npcId": 8479,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3454,
-									"questName": "The Torch of Retribution",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
+							"type": "Turn in quest",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 39.01,
-							"yCoord": 39.1
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kalaran Windblade",
-							"npcId": 8479,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3454,
-									"questName": "The Torch of Retribution",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -52055,6 +52701,14 @@
 									"questName": "Squire Maltrake",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Set Them Ablaze!",
+									"questId": 3463,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -52062,48 +52716,296 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 33.32,
+							"yCoord": 53.47,
 							"coordsMap": "Searing Gorge",
+							"comment": "Be careful with the sentries, the yare elite and will kill you. When done killing all the things at the base equip the torch, put pet on stay far away, send it to pull the mobs in the tower then put on passive to drag them out.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 39.05,
-							"yCoord": 39.1
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 33.31,
+							"yCoord": 54.48,
+							"coordsMap": "Searing Gorge",
+							"comment": "Burn the brazier at the south western corner of the tower.",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 3463,
-							"questName": "Set Them Ablaze!",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Northern Tower Ablaze",
+									"questId": 3463,
+									"questObjectiveIndex": 4,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 35,
+							"yCoord": 42.7,
+							"coordsMap": "Searing Gorge",
+							"comment": "Drop down the pit like before and skip this step after",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 41.37,
+							"yCoord": 25.66,
 							"coordsMap": "Searing Gorge",
+							"comment": "Forget about killing Obsidion, just turn this in. Before they buffed his damage he could be split pulled and facetanked. No longer, and also, you can't kite him with traps on the stairs or around the room. The mobs will respawn and he starts flying while trying to path on the stairs, is not consistent and super easy to mess up once and die on a 5 minute fight.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 65.43,
-							"yCoord": 62.21
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"questName": "Release Them",
+							"questId": 3372,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 4451,
-							"questName": "The Key to Freedom",
+							"type": "Turn in quest",
 							"subTasks": [],
-							"type": "Turn in quest"
+							"isCustom": false
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.71,
+							"yCoord": 44.34,
+							"coordsMap": "Searing Gorge",
+							"comment": "Exit the pit through here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 41.44,
+							"yCoord": 54.14,
+							"coordsMap": "Searing Gorge",
+							"comment": "Then here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 37.32,
+							"yCoord": 58.01,
+							"coordsMap": "Searing Gorge",
+							"comment": "And finally run up the slope to end up at the next tower",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Hopefully the slavers quest gets fixed and there is something else to do while down there",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 35.66,
+							"yCoord": 59.79,
+							"coordsMap": "Searing Gorge",
+							"comment": "Same thing, kill the mobs at the base then pull the ones of top with the pet. Equip the torch before getting into combat and burn the tower",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 35.65,
+							"yCoord": 60.79,
+							"coordsMap": "Searing Gorge",
+							"comment": "Burn the brazier at the south western side of the tower",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Western Tower Ablaze",
+									"questId": 3463,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 44.02,
+							"yCoord": 60.99,
+							"coordsMap": "Searing Gorge",
+							"comment": "Nothing on this tower but a free chest :/ Brazier at the north eastern side",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Southern Tower Ablaze",
+									"questId": 3463,
+									"questObjectiveIndex": 2,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 52.74,
+							"yCoord": 58.41,
+							"coordsMap": "Searing Gorge",
+							"comment": "This is the hard one. Kill the mobs before the bridge and split pull the patrolling sentries. Face tank them with your pet, then get rid of the regular mobs",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 50.28,
+							"yCoord": 55.61,
+							"coordsMap": "Searing Gorge",
+							"comment": "2 more sentries on top of the twer, drag them out with your pet and send it to mobs away from the bridge.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 50.06,
+							"yCoord": 54.85,
+							"coordsMap": "Searing Gorge",
+							"comment": "Burn the brazier on the nort eastern side of the tower",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Eastern Tower Ablaze",
+									"questId": 3463,
+									"questObjectiveIndex": 3,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 65.43,
+							"yCoord": 62.21,
+							"coordsMap": "Searing Gorge",
+							"comment": "If you get the Outhouse key accept the quest",
+							"itemId": 11818,
+							"itemName": "Grimesilt Outhouse Key",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questId": 4451,
+									"questName": "The Key to Freedom",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Otherwise -5.5k XP :(",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 65.53,
+							"yCoord": 62.22,
+							"coordsMap": "Searing Gorge",
+							"comment": "Skip this if no key dropped",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "The Key to Freedom",
+							"questId": 4451,
+							"depth": 0,
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Thelsamar and fly to Thorium point afterwards or just ride to the quest turn in on the next step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -52140,61 +53042,30 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 38.65,
-							"yCoord": 38.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kalaran the Deceiver",
-							"npcId": 8480,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3481,
-									"questName": "Trinkets...",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
+							"yCoord": 38.9,
 							"coordsMap": "Searing Gorge",
+							"comment": "Interact with the chest twice. Be careful not to hit the dragon it s bugged and can kill you",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 38.65,
-							"yCoord": 39.13
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"questName": "Trinkets...",
+							"questId": 3481,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kalaran the Deceiver",
-							"npcId": 8480,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3481,
-									"questName": "Trinkets...",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "Trinkets...",
+							"questId": 3481,
+							"depth": 0,
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -52202,260 +53073,67 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 37.85,
+							"yCoord": 30.76,
 							"coordsMap": "Searing Gorge",
+							"comment": "Don't open the chest you just got yet. Make sure you have the quests 'A Little Slime Goes a Long Way' 'Arcane Runes' and the Standard Issue Flare in your bags. Fly to IF",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 41.37,
-							"yCoord": 25.66
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "If you are missing anything mentioned before grab those quests in Ironforge, if you killed Obsidion turn it in.",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Obsidion",
-							"npcId": 8400,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 76.77,
+							"yCoord": 51.09,
+							"coordsMap": "Ironforge",
+							"comment": "Grab the tram to SW",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 67.38,
+							"yCoord": 36.35,
+							"coordsMap": "Stormwind City",
+							"comment": "If already level 50 learn spells",
+							"depth": 0,
+							"type": "Go to",
 							"subTasks": [
 								{
+									"npcName": "Einris Brightspear",
+									"npcId": 5515,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3372,
-									"questName": "Release Them",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Searing Gorge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.33,
-							"yCoord": 25.38
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Dying Archaeologist",
-							"npcId": 8417,
-							"subTasks": [
+									"isCustom": false
+								},
 								{
+									"comment": "Also accept 'The hunter's charm quest'",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3566,
-									"questName": "Rise, Obsidion!",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 71.43,
-							"yCoord": 16.53
+							"isCustom": false
 						},
 						{
+							"xCoord": 70.92,
+							"yCoord": 72.68,
+							"coordsMap": "Stormwind City",
+							"comment": "Fly to Booty Bay",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 3566,
-							"questName": "Rise, Obsidion!",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 31.25,
-							"yCoord": 4.81
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tymor",
-							"npcId": 8507,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3449,
-									"questName": "Arcane Runes",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 31.25,
-							"yCoord": 4.81
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tymor",
-							"npcId": 8507,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3450,
-									"questName": "An Easy Pickup",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 71.27,
-							"yCoord": 94.21
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Xiggs Fuselighter",
-							"npcId": 8517,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3450,
-									"questName": "An Easy Pickup",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 71.27,
-							"yCoord": 94.21
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Xiggs Fuselighter",
-							"npcId": 8517,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3451,
-									"questName": "Signal for Pickup",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 71.27,
-							"yCoord": 94.21
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Xiggs Fuselighter",
-							"npcId": 8517,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3451,
-									"questName": "Signal for Pickup",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.79,
-							"yCoord": 47.67
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bubulo Acerbus",
-							"npcId": 14724,
-							"subTasks": [],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				}
@@ -52471,13 +53149,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 27.1,
-							"yCoord": 77.44
+							"yCoord": 77.44,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Lower inn floor",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -52497,6 +53176,30 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 27.05,
+							"yCoord": 77.35,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": ">>> Set HS <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Innkeeper Skindle",
+									"npcId": 6807,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -52524,13 +53227,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 28.35,
-							"yCoord": 76.29
+							"yCoord": 76.29,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Cash in that fat robo chicken XP if you finished all 3 of them (or whichever you managed to do)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -52545,68 +53249,38 @@
 									"questName": "Rescue OOX-17/TN!",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.35,
-							"yCoord": 76.29
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Oglethorpe Obnoticus",
-							"npcId": 7406,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 836,
 									"questName": "Rescue OOX-09/HL!",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.35,
-							"yCoord": 76.3
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Oglethorpe Obnoticus",
-							"npcId": 7406,
-							"subTasks": [
-								{
+									"questId": 836,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 2767,
-									"questName": "Rescue OOX-22/FE!",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Rescue OOX-22/FE!",
+									"questId": 2767,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 3721,
+									"questName": "An OOX of Your Own",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "An OOX of Your Own",
+									"questId": 3721,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -52614,26 +53288,34 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 26.59,
+							"yCoord": 76.55,
 							"coordsMap": "Stranglethorn Vale",
+							"comment": "Bank in the contents of the chest you got in Searing gorge, the drawing kit, the 2 slime jars and the flare. We will get them back in Ratchet after blasted lands",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 28.35,
-							"yCoord": 76.3
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Oglethorpe Obnoticus",
-							"npcId": 7406,
 							"subTasks": [],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 27.53,
+							"yCoord": 77.76,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Fly to Blasted Lands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],

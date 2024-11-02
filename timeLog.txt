@@ -129,7 +129,11 @@
 
 	4.5h: Detailed 15/24 sections
 	
+02/11/2024
+
+	6h: Detailed 16/24 sections
+	
 ------------
 Total:
 
-	95h
+	101h
