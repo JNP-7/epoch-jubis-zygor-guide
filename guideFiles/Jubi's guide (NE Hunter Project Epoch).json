@@ -44325,7 +44325,7 @@
 							"xCoord": 30.97,
 							"yCoord": 43.42,
 							"coordsMap": "Feralas",
-							"comment": ">>> Set HS <<< If you are up for some grinding buy 2 stacks of level 45 water",
+							"comment": ">>> Set HS <<< Buy 2 stacks of level 45 water",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -44773,14 +44773,14 @@
 							"isCustom": false
 						},
 						{
-							"comment": "To put into perspective why this is good XP. With the XP buff from warmode and a Hunter killing mobs at a good pace you can reach >60k xp/hr by killing mobs running in circles",
+							"comment": "With the XP buff from warmode and a Hunter killing mobs at a good pace you can reach >60k xp/hr by killing mobs running in circles",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "That's on close to being on par with world record holder mages in classic WoW, which set those records by grinding pirates in Tanaris with 0 competition and no AoE cap (>10 mob pulls...))",
+							"comment": "It's not mage solo AoE farming WR XP, but it certainly fills the gap untill HS CD comes back, especially considering AoE is capped on this server",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -52946,7 +52946,7 @@
 							"xCoord": 65.43,
 							"yCoord": 62.21,
 							"coordsMap": "Searing Gorge",
-							"comment": "If you get the Outhouse key accept the quest",
+							"comment": "If you got the Outhouse key accept the quest",
 							"itemId": 11818,
 							"itemName": "Grimesilt Outhouse Key",
 							"depth": 0,
@@ -52998,7 +52998,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "HS back to Thelsamar and fly to Thorium point afterwards or just ride to the quest turn in on the next step",
+							"comment": "HS back to Thelsamar and fly to Thorium point afterwards or just ride to the quest turn in on the next step if it's on CD",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -53070,66 +53070,37 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 38.67,
+							"yCoord": 28.69,
+							"coordsMap": "Searing Gorge",
+							"comment": ">>> Full quiver <<< no ammo vendor in Blasted Lands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Master Smith Burninate",
+									"npcId": 14624,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
 							"xCoord": 37.85,
 							"yCoord": 30.76,
 							"coordsMap": "Searing Gorge",
-							"comment": "Don't open the chest you just got yet. Make sure you have the quests 'A Little Slime Goes a Long Way' 'Arcane Runes' and the Standard Issue Flare in your bags. Fly to IF",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "If you are missing anything mentioned before grab those quests in Ironforge, if you killed Obsidion turn it in.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"xCoord": 76.77,
-							"yCoord": 51.09,
-							"coordsMap": "Ironforge",
-							"comment": "Grab the tram to SW",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"xCoord": 67.38,
-							"yCoord": 36.35,
-							"coordsMap": "Stormwind City",
-							"comment": "If already level 50 learn spells",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"npcName": "Einris Brightspear",
-									"npcId": 5515,
-									"depth": 1,
-									"type": "Talk to",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"comment": "Also accept 'The hunter's charm quest'",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						},
-						{
-							"xCoord": 70.92,
-							"yCoord": 72.68,
-							"coordsMap": "Stormwind City",
-							"comment": "Fly to Booty Bay",
+							"comment": "Don't open the chest you just got yet. Fly to The Harborage (Swamp of Sorrows) or, if the FP is still bugged, fly to Darkshire",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -53145,6 +53116,1207 @@
 		{
 			"sectionName": "Blasted lands (49-50)",
 			"sectionSteps": [
+				{
+					"stepTasks": [
+						{
+							"comment": ">>> Set HS <<< Either in The Harborage's inn or Darkshire's if the first's FP didn't work",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Then fly to Blasted Lands",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Blasted Lands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 66.42,
+							"yCoord": 21.25
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Quartermaster Lungertz",
+							"npcId": 5393,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27646,
+									"questName": "Feeding the Troops",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 67.48,
+							"yCoord": 19.26,
+							"coordsMap": "Blasted Lands",
+							"comment": "Tower upper floor",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Ambassador Ardalan",
+							"npcId": 7826,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 2783,
+									"questName": "Petty Squabbles",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Blasted Lands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 67.59,
+							"yCoord": 19.25
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Watcher Mahar Ba",
+							"npcId": 5385,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27661,
+									"questName": "Gathering Intelligence",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 67.02,
+							"yCoord": 19.4,
+							"coordsMap": "Blasted Lands",
+							"comment": "Skip follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Thadius Grimshade",
+							"npcId": 8022,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 2990,
+									"questName": "Thadius Grimshade",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 34.15,
+							"yCoord": 66.13,
+							"coordsMap": "Swamp of Sorrows",
+							"comment": "Turn in -> Accept -> Listen to his story -> Turn in -> Skip follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Fallen Hero of the Horde",
+							"npcId": 7572,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 2783,
+									"questName": "Petty Squabbles",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Tale of Sorrow",
+									"questId": 2801,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Spam the gossip macro",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "A Tale of Sorrow",
+									"questId": 2801,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Blasted Lands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 50.56,
+							"yCoord": 14.14
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Bloodmage Drazial",
+							"npcId": 7505,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 2581,
+									"questName": "Snickerfang Jowls",
+									"subTasks": [],
+									"type": "Accept quest"
+								},
+								{
+									"questName": "The Decisive Striker",
+									"questId": 2585,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "A Boar's Vitality",
+									"questId": 2583,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Blasted Lands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 50.61,
+							"yCoord": 14.3
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Bloodmage Lynnore",
+							"npcId": 7506,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 2601,
+									"questName": "The Basilisk's Bite",
+									"subTasks": [],
+									"type": "Accept quest"
+								},
+								{
+									"questName": "Vulture's Vigor",
+									"questId": 2603,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 44.84,
+							"yCoord": 24.65,
+							"coordsMap": "Blasted Lands",
+							"comment": "Start murdering the wild life, especially the vultures and the basilisks. Loop around the mountain counter clockwise.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "No quest progression tasks, full list of parts (will show later)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "14x Vulture Gizzard",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "11x Basilisk Brain",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "6x Blasted Boar Lung",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "6x Scorpok Pincer",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "5x Snickerfang Jowl",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.62,
+							"yCoord": 27.85,
+							"coordsMap": "Blasted Lands",
+							"comment": "Go here after looping around the mountain. Now prioritize the boards to get the 10 meats",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "You might have noticed a broken draenei on the you way with 2 quests. IF you ever get some Draenethist give them to him for some extra XP and items",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.78,
+							"yCoord": 32.76,
+							"coordsMap": "Blasted Lands",
+							"comment": "Go south looping clockwise around the mountain untill you reach the cultists. Keep kiling cultiststs and Ashmane boars (don't bother with Hellboars) to finish their quests by going to the beach and back and killing the respawns.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Keep killing as many vultures and basilisks as you can to progress those 2",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Bundle of Cultist Writings",
+							"questId": 27661,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 12,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"itemName": "Sulfurous Meat",
+							"questId": 27646,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Ashmane Boar",
+									"npcId": 5992
+								}
+							],
+							"count": 10,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 66.47,
+							"yCoord": 21.38,
+							"coordsMap": "Blasted Lands",
+							"comment": "Back to town, keep killing whichever animal you may still need (look for vultures on the road of the middle of the zone)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Quartermaster Lungertz",
+							"npcId": 5393,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27646,
+									"questName": "Feeding the Troops",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Alchemy is the Answer",
+									"questId": 27647,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 67.57,
+							"yCoord": 19.16,
+							"coordsMap": "Blasted Lands",
+							"comment": "This quest unlock other Felstone related quests, but skip the follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Watcher Mahar Ba",
+							"npcId": 5385,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27661,
+									"questName": "Gathering Intelligence",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Blasted Lands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 66.9,
+							"yCoord": 18.37
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Nina Lightbrew",
+							"npcId": 8178,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27647,
+									"questName": "Alchemy is the Answer",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Clay Cleanse",
+									"questId": 27648,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 67.02,
+							"yCoord": 19.4,
+							"coordsMap": "Blasted Lands",
+							"comment": "New quest unlocked",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Thadius Grimshade",
+							"npcId": 8022,
+							"subTasks": [
+								{
+									"questId": 27673,
+									"questName": "An Unlikely Ally",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.58,
+							"yCoord": 20.33,
+							"coordsMap": "Blasted Lands",
+							"comment": "New unlocked quest. At the keep's entrance",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Hildar Thunderbrew",
+							"npcId": 46705,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 27665,
+									"questName": "Parched and Parcel",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.15,
+							"yCoord": 35.99,
+							"coordsMap": "Blasted Lands",
+							"comment": "Kill vultures around the main road then go east to the beach again",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 71.53,
+							"yCoord": 37.99,
+							"coordsMap": "Blasted Lands",
+							"comment": "Gather clay and kill any wildlife that you might still need at the beach. Skip step when you reach this spot",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 73.14,
+							"yCoord": 34.38,
+							"coordsMap": "Blasted Lands",
+							"comment": "Go inside the Horde camp. No, they don't bite, they simply smell (it's the talking rotten corpse you have to talk to)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Izalnir",
+							"npcId": 46632,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "An Unlikely Ally",
+									"questId": 27673,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 27674,
+									"questName": "The Best of the Worst",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Finish gathering clay around the beach",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Red Clay",
+									"questId": 27648,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 7,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Did you see the tree trunk just outside of the horde camp as you left to your right? We are going to kill an elite there soon",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 66.99,
+							"yCoord": 43.83,
+							"coordsMap": "Blasted Lands",
+							"comment": "The elite is a female human stealthed inside the hut of this camp. You can see her from the outside but can't pull her (no LoS). Clear the 3 mobs at the front door then skip this step",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 71.32,
+							"yCoord": 36.06,
+							"coordsMap": "Blasted Lands",
+							"comment": "Growl off, cower on, pull with pet then take agro. Kite her to the tree trunk and run circles around it with a frost trap. Don't let her get close, she uses kidney shot",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Lydia Cartwright",
+									"npcId": 46640,
+									"count": 1,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 73.14,
+							"yCoord": 34.38,
+							"coordsMap": "Blasted Lands",
+							"comment": "Fine AF gloves. Ignore follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Izalnir",
+							"npcId": 46632,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Best of the Worst",
+									"questId": 27674,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 75,
+							"yCoord": 41.15,
+							"coordsMap": "Blasted Lands",
+							"comment": "Backdoor to the fortress' docks",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 75.13,
+							"yCoord": 51.26,
+							"coordsMap": "Blasted Lands",
+							"comment": "Go here, near the bonfire and place a freezing trap. Then put your pet in stay and pasive further to the south and wait for your trap CD. You are going to pull the entire bridge to get into the ship",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step and read the next to know how to get there",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Pull the brute near the bonfire into the trap. If it resists, place another one or FD and try again.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Target the nearest mob to the ship and command your pet to attack it and follow behind it. As soon as it starts getting hit, use dive/sprint. As soon as the last mob is aggroed put your pet in pasive so it runs back",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "When running past the mobs, disengage while facing away from the ship to get closer. Then, once your pet dies/despawns, FD in the eastern side of the ship. You should be clear except from a single patrol that comes and goes, just hide from it.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip to next step for quests turn ins",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 76.35,
+							"yCoord": 49.28,
+							"coordsMap": "Blasted Lands",
+							"comment": "Turn the quest in the male goblin. Ignore the follow ups and talk to the female goblin for her quest, that's the important one (doesn't unlock untill turning the first one)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Grox Muckswagger",
+							"npcId": 46631,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 27665,
+									"questName": "Parched and Parcel",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						},
+						{
+							"npcName": "Kibi Muckswagger",
+							"npcId": 46641,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 27669,
+									"questName": "Sunken Treasure",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 82.7,
+							"yCoord": 35.64,
+							"coordsMap": "Blasted Lands",
+							"comment": "Go to the sunken ship at the marker and drink your 4th water breathing elixir. Check inside the ship with eagle eye for the treasure. It's usually in this ship, but by the wording of the quest's text it could be in any of the other sunken ships",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"coordsMap": "Blasted Lands",
+							"xCoord": 81.69,
+							"yCoord": 38.36,
+							"comment": "Trap the first drowned sailor (if resist, get away, FD and reset). Send your pet with intimidate to the 2nd one and open the chest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Sunken Treasure",
+									"questId": 27669,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Sac pet to get away then FD",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 76.35,
+							"yCoord": 49.28,
+							"coordsMap": "Blasted Lands",
+							"comment": "Same method of pulling the bridge with your pet as before",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": ">>> MAKE SURE YOU PICK THE COMPASS AS A REWARD <<<",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Kibi Muckswagger",
+							"npcId": 46641,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Sunken Treasure",
+									"questId": 27669,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Blasted Lands",
+							"xCoord": 75,
+							"yCoord": 41.15,
+							"comment": "Back to mainland, back to extinguishing the wildlife while making your way north were the elves are",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Full list of parts, finish now",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "14x Vulture Gizzard",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "11x Basilisk Brain",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "6x Blasted Boar Lung",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "6x Scorpok Pincer",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "5x Snickerfang Jowl",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Blasted Lands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 50.67,
+							"yCoord": 14.21
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Bloodmage Drazial",
+							"npcId": 7505,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 2583,
+									"questName": "A Boar's Vitality",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Decisive Striker",
+									"questId": 2585,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Snickerfang Jowls",
+									"questId": 2581,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Blasted Lands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 50.62,
+							"yCoord": 14.21
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Bloodmage Lynnore",
+							"npcId": 7506,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 2601,
+									"questName": "The Basilisk's Bite",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Vulture's Vigor",
+									"questId": 2603,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 66.86,
+							"yCoord": 18.31,
+							"coordsMap": "Blasted Lands",
+							"comment": "Use the consumables as you see fit. But remember two things: 1. you have them stacked now due to the turn ins, but you can't stack the ones from the consumables. 2. Save the inellinge one for later when you are Un'Goro, need to engage in the very interesting system of leveling up weapon skills in 2025",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Nina Lightbrew",
+							"npcId": 8178,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27648,
+									"questName": "The Clay Cleanse",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Ready for Distribution",
+									"questId": 27649,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Blasted Lands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 66.51,
+							"yCoord": 21.26
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Quartermaster Lungertz",
+							"npcId": 5393,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27649,
+									"questName": "Ready for Distribution",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 65.52,
+							"yCoord": 24.36,
+							"coordsMap": "Blasted Lands",
+							"comment": "Fly to Booty Bay",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "TODO: Azshara was reworked after beta 3. There is a case here for going back to SW here or setting HS there after Searing Gorge to go and accept The Hunter's Charm quest and learning skills before heading to Booty Bay -> Azshara",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "Need further testing",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
@@ -53178,30 +54350,6 @@
 					]
 				},
 				{
-					"stepTasks": [
-						{
-							"xCoord": 27.05,
-							"yCoord": 77.35,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": ">>> Set HS <<<",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"npcName": "Innkeeper Skindle",
-									"npcId": 6807,
-									"depth": 1,
-									"type": "Talk to",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -53214,12 +54362,21 @@
 							"yCoord": 77.11
 						},
 						{
+							"npcName": "\"Sea Wolf\" MacKinley",
+							"npcId": 2501,
 							"depth": 0,
-							"isCustom": false,
-							"questId": 2874,
-							"questName": "Deliver to MacKinley",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Deliver to MacKinley",
+									"questId": 2874,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -53230,7 +54387,7 @@
 							"xCoord": 28.35,
 							"yCoord": 76.29,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "Cash in that fat robo chicken XP if you finished all 3 of them (or whichever you managed to do)",
+							"comment": "Cash in that fat robochicken XP if you finished all 3 of them (or whichever you managed to do)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -53290,10 +54447,10 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 26.59,
-							"yCoord": 76.55,
+							"xCoord": 25.89,
+							"yCoord": 73.14,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "Bank in the contents of the chest you got in Searing gorge, the drawing kit, the 2 slime jars and the flare. We will get them back in Ratchet after blasted lands",
+							"comment": "Boat to Ratchet",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -53301,1035 +54458,6 @@
 						}
 					],
 					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 27.53,
-							"yCoord": 77.76,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Fly to Blasted Lands",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.42,
-							"yCoord": 21.25
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Quartermaster Lungertz",
-							"npcId": 5393,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27646,
-									"questName": "Feeding the Troops",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.48,
-							"yCoord": 19.26
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Ambassador Ardalan",
-							"npcId": 7826,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2783,
-									"questName": "Petty Squabbles",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.59,
-							"yCoord": 19.25
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watcher Mahar Ba",
-							"npcId": 5385,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27661,
-									"questName": "Gathering Intelligence",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.02,
-							"yCoord": 19.4
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Thadius Grimshade",
-							"npcId": 8022,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2990,
-									"questName": "Thadius Grimshade",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Swamp of Sorrows",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 34.15,
-							"yCoord": 66.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Fallen Hero of the Horde",
-							"npcId": 7572,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2783,
-									"questName": "Petty Squabbles",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Swamp of Sorrows",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 34.15,
-							"yCoord": 66.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Fallen Hero of the Horde",
-							"npcId": 7572,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2801,
-									"questName": "A Tale of Sorrow",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Swamp of Sorrows",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 34.2,
-							"yCoord": 66.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Fallen Hero of the Horde",
-							"npcId": 7572,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2801,
-									"questName": "A Tale of Sorrow",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.56,
-							"yCoord": 14.14
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodmage Drazial",
-							"npcId": 7505,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2585,
-									"questName": "The Decisive Striker",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.56,
-							"yCoord": 14.14
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 2583,
-							"questName": "A Boar's Vitality",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.56,
-							"yCoord": 14.14
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodmage Drazial",
-							"npcId": 7505,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2581,
-									"questName": "Snickerfang Jowls",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.61,
-							"yCoord": 14.3
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodmage Lynnore",
-							"npcId": 7506,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2603,
-									"questName": "Vulture's Vigor",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.61,
-							"yCoord": 14.3
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodmage Lynnore",
-							"npcId": 7506,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2601,
-									"questName": "The Basilisk's Bite",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.9,
-							"yCoord": 35.69
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kum'isha the Collector",
-							"npcId": 7363,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3501,
-									"questName": "Everything Counts In Large Amounts",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.9,
-							"yCoord": 35.69
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kum'isha the Collector",
-							"npcId": 7363,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3501,
-									"questName": "Everything Counts In Large Amounts",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.97,
-							"yCoord": 35.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kum'isha the Collector",
-							"npcId": 7363,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3502,
-									"questName": "One Draenei's Junk...",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.97,
-							"yCoord": 35.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kum'isha the Collector",
-							"npcId": 7363,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3502,
-									"questName": "One Draenei's Junk...",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.97,
-							"yCoord": 35.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kum'isha the Collector",
-							"npcId": 7363,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3502,
-									"questName": "One Draenei's Junk...",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.97,
-							"yCoord": 35.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kum'isha the Collector",
-							"npcId": 7363,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3502,
-									"questName": "One Draenei's Junk...",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.57,
-							"yCoord": 19.16
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watcher Mahar Ba",
-							"npcId": 5385,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27661,
-									"questName": "Gathering Intelligence",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.47,
-							"yCoord": 21.38
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Quartermaster Lungertz",
-							"npcId": 5393,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27646,
-									"questName": "Feeding the Troops",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.47,
-							"yCoord": 21.38
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Quartermaster Lungertz",
-							"npcId": 5393,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27647,
-									"questName": "Alchemy is the Answer",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.9,
-							"yCoord": 18.37
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Nina Lightbrew",
-							"npcId": 8178,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27647,
-									"questName": "Alchemy is the Answer",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.9,
-							"yCoord": 18.37
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Nina Lightbrew",
-							"npcId": 8178,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27648,
-									"questName": "The Clay Cleanse",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.67,
-							"yCoord": 14.21
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodmage Drazial",
-							"npcId": 7505,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2583,
-									"questName": "A Boar's Vitality",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.65,
-							"yCoord": 14.21
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodmage Drazial",
-							"npcId": 7505,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2585,
-									"questName": "The Decisive Striker",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.62,
-							"yCoord": 14.21
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodmage Drazial",
-							"npcId": 7505,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2581,
-									"questName": "Snickerfang Jowls",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.62,
-							"yCoord": 14.21
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodmage Lynnore",
-							"npcId": 7506,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2601,
-									"questName": "The Basilisk's Bite",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.94,
-							"yCoord": 35.53
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kum'isha the Collector",
-							"npcId": 7363,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3502,
-									"questName": "One Draenei's Junk...",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.94,
-							"yCoord": 35.53
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kum'isha the Collector",
-							"npcId": 7363,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3502,
-									"questName": "One Draenei's Junk...",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.59,
-							"yCoord": 14.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Bloodmage Lynnore",
-							"npcId": 7506,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2603,
-									"questName": "Vulture's Vigor",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.86,
-							"yCoord": 18.31
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Nina Lightbrew",
-							"npcId": 8178,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27648,
-									"questName": "The Clay Cleanse",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.86,
-							"yCoord": 18.31
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Nina Lightbrew",
-							"npcId": 8178,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27649,
-									"questName": "Ready for Distribution",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Blasted Lands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 66.51,
-							"yCoord": 21.26
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Quartermaster Lungertz",
-							"npcId": 5393,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27649,
-									"questName": "Ready for Distribution",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
 				}
 			],
 			"nextSectionVal": 17,
@@ -54339,6 +54467,18 @@
 		{
 			"sectionName": "Azshara & Felwood Pt.1 (50-52)",
 			"sectionSteps": [
+				{
+					"stepTasks": [
+						{
+							"comment": "TODO: Store unneeded quest items in bank",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
