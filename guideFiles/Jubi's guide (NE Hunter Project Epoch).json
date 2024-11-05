@@ -53100,7 +53100,7 @@
 							"xCoord": 37.85,
 							"yCoord": 30.76,
 							"coordsMap": "Searing Gorge",
-							"comment": "Don't open the chest you just got yet. Fly to The Harborage (Swamp of Sorrows) or, if the FP is still bugged, fly to Darkshire",
+							"comment": "Don't open the chest you just got yet. Fly to Stormwind",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -53119,16 +53119,51 @@
 				{
 					"stepTasks": [
 						{
-							"comment": ">>> Set HS <<< Either in The Harborage's inn or Darkshire's if the first's FP didn't work",
+							"xCoord": 60.47,
+							"yCoord": 75.19,
+							"coordsMap": "Stormwind City",
+							"comment": ">>> Set HS <<< And accept the quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "TODO: Testing things out because Azshara is reworked, I want \"The Hunter's Charm quest\", but I need to be level 50",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "Then fly to Blasted Lands",
+							"npcName": "Innkeeper Allison",
+							"npcId": 6740,
 							"depth": 0,
-							"type": "Comment",
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 3789,
+									"questName": "Assisting Arch Druid Staghelm",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 70.96,
+							"yCoord": 72.57,
+							"coordsMap": "Stormwind City",
+							"comment": "Fly to Blasted Lands",
+							"depth": 0,
+							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						}
@@ -54290,28 +54325,80 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 65.52,
-							"yCoord": 24.36,
-							"coordsMap": "Blasted Lands",
-							"comment": "Fly to Booty Bay",
+							"comment": "HS back to SW",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.6,
+							"yCoord": 35.98,
+							"coordsMap": "Stormwind City",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "TODO: Azshara was reworked after beta 3. There is a case here for going back to SW here or setting HS there after Searing Gorge to go and accept The Hunter's Charm quest and learning skills before heading to Booty Bay -> Azshara",
+							"npcName": "Ulfir Ironbeard",
+							"npcId": 5516,
 							"depth": 0,
-							"type": "Comment",
+							"type": "Talk to",
 							"subTasks": [
 								{
-									"comment": "Need further testing",
+									"questId": 8151,
+									"questName": "The Hunter's Charm",
 									"depth": 1,
-									"type": "Comment",
+									"type": "Accept quest",
 									"subTasks": [],
 									"isCustom": false
 								}
 							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 0,
+							"yCoord": 0,
+							"coordsMap": "Current map",
+							"comment": "Learn level 50 spells",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Einris Brightspear",
+									"npcId": 5515,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 70.96,
+							"yCoord": 72.57,
+							"coordsMap": "Stormwind City",
+							"comment": "Fly to Booty Bay",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -54468,18 +54555,6 @@
 			"sectionName": "Azshara & Felwood Pt.1 (50-52)",
 			"sectionSteps": [
 				{
-					"stepTasks": [
-						{
-							"comment": "TODO: Store unneeded quest items in bank",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -54511,35 +54586,87 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Azshara",
+							"xCoord": 62.05,
+							"yCoord": 39.39,
+							"coordsMap": "The Barrens",
+							"comment": ">>> Set HS <<<",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 12.06,
-							"yCoord": 78.26
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captain Ashyla",
-							"npcId": 46173,
 							"subTasks": [
 								{
+									"npcName": "Innkeeper Wiley",
+									"npcId": 6791,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27251,
-									"questName": "Descendants of Exiles",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.88,
+							"yCoord": 0.09,
+							"coordsMap": "The Barrens",
+							"comment": "Mount to Orgrimmar's backdoor (careful with the guards) the ride to Azshara's border",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 91.53,
+							"yCoord": 50.51,
+							"coordsMap": "Ashenvale",
+							"comment": "Have to loop around here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 95.31,
+							"yCoord": 48.36,
+							"coordsMap": "Ashenvale",
+							"comment": "Go to Azshara and skip to next step",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 11.89,
+							"yCoord": 77.57,
+							"coordsMap": "Azshara",
+							"comment": "Get Azshara's FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Jarrodenus",
+									"npcId": 12577,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -54566,6 +54693,14 @@
 									"questName": "Spiritual Unrest",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "A Land Filled with Hatred",
+									"questId": 5536,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -54573,28 +54708,53 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 11.99,
+							"yCoord": 78.33,
+							"coordsMap": "Azshara",
+							"comment": ">>> Fill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Brinna Valanaar",
+									"npcId": 14301,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 12.06,
+							"yCoord": 78.26,
 							"coordsMap": "Azshara",
+							"comment": "Accept just to check how good the reworked Azshara is/where the other quests take you",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 11.42,
-							"yCoord": 78.12
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Loh'atu",
-							"npcId": 11548,
+							"isCustom": true,
+							"npcName": "Captain Ashyla",
+							"npcId": 46173,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5536,
-									"questName": "A Land Filled with Hatred",
+									"isCustom": true,
+									"questId": 27251,
+									"questName": "Descendants of Exiles",
 									"subTasks": [],
 									"type": "Accept quest"
 								}
@@ -54604,16 +54764,152 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 13.79,
+							"yCoord": 72.29,
+							"coordsMap": "Azshara",
+							"comment": "Go here  and kill the ghosts",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 17.57,
+							"yCoord": 68.6,
+							"coordsMap": "Azshara",
+							"comment": "Then go down here and finish the quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Highborne Apparition",
+							"npcId": 6116,
+							"count": 6,
+							"questId": 5535,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Highborne Lichling",
+							"npcId": 6117,
+							"count": 6,
+							"questId": 5535,
+							"questObjectiveIndex": 2,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 20.66,
+							"yCoord": 61.02,
+							"coordsMap": "Azshara",
+							"comment": "Now here and finish the Satyrs' quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Haldarr Satyr",
+									"npcId": 6125,
+									"count": 6,
+									"questId": 5536,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Haldarr Trickster",
+									"npcId": 6126,
+									"count": 2,
+									"questId": 5536,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Haldarr Felsworn",
+									"npcId": 6127,
+									"count": 2,
+									"questId": 5536,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 42.39,
+							"yCoord": 42.67,
+							"coordsMap": "Azshara",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Ogtinc",
+							"npcId": 8405,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Hunter's Charm",
+									"questId": 8151,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 8153,
+									"questName": "Courser Antlers",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 53.5,
-							"yCoord": 21.75
+							"yCoord": 21.75,
+							"coordsMap": "Azshara",
+							"comment": "Kill any antler you see on your way to the globin for the 2 perfect antlers. No need to finish now.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -54633,6 +54929,110 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.22,
+							"yCoord": 13.98,
+							"coordsMap": "Azshara",
+							"comment": "TODO: Go check what the Furbolgs doin. They have added quests here after beta 3",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Guide proceeds as if nothing was added :(",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.28,
+							"yCoord": 26.42,
+							"coordsMap": "Azshara",
+							"comment": "Go to the BElf camp. Empty the chests with the quest items completly so they respawn",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Kim'Jael's Compass",
+									"questId": 3601,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Kim'Jael's Scope",
+									"questId": 3601,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Kim'Jael's Stuffed Chicken",
+									"questId": 3601,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Kim'Jael's Wizzlegoober",
+									"questId": 3601,
+									"questObjectiveIndex": 4,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Blood Elf Reclaimer",
+									"npcId": 6199,
+									"count": 10,
+									"questId": 27251,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Blood Elf Surveyor",
+									"npcId": 6198,
+									"count": 10,
+									"questId": 27251,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -54659,6 +55059,22 @@
 									"questName": "Kim'jael Indeed!",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questId": 5534,
+									"questName": "Kim'jael's \"Missing\" Equipment",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "TODO: Not worth it if no additional furbolg quests",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -54666,26 +55082,136 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": "Finish killing the antlers around the mound while moving southwest towards [42,42]",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Perfect Courser Antler",
+									"questId": 8153,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Mosshoof Courser",
+											"npcId": 8761
+										}
+									],
+									"count": 2,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 42.39,
+							"yCoord": 42.67,
 							"coordsMap": "Azshara",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 53.42,
-							"yCoord": 21.83
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Ogtinc",
+							"npcId": 8405,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kim'jael",
-							"npcId": 8420,
-							"subTasks": [],
-							"type": "Talk to"
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Courser Antlers",
+									"questId": 8153,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 8231,
+									"questName": "Wavethrashing",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "TODO: This might or might not be worth it depending on what quests the furbolgs give. If not doing, delete when leaving for Felwood",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 40.35,
+							"yCoord": 43.07,
+							"coordsMap": "Azshara",
+							"comment": "Jump down here to get into the Naga area. Kill a few of them to get the rune",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "TODO: If furbolg quests are bad just skip this and go straight to get the gnome's runes",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Some Rune",
+							"questId": 5534,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [
+								{
+									"comment": "Any Naga",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.06,
+							"yCoord": 38.9,
+							"coordsMap": "Azshara",
+							"comment": "Go here to get back to the upper area. Skip to next step",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -54704,10 +55230,184 @@
 							"isCustom": false,
 							"npcName": "Kim'jael",
 							"npcId": 8420,
-							"subTasks": [],
+							"subTasks": [
+								{
+									"questName": "Kim'jael's \"Missing\" Equipment",
+									"questId": 5534,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 40.42,
+							"yCoord": 43.1,
+							"coordsMap": "Azshara",
+							"comment": "Back to the Nagas' area. Skip to next step",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 39.52,
+							"yCoord": 50.14,
+							"coordsMap": "Azshara",
+							"comment": "One",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Rubbing: Rune of Jin'yael",
+									"questId": 3449,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 36.94,
+							"yCoord": 53.05,
+							"coordsMap": "Azshara",
+							"comment": "Two",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Rubbing: Rune of Beth'Amara",
+									"questId": 3449,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 39.31,
+							"yCoord": 55.44,
+							"coordsMap": "Azshara",
+							"comment": "Three",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Rubbing: Rune of Markri",
+									"questId": 3449,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 42.36,
+							"yCoord": 64.04,
+							"coordsMap": "Azshara",
+							"comment": "Four",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Rubbing: Rune of Sael'hai",
+									"questId": 3449,
+									"questObjectiveIndex": 4,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 43.75,
+							"yCoord": 65.73,
+							"coordsMap": "Azshara",
+							"comment": "Leave Naga area through here (turn right in crossroad)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip to next step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 44.52,
+							"yCoord": 86.42,
+							"coordsMap": "Azshara",
+							"comment": "Enter the reworked gnome town here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "TODO: Might have changed. Search the town's vendors for one that sells supplies (a quest later). In beta 3, however, none of them sold any",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "TODO: Continue here",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
