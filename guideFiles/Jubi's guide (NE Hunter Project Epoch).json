@@ -55398,28 +55398,17 @@
 					"onlyForClasses": []
 				},
 				{
-					"stepTasks": [
-						{
-							"comment": "TODO: Continue here",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 53.03,
-							"yCoord": 87.77
+							"yCoord": 87.77,
+							"coordsMap": "Azshara",
+							"comment": "Jump into the water and swim to the beach to the east",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -55439,6 +55428,28 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Prioritize the casters (Witches) in the waves.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"goalName": "Protect Captain Vanessa Beltis from the naga attack",
+							"questId": 3382,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -55491,7 +55502,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27264,
 									"questName": "Thieves!",
 									"subTasks": [],
@@ -55522,7 +55533,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27265,
 									"questName": "Just To Be Safe",
 									"subTasks": [],
@@ -55547,13 +55558,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Doctor Teltin",
 							"npcId": 46196,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27266,
 									"questName": "On the Brink",
 									"subTasks": [],
@@ -55563,6 +55574,87 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.71,
+							"yCoord": 91.8,
+							"coordsMap": "Azshara",
+							"comment": "Swim to the Naga camp. The female Naga at the shrine has the item for one of the quests. Extremely buggy area during the betas. Have to summon pet on top of enemies like in SoS",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Spitelash Raider",
+									"npcId": 46190,
+									"count": 10,
+									"questId": 27265,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Spitelash Witch",
+									"npcId": 46191,
+									"count": 5,
+									"questId": 27265,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Alexandra's Text",
+									"questId": 27264,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Ashylza",
+											"npcId": 46195
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.21,
+							"yCoord": 99.99,
+							"coordsMap": "Azshara",
+							"comment": "Out of the map. You will find the supplies around this area",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Medical Supply Crate",
+									"questId": 27266,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 3,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -55584,7 +55676,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27265,
 									"questName": "Just To Be Safe",
 									"subTasks": [],
@@ -55609,13 +55701,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Doctor Teltin",
 							"npcId": 46196,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27266,
 									"questName": "On the Brink",
 									"subTasks": [],
@@ -55646,7 +55738,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27264,
 									"questName": "Thieves!",
 									"subTasks": [],
@@ -55671,13 +55763,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Captain Vanessa Beltis",
 							"npcId": 8380,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27267,
 									"questName": "The Horizon Scout",
 									"subTasks": [],
@@ -55692,13 +55784,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 49.21,
+							"yCoord": 99.99,
 							"coordsMap": "Azshara",
+							"comment": "Back where you found the Medical supplies. No coordinates for this part as it is outside of the map",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 0,
-							"yCoord": 0
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -55708,42 +55801,27 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27267,
 									"questName": "The Horizon Scout",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 0,
-							"yCoord": 0
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Second Mate Shandril",
-							"npcId": 8478,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27268,
 									"questName": "The Horizon Scout",
+									"questId": 27268,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"questName": "Trying, But Not That Hard",
+									"questId": 27269,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -55751,48 +55829,75 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Azshara",
+							"comment": "Go further south, where most of the debris is and drink your last Elixir of Water Breathing",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 0,
-							"yCoord": 0
+							"isCustom": false
 						},
 						{
+							"comment": "Inside the ship fight the gnome and locate the 3 drowned crew (\"talk\" to the corpses) members. Oddly enough, all these NPCs, the ships and the debris is there in the actual game, it's just that they do nothing.",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Second Mate Shandril",
-							"npcId": 8478,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"goalName": "First Mate Jen Located",
+							"questId": 27268,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"goalName": "Engineer Thompson Located",
+							"questId": 27268,
+							"questObjectiveIndex": 2,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"goalName": "Galley Chief Benny Located",
+							"questId": 27268,
+							"questObjectiveIndex": 3,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"goalName": "Do Your Best",
+							"questId": 27269,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
 							"subTasks": [
 								{
+									"comment": "Gnome becomes firnedly when about to die. You can turn the quest on him",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27269,
-									"questName": "Trying, But Not That Hard",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
-						{
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 0,
-							"yCoord": 0
-						},
 						{
 							"depth": 0,
 							"isCustom": false,
@@ -55801,7 +55906,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27269,
 									"questName": "Trying, But Not That Hard",
 									"subTasks": [],
@@ -55816,13 +55921,11 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Azshara",
+							"comment": "Back to the scout. >>> Pick the ring as a reward <<<",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 0,
-							"yCoord": 0
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -55832,73 +55935,19 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27268,
 									"questName": "The Horizon Scout",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 0,
-							"yCoord": 0
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Second Mate Shandril",
-							"npcId": 8478,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27270,
 									"questName": "The Horizon Scout",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 0,
-							"yCoord": 0
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Second Mate Shandril",
-							"npcId": 8478,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
 									"questId": 27270,
-									"questName": "The Horizon Scout",
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -55925,7 +55974,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27270,
 									"questName": "The Horizon Scout",
 									"subTasks": [],
@@ -55940,13 +55989,30 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 77.81,
-							"yCoord": 91.38
+							"yCoord": 91.38,
+							"coordsMap": "Azshara",
+							"comment": "Swim to the helipad at the south eastern corenr of Azshara and use the flare to call the NPC",
+							"itemId": 10444,
+							"itemName": "Standard Issue Flare Gun",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "From now on use the mana gem trinket on CD as soon as you use 600 mana",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "TODO Note: This should be the last thing you do in Azshara, the idea is to HS out of here to Ratchet, turn in things at Thalendris point and then ride to Felwood. To be determined what to do after seeing the new quests",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -55961,6 +56027,14 @@
 									"questName": "Arcane Runes",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Return to Tymor",
+									"questId": 3461,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -55968,35 +56042,33 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Azshara",
+							"comment": "HS back to Ratchet",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 77.81,
-							"yCoord": 91.38
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pilot Xiggs Fuselighter",
-							"npcId": 8392,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3461,
-									"questName": "Return to Tymor",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.07,
+							"yCoord": 37.14,
+							"coordsMap": "The Barrens",
+							"comment": "Fly to Azshara's border with Ashenvale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -56023,6 +56095,14 @@
 									"questName": "Spiritual Unrest",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Land Filled with Hatred",
+									"questId": 5536,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -56030,57 +56110,51 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 11.97,
+							"yCoord": 78.36,
 							"coordsMap": "Azshara",
+							"comment": ">>> Fill quiver <<<",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 11.41,
-							"yCoord": 78.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Loh'atu",
-							"npcId": 11548,
 							"subTasks": [
 								{
+									"npcName": "Brinna Valanaar",
+									"npcId": 14301,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5536,
-									"questName": "A Land Filled with Hatred",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 12.05,
-							"yCoord": 78.32
+							"yCoord": 78.32,
+							"coordsMap": "Azshara",
+							"comment": "Pick the bow if you did this quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Captain Ashyla",
 							"npcId": 46173,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27251,
 									"questName": "Descendants of Exiles",
 									"subTasks": [],
@@ -56090,6 +56164,57 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 88.74,
+							"yCoord": 43.62,
+							"coordsMap": "Ashenvale",
+							"comment": "Go to Felwood while hugging the northern mountain range",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 81.61,
+							"yCoord": 46.58,
+							"coordsMap": "Ashenvale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 73.21,
+							"yCoord": 47.51,
+							"coordsMap": "Ashenvale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 65.94,
+							"yCoord": 44.94,
+							"coordsMap": "Ashenvale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 55.78,
+							"yCoord": 29.23,
+							"coordsMap": "Ashenvale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
