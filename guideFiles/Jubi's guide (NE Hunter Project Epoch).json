@@ -56248,6 +56248,158 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 50.96,
+							"yCoord": 85.03,
+							"coordsMap": "Felwood",
+							"comment": "Mind you, this one might not be here but at the entrance of Timbermaw Hold. If devs have some common sense they will move it down",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Regardless of what happens, you have to grind to unfriendly with Timbermaw in order to pass through the tunnel",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Grazle",
+							"npcId": 11554,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 8460,
+									"questName": "Timbermaw Ally",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 48.74,
+							"yCoord": 89.71,
+							"coordsMap": "Felwood",
+							"comment": "Either grind to unfriendly (1 full clear more or less) or complete the quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Deadwood Warrior",
+									"npcId": 7153,
+									"count": 6,
+									"questId": 8460,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Deadwood Pathfinder",
+									"npcId": 7155,
+									"count": 6,
+									"questId": 8460,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Deadwood Gardener",
+									"npcId": 7154,
+									"count": 6,
+									"questId": 8460,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 50.96,
+							"yCoord": 85.03,
+							"coordsMap": "Felwood",
+							"comment": "Skip if the NPC wasn't brought back",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Grazle",
+							"npcId": 11554,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Timbermaw Ally",
+									"questId": 8460,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Speak to Nafien",
+									"questId": 8462,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.52,
+							"yCoord": 82.28,
+							"coordsMap": "Felwood",
+							"comment": "Get south Felwood FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Gorrim",
+									"npcId": 22931,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -56270,99 +56422,6 @@
 									"isCustom": false,
 									"questId": 5155,
 									"questName": "Forces of Jaedenar",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.8,
-							"yCoord": 81.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watcher Steelsong",
-							"npcId": 46878,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27722,
-									"questName": "The Shrine of the Deceiver",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.9,
-							"yCoord": 81.64
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Taronn Redfeather",
-							"npcId": 10921,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5156,
-									"questName": "Verifying the Corruption",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.1,
-							"yCoord": 81.81
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kelek Skykeeper",
-							"npcId": 10920,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27721,
-									"questName": "The Garden of Jadefire Glen",
 									"subTasks": [],
 									"type": "Accept quest"
 								}
@@ -56411,6 +56470,519 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"xCoord": 51.1,
+							"yCoord": 81.81
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Kelek Skykeeper",
+							"npcId": 10920,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27721,
+									"questName": "The Garden of Jadefire Glen",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 50.9,
+							"yCoord": 81.64
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Taronn Redfeather",
+							"npcId": 10921,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 5156,
+									"questName": "Verifying the Corruption",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 50.8,
+							"yCoord": 81.96
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Watcher Steelsong",
+							"npcId": 46878,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27722,
+									"questName": "The Shrine of the Deceiver",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"coordsMap": "Felwood",
+							"xCoord": 42.73,
+							"yCoord": 86.27,
+							"comment": "Kill the Satyrs while heading north looting the items for the quest. The regular satyrs buff their armor + thorn effect (destroys your pet). Save arcane shot to dispell it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Kalek's Weeder",
+									"count": 1,
+									"questId": 27721,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Jadefire Satyr",
+											"npcId": 7105
+										},
+										{
+											"npcName": "Jadefire Felsworn",
+											"npcId": 7109
+										}
+									],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Kalek's Trowel",
+									"questId": 27721,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Jadefire Satyr",
+											"npcId": 7105
+										},
+										{
+											"npcName": "Jadefire Felsworn",
+											"npcId": 7109
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Kalek's Bucket",
+									"questId": 27721,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [
+										{
+											"npcName": "Jadefire Satyr",
+											"npcId": 7105
+										},
+										{
+											"npcName": "Jadefire Felsworn",
+											"npcId": 7109
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 40.74,
+							"yCoord": 73.55,
+							"coordsMap": "Felwood",
+							"comment": "Go here and open the package with the ooze jars if you haven't yet. Circle the lake clockwise and you will have enough once you reach the satyr camp",
+							"itemId": 11912,
+							"itemName": "Package of Empty Ooze Containers",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Gather cursed ooze with the appropiate jar afther killing the mobs around the lake",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": ">>> Make sure you have room for the first jar of each type on you inventory, otherwise, you won't be able to complete the quest since you will lose 1 of the jars <<<",
+									"itemId": 11914,
+									"itemName": "Empty Cursed Ooze Jar",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Filled Cursed Ooze Jar",
+									"questId": 4512,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 6,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 32.4,
+							"yCoord": 67.06,
+							"coordsMap": "Felwood",
+							"comment": "Kill satyrs for the quest. The named one is on the marker. You may have to kill respawns to finish the quest so just headh straight to the named move then go back",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Jadefire Felsworn",
+									"npcId": 7109,
+									"count": 11,
+									"questId": 4421,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Jadefire Shadowstalker",
+									"npcId": 7110,
+									"count": 9,
+									"questId": 4421,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Jadefire Rogue",
+									"npcId": 7106,
+									"count": 9,
+									"questId": 4421,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Xavathras",
+									"npcId": 9454,
+									"count": 1,
+									"questId": 4421,
+									"questObjectiveIndex": 4,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 40.82,
+							"yCoord": 59.61,
+							"coordsMap": "Felwood",
+							"comment": "Gather the Tainted ooze now. You will need 1 extra ooze so get it on the lake north",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": ">>> Make sure you have 1 bag slot before gathering the first one <<<",
+									"itemId": 11948,
+									"itemName": "Empty Tainted Ooze Jar",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Filled Tainted Ooze Jar",
+									"questId": 4512,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 6,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 39.13,
+							"yCoord": 59.43,
+							"coordsMap": "Felwood",
+							"comment": "Go into the tunnel to gather the relics. Try not to pull the hounds yourself while on LoS or they will mana drain you",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"xCoord": 37.71,
+									"yCoord": 61.07,
+									"coordsMap": "Felwood",
+									"comment": "First one on the first floor's right bridge room",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [
+										{
+											"itemName": "Memento of illidan",
+											"questId": 27722,
+											"questObjectiveIndex": 2,
+											"toLootNpcs": [],
+											"count": 1,
+											"depth": 2,
+											"type": "Get",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"xCoord": 38.02,
+									"yCoord": 62.04,
+									"coordsMap": "Felwood",
+									"comment": "Second one on the room after the other bridge, same floor",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [
+										{
+											"itemName": "Memento of Tichondrius",
+											"questId": 27722,
+											"questObjectiveIndex": 4,
+											"toLootNpcs": [],
+											"count": 1,
+											"depth": 2,
+											"type": "Get",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"xCoord": 38.85,
+									"yCoord": 62.21,
+									"coordsMap": "Felwood",
+									"comment": "3rd one in the room right before the ramp that goes to the lower level",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [
+										{
+											"itemName": "Memento of Kil'jaeden",
+											"questId": 27722,
+											"questObjectiveIndex": 3,
+											"toLootNpcs": [],
+											"count": 1,
+											"depth": 2,
+											"type": "Get",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"xCoord": 38.14,
+									"yCoord": 60.27,
+									"coordsMap": "Felwood",
+									"comment": "Go to the room below the 2 bridges to gather the last one",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [
+										{
+											"itemName": "Memento of Archimonde",
+											"count": 1,
+											"questId": 27722,
+											"questObjectiveIndex": 1,
+											"toLootNpcs": [],
+											"depth": 2,
+											"type": "Get",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 39.13,
+							"yCoord": 59.43,
+							"coordsMap": "Felwood",
+							"comment": "Go outside and finish killing any mobs you might still be missing for the killing quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Jaedenar Hound",
+									"npcId": 7125,
+									"count": 4,
+									"questId": 5155,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Jaedenar Guardian",
+									"npcId": 7113,
+									"count": 4,
+									"questId": 5155,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Jaedenar Adept",
+									"npcId": 7115,
+									"count": 6,
+									"questId": 5155,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Jaedenar Cultist",
+									"npcId": 7112,
+									"count": 6,
+									"questId": 5155,
+									"questObjectiveIndex": 4,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 50.82,
+							"yCoord": 81.91
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Watcher Steelsong",
+							"npcId": 46878,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27722,
+									"questName": "The Shrine of the Deceiver",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Mementos of the Third War",
+									"questId": 27723,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
 							"xCoord": 51.14,
 							"yCoord": 81.82
 						},
@@ -56422,9 +56994,41 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27721,
 									"questName": "The Garden of Jadefire Glen",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 51.33,
+							"yCoord": 81.57,
+							"coordsMap": "Felwood",
+							"comment": "Skip follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Eridan Bluewind",
+							"npcId": 9116,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 4421,
+									"questName": "The Corruption of the Jadefire",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -56458,192 +57062,14 @@
 									"questName": "Forces of Jaedenar",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.15,
-							"yCoord": 82.08
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Greta Mosshoof",
-							"npcId": 10922,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5157,
 									"questName": "Collection of the Corrupt Water",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.82,
-							"yCoord": 81.91
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watcher Steelsong",
-							"npcId": 46878,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27722,
-									"questName": "The Shrine of the Deceiver",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.82,
-							"yCoord": 81.91
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Watcher Steelsong",
-							"npcId": 46878,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27723,
-									"questName": "Mementos of the Third War",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.33,
-							"yCoord": 81.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Eridan Bluewind",
-							"npcId": 9116,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4421,
-									"questName": "The Corruption of the Jadefire",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.33,
-							"yCoord": 81.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Eridan Bluewind",
-							"npcId": 9116,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4906,
-									"questName": "Further Corruption",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.16,
-							"yCoord": 82.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Greta Mosshoof",
-							"npcId": 10922,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
 									"questId": 5157,
-									"questName": "Collection of the Corrupt Water",
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -56651,109 +57077,182 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 35.21,
+							"yCoord": 59.92,
 							"coordsMap": "Felwood",
+							"comment": "Gather the moonwell water",
+							"itemId": 12921,
+							"itemName": "Empty Canteen",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.16,
-							"yCoord": 82.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Greta Mosshoof",
-							"npcId": 10922,
 							"subTasks": [
 								{
+									"itemName": "Corrupt Moonwell Water",
+									"questId": 5157,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5158,
-									"questName": "Seeking Spiritual Aid",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 40.45,
+							"yCoord": 41.22,
 							"coordsMap": "Felwood",
+							"comment": "Go inside the crater the get the exploration objective then kill 2 of each elemental. Head north east while doing so. Avoid the infernals",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 64.78,
-							"yCoord": 8.22
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grazle",
-							"npcId": 11554,
 							"subTasks": [
 								{
+									"goalName": "Explore the craters in Shater Scar Vale",
+									"questId": 5156,
+									"questObjectiveIndex": 1,
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 8460,
-									"questName": "Timbermaw Ally",
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"npcName": "Entropic Beast",
+									"npcId": 9878,
+									"count": 2,
+									"questId": 5156,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Entropic Horror",
+									"npcId": 9879,
+									"count": 2,
+									"questId": 5156,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 48.57,
+							"yCoord": 37.81,
 							"coordsMap": "Felwood",
+							"comment": "Head towards the alliance camp from here",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 64.78,
-							"yCoord": 8.22
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 57.42,
+							"yCoord": 18.37,
+							"coordsMap": "Felwood",
+							"comment": "Then here",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grazle",
-							"npcId": 11554,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 62.51,
+							"yCoord": 24.19,
+							"coordsMap": "Felwood",
+							"comment": "And finally here. Discover the FP.",
+							"depth": 0,
+							"type": "Go to",
 							"subTasks": [
 								{
+									"npcName": "Mishellena",
+									"npcId": 12578,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 6221,
-									"questName": "Deadwood of the North",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 61.92,
+							"yCoord": 23.6,
+							"coordsMap": "Felwood",
+							"comment": "If you are level 52 already go here and learn spells. This way you don't have to visit the trainer later on Darnassus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Kaerbrus",
+									"npcId": 5501,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 64.76,
+							"yCoord": 8.21,
+							"coordsMap": "Felwood",
+							"comment": "Either turn in \"Speak to Nafien\" if Grazle was in southern Felwood and you were able to do his quest or get the quest now to do it soon",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 68.24,
+							"yCoord": 5.64,
+							"coordsMap": "Felwood",
+							"comment": "Exit the tunnel through the eastern path (Winterspring)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 31.25,
-							"yCoord": 45.18
+							"yCoord": 45.18,
+							"coordsMap": "Winterspring",
+							"comment": "Have to wait out some roleplay",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -56768,6 +57267,14 @@
 									"questName": "It's a Secret to Everybody",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Videre Elixir",
+									"questId": 3909,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -56775,30 +57282,73 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 27.89,
+							"yCoord": 34.47,
+							"coordsMap": "Winterspring",
+							"comment": "Back to the tunnel",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 65.59,
+							"yCoord": 0.91,
+							"coordsMap": "Felwood",
+							"comment": "Exit through the northen tunnel now. Have to drop down to them lower floor in the middle room",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 48.04,
+							"yCoord": 67.29,
+							"coordsMap": "Moonglade",
+							"comment": "Get Moonglade's FP and then fly to southern Felwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
+							"coordsMap": "Felwood",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 31.23,
-							"yCoord": 45.2
+							"xCoord": 51.16,
+							"yCoord": 82.13
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Donova Snowden",
-							"npcId": 9298,
+							"npcName": "Greta Mosshoof",
+							"npcId": 10922,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 3909,
-									"questName": "The Videre Elixir",
+									"questId": 5157,
+									"questName": "Collection of the Corrupt Water",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Seeking Spiritual Aid",
+									"questId": 5158,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -56806,16 +57356,109 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 50.89,
+							"yCoord": 81.63,
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Taronn Redfeather",
+							"npcId": 10921,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 5156,
+									"questName": "Verifying the Corruption",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If you had to accept \"Timbermaw Ally\" at the entrance of Timbermaw Hold beacuse Grazle was missing (south furbolg) then go do it now.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 51.51,
+							"yCoord": 82.26,
+							"coordsMap": "Felwood",
+							"comment": "Fly to Darkshore",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 36.99,
+							"yCoord": 44.12,
+							"coordsMap": "Darkshore",
+							"comment": ">>> Set HS <<< In Auberdine",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Innkeeper Shaussiy",
+									"npcId": 6737,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 36.38,
+							"yCoord": 45.57,
+							"coordsMap": "Darkshore",
+							"comment": "Fly to Darnassus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 55.47,
-							"yCoord": 92.05
+							"yCoord": 92.05,
+							"coordsMap": "Teldrassil",
+							"comment": "As soon as you turn level 52 talk to this guy again",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -56853,41 +57496,42 @@
 							"isCustom": false,
 							"npcName": "Daryn Lightwind",
 							"npcId": 7907,
-							"subTasks": [],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 55.4,
-							"yCoord": 92.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Daryn Lightwind",
-							"npcId": 7907,
 							"subTasks": [
 								{
+									"questId": 2944,
+									"questName": "The Super Snapper FX",
 									"depth": 1,
-									"isCustom": false,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questId": 2943,
 									"questName": "Return to Troyas",
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.92,
+							"yCoord": 89.75,
+							"coordsMap": "Teldrassil",
+							"comment": "Take the teleporter",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -56914,37 +57558,14 @@
 									"questName": "Rise of the Silithid",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.07,
-							"yCoord": 85.72
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gracina Spiritmight",
-							"npcId": 7740,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4493,
 									"questName": "March of the Silithid",
+									"questId": 4493,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -57014,26 +57635,142 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 40.43,
+							"yCoord": 8.82,
 							"coordsMap": "Darnassus",
+							"comment": "If you didn't learn level 52 spells in Felwood beacause you hadn't leveled up do so now here",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 63.65,
-							"yCoord": 23.07
+							"subTasks": [
+								{
+									"npcName": "Jocaste",
+									"npcId": 4146,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
+							"xCoord": 34.49,
+							"yCoord": 8.89,
+							"coordsMap": "Darnassus",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Raedon Duskstriker",
-							"npcId": 14725,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Arch Druid Fandral Staghelm",
+									"npcId": 3516,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [
+										{
+											"questId": 3789,
+											"questName": "Assisting Arch Druid Staghelm",
+											"depth": 2,
+											"type": "Turn in quest",
+											"subTasks": [],
+											"isCustom": false
+										},
+										{
+											"questId": 3764,
+											"questName": "Un'Goro Soil",
+											"depth": 2,
+											"type": "Accept quest",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 30.75,
+							"yCoord": 41.39,
+							"coordsMap": "Darnassus",
+							"comment": "Take the teleporter afterwards or HS to Auberdine if you already have the Moonkin quest",
+							"depth": 0,
+							"type": "Go to",
 							"subTasks": [],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.55,
+							"yCoord": 92.04,
+							"coordsMap": "Teldrassil",
+							"comment": "Accept the quest if you are level 52. If you did before just HS back to Auberdine",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Erelas Ambersky",
+							"npcId": 7916,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 978,
+									"questName": "Moontouched Wildkin",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Auberdine",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 36.35,
+							"yCoord": 45.6,
+							"coordsMap": "Darkshore",
+							"comment": "Fly to Feralas (Feathermoon)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "10 minute nap",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 18,
