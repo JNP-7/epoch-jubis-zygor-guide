@@ -54555,6 +54555,33 @@
 			"sectionName": "Azshara & Felwood Pt.1 (50-52)",
 			"sectionSteps": [
 				{
+					"stepTasks": [
+						{
+							"xCoord": 62.51,
+							"yCoord": 38.54,
+							"coordsMap": "The Barrens",
+							"comment": "Open the chest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Stone Circle",
+									"questId": 3444,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -57659,6 +57686,7 @@
 							"xCoord": 34.49,
 							"yCoord": 8.89,
 							"coordsMap": "Darnassus",
+							"comment": "Don't accept the follow up. You can gather the quest's items w/o accepting the quest",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -57675,25 +57703,22 @@
 											"type": "Turn in quest",
 											"subTasks": [],
 											"isCustom": false
-										},
-										{
-											"questId": 3764,
-											"questName": "Un'Goro Soil",
-											"depth": 2,
-											"type": "Accept quest",
-											"subTasks": [],
-											"isCustom": false
 										}
 									],
 									"isCustom": false
 								}
 							],
 							"isCustom": false
-						},
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
 						{
+							"coordsMap": "Darnassus",
 							"xCoord": 30.75,
 							"yCoord": 41.39,
-							"coordsMap": "Darnassus",
 							"comment": "Take the teleporter afterwards or HS to Auberdine if you already have the Moonkin quest",
 							"depth": 0,
 							"type": "Go to",
@@ -57781,18 +57806,6 @@
 			"sectionName": "Feralas Pt.2 & Plaguelands Pt.1 (52)",
 			"sectionSteps": [
 				{
-					"stepTasks": [
-						{
-							"comment": "Do something",
-							"depth": 0,
-							"subTasks": [],
-							"type": "Comment",
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -57824,38 +57837,41 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 30.64,
+							"yCoord": 43.41,
 							"coordsMap": "Feralas",
+							"comment": ">>> Refill quiver <<< From now on you are going to eat through ammo twice as fast with steady shot",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 31.84,
-							"yCoord": 45.46
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Troyas Moonbreeze",
-							"npcId": 7764,
-							"subTasks": [],
-							"type": "Talk to"
+							"subTasks": [
+								{
+									"npcName": "Faralorn",
+									"npcId": 7942,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 31.84,
+							"yCoord": 45.46,
 							"coordsMap": "Feralas",
+							"comment": "Has a bit of RP, wait it out",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 31.85,
-							"yCoord": 45.46
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -57864,17 +57880,40 @@
 							"npcId": 7764,
 							"subTasks": [
 								{
+									"questName": "Return to Troyas",
+									"questId": 2943,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 2879,
-									"questName": "The Stave of Equinex",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "The Stave of Equinex",
+									"questId": 2879,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 33.75,
+							"yCoord": 43.24,
+							"coordsMap": "Feralas",
+							"comment": "Swim to mainland or, if the ship is about to dock (if it's already there forget about it) in Feathermoon take it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -57901,6 +57940,14 @@
 									"questName": "Zapped Giants",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Fuel for the Zapping",
+									"questId": 7721,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -57908,35 +57955,75 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 44.26,
+							"yCoord": 39.39,
 							"coordsMap": "Feralas",
+							"comment": "Go north killing the elementals and killing the zapped giants. You won't finish the quest up here.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 44.82,
-							"yCoord": 43.41
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"xCoord": 44.57,
+							"yCoord": 46.85,
+							"coordsMap": "Feralas",
+							"comment": "Go south afterwards untill you finish the quest",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Zorbin Fandazzle",
-							"npcId": 14637,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": ">>> Don't engage any giant before zapping <<< They heal to full when miniaturized.",
+							"itemId": 18904,
+							"itemName": "Zorbin's Ultra-Shrinker",
+							"depth": 0,
+							"type": "Comment",
 							"subTasks": [
 								{
+									"itemName": "Miniaturized Residue",
+									"questId": 7003,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Zapped Shore Strider",
+											"npcId": 5359
+										}
+									],
+									"count": 15,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 7721,
-									"questName": "Fuel for the Zapping",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"itemName": "Water Elemental Core ",
+									"questId": 7721,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Sea Elemental",
+											"npcId": 5461
+										},
+										{
+											"npcName": "Sea Spray",
+											"npcId": 5462
+										}
+									],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -57963,37 +58050,14 @@
 									"questName": "Fuel for the Zapping",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Feralas",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.85,
-							"yCoord": 43.46
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Zorbin Fandazzle",
-							"npcId": 14637,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 7003,
 									"questName": "Zapped Giants",
+									"questId": 7003,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -58014,13 +58078,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Jrall",
 							"npcId": 45867,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26605,
 									"questName": "Convincing the Denied",
 									"subTasks": [],
@@ -58028,30 +58092,39 @@
 								}
 							],
 							"type": "Talk to"
+						},
+						{
+							"comment": "If you did the branches quest earlier you can accept the follow up now and gather the items from the rivers up north, Guide proceeds as if it wasn't done",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 45.12,
+							"yCoord": 25.53,
 							"coordsMap": "Feralas",
+							"comment": "Buy x3 Bait (only need 1, it's just to be sure)",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.77,
-							"yCoord": 32.02
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 7735,
-							"questName": "Pristine Yeti Hide",
-							"subTasks": [],
-							"type": "Accept quest"
+							"subTasks": [
+								{
+									"npcName": "Gregan Brewspewer",
+									"npcId": 7775,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -58085,6 +58158,85 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 44.61,
+							"yCoord": 10.46,
+							"coordsMap": "Feralas",
+							"comment": "Place the bait in front of the door and gather 1 of the plants after the gnoll breaks the wall",
+							"itemId": 11141,
+							"itemName": "Bait",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 39.96,
+							"yCoord": 9.44,
+							"coordsMap": "Feralas",
+							"comment": "Go here and gather the first essence",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Kill harpies for mirrors. Drop rather is rather low",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 40.48,
+							"yCoord": 11.15,
+							"coordsMap": "Feralas",
+							"comment": "Go here and get on top of the structure to gather the second essence.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 40.57,
+							"yCoord": 12.61,
+							"coordsMap": "Feralas",
+							"comment": "Dismiss pet before getting up here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.8,
+							"yCoord": 12.13,
+							"coordsMap": "Feralas",
+							"comment": "Gather the third essence here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -58109,6 +58261,14 @@
 									"questName": "The Giant Guardian",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Wandering Shay",
+									"questId": 2845,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -58116,47 +58276,82 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 38.25,
+							"yCoord": 10.32,
 							"coordsMap": "Feralas",
+							"comment": "Open the chest besides the Nelf to get the bell",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 38.17,
-							"yCoord": 10.33
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Shay Leafrunner",
-							"npcId": 7774,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"itemName": "Shay's Bell",
 									"questId": 2845,
-									"questName": "Wandering Shay",
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.54,
+							"yCoord": 15.75,
+							"coordsMap": "Feralas",
+							"comment": "Gather the last essence",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Bind and use the bell everytime the Nelf stops following you (chat dialogue will pop up)",
+							"itemId": 9189,
+							"itemName": "Shay's Bell",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Feralas",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 38.79,
-							"yCoord": 13.24
+							"yCoord": 13.24,
+							"coordsMap": "Feralas",
+							"comment": "Use the stave to combine the 4 essences at the monolith",
+							"itemId": 9263,
+							"itemName": "Troyas' Stave",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Stave of Equinex",
+									"questId": 2879,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -58165,30 +58360,66 @@
 							"questName": "The Stave of Equinex",
 							"subTasks": [],
 							"type": "Turn in quest"
+						},
+						{
+							"questName": "The Morrow Stone",
+							"questId": 2942,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Feralas",
+							"comment": "Finish gathering the mirriors before leaving the Harpy area",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.79,
-							"yCoord": 13.24
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 2942,
-							"questName": "The Morrow Stone",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Broken mirror shard",
+									"questId": 26605,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 42.36,
+							"yCoord": 21.97,
+							"coordsMap": "Feralas",
+							"comment": "Bring the Nelf here to finish the escort quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Escort Shay Leafrunner",
+									"questId": 2845,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -58265,18 +58496,33 @@
 							"yCoord": 46.35
 						},
 						{
+							"comment": "Turn in the water plants quests if you accepted it and then get the follow up too",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
 							"npcName": "Jrall",
 							"npcId": 45867,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26605,
 									"questName": "Convincing the Denied",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Reflection of Death",
+									"questId": 26617,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -58284,35 +58530,38 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.92,
+							"yCoord": 46.35,
 							"coordsMap": "Feralas",
+							"comment": "Talk to the ghost",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.79,
-							"yCoord": 46.35
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Trog",
+							"npcId": 45869,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jrall",
-							"npcId": 45867,
+							"type": "Talk to",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"goalName": "Mirror Shown",
 									"questId": 26617,
-									"questName": "A Reflection of Death",
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -58328,17 +58577,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Jrall",
 							"npcId": 45867,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26617,
 									"questName": "A Reflection of Death",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Dead and Gone",
+									"questId": 26606,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -58346,57 +58603,92 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Feralas",
+							"comment": "Talk to these 3 NPCs (pick dialog option)",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.81,
-							"yCoord": 46.33
+							"isCustom": false
 						},
 						{
+							"xCoord": 51.88,
+							"yCoord": 46.69,
+							"coordsMap": "Feralas",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jrall",
-							"npcId": 45867,
+							"type": "Go to",
 							"subTasks": [
 								{
+									"npcName": "Mek'nell",
+									"npcId": 45868,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26606,
-									"questName": "Dead and Gone",
-									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Talk to",
+									"subTasks": [
+										{
+											"goalName": "Mek'nell Asked",
+											"questId": 26606,
+											"questObjectiveIndex": 2,
+											"count": 1,
+											"depth": 2,
+											"type": "Goal",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Feralas",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.81,
-							"yCoord": 46.35
+							"isCustom": false
 						},
 						{
+							"xCoord": 51.61,
+							"yCoord": 47.88,
+							"coordsMap": "Feralas",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 26606,
-							"questName": "Dead and Gone",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Gark",
+									"npcId": 45866,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [
+										{
+											"goalName": "Gark Asked",
+											"questId": 26606,
+											"questObjectiveIndex": 3,
+											"count": 1,
+											"depth": 2,
+											"type": "Goal",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Any of the enforecerers",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"goalName": "Enforcerer Asked",
+									"questId": 26606,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -58412,22 +58704,69 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Jrall",
 							"npcId": 45867,
 							"subTasks": [
 								{
+									"questName": "Dead and Gone",
+									"questId": 26606,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 26607,
-									"questName": "Dental Records",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"questName": "Dental Records",
+									"questId": 26607,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If you are doing the other questline you can do it now (it's about using an item while killing beasts)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 48.73,
+							"yCoord": 37.62,
+							"coordsMap": "Feralas",
+							"comment": "Kill bears to get teeth",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Ironfur Tooth",
+									"questId": 26607,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Ironfur Patriarch",
+											"npcId": 5274
+										}
+									],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -58443,20 +58782,35 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Jrall",
 							"npcId": 45867,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26607,
 									"questName": "Dental Records",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Dental Records",
+									"questId": 26608,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
+						},
+						{
+							"comment": "Also turn in the other quest chain of doing it. Skip the next step if it asks you to gi to the silithd hive",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -58464,30 +58818,33 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.92,
+							"yCoord": 46.35,
 							"coordsMap": "Feralas",
+							"comment": "Talk to the ghost, again",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.8,
-							"yCoord": 46.36
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Trog",
+							"npcId": 45869,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jrall",
-							"npcId": 45867,
+							"type": "Talk to",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"goalName": "Teeth Shown",
 									"questId": 26608,
-									"questName": "Dental Records",
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": true
 						}
 					]
 				},
@@ -58505,48 +58862,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Jrall",
 							"npcId": 45867,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 26608,
 									"questName": "Dental Records",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Feralas",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.83,
-							"yCoord": 46.33
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jrall",
-							"npcId": 45867,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
+									"questName": "Dental Records",
 									"questId": 26609,
-									"questName": "Dental Records",
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -58557,49 +58891,69 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.88,
+							"yCoord": 31.96,
 							"coordsMap": "Feralas",
+							"comment": "Kill yetis for hides",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 30.66,
-							"yCoord": 42.69
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 7735,
-							"questName": "Pristine Yeti Hide",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Feralas",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 30.65,
-							"yCoord": 42.7
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pratt McGrubben",
-							"npcId": 7852,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"itemName": "Rage Scar Yeti Hide",
 									"questId": 7733,
-									"questName": "Improved Quality",
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
+								},
+								{
+									"comment": "AoE down everything at the cave of the mount",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "TODO: The quest for the yetis' teeth may have a better droprate now. It wasn't worth doing in the last beta",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 51.83,
+							"yCoord": 46.33,
+							"coordsMap": "Feralas",
+							"comment": "Only if the teeth quest was worth doing. Otherwise, skip this step and go to Feathermoon",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Jrall",
+							"npcId": 45867,
+							"subTasks": [
+								{
+									"questName": "Dental Records",
+									"questId": 26609,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -58610,13 +58964,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Feralas",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 31.82,
-							"yCoord": 45.46
+							"yCoord": 45.46,
+							"coordsMap": "Feralas",
+							"comment": "Boat only if already there. Swim otherwise",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -58641,23 +58996,100 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ironforge",
+							"xCoord": 30.64,
+							"yCoord": 43.41,
+							"coordsMap": "Feralas",
+							"comment": ">>> Refill quiver <<<",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 31.21,
-							"yCoord": 4.65
+							"subTasks": [
+								{
+									"npcName": "Faralorn",
+									"npcId": 7942,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 30.65,
+							"yCoord": 42.7,
+							"coordsMap": "Feralas",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"questId": 3461,
-							"questName": "Return to Tymor",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"npcName": "Pratt McGrubben",
+							"npcId": 7852,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 7733,
+									"questName": "Improved Quality",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Auberdine",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 32.4,
+							"yCoord": 43.79,
+							"coordsMap": "Darkshore",
+							"comment": "Boat to Menethil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 9.52,
+							"yCoord": 59.66,
+							"coordsMap": "Wetlands",
+							"comment": "Fly to Ironforge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -58668,8 +59100,83 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 70.68,
-							"yCoord": 36.11
+							"xCoord": 31.21,
+							"yCoord": 4.65
+						},
+						{
+							"comment": "If you see Courier Hammerfall (moving quest marker) accept his quest",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Tymor",
+							"npcId": 8507,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Return to Tymor",
+									"questId": 3461,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 75.62,
+							"yCoord": 22.95,
+							"coordsMap": "Ironforge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Laris Geardawdle",
+							"npcId": 9616,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 4512,
+									"questName": "A Little Slime Goes a Long Way",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 4513,
+									"questName": "A Little Slime Goes a Long Way",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"comment": "Does laps around Ironforge",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -58689,6 +59196,21 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.67,
+							"yCoord": 48.03,
+							"coordsMap": "Ironforge",
+							"comment": "Fly to WPL (Chillwind Camp)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -58715,37 +59237,14 @@
 									"questName": "A Call to Arms: The Plaguelands!",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.74,
-							"yCoord": 84.14
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Ashlam Valorfist",
-							"npcId": 10838,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5092,
 									"questName": "Clear the Way",
+									"questId": 5092,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -58769,22 +59268,69 @@
 							"isCustom": false,
 							"npcName": "Argent Officer Pureheart",
 							"npcId": 10840,
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "Get an Argent Dwan Commision and equip it",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"type": "Talk to"
 						}
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 48.17,
+							"yCoord": 81.11,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Kill the 2 types of undead. At most AoE 3 at a time, but try to push 4",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Skeletal Flayer",
+									"npcId": 1783,
+									"count": 10,
+									"questId": 5092,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Slavering Ghoul",
+									"npcId": 1791,
+									"count": 10,
+									"questId": 5092,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 42.74,
-							"yCoord": 83.97
+							"yCoord": 83.97,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Don't accept the towers' quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -58799,68 +59345,14 @@
 									"questName": "Clear the Way",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.74,
-							"yCoord": 83.97
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Ashlam Valorfist",
-							"npcId": 10838,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5097,
-									"questName": "All Along the Watchtowers",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.73,
-							"yCoord": 83.99
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Ashlam Valorfist",
-							"npcId": 10838,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5215,
 									"questName": "The Scourge Cauldrons",
+									"questId": 5215,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -58892,6 +59384,14 @@
 									"questName": "The Scourge Cauldrons",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Target: Felstone Field",
+									"questId": 5216,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -58899,35 +59399,36 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 35.93,
+							"yCoord": 58.13,
 							"coordsMap": "Western Plaguelands",
+							"comment": "Clear your way to the Cauldron. The boss will spawn when you get close. Sorcerers won't move when aggroed, they will spam Frostbolt",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 42.93,
-							"yCoord": 84.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "High Priestess MacDonnell",
-							"npcId": 11053,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"itemName": "Felstone Field Cauldron Key",
 									"questId": 5216,
-									"questName": "Target: Felstone Field",
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Cauldron Lord Bilemaw",
+											"npcId": 11075
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -58977,13 +59478,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 38.35,
-							"yCoord": 54.1
+							"yCoord": 54.1,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Inside the house careful while pulling the mobs inside",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -59008,13 +59510,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 38.8,
-							"yCoord": 55.25
+							"yCoord": 55.25,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Inside the barn. Careful with the scarlet crusade patrol. If they have fixed it, you can try to sneak in while they fight undeads (or kill them)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -59023,28 +59526,14 @@
 							"questName": "Better Late Than Never",
 							"subTasks": [],
 							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.8,
-							"yCoord": 55.25
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5022,
 							"questName": "Better Late Than Never",
+							"questId": 5022,
+							"depth": 0,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
 					]
 				},
@@ -59052,35 +59541,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.91,
-							"yCoord": 83.59
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Argent Officer Pureheart",
-							"npcId": 10840,
-							"subTasks": [],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 42.89,
-							"yCoord": 84.44
+							"yCoord": 84.44,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Skip the follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -59100,6 +59568,18 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If grinding undead at the graveyard was good XP/feasible to AoE >4 do so while waiting for your HS CD. Otherwise just fly to Menethil then boat to Darkshore",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 19,
@@ -59110,47 +59590,32 @@
 			"sectionName": "Un'Goro (52-54)",
 			"sectionSteps": [
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Teldrassil",
+							"xCoord": 36.35,
+							"yCoord": 45.58,
+							"coordsMap": "Darkshore",
+							"comment": "Fly to Moonglade",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 55.49,
-							"yCoord": 92.12
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Erelas Ambersky",
-							"npcId": 7916,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 978,
-									"questName": "Moontouched Wildkin",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 31.27,
-							"yCoord": 45.2
+							"yCoord": 45.2,
+							"coordsMap": "Winterspring",
+							"comment": "Tunnel to the east inside Timbermaw Hold",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -59165,40 +59630,75 @@
 									"questName": "The Videre Elixir",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Meet at the Grave",
+									"questId": 3912,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 31.27,
-							"yCoord": 45.2
 						},
 						{
+							"comment": "Start gathering the feathers when you get to Winterspring",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Donova Snowden",
-							"npcId": 9298,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.32,
+							"yCoord": 36.6,
+							"coordsMap": "Winterspring",
+							"comment": "Finish gathering the feathers before taking the FP",
+							"depth": 0,
+							"type": "Go to",
 							"subTasks": [
 								{
+									"itemName": "Moontouched Feather",
+									"questId": 978,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3912,
-									"questName": "Meet at the Grave",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 62.32,
+							"yCoord": 36.6,
+							"coordsMap": "Winterspring",
+							"comment": "Discover the FP then fly to Ratchet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Maethrya",
+									"npcId": 11138,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -59206,13 +59706,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "The Barrens",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 65.81,
-							"yCoord": 43.77
+							"yCoord": 43.77,
+							"coordsMap": "The Barrens",
+							"comment": "Wait out the RP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -59227,6 +59728,14 @@
 									"questName": "Seeking Spiritual Aid",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Cleansed Water Returns to Felwood",
+									"questId": 5159,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -59234,26 +59743,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 63.1,
+							"yCoord": 37.17,
 							"coordsMap": "The Barrens",
+							"comment": "Fly to Gadgetzan. Alternatively, fly to Theramore, learn first aids recipes then go to Gadgetzan",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 65.86,
-							"yCoord": 43.77
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5159,
-							"questName": "Cleansed Water Returns to Felwood",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -59280,62 +59782,17 @@
 									"questName": "March of the Silithid",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.95,
-							"yCoord": 26.99
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Alchemist Pestlezugg",
-							"npcId": 5594,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4496,
 									"questName": "Bungle in the Jungle",
+									"questId": 4496,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.57,
-							"yCoord": 26.76
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 4504,
-							"questName": "Super Sticky",
-							"subTasks": [],
-							"type": "Accept quest"
 						}
 					]
 				},
@@ -59364,6 +59821,14 @@
 									"questName": "Sprinkle's Secret Ingredient",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Delivery for Marin",
+									"questId": 2661,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -59379,25 +59844,25 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.07,
-							"yCoord": 26.94
+							"xCoord": 51.57,
+							"yCoord": 26.76
 						},
 						{
+							"npcName": "Tran'rek",
+							"npcId": 7876,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sprinkle",
-							"npcId": 7583,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "Super Sticky",
+									"questId": 4504,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 2661,
-									"questName": "Delivery for Marin",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -59426,6 +59891,22 @@
 									"questName": "Delivery for Marin",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Noggenfogger Elixir",
+									"questId": 2662,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Noggenfogger Elixir",
+									"questId": 2662,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -59433,78 +59914,41 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 53.88,
+							"yCoord": 29.05,
 							"coordsMap": "Tanaris",
+							"comment": "Drink your Videre Elixir to die and be able to speak to a ghost",
+							"itemId": 11243,
+							"itemName": "Videre Elixir",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.79,
-							"yCoord": 28.62
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "Dont rez inmediately, skip this step",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marin Noggenfogger",
-							"npcId": 7564,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2662,
-									"questName": "Noggenfogger Elixir",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.77,
-							"yCoord": 28.7
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marin Noggenfogger",
-							"npcId": 7564,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2662,
-									"questName": "Noggenfogger Elixir",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 53.91,
-							"yCoord": 23.38
+							"yCoord": 23.38,
+							"coordsMap": "Tanaris",
+							"comment": "As a ghost",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -59519,37 +59963,14 @@
 									"questName": "Meet at the Grave",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.91,
-							"yCoord": 23.38
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gaeriyan",
-							"npcId": 9299,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3913,
 									"questName": "A Grave Situation",
+									"questId": 3913,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -59560,13 +59981,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 53.88,
-							"yCoord": 29.06
+							"yCoord": 29.06,
+							"coordsMap": "Tanaris",
+							"comment": "Interact with the tombstone after rezing. You can delete the extra Videre Elixir",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -59575,30 +59997,31 @@
 							"questName": "A Grave Situation",
 							"subTasks": [],
 							"type": "Turn in quest"
+						},
+						{
+							"questName": "Linken's Sword",
+							"questId": 3914,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.02,
+							"yCoord": 29.34,
 							"coordsMap": "Tanaris",
+							"comment": "Fly to Un'Goro crater",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 53.81,
-							"yCoord": 29.1
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 3914,
-							"questName": "Linken's Sword",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -59625,37 +60048,14 @@
 									"questName": "Linken's Sword",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.74,
-							"yCoord": 8.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Linken",
-							"npcId": 8737,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3941,
 									"questName": "A Gnome's Assistance",
+									"questId": 3941,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -59780,37 +60180,14 @@
 									"questName": "A Gnome's Assistance",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.86,
-							"yCoord": 2.64
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "J.D. Collie",
-							"npcId": 9117,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3942,
 									"questName": "Linken's Memory",
+									"questId": 3942,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -59821,29 +60198,21 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 41.86,
-							"yCoord": 2.64
+							"yCoord": 2.64,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "TODO: Need to free up space from quests I don't need to have",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
 							"npcName": "J.D. Collie",
 							"npcId": 9117,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4284,
-									"questName": "Crystals of Power",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
+							"subTasks": [],
 							"type": "Talk to"
 						}
 					]
