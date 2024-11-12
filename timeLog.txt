@@ -157,7 +157,11 @@
 
 	1h: Detailing 20th section
 	
+12/11/2024
+
+	1h: Re-arranging queslog for 20th section (was completly full)
+	
 ------------
 Total:
 
-	114h
+	115h

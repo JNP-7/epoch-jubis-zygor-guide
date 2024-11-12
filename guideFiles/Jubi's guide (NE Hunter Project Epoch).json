@@ -57246,9 +57246,9 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Felwood",
 							"xCoord": 64.76,
 							"yCoord": 8.21,
-							"coordsMap": "Felwood",
 							"comment": "Either turn in \"Speak to Nafien\" if Grazle was in southern Felwood and you were able to do his quest or get the quest now to do it soon",
 							"depth": 0,
 							"type": "Go to",
@@ -59867,6 +59867,30 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 52.47,
+							"yCoord": 27.93,
+							"coordsMap": "Tanaris",
+							"comment": ">>> Set HS <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Innkeeper Fizzgrimble",
+									"npcId": 7733,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -60159,13 +60183,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 41.86,
-							"yCoord": 2.6
+							"yCoord": 2.6,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Turn in \"A Gnome's Assitance\" last (accept quests first) and skip the RP and \"Linken's Memory\". It's from Felwood. Will do later",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -60174,18 +60199,42 @@
 							"npcId": 9117,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3941,
-									"questName": "A Gnome's Assistance",
-									"subTasks": [],
-									"type": "Turn in quest"
-								},
-								{
-									"questName": "Linken's Memory",
-									"questId": 3942,
+									"questName": "The Northern Pylon",
+									"questId": 4285,
 									"depth": 1,
 									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Eastern Pylon",
+									"questId": 4287,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Western Pylon",
+									"questId": 4288,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Southern Pylon",
+									"questId": 27516,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "A Gnome's Assistance",
+									"questId": 3941,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": false
 								}
