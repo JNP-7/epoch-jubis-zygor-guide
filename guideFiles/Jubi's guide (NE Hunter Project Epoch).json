@@ -64576,459 +64576,34 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "TODO: Have to accept \"Cleansing Felwood\" (from the NELF at the south)",
+							"xCoord": 54.11,
+							"yCoord": 86.73,
+							"coordsMap": "Felwood",
+							"comment": "Go south for a second and grab the quest you left behind the first time you entered the zone",
 							"depth": 0,
-							"type": "Comment",
+							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "TODO: Have to accept \"Further Corruption\" from NPC at camp",
+							"npcName": "Arathandris Silversky",
+							"npcId": 9528,
 							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Cleansing Felwood",
+									"questId": 4101,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.25,
-							"yCoord": 82.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Greta Mosshoof",
-							"npcId": 10922,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5159,
-									"questName": "Cleansed Water Returns to Felwood",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.25,
-							"yCoord": 82.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Greta Mosshoof",
-							"npcId": 10922,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5165,
-									"questName": "Dousing the Flames of Protection",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.94,
-							"yCoord": 81.68
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Taronn Redfeather",
-							"npcId": 10921,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5156,
-									"questName": "Verifying the Corruption",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.24,
-							"yCoord": 55.74
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jaedenar Legionnaire",
-							"npcId": 9862,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5202,
-									"questName": "A Strange Red Key",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.2,
-							"yCoord": 55.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5202,
-							"questName": "A Strange Red Key",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 36.2,
-							"yCoord": 55.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Captured Arko'narin",
-							"npcId": 11016,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5203,
-									"questName": "Rescue From Jaedenar",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.15,
-							"yCoord": 82.07
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5165,
-							"questName": "Dousing the Flames of Protection",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.2,
-							"yCoord": 82.05
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Greta Mosshoof",
-							"npcId": 10922,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5242,
-									"questName": "A Final Blow",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.35,
-							"yCoord": 82.07
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jessir Moonbow",
-							"npcId": 11019,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5203,
-									"questName": "Rescue From Jaedenar",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.35,
-							"yCoord": 82.07
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jessir Moonbow",
-							"npcId": 11019,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5204,
-									"questName": "Retribution of the Light",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.77,
-							"yCoord": 8.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grazle",
-							"npcId": 11554,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 8460,
-									"questName": "Timbermaw Ally",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.77,
-							"yCoord": 8.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grazle",
-							"npcId": 11554,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6131,
-									"questName": "Timbermaw Ally",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.77,
-							"yCoord": 8.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grazle",
-							"npcId": 11554,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 8462,
-									"questName": "Speak to Nafien",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.77,
-							"yCoord": 8.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grazle",
-							"npcId": 11554,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6221,
-									"questName": "Deadwood of the North",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 54.1,
-							"yCoord": 86.86
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 4101,
-							"questName": "Cleansing Felwood",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
 				},
 				{
 					"onlyForClasses": [],
@@ -65055,6 +64630,22 @@
 									"questName": "Further Corruption",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Linken's Memory",
+									"questId": 3942,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Silver Heart",
+									"questId": 4084,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -65070,20 +64661,886 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.35,
-							"yCoord": 81.52
+							"xCoord": 51.25,
+							"yCoord": 82.15
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Eridan Bluewind",
-							"npcId": 9116,
+							"npcName": "Greta Mosshoof",
+							"npcId": 10922,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 3942,
-									"questName": "Linken's Memory",
+									"questId": 5159,
+									"questName": "Cleansed Water Returns to Felwood",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Dousing the Flames of Protection",
+									"questId": 5165,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 45.66,
+							"yCoord": 73.85,
+							"coordsMap": "Felwood",
+							"comment": "Start moving north to Jaedenar but stop in high concentration areas of bears and/or wolves to AoE them down for Silvery Claws",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Use the Blasted Lands int buff to begin training your XBOW + Axe skills (fun...)",
+									"itemId": 8423,
+									"itemName": "Cerebral Cortex Compound",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 45.11,
+							"yCoord": 70.17,
+							"coordsMap": "Felwood",
+							"comment": "Another one",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 43.7,
+							"yCoord": 65.32,
+							"coordsMap": "Felwood",
+							"comment": "More bears",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 40.76,
+							"yCoord": 57.49,
+							"coordsMap": "Felwood",
+							"comment": "Should be close to 8/11 by the time you reach Jaedenar",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 35.4,
+							"yCoord": 58.63,
+							"coordsMap": "Felwood",
+							"comment": "Go down the tunnel. The mobs in here drop a red key that goes into your keyring if looted. It starts a quest. It's completly possible for you to not get the drop. Guide asumes you do.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 36.24,
+							"yCoord": 56.22,
+							"coordsMap": "Felwood",
+							"comment": "Douse the first brazzier by clicking it. Ignore the named Satyr, does nothing",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Extinguish the Brazier of Pain",
+									"questId": 5165,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 36.2,
+							"yCoord": 55.53,
+							"coordsMap": "Felwood",
+							"comment": "If you looted the key, accept the quest, turn it in, then start the escort quest. Otherwise, skip this step.",
+							"itemId": 13140,
+							"itemName": "Blood Red Key",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "A Strange Red Key",
+									"questId": 5202,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"npcName": "Captured Arko'narin",
+							"npcId": 11016,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "A Strange Red Key",
+									"questId": 5202,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 5203,
+									"questName": "Rescue From Jaedenar",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 36.54,
+							"yCoord": 55.22,
+							"coordsMap": "Felwood",
+							"comment": "Keep dousing braziers while doing the escort quest if possible",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Extinguish the Brazier of Hatred",
+									"questId": 5165,
+									"questObjectiveIndex": 4,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 36.76,
+							"yCoord": 53.3,
+							"coordsMap": "Felwood",
+							"comment": "Next brazier",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Extinguish the Brazier of Suffering",
+									"questId": 5165,
+									"questObjectiveIndex": 3,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.65,
+							"yCoord": 52.69,
+							"coordsMap": "Felwood",
+							"comment": "3 Felguards will spawn after the nelf gets her armor. Last brazier",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Extinguish the Brazier of Malice",
+									"questId": 5165,
+									"questObjectiveIndex": 2,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 35.42,
+							"yCoord": 59.03,
+							"coordsMap": "Felwood",
+							"comment": "Once you get outside an elite ghost of a palladin will spawn. Just pet tank and use Viper sting. If he tries to Holy Light use intimidation or trap him",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Protect Arko'narin",
+									"questId": 5203,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.33,
+							"yCoord": 44.74,
+							"coordsMap": "Felwood",
+							"comment": "Go north and keep killing the wildlife. More bears here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 40.98,
+							"yCoord": 33.42,
+							"coordsMap": "Felwood",
+							"comment": "Another big cluster here. Probably done by now. If not, finish the quest while up north",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Silvery Claws",
+									"questId": 4084,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 11,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 42.58,
+							"yCoord": 20.15,
+							"coordsMap": "Felwood",
+							"comment": "Enter Jadefire Run then go west to kill Xavaric while killing the other satyrs (no need to finish this one yet)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Burst the trickesters as fast as you can or they willl mind controll you and make you attack your pet/waste CDs",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 39.08,
+							"yCoord": 22.28,
+							"coordsMap": "Felwood",
+							"comment": "Kill the Satyr then use the flute he drops to start another quest",
+							"itemId": 11668,
+							"itemName": "Flute of Xavaric",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Xavaric",
+									"npcId": 10648,
+									"count": 1,
+									"questId": 4906,
+									"questObjectiveIndex": 4,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Flute of Xavaric",
+									"questId": 939,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Finish killing/gathering the Felbinds while heading towards the lake to the south-east",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"npcName": "Jadefire Hellcaller",
+									"npcId": 7111,
+									"count": 8,
+									"questId": 4906,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Jadefire Betrayer",
+									"npcId": 7108,
+									"count": 8,
+									"questId": 4906,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Jadefire Trickster",
+									"npcId": 7107,
+									"count": 8,
+									"questId": 4906,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Jadefire Felbind",
+									"questId": 939,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.39,
+							"yCoord": 23.99,
+							"coordsMap": "Felwood",
+							"comment": "Go here and kill trees untill the Heart drops. Finish with the claws on the way if you are still missing any",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Silvery Claws",
+									"questId": 4084,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 11,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Irontree Heart",
+									"questId": 4084,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Irontree Stomper",
+											"npcId": 7139
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 54.42,
+							"yCoord": 16.72,
+							"coordsMap": "Felwood",
+							"comment": "Now here and start killing the elementals. Get inside the cave and turn around when you are at 10/15 to finish the quest off of the respawns",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Blood Amber",
+									"count": 15,
+									"questId": 4101,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Warpwood Shredder",
+											"npcId": 7101
+										},
+										{
+											"npcName": "Warpwood Moss Flayer",
+											"npcId": 7100
+										}
+									],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.29,
+							"yCoord": 25.61,
+							"coordsMap": "Felwood",
+							"comment": ">>> Refill quiver before flying to southern Felwood <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Malygen",
+									"npcId": 2803,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.5,
+							"yCoord": 24.2,
+							"coordsMap": "Felwood",
+							"comment": "Fly to southern Felwood (Emerald Sanctuary)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 54.12,
+							"yCoord": 86.79,
+							"coordsMap": "Felwood",
+							"comment": "Go south for a second and turn this in. Ask her for a beacon afterwards and keep it on your bags for now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "If the Felwood plant items were bugged and were dropping w/o the beacon turn the follow up now. Guides asumes they aren't",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"npcName": "Arathandris Silversky",
+							"npcId": 9528,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 4101,
+									"questName": "Cleansing Felwood",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 51.35,
+							"yCoord": 82.07,
+							"coordsMap": "Felwood",
+							"comment": "Back to camp",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Jessir Moonbow",
+							"npcId": 11019,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 5203,
+									"questName": "Rescue From Jaedenar",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Retribution of the Light",
+									"questId": 5204,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 51.15,
+							"yCoord": 82.07
+						},
+						{
+							"npcName": "Greta Mosshoof",
+							"npcId": 10922,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Dousing the Flames of Protection",
+									"questId": 5165,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "A Final Blow",
+									"questId": 5242,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.32,
+							"yCoord": 81.57,
+							"coordsMap": "Felwood",
+							"comment": "Turn in quests, skip both follow ups. You won't get to do them before reaching 60",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Eridan Bluewind",
+							"npcId": 9116,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Flute of Xavaric",
+									"questId": 939,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Silver Heart",
+									"questId": 4084,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 35.41,
+							"yCoord": 58.83,
+							"coordsMap": "Felwood",
+							"comment": "Back to Jaedenar. If you didn't get the red key quest before but do now then do it while finishing the other quest. Unfortunately, it won't worth to do the follow up in this case, you are not going back here again.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 38.31,
+							"yCoord": 50.51,
+							"coordsMap": "Felwood",
+							"comment": "Careful with this room, try to split pull things by LoSing them on the pilars, hitting them with your pet and using FD",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Rakaiah",
+									"npcId": 9518,
+									"count": 1,
+									"questId": 5204,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.47,
+							"yCoord": 50.43,
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Remains of Trey Lightforge",
+							"npcId": 11020,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Retribution of the Light",
+									"questId": 5204,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Remains of Trey Lightforge",
+									"questId": 5385,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.86,
+							"yCoord": 46.8,
+							"coordsMap": "Felwood",
+							"comment": "Go further down and go to the northern big room. Kill the orc and his 2 succubus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Moora",
+									"npcId": 9861,
+									"count": 1,
+									"questId": 5242,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Salia",
+									"npcId": 9860,
+									"count": 1,
+									"questId": 5242,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [
+										{
+											"comment": "Kill her first after the orc (the red one). She uses mind controll",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"itemName": "Shadow Lord Fel'dan's Head",
+									"questId": 5242,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 35.44,
+							"yCoord": 58.91,
+							"coordsMap": "Felwood",
+							"comment": "Back outside. If you got the red key now do the quest on your way out, but don't accept the follow up in town, we won't be back here anymore.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip to next step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 51.19,
+							"yCoord": 82.13
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Greta Mosshoof",
+							"npcId": 10922,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 5242,
+									"questName": "A Final Blow",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -65093,57 +65550,166 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.32,
+							"yCoord": 82.05,
 							"coordsMap": "Felwood",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.35,
-							"yCoord": 81.52
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Jessir Moonbow",
+							"npcId": 11019,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Eridan Bluewind",
-							"npcId": 9116,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "The Remains of Trey Lightforge",
+									"questId": 5385,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 4084,
-									"questName": "Silver Heart",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 54.12,
+							"yCoord": 86.83,
+							"coordsMap": "Felwood",
+							"comment": "Don't fly to north Felwood yet. Turn in Salve via hunting if you have x6 or more Corrupted Soul Shards. Every 6 is a Songflower buff",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"xCoord": 46.76,
+									"yCoord": 83.2,
+									"coordsMap": "Felwood",
+									"comment": "If for some reason she doesn't give the repeatable quest then go north and turn the remainder at this Tauren. Felwood has probably been reverted to 1.12 status as per the issue tracker anyways, should be fine",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip to next step after you are done or if you have <6 Soul Shards",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.49,
+							"yCoord": 82.23,
+							"coordsMap": "Felwood",
+							"comment": "Fly to north Felwood (Talonbranch Glade)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 62.29,
+							"yCoord": 25.61,
 							"coordsMap": "Felwood",
+							"comment": ">>> Refill quiver <<<",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 39.07,
-							"yCoord": 22.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 939,
-							"questName": "Flute of Xavaric",
-							"subTasks": [],
-							"type": "Accept quest"
+							"subTasks": [
+								{
+									"npcName": "Malygen",
+									"npcId": 2803,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.01,
+							"yCoord": 22.52,
+							"coordsMap": "Felwood",
+							"comment": "Cleanse a Songflower to get the buff if you have Salves",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 64.76,
+							"yCoord": 8.23,
+							"coordsMap": "Felwood",
+							"comment": "TODO: Maybe he is not here and Grazle is here instead. Need to check on beta",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Nafien",
+							"npcId": 15395,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 8461,
+									"questName": "Deadwood of the North",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "TODO: Continue here -> Do Deadwood of the north get Salfa's quest then fly to Everlook",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -65610,116 +66176,6 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 64.77,
-							"yCoord": 8.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grazle",
-							"npcId": 11554,
-							"subTasks": [],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.77,
-							"yCoord": 8.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grazle",
-							"npcId": 11554,
-							"subTasks": [],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.77,
-							"yCoord": 8.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grazle",
-							"npcId": 11554,
-							"subTasks": [],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.77,
-							"yCoord": 8.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grazle",
-							"npcId": 11554,
-							"subTasks": [],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.77,
-							"yCoord": 8.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Grazle",
-							"npcId": 11554,
-							"subTasks": [],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 62.52,
 							"yCoord": 10.31
 						},
@@ -65783,6 +66239,45 @@
 							"questName": "Mystery Goo",
 							"subTasks": [],
 							"type": "Accept quest"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 64.76,
+							"yCoord": 8.23,
+							"coordsMap": "Felwood",
+							"comment": "TODO: Maybe he is not here and Grazle is here instead. Need to check on beta",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Nafien",
+							"npcId": 15395,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 8461,
+									"questName": "Deadwood of the North",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Maybe have to re arrange this one",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -65986,152 +66481,6 @@
 									"isCustom": false,
 									"questId": 6031,
 									"questName": "Runecloth",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.45,
-							"yCoord": 50.3
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Remains of Trey Lightforge",
-							"npcId": 11020,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5204,
-									"questName": "Retribution of the Light",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.45,
-							"yCoord": 50.3
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5385,
-							"questName": "The Remains of Trey Lightforge",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.19,
-							"yCoord": 82.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Greta Mosshoof",
-							"npcId": 10922,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5242,
-									"questName": "A Final Blow",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.34,
-							"yCoord": 82.05
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jessir Moonbow",
-							"npcId": 11019,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5385,
-									"questName": "The Remains of Trey Lightforge",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.32,
-							"yCoord": 81.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Eridan Bluewind",
-							"npcId": 9116,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4906,
-									"questName": "Further Corruption",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
