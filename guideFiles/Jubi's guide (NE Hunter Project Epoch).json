@@ -59840,13 +59840,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 51.79,
-							"yCoord": 28.62
+							"yCoord": 28.62,
+							"coordsMap": "Tanaris",
+							"comment": ">>> DON'T set your HS here, we want it to remain in Auberdine <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -61576,53 +61577,61 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"xCoord": 44.18,
+							"yCoord": 11.42
+						},
+						{
+							"npcName": "Shizzle",
+							"npcId": 9998,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Shizzle's Flyer",
+									"questId": 4503,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Un'Goro Crater",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
 							"xCoord": 44.38,
 							"yCoord": 10.28
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Yaluni Flamewatcher",
 							"npcId": 46522,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27512,
 									"questName": "Storm, Earth, Wind, and Fire",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.38,
-							"yCoord": 10.28
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Yaluni Flamewatcher",
-							"npcId": 46522,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27513,
 									"questName": "Storm, Earth, Wind, and Fire",
+									"questId": 27513,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -61638,20 +61647,60 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 43.99,
-							"yCoord": 7.21
+							"xCoord": 44.88,
+							"yCoord": 9.13
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "S.J. Erlgadin Jr.",
+							"npcId": 46351,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27390,
+									"questName": "The Un'Goro Hunt",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Un'Goro Hunt",
+									"questId": 27391,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 43.01,
+							"yCoord": 9.54,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Skip the follow up, not going back to Feralas",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Williden Marshal",
-							"npcId": 9270,
+							"npcName": "Muigin",
+							"npcId": 9119,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 3881,
-									"questName": "Expedition Salvation",
+									"questId": 4141,
+									"questName": "Muigin and Larion",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -61669,27 +61718,199 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 43.99,
-							"yCoord": 7.21
+							"xCoord": 43.67,
+							"yCoord": 8.44
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Williden Marshal",
-							"npcId": 9270,
+							"npcName": "Spraggle Frock",
+							"npcId": 9997,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 27399,
-									"questName": "Research Salvation",
+									"questId": 4501,
+									"questName": "Beware of Pterrordax",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
+								},
+								{
+									"questId": 4492,
+									"questName": "Lost!",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 43.3,
+							"yCoord": 7.78,
+							"coordsMap": "Un'Goro Crater",
+							"comment": ">>> Refill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Nergal",
+									"npcId": 12959,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Un'Goro Crater",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 43.55,
+							"yCoord": 7.49
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Spark Nilminer",
+							"npcId": 9272,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 3882,
+									"questName": "Roll the Bones",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 41.83,
+							"yCoord": 2.58,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Can accept the Felwood quest now since quest log is less bloated now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "J.D. Collie",
+							"npcId": 9117,
+							"subTasks": [
+								{
+									"questName": "The Eastern Pylon",
+									"questId": 4287,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Western Pylon",
+									"questId": 4288,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Southern Pylon",
+									"questId": 27516,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "One of These Things is Not Like the Others",
+									"questId": 27517,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Linken's Memory",
+									"questId": 3942,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Making Sense of It",
+									"questId": 4321,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Making Sense of It",
+									"questId": 4321,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 41.83,
+							"yCoord": 2.58,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Use the drill the progress the quest",
+							"itemId": 63028,
+							"itemName": "Lakey's Core Driller",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Crystal Cave Core",
+									"questId": 27494,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -61731,53 +61952,30 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 43.55,
-							"yCoord": 7.49
+							"xCoord": 43.99,
+							"yCoord": 7.21
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Spark Nilminer",
-							"npcId": 9272,
+							"npcName": "Williden Marshal",
+							"npcId": 9270,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 3882,
-									"questName": "Roll the Bones",
+									"questId": 3881,
+									"questName": "Expedition Salvation",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 43.01,
-							"yCoord": 9.54
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Muigin",
-							"npcId": 9119,
-							"subTasks": [
+								},
 								{
+									"questName": "Research Salvation",
+									"questId": 27399,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 4141,
-									"questName": "Muigin and Larion",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -61785,57 +61983,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 45.18,
+							"yCoord": 5.87,
 							"coordsMap": "Un'Goro Crater",
+							"comment": "Fly to Gadgetzan",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 43.01,
-							"yCoord": 9.54
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Muigin",
-							"npcId": 9119,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4142,
-									"questName": "A Visit to Gregan",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.18,
-							"yCoord": 11.42
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 4503,
-							"questName": "Shizzle's Flyer",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -61862,37 +62022,14 @@
 									"questName": "Bungle in the Jungle",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.95,
-							"yCoord": 26.99
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Alchemist Pestlezugg",
-							"npcId": 5594,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4507,
 									"questName": "Pawn Captures Queen",
+									"questId": 4507,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -61934,13 +62071,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 52.74,
-							"yCoord": 45.89
+							"yCoord": 45.89,
+							"coordsMap": "Tanaris",
+							"comment": "Skip follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -61986,37 +62124,30 @@
 									"questName": "The Apes of Un'Goro",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 71.61,
-							"yCoord": 75.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Torwa Pathfinder",
-							"npcId": 9619,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4290,
 									"questName": "The Fare of Lar'korwi",
+									"questId": 4290,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
+								},
+								{
+									"questName": "The Scent of Lar'korwi",
+									"questId": 4291,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Mighty U'cha",
+									"questId": 4301,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -62024,57 +62155,53 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 67.38,
+							"yCoord": 73.04,
 							"coordsMap": "Un'Goro Crater",
+							"comment": "Go near the eggs and one mate will spawn. Kill it, get away from the eggs then run back in and another should spawn.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 71.61,
-							"yCoord": 75.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Torwa Pathfinder",
-							"npcId": 9619,
 							"subTasks": [
 								{
+									"comment": "Also kill any Ravasaur on your way to gather research notes",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 4291,
-									"questName": "The Scent of Lar'korwi",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 71.61,
-							"yCoord": 75.96
+							"isCustom": false
 						},
 						{
+							"xCoord": 66.6,
+							"yCoord": 66.74,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "If the second one doesn't spawn there is another nest here",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 4301,
-							"questName": "The Mighty U'cha",
+							"type": "Go to",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
+						},
+						{
+							"itemName": "Ravasaur Pheromone Gland",
+							"count": 2,
+							"questId": 4291,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Lar'korwi Mate",
+									"npcId": 9683
+								}
+							],
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -62101,42 +62228,139 @@
 									"questName": "The Scent of Lar'korwi",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 71.56,
-							"yCoord": 76
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Torwa Pathfinder",
-							"npcId": 9619,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4292,
 									"questName": "The Bait for Lar'korwi",
+									"questId": 4292,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.54,
+							"yCoord": 78.27,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Go here and kill any Ravasaur on the way. At this waypoint there should be enough Ravasaur to finish gathering the notes. AoE them down if you can",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Research Notes",
+									"questId": 27399,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.95,
+							"yCoord": 81.51,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Back to bug Disneyland, enter tunnel of fun here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 43.54,
+							"yCoord": 81.07,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Follow the tunnel west to the end to here. Try to kill all the mobs in this room as fast as you can to avoid respawns while fighting the waves",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Full mana/HP and use the lure when ready. First 2 waves spawn at the side of the entrance of the room so just stay near the crystal. The 3rd wave spawn with the queen near the crystal, so go back to the entrance. The queen can be splitpulled from her guards.",
+							"itemId": 11833,
+							"itemName": "Gorish Queen Lure",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Gorish Queen Brain",
+									"questId": 4507,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Gorish Hive Queen",
+											"npcId": 10041
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 50,
+							"yCoord": 81.14,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Back out side, head west",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 41.37,
+							"yCoord": 77.82,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Kill the Stegodon that spawns here. Lay a freezing trap down and pet tank it. If things get bad just trap and bandage. If no trap CD/Resist use Scare beast. Ezpz",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Stegodon Head",
+									"questId": 27391,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Stegodon",
+											"npcId": 6501
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -62147,22 +62371,318 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 44.88,
-							"yCoord": 9.13
+							"xCoord": 28.98,
+							"yCoord": 77.07
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "S.J. Erlgadin Jr.",
-							"npcId": 46351,
+							"isCustom": true,
+							"npcName": "Leakey Cartspark",
+							"npcId": 46487,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27390,
-									"questName": "The Un'Goro Hunt",
+									"isCustom": true,
+									"questId": 27517,
+									"questName": "One of These Things is Not Like the Others",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "One of These Things is Not Like the Others",
+									"questId": 27518,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 47.35,
+							"yCoord": 52.3,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Go to this slope and kill any ooze you find on the way untill the quest item drops",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Ooze Compound",
+									"questId": 27518,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Glutinous Ooze",
+											"npcId": 6559
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 47.35,
+							"yCoord": 52.3,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "At the slope, face the topo of the volcano then run and jump constantly to your left until you get to the next level.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Kill and absorb the elementals on your way",
+									"itemId": 63061,
+									"itemName": "Yaluni's Totem",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 48.12,
+							"yCoord": 50.02,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Afterwards just spam jump here to get on the upper level then border the lave lake counter clock wise (you will aggro elemental Ganondorf otherwise)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Skip to next step",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.63,
+							"yCoord": 45.82,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Use the thermometer here",
+							"itemId": 12472,
+							"itemName": "Krakle's Thermometer",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Find the hottest area of Fire Plume Ridge",
+									"questId": 974,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.84,
+							"yCoord": 48.38,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Use the drill to retrieve the core",
+							"itemId": 63028,
+							"itemName": "Lakey's Core Driller",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Fire Plume Ridge Core",
+									"questId": 27494,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.98,
+							"yCoord": 50.02,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Finish gathering the ashes and absorbing the elementals while heading towards Ringo's cave",
+							"itemId": 63061,
+							"itemName": "Yaluni's Totem",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Un'Goro Ash",
+									"questId": 4502,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 9,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "Power Absorbed",
+									"questId": 27513,
+									"questObjectiveIndex": 1,
+									"count": 6,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.95,
+							"yCoord": 49.94,
+							"coordsMap": "Un'Goro Crater",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Ringo",
+							"npcId": 9999,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Lost!",
+									"questId": 4492,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 4491,
+									"questName": "A Little Help From My Friends",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 54.57,
+							"yCoord": 39.61,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Go north until you reach the river then follow it west untill you get the 4 sands.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Keep an eye on Ringo and revive him with the canteen if he passes out (bind it)",
+									"itemId": 11804,
+									"itemName": "Spraggle's Canteen",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Fine River Sand",
+									"questId": 27518,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 4,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 44.31,
+							"yCoord": 10.27,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Back to camp. Make sure you don't leave Ringo behind",
+							"itemId": 11804,
+							"itemName": "Spraggle's Canteen",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Yaluni Flamewatcher",
+							"npcId": 46522,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27513,
+									"questName": "Storm, Earth, Wind, and Fire",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Storm, Earth, Wind, and Fire",
+									"questId": 27514,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -62178,25 +62698,98 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 44.88,
-							"yCoord": 9.13
+							"xCoord": 44.83,
+							"yCoord": 9.12
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "S.J. Erlgadin Jr.",
 							"npcId": 46351,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27391,
 									"questName": "The Un'Goro Hunt",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Un'Goro Hunt",
+									"questId": 27392,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 43.66,
+							"yCoord": 8.59,
+							"coordsMap": "Un'Goro Crater",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"goalName": "Escort Ringo",
+							"questId": 4491,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Spraggle Frock",
+							"npcId": 9997,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "A Little Help From My Friends",
+									"questId": 4491,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 43.3,
+							"yCoord": 7.78,
+							"coordsMap": "Un'Goro Crater",
+							"comment": ">>> Refill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Nergal",
+									"npcId": 12959,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -62220,7 +62813,7 @@
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27399,
 									"questName": "Research Salvation",
 									"subTasks": [],
@@ -62235,27 +62828,155 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 30.93,
+							"yCoord": 50.48,
 							"coordsMap": "Un'Goro Crater",
+							"comment": "Long run now. Absorb any of the elementals that you might find before getting to the goblin",
+							"itemId": 63063,
+							"itemName": "Yaluni's Totem",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 41.83,
-							"yCoord": 2.58
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"comment": "If you spot any regular Devilsaur along the way take note where it is before it de-renders to go back there later.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "Probably won't find any, the only devilsaur in west Un'Goro is King Mosh (unless devs change it)",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "J.D. Collie",
-							"npcId": 9117,
+							"npcName": "Krakle",
+							"npcId": 10302,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 4285,
-									"questName": "The Northern Pylon",
+									"questId": 974,
+									"questName": "Finding the Source",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The New Springs",
+									"questId": 980,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 29.96,
+							"yCoord": 50.75,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Use the drill near the geyser to get the last core",
+							"itemId": 63028,
+							"itemName": "Lakey's Core Driller",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Golakka Hot Springs Core",
+									"questId": 27494,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Finish absorbing the elementals while moving south",
+							"itemId": 63063,
+							"itemName": "Yaluni's Totem",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"goalName": "Power Absorbed",
+									"questId": 27514,
+									"questObjectiveIndex": 1,
+									"count": 6,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 28.95,
+							"yCoord": 77.06,
+							"coordsMap": "Un'Goro Crater",
+							"comment": ">>> Don't vendor or delete the spell hit trinket for the gnome <<< If FD is nerfed back to being able to be resisted (*puke*) this thing suddenly is useful.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Leakey Cartspark",
+							"npcId": 46487,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27494,
+									"questName": "The Legend of Aru-Talis",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "One of These Things is Not Like the Others",
+									"questId": 27518,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "One of These Things is Not Like the Others",
+									"questId": 27519,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -62271,22 +62992,22 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 41.85,
-							"yCoord": 2.6
+							"xCoord": 29.07,
+							"yCoord": 77.18
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "J.D. Collie",
-							"npcId": 9117,
+							"isCustom": true,
+							"npcName": "Jaylssa Stonesong",
+							"npcId": 46486,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 4287,
-									"questName": "The Eastern Pylon",
+									"isCustom": true,
+									"questId": 27495,
+									"questName": "The Legend of Aru-Talis",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
@@ -62294,16 +63015,385 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 30.8,
+							"yCoord": 85.19,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "First tablet. Use the appropiate rubbing",
+							"itemId": 63034,
+							"itemName": "First Tablet Rubbing",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "First Tablet Rubbing",
+									"questId": 27495,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 44.88,
+							"yCoord": 87.54,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Follow the eastern path untill you are able to drop to the Pterrordax area, then apply the compound to the pylon",
+							"itemId": 63066,
+							"itemName": "Leakey's Age Detection Compound",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Kill the Ooze that spawns to complete the quest",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "Investigate Southern Pylon",
+									"questId": 27519,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 50.41,
+							"yCoord": 87.25,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Can't climb through the mountains now, enter the next ruins from here then turn west to find the tablet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"coordsMap": "Un'Goro Crater",
+							"xCoord": 45.96,
+							"yCoord": 94.15,
+							"comment": "Another tablet here",
+							"itemId": 63037,
+							"itemName": "Fourth Tablet Rubbing",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Fourth Tablet Rubbing",
+									"count": 1,
+									"questId": 27495,
+									"questObjectiveIndex": 4,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If my italian organized crime degree is right, there are no Devilsaurs in west Un'Goro in Trinity Core (unless fixed by the devs). What's more, only a single spawn is a regular Devilsaur, the one you need for the quest (east Volcano's skirts). If no one is in the area, it should be exactly there. Listing all the spawns now",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"xCoord": 46.61,
+									"yCoord": 56.96,
+									"coordsMap": "Un'Goro Crater",
+									"comment": "Always a Tyrant Devilsaur",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"xCoord": 58.44,
+									"yCoord": 61.09,
+									"coordsMap": "Un'Goro Crater",
+									"comment": "Always an Ironhide Devilsaur",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"xCoord": 56.9,
+									"yCoord": 50.9,
+									"coordsMap": "Un'Goro Crater",
+									"comment": "Always a regular Devilsaur. You want this one. It patrols straight south untill almost the mountain range then north untill the river",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [
+										{
+											"itemName": "Devilsaur Head",
+											"questId": 27392,
+											"questObjectiveIndex": 1,
+											"toLootNpcs": [
+												{
+													"npcName": "Devilsaur",
+													"npcId": 6498
+												}
+											],
+											"count": 1,
+											"depth": 2,
+											"type": "Get",
+											"subTasks": [],
+											"isCustom": false
+										},
+										{
+											"comment": "Just like with the Stegodon, place freezing trap and trap/scare beast if things go south. Pet can factank. Can't kite (too fast) or use frost trap around a tree (semi-ranged attack + very big model)",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"xCoord": 71.01,
+									"yCoord": 52.3,
+									"coordsMap": "Un'Goro Crater",
+									"comment": "Always a Tyrant Devilsaur. Doesn't patrol unless devs have fixed it too",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "That's it. 3-4 spawns are missing unless fixed. The only other one is King Mosh. Check in the order shown to get closer to the next step (apes cave)",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.75,
+							"yCoord": 16.5,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Long run to monkey cave. Remember, Thunderers hit like trucks, don't double pull them.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 68.19,
+							"yCoord": 12.57,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Take the left path, it loops around to the upper level of the deepest area",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "U'cha's Pelt",
+									"questId": 4301,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "U'cha",
+											"npcId": 9622
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 70.61,
+							"yCoord": 16.69,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Next tablet here. The slope to get up here is unusually step, but it can be done.",
+							"itemId": 63035,
+							"itemName": "Second Tablet Rubbing",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Second Tablet Rubbing",
+									"questId": 27495,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 78.56,
+							"yCoord": 35.71,
 							"coordsMap": "Un'Goro Crater",
+							"comment": "Last tablet",
+							"itemId": 63036,
+							"itemName": "Third Tablet Rubbing",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Third Tablet Rubbing",
+									"questId": 27495,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 45.96,
+							"yCoord": 94.15,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Another tablet here",
+							"itemId": 63037,
+							"itemName": "Fourth Tablet Rubbing",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Fourth Tablet Rubbing",
+									"questId": 27495,
+									"questObjectiveIndex": 4,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 79.92,
+							"yCoord": 49.91,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Open Torwa's pouch then use the item here to summon the Ravasur",
+							"itemId": 11568,
+							"itemName": "Torwa's Pouch",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Meat",
+									"itemId": 11569,
+									"itemName": "Preserved Threshadon Meat",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Some seasoning",
+									"itemId": 11570,
+									"itemName": "Preserved Pheromone Mixture",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Larwoki's Head",
+									"questId": 4292,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Lar'korwi",
+											"npcId": 9684
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 71.61,
-							"yCoord": 75.97
+							"yCoord": 75.97,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Run south now, get ready for more if this...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -62316,8 +63406,24 @@
 									"isCustom": false,
 									"questId": 4301,
 									"questName": "The Mighty U'cha",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"comment": "Pick the axe. Try to level this one with your soon to be new xbow and the blasted lands buff (leveling weapon skills in 2025, cool vanilla -)",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Bait for Lar'korwi",
+									"questId": 4292,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -62359,789 +63465,392 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 29.03,
+							"yCoord": 77.18,
 							"coordsMap": "Un'Goro Crater",
+							"comment": "Yes, the other corner again. Un'Goro is very quest dense, but the last runs of the new quests are awful. If someone knows a better way I'm all ears.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 44.31,
-							"yCoord": 10.27
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Yaluni Flamewatcher",
-							"npcId": 46522,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27513,
-									"questName": "Storm, Earth, Wind, and Fire",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.31,
-							"yCoord": 10.26
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Yaluni Flamewatcher",
-							"npcId": 46522,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27514,
-									"questName": "Storm, Earth, Wind, and Fire",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.83,
-							"yCoord": 9.12
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "S.J. Erlgadin Jr.",
-							"npcId": 46351,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27391,
-									"questName": "The Un'Goro Hunt",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.83,
-							"yCoord": 9.12
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "S.J. Erlgadin Jr.",
-							"npcId": 46351,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27392,
-									"questName": "The Un'Goro Hunt",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 43.67,
-							"yCoord": 8.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Spraggle Frock",
-							"npcId": 9997,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4501,
-									"questName": "Beware of Pterrordax",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.87,
-							"yCoord": 2.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "J.D. Collie",
-							"npcId": 9117,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4288,
-									"questName": "The Western Pylon",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.87,
-							"yCoord": 2.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "J.D. Collie",
-							"npcId": 9117,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27516,
-									"questName": "The Southern Pylon",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.87,
-							"yCoord": 2.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "J.D. Collie",
-							"npcId": 9117,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27517,
-									"questName": "One of These Things is Not Like the Others",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.87,
-							"yCoord": 2.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "J.D. Collie",
-							"npcId": 9117,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4321,
-									"questName": "Making Sense of It",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.87,
-							"yCoord": 2.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "J.D. Collie",
-							"npcId": 9117,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4321,
-									"questName": "Making Sense of It",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.98,
-							"yCoord": 77.07
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Leakey Cartspark",
-							"npcId": 46487,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27517,
-									"questName": "One of These Things is Not Like the Others",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.98,
-							"yCoord": 77.07
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Leakey Cartspark",
-							"npcId": 46487,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27518,
-									"questName": "One of These Things is Not Like the Others",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.04,
-							"yCoord": 77.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Jaylssa Stonesong",
 							"npcId": 46486,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27492,
-									"questName": "The Legend of Aru-Talis",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.09,
-							"yCoord": 77.23
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jaylssa Stonesong",
-							"npcId": 46486,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27492,
-									"questName": "The Legend of Aru-Talis",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.09,
-							"yCoord": 77.23
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jaylssa Stonesong",
-							"npcId": 46486,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27493,
-									"questName": "The Legend of Aru-Talis",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.02,
-							"yCoord": 77.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jaylssa Stonesong",
-							"npcId": 46486,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27493,
-									"questName": "The Legend of Aru-Talis",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.95,
-							"yCoord": 77.09
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Leakey Cartspark",
-							"npcId": 46487,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27494,
-									"questName": "The Legend of Aru-Talis",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 30.93,
-							"yCoord": 50.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Krakle",
-							"npcId": 10302,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 974,
-									"questName": "Finding the Source",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 30.93,
-							"yCoord": 50.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Krakle",
-							"npcId": 10302,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 980,
-									"questName": "The New Springs",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.84,
-							"yCoord": 9.04
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "S.J. Erlgadin Jr.",
-							"npcId": 46351,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27392,
-									"questName": "The Un'Goro Hunt",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.41,
-							"yCoord": 10.35
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 27514,
-							"questName": "Storm, Earth, Wind, and Fire",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 44.41,
-							"yCoord": 10.35
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 27515,
-							"questName": "Storm, Earth, Wind, and Fire",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.95,
-							"yCoord": 77.06
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Leakey Cartspark",
-							"npcId": 46487,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27494,
-									"questName": "The Legend of Aru-Talis",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.95,
-							"yCoord": 77.06
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Leakey Cartspark",
-							"npcId": 46487,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27518,
-									"questName": "One of These Things is Not Like the Others",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.95,
-							"yCoord": 77.06
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Leakey Cartspark",
-							"npcId": 46487,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27519,
-									"questName": "One of These Things is Not Like the Others",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.07,
-							"yCoord": 77.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jaylssa Stonesong",
-							"npcId": 46486,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27495,
 									"questName": "The Legend of Aru-Talis",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Legend of Aru-Talis",
+									"questId": 27496,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Un'Goro Crater",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 28.95,
+							"yCoord": 77.08
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Leakey Cartspark",
+							"npcId": 46487,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27519,
+									"questName": "One of These Things is Not Like the Others",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "One of These Things is Not Like the Others",
+									"questId": 27520,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 44.35,
+							"yCoord": 10.26,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Tired of running yet? Only 1 more after this and it's done",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Yaluni Flamewatcher",
+							"npcId": 46522,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Storm, Earth, Wind, and Fire",
+									"questId": 27514,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Storm, Earth, Wind, and Fire",
+									"questId": 27515,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 44.84,
+							"yCoord": 9.04,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Pick the xbow, last weapon upgrade pre-60. Don't vendor the bow yet, you haven't trained xbow skill and you need to kill an elite soon",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "S.J. Erlgadin Jr.",
+							"npcId": 46351,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27392,
+									"questName": "The Un'Goro Hunt",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 43.3,
+							"yCoord": 7.78,
+							"coordsMap": "Un'Goro Crater",
+							"comment": ">>> Refill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Nergal",
+									"npcId": 12959,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Un'Goro Crater",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 41.86,
+							"yCoord": 2.58
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "J.D. Collie",
+							"npcId": 9117,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 27520,
+									"questName": "One of These Things is Not Like the Others",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "One of These Things is Not Like the Others",
+									"questId": 27521,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Un'Goro Crater",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 43.83,
+							"yCoord": 7.23
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Hol'anyee Marshal",
+							"npcId": 9271,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27521,
+									"questName": "One of These Things is Not Like the Others",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "One of These Things is Not Like the Others",
+									"questId": 27522,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 41.84,
+							"yCoord": 2.62,
+							"coordsMap": "Un'Goro Crater",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "J.D. Collie",
+							"npcId": 9117,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27522,
+									"questName": "One of These Things is Not Like the Others",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Storm Gathers",
+									"questId": 27523,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 44.3,
+							"yCoord": 27.19,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Go here and use the empowered totem to weaken the guardian. Kite it towards the entrance of Silithus (follow the river, don't touch the water or it will reset)",
+							"itemId": 63062,
+							"itemName": "Yaluni's Elementally Empowered Totem",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"xCoord": 30.47,
+							"yCoord": 23.67,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Growl off, Cower on, Distracting shot on CD. Kite up until this point then just play ring around the rosie in the tree trunk with a frost trap. You outrun this thing anyways, could kite it to Sillithus if you feel like it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Stone Guardian",
+									"npcId": 6560,
+									"count": 1,
+									"questId": 27515,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 29.26,
+							"yCoord": 22.31,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Go north-west to Silithus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 82.72,
+							"yCoord": 14.65,
+							"coordsMap": "Silithus",
+							"comment": "Get close to the pillar. This should complete the quest as per beta 3 (no need to discover both pilars). If it's required to discover both, abandon quest (not going down there again). Guide continues as if 1 is enough",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Discover the pilars",
+									"questId": 27523,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 82.04,
+							"yCoord": 19.79,
+							"coordsMap": "Silithus",
+							"comment": "Discover the FP and fly back to Un'Goro",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Shaethis Darkoak",
+									"npcId": 12333,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -63157,13 +63866,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Yaluni Flamewatcher",
 							"npcId": 46522,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27515,
 									"questName": "Storm, Earth, Wind, and Fire",
 									"subTasks": [],
@@ -63175,290 +63884,185 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 41.85,
+							"yCoord": 2.6,
 							"coordsMap": "Un'Goro Crater",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 28.95,
-							"yCoord": 77.08
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Leakey Cartspark",
-							"npcId": 46487,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27519,
-									"questName": "One of These Things is Not Like the Others",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 28.95,
-							"yCoord": 77.08
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Leakey Cartspark",
-							"npcId": 46487,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27520,
-									"questName": "One of These Things is Not Like the Others",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.03,
-							"yCoord": 77.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jaylssa Stonesong",
-							"npcId": 46486,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27495,
-									"questName": "The Legend of Aru-Talis",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 29.03,
-							"yCoord": 77.2
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jaylssa Stonesong",
-							"npcId": 46486,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27496,
-									"questName": "The Legend of Aru-Talis",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.86,
-							"yCoord": 2.58
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
 							"npcName": "J.D. Collie",
 							"npcId": 9117,
+							"depth": 0,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "The Storm Gathers",
+									"questId": 27523,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27520,
-									"questName": "One of These Things is Not Like the Others",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
+								},
+								{
+									"questName": "The Storm Gathers",
+									"questId": 27524,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 45.2,
+							"yCoord": 5.89,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Fly to Silithus again. Yes, it's weird but the quest makes you go back and forth, devs were not very inspired :/",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 81.93,
+							"yCoord": 18.63,
+							"coordsMap": "Silithus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Sasia Forestcrest",
+							"npcId": 46144,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Storm Gathers",
+									"questId": 27524,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "The Storm Gathers",
+									"questId": 27525,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Un'Goro Crater",
+							"xCoord": 82.04,
+							"yCoord": 19.79,
+							"coordsMap": "Silithus",
+							"comment": "Fly back to Un'Goro...",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 41.86,
-							"yCoord": 2.58
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 41.85,
+							"yCoord": 2.64,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "And back to the gnome... This time accept Linken's quest, we are leaving soon.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
 							"npcName": "J.D. Collie",
 							"npcId": 9117,
+							"depth": 0,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "The Storm Gathers",
+									"questId": 27525,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27521,
-									"questName": "One of These Things is Not Like the Others",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 43.83,
-							"yCoord": 7.23
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hol'anyee Marshal",
-							"npcId": 9271,
-							"subTasks": [
+									"isCustom": true
+								},
 								{
+									"questName": "The Storm Gathers",
+									"questId": 27527,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27521,
-									"questName": "One of These Things is Not Like the Others",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 43.83,
-							"yCoord": 7.23
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Hol'anyee Marshal",
-							"npcId": 9271,
-							"subTasks": [
+									"isCustom": true
+								},
 								{
+									"questName": "Linken's Memory",
+									"questId": 3942,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27522,
-									"questName": "One of These Things is Not Like the Others",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Un'Goro Crater",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.84,
-							"yCoord": 2.62
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "J.D. Collie",
-							"npcId": 9117,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27522,
-									"questName": "One of These Things is Not Like the Others",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"stepTasks": [
 						{
-							"comment": "TODO: Have to accept \"Linken's Memory\" here and make sure you ahve x20 Un'Goro soil",
+							"comment": ">>> Make sure you have x20 Un'Goro soil before flying to Gadgetzan <<<",
 							"depth": 0,
 							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "If you don't (why?) farm them off the elementals right outside of the camp. If you are 5 away",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 45.17,
+							"yCoord": 5.88,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Fly to Gadgetzan",
+							"depth": 0,
+							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						}
@@ -63490,37 +64094,14 @@
 									"questName": "Pawn Captures Queen",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.95,
-							"yCoord": 26.98
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Alchemist Pestlezugg",
-							"npcId": 5594,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4508,
 									"questName": "Calm Before the Storm",
+									"questId": 4508,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -63531,13 +64112,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 67.03,
-							"yCoord": 23.98
+							"yCoord": 23.98,
+							"coordsMap": "Tanaris",
+							"comment": "Little ride to the port, check Mr water carrier for essences on the road",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -63557,6 +64139,35 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS back to Auberdine. Not setting it to Gadgetzan pays off now",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 36.35,
+							"yCoord": 45.57,
+							"coordsMap": "Darkshore",
+							"comment": "Fly to Darnassus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -63583,31 +64194,17 @@
 									"questName": "Moontouched Wildkin",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Find Ranshalla",
+									"questId": 979,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 55.45,
-							"yCoord": 92.08
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 979,
-							"questName": "Find Ranshalla",
-							"subTasks": [],
-							"type": "Accept quest"
 						}
 					]
 				},
@@ -63630,12 +64227,12 @@
 							"npcId": 7907,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5250,
 									"questName": "Starfall",
+									"questId": 5250,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -63643,16 +64240,32 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 55.93,
+							"yCoord": 89.69,
+							"coordsMap": "Teldrassil",
+							"comment": "Portal up to Darnassus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 42.04,
-							"yCoord": 85.42
+							"yCoord": 85.42,
+							"coordsMap": "Darnassus",
+							"comment": "Time to cash in some traveling quests XP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -63667,37 +64280,22 @@
 									"questName": "Calm Before the Storm",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.08,
-							"yCoord": 85.39
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gracina Spiritmight",
-							"npcId": 7740,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4510,
 									"questName": "Calm Before the Storm",
+									"questId": 4510,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "The Storm Gathers",
+									"questId": 27527,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -63767,16 +64365,60 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": "Bank in the spell hit trinket and anything else you might not need",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip step afterwards",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 40.36,
+							"yCoord": 8.68,
+							"coordsMap": "Darnassus",
+							"comment": "You sohuld have enough money to train anything you haven't yet. Go nuts. Also, if aspect of the viper gets fixed it will be HUGE for the last few levels",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Jocaste",
+									"npcId": 4146,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 34.72,
-							"yCoord": 8.97
+							"yCoord": 8.97,
+							"coordsMap": "Darnassus",
+							"comment": "Top level of the tree house",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -63801,13 +64443,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 31.52,
-							"yCoord": 8.41
+							"yCoord": 8.41,
+							"coordsMap": "Darnassus",
+							"comment": "Jump down and turn in the 20 Un'Goro soil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -63827,6 +64470,100 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 34.72,
+							"yCoord": 8.97,
+							"coordsMap": "Darnassus",
+							"comment": "Back up again...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Arch Druid Fandral Staghelm",
+							"npcId": 3516,
+							"subTasks": [
+								{
+									"questId": 3781,
+									"questName": "Morrowgrain Research",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 35.11,
+							"yCoord": 8.38,
+							"coordsMap": "Darnassus",
+							"comment": "Downstairs to the middle level... Ski pfollow up and vendor the seeds",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Mathrengyl Bearwalker",
+							"npcId": 4217,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 3781,
+									"questName": "Morrowgrain Research",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 30.45,
+							"yCoord": 41.42,
+							"coordsMap": "Darnassus",
+							"comment": "Teleport back down to Rut'theran. The quests that send you to Silithus and Feathermoon are gone (no DM, Silithus revamped), don't look for them",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.38,
+							"yCoord": 94.03,
+							"coordsMap": "Teldrassil",
+							"comment": "Fly to south Felwood (Emerald Sanctuary)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 20,
