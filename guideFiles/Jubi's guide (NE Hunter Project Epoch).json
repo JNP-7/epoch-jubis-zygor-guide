@@ -64109,38 +64109,6 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"xCoord": 67.03,
-							"yCoord": 23.98,
-							"coordsMap": "Tanaris",
-							"comment": "Little ride to the port, check Mr water carrier for essences on the road",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Yorba Screwspigot",
-							"npcId": 9706,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4324,
-									"questName": "Yuka Screwspigot",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
 					"stepTasks": [
 						{
 							"comment": "HS back to Auberdine. Not setting it to Gadgetzan pays off now",
@@ -64148,7 +64116,15 @@
 							"itemName": "Hearthstone",
 							"depth": 0,
 							"type": "Comment",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "Not accepting \"Yuka Screwspigot\" in the port because the quest doesn't give XP and the follow up is a dungeon quest (kill Ribbley in BRD)",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -66930,6 +66906,30 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 67.92,
+							"yCoord": 49.92,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": ">>> Full quiver + 10 slots of arrows <<< No ammo sellers in Burning Steppes (dwarves not selling ammo again lmao)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Jensen Farran",
+									"npcId": 4892,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 71.52,
 							"yCoord": 56.27,
 							"coordsMap": "Dustwallow Marsh",
@@ -66953,9 +66953,12 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "TODO: hace to turn in \"A Little Slime Goes a Long Way\" part 2 now",
+							"xCoord": 9.44,
+							"yCoord": 59.74,
+							"coordsMap": "Wetlands",
+							"comment": "Fly to Ironforge",
 							"depth": 0,
-							"type": "Comment",
+							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						}
@@ -66992,6 +66995,40 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 38.77,
+							"yCoord": 55.32,
+							"coordsMap": "Ironforge",
+							"comment": "Talk to the same dwarf and spam the gossip macro",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Royal Historian Archesonus",
+							"npcId": 8879,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"goalName": "Story of Thaurissan",
+									"questId": 3702,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -67018,37 +67055,14 @@
 									"questName": "The Smoldering Ruins of Thaurissan",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.77,
-							"yCoord": 55.32
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Royal Historian Archesonus",
-							"npcId": 8879,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3701,
 									"questName": "The Smoldering Ruins of Thaurissan",
+									"questId": 3701,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -67056,35 +67070,74 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 75.59,
+							"yCoord": 22.92,
 							"coordsMap": "Ironforge",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 70.7,
-							"yCoord": 83.72
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Laris Geardawdle",
+							"npcId": 9616,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Olmin Burningbeard",
-							"npcId": 5116,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 4513,
+									"questName": "A Little Slime Goes a Long Way",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 8151,
-									"questName": "The Hunter's Charm",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 76.52,
+							"yCoord": 51.09,
+							"coordsMap": "Ironforge",
+							"comment": "Tram to SW",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.32,
+							"yCoord": 36.34,
+							"coordsMap": "Stormwind City",
+							"comment": "Learn level 56 spells",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Einris Brightspear",
+									"npcId": 5515,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -67111,6 +67164,14 @@
 									"questName": "Better Late Than Never",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Good Natured Emma",
+									"questId": 5048,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -67121,44 +67182,31 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 60.16,
+							"yCoord": 56.08,
 							"coordsMap": "Stormwind City",
+							"comment": "That's her house, starts patrol here",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 57.24,
-							"yCoord": 48.1
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Royal Factor Bathrilor",
-							"npcId": 10782,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5048,
-									"questName": "Good Natured Emma",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
+							"xCoord": 66.58,
+							"yCoord": 71.12,
 							"coordsMap": "Stormwind City",
+							"comment": "Ends patrol here, on the well before the gryphon master's balcony and goes back to her house",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 65.94,
-							"yCoord": 63.79
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Spam /target Ol' Emma to find her",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -67173,6 +67221,14 @@
 									"questName": "Good Natured Emma",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Good Luck Charm",
+									"questId": 5050,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -67211,16 +67267,79 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 70.89,
+							"yCoord": 72.66,
+							"coordsMap": "Stormwind City",
+							"comment": "Fly to Redridge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Take a look at the current day/night cycle. You want it to be night or near night if possible",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.63,
+							"yCoord": 9.46,
+							"coordsMap": "Redridge Mountains",
+							"comment": "Into Burnning Steppes",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 84.37,
+							"yCoord": 68.29,
+							"coordsMap": "Burning Steppes",
+							"comment": "Discover FP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Borgus Stoutarm",
+									"npcId": 2299,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 84.63,
-							"yCoord": 68.7
+							"yCoord": 68.7,
+							"coordsMap": "Burning Steppes",
+							"comment": "Skip The Good Stuff",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -67235,68 +67354,14 @@
 									"questName": "Extinguish the Firegut",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 84.63,
-							"yCoord": 68.7
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Oralius",
-							"npcId": 9177,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4283,
 									"questName": "FIFTY! YEP!",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 84.63,
-							"yCoord": 68.7
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Oralius",
-							"npcId": 9177,
-							"subTasks": [
-								{
+									"questId": 4283,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 4286,
-									"questName": "The Good Stuff",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -67333,6 +67398,18 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "TODO: Continue here. Need to move the town's quest here",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -67390,37 +67467,6 @@
 									"questName": "Tablet of the Seven",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 65.96,
-							"yCoord": 22.04
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Yuka Screwspigot",
-							"npcId": 9544,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4324,
-									"questName": "Yuka Screwspigot",
-									"subTasks": [],
-									"type": "Turn in quest"
 								}
 							],
 							"type": "Talk to"
