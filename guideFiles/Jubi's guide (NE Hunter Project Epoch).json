@@ -53045,7 +53045,7 @@
 							"xCoord": 38.65,
 							"yCoord": 38.9,
 							"coordsMap": "Searing Gorge",
-							"comment": "Interact with the chest twice. Be careful not to hit the dragon it s bugged and can kill you",
+							"comment": "Interact with the chest twice. Be careful not to hit the dragon, it's bugged and can kill you if aggroed",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -53086,6 +53086,15 @@
 									"type": "Talk to",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"comment": "Open the chest you just got and sell the contents. Keep the Black Dragonflight Molt",
+									"itemId": 10569,
+									"itemName": "Hoard of the Black Dragonflight",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"isCustom": false
@@ -53100,7 +53109,7 @@
 							"xCoord": 37.85,
 							"yCoord": 30.76,
 							"coordsMap": "Searing Gorge",
-							"comment": "Don't open the chest you just got yet. Fly to Stormwind",
+							"comment": "Fly to Stormwind",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -65814,7 +65823,7 @@
 							"xCoord": 61.43,
 							"yCoord": 37.01,
 							"coordsMap": "Winterspring",
-							"comment": "Make sure you have 30 runecloths in your bags",
+							"comment": "Make sure you have 30 runecloths in your bags. Also, unbank the Black Dragonflight Molt if you banked it earlier. Will need it next section.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -67298,6 +67307,36 @@
 							"comment": "Into Burnning Steppes",
 							"depth": 0,
 							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "While there and moving between the 2 quest hubs try to kill everything for a chance at an item that begins a quest (blazing gemstone)",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Also gather and save up to 30 Dark Iron Scraps (even if you kill every ogre you will still miss 5...)",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 78.18,
+							"yCoord": 75.34,
+							"coordsMap": "Burning Steppes",
+							"comment": "Kill the imps for a chance at the item",
+							"depth": 0,
+							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						}
@@ -67402,10 +67441,348 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "TODO: Continue here. Need to move the town's quest here",
+							"xCoord": 80.45,
+							"yCoord": 52.82,
+							"coordsMap": "Burning Steppes",
+							"comment": "Kill anything on the way, the obsidian elemental near the fake lava river and then move onto the imps/ogres north west",
 							"depth": 0,
-							"type": "Comment",
+							"type": "Go to",
 							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Burning Steppes",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 68.49,
+							"yCoord": 50
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Jason Tinling",
+							"npcId": 46903,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27751,
+									"questName": "Fireguts",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Burning Steppes",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 68.66,
+							"yCoord": 50.24
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Gruhl Stonecreek",
+							"npcId": 46883,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27734,
+									"questName": "Absent Discourse",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 67.42,
+							"yCoord": 50.95,
+							"coordsMap": "Burning Steppes",
+							"comment": "Use the item. Guide asumes you have it now. If not you will probably have it next time you are here",
+							"itemId": 63451,
+							"itemName": "Blazing Gemstone",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "Blazing Gemstone",
+									"questId": 27725,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Mogern Blackeye",
+							"npcId": 46875,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27725,
+									"questName": "Blazing Gemstone",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Obtaining Obsidian",
+									"questId": 27726,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Absent Discourse",
+									"questId": 27734,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Bracers that Bind",
+									"questId": 27735,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Burning Steppes",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 67.13,
+							"yCoord": 50.9
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Helga Ashgate",
+							"npcId": 46895,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27746,
+									"questName": "Golem Grabbing",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Burning Steppes",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 68.78,
+							"yCoord": 52.62
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Karum Mallister",
+							"npcId": 46876,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27730,
+									"questName": "Arming Ashfall",
+									"subTasks": [],
+									"type": "Accept quest"
+								},
+								{
+									"questName": "Hitting Where it Hurts",
+									"questId": 27733,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Burning Steppes",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 68.74,
+							"yCoord": 52.7
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Peryn Mallister",
+							"npcId": 46890,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27743,
+									"questName": "Spies Among Us",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Burning Steppes",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 68.31,
+							"yCoord": 51.75
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Myldis",
+							"npcId": 46888,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27739,
+									"questName": "Meeran's Missing",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 70.14,
+							"yCoord": 48.61,
+							"coordsMap": "Burning Steppes",
+							"comment": "Interact with the backpack outside",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "Meeran's Missing",
+							"questId": 27739,
+							"depth": 0,
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"questName": "Is it Ogre?",
+							"questId": 27740,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 66.58,
+							"yCoord": 43.41,
+							"coordsMap": "Burning Steppes",
+							"comment": "At the ruins: kill golems for obsidian shards (if you have the item's quest) and anything else for quest items while looting statuettes and heading north",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Evidence of Pursuit",
+									"questId": 27743,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Thaurissan Agent",
+											"npcId": 7038
+										},
+										{
+											"npcName": "Thaurissan Spy",
+											"npcId": 7036
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"comment": "Will finish the rest later",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -67472,6 +67849,84 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 54.06,
+							"yCoord": 40.74,
+							"coordsMap": "Burning Steppes",
+							"comment": "Head west while finish as many quest as possible (statuettes, obsidian, weapons...) Then inscribe the tablet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Click the tablet to get the transcript",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Tablet Transcript",
+									"questId": 4296,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Do something",
+							"depth": 0,
+							"subTasks": [],
+							"type": "Comment",
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.88,
+							"yCoord": 29.18,
+							"coordsMap": "Burning Steppes",
+							"comment": "Kill the Golemancer for the quest item",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Lugar's Control Rod",
+									"questId": 27746,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Golemancer Lugar",
+											"npcId": 46896
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -67766,409 +68221,6 @@
 									"isCustom": false,
 									"questId": 4808,
 									"questName": "Felnok Steelspring",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.42,
-							"yCoord": 50.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Mogern Blackeye",
-							"npcId": 46875,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27725,
-									"questName": "Blazing Gemstone",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.42,
-							"yCoord": 50.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Mogern Blackeye",
-							"npcId": 46875,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27726,
-									"questName": "Obtaining Obsidian",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.13,
-							"yCoord": 50.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Helga Ashgate",
-							"npcId": 46895,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27746,
-									"questName": "Golem Grabbing",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.49,
-							"yCoord": 50
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Jason Tinling",
-							"npcId": 46903,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27751,
-									"questName": "Fireguts",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.66,
-							"yCoord": 50.24
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gruhl Stonecreek",
-							"npcId": 46883,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27734,
-									"questName": "Absent Discourse",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.38,
-							"yCoord": 50.94
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Mogern Blackeye",
-							"npcId": 46875,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27734,
-									"questName": "Absent Discourse",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.38,
-							"yCoord": 50.94
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Mogern Blackeye",
-							"npcId": 46875,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27735,
-									"questName": "Bracers that Bind",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.78,
-							"yCoord": 52.62
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Karum Mallister",
-							"npcId": 46876,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27730,
-									"questName": "Arming Ashfall",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.78,
-							"yCoord": 52.62
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Karum Mallister",
-							"npcId": 46876,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27733,
-									"questName": "Hitting Where it Hurts",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.74,
-							"yCoord": 52.7
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Peryn Mallister",
-							"npcId": 46890,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27743,
-									"questName": "Spies Among Us",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.31,
-							"yCoord": 51.75
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Myldis",
-							"npcId": 46888,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27739,
-									"questName": "Meeran's Missing",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 70.14,
-							"yCoord": 48.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Myldis",
-							"npcId": 46888,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27739,
-									"questName": "Meeran's Missing",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 70.14,
-							"yCoord": 48.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Myldis",
-							"npcId": 46888,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27740,
-									"questName": "Is it Ogre?",
 									"subTasks": [],
 									"type": "Accept quest"
 								}
@@ -69360,121 +69412,6 @@
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.26,
-							"yCoord": 50.76
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Helga Ashgate",
-							"npcId": 46895,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27750,
-									"questName": "The Art of Golemancy",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.24,
-							"yCoord": 50.73
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Helga Ashgate",
-							"npcId": 46895,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27750,
-									"questName": "The Art of Golemancy",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.24,
-							"yCoord": 50.72
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Helga Ashgate",
-							"npcId": 46895,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27750,
-									"questName": "The Art of Golemancy",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 84.77,
-							"yCoord": 68.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 4764,
-							"questName": "Doomrigger's Clasp",
-							"subTasks": [],
-							"type": "Accept quest"
 						}
 					]
 				},
