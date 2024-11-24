@@ -189,7 +189,11 @@
 
 	6h: Detailed 22/24 sections
 
+24/11/2024
+
+	5h: Detailing 23rd section
+
 ------------
 Total:
 
-	142.5h
+	147.5h
