@@ -65777,7 +65777,7 @@
 							"xCoord": 61.89,
 							"yCoord": 38.3,
 							"coordsMap": "Winterspring",
-							"comment": "TODO: Check if Doctor Mauri gives you a custom quest about visiting someone at the lake (didn't do this one)",
+							"comment": "TODO: Check if Doctor Mauri gives you a custom quest about visiting someone at the lake (didn't do this one \"A Gift for the Spiritseer\"). If so, accept it",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -65805,13 +65805,6 @@
 									"isCustom": false
 								}
 							],
-							"isCustom": false
-						},
-						{
-							"comment": "TODO: Maybe get the quest to go to the Yetis dude then take the quest to gather fingers. Have to reroute when in Winterspring pt2",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -65884,13 +65877,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 52.11,
-							"yCoord": 30.41
+							"yCoord": 30.41,
+							"coordsMap": "Winterspring",
+							"comment": "Skip the follow up to \"Enraged Wildkin\" for now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -65905,14 +65899,6 @@
 									"questName": "Enraged Wildkin",
 									"subTasks": [],
 									"type": "Turn in quest"
-								},
-								{
-									"questName": "Enraged Wildkin",
-									"questId": 4861,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
 								},
 								{
 									"questName": "The Ruins of Kel'Theril",
@@ -65934,6 +65920,21 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.74,
+							"yCoord": 45,
+							"coordsMap": "Winterspring",
+							"comment": "TODO: If you were able to accept \"A Gift for the Spiritseer\" from Mau'ari the go turn it in here and accept the foloow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -66820,6 +66821,54 @@
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 57.4,
+							"yCoord": 40.71,
+							"coordsMap": "Winterspring",
+							"comment": "TODO: If you were able to get \"A Door to the Past\" kill the Chimaeras and bears here (50% drop chance)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Get 1 Undamaged Chimera Venom Sac",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Get Undamaged Bear Femur",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 58.41,
+							"yCoord": 34.64,
+							"coordsMap": "Winterspring",
+							"comment": "TODO: If you had the quest go here afterwards and kill the owlbeasts",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Get 1 Undamaged Wildkin Eye",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -70241,70 +70290,6 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 61.38,
-							"yCoord": 37.11,
-							"coordsMap": "Winterspring",
-							"comment": "TODO: Have to reaccept at some pont",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tzakaja",
-							"npcId": 46557,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27528,
-									"questName": "Road to Teles'aran",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"xCoord": 52.91,
-							"yCoord": 27.18,
-							"coordsMap": "Winterspring",
-							"comment": "TODO: Have to accept later",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Eleanor Moonglow",
-							"npcId": 46558,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27535,
-									"questName": "Ancient Gemcutting",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
 							"xCoord": 57.46,
 							"yCoord": 23.09,
 							"coordsMap": "Winterspring",
@@ -70373,59 +70358,91 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 61.91,
+							"yCoord": 38.37,
 							"coordsMap": "Winterspring",
+							"comment": "TODO: Wasn't up during beta. If that's the case again just skip all his steps",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 61.59,
-							"yCoord": 38.58
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Storm Shadowhoof",
+							"npcId": 10303,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Felnok Steelspring",
-							"npcId": 10468,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 5054,
+									"questName": "Ursius of the Shardtooth",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 4809,
-									"questName": "Chillwind Horns",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 61.9,
+							"yCoord": 38.3,
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Witch Doctor Mau'ari",
+							"npcId": 10307,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 969,
+									"questName": "Luck Be With You",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 61.38,
+							"yCoord": 37.11,
 							"coordsMap": "Winterspring",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 61.15,
-							"yCoord": 38.4
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Harlo Wigglesworth",
-							"npcId": 11755,
+							"isCustom": true,
+							"npcName": "Tzakaja",
+							"npcId": 46557,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 6606,
-									"questName": "A Little Luck",
+									"isCustom": true,
+									"questId": 27528,
+									"questName": "Road to Teles'aran",
 									"subTasks": [],
 									"type": "Accept quest"
 								}
@@ -70479,13 +70496,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Roxxie Fizzwhistle",
 							"npcId": 46241,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27285,
 									"questName": "Biz with The Fizz",
 									"subTasks": [],
@@ -70497,16 +70514,213 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 55.15,
+							"yCoord": 42.97,
+							"coordsMap": "Winterspring",
+							"comment": "Go to the lake and get 1 fragment",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "First Relic Fragment",
+									"questId": 5245,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 53.32,
+							"yCoord": 43.43,
+							"coordsMap": "Winterspring",
+							"comment": "Another fragment",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Third Relic Fragment",
+									"questId": 5245,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Two possibilities wether you got the custom quest from the troll in WS (you got 3 perfect parts):",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"xCoord": 49.73,
+									"yCoord": 44.94,
+									"coordsMap": "Winterspring",
+									"comment": "Go turn the quest in and accept the follow up. It's about attuning with the mobs around the lake (probably use item while they are low/dead)",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Just go for the missing fragments",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If you have the questline go back to the lake and finish it (possibly while gathering the missing 2 fragments)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip if no quest or when done",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If you did the quest, then turn it in, accept the follow up, protect the NPC and accept the next follow up",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 50.87,
+							"yCoord": 41.71,
+							"coordsMap": "Winterspring",
+							"comment": "Keep gathering fragments",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Second Relic Fragment",
+									"questId": 5245,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 50.87,
+							"yCoord": 41.71,
 							"coordsMap": "Winterspring",
+							"comment": "Keep gathering fragments",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Second Relic Fragment",
+									"questId": 5245,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 52.42,
+							"yCoord": 41.5,
+							"coordsMap": "Winterspring",
+							"comment": "Last one",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Fourth Relic Fragment",
+									"questId": 5245,
+									"questObjectiveIndex": 4,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.46,
+							"yCoord": 30.78,
+							"coordsMap": "Winterspring",
+							"comment": ">>> Refill quiver and some extra slots if possible <<< Only arrow vendor here...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 52.11,
-							"yCoord": 30.39
+							"yCoord": 30.39,
+							"coordsMap": "Winterspring",
+							"comment": "Nope, you don't turn the fragments here, you do it in EPL... We will bank them later with the pick",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -70531,27 +70745,67 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 52.91,
+							"yCoord": 27.18,
 							"coordsMap": "Winterspring",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 57.47,
-							"yCoord": 23.07
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
+							"npcName": "Eleanor Moonglow",
+							"npcId": 46558,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27535,
+									"questName": "Ancient Gemcutting",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 57.47,
+							"yCoord": 23.07,
+							"coordsMap": "Winterspring",
+							"comment": "Kill some of the Chimaeras while on your way to get horns",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
 							"npcName": "Lady Lyrene",
 							"npcId": 46555,
 							"subTasks": [
 								{
+									"questName": "Road to Teles'aran",
+									"questId": 27528,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27529,
-									"questName": "Words in Stone",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"questName": "Words in Stone",
+									"questId": 27529,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -70572,13 +70826,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Rootspeaker Aharu",
 							"npcId": 46576,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27554,
 									"questName": "Shadow of the Vilehorn",
 									"subTasks": [],
@@ -70603,13 +70857,13 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Ismir Dawnfall",
 							"npcId": 46560,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27540,
 									"questName": "Lost Souls",
 									"subTasks": [],
@@ -70619,6 +70873,21 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.35,
+							"yCoord": 17.79,
+							"coordsMap": "Winterspring",
+							"comment": "Don't bother killing the Ghosts yet. Same with the Satyrs and the relics, only kill/gather those on your way to the cutting kit. We will be back anyways and they don't have follow ups",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
