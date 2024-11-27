@@ -59896,6 +59896,25 @@
 				{
 					"stepTasks": [
 						{
+							"comment": "Buy 1 stack of Noggenfogger. Slowfall can always be useful",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 53.88,
 							"yCoord": 29.05,
 							"coordsMap": "Tanaris",
@@ -70885,6 +70904,67 @@
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
+						},
+						{
+							"comment": "Kill the trees to the right as you enter, one of them should drop an item that starts a quest",
+							"itemId": 63123,
+							"itemName": "Nightmare Seed",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"questName": "Nightmare Seeds",
+									"questId": 27549,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.83,
+							"yCoord": 15.69,
+							"coordsMap": "Winterspring",
+							"comment": "Gather tablets and kill Satyrs on your way to the item. Gather 5 seeds from the trees too",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Highborne Artisan Kit",
+									"questId": 27535,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Nightmare Seeds",
+									"questId": 27549,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Foul Tender",
+											"npcId": 46574
+										}
+									],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -70893,151 +70973,36 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.5,
-							"yCoord": 15.92
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Vilehorn Satyr",
-							"npcId": 46578,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27549,
-									"questName": "Nightmare Seeds",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 59.06,
-							"yCoord": 20.47
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Ismir Dawnfall",
-							"npcId": 46560,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27540,
-									"questName": "Lost Souls",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 57.63,
-							"yCoord": 23.07
+							"yCoord": 23.07,
+							"coordsMap": "Winterspring",
+							"comment": "Don't bother with the other quests as they don't have follow ups. If you finished one on this go then by all means turn it in.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Rootspeaker Aharu",
 							"npcId": 46576,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27549,
 									"questName": "Nightmare Seeds",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 57.63,
-							"yCoord": 23.07
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Rootspeaker Aharu",
-							"npcId": 46576,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27550,
 									"questName": "Malvor's Guidance",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 57.63,
-							"yCoord": 23.07
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Rootspeaker Aharu",
-							"npcId": 46576,
-							"subTasks": [
-								{
+									"questId": 27550,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27554,
-									"questName": "Shadow of the Vilehorn",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -71048,85 +71013,24 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 57.48,
-							"yCoord": 23.08
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lady Lyrene",
-							"npcId": 46555,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27529,
-									"questName": "Words in Stone",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 57.48,
-							"yCoord": 23.08
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lady Lyrene",
-							"npcId": 46555,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27530,
-									"questName": "A Scribe's Work",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 52.89,
-							"yCoord": 27.14
+							"yCoord": 27.14,
+							"coordsMap": "Winterspring",
+							"comment": "Keep killing Chimaeras on the way",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Eleanor Moonglow",
 							"npcId": 46558,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27535,
 									"questName": "Ancient Gemcutting",
 									"subTasks": [],
@@ -71151,17 +71055,25 @@
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
+							"isCustom": true,
 							"npcName": "Eleanor Moonglow",
 							"npcId": 46558,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
+									"isCustom": true,
 									"questId": 27536,
 									"questName": "We Need Repairs!",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Falling Stars",
+									"questId": 27537,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -71169,35 +71081,193 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 63.98,
+							"yCoord": 24.24,
 							"coordsMap": "Winterspring",
+							"comment": "Kill Chimaeras and loot orange crystals while looking for Ursius. He starts patroling here then moves to the southern mountains near everlook.",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 52.88,
-							"yCoord": 27.16
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Eleanor Moonglow",
-							"npcId": 46558,
 							"subTasks": [
 								{
+									"comment": "TODO: Don't know if it's possible to pet tank or have to kite. If the later, then do so towards the next objective",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27537,
-									"questName": "Falling Stars",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"npcName": "Ursius",
+									"npcId": 10806,
+									"count": 1,
+									"questId": 5054,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.8,
+							"yCoord": 27.4,
+							"coordsMap": "Winterspring",
+							"comment": "TODO: If you did the 2 customs quests at the lake go here and turn the quest in + gather follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip to next step afterwards or if not on the quest",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 66.92,
+							"yCoord": 35.11,
+							"coordsMap": "Winterspring",
+							"comment": "Should be finishing Chimaeras' horns before getting to Furbolg village. Keep looting the crystal you may find",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Uncracked Chillwind Horn",
+									"questId": 4809,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Continue gathering orange crystals as you quest through WS",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 69.25,
+							"yCoord": 38.41,
+							"coordsMap": "Winterspring",
+							"comment": "Kill the furbolgs for the killing quest and to make room for kiting, then kill the elite one",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Winterfall Shaman",
+									"npcId": 7439,
+									"count": 8,
+									"questId": 8464,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Winterfall Den Watcher",
+									"npcId": 7440,
+									"count": 8,
+									"questId": 8464,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [
+										{
+											"comment": "Should be done with these from the last time you were in WS",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"npcName": "Winterfall Ursa",
+									"npcId": 7438,
+									"count": 8,
+									"questId": 8464,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "High Chief Winterfall",
+									"npcId": 10738,
+									"count": 1,
+									"questId": 5121,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [
+										{
+											"comment": "Kite him, mana drain him, move out from the blizzard, concussive shot when he frost shocks",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "The High Chief should have dropped an item that starts a quest",
+							"itemId": 12842,
+							"itemName": "Crudely-written Log",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"questName": "The Final Piece",
+									"questId": 5123,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -71224,71 +71294,72 @@
 									"questName": "Chillwind Horns",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 61.59,
-							"yCoord": 38.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Felnok Steelspring",
-							"npcId": 10468,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4810,
 									"questName": "Return to Tinkee",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 61.59,
-							"yCoord": 38.57
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Felnok Steelspring",
-							"npcId": 10468,
-							"subTasks": [
-								{
+									"questId": 4810,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27536,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "We Need Repairs!",
-									"subTasks": [],
-									"type": "Turn in quest"
+									"questId": 27536,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [
+										{
+											"comment": "Ends here untill you turn in the orange crystals",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 61.91,
+							"yCoord": 38.37,
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Storm Shadowhoof",
+							"npcId": 10303,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Ursius of the Shardtooth",
+									"questId": 5054,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 5055,
+									"questName": "Brumeran of the Chillwind",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -71301,22 +71372,157 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 61.25,
-							"yCoord": 38.89
+							"xCoord": 63.77,
+							"yCoord": 44.59
+						},
+						{
+							"npcName": "Tanum",
+							"npcId": 46242,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Biz with The Fizz",
+									"questId": 27285,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Quality Reagents",
+									"questId": 27286,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 65.33,
+							"yCoord": 42,
+							"coordsMap": "Winterspring",
+							"comment": "Go kill some yeits. Use the item on their corpse to get the fingers (6-8 each gather)",
+							"itemId": 61937,
+							"itemName": "Tanum's Hacksaw",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Thick Yeti Fur",
+									"questId": 3783,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Yeti Finger",
+									"questId": 27286,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 80,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 63.78,
+							"yCoord": 44.55
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Tanum",
+							"npcId": 46242,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27286,
+									"questName": "Quality Reagents",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Fizz",
+									"questId": 27288,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Kill Wraithroar",
+									"questId": 27287,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 60.91,
+							"yCoord": 37.71,
+							"coordsMap": "Winterspring",
+							"comment": "Back to Everlook one second",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Marius Hedrin",
-							"npcId": 46556,
+							"npcName": "Umi Rumplesnicker",
+							"npcId": 10305,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 27530,
-									"questName": "A Scribe's Work",
+									"questId": 3783,
+									"questName": "Are We There, Yeti?",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Are We There, Yeti?",
+									"questId": 977,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -71324,60 +71530,99 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 67.54,
+							"yCoord": 41.8,
 							"coordsMap": "Winterspring",
+							"comment": "To the Yeti cave yet again. Horns drop surprisingly fast",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 63.77,
-							"yCoord": 44.59
+							"subTasks": [
+								{
+									"itemName": "Pristine Yeti Horn",
+									"questId": 977,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 2,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
+							"coordsMap": "Winterspring",
+							"xCoord": 70.25,
+							"yCoord": 38.4,
+							"comment": "Go to the deepest part of the cave to kill the named yeti. AoE fears preiodically in melee, just use BW",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 27285,
-							"questName": "Biz with The Fizz",
-							"subTasks": [],
-							"type": "Turn in quest"
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Wraithroar",
+									"npcId": 46209,
+									"count": 1,
+									"questId": 27287,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 66.63,
+							"yCoord": 47.44,
+							"coordsMap": "Winterspring",
+							"comment": "Go south as you exit the cave and pull 2 chimaeras to a tree then run circles inside a trap >>> w/o killing them <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "The quest is weird, is about getting hit 8 times by their lightning breath attack, so just pot up if you are about to die",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "Electro B.TL.R. Charges",
+									"questId": 27288,
+									"questObjectiveIndex": 1,
+									"count": 8,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.77,
-							"yCoord": 44.59
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 27286,
-							"questName": "Quality Reagents",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 59.05,
-							"yCoord": 59.77
+							"yCoord": 59.77,
+							"coordsMap": "Winterspring",
+							"comment": "If you see Brumeran remember where he was, will have to kill later",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -71386,28 +71631,14 @@
 							"questName": "Enraged Wildkin",
 							"subTasks": [],
 							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 59.05,
-							"yCoord": 59.77
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 4863,
 							"questName": "Enraged Wildkin",
+							"questId": 4863,
+							"depth": 0,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
 					]
 				},
@@ -71415,13 +71646,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 61.4,
-							"yCoord": 60.61
+							"yCoord": 60.61,
+							"coordsMap": "Winterspring",
+							"comment": "Next wreackage",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -71430,30 +71662,43 @@
 							"questName": "Enraged Wildkin",
 							"subTasks": [],
 							"type": "Turn in quest"
+						},
+						{
+							"questName": "Enraged Wildkin",
+							"questId": 4864,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 61.38,
+							"yCoord": 60.7,
 							"coordsMap": "Winterspring",
+							"comment": ">>> Get the supplies from the ground <<<",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 61.43,
-							"yCoord": 60.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 4864,
-							"questName": "Enraged Wildkin",
-							"subTasks": [],
-							"type": "Accept quest"
+							"subTasks": [
+								{
+									"itemName": "Jaron's Supplies",
+									"questId": 4864,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -71480,42 +71725,283 @@
 									"questName": "Find Ranshalla",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.08,
-							"yCoord": 59.42
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Ranshalla",
-							"npcId": 10300,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4901,
 									"questName": "Guardians of the Altar",
+									"questId": 4901,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Do the escort quest, you will get the amulet on the first kill most likely",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Blue-feathered Amulet",
+									"questId": 4864,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "Discover the secret of the Altar of Elune",
+									"questId": 4901,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [
+										{
+											"comment": "The RP at the end takes A LOT of time. Kill some chickens meanwhile or craft bandages",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 64.29,
+							"yCoord": 67.21,
+							"coordsMap": "Winterspring",
+							"comment": "1st shard. Don't need to kill the giants (you can, but takes a while). Pet on stay + passive, send to giant, pet passive again, gather shard while giant follows pet (try to despawn by distance). FD if required",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 64.5,
+							"yCoord": 66.41,
+							"coordsMap": "Winterspring",
+							"comment": "2nd shard. Ride past this one then sac pet into the previous one while gathering and FD",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 65.92,
+							"yCoord": 68.94,
+							"coordsMap": "Winterspring",
+							"comment": "3rd shard. Distract with pet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 64.43,
+							"yCoord": 72.4,
+							"coordsMap": "Winterspring",
+							"comment": "4th shard. Distract with pet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.35,
+							"yCoord": 72.3,
+							"coordsMap": "Winterspring",
+							"comment": "5th shard. Distract with pet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.7,
+							"yCoord": 74.39,
+							"coordsMap": "Winterspring",
+							"comment": "Discover the location",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "\tDiscover Darkwhisper Gorge",
+									"questId": 4842,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 59.91,
+							"yCoord": 69.49,
+							"coordsMap": "Winterspring",
+							"comment": "6th shard. Distract both giants with pet and sac it to the bears near the south-western mountain range",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.74,
+							"yCoord": 69.18,
+							"coordsMap": "Winterspring",
+							"comment": "7th shard. Probably want to start killing the bears towards the mountain to make some space",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.32,
+							"yCoord": 67.41,
+							"coordsMap": "Winterspring",
+							"comment": "8th shard. Run towards the one north of you after gathering it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.33,
+							"yCoord": 66.36,
+							"coordsMap": "Winterspring",
+							"comment": "9th shard. Use Noggenfogger (remove skeleton, you cant mount up otherwise) or attempt the jump towards the tree. If you die there is a GY nearby unlike in 1.12, so don't worry",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.42,
+							"yCoord": 65.27,
+							"coordsMap": "Winterspring",
+							"comment": "10th and last shard. Same old same",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Frostmaul Shard",
+									"questId": 969,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.52,
+							"yCoord": 57.98,
+							"coordsMap": "Winterspring",
+							"comment": "Kill Brumeran. He starts patrolling here but might have moved. Goes from here to the Frostmaul area slope then back to the start and into Mazthoril (upper side of the cave mouth) untill looping back at the lake's cliff",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Kite him towards Everlook through the road. You have to outrange his breath and spit attack (you max range). Use distracting shot on CD",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Brumeran",
+									"npcId": 10807,
+									"count": 1,
+									"questId": 5055,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -71526,22 +72012,38 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 60.91,
-							"yCoord": 37.71
+							"xCoord": 63.79,
+							"yCoord": 44.56
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Umi Rumplesnicker",
-							"npcId": 10305,
+							"isCustom": true,
+							"npcName": "Tanum",
+							"npcId": 46242,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3783,
-									"questName": "Are We There, Yeti?",
+									"isCustom": true,
+									"questId": 27288,
+									"questName": "The Fizz",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Fine... Product?",
+									"questId": 27289,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Kill Wraithroar",
+									"questId": 27287,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -71557,8 +72059,113 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 60.91,
-							"yCoord": 37.71
+							"xCoord": 60.78,
+							"yCoord": 37.76
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Roxxie Fizzwhistle",
+							"npcId": 46241,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27289,
+									"questName": "A Fine... Product?",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Universal Language",
+									"questId": 27290,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.79,
+							"yCoord": 44.56,
+							"coordsMap": "Winterspring",
+							"comment": "Back to the dwarf, choose the dialog option and beat him up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Tanum's Lesson Taught",
+									"questId": 27290,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 60.79,
+							"yCoord": 37.76
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Roxxie Fizzwhistle",
+							"npcId": 46241,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27290,
+									"questName": "The Universal Language",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "To Delevan's Aid",
+									"questId": 27291,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 60.9,
+							"yCoord": 37.67,
+							"coordsMap": "Winterspring",
+							"comment": "Skip the follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -71572,37 +72179,6 @@
 									"questId": 977,
 									"questName": "Are We There, Yeti?",
 									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.86,
-							"yCoord": 27.21
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Eleanor Moonglow",
-							"npcId": 46558,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27537,
-									"questName": "Falling Stars",
-									"subTasks": [],
 									"type": "Turn in quest"
 								}
 							],
@@ -71611,35 +72187,141 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 61.91,
+							"yCoord": 38.29,
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Witch Doctor Mau'ari",
+							"npcId": 10307,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 969,
+									"questName": "Luck Be With You",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 975,
+									"questName": "Cache of Mau'ari",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Cache of Mau'ari",
+									"questId": 975,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 61.91,
+							"yCoord": 38.37,
 							"coordsMap": "Winterspring",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 52.89,
-							"yCoord": 27.27
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Storm Shadowhoof",
+							"npcId": 10303,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Eleanor Moonglow",
-							"npcId": 46558,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "Brumeran of the Chillwind",
+									"questId": 5055,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27538,
-									"questName": "Felnok's Finesse",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questId": 5056,
+									"questName": "Shy-Rotam",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.48,
+							"yCoord": 30.82,
+							"coordsMap": "Winterspring",
+							"comment": "Finish gathering the crystals while heading towards the lodge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Starfall Crystal",
+									"count": 10,
+									"questId": 27537,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.48,
+							"yCoord": 30.82,
+							"coordsMap": "Winterspring",
+							"comment": "Refill quiver",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Natheril Raincaller",
+									"npcId": 2084,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -71681,8 +72363,69 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"xCoord": 52.86,
+							"yCoord": 27.21
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Eleanor Moonglow",
+							"npcId": 46558,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27537,
+									"questName": "Falling Stars",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Felnok's Finesse",
+									"questId": 27538,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.74,
+							"yCoord": 45.01,
+							"coordsMap": "Winterspring",
+							"comment": "TODO: If you did the undocumented questline then go back to the lake and defeat the spirit, then accept the follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip to next when done or if not doing quest",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 31.32,
-							"yCoord": 45.15
+							"yCoord": 45.15,
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -71697,903 +72440,33 @@
 									"questName": "Strange Sources",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 31.31,
-							"yCoord": 45.16
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Donova Snowden",
-							"npcId": 9298,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5087,
-									"questName": "Winterfall Runners",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 31.23,
-							"yCoord": 45.19
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Donova Snowden",
-							"npcId": 9298,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5121,
 									"questName": "High Chief Winterfall",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Moonglade",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 45.56,
-							"yCoord": 47.06
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 27550,
-							"questName": "Malvor's Guidance",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Moonglade",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 45.56,
-							"yCoord": 47.06
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 27551,
-							"questName": "Pure as the Moon",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Moonglade",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 45.56,
-							"yCoord": 46.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Malvor",
-							"npcId": 12025,
-							"subTasks": [
-								{
+									"questId": 5121,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27551,
-									"questName": "Pure as the Moon",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Moonglade",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 45.56,
-							"yCoord": 46.9
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Malvor",
-							"npcId": 12025,
-							"subTasks": [
+									"isCustom": false
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27552,
-									"questName": "Return to Aharu",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 68.25,
-							"yCoord": 37.88
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "High Chief Winterfall",
-							"npcId": 10738,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5123,
 									"questName": "The Final Piece",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.78,
-							"yCoord": 44.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tanum",
-							"npcId": 46242,
-							"subTasks": [
-								{
+									"questId": 5123,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27286,
-									"questName": "Quality Reagents",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.78,
-							"yCoord": 44.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tanum",
-							"npcId": 46242,
-							"subTasks": [
+									"isCustom": false
+								},
 								{
+									"questName": "Words of the High Chief",
+									"questId": 5128,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 27288,
-									"questName": "The Fizz",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.78,
-							"yCoord": 44.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tanum",
-							"npcId": 46242,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27287,
-									"questName": "Kill Wraithroar",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.78,
-							"yCoord": 44.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tanum",
-							"npcId": 46242,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27288,
-									"questName": "The Fizz",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.79,
-							"yCoord": 44.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tanum",
-							"npcId": 46242,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27288,
-									"questName": "The Fizz",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.79,
-							"yCoord": 44.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tanum",
-							"npcId": 46242,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27289,
-									"questName": "A Fine... Product?",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.74,
-							"yCoord": 44.61
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tanum",
-							"npcId": 46242,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27287,
-									"questName": "Kill Wraithroar",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.9,
-							"yCoord": 37.67
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Umi Rumplesnicker",
-							"npcId": 10305,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 977,
-									"questName": "Are We There, Yeti?",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.9,
-							"yCoord": 37.67
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Umi Rumplesnicker",
-							"npcId": 10305,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5163,
-									"questName": "Are We There, Yeti?",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.78,
-							"yCoord": 37.76
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Roxxie Fizzwhistle",
-							"npcId": 46241,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27289,
-									"questName": "A Fine... Product?",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.78,
-							"yCoord": 37.76
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Roxxie Fizzwhistle",
-							"npcId": 46241,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27290,
-									"questName": "The Universal Language",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.79,
-							"yCoord": 37.76
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Roxxie Fizzwhistle",
-							"npcId": 46241,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27290,
-									"questName": "The Universal Language",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 60.79,
-							"yCoord": 37.76
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Owlsen",
-							"npcId": 347,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27291,
-									"questName": "To Delevan's Aid",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.86,
-							"yCoord": 27.23
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Eleanor Moonglow",
-							"npcId": 46558,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27538,
-									"questName": "Felnok's Finesse",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.86,
-							"yCoord": 27.23
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Eleanor Moonglow",
-							"npcId": 46558,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27539,
-									"questName": "A Gift, For You!",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 52.88,
-							"yCoord": 27.14
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Eleanor Moonglow",
-							"npcId": 46558,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27539,
-									"questName": "A Gift, For You!",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 57.63,
-							"yCoord": 23.09
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Rootspeaker Aharu",
-							"npcId": 46576,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27552,
-									"questName": "Return to Aharu",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 57.63,
-							"yCoord": 23.09
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Rootspeaker Aharu",
-							"npcId": 46576,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27553,
-									"questName": "Planting Dreams",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 57.64,
-							"yCoord": 23.08
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Rootspeaker Aharu",
-							"npcId": 46576,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27553,
-									"questName": "Planting Dreams",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.3,
-							"yCoord": 27.24
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Delevan Frostgaze",
-							"npcId": 46210,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27291,
-									"questName": "To Delevan's Aid",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.3,
-							"yCoord": 27.24
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Delevan Frostgaze",
-							"npcId": 46210,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27292,
-									"questName": "A Rod of Reagents",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.33,
-							"yCoord": 27.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 27292,
-							"questName": "A Rod of Reagents",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 64.33,
-							"yCoord": 27.27
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 27293,
-							"questName": "In Moonlit Mourning",
-							"subTasks": [],
-							"type": "Accept quest"
 						}
 					]
 				},
@@ -72632,58 +72505,104 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
+							"xCoord": 45.56,
+							"yCoord": 47.06,
+							"coordsMap": "Moonglade",
+							"comment": "Ride to Moonglade",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Malvor",
+							"npcId": 12025,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Malvor's Guidance",
+									"questId": 27550,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Pure as the Moon",
+									"questId": 27551,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.18,
+							"yCoord": 45.43,
+							"coordsMap": "Moonglade",
+							"comment": "Fill the flask at the Moonwell",
+							"itemId": 63126,
+							"itemName": "Crystal Flask",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Filled Crystal Flask",
+									"questId": 27551,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Moonglade",
 							"depth": 0,
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 31.23,
-							"yCoord": 45.17
+							"xCoord": 45.56,
+							"yCoord": 46.9
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Donova Snowden",
-							"npcId": 9298,
+							"npcName": "Malvor",
+							"npcId": 12025,
 							"subTasks": [
 								{
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5121,
-									"questName": "High Chief Winterfall",
+									"isCustom": true,
+									"questId": 27551,
+									"questName": "Pure as the Moon",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 31.23,
-							"yCoord": 45.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Donova Snowden",
-							"npcId": 9298,
-							"subTasks": [
+								},
 								{
+									"questName": "Return to Aharu",
+									"questId": 27552,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5123,
-									"questName": "The Final Piece",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -72691,69 +72610,31 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
+							"comment": "HS back to Everlook",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 31.23,
-							"yCoord": 45.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Donova Snowden",
-							"npcId": 9298,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5128,
-									"questName": "Words of the High Chief",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 31.23,
-							"yCoord": 45.17
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Donova Snowden",
-							"npcId": 9298,
-							"subTasks": [],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 61.33,
-							"yCoord": 38.92
+							"yCoord": 38.92,
+							"coordsMap": "Winterspring",
+							"comment": "Have enough quest log room to accept these by now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -72768,37 +72649,14 @@
 									"questName": "The Everlook Report",
 									"subTasks": [],
 									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 61.33,
-							"yCoord": 38.92
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gregor Greystone",
-							"npcId": 10431,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6030,
 									"questName": "Duke Nicholas Zverenhoff",
+									"questId": 6030,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -72837,6 +72695,687 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 61.61,
+							"yCoord": 38.6,
+							"coordsMap": "Winterspring",
+							"comment": "Talk to the goblin an choose the dialog option to get the artisan kit back",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Felnok Steelspring",
+							"npcId": 10468,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"itemName": "\"Restored\" Artisan Kit",
+									"questId": 27538,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Need to make a decision here. If nighttime is about to end then skip steps until \"To Delevan's Aid\" and do that section until finishing the nightitme quest + the turn in at the east mountains",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Otherwise proceed as the guide says",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you are an individual with taste you will stable your pet now, tame a temporary owl and try to tame the blue rare tiger",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 52.86,
+							"yCoord": 27.23
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Eleanor Moonglow",
+							"npcId": 46558,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27538,
+									"questName": "Felnok's Finesse",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Gift, For You!",
+									"questId": 27539,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 52.65,
+							"yCoord": 27.17,
+							"coordsMap": "Winterspring",
+							"comment": "Go inside the house and open the chest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Bag of Gem Settings",
+									"questId": 27539,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 52.88,
+							"yCoord": 27.14,
+							"coordsMap": "Winterspring",
+							"comment": "She becomes a vendor now, check the stock",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Eleanor Moonglow",
+							"npcId": 46558,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27539,
+									"questName": "A Gift, For You!",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 50.66,
+							"yCoord": 14.72,
+							"coordsMap": "Winterspring",
+							"comment": "Go north and kill any frostsabers until \"Sacred Frostsaber Meat\" drops (the purple ones have a higher chance)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"xCoord": 50.98,
+									"yCoord": 10.48,
+									"coordsMap": "Winterspring",
+									"comment": "Bonus: if Rak'shiri is wandering around here abandon the temporary owl, place a trap, wait out the CD, agro her, trap her, place another trap then start the tame.",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 49.71,
+							"yCoord": 9.76,
+							"coordsMap": "Winterspring",
+							"comment": "Drop the meat at the pedestal and kite the tiger towards the pilars to the south-east, then run around them on a frost trap",
+							"itemId": 12733,
+							"itemName": "Sacred Frostsaber Meat",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Shy-Rotam",
+									"npcId": 10737,
+									"count": 1,
+									"questId": 5056,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 57.63,
+							"yCoord": 23.09
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Rootspeaker Aharu",
+							"npcId": 46576,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27552,
+									"questName": "Return to Aharu",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Planting Dreams",
+									"questId": 27553,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.43,
+							"yCoord": 15.71,
+							"coordsMap": "Winterspring",
+							"comment": "Like the first time, go to the eastern side of the ruins. Plant the seeds and finish killing the satyrs. Gather any tablets you see",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Dream Seeds Planted",
+									"questId": 27553,
+									"questObjectiveIndex": 1,
+									"count": 5,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Vilehorn Satyr",
+									"npcId": 46578,
+									"count": 12,
+									"questId": 27554,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 60.23,
+							"yCoord": 13.29,
+							"coordsMap": "Winterspring",
+							"comment": "Now go up here and kill the ghost + gather the remaining tablets while heading back to the entrance",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Quel'dorei Tablet",
+									"questId": 27529,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 12,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Theles'aran Citizen",
+									"npcId": 46561,
+									"count": 15,
+									"questId": 27540,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 59.06,
+							"yCoord": 20.47,
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Ismir Dawnfall",
+							"npcId": 46560,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27540,
+									"questName": "Lost Souls",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 57.63,
+							"yCoord": 23.07,
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Rootspeaker Aharu",
+							"npcId": 46576,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27554,
+									"questName": "Shadow of the Vilehorn",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Planting Dreams",
+									"questId": 27553,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 57.48,
+							"yCoord": 23.08,
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Lady Lyrene",
+							"npcId": 46555,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27529,
+									"questName": "Words in Stone",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Scribe's Work",
+									"questId": 27530,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 64.3,
+							"yCoord": 27.24
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Delevan Frostgaze",
+							"npcId": 46210,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27291,
+									"questName": "To Delevan's Aid",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "A Rod of Reagents",
+									"questId": 27292,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.79,
+							"yCoord": 27.39,
+							"coordsMap": "Winterspring",
+							"comment": "TODO: If you purged the spirit at the lake finish the questline here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Gather the icesaps (blue buds near trees), frost crystals (blue pilars) and the blood feathers (kill owls) around the area",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Icesap",
+									"questId": 27292,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Frost Crystal",
+									"questId": 27292,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 6,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Blood Feather",
+									"questId": 27292,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Winterspring",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 64.33,
+							"yCoord": 27.27
+						},
+						{
+							"npcName": "Delevan Frostgaze",
+							"npcId": 46210,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "A Rod of Reagents",
+									"questId": 27292,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "In Moonlit Mourning",
+									"questId": 27293,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.93,
+							"yCoord": 17.04,
+							"coordsMap": "Winterspring",
+							"comment": "Only doable at night. Skip if unlucky with timing. Escort ends and elite spawns here (can pet tank)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "TODO: Couldn't do in beta, no info about the objective",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "In Moonlit Mourning",
+									"questId": 27293,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 61.25,
+							"yCoord": 38.89,
+							"coordsMap": "Winterspring",
+							"comment": "No Illusion dust, so the questline ends here. Can do later for some decent blue weapons",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Marius Hedrin",
+							"npcId": 46556,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27530,
+									"questName": "A Scribe's Work",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 61.9,
+							"yCoord": 38.38,
+							"coordsMap": "Winterspring",
+							"comment": "Follow up shouldn't be available to alliance. If it is just skip it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Storm Shadowhoof",
+							"npcId": 10303,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 5056,
+									"questName": "Shy-Rotam",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 62.33,
+							"yCoord": 36.63,
+							"coordsMap": "Winterspring",
+							"comment": "Fly to souther Felwood (Emerald Sanctuary)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -72868,6 +73407,21 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 51.5,
+							"yCoord": 82.21,
+							"coordsMap": "Felwood",
+							"comment": "Fly to Darnassus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -72892,6 +73446,14 @@
 									"questName": "Guardians of the Altar",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Wildkin of Elune",
+									"questId": 4902,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -72899,35 +73461,43 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 55.92,
+							"yCoord": 89.72,
 							"coordsMap": "Teldrassil",
+							"comment": "Take the teleport",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 55.5,
-							"yCoord": 92.09
-						},
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
 						{
+							"xCoord": 40.43,
+							"yCoord": 9.08,
+							"coordsMap": "Darnassus",
+							"comment": "Learn level 58 spells",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Erelas Ambersky",
-							"npcId": 7916,
+							"type": "Go to",
 							"subTasks": [
 								{
+									"npcName": "Jocaste",
+									"npcId": 4146,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 4902,
-									"questName": "Wildkin of Elune",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -72959,6 +73529,90 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 30.29,
+							"yCoord": 41.43,
+							"coordsMap": "Darnassus",
+							"comment": "And back down again",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 58.39,
+							"yCoord": 94,
+							"coordsMap": "Teldrassil",
+							"comment": "Fly to Auberdine",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 32.42,
+							"yCoord": 43.8,
+							"coordsMap": "Darkshore",
+							"comment": "Boat to Menethil",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 10.68,
+							"yCoord": 60.88,
+							"coordsMap": "Wetlands",
+							"comment": ">>> Set HS <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Innkeeper Helbrek",
+									"npcId": 1464,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 9.53,
+							"yCoord": 59.62,
+							"coordsMap": "Wetlands",
+							"comment": "Fly to IF",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 23,
@@ -72993,68 +73647,6 @@
 									"questName": "The Smoldering Ruins of Thaurissan",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 43.36,
-							"yCoord": 52.04
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Deliana",
-							"npcId": 16013,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 8906,
-									"questName": "An Earnest Proposition",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 67.48,
-							"yCoord": 36.18
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Ulfir Ironbeard",
-							"npcId": 5516,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 8151,
-									"questName": "The Hunter's Charm",
-									"subTasks": [],
-									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
@@ -73520,37 +74112,6 @@
 									"questName": "Mayara Brightwing",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 84.76,
-							"yCoord": 68.96
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Mayara Brightwing",
-							"npcId": 9565,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4764,
-									"questName": "Doomrigger's Clasp",
-									"subTasks": [],
-									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
