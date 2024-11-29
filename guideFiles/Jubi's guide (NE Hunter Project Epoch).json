@@ -70309,38 +70309,6 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 57.46,
-							"yCoord": 23.09,
-							"coordsMap": "Winterspring",
-							"comment": "TODO: Have to turn in later",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lady Lyrene",
-							"npcId": 46555,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27528,
-									"questName": "Road to Teles'aran",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
 							"coordsMap": "Winterspring",
 							"depth": 0,
 							"isCustom": false,
@@ -72305,7 +72273,7 @@
 							"xCoord": 51.48,
 							"yCoord": 30.82,
 							"coordsMap": "Winterspring",
-							"comment": "Refill quiver",
+							"comment": ">>> Refill quiver <<<",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -73602,6 +73570,30 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 11.08,
+							"yCoord": 58.35,
+							"coordsMap": "Wetlands",
+							"comment": ">>> Refill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Edwina Monzor",
+									"npcId": 1462,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 9.53,
 							"yCoord": 59.62,
 							"coordsMap": "Wetlands",
@@ -73652,6 +73644,21 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 76.78,
+							"yCoord": 51.19,
+							"coordsMap": "Ironforge",
+							"comment": "Tram to SW",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -73709,37 +73716,22 @@
 									"questName": "The True Masters",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 80.08,
-							"yCoord": 38.39
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Highlord Bolvar Fordragon",
-							"npcId": 1748,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4185,
 									"questName": "The True Masters",
+									"questId": 4185,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "The First and the Last",
+									"questId": 6182,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -73747,35 +73739,38 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 808,
+							"yCoord": 38.39,
 							"coordsMap": "Stormwind City",
+							"comment": "Spam gossip macro after talking to Prestor",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 80.08,
-							"yCoord": 38.39
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Highlord Bolvar Fordragon",
-							"npcId": 1748,
 							"subTasks": [
 								{
+									"npcName": "Lady Katrana Prestor",
+									"npcId": 1749,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 6182,
-									"questName": "The First and the Last",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"goalName": "Advice from Lady Prestor",
+									"questId": 4185,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -73802,37 +73797,14 @@
 									"questName": "The True Masters",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 80.08,
-							"yCoord": 38.39
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Highlord Bolvar Fordragon",
-							"npcId": 1748,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
+									"questName": "The True Masters",
 									"questId": 4186,
-									"questName": "The True Masters",
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -73864,37 +73836,14 @@
 									"questName": "The First and the Last",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 78.5,
-							"yCoord": 70.68
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Master Mathias Shaw",
-							"npcId": 332,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6183,
 									"questName": "Honor the Dead",
+									"questId": 6183,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -73905,13 +73854,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 78.5,
-							"yCoord": 70.68
+							"yCoord": 70.68,
+							"coordsMap": "Stormwind City",
+							"comment": "Yes, again",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -73926,42 +73876,34 @@
 									"questName": "Honor the Dead",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stormwind City",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 78.51,
-							"yCoord": 70.72
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Master Mathias Shaw",
-							"npcId": 332,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6184,
 									"questName": "Flint Shadowmore",
+									"questId": 6184,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 70.94,
+							"yCoord": 72.61,
+							"coordsMap": "Stormwind City",
+							"comment": "Fly to Redridge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -73988,6 +73930,14 @@
 									"questName": "The True Masters",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The True Masters",
+									"questId": 4223,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -73995,35 +73945,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Lakeshire Town Hall",
+							"xCoord": 30.63,
+							"yCoord": 59.46,
+							"coordsMap": "Redridge Mountains",
+							"comment": "Fly to Burning Steppes",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 29.83,
-							"yCoord": 44.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Magistrate Solomon",
-							"npcId": 344,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4223,
-									"questName": "The True Masters",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -74050,37 +73984,14 @@
 									"questName": "The True Masters",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 84.68,
-							"yCoord": 68.87
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marshal Maxwell",
-							"npcId": 9560,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4224,
 									"questName": "The True Masters",
+									"questId": 4224,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -74091,13 +74002,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 84.76,
-							"yCoord": 68.96
+							"yCoord": 68.96,
+							"coordsMap": "Burning Steppes",
+							"comment": "Skip follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -74122,13 +74034,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 65.33,
-							"yCoord": 24.02
+							"yCoord": 24.02,
+							"coordsMap": "Burning Steppes",
+							"comment": "Skip follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -74150,16 +74063,51 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 65.08,
+							"yCoord": 23.74,
+							"coordsMap": "Burning Steppes",
+							"comment": "Talk to the dwarf and spam the gossip macro",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Ragged John",
+									"npcId": 9563,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "Ragged John's Story",
+									"questId": 4224,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 84.73,
-							"yCoord": 68.91
+							"yCoord": 68.91,
+							"coordsMap": "Burning Steppes",
+							"comment": "Skip follow up or keep it for later since it's Onyxia's attunement, up to you. Questlog space won't get full anymore.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -74181,128 +74129,52 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
+							"comment": "HS back to Menethil or grind orcs to the west while waiting",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.92,
-							"yCoord": 83.6
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Argent Officer Pureheart",
-							"npcId": 10840,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6028,
-									"questName": "The Everlook Report",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
+							"xCoord": 11.06,
+							"yCoord": 58.36,
+							"coordsMap": "Wetlands",
+							"comment": ">>> Refill quiver <<< if you grinded orcs",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 42.74,
-							"yCoord": 84.06
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Ashlam Valorfist",
-							"npcId": 10838,
 							"subTasks": [
 								{
+									"npcName": "Edwina Monzor",
+									"npcId": 1462,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5097,
-									"questName": "All Along the Watchtowers",
+									"type": "Talk to",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.61,
-							"yCoord": 84.22
+							"isCustom": false
 						},
 						{
+							"xCoord": 9.52,
+							"yCoord": 59.66,
+							"coordsMap": "Wetlands",
+							"comment": "Fly to Chillwind Camp (WPL)",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Mariel Dumont",
-							"npcId": 46918,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 27773,
-									"questName": "The Bowyer's Behest",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 42.94,
-							"yCoord": 84.41
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "High Priestess MacDonnell",
-							"npcId": 11053,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5219,
-									"questName": "Target: Dalson's Tears",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -74360,6 +74232,14 @@
 									"questName": "Flint Shadowmore",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Eastern Plagues",
+									"questId": 6185,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -74375,20 +74255,52 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 43.61,
-							"yCoord": 84.48
+							"xCoord": 42.94,
+							"yCoord": 84.41
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Flint Shadowmore",
-							"npcId": 12425,
+							"npcName": "High Priestess MacDonnell",
+							"npcId": 11053,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 6185,
-									"questName": "The Eastern Plagues",
+									"questId": 5219,
+									"questName": "Target: Dalson's Tears",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 42.61,
+							"yCoord": 84.22,
+							"coordsMap": "Western Plaguelands",
+							"comment": "This is the xbow mastery questline. Can be soloed up to the last step which requires killing Shadowhunter in LBRS. Very decent blue xbow right very early when 60",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Mariel Dumont",
+							"npcId": 46918,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": true,
+									"questId": 27773,
+									"questName": "The Bowyer's Behest",
 									"subTasks": [],
 									"type": "Accept quest"
 								}
@@ -74406,8 +74318,113 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"xCoord": 42.74,
+							"yCoord": 84.06
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Commander Ashlam Valorfist",
+							"npcId": 10838,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 5097,
+									"questName": "All Along the Watchtowers",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Western Plaguelands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 42.92,
+							"yCoord": 83.6
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Argent Officer Pureheart",
+							"npcId": 10840,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 6028,
+									"questName": "The Everlook Report",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "You will notice Andorhal looks different. It's because is the Andorhal from earlier vanilla patches. Chromie is not where usually is and to spawn the lich you have to destroy the 4 crystals guarded in each of the towers",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 40.31,
+							"yCoord": 71.74,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Burn  the first tower. Can pet tank the elite skele, it just takes a while...",
+							"itemId": 12815,
+							"itemName": "Beacon Torch",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Tower One Marked",
+									"questId": 5097,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Don't break the crystals inside the towers, you don't want to spam the boss + guards at the plaza",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 44.28,
-							"yCoord": 73.24
+							"yCoord": 73.24,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Avoid the main roads while traveling through this area, the abominations are mega overtuned. Also, be careful when entering Chromie's house, can easily pull 4 mobs at a time",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -74429,16 +74446,46 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 38.83,
+							"yCoord": 68.9,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Use the horn to summon the grubbs. They are a pain in the ass to kill... Use BW to dispell Slow the first time one hits you",
+							"itemId": 12627,
+							"itemName": "Temporal Displacer",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Temporal Parasite",
+									"npcId": 10717,
+									"count": 15,
+									"questId": 4971,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 38.34,
-							"yCoord": 54.16
+							"yCoord": 54.16,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Ignore the Jabbering Ghoul when going here, you have to kill it later",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -74453,6 +74500,14 @@
 									"questName": "Good Luck Charm",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Two Halves Become One",
+									"questId": 5051,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -74460,35 +74515,33 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 36.83,
+							"yCoord": 58.24,
 							"coordsMap": "Western Plaguelands",
+							"comment": "Kill the ghoul, look the other half of the charm and combine them",
+							"itemId": 12722,
+							"itemName": "Good Luck Other-Half-Charm",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 38.34,
-							"yCoord": 54.16
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Janice Felstone",
-							"npcId": 10778,
 							"subTasks": [
 								{
+									"itemName": "Good Luck Charm",
+									"questId": 5903,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5051,
-									"questName": "Two Halves Become One",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -74525,13 +74578,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 46.09,
-							"yCoord": 52.14
+							"yCoord": 52.14,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Kill the Cauldron Lord and turn the quest in",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -74540,116 +74594,140 @@
 							"questName": "Target: Dalson's Tears",
 							"subTasks": [],
 							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 46.09,
-							"yCoord": 52.14
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5220,
 							"questName": "Return to Chillwind Camp",
+							"questId": 5220,
+							"depth": 0,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 47.8,
+							"yCoord": 50.71,
 							"coordsMap": "Western Plaguelands",
+							"comment": "Interact with the Diary. In theory you have to interact with it before getting the key to drop. Was bugged during beta, but do it just in case",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Split pull the Scarlet crusade ptrol if they aren't fighting the undead",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 47.88,
+							"yCoord": 49.34,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Kill the Wandering Skeleton, it will drop a key",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 48.17,
+							"yCoord": 49.65,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Go to the outhouse, turn in the key and an undead will spawn. Kill it for another key",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"xCoord": 47.44,
-							"yCoord": 49.67
-						},
-						{
+							"yCoord": 49.67,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Lastly, go to the house's second floor and turn in the key",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 5060,
-							"questName": "Locked Away",
-							"subTasks": [],
-							"type": "Accept quest"
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "Locked Away",
+									"questId": 5060,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Locked Away",
+									"questId": 5060,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 44.94,
+							"yCoord": 64.57,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Another tower",
+							"itemId": 12815,
+							"itemName": "Beacon Torch",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Tower Three marked",
+									"questId": 5097,
+									"questObjectiveIndex": 3,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 42.12,
+							"yCoord": 66.19,
 							"coordsMap": "Western Plaguelands",
+							"comment": "Another tower",
+							"itemId": 12815,
+							"itemName": "Beacon Torch",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 48.21,
-							"yCoord": 49.48
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5060,
-							"questName": "Locked Away",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 47.38,
-							"yCoord": 49.76
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5060,
-							"questName": "Locked Away",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 47.79,
-							"yCoord": 50.77
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Skeletal Terror",
-							"npcId": 1785,
-							"subTasks": [],
-							"type": "Talk to"
+							"subTasks": [
+								{
+									"goalName": "Tower Two marked",
+									"questId": 5097,
+									"questObjectiveIndex": 2,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -74678,6 +74756,14 @@
 									"questName": "A Matter of Time",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Counting Out Time",
+									"questId": 4972,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -74688,30 +74774,27 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 48.22,
+							"yCoord": 65.39,
 							"coordsMap": "Western Plaguelands",
+							"comment": "Last tower. When traveling to it, look up for lockboxes inside the houses' ruins to progress the watches' quest",
+							"itemId": 12815,
+							"itemName": "Beacon Torch",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 44.2,
-							"yCoord": 73.29
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Chromie",
-							"npcId": 10667,
 							"subTasks": [
 								{
+									"goalName": "Tower Four marked",
+									"questId": 5097,
+									"questObjectiveIndex": 4,
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 4972,
-									"questName": "Counting Out Time",
+									"type": "Goal",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -74719,13 +74802,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 44.22,
-							"yCoord": 73.26
+							"yCoord": 73.26,
+							"coordsMap": "Western Plaguelands",
+							"comment": "TODO: Turn in later",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -74750,13 +74834,22 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 42.77,
-							"yCoord": 83.96
+							"yCoord": 83.96,
+							"coordsMap": "Western Plaguelands",
+							"comment": "If you have a marker from an addon inside the graveyard house ignore it. You can't have that one and the one in Winterspring (which you accepted)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Skip Alas, Andorhal or keep it in you questlog to do after reaching 60",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -74771,37 +74864,14 @@
 									"questName": "All Along the Watchtowers",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.75,
-							"yCoord": 84.02
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Ashlam Valorfist",
-							"npcId": 10838,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5533,
 									"questName": "Scholomance",
+									"questId": 5533,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -74833,37 +74903,14 @@
 									"questName": "Scholomance",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.69,
-							"yCoord": 83.85
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Alchemist Arbington",
-							"npcId": 11056,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5537,
 									"questName": "Skeletal Fragments",
+									"questId": 5537,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -74895,68 +74942,14 @@
 									"questName": "Return to Chillwind Camp",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.93,
-							"yCoord": 84.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "High Priestess MacDonnell",
-							"npcId": 11053,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5222,
 									"questName": "Target: Writhing Haunt",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.75,
-							"yCoord": 84.13
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Commander Ashlam Valorfist",
-							"npcId": 10838,
-							"subTasks": [
-								{
+									"questId": 5222,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 211,
-									"questName": "Alas, Andorhal",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -74967,13 +74960,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 53.02,
-							"yCoord": 65.82
+							"yCoord": 65.82,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Kill the Cauldron Lord and turn in the quest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -74982,28 +74976,14 @@
 							"questName": "Target: Writhing Haunt",
 							"subTasks": [],
 							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.02,
-							"yCoord": 65.82
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5223,
 							"questName": "Return to Chillwind Camp",
+							"questId": 5223,
+							"depth": 0,
+							"type": "Accept quest",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
 					]
 				},
@@ -75039,6 +75019,67 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 50.82,
+							"yCoord": 62.47,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Go north killing wolves. The spawns should be shared with the spiders but shared spawn pools don't work in this server (yet?) so just kill the wolves and ignore the rest",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 46.4,
+							"yCoord": 46.16,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Should be finishing around here if you went straight north",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Diseased Wolf",
+									"npcId": 1817,
+									"count": 8,
+									"questId": 4984,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 69.22,
+							"yCoord": 49.68,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Get the FP, might get removed, might stay just to spite classic andies (was added during LFD patch), who knows?",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Frax Bucketdrop",
+									"npcId": 37888,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -75063,6 +75104,22 @@
 									"questName": "Demon Dogs",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Blood Tinged Skies",
+									"questId": 5543,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Carrion Grubbage",
+									"questId": 5544,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -75070,69 +75127,173 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Eastern Plaguelands",
+							"comment": "Go from point to point killing every bat/dog/grub you see. By the time you reach Lightshope you should only be missing the high level dogs and maybe some grub meat",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 4.74,
-							"yCoord": 38.37
+							"isCustom": false
 						},
 						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5543,
-							"questName": "Blood Tinged Skies",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
+							"xCoord": 25.12,
+							"yCoord": 73.16,
 							"coordsMap": "Eastern Plaguelands",
+							"comment": "One insignia",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 4.74,
-							"yCoord": 38.37
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tirion Fordring",
-							"npcId": 1855,
 							"subTasks": [
 								{
+									"itemName": "SI:7 Insignia (Rutger)",
+									"questId": 6185,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5544,
-									"questName": "Carrion Grubbage",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
+						},
+						{
+							"xCoord": 25.14,
+							"yCoord": 68.35,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Two insignias",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "SI:7 Insignia (Turyen)",
+									"questId": 6185,
+									"questObjectiveIndex": 4,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Put your pet on stay a little bit to the east, where Nathanos almost de-renders",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 23.71,
+							"yCoord": 68.51,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Last insignia. Gather at max range or the Banshee's toy boy will spot you",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "SI:7 Insignia (Fredo)",
+									"questId": 6185,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "The Blightcaller Uncovered",
+									"questId": 6185,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Send pet to Nathanos with Dive on and put it on passive after he gets aggroed. Run past him to get inside the house.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "Don't touch the blood of heroes",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 22.46,
+							"yCoord": 68,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Interact with the correspondence",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Ranger Marris' Notes",
+									"questId": 27773,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Use Eyes of the beast if you didn't forget to train it and the devs remembered to activate it again after 2 years to pull Nathanos to the south (otherwise just sac pet inside the upper floor of the house). Exit the house towards the north and let your pet die/despawn",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Eastern Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 32.49,
-							"yCoord": 83.75
+							"yCoord": 83.75,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Kill the northen side of Nathanos' house to progress the quests then head to Darrowshire",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -75147,6 +75308,14 @@
 									"questName": "Sister Pamela",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Pamela's Doll",
+									"questId": 5149,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -75154,35 +75323,40 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 34.39,
+							"yCoord": 84.94,
 							"coordsMap": "Eastern Plaguelands",
+							"comment": "The three pieces are inside this house: 2 on the lower floor and 1 in the upper",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 32.49,
-							"yCoord": 83.75
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"comment": "Interact with any of the parts to combine the doll when you have the 3",
+							"itemId": 12886,
+							"itemName": "Pamela's Doll's Head",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pamela Redpath",
-							"npcId": 10926,
+							"type": "Comment",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
+									"itemName": "Pamella's Doll",
 									"questId": 5149,
-									"questName": "Pamela's Doll",
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -75209,37 +75383,22 @@
 									"questName": "Pamela's Doll",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Eastern Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 32.5,
-							"yCoord": 83.75
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pamela Redpath",
-							"npcId": 10926,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5152,
 									"questName": "Auntie Marlene",
+									"questId": 5152,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Uncle Carlin",
+									"questId": 5241,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -75247,35 +75406,16 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Eastern Plaguelands",
+							"comment": "TODO: Continua here",
 							"depth": 0,
-							"isCustom": false,
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 32.5,
-							"yCoord": 83.75
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pamela Redpath",
-							"npcId": 10926,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5241,
-									"questName": "Uncle Carlin",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -75550,99 +75690,30 @@
 									"questName": "Demon Dogs",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Eastern Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 4.72,
-							"yCoord": 38.34
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tirion Fordring",
-							"npcId": 1855,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5543,
 									"questName": "Blood Tinged Skies",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Eastern Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 4.72,
-							"yCoord": 38.34
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tirion Fordring",
-							"npcId": 1855,
-							"subTasks": [
-								{
+									"questId": 5543,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5544,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
 									"questName": "Carrion Grubbage",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Eastern Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 4.72,
-							"yCoord": 38.34
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tirion Fordring",
-							"npcId": 1855,
-							"subTasks": [
-								{
+									"questId": 5544,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5742,
-									"questName": "Redemption",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Redemption",
+									"questId": 5742,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -75674,37 +75745,14 @@
 									"questName": "Redemption",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Eastern Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 4.66,
-							"yCoord": 38.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tirion Fordring",
-							"npcId": 1855,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5781,
 									"questName": "Of Forgotten Memories",
+									"questId": 5781,
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
