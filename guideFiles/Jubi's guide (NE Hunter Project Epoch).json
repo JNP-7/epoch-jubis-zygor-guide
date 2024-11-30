@@ -74131,7 +74131,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "HS back to Menethil or grind orcs to the west while waiting",
+							"comment": "HS back to Menethil or grind orcs to the west while waiting for the CD",
 							"itemId": 6948,
 							"itemName": "Hearthstone",
 							"depth": 0,
@@ -74802,38 +74802,6 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 44.22,
-							"yCoord": 73.26,
-							"coordsMap": "Western Plaguelands",
-							"comment": "TODO: Turn in later",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Chromie",
-							"npcId": 10667,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4972,
-									"questName": "Counting Out Time",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
 							"xCoord": 42.77,
 							"yCoord": 83.96,
 							"coordsMap": "Western Plaguelands",
@@ -75408,14 +75376,107 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "TODO: Continua here",
+							"coordsMap": "Eastern Plaguelands",
+							"xCoord": 73.99,
+							"yCoord": 57.51,
+							"comment": "By the time you reach light's hope you should have finished Plaguebats, regular Plaguehound + runts and the grub meat",
 							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Plaguebat",
+									"npcId": 8600,
+									"count": 30,
+									"questId": 5543,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Plaguehound Runt",
+									"npcId": 8596,
+									"count": 20,
+									"questId": 5542,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Plaguehound",
+									"npcId": 8597,
+									"count": 5,
+									"questId": 5542,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Slab of Carrion Worm Meat",
+									"questId": 5544,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Carrion Grub",
+											"npcId": 8603
+										}
+									],
+									"count": 15,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 73.99,
+							"yCoord": 57.51,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": ">>> Refill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Caretaker Alen",
+							"npcId": 11038,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 5281,
+									"questName": "The Restless Souls",
+									"subTasks": [],
+									"type": "Accept quest"
+								},
+								{
+									"questName": "Zaeldarr the Outcast",
+									"questId": 6021,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
 				},
 				{
 					"onlyForClasses": [],
@@ -75473,68 +75534,14 @@
 									"questName": "Uncle Carlin",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Eastern Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 75.71,
-							"yCoord": 53.89
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Carlin Redpath",
-							"npcId": 11063,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5211,
 									"questName": "Defenders of Darrowshire",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Eastern Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.99,
-							"yCoord": 57.51
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Caretaker Alen",
-							"npcId": 11038,
-							"subTasks": [
-								{
+									"questId": 5211,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5281,
-									"questName": "The Restless Souls",
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -75545,44 +75552,33 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Eastern Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 73.98,
-							"yCoord": 57.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Caretaker Alen",
-							"npcId": 11038,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6021,
-									"questName": "Zaeldarr the Outcast",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Eastern Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 48.78,
-							"yCoord": 17.55
+							"yCoord": 17.55,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Kill the high level dogs to finish Tirion's quest. Kill diseased flayers, gibbering ghouls and/or cannibal ghouls then free the spirit by talking to them while traveling north",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Most likely you will reach 60 with Tirion's turn ins + the quest that you currently have in WPL. Check XP to see if it's worth to just fly back to WPL",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Frenzied Plaguehound",
+									"npcId": 8598,
+									"count": 5,
+									"questId": 5544,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -75595,7 +75591,15 @@
 									"isCustom": false,
 									"questId": 5245,
 									"questName": "Troubled Spirits of Kel'Theril",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"comment": "Skip the follow up",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"type": "Turn in quest"
 								}
 							],
@@ -75604,47 +75608,54 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 11.34,
+							"yCoord": 28.78,
 							"coordsMap": "Eastern Plaguelands",
+							"comment": "While traveling through Plaguewood gather termites from the mounds and kill the undead (diseased flayers, gibbering ghouls and/or cannibal ghouls) to release the souls",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 48.78,
-							"yCoord": 17.55
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Aurora Skycaller",
-							"npcId": 10304,
 							"subTasks": [
 								{
+									"itemName": "Plaguelands Termites",
+									"questId": 5903,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 100,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5246,
-									"questName": "Fragments of the Past",
+									"type": "Get",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"goalName": "Darrowshire Spirit Freed",
+									"questId": 5211,
+									"questObjectiveIndex": 1,
+									"count": 15,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Eastern Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 11.34,
-							"yCoord": 28.78
+							"yCoord": 28.78,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Skip follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -75664,6 +75675,121 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 11.36,
+							"yCoord": 28.64,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "TODO: Bugged during beta. If his quest is available accept it and finish it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Augustus the Touched",
+							"npcId": 12384,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 6164,
+									"questName": "Augustus' Receipt Book",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 14.21,
+							"yCoord": 26.31,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Second of floor of the inn. If bugged skip the step and the next one",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Augustus' Receipt Book",
+									"questId": 6164,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 11.36,
+							"yCoord": 28.64,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Skip if bugged",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Augustus the Touched",
+							"npcId": 12384,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Augustus' Receipt Book",
+									"questId": 6164,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 12.23,
+							"yCoord": 24.58,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Through the tunnel back to Tirion. Track undead and keep an eye out for the rare (Nerubian Overseer). FD or hide in an alcove untill it goeas away",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 4.35,
+							"yCoord": 35.96,
+							"coordsMap": "Eastern Plaguelands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -75721,6 +75847,37 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": "/sit in front of Tirion (no dialog otherwise), talk to him and spam the gossip macro",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"npcName": "Tirion Fordring",
+									"npcId": 1855,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"goalName": "Tirion's Tale",
+									"questId": 5742,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -75760,26 +75917,91 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 24.7,
+							"yCoord": 79.96,
 							"coordsMap": "Eastern Plaguelands",
+							"comment": "Put a explosive trap down, wait for the CD, open the grave, pop CD's and kill the gank squad",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 23.74,
-							"yCoord": 78.31
+							"subTasks": [
+								{
+									"itemName": "Taelan's Hammer",
+									"questId": 5781,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Mercutio Filthgorger",
+											"npcId": 11886
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
+							"comment": "From now on the pathing is pretty scuffed because you are most likely about to hit 60",
 							"depth": 0,
-							"isCustom": false,
-							"questId": 6024,
-							"questName": "Hameya's Plea",
+							"type": "Comment",
 							"subTasks": [],
-							"type": "Accept quest"
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 23.69,
+							"yCoord": 78.28,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "If you have enough with turn ins don't bother doing this",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questId": 6024,
+									"questName": "Hameya's Plea",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "Completly pointless since you won't get to finish it before hitting 60",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"itemName": "Zaeldarr's Head",
+									"questId": 6021,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Zaeldarr the Outcast",
+											"npcId": 12250
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -75806,6 +76028,22 @@
 									"questName": "Of Forgotten Memories",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "Of Lost Honor",
+									"questId": 5845,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "Won't finish it, but keep it just to progress the questline when 60",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -75813,35 +76051,19 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Eastern Plaguelands",
+							"coordsMap": "Western Plaguelands",
+							"xCoord": 69.24,
+							"yCoord": 49.68,
+							"comment": "If the goblin flight path hasn't been removed fly to Light's hope and turn in \"Zaeldarr the Outcast\" and \"Defenders of Darrowshire\" and flight back to the goblin. Otherwise just continue",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 4.69,
-							"yCoord": 38.31
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Tirion Fordring",
-							"npcId": 1855,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5845,
-									"questName": "Of Lost Honor",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
+							"subTasks": [],
+							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -75868,6 +76090,22 @@
 									"questName": "The Wildlife Suffers Too",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Wildlife Suffers Too",
+									"questId": 4985,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "Can skip, is not important, but might aswell do it while finishing the last cauldron quest at 60",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -75883,69 +76121,127 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 53.65,
-							"yCoord": 64.72
+							"xCoord": 49.2,
+							"yCoord": 78.72
+						},
+						{
+							"npcName": "Marlene Redpath",
+							"npcId": 10927,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Auntie Marlene",
+									"questId": 5152,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "A Strange Historian",
+									"questId": 5153,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.7,
+							"yCoord": 76.79,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Open the grave to get the ring for Chromie",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 43.33,
+							"yCoord": 83.27,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Kill Skeletal Flayers (even if they are grey...) while going to Chillwind camp to finish gathering the skeletal fragments. You can try to AoE down groups of them",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Skeletal Fragments",
+									"questId": 5537,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Skeletal Flayer",
+											"npcId": 1783
+										}
+									],
+									"count": 15,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Western Plaguelands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 43.66,
+							"yCoord": 84.46
 						},
 						{
 							"depth": 0,
 							"isCustom": false,
-							"npcName": "Mulgris Deepriver",
-							"npcId": 10739,
+							"npcName": "Flint Shadowmore",
+							"npcId": 12425,
 							"subTasks": [
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 4985,
-									"questName": "The Wildlife Suffers Too",
+									"questId": 6185,
+									"questName": "The Eastern Plagues",
 									"subTasks": [],
-									"type": "Accept quest"
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Blightcaller Cometh",
+									"questId": 6186,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "Just to progress it at 60",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 49.2,
-							"yCoord": 78.72
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5152,
-							"questName": "Auntie Marlene",
-							"subTasks": [],
-							"type": "Turn in quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 49.2,
-							"yCoord": 78.72
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 5153,
-							"questName": "A Strange Historian",
-							"subTasks": [],
-							"type": "Accept quest"
 						}
 					]
 				},
@@ -75974,37 +76270,22 @@
 									"questName": "Skeletal Fragments",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.73,
-							"yCoord": 83.8
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Alchemist Arbington",
-							"npcId": 11056,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5538,
 									"questName": "Mold Rhymes With...",
-									"subTasks": [],
-									"type": "Accept quest"
+									"questId": 5538,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "To progress at 60. The scholo key is mandatory to get inside the dungeon in this server",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -76036,37 +76317,22 @@
 									"questName": "Return to Chillwind Camp",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 42.94,
-							"yCoord": 84.45
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "High Priestess MacDonnell",
-							"npcId": 11053,
-							"subTasks": [
+								},
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5225,
 									"questName": "Target: Gahrron's Withering",
-									"subTasks": [],
-									"type": "Accept quest"
+									"questId": 5225,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "Last cauldron quest to finish at 60",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -76077,27 +76343,44 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 42.61,
+							"yCoord": 84.22,
 							"coordsMap": "Western Plaguelands",
+							"comment": "This is the xbow mastery questline. Can be soloed up to the last step which requires killing Shadowhunter in LBRS. Very decent blue xbow right very early when 60",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 43.66,
-							"yCoord": 84.46
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Flint Shadowmore",
-							"npcId": 12425,
+							"isCustom": true,
+							"npcName": "Mariel Dumont",
+							"npcId": 46918,
 							"subTasks": [
 								{
+									"questName": "The Bowyer's Behest",
+									"questId": 27773,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 6185,
-									"questName": "The Eastern Plagues",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
+								},
+								{
+									"questId": 27774,
+									"questName": "The Bowyer's Behest",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "For later, there are some vultures south of the Scholomance lake if you want to gather the feathers there",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -76108,44 +76391,115 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 44.22,
+							"yCoord": 73.26,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Finish gathering the watches for chromie",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Andorhal Watch",
+									"questId": 4972,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 5,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 44.22,
+							"yCoord": 73.26,
 							"coordsMap": "Western Plaguelands",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 43.66,
-							"yCoord": 84.46
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Chromie",
+							"npcId": 10667,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Flint Shadowmore",
-							"npcId": 12425,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 4972,
+									"questName": "Counting Out Time",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 6186,
-									"questName": "The Blightcaller Cometh",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "A Strange Historian",
+									"questId": 5153,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 5154,
+									"questName": "The Annals of Darrowshire",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 44.97,
+							"yCoord": 66.86,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Only if you need the XP from this quest to hit 60. It's the book in the middle of the wall to the east",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "The Annals of Darrowshire",
+									"questId": 5154,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 43.47,
-							"yCoord": 84.88
+							"yCoord": 84.88,
+							"coordsMap": "Western Plaguelands",
+							"comment": "Turn in The Annals of Darrowshire if you are short on XP or just go ding 60 here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -76163,6 +76517,13 @@
 								}
 							],
 							"type": "Talk to"
+						},
+						{
+							"comment": "Ding 60? Gz",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				}
