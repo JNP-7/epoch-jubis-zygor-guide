@@ -16744,7 +16744,7 @@
 						{
 							"xCoord": 61.35,
 							"yCoord": 89.31,
-							"coordsMap": "Current map",
+							"coordsMap": "Ironforge",
 							"comment": "Buy weapon skills + the green level 30 quiver. You can even store it in your current quiver until you hit 30",
 							"depth": 0,
 							"type": "Go to",
@@ -16768,7 +16768,7 @@
 						{
 							"xCoord": 70.59,
 							"yCoord": 83.75,
-							"coordsMap": "Current map",
+							"coordsMap": "Ironforge",
 							"comment": "Train spells",
 							"depth": 0,
 							"type": "Go to",
@@ -16853,7 +16853,7 @@
 						{
 							"xCoord": 55.68,
 							"yCoord": 48.08,
-							"coordsMap": "Current map",
+							"coordsMap": "Ironforge",
 							"comment": "Get the FP",
 							"depth": 0,
 							"type": "Go to",
@@ -17488,6 +17488,8 @@
 									"npcName": "Plagued Shambler",
 									"npcId": 45325,
 									"count": 1,
+									"questId": 26325,
+									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": [],
@@ -21760,9 +21762,9 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Ironforge",
 							"xCoord": 69.85,
 							"yCoord": 50.31,
-							"coordsMap": "Current map",
 							"comment": "Right as you exist the tram",
 							"depth": 0,
 							"type": "Go to",
@@ -21794,7 +21796,7 @@
 						{
 							"xCoord": 55.63,
 							"yCoord": 47.87,
-							"coordsMap": "Current map",
+							"coordsMap": "Ironforge",
 							"comment": "Fly to Menethil Harbor",
 							"depth": 0,
 							"type": "Go to",
@@ -26617,6 +26619,7 @@
 									"npcId": 45826,
 									"count": 1,
 									"questId": 26561,
+									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": [],
@@ -28519,6 +28522,7 @@
 									"npcId": 683,
 									"count": 10,
 									"questId": 190,
+									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": [],
@@ -53875,6 +53879,7 @@
 									"npcName": "Lydia Cartwright",
 									"npcId": 46640,
 									"count": 1,
+									"questId": 27674,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",

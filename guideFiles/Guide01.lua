@@ -2131,10 +2131,10 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 	next Jubi's guide (NE Hunter Project Epoch)\\Wetlands & Hillsbrad Pt.2 (31-34)
 	startlevel 80
 	step//1
-		'Buy weapon skills + the green level 30 quiver. You can even store it in your current quiver until you hit 30|goto 61.35,89.31
+		'Buy weapon skills + the green level 30 quiver. You can even store it in your current quiver until you hit 30|goto Ironforge,61.35,89.31
 		.talk Thalgus Thunderfist##7976
 	step//2
-		'Train spells|goto 70.59,83.75
+		'Train spells|goto Ironforge,70.59,83.75
 	step//3
 		goto Ironforge,72.62,93.69
 		talk Pilot Longbeard##2092
@@ -2145,7 +2145,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 		.turnin Sully Balloo's Letter##637
 		.accept Sara Balloo's Plea##683
 	step//5
-		'Get the FP|goto 55.68,48.08
+		'Get the FP|goto Ironforge,55.68,48.08
 		.talk Gryth Thurden##1573
 	step//6
 		goto Ironforge,39.04,56.19
@@ -2226,7 +2226,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 	step//25
 		'Interact with the WANTED post and THEN kill the shambler if you were kiting it.|goto Duskwood,73.37,46.32
 		accept Wanted: Plagued Shambler##26325
-		.kill Plagued Shambler##45325
+		.kill Plagued Shambler##45325|q 26325/1
 		.'Skip this step after accepting the quest if it wasn't night time or you couldn't find/kite the mob. We will do it later|c
 	step//26
 		'Turn this in whenever you manage to kill it|goto Duskwood,73.67,46.77
@@ -2771,11 +2771,11 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetland
 	next Jubi's guide (NE Hunter Project Epoch)\\Duskwood final & 1k needles (34-35)
 	startlevel 80
 	step//1
-		'Right as you exist the tram|goto 69.85,50.31
+		'Right as you exist the tram|goto Ironforge,69.85,50.31
 		talk Tinkmaster Overspark##7944
 		.turnin Tinkmaster Overspark##2923
 	step//2
-		'Fly to Menethil Harbor|goto 55.63,47.87
+		'Fly to Menethil Harbor|goto Ironforge,55.63,47.87
 	step//3
 		goto Wetlands,10.62,60.55
 		talk Glorin Steelbrow##1217
@@ -3383,7 +3383,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 		'Go to the tower and give some water to the NPCs, don't miss the one at the base!!! (6/10)|goto Thousand Needles,82.42,82.7|use Cool Sparkling Fresh Water##61079
 	step//58
 		'Around the south eastern parth of the flat there is an elite ghost roaming around. Your pet can facetank it, no need to kite.|goto Thousand Needles,87.57,80.92
-		.kill Chief Dusthoof##45826
+		.kill Chief Dusthoof##45826|q 26561/1
 	step//59
 		'After killing the ghost use the item you just looted to accept a follow up quest|use Amber Memento##60857|c
 		.accept Amber Memento##26560
@@ -3626,7 +3626,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.
 	step//24
 		'If you couldn't get Thorsen's quest, check with eagle eye if he is patrolling.|goto Stranglethorn Vale,41.21,8.52
 		'Some of the panthers are grouped up together, you can AoE them with explosive trap|c
-		.kill 10 Young Panther##683
+		.kill 10 Young Panther##683|q 190/1
 	step//25
 		'You can deal with the grouped up mobs easily woth AoE, even against multiple Medicine Mans. Loot the supplies|goto Stranglethorn Vale,44.45,9.76
 		.get Venom Fern Extract|q 204/2
@@ -6833,7 +6833,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Blasted
 		'The elite is a female human stealthed inside the hut of this camp. You can see her from the outside but can't pull her (no LoS). Clear the 3 mobs at the front door then skip this step|goto Blasted Lands,66.99,43.83
 	step//22
 		'Growl off, cower on, pull with pet then take agro. Kite her to the tree trunk and run circles around it with a frost trap. Don't let her get close, she uses kidney shot|goto Blasted Lands,71.32,36.06
-		.kill Lydia Cartwright##46640
+		.kill Lydia Cartwright##46640|q 27674/1
 	step//23
 		'Fine AF gloves. Ignore follow up|goto Blasted Lands,73.14,34.38
 		talk Izalnir##46632
