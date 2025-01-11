@@ -34602,7 +34602,15 @@
 									"isCustom": false,
 									"questId": 348,
 									"questName": "Stranglethorn Fever",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"comment": "Can only be accepted at level 40. If you aren't yet, just accept it afterwards",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"type": "Accept quest"
 								}
 							],
@@ -35149,6 +35157,38 @@
 					]
 				},
 				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 27.68,
+							"yCoord": 76.73,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Only if you didn't before because you weren't level 40",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Fin Fizracket",
+							"npcId": 2486,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 348,
+									"questName": "Stranglethorn Fever",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
 					"stepTasks": [
 						{
 							"xCoord": 27.6,
@@ -35272,22 +35312,32 @@
 									"type": "Comment",
 									"subTasks": [],
 									"isCustom": false
-								},
-								{
-									"comment": "Go back on board and /target Captain to target Keelhaul. Command your pet to attack him and once he is aggroed press dive/sprint and put your pet on passive again. Your pet will run to the last stay position and will pull Keelhaul outside of his room. Hit/distract shot him and then jump off the ship with disengage towards the opposite direction your pet is going.",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"comment": "Your pet will despawn by distance before dying to mobs and Keelhaul will be chasing you. Once your pet despawns, resummon it, attack Keelhaul with it and feign death after it gets aggro. 1v1 the quest mob and go to the next ship.",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
 								}
 							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Go back on board and /target Captain to target Keelhaul. Command your pet to attack him and once he is aggroed press dive/sprint and put your pet on passive again. Your pet will run to the last stay position and will pull Keelhaul outside of his room. Hit/distract shot him and then jump off the ship with disengage towards the opposite direction your pet is going.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Your pet will despawn by distance before dying to mobs and Keelhaul will be chasing you. Once your pet despawns, resummon it, attack Keelhaul with it and feign death after it gets aggro. 1v1 the quest mob and go to the next ship.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -35383,7 +35433,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "After you get the quest (if you don't find it here skip it, -20k XP and a bag) /target Captian and do the usual or kill it by split pulling him from the mage.",
+							"comment": "After you get the quest (if you don't find it here skip it, -20k XP and a bag) /target Captian and do the usual or kill it by split pulling him from the mage. If you split pull him, stay away from the mobs or FD will get resisted",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -35465,10 +35515,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 33.07,
 							"yCoord": 65.41,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "When you are about to kill and Elder Mistvale Gorilla (30-40%) use the helmet to finish them off. You can't get loot so no giblets or fangs. Get this done ASAP",
+							"comment": "When you are about to kill an Elder Mistvale Gorilla (30-40%) use the helmet to finish them off. You can't get loot so no giblets or fangs. Get this done ASAP",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -35719,6 +35769,21 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 27.53,
+							"yCoord": 77.77,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Fly to rebel camp",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 37.97,
 							"yCoord": 3.07,
 							"coordsMap": "Stranglethorn Vale",
@@ -35743,10 +35808,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 49.52,
 							"yCoord": 24.08,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Kill Bhag'thera. Can pet tank or kite around a tree with trap. Becareful with the stealthed panther near the target",
+							"comment": "Kill Bhag'thera. Can pet tank or kite around a tree with trap. Be careful with the stealthed panther near the target",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -38599,10 +38664,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 37.96,
 							"yCoord": 34.82,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Go to Bangalash's mound and kill the stealthed panther on the north side. Play rin around the rosie by placing a frost trap (same way you killed the giant in booty bay). Some adds will spawn a 50%. Let your pet take agroo and ignore them",
+							"comment": "Go to Bangalash's mound and kill the stealthed panther on the north side. Play ring around the rosie by placing a frost trap (same way you killed the giant in booty bay). Some adds will spawn at 50%. Let your pet take agro and ignore them",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -38897,14 +38962,21 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "If you don't have 90g for your mount then HS back to booty bay here. You will have enough after questing in Dustwallow. If that's the quest, check the steps in this section after this point and do them after finishing the next section (before flying to Gadgetzan).",
+							"comment": "If you don't have 90g for your mount then HS back to booty bay here. You will have enough after questing in Dustwallow. If that's the case, check the steps in this section after this point and do them after finishing the next section (before flying to Gadgetzan).",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "Skip this step. If you are not buying the mount now then skips steps until one of them tells you to HS back to Booty bay",
+							"comment": "Also, if you are 225 first aid already go check any first aids trainer to get the breadcrumb quest",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step. If you are not buying the mount now then skip steps until one of them tells you to HS back to Booty bay",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -39093,6 +39165,13 @@
 							"comment": "Learn spells (how to use mail armor) if you have any spare money",
 							"depth": 0,
 							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "TODO: If the cloth turn ins could be done once per race and type of cloth go do the Nelf silk turn in now",
+							"depth": 0,
+							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
@@ -41044,6 +41123,8 @@
 							"yCoord": 75.75,
 							"coordsMap": "Dustwallow Marsh",
 							"comment": "Go to Ony's lair and plant the banner. Careful with the spell casters that spawn in the first wave. Super long range. The boss is a pushover.",
+							"itemId": 33095,
+							"itemName": "Stonemaul Banner",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -41129,7 +41210,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "HS back to Theramore (or turn in Tabetha's quests if available, then HS)",
+							"comment": "HS back to Theramore or turn in Tabetha's quests if available, turn the zepelin quests and then HS",
 							"itemId": 6948,
 							"itemName": "Hearthstone",
 							"depth": 0,
@@ -41218,7 +41299,7 @@
 							"yCoord": 42.86,
 							"coordsMap": "Dustwallow Marsh",
 							"comment": "Go to the GY and use the flowers on the grave",
-							"itemId": 33081,
+							"itemId": 33082,
 							"itemName": "Wreath",
 							"depth": 0,
 							"type": "Go to",
@@ -41604,20 +41685,6 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 52.36,
-							"yCoord": 28.91,
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
 							"xCoord": 64.78,
 							"yCoord": 23.72,
 							"coordsMap": "Tanaris",
@@ -41812,40 +41879,6 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 65.26,
-							"yCoord": 22.92,
-							"coordsMap": "Tanaris",
-							"comment": "Press the dialog option",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"npcName": "Stelx",
-							"npcId": 45536,
-							"depth": 0,
-							"type": "Talk to",
-							"subTasks": [
-								{
-									"goalName": "Stelx Threatened",
-									"questId": 26520,
-									"questObjectiveIndex": 3,
-									"count": 1,
-									"depth": 1,
-									"type": "Goal",
-									"subTasks": [],
-									"isCustom": true
-								}
-							],
-							"isCustom": true
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
 							"xCoord": 65.55,
 							"yCoord": 24.85,
 							"coordsMap": "Tanaris",
@@ -41865,6 +41898,40 @@
 									"goalName": "Miki Smallsprocket Threatened",
 									"questId": 26520,
 									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 65.26,
+							"yCoord": 22.92,
+							"coordsMap": "Tanaris",
+							"comment": "Press the dialog option",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Stelx",
+							"npcId": 45536,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"goalName": "Stelx Threatened",
+									"questId": 26520,
+									"questObjectiveIndex": 3,
 									"count": 1,
 									"depth": 1,
 									"type": "Goal",
@@ -42260,6 +42327,8 @@
 							"yCoord": 19.8,
 							"coordsMap": "Tanaris",
 							"comment": "Go to the coast, drink your 3rd water breathing elixir (if you bought one use that one to free bag space) and then swim south while cleaning animals, cleaning oil spillages and recovering underwater parts.",
+							"itemId": 5996,
+							"itemName": "Elixir of Water Breathing",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -42946,7 +43015,7 @@
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
-											"npcName": "HAgesh",
+											"npcName": "Hagesh",
 											"npcId": 45710
 										}
 									],
@@ -42992,7 +43061,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "While killing mobs here some might drop a footlocker. What you are looking for here is the Ship Shedule, an item that starts a quest. You can delte anything else (including the maps).",
+							"comment": "While killing mobs here some might drop a footlocker. What you are looking for here is the Ship Shedule, an item that starts a quest. You can delete anything else (including the maps).",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -43089,7 +43158,7 @@
 								},
 								{
 									"itemName": "Southsea Pirate Hat",
-									"questId": 20519,
+									"questId": 8365,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 20,
@@ -43229,10 +43298,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Tanaris",
 							"xCoord": 56.31,
 							"yCoord": 35.77,
-							"coordsMap": "Tanaris",
-							"comment": "Kill Basilisks and collect Raging tempests while making your way to the skeletons with the Fire Rocs at [46,39]",
+							"comment": "Kill Basilisks and collect Raging tempests while making your way to the skeletons with the Fire Rocs to the south west",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -43273,6 +43342,16 @@
 									"isCustom": true
 								}
 							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 46,
+							"yCoord": 38,
+							"coordsMap": "Tanaris",
+							"comment": "Path towards here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -44084,10 +44163,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Feralas",
 							"xCoord": 69.36,
 							"yCoord": 39.69,
-							"coordsMap": "Feralas",
-							"comment": "You wil have to go to this camp to finish off Naturalists as tehre are not enough in the first one where the cage is",
+							"comment": "You wil have to go to this camp to finish off Naturalists as there are not enough in the first one where the cage is",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -45325,7 +45404,19 @@
 							"comment": "Get the hypogriff egg. If you spot the giant tree mark it and remember where it's pathing",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"itemName": "Hippogryph Egg",
+									"questId": 2741,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -45344,7 +45435,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Growl off, screech off (important, the AoE debuff will aggro the Forestwalker), cower on. Spam distracting shot and viper sting on CD to drain mana and keep agro. Can't slow him, but can outrun him. If it cast the corrupted tranquility just walk out and re-engage at the at the north east, then circle back",
+							"comment": "Growl off, screech off (important, the AoE debuff will aggro the Forestwalker), cower on. Spam distracting shot and viper sting on CD to drain mana and keep agro. Can't slow him, but can outrun him. If he casts the corrupted tranquility just walk out and re-engage at the north eastern tree, then circle back",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -45461,7 +45552,7 @@
 									"type": "Accept quest",
 									"subTasks": [
 										{
-											"comment": "Skip if it didn't drop. Note: seems bugged, only seems to drop from 1 of the 2 yetis that ambush the robot chicken :/. Tested on trinity core repack",
+											"comment": "Skip if it didn't drop. Note: seems bugged, only drops from the yetis north of feralas",
 											"depth": 2,
 											"type": "Comment",
 											"subTasks": [],
@@ -45500,13 +45591,25 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Feralas",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 53.4,
-							"yCoord": 55.71
+							"yCoord": 55.71,
+							"coordsMap": "Feralas",
+							"comment": "Only if you got the item. Try to kill some extra yetis if you didn't then leave",
+							"itemId": 8705,
+							"itemName": "OOX-22/FE Distress Beacon",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questId": 2766,
+									"questName": "Find OOX-22/FE!",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -45538,9 +45641,9 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Feralas",
 							"xCoord": 55.6,
 							"yCoord": 52.74,
-							"coordsMap": "Feralas",
 							"comment": "There is an ambush here and that's it, unlike vanilla where you have to escort the chicken to the beach. Only 2 yetis (as oposed to 5...), 1 always seems to be the only mob that drops the pristine hide (the one to your right, probably a bug)",
 							"depth": 0,
 							"type": "Go to",
@@ -45709,7 +45812,15 @@
 									"questId": 2821,
 									"depth": 1,
 									"type": "Turn in quest",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"comment": "Skip this if you didn't get the drop before",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"isCustom": false
 								}
 							],
@@ -46240,7 +46351,7 @@
 								{
 									"itemName": "Crumpled Scroll Fragment",
 									"questId": 692,
-									"questObjectiveIndex": 1,
+									"questObjectiveIndex": 2,
 									"toLootNpcs": [
 										{
 											"npcName": "Enraged Rock Elemental",
@@ -46256,7 +46367,7 @@
 								{
 									"itemName": "Singed Scroll Fragment",
 									"questId": 692,
-									"questObjectiveIndex": 1,
+									"questObjectiveIndex": 3,
 									"toLootNpcs": [
 										{
 											"npcName": "Enraged Rock Elemental",
@@ -46937,20 +47048,6 @@
 							"type": "Talk to"
 						}
 					]
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 51.96,
-							"yCoord": 29.63,
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -48128,7 +48225,7 @@
 							"type": "Go to",
 							"subTasks": [
 								{
-									"goalName": "Some objectivea\tEscort OOX-17/TN to safety",
+									"goalName": "Escort OOX-17/TN to safety",
 									"questId": 648,
 									"questObjectiveIndex": 1,
 									"count": 1,
@@ -48221,37 +48318,6 @@
 									"type": "Accept quest",
 									"subTasks": [],
 									"isCustom": false
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.23,
-							"yCoord": 27.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Senior Surveyor Fizzledowser",
-							"npcId": 7724,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 110,
-									"questName": "Insect Part Analysis",
-									"subTasks": [],
-									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
@@ -48476,6 +48542,30 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 11.13,
+							"yCoord": 46.14,
+							"coordsMap": "The Hinterlands",
+							"comment": "Get the FP if the elemental plateau quest that brings you here was bugged",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Guthrum Thunderfist",
+									"npcId": 8018,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -48747,7 +48837,7 @@
 									"isCustom": false
 								},
 								{
-									"comment": "Whie running around the area kill wolves, owl beasts and gather feathers",
+									"comment": "While running around the area kill wolves, owl beasts and gather feathers",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -48809,10 +48899,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "The Hinterlands",
 							"xCoord": 23.24,
 							"yCoord": 58.59,
-							"coordsMap": "The Hinterlands",
-							"comment": "First two cages. Can AoE the camp down. You have explosive from Tanaris too (maybe)",
+							"comment": "First two cages. Can AoE the camp down. You have explosives from Tanaris too if you didn't sell them",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -49622,20 +49712,20 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "The Hinterlands",
 							"xCoord": 39.23,
 							"yCoord": 45.57,
-							"coordsMap": "The Hinterlands",
-							"comment": "Go here and start killing the howlers and the owlbeasts. Check the howler spawn, you barely can miss any",
+							"comment": "Go here and start killing the howlers and the owlbeasts. Go ut of your wat to kill howlers, you barely can miss any",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
+							"coordsMap": "The Hinterlands",
 							"xCoord": 50.58,
 							"yCoord": 59.91,
-							"coordsMap": "The Hinterlands",
-							"comment": "Go towards here to kill the far away howler spwan. You should be done with owlbeasts aswell",
+							"comment": "Go towards here to kill the far away howler spawn. You should be done with owlbeasts aswell",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -49736,7 +49826,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "If you managed to get a summon turn 'Parts From Afar' there then HS back. The turn in is at the forge and asks you to go back to Aerie peak afterwards. No idea what the follow up may be (or if there even is one...)",
+							"comment": "If you managed to get a summon go to Ironforge and turn 'Parts From Afar' there then HS back. The turn in is at the forge and asks you to go back to Aerie peak afterwards. No idea what the follow up may be (or if there even is one...)",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -49795,10 +49885,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "The Hinterlands",
 							"xCoord": 47.43,
 							"yCoord": 37.93,
-							"coordsMap": "The Hinterlands",
-							"comment": "Go to these ruins and gather the 3 horde supply crates in there (check on any DB) the gather the 4th one near the lake (marker). Fully loot the boxes so they respawn, don't be an ass.",
+							"comment": "Go to these ruins and gather the 3 horde supply crates in there (check on any DB) then gather the 4th one near the lake (marker). Fully loot the boxes so they respawn, don't be an ass.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -50406,7 +50496,6 @@
 									"questId": 26502,
 									"questObjectiveIndex": 1,
 									"count": 1,
-									"comment": "26502",
 									"depth": 1,
 									"type": "Goal",
 									"subTasks": [],
@@ -50521,10 +50610,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "The Hinterlands",
 							"xCoord": 66.24,
 							"yCoord": 53.29,
-							"coordsMap": "The Hinterlands",
-							"comment": "Long run to the other corner of the map... There is an efigy at the top of thos mound. Use the item here to summon it",
+							"comment": "Long run to the other corner of the map... There is an efigy at the top of this mound. Use the item here to summon it",
 							"itemId": 60681,
 							"itemName": "Wildhammer Torch",
 							"depth": 0,
@@ -50560,10 +50649,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "The Hinterlands",
 							"xCoord": 64.09,
 							"yCoord": 61.44,
-							"coordsMap": "The Hinterlands",
-							"comment": "Check the bottom of this lake for a rare slime with eagle eye. If it's up just kill it for a wand, can vendor or sell on AH (probably no one will ahve money at this level range cause riding skill)",
+							"comment": "Check the bottom of this lake for a rare slime with eagle eye. If it's up just kill it for a wand, can vendor or sell on AH (probably no one will have money at this level range because riding skill)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -51022,15 +51111,15 @@
 								},
 								{
 									"questId": 3451,
-									"questName": "Singal for Pickup",
+									"questName": "Signal for Pickup",
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
 									"isCustom": false
 								},
 								{
-									"questName": "Singal for Pickup",
 									"questId": 3451,
+									"questName": "Signal for Pickup",
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -51149,7 +51238,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "While flying prepare a macro with /run SelectGossipOption(1) and bind it somewhere where is easy to spam. It click the first dialog option when talking to NPCs (that have one)",
+							"comment": "While flying prepare a macro with /run SelectGossipOption(1) and bind it somewhere where is easy to spam. It clicks the first dialog option when talking to NPCs (that have one)",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -51311,7 +51400,7 @@
 									"isCustom": false
 								},
 								{
-									"comment": "Talk to him again and spam the gossip macro. You don't need to use the macro here, but on a later quest is heavily recommended",
+									"comment": "Talk to him again and spam the gossip macro. You don't need to use the macro here, but on a later quest it's heavily recommended",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [
@@ -51389,10 +51478,10 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Searing Gorge",
 							"xCoord": 39.03,
 							"yCoord": 47.94,
-							"coordsMap": "Searing Gorge",
-							"comment": "Kill one Steamsmith for a quest item (100% drop rate in Trinity core) tehn move west killing elementals, war golems and spiders",
+							"comment": "Kill one Steamsmith for a quest item (100% drop rate in Trinity core) then move west killing elementals, war golems and spiders",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -51771,10 +51860,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Searing Gorge",
 							"xCoord": 43.68,
 							"yCoord": 27.84,
-							"coordsMap": "Searing Gorge",
-							"comment": "While running up the staris, at the crossroads, go north and kill every dwarf on the hallway. Then, do the same in the next room. While doing so read the rest of the step to get ready for the hardest fight on the run.",
+							"comment": "While running up the staris, at the crossroads, go north and kill every dwarf on the hallway. Then, do the same in the next room. While doing so read the rest of the step to get ready for the next fight.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -51786,23 +51875,45 @@
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
-						},
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
 						{
 							"comment": "The problem is that he stops casting Shadowbolts when using anything else for a while, which makes him run into you regardless of wether you are in LoS or not. And worse, he runs out of mana in doing so. This wouldn't be a problem if it wasn't because, even if he has no weapons, he is some kind of Shaolin monk who can break stones with his firsts. Your pet can't face tank it, unless...",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
-						},
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
 						{
 							"comment": "When he is oom and meleeing your pet you can trap him, cast mend pet/first aid, viper sting (doesn't break freezing trap somehow) and then FD + drink. You can reset the fight while his HP stays the same. To do this tho, make sure you don't have ANYTHING that can put a DoT on him (a certain trinket from a rare in Duskwood *cough*). Furthermore, after you use FD if mend pet's HoT heals your pet then you will be put into combat and won't be able to drink",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Kill the 2 Taskmasters near the boxes at the south western side of the room. You are going to kit him to (almost) the bridge and need to go through there. Kill the lookout by pulling him with LoS and split pulling him if necessary. Then, place a trap between the grinding stone and the bridge. This is the killing spot. If you go further he can reset by distance.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
-							"comment": "Read next step",
+							"comment": "Turn growl off. Your pet will get agro once and you won't be able to overtake it after the first FD. Use mend pet on your pet (will dispell any SWP. You specced into the talent RIGHT???) then drink to full.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -51818,20 +51929,6 @@
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
-								{
-									"comment": "Kill the 2 Taskmasters near the boxes at the south western side of the room. You are going to kit him to (almost) the bridge and need to go through there. Kill the look out by pulling him with LoS and split pulling him if necessary. Then, place a trap between the grinding stone and the bridge. This is the killing spot. If you go further he can reset by distance.",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"comment": "Turn growl off, your pet will get agro once and you won't be able to overtake it after the first FD. Use mend pet on your pet (will dispell any SWP, you specced into the talent RIGHT???) then drink to full.",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								},
 								{
 									"comment": "Open by body pulling with your pet, use viper sting and while he casts shadow bolt (pet face tanks this) use distracting shot to overtake it on agro. Now, LoS every shadow bolt while draining him. 3 things will eventually happen:",
 									"depth": 1,
@@ -51867,13 +51964,6 @@
 									"type": "Comment",
 									"subTasks": [],
 									"isCustom": false
-								},
-								{
-									"comment": "Read next step",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
 								}
 							],
 							"isCustom": false
@@ -51896,7 +51986,12 @@
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
-						},
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
 						{
 							"comment": "Things that can go wrong:",
 							"depth": 0,
@@ -51927,7 +52022,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "You can always not kill him and simply loot the plans by saccing your pet. But then, why are you playing this class if you can't pull these things off dude... just play a lock or something and press 1 from lvl 1 to the heat death of the universe or something.",
+							"comment": "You can always not kill him and simply loot the plans by saccing your pet.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -52344,7 +52439,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Plan: locate one of the far away necromancers, send pet to nearby fireguard then into one of the Idolaters around the lave pit. Afterwards, send it to the far away geomancer, accept the quest, spam the gossip macro while talking the elf, turn in and accept next quest. Finally, get on top of the stone of the lava pit (on top, not on the borders or you will burn), loot the item, run back to the safe spot and feign death.",
+							"comment": "Plan: locate one of the far away necromancers, send pet to nearby fireguard then into one of the Idolaters around the lava pit. Afterwards, send it to the far away geomancer, accept the quest, spam the gossip macro while talking to the elf, turn in and accept next quest. Finally, get on top of the stone of the lava pit (on top, not on the borders or you will burn), loot the item, run back to the safe spot and feign death.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -52722,10 +52817,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Searing Gorge",
 							"xCoord": 33.32,
 							"yCoord": 53.47,
-							"coordsMap": "Searing Gorge",
-							"comment": "Be careful with the sentries, the yare elite and will kill you. When done killing all the things at the base equip the torch, put pet on stay far away, send it to pull the mobs in the tower then put on passive to drag them out.",
+							"comment": "Be careful with the sentries, they are elite and will kill you. When done killing all the things at the base equip the torch, put pet on stay far away, send it to pull the mobs in the tower then put on passive to drag them out.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -52774,10 +52869,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Searing Gorge",
 							"xCoord": 41.37,
 							"yCoord": 25.66,
-							"coordsMap": "Searing Gorge",
-							"comment": "Forget about killing Obsidion, just turn this in. Before they buffed his damage he could be split pulled and facetanked. No longer, and also, you can't kite him with traps on the stairs or around the room. The mobs will respawn and he starts flying while trying to path on the stairs, is not consistent and super easy to mess up once and die on a 5 minute fight.",
+							"comment": "Forget about killing Obsidion, just turn this in. Before they buffed his damage he could be split pulled and facetanked. No longer, and also, you can't kite him with traps on the stairs or around the room. The mobs will respawn and he flies while trying to path on the stairs, it's not consistent and super easy to mess up once and die on a 5 minute fight.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -52910,10 +53005,10 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Searing Gorge",
 							"xCoord": 50.28,
 							"yCoord": 55.61,
-							"coordsMap": "Searing Gorge",
-							"comment": "2 more sentries on top of the twer, drag them out with your pet and send it to mobs away from the bridge.",
+							"comment": "2 more sentries on top of the tower, drag them out with your pet and send it to the mobs away from the bridge.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -53626,7 +53721,7 @@
 							"xCoord": 67.57,
 							"yCoord": 19.16,
 							"coordsMap": "Blasted Lands",
-							"comment": "This quest unlock other Felstone related quests, but skip the follow up",
+							"comment": "This quest unlocks other Felstone related quests. However, skip its follow up",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -54269,10 +54364,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Blasted Lands",
 							"xCoord": 66.86,
 							"yCoord": 18.31,
-							"coordsMap": "Blasted Lands",
-							"comment": "Use the consumables as you see fit. But remember two things: 1. you have them stacked now due to the turn ins, but you can't stack the ones from the consumables. 2. Save the inellinge one for later when you are Un'Goro, need to engage in the very interesting system of leveling up weapon skills in 2025",
+							"comment": "Use the consumables as you see fit. But remember two things: 1. you have them stacked now due to the turn ins, but you can't stack the ones from the consumables. 2. Save the intellinge one for later when you are in Un'Goro, need to engage in the very interesting system of leveling up weapon skills in 2025",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -54340,6 +54435,8 @@
 					"stepTasks": [
 						{
 							"comment": "HS back to SW",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -54382,9 +54479,9 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 0,
-							"yCoord": 0,
-							"coordsMap": "Current map",
+							"xCoord": 67.37,
+							"yCoord": 36.27,
+							"coordsMap": "Stormwind City",
 							"comment": "Learn level 50 spells",
 							"depth": 0,
 							"type": "Go to",
@@ -54946,7 +55043,7 @@
 							"xCoord": 53.5,
 							"yCoord": 21.75,
 							"coordsMap": "Azshara",
-							"comment": "Kill any antler you see on your way to the globin for the 2 perfect antlers. No need to finish now.",
+							"comment": "Kill any courser you see on your way to the globin for the 2 perfect antlers. No need to finish now.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -55873,6 +55970,8 @@
 					"stepTasks": [
 						{
 							"comment": "Go further south, where most of the debris is and drink your last Elixir of Water Breathing",
+							"itemId": 5996,
+							"itemName": "Elixir of Water Breathing",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -55924,7 +56023,7 @@
 							"type": "Goal",
 							"subTasks": [
 								{
-									"comment": "Gnome becomes firnedly when about to die. You can turn the quest on him",
+									"comment": "The gnome becomes firnedly when he is about to die. You can turn the quest in afterwards",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -56030,10 +56129,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Azshara",
 							"xCoord": 77.81,
 							"yCoord": 91.38,
-							"coordsMap": "Azshara",
-							"comment": "Swim to the helipad at the south eastern corenr of Azshara and use the flare to call the NPC",
+							"comment": "Swim to the helipad at the south eastern corner of Azshara and use the flare to call the NPC",
 							"itemId": 10444,
 							"itemName": "Standard Issue Flare Gun",
 							"depth": 0,
@@ -56326,7 +56425,15 @@
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"comment": "Only 5 of these. Have to kill respawns.",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"isCustom": false
 								},
 								{
@@ -56661,7 +56768,7 @@
 									"isCustom": false
 								},
 								{
-									"comment": ">>> Make sure you have room for the first jar of each type on you inventory, otherwise, you won't be able to complete the quest since you will lose 1 of the jars <<<",
+									"comment": ">>> Make sure you have room for the first jar of each type on your inventory, otherwise, you won't be able to complete the quest since you will lose 1 of the jars <<<",
 									"itemId": 11914,
 									"itemName": "Empty Cursed Ooze Jar",
 									"depth": 1,
@@ -56768,7 +56875,7 @@
 								{
 									"itemName": "Filled Tainted Ooze Jar",
 									"questId": 4512,
-									"questObjectiveIndex": 1,
+									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 6,
 									"depth": 1,
@@ -57094,7 +57201,7 @@
 							"yCoord": 59.92,
 							"coordsMap": "Felwood",
 							"comment": "Gather the moonwell water",
-							"itemId": 12921,
+							"itemId": 12922,
 							"itemName": "Empty Canteen",
 							"depth": 0,
 							"type": "Go to",
@@ -57141,7 +57248,7 @@
 									"npcId": 9878,
 									"count": 2,
 									"questId": 5156,
-									"questObjectiveIndex": 1,
+									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": [],
@@ -57152,7 +57259,7 @@
 									"npcId": 9879,
 									"count": 2,
 									"questId": 5156,
-									"questObjectiveIndex": 2,
+									"questObjectiveIndex": 3,
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": [],
@@ -58092,7 +58199,7 @@
 							"xCoord": 45.12,
 							"yCoord": 25.53,
 							"coordsMap": "Feralas",
-							"comment": "Buy x3 Bait (only need 1, it's just to be sure)",
+							"comment": "Buy x1 Bait",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -58455,12 +58562,12 @@
 							"npcId": 7775,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 3909,
+									"questId": 4041,
 									"questName": "The Videre Elixir",
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -58790,7 +58897,7 @@
 							"type": "Talk to"
 						},
 						{
-							"comment": "Also turn in the other quest chain of doing it. Skip the next step if it asks you to gi to the silithd hive",
+							"comment": "Also turn in the other quest chain if doing it. Skip the next step if it asks you to go to the silithid hive",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -58904,6 +59011,24 @@
 									"comment": "TODO: The quest for the yetis' teeth may have a better droprate now. It wasn't worth doing in the last beta",
 									"depth": 1,
 									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "If a Pristine Yeti Hide drops accept the quest (skip this otherwise)",
+							"itemId": 18969,
+							"itemName": "Pristine Yeti Hide",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"questId": 7735,
+									"questName": "Pristine Yeti Hide",
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
 									"isCustom": false
 								}
@@ -59025,6 +59150,22 @@
 									"questName": "Improved Quality",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questId": 7735,
+									"questName": "Pristine Yeti Hide",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [
+										{
+											"comment": "Only if you found it before",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -59088,7 +59229,7 @@
 							"yCoord": 4.65
 						},
 						{
-							"comment": "If you see Courier Hammerfall (moving quest marker) accept his quest",
+							"comment": "If you see Courier Hammerfall (moving quest marker) accept his quest. Check the Military ward first (south-eastern area)",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -59465,7 +59606,7 @@
 							"xCoord": 38.35,
 							"yCoord": 54.1,
 							"coordsMap": "Western Plaguelands",
-							"comment": "Inside the house careful while pulling the mobs inside",
+							"comment": "Inside the house. Be careful while pulling the mobs inside",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -59745,6 +59886,38 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.09,
+							"yCoord": 26.9,
+							"coordsMap": "Tanaris",
+							"comment": "Turn the other quest while waiting out the RP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Sprinkle",
+							"npcId": 7583,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 2641,
+									"questName": "Sprinkle's Secret Ingredient",
+									"subTasks": [],
+									"type": "Turn in quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"coordsMap": "Tanaris",
 							"depth": 0,
 							"isCustom": false,
@@ -59784,13 +59957,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Tanaris",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 51.09,
-							"yCoord": 26.9
+							"yCoord": 26.9,
+							"coordsMap": "Tanaris",
+							"comment": "Wait the RP out...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -59798,14 +59972,6 @@
 							"npcName": "Sprinkle",
 							"npcId": 7583,
 							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2641,
-									"questName": "Sprinkle's Secret Ingredient",
-									"subTasks": [],
-									"type": "Turn in quest"
-								},
 								{
 									"questName": "Delivery for Marin",
 									"questId": 2661,
@@ -59948,7 +60114,7 @@
 							"xCoord": 53.91,
 							"yCoord": 23.38,
 							"coordsMap": "Tanaris",
-							"comment": "As a ghost",
+							"comment": "The addon's compass aims to your corpse, not the NPC where you can turn in the quest. Go to northern mountain range",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -60984,10 +61150,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Un'Goro Crater",
 							"xCoord": 38.42,
 							"yCoord": 66.07,
-							"coordsMap": "Un'Goro Crater",
-							"comment": "Kill Pterrordaxes on the way to the destroyed camp and interact withj the equipment",
+							"comment": "Kill Pterrordaxes on the way to the destroyed camp and interact with the equipment",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -61086,7 +61252,7 @@
 							"xCoord": 50.07,
 							"yCoord": 80.45,
 							"coordsMap": "Un'Goro Crater",
-							"comment": "Enter the Silithid hive from here. Probably will get the Scenpt Gland",
+							"comment": "Enter the Silithid hive from here. Probably will get the Scent Gland on the way",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -61590,18 +61756,6 @@
 					"onlyForClasses": []
 				},
 				{
-					"stepTasks": [
-						{
-							"comment": "TODO: Have to accept \"Lost!\" here",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -61840,10 +61994,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Un'Goro Crater",
 							"xCoord": 41.83,
 							"yCoord": 2.58,
-							"coordsMap": "Un'Goro Crater",
-							"comment": "Can accept the Felwood quest now since quest log is less bloated now",
+							"comment": "Can accept the Felwood quest now since the quest log is less bloated",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -62325,7 +62479,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Full mana/HP and use the lure when ready. First 2 waves spawn at the side of the entrance of the room so just stay near the crystal. The 3rd wave spawn with the queen near the crystal, so go back to the entrance. The queen can be splitpulled from her guards.",
+							"comment": "Full mana/HP and use the lure when ready. First 2 waves spawn at the side of the entrance of the room so just stay near the crystal. The 3rd wave spawns with the queen near the crystal, so go back to the entrance. The queen can be splitpulled from her guards.",
 							"itemId": 11833,
 							"itemName": "Gorish Queen Lure",
 							"depth": 0,
@@ -62472,7 +62626,7 @@
 							"xCoord": 47.35,
 							"yCoord": 52.3,
 							"coordsMap": "Un'Goro Crater",
-							"comment": "At the slope, face the topo of the volcano then run and jump constantly to your left until you get to the next level.",
+							"comment": "At the slope, face the top of the volcano then run and jump constantly to your left until you get to the next level.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -62489,10 +62643,10 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Un'Goro Crater",
 							"xCoord": 48.12,
 							"yCoord": 50.02,
-							"coordsMap": "Un'Goro Crater",
-							"comment": "Afterwards just spam jump here to get on the upper level then border the lave lake counter clock wise (you will aggro elemental Ganondorf otherwise)",
+							"comment": "Afterwards just spam jump here to get on the upper level then border the lava lake counter clock wise (you will aggro elemental Ganondorf otherwise)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -62972,10 +63126,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Un'Goro Crater",
 							"xCoord": 28.95,
 							"yCoord": 77.06,
-							"coordsMap": "Un'Goro Crater",
-							"comment": ">>> Don't vendor or delete the spell hit trinket for the gnome <<< If FD is nerfed back to being able to be resisted (*puke*) this thing suddenly is useful.",
+							"comment": ">>> Don't vendor or delete the spell hit trinket from the gnome <<< If FD is nerfed back to being able to be resisted (*puke*) this thing suddenly is useful.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -63158,8 +63312,8 @@
 							"type": "Comment",
 							"subTasks": [
 								{
-									"xCoord": 46.61,
-									"yCoord": 56.96,
+									"xCoord": 49.79,
+									"yCoord": 60.75,
 									"coordsMap": "Un'Goro Crater",
 									"comment": "Always a Tyrant Devilsaur",
 									"depth": 1,
@@ -63335,35 +63489,6 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"xCoord": 45.96,
-							"yCoord": 94.15,
-							"coordsMap": "Un'Goro Crater",
-							"comment": "Another tablet here",
-							"itemId": 63037,
-							"itemName": "Fourth Tablet Rubbing",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"itemName": "Fourth Tablet Rubbing",
-									"questId": 27495,
-									"questObjectiveIndex": 4,
-									"toLootNpcs": [],
-									"count": 1,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": true
-								}
-							],
-							"isCustom": true
-						}
-					]
-				},
-				{
 					"stepTasks": [
 						{
 							"xCoord": 79.92,
@@ -63441,7 +63566,7 @@
 									"questName": "The Mighty U'cha",
 									"subTasks": [
 										{
-											"comment": "Pick the axe. Try to level this one with your soon to be new xbow and the blasted lands buff (leveling weapon skills in 2025, cool vanilla -)",
+											"comment": "Pick the axe. Try to level this one with your soon to be new xbow and the blasted lands buff (leveling weapon skills in 2025, cool vanilla minus)",
 											"depth": 2,
 											"type": "Comment",
 											"subTasks": [],
@@ -64515,10 +64640,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Darnassus",
 							"xCoord": 35.11,
 							"yCoord": 8.38,
-							"coordsMap": "Darnassus",
-							"comment": "Downstairs to the middle level... Ski pfollow up and vendor the seeds",
+							"comment": "Downstairs to the middle level... Skip follow up and vendor the seeds",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -64623,6 +64748,45 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
+							"xCoord": 51.25,
+							"yCoord": 82.15
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Greta Mosshoof",
+							"npcId": 10922,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 5159,
+									"questName": "Cleansed Water Returns to Felwood",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Dousing the Flames of Protection",
+									"questId": 5165,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
 							"xCoord": 51.35,
 							"yCoord": 81.52
 						},
@@ -64651,45 +64815,6 @@
 								{
 									"questName": "Silver Heart",
 									"questId": 4084,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Felwood",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 51.25,
-							"yCoord": 82.15
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Greta Mosshoof",
-							"npcId": 10922,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5159,
-									"questName": "Cleansed Water Returns to Felwood",
-									"subTasks": [],
-									"type": "Turn in quest"
-								},
-								{
-									"questName": "Dousing the Flames of Protection",
-									"questId": 5165,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -65224,7 +65349,7 @@
 							"type": "Go to",
 							"subTasks": [
 								{
-									"comment": "If the Felwood plant items were bugged and were dropping w/o the beacon turn the follow up now. Guides asumes they aren't",
+									"comment": "If the Felwood plant items were bugged and were dropping w/o the beacon turn the follow up now. Guide asumes they aren't",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -65383,10 +65508,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Felwood",
 							"xCoord": 35.41,
 							"yCoord": 58.83,
-							"coordsMap": "Felwood",
-							"comment": "Back to Jaedenar. If you didn't get the red key quest before but do now then do it while finishing the other quest. Unfortunately, it won't worth to do the follow up in this case, you are not going back here again.",
+							"comment": "Back to Jaedenar. If you didn't get the red key quest before but do now then do it while finishing the other quest. Unfortunately, it won't be worth to do the follow up in this case, you are not going back here again.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -65948,10 +66073,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Winterspring",
 							"xCoord": 49.74,
 							"yCoord": 45,
-							"coordsMap": "Winterspring",
-							"comment": "TODO: If you were able to accept \"A Gift for the Spiritseer\" from Mau'ari the go turn it in here and accept the foloow up",
+							"comment": "TODO: If you were able to accept \"A Gift for the Spiritseer\" from Mau'ari then go turn it in here and accept the follow up",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -66089,7 +66214,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Notice that you are 4/8 Den watchers. You will have to wait for respawns. Kill the other furbolgs meanwhile to try to get the item that starts a quest",
+							"comment": "Notice that you are 4/8 Den watchers and 1 totemic off. You will have to wait for respawns. Kill the other furbolgs meanwhile to try to get the item that starts a quest",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -66099,17 +66224,6 @@
 									"count": 8,
 									"questId": 5082,
 									"questObjectiveIndex": 1,
-									"depth": 1,
-									"type": "Kill",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"npcName": "Winterfall Totemic",
-									"npcId": 7441,
-									"count": 8,
-									"questId": 5082,
-									"questObjectiveIndex": 3,
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": [],
@@ -66161,9 +66275,20 @@
 								{
 									"npcName": "Winterfall Den Watcher",
 									"npcId": 7440,
-									"count": 7,
+									"count": 8,
 									"questId": 5082,
 									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"npcName": "Winterfall Totemic",
+									"npcId": 7441,
+									"count": 8,
+									"questId": 5082,
+									"questObjectiveIndex": 3,
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": [],
@@ -66258,10 +66383,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Felwood",
 							"xCoord": 65.5,
 							"yCoord": 3.33,
-							"coordsMap": "Felwood",
-							"comment": "If you are neutral with Timbermaw adn have the totme already turn in the totem quest. If not just wait untill later and skip the step",
+							"comment": "If you are neutral with Timbermaw and have the totem already turn in the totem quest. If not just wait untill later and skip the step",
 							"itemId": 20742,
 							"itemName": "Winterfall Ritual Totem",
 							"depth": 0,
@@ -66446,12 +66571,12 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6221,
+									"questId": 8461,
 									"questName": "Deadwood of the North",
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								},
 								{
 									"questName": "Speak to Salfa",
@@ -66801,13 +66926,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 31.29,
-							"yCoord": 45.13
+							"yCoord": 45.13,
+							"coordsMap": "Winterspring",
+							"comment": "3 furbolgs will ambush you after turning this in",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -68431,7 +68557,7 @@
 							"type": "Go to",
 							"subTasks": [
 								{
-									"comment": "Use the goblin device on broodlings before killing them so they drop a a gem that you can interact with.",
+									"comment": "Use the goblin device on broodlings before killing them so they drop a gem that you can interact with.",
 									"itemId": 12284,
 									"itemName": "Draco-Incarcinatrix 900",
 									"depth": 1,
@@ -68943,21 +69069,6 @@
 					]
 				},
 				{
-					"stepTasks": [
-						{
-							"xCoord": 84.36,
-							"yCoord": 68.31,
-							"coordsMap": "Burning Steppes",
-							"comment": "Fly to Redridge",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -69038,6 +69149,21 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 84.36,
+							"yCoord": 68.31,
+							"coordsMap": "Burning Steppes",
+							"comment": "Fly to Redridge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 27.03,
 							"yCoord": 45.63,
 							"coordsMap": "Redridge Mountains",
@@ -69070,13 +69196,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Lakeshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 29.82,
-							"yCoord": 44.44
+							"yCoord": 44.44,
+							"coordsMap": "Redridge Mountains",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -69145,7 +69271,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "If not night time, tough luck, skip this step. We aren't comming back here. Guide asumes you got completed the quest (will only miss this one and 1 more quest)",
+							"comment": "If not night time, tough luck, skip this step. We aren't comming back here. Guide asumes you completed the quest (will only miss this one and 1 more quest)",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -69359,37 +69485,6 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 65.26,
-							"yCoord": 24.05
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Maxwort Uberglint",
-							"npcId": 9536,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 4296,
-									"questName": "Tablet of the Seven",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Burning Steppes",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 65.36,
 							"yCoord": 24.04
 						},
@@ -69414,6 +69509,37 @@
 									"type": "Accept quest",
 									"subTasks": [],
 									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Burning Steppes",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 65.26,
+							"yCoord": 24.05
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Maxwort Uberglint",
+							"npcId": 9536,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 4296,
+									"questName": "Tablet of the Seven",
+									"subTasks": [],
+									"type": "Turn in quest"
 								}
 							],
 							"type": "Talk to"
@@ -69582,7 +69708,7 @@
 							"xCoord": 36.9,
 							"yCoord": 59.68,
 							"coordsMap": "Burning Steppes",
-							"comment": "Finish killing the imps here if yuo ahven't yet",
+							"comment": "Finish killing the imps here if you haven't yet",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -72850,10 +72976,10 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Winterspring",
 							"xCoord": 49.71,
 							"yCoord": 9.76,
-							"coordsMap": "Winterspring",
-							"comment": "Drop the meat at the pedestal and kite the tiger towards the pilars to the south-east, then run around them on a frost trap",
+							"comment": "Drop the meat at the pedestal and kite the tiger towards the pilars to the south-east, then run around them on a frost trap. Do so while far away from the mob, it has an AoE fear (can trigger it if your pet attacks it)",
 							"itemId": 12733,
 							"itemName": "Sacred Frostsaber Meat",
 							"depth": 0,
@@ -73339,7 +73465,7 @@
 							"xCoord": 62.33,
 							"yCoord": 36.63,
 							"coordsMap": "Winterspring",
-							"comment": "Fly to souther Felwood (Emerald Sanctuary)",
+							"comment": "Fly to southern Felwood (Emerald Sanctuary)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -73914,13 +74040,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Lakeshire Town Hall",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 29.83,
-							"yCoord": 44.48
+							"yCoord": 44.48,
+							"coordsMap": "Redridge Mountains",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -74286,10 +74412,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Western Plaguelands",
 							"xCoord": 42.61,
 							"yCoord": 84.22,
-							"coordsMap": "Western Plaguelands",
-							"comment": "This is the xbow mastery questline. Can be soloed up to the last step which requires killing Shadowhunter in LBRS. Very decent blue xbow right very early when 60",
+							"comment": "This is the xbow mastery questline. Can be soloed up to the last step which requires killing Shadowhunter in LBRS. Very decent blue xbow which you can get right after hitting 60",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -74379,7 +74505,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "You will notice Andorhal looks different. It's because is the Andorhal from earlier vanilla patches. Chromie is not where usually is and to spawn the lich you have to destroy the 4 crystals guarded in each of the towers",
+							"comment": "You will notice Andorhal looks different. It's because it is the Andorhal from earlier vanilla patches. Chromie is not where she usually is and to spawn the lich you have to destroy the 4 crystals guarded in each of the towers",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -74406,7 +74532,7 @@
 									"isCustom": false
 								},
 								{
-									"comment": "Don't break the crystals inside the towers, you don't want to spam the boss + guards at the plaza",
+									"comment": "Don't break the crystals inside the towers, you don't want to spawn the boss + guards at the plaza",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -74522,10 +74648,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Western Plaguelands",
 							"xCoord": 36.83,
 							"yCoord": 58.24,
-							"coordsMap": "Western Plaguelands",
-							"comment": "Kill the ghoul, look the other half of the charm and combine them",
+							"comment": "Kill the ghoul, loot the other half of the charm and combine them",
 							"itemId": 12722,
 							"itemName": "Good Luck Other-Half-Charm",
 							"depth": 0,
@@ -74533,7 +74659,7 @@
 							"subTasks": [
 								{
 									"itemName": "Good Luck Charm",
-									"questId": 5903,
+									"questId": 5051,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -75239,7 +75365,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Use Eyes of the beast if you didn't forget to train it and the devs remembered to activate it again after 2 years to pull Nathanos to the south (otherwise just sac pet inside the upper floor of the house). Exit the house towards the north and let your pet die/despawn",
+							"comment": "Put pet on stay on the upper floor, send it to Nathanos with Bestial Wrath on (to avoid the stun), then pet passive and run towards the northern side while they chase your pet. FD once pet dies.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -75575,7 +75701,7 @@
 									"npcName": "Frenzied Plaguehound",
 									"npcId": 8598,
 									"count": 5,
-									"questId": 5544,
+									"questId": 5542,
 									"questObjectiveIndex": 3,
 									"depth": 1,
 									"type": "Kill",
@@ -76103,7 +76229,7 @@
 									"type": "Accept quest",
 									"subTasks": [
 										{
-											"comment": "Can skip, is not important, but might aswell do it while finishing the last cauldron quest at 60",
+											"comment": "Can skip, it isn't important, but might aswell do it while finishing the last cauldron quest at 60",
 											"depth": 2,
 											"type": "Comment",
 											"subTasks": [],
@@ -76165,7 +76291,19 @@
 							"comment": "Open the grave to get the ring for Chromie",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"itemName": "Joseph's Wedding Ring",
+									"questId": 5153,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -76254,46 +76392,38 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 43.46,
+							"yCoord": 84.87,
 							"coordsMap": "Western Plaguelands",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 42.73,
-							"yCoord": 83.8
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
+							"npcName": "Nathaniel Dumah",
+							"npcId": 11616,
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Alchemist Arbington",
-							"npcId": 11056,
+							"type": "Talk to",
 							"subTasks": [
 								{
+									"questName": "A Plague Upon Thee",
+									"questId": 5903,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 5537,
-									"questName": "Skeletal Fragments",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								},
 								{
-									"questName": "Mold Rhymes With...",
-									"questId": 5538,
+									"questId": 5904,
+									"questName": "A Plague Upon Thee",
 									"depth": 1,
 									"type": "Accept quest",
-									"subTasks": [
-										{
-											"comment": "To progress at 60. The scholo key is mandatory to get inside the dungeon in this server",
-											"depth": 2,
-											"type": "Comment",
-											"subTasks": [],
-											"isCustom": false
-										}
-									],
+									"subTasks": [],
 									"isCustom": false
 								}
 							],
-							"type": "Talk to"
+							"isCustom": false
 						}
 					]
 				},
@@ -76386,6 +76516,53 @@
 										}
 									],
 									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Western Plaguelands",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 42.73,
+							"yCoord": 83.8
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Alchemist Arbington",
+							"npcId": 11056,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 5537,
+									"questName": "Skeletal Fragments",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Mold Rhymes With...",
+									"questId": 5538,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"comment": "To progress at 60. The scholo key is mandatory to get inside the dungeon in this server",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -76497,8 +76674,8 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 43.47,
-							"yCoord": 84.88,
+							"xCoord": 48.36,
+							"yCoord": 31.92,
 							"coordsMap": "Western Plaguelands",
 							"comment": "Turn in The Annals of Darrowshire if you are short on XP or just go ding 60 here",
 							"depth": 0,
@@ -76507,21 +76684,20 @@
 							"isCustom": false
 						},
 						{
+							"questId": 5904,
+							"questName": "A Plague Upon Thee",
 							"depth": 0,
-							"isCustom": false,
-							"npcName": "Nathaniel Dumah",
-							"npcId": 11616,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 5903,
-									"questName": "A Plague Upon Thee",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questId": 6389,
+							"questName": "A Plague Upon Thee",
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"comment": "Ding 60? Gz",
