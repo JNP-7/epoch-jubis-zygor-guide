@@ -22281,8 +22281,8 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 41.81,
-							"yCoord": 45.88,
+							"xCoord": 20.16,
+							"yCoord": 70.74,
 							"coordsMap": "Wetlands",
 							"comment": "Go to the pond and interact with the dirt mound. A Murloc will spawn. Kill it",
 							"depth": 0,
@@ -22996,10 +22996,37 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 36.32,
-							"yCoord": 64.48,
+							"xCoord": 44.17,
+							"yCoord": 56.72,
 							"coordsMap": "Wetlands",
-							"comment": "Go to the tower first. There is a rare around here that drops a good AGI + INT belt (Grol'thok)",
+							"comment": "Kill the first named mob in the tower to your right just as you enter the area.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Watcher Xorck",
+									"npcId": 45281,
+									"count": 1,
+									"questId": 26341,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 471,
+							"yCoord": 51.49,
+							"coordsMap": "Wetlands",
+							"comment": "To the tower next. There is a rare around here that drops a good AGI + INT belt (Grol'thok)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -23061,7 +23088,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Finish any of the regular mobs you might still need while going back to the entrance",
+							"comment": "Finish any of the regular mobs you might still. Clear the entrance if the mobs have respawned then head to the main frotress",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -23089,31 +23116,39 @@
 								}
 							],
 							"isCustom": true
-						},
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
 						{
-							"xCoord": 36.32,
-							"yCoord": 64.48,
+							"xCoord": 50,
+							"yCoord": 58,
 							"coordsMap": "Wetlands",
-							"comment": "Now for the last named mob. If you leave the area jumping off of it it looks really cool",
+							"comment": "Go here and kite Nek'rosh II: The revenge back to the dwarf quest giver. He is a pusheover due to the level difference. Can pet tank after kiting him.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
 								{
-									"npcName": "Watcher Xorck",
-									"npcId": 45281,
-									"count": 1,
-									"questId": 26341,
-									"questObjectiveIndex": 2,
+									"comment": "If you fail to kite him then just turn in the quests and proceed as normal",
 									"depth": 1,
-									"type": "Kill",
+									"type": "Comment",
 									"subTasks": [],
-									"isCustom": true
+									"isCustom": false
 								}
 							],
-							"isCustom": true
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
-					],
-					"onlyForClasses": []
+					]
 				},
 				{
 					"onlyForClasses": [],
@@ -23173,30 +23208,29 @@
 				{
 					"stepTasks": [
 						{
-							"coordsMap": "Wetlands",
-							"xCoord": 50,
-							"yCoord": 58,
-							"comment": "Go kill Nek'rosh II: the revenge. He was a pusheover. Can pet tank in the main hall. If that's not the case anymore, just kite him to the entrance",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
+							"itemName": "Nek'roshes's Head",
+							"count": 1,
+							"questId": 26338,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
 								{
-									"itemName": "Nek'roshes's Head",
-									"questId": 26338,
-									"questObjectiveIndex": 1,
-									"toLootNpcs": [
-										{
-											"npcName": "Chieftain Nek'rosh",
-											"npcId": 45262
-										}
-									],
-									"count": 1,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": true
+									"npcName": "Chieftain Nek'rosh",
+									"npcId": 45262
 								}
 							],
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"xCoord": 50,
+							"yCoord": 58,
+							"coordsMap": "Wetlands",
+							"comment": "Reminder of where he is if you failed to kite him",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -23206,13 +23240,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 26.68,
-							"yCoord": 59.58
+							"yCoord": 59.58,
+							"coordsMap": "Wetlands",
+							"comment": "Nek'rosh quest is turned in at the major, not at dwarf near the fortress so don't worry.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -23454,13 +23489,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Wetlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 12.03,
-							"yCoord": 64.18
+							"yCoord": 64.18,
+							"coordsMap": "Wetlands",
+							"comment": "On your way there, kill as few Murlocs as possible. You will need to kill them to progress the quest you are about to accept.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -23689,37 +23725,6 @@
 									"questName": "Southshore",
 									"subTasks": [],
 									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 50.34,
-							"yCoord": 58.89
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Phin Odelic",
-							"npcId": 2711,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 659,
-									"questName": "Hints of a New Plague?",
-									"subTasks": [],
-									"type": "Accept quest"
 								}
 							],
 							"type": "Talk to"
@@ -24289,7 +24294,15 @@
 							"comment": "First clear this camp and, most importantly, the 4 Hulking Mountain Lions. You want to start the respawns",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "Accept any of the quests laying around in the tables",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						},
 						{
@@ -24336,6 +24349,13 @@
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Do something",
+									"depth": 1,
+									"subTasks": [],
+									"type": "Comment",
 									"isCustom": false
 								}
 							],
@@ -25643,10 +25663,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Dustwallow Marsh",
 							"xCoord": 45.25,
 							"yCoord": 24.54,
-							"coordsMap": "Dustwallow Marsh",
-							"comment": "As soon as you accept the follow up Hendel and the 2 guards will atck you. Take them off you with your pet and focus in Hendel",
+							"comment": "As soon as you accept the follow up Hendel and the 2 guards will attack you. Take them off you with your pet and focus in Hendel",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -25861,10 +25881,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 30.54,
-							"yCoord": 23.87,
+							"xCoord": 30.73,
+							"yCoord": 24.33,
 							"coordsMap": "Thousand Needles",
-							"comment": "Time for some leg day. Go to the elevator south of the barrens to get into 1k needles",
+							"comment": "Time for some leg workout. Go to the elevator south of the barrens to get into 1k needles",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -25872,6 +25892,8 @@
 						},
 						{
 							"comment": "Once you are down there interact with the book near the dwarf's corpse",
+							"itemId": 5791,
+							"itemName": "Henrig Lonebrow's Journal",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -26030,10 +26052,18 @@
 							"isCustom": false
 						},
 						{
-							"comment": "When 5 of them or so are gathered bring them back to the trap to trigger it. Once your trap is off CD again place another explosive trap, cas multishot and the feign death. Keep mend pet up and the mobs will die shortly after.",
+							"comment": "When 5 of them or so are gathered bring them back to the trap to trigger it. Once your trap is off CD again place another explosive trap, cast multishot and then feign death. Keep mend pet up and the mobs will die shortly after.",
 							"depth": 0,
 							"type": "Comment",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "It's important to outlevel them, otherwise feign death has a high chance of being resisted (you have to roll for resist for every mob near you, really cool implementation as always)",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						},
 						{
@@ -28591,10 +28621,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 46.25,
 							"yCoord": 11.58,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Go east and kil the fighters and the medicine mans for their respective quests. You can AoE down the lumbermill easily, just try to LoS Bookie Herod so he doesn't cast Shadow bolt constantly",
+							"comment": "Go east and kill the fighters and the medicine mans for their respective quests. You can AoE down the lumbermill easily, just try to LoS Bookie Herod so he doesn't cast Shadow bolt constantly",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -28705,13 +28735,6 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Do something",
-							"depth": 0,
-							"subTasks": [],
-							"type": "Comment",
-							"isCustom": false
-						},
-						{
 							"depth": 0,
 							"isCustom": false,
 							"npcName": "Sergeant Yohwa",
@@ -28743,6 +28766,30 @@
 								}
 							],
 							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 37.93,
+							"yCoord": 3.02,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": ">>> Refill quiver <<<",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Corporal Bluth",
+									"npcId": 734,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -29408,10 +29455,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 27.65,
 							"yCoord": 11.32,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Go to the troll ruins and begin to gather keys and ears by killing troll.",
+							"comment": "Go to the troll ruins and begin to gather keys and ears by killing trolls.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -29425,10 +29472,18 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Whenever you find gfind an alliance captive go free it. You will probably have to go out of your way to finish this. Go to the next step",
+							"comment": "Whenever you find an alliance captive go free it. You will probably have to go out of your way to finish this because you can't free the horde ones so the npc respawns. Go to the next step",
 							"depth": 0,
 							"type": "Comment",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "If the chance for a captive to be from either faction is a 50/50 and the spawns are not fixed this is bound to cause issues in the long run...",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -29759,8 +29814,8 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 0,
-							"yCoord": 0,
+							"xCoord": 46.74,
+							"yCoord": 22.79,
 							"coordsMap": "Current map",
 							"comment": "Make your way towards the panthers to the east while getting the crystals from the geologists.",
 							"depth": 0,
@@ -29769,7 +29824,7 @@
 								{
 									"itemName": "Tumbled Crystal",
 									"questId": 213,
-									"questObjectiveIndex": 213,
+									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
 											"npcName": "Venture Co. Geologist",
@@ -30324,6 +30379,37 @@
 									"questId": 193,
 									"depth": 1,
 									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 35.66,
+							"yCoord": 10.65
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Ajeck Rouack",
+							"npcId": 717,
+							"subTasks": [
+								{
+									"questName": "Tiger Mastery",
+									"questId": 188,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": false
 								}
@@ -31187,10 +31273,10 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Hillsbrad Foothills",
 							"xCoord": 49.39,
 							"yCoord": 52.35,
-							"coordsMap": "Hillsbrad Foothills",
-							"comment": "Fly to Arathi Highlands. Keep an eye out for the Forsaken courier and Fozruk while flying. Chances are if they don't show up they are the beggining of their patrol routes.",
+							"comment": "Fly to Arathi Highlands. Keep an eye out for the Forsaken courier and Fozruk while flying. Chances are if they don't show up they are at the beggining of their patrol routes.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -31409,7 +31495,7 @@
 								{
 									"itemName": "Cresting Key",
 									"questId": 651,
-									"questObjectiveIndex": 1,
+									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 1,
 									"depth": 1,
@@ -31595,7 +31681,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Follow the Nelf. You can try to kill the orcs ahead of time so she doesn't stop.",
+							"comment": "Follow the Nelf. You can try to kill the orcs and even the undead inside the house ahead of time so she doesn't stop.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -31915,7 +32001,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "The quest Save the animals has been bugged in betas 2.5 and 3, but I could it complete during beta 2. Basically, she will ask you to find the Gryphon I mentioned earlier and then will need meat from the spiders and berries from the berry bushes you might have seen while walking there.",
+							"comment": "The quest Save the animals was bugged in betas 2.5 and 3, but I could it complete during beta 2. Basically, she will ask you to find the Gryphon I mentioned earlier and then you will need meat from the spiders and berries from the berry bushes you might have seen while walking there.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -32545,7 +32631,7 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 897,
+							"xCoord": 89.7,
 							"yCoord": 37.61,
 							"coordsMap": "Current map",
 							"comment": "Use the item from the quest on the hostile water elementals when they are 30-40% HP",
@@ -33384,6 +33470,46 @@
 					"onlyForClasses": []
 				},
 				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 33.85,
+							"yCoord": 80.56,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Have to wait for the gnome to run back...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Doctor Draxlegauge",
+							"npcId": 2774,
+							"subTasks": [
+								{
+									"questId": 665,
+									"questName": "Sunken Treasure",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 666,
+									"questName": "Sunken Treasure",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
 					"stepTasks": [
 						{
 							"comment": "Equip the googles and drink one of your Elixir of Water Breathing",
@@ -33426,7 +33552,7 @@
 								{
 									"itemName": "Maiden's Folly Log",
 									"questId": 662,
-									"questObjectiveIndex": 1,
+									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 1,
 									"depth": 1,
@@ -33512,10 +33638,11 @@
 							"type": "Go to",
 							"subTasks": [
 								{
-									"itemName": "Some item",
+									"itemName": "Spirit of Silverpine Log",
 									"questId": 662,
-									"questObjectiveIndex": 1,
+									"questObjectiveIndex": 4,
 									"toLootNpcs": [],
+									"count": 1,
 									"depth": 1,
 									"type": "Get",
 									"subTasks": [],
@@ -33908,10 +34035,18 @@
 							"xCoord": 45.78,
 							"yCoord": 46.16,
 							"coordsMap": "Arathi Highlands",
-							"comment": "With some luck you are very close to getting level 40. You probably don't have enough for mount, so just try to learn level 40 spells, specially to use mail.",
+							"comment": "Fly to Ironforge",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "With some luck you are very close to getting level 40. You probably don't have enough for mount, so just try to learn level 40 spells, specially to use mail.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
