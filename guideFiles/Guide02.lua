@@ -11,225 +11,224 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Teldras
 		talk Conservator Ilthalaine##2079
 		.accept The Balance of Nature##456
 	step//2
-		'Kill the nightsabers first|goto Teldrassil,62.11,42.44
-		kill 7 Young Nightsaber##2031|q 456/1
-		kill 4 Young Thistle Boar##1984|q 456/2
+		goto Teldrassil,59.94,42.49
+		talk Melithar Staghelm##2077
+		.accept The Woodland Protector##458
+		'You need to be level 2 to accept this quest kill the mobs here to level up (Nightsabers first)|goto Teldrassil,61.21,43.25
 	step//3
 		goto Teldrassil,60.93,42.03
 		talk Dirania Silvershine##8583
 		.accept A Good Friend##4495
+		'You need to be level 2 to accept this quest kill the mobs here to level up (Nightsabers first)|goto Teldrassil,61.21,43.25
 	step//4
-		goto Teldrassil,59.94,42.49
-		talk Melithar Staghelm##2077
-		.accept The Woodland Protector##458
+		'Kill the nightsabers first|goto Teldrassil,62.11,42.44
+		kill 7 Young Nightsaber##2031|q 456/1
+		kill 4 Young Thistle Boar##1984|q 456/2
 	step//5
-		'Sell junk. Buy 3 stacks of arrows|goto Teldrassil,59.31,41.15
-		talk Keina##3589
-		only Hunter
+		'Grind here (and on your way) until you are 600xp away from level 4|goto Teldrassil,60.68,35
+		'Go towards this spot once you are getting close (2-3 mobs away)|goto Teldrassil,55.7,32.93
 	step//6
-		goto Teldrassil,58.64,44.67
-		talk Conservator Ilthalaine##2079
-		.turnin The Balance of Nature##456
-	step//7
-		talk Conservator Ilthalaine##2079
-		.accept The Balance of Nature##457
-		.accept Etched Sigil##3117
-		only Hunter
-	step//8
-		goto Teldrassil,60.06,35.24
-		.kill 5 Thistle Boar##1985|q 457/2
-		.kill 5 Mangy Nightsaber##2032|q 457/1
-	step//9
-		'Start casting hearthstone as soon as you start talking with him.|goto Teldrassil,54.63,33|use Hearthstone##6948
+		'Begin to cast your hearthstone as soon as you start talking to him (or die to a spider if you aggroed one).|goto Teldrassil,54.63,33|use Hearthstone##6948
 		talk Iverron##8584
 		.turnin A Good Friend##4495
 		.accept A Friend in Need##3519
-	step//10
-		goto Teldrassil,58.66,44.64
-		talk Conservator Ilthalaine##2079
-		.turnin The Balance of Nature##457
-	step//11
+	step//7
 		goto Teldrassil,57.86,45.17
 		talk Tarindrella##1992
 		.turnin The Woodland Protector##458
 		.accept The Woodland Protector##459
-	step//12
+	step//8
+		goto Teldrassil,58.64,44.67
+		talk Conservator Ilthalaine##2079
+		.turnin The Balance of Nature##456
+		.accept The Balance of Nature##457
+		.accept Etched Sigil##3117
+	step//9
 		Go to Teldrassil 60.01,42.2
 		'Talk to Alanea Miststriker (id:45087)|c
 		.'Accept Corruption in Shadowglen (id:26179)|c
-	step//13
+	step//10
 		goto Teldrassil,60.9,41.93
 		talk Dirania Silvershine##8583
 		.turnin A Friend in Need##3519
 		.accept Iverron's Antidote##3521
-	step//14
-		Go to Teldrassil 63.85,41.86
-		.'Kill 8 Frenzied Moonkin (id:45088) for a quest (id:26179, objective1)|c
-		.'Kill Natook (id:45089) for a quest (id:26179, objective2)|c
-	step//15
-		Go to Teldrassil 60.11,42.28
-		'Talk to Alanea Miststriker (id:45087)|c
-		.'Turn in Corruption in Shadowglen (id:26179)|c
-	step//16
-		'Sell junk. Need 3s 70c for white bow + serpent sting|goto Teldrassil,59.32,41.13
-		talk Keina##3589
-	step//17
+	step//11
+		'Sell junk. Need 3s 70c for white bow + serpent sting, some extra for more arrows. 2 stacks of arrows > SS (1s) > Bow (2s 70c)|goto Teldrassil,59.32,41.13
+		.talk Keina##3589
+	step//12
 		goto Teldrassil,57.83,41.67
 		.talk Gilshalan Windwalker##2082
 		.accept Webwood Venom##916
-	step//18
-		'Up the ramp. Learn serpent sting|goto Teldrassil,58.64,40.47
+	step//13
+		'She is midway through the ramp. Learn serpent sting (need lvl 4)|goto Teldrassil,58.64,40.47
 		talk Ayanna Everstride##3596
 		.turnin Etched Sigil##3117
 		only Hunter
-	step//19
+	step//14
 		'Fall through the holes in the ramp|goto Teldrassil,57.83,38.33
 		get 4 Moonpetal Lily|q 3521/2
-	step//20
-		goto Teldrassil,54.63,38.97
-		from Grellkin##1989
-		get 7 Hyacinth Mushroom|q 3521/1
-		from Grellkin##1989
-		get 8 Fel Moss|q 3521/3
-	step//21
-		'After getting the items from the spiders die to death warp to the starting area|goto Teldrassil,56.66,33.75
+	step//15
+		'Try no to get too far into the cave. Ideally you finish this by killing the spiders outside/cave entrance.|goto Teldrassil,56.66,33.75
 		from Webwood spider##1986
 		get Webwood Ichor|q 3521/3
 		from Webwood spider##1986
 		get 10 Webwood Venom Sac|q 916/1
-	step//22
+	step//16
+		'Kill the grells then move towards the starting area when you are mostly done|goto Teldrassil,54.63,38.97
+		from Grellkin##1989
+		get 7 Hyacinth Mushroom|q 3521/1
+		from Grellkin##1989
+		get 8 Fel Moss|q 459/1
+	step//17
 		goto Teldrassil,57.84,45.14
 		talk Tarindrella##1992
 		.turnin The Woodland Protector##459
-	step//23
+	step//18
 		goto Teldrassil,60.9,41.99
 		talk Dirania Silvershine##8583
 		.turnin Iverron's Antidote##3521
 		.accept Iverron's Antidote##3522
-	step//24
-		'Sell junk|goto Teldrassil,59.32,41.13
+	step//19
+		'Sell junk. Buy the white bow if you didn't before. Get some arrows just to be safe.|goto Teldrassil,59.32,41.13
 		talk Keina##3589
-	step//25
+	step//20
 		goto Teldrassil,57.81,41.67
 		talk Gilshalan Windwalker##2082
 		.turnin Webwood Venom##916
 		.accept Webwood Egg##917
-	step//26
+	step//21
 		goto Teldrassil,54.62,32.99
 		talk Iverron##8584
 		.turnin Iverron's Antidote##3522
-	step//27
+	step//22
 		'After getting the egg die to death warp|goto Teldrassil,56.71,26.46
 		get Webwood Egg|q 917/1
-	step//28
+	step//23
 		goto Teldrassil,57.84,41.68
 		talk Gilshalan Windwalker##2082
 		.turnin Webwood Egg##917
 		.accept Tenaron's Summons##920
-	step//29
-		goto Teldrassil,59.09,39.42
+	step//24
+		'Upper level of the tree. Run up the ramp|goto Teldrassil,59.09,39.42
 		talk Tenaron Stormgrip##3514
 		.turnin Tenaron's Summons##920
 		.accept Crown of the Earth##921
-	step//30
+	step//25
 		'Fill the fial at the well|goto Teldrassil,59.96,33.33|use Crystal phial##5185
 		get Filled Crystal Phial|q 921/1
+	step//26
+		'Skip this if the area is too busy on launch|goto Teldrassil,60.06,35.24
+		.kill 5 Thistle Boar##1985|q 457/2
+		.kill 5 Mangy Nightsaber##2032|q 457/1
+		'Finish the quest while moving towards here. Boars near the well, sabers are towards where you are moving|goto Teldrassil,63.85,41.86
+	step//27
+		'Skip this if the area is to busy on launch. Go to Teldrassil 63.85,41.86
+		.'Kill 8 Frenzied Moonkin (id:45088) for a quest (id:26179, objective1)|c
+		.'Kill Natook (id:45089) for a quest (id:26179, objective2)|c
+	step//28
+		'Skip this step if the area was too busy. Go to Teldrassil 60.11,42.28
+		'Talk to Alanea Miststriker (id:45087)|c
+		.'Turn in Corruption in Shadowglen (id:26179)|c
+	step//29
+		'Sell junk|goto Teldrassil,59.32,41.13
+		talk Keina##3589
+	step//30
+		'Skip if the area was too busy|goto Teldrassil,58.66,44.64
+		talk Conservator Ilthalaine##2079
+		.turnin The Balance of Nature##457
 	step//31
-		'If enough mobs are alive pull a bunch to death warp. Otherwise, walk it out running around the tree from the lakes' side.|goto Teldrassil,57.59,41.74
-	step//32
 		'Learn Arcane shot if level 6|goto Teldrassil,58.64,40.49
+		.talk Ayanna Everstride
+		..'She is midway through the ramp|c
 		only Hunter
-	step//33
+	step//32
 		goto Teldrassil,59.09,39.42
 		talk Tenaron Stormgrip##3514
 		.turnin Crown of the Earth##921
 		.accept Crown of the Earth##928
-	step//34
-		'Sell junk. Buy 2 stacks of arrows|goto Teldrassil,59.31,41.11
-		talk Keina##3589
-	step//35
+	step//33
 		goto Teldrassil,61.19,47.68
 		talk Porthannius##6780
 		.accept Dolanaar Delivery##2159
-	step//36
+	step//34
 		'Save Small Spider Leg x7 and Small Egg x9 for a quest/cooking while doing Zenn's quest.|goto Teldrassil,60.5,56.29
 		talk Zenn Foulhoof##2150
 		.accept Zenn's Bidding##488
-	step//37
+	step//35
 		'If the patrol happens to be nearby when you get to town accept their quest.|goto Teldrassil,56.11,57.63
 		talk Syral Bladeleaf##2083
 		.accept Denalan's Earth##997
-	step//38
+	step//36
 		goto Teldrassil,55.8,57.25
 		talk Athridas Bearmantle##2078
 		.accept A Troubling Breeze##475
-	step//39
+	step//37
 		'Upstairs, upper floor. Don't learn first aids yet.|goto Teldrassil,55.53,56.92
 		talk Tallonkai Swiftroot##3567
 		.accept Twisted Hatred##932
 		.accept The Emerald Dreamcatcher##2438
-	step//40
+	step//38
 		'Jump down. Pull and kill the nearby owl. Sell junk while you are at it.|goto Teldrassil,55.93,59.18
 		talk Jeena Featherbow##3610
 		.'Accept Demons In Fel Rock (id:26180)|c
-	step//41
+	step//39
 		'>>>SET HEARTHSTONE<<<|goto Teldrassil,55.67,59.78
 		talk Innkeeper Keldamyr##6736
 		.turnin Dolanaar Delivery##2159
-	step//42
+	step//40
 		'If you didn't reach level 6 in Shadowgleen talk to the trainer afterwards to learn Arcane shot. Go to Teldrassil 55.67,59.75
 		'Talk to Melarith (id:6781)|c
 		.'Accept Attack on the Gnarlpine (id:26176)|c
-	step//43
+	step//41
 		goto Teldrassil,56.19,61.64
 		talk Corithras Moonrage##3515
 		.turnin Crown of the Earth##928
 		.accept Crown of the Earth##929
-	step//44
+	step//42
 		'Learn cooking. Need spider legs x7 and eggs x9|goto Teldrassil,57.18,61.23
 		talk Zarrin##6286
 		.accept Recipe of the Kaldorei##4161
-	step//45
+	step//43
 		goto Teldrassil,57.67,60.65
 		'Learn herbalism here. Track herbs can be used to track some quest items.|c
 		talk Malorne Bladeleaf##3604
 		.'Accept Herbal Medicine (id:26182)|c
-	step//46
+	step//44
 		'Kill the owl behind the house and some nightsabers while running towards the lake.|goto Teldrassil,58.99,63
-	step//47
+	step//45
 		'Wait out the roleplay when turning the quest|goto Teldrassil,60.83,68.54
 		talk Denalan##2080
 		.turnin Denalan's Earth##997
 		.accept Timberling Seeds##918
 		.accept Timberling Sprouts##919
-	step//48
-		'All around the lake. Preferably the southern side of it. If dynamic spawns are on you won't have to go too far away.|c
+	step//46
+		'All around the lake. Preferably the southern side of it. If dynamic spawns are on get the sprout nort-east of the quest giver then go south. You won't have to go too far away this way.|c
 		get 12 Timberling Sprout|q 919/1
 		get 8 Timberling Seed|q 918/1
-	step//49
+	step//47
 		goto Teldrassil,60.88,68.53
 		talk Denalan##2080
 		.turnin Timberling Sprouts##919
 		.turnin Timberling Seeds##918
 		.accept Rellian Greenspyre##922
-	step//50
+	step//48
 		'Climb up from here to get out of the lake|goto Teldrassil,62.32,65.38
-	step//51
+	step//49
 		'Kill owls and spiders on the way for the satyr quest|goto Teldrassil,66.05,60.11
-	step//52
+	step//50
 		'Look around to see if the rare is around, he paths into the house|c
 		'Click the furniture inside the house|goto Teldrassil,67.98,59.6
 		.get Emerald Dreamcatcher|q 2438/1
-	step//53
+	step//51
 		goto Teldrassil,66.27,58.53
 		'You can cheese the mobs by jumping up and down the ledges of the house|c
 		talk Gaerolas Talvethren##2107
 		.turnin A Troubling Breeze##475
 		.accept Gnarlpine Corruption##476
-	step//54
+	step//52
 		'Fill the phial at the moonwell|goto Teldrassil,63.3,58.06|use Jade Phial##5619
 		.get Filled Jade Phial|q 929/1
-	step//55
+	step//53
 		'Cats southwest of the moonwell. If missing lots of owls there are some extra on the road to Shadowgleen. Try to finish cooking quest|c
 		.from Nightsaber##2042
 		.get 3 Nightsaber Fang|q 488/1
@@ -239,312 +238,312 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Teldras
 		.get 3 Webwood Spider Silk|q 488/3
 		.from Webwood Lurker##1998
 		.get 7 Small Spider Leg|q 4161/1
-	step//56
+	step//54
 		goto Teldrassil,60.43,56.34
 		talk Zenn Foulhoof##2150
 		.turnin Zenn's Bidding##488
-	step//57
+	step//55
 		goto Teldrassil,56.21,57.74
 		talk Syral Bladeleaf##2083
 		.accept Seek Redemption!##489
-	step//58
-		goto Teldrassil,55.93,57.35
+	step//56
+		'Skip the relics quest|goto Teldrassil,55.93,57.35
 		talk Athridas Bearmantle##2078
 		.turnin Gnarlpine Corruption##476
-	step//59
+	step//57
 		goto Teldrassil,55.52,56.91
 		'Learn First Aid|c
 		talk Tallonkai Swiftroot##3567
 		.turnin The Emerald Dreamcatcher##2438
 		.accept Ferocitas the Dream Eater##2459
-	step//60
-		'Repair/Buy arrows if needed at the inn and train level 8 skills if at that level|c
-	step//61
-		goto Teldrassil,56.16,61.66
-		talk Corithras Moonrage##3515
-		.turnin Crown of the Earth##929
-		.accept Crown of the Earth##933
-	step//62
-		goto Teldrassil,57.06,61.3
-		'Need to save some items to reach Cooking 15 for a quest in Darkshore. 14 small eggs, can be adquired in Darkshore later too.|c
-		talk Zarrin##6286
-		.turnin Recipe of the Kaldorei##4161
-	step//63
+	step//58
+		'Repair/Buy arrows if needed at the inn and train level 8 skills if at that level.|c
+		'Otherwise, just head to the east|c
+		'Skip this step|c
+	step//59
 		'The are 3 Fel Cones here|goto Teldrassil,58.34,55.93
 		.get 3 Fel Cone|q 489/3
-	step//64
+	step//60
 		goto Teldrassil,60.47,56.37
 		turnin Seek Redemption!##489
-	step//65
+	step//61
 		'The chest in this camp is not worth going for if the respawns are fast|goto Teldrassil,68.41,53.86
 		.kill 7 Gnarlpine Mystic##7235|q 2459/1
 		.from Ferocitas the Dream Eater##7234
 		.get Tallonkai's Jewel|q 2459/2
 		..'The gem is inside the container that Ferocitas drops|use Gnarlpine Necklace##8049|c
-	step//66
+	step//62
 		'Die around this place to deathwarp to Dolanaar|goto Teldrassil,67.1,59.69
-	step//67
-		goto Teldrassil,55.54,56.91
-		talk Tallonkai Swiftroot##3567
-		.turnin Ferocitas the Dream Eater##2459
-	step//68
+	step//63
+		goto Teldrassil,56.16,61.66
+		talk Corithras Moonrage##3515
+		.turnin Crown of the Earth##929
+		.accept Crown of the Earth##933
+	step//64
+		goto Teldrassil,57.06,61.3
+		'Need to save some items to reach Cooking 15 for a quest in Darkshore. 14 small eggs, can be adquired in Darkshore later too.|c
+		talk Zarrin##6286
+		.turnin Recipe of the Kaldorei##4161
+	step//65
+		'Buy arrows/repair at the inn and train level 8 spells if you didn't before.|c
+	step//66
 		'Look for the Satyr boss inside the cave. Path towards the lower level where the pond is. If he is in 1 of the 2 balconies, go through the first corridor the went north at the entrance of the cave.|goto Teldrassil,54.65,52.63
 		.'Get 10 Demon Essence from Shadow Sprite(id:2003), Rascal Sprite(id:2002), Dark Sprite(id:2004) or Vicious Grell(id:2005) for a quest (id:26180, objective:1)|c
 		.from Lord Melenas##2038
 		.get Melenas' Head|q 932/1
-	step//69
+	step//67
 		'Look for the patrol and accept their quest if you haven't yet|goto Teldrassil,52.8,56.72
 		talk Moon Priestess Amara##2151
 		.'Accept The Road to Darnassus (id:487)|c
-	step//70
+	step//68
+		'There are 2 shamans in this camp. Kill them both and at least 1 defender. You should have finished warriors already from doing other quests|goto Teldrassil,50.49,62.31
+		'Skip this step when done|c
+	step//69
 		goto Teldrassil,48.49,54.88
 		.'Get 10 Gnarlpine Amulet from Gnarlpine Ambusher(id:2152) for a quest (id:487, objective:1)|c
 		.'Kill 4 Gnarlpine Ambusher (id:2152) for a quest (id:26176, objective1)|c
-	step//71
-		'The are exactly 4 shamans between the 2 camps|goto Teldrassil,49.44,60.45
+	step//70
+		'Finish the quest by killing the remaining shammans/defenders here. Defenders shouldn't be a problem. If you didn't kill the 2 shammans before then just get inside the cave. The first 2 mobs are shamans.|goto Teldrassil,44.69,56.97
 		.'Kill 4 Gnarlpine Warrior (id:2008) for a quest (id:26176, objective2)|c
 		.'Kill 4 Gnarlpine Defender (id:2010) for a quest (id:26176, objective3)|c
 		.'Kill 4 Gnarlpine Shaman (id:2009) for a quest (id:26176, objective4)|c
+	step//71
+		'Loop around the mountain counter-clock wise to reach the lakes. Loot the lilies while heading south|goto Teldrassil,39.59,65.4
+		.'Get 8 Lily Whip for a quest (id:26182, objective:1)|c
 	step//72
-		'Kill anything on your way pathing around the southern side of the mountain. Avoid the rare Owl if it's around. Interact with the tree to get the quest.|goto Teldrassil,42.7,76.22
-		accept The Glowing Fruit##930
-	step//73
 		'Fill the phial at the moonwell|goto Teldrassil,42.4,67.12|use Tourmaline Phial##5621
 		.get Filled Tourmaline Phial|q 933/1
+	step//73
+		'Interact with the tree to get the quest.|goto Teldrassil,42.7,76.22
+		accept The Glowing Fruit##930
 	step//74
-		'After looting the herbs, go further north to check if the rare spider is alive. If it's there you can't kill it.|goto Teldrassil,39.59,65.4
-		.'Get 8 Lily Whip for a quest (id:26182, objective:1)|c
+		'Die to the furbolgs to deathwarp to Dolanaar|goto Teldrassil,42.19,79.98
 	step//75
-		'Grind furbolgs untill you are 4420XP away from level 10. If you are >5020XP away, grind until you are 5270XP away then.|c
-		'Die while near the mountains to death warp to Darnassus|goto Teldrassil,37.32,67.07
-	step//76
-		'Learn staves for 9s|goto Darnassus,57.73,46.53
-		.talk Ilyenia Moonfire##11866
-	step//77
-		goto Darnassus,38.4,21.48
-		talk Rellian Greenspyre##3517
-		.turnin Rellian Greenspyre##922
-		.accept Tumors##923
-	step//78
-		goto Darnassus,29.17,45.57
-		talk Sister Aquinne##7316
-		.accept The Temple of the Moon##2519
-	step//79
-		goto Darnassus,36.58,85.85
-		talk Priestess A'moora##7313
-		.turnin The Temple of the Moon##2519
-		.accept Tears of the Moon##2518
-		..'HS back to Dolanaar|use Hearthstone##6948|c
-	step//80
-		goto Teldrassil,55.71,59.65
-		'Talk to Melarith (id:6781)|c
-		.'Turn in Attack on the Gnarlpine (id:26176)|c
-	step//81
-		goto Teldrassil,55.9,59.16
-		talk Jeena Featherbow##3610
-		.'Turn in Demons In Fel Rock (id:26180)|c
-		.'Accept Purifying the Essence (id:26181)|c
-	step//82
-		goto Teldrassil,55.54,56.94
-		talk Tallonkai Swiftroot##3567
-		.turnin Twisted Hatred##932
-	step//83
-		goto Teldrassil,50.41,54.92
-		talk Moon Priestess Amara##2151
-		.turnin The Road to Darnassus##487
-	step//84
 		goto Teldrassil,56.06,61.69
 		talk Corithras Moonrage##3515
 		.turnin Crown of the Earth##933
 		.accept Crown of the Earth##7383
-	step//85
-		'Purify the demon essence in the moonwell. Use Demon Essence|c
-		.'Get Purified Essence for a quest (id:0, objective:1)|c
-	step//86
+	step//76
 		goto Teldrassil,57.67,60.62
 		talk Malorne Bladeleaf##3604
 		.turnin Herbal Medicine##26182
-	step//87
-		'Only do this if you grinded to 5270XP instead of 4420XP because you were too short on XP|c
-		goto Teldrassil,60.85,68.52
-		talk Denalan##2080
-		.turnin The Glowing Fruit##930
-	step//88
-		goto Teldrassil,55.94,59.24
+	step//77
+		goto Teldrassil,55.71,59.65
+		'Talk to Melarith (id:6781)|c
+		.'Turn in Attack on the Gnarlpine (id:26176)|c
+	step//78
+		'Buy arrows/repair if needed|goto Teldrassil,55.9,59.16
 		talk Jeena Featherbow##3610
-		.'Turn in Purifying the Essence (id:26181)|c
-	step//89
-		goto Teldrassil,56.67,59.6
-		'Train level 10 skills|c
-		talk Dazalar##3601
-		.accept Taming the Beast##6063
-	step//90
-		'Tame a spider|goto Teldrassil,59.06,60.03|use Taming Rod##15921
-		.'If you cant abandon the spider after taming it, log out inside the inn even of you are in combat. Same thing for the 2 following quests|goal Tame a Webwood Lurker|q 6063/1
-	step//91
-		goto Teldrassil,56.73,59.5
-		talk Dazalar##3601
-		.turnin Taming the Beast##6063
-		.accept Taming the Beast##6101
-	step//92
-		'Tame a cat|goto Teldrassil,56.3,71.75|use Taming Rod##15922
-		.goal Tame a Nightsaber Stalker|q 6101/1
-	step//93
-		goto Teldrassil,56.67,59.59
-		talk Dazalar##3601
-		.turnin Taming the Beast##6101
-		.accept Taming the Beast##6102
-	step//94
-		'Tame an owl|goto Teldrassil,57.39,74.65|use Taming Rod##15923
-		.'Consider deathwarping in the neares furbolg camp, it also may have a chest|goal Tame a Strigid Screecher|q 6102/1
-	step//95
-		goto Teldrassil,56.64,59.53
-		talk Dazalar##3601
-		.turnin Taming the Beast##6102
-		.accept Training the Beast##6103
-	step//96
-		'You can buy level 10 arrows now, a quiver with some extra slots and the level 11 bow if you have spare money. Fill the quiver and buy the bow later if you still don't have the money.|goto Teldrassil,55.92,59.23
-		'Tame an Owl near Dolanaar|c
-		.'Keep your pet alive!!!! You can use it and it wont run away, but if it dies you can't rez it until getting to Darnassus, making the next quests much more harder.|c
-	step//97
-		'Ride the cart if it's nearby. Check/bind your keybind to get out of a vehicle or type /leavevehicle once you arrive to the spot close to the pass through the mountains.|goto Teldrassil,48.9,48.66
-		'Go into the mountains and try to /target Corrupted Treant. Kill it if it's inside the cave and then drop down.. Go to Teldrassil 49.57,45.1
-		'Type /target Lord to check if the rare spider is around. If so kill it. Go to Teldrassil 45.62,42.39
-	step//98
-		'Kill the tramplers for the tumors while running down the river|goto Teldrassil,43.07,42.99
-		.get 5 Mossy Tumor|q 923/1
-		.'Check if Blackmoss is around and kill it if so (kite backwards and keep agro). Don't need to accept the quest yet if you kill it.|goto Teldrassil,43.07,42.99
-	step//99
-		'If the spider is not there check [41,25] afterwards|goto Teldrassil,47.11,26.46
-		.from Lady Sathrah##7319
-		.get Silvery Spinnerets|q 2518/1
-	step//100
-		'Check for the Corrupted Treant here if you didn't kill it before. Go to Teldrassil 38.83,25.65
-	step//101
-		goto Teldrassil,34.72,28.95
+		.'Turn in Demons In Fel Rock (id:26180)|c
+		.'Accept Purifying the Essence (id:26181)|c
+	step//79
+		'If the patroling quest giver is around turn the quest in. Skip this step|c
+	step//80
+		goto Teldrassil,55.54,56.94
+		'Learn first aids on the lower floor if you didn't before|c
+		.talk Byancie##6094
+		talk Tallonkai Swiftroot##3567
+		.turnin Twisted Hatred##932
+		.turnin Ferocitas the Dream Eater##2459
+	step//81
+		'If you don't find the patrol, just follow the road to Darnassus and you eventually will|goto Teldrassil,50.41,54.92
+		talk Moon Priestess Amara##2151
+		.turnin The Road to Darnassus##487
+	step//82
+		'Jump into the cart if it happens to be going towards Darnassus. Jump down off of it (/leavevehicle) and then jump down to the lake from here|goto Teldrassil,45.06,46.1
+		'Search the river for the rare elemental. Avoid unnecessary combat. Usually at this spot. Kill him by jumping side to side near the tree root northeast of the marker|goto Teldrassil,43.74,29.72
+		'If you find and kill the rare, use the dropped item to start a quest|use Moss-twined Heart##5179|c
+		.accept The Moss-twined Heart##927
+		.'Skip this step otherwise|c
+	step//83
+		'Go here for a quick peek. Type "/target Lady" and check if Satrah is there. It's a future quest objective. If she is not there it means that she spawned in the alternative spot.|goto Teldrassil,41.4,27.7
+		'Skip this step afterwards|c
+	step//84
+		'Don't bother with the chests around here and try to gather the fruit w/o pulling the harpies|goto Teldrassil,34.72,28.95
 		accept The Shimmering Frond##931
-		'Don't bother with the chests around here and be careful about the Matriarch, they hit like a truck and heal.|c
-	step//102
-		goto Teldrassil,31.44,31.65
-		talk Mist##3568
-		.accept Mist##938
-	step//103
+	step//85
 		goto Teldrassil,36.69,34.08
 		talk Alanna Raveneye##3606
 		.'Accept Bloodfeather Eggs (id:26178)|c
-	step//104
-		'Fill the vial in the moonwell|goto Teldrassil,38.42,34.11|use Amethyst Phial##18152
-		.get Filled Amethyst Phial|q 7383/1
-		.goal Lead Mist to the Sentinel near the moonwell|q 938/1
-	step//105
+	step//86
 		goto Teldrassil,38.3,34.37
 		talk Sentinel Arynia Cloudsbreak##3519
 		.accept The Enchanted Glade##937
-		.turnin Mist##938
-	step//106
-		'There is a roaming rare here (white harpy), keep an eye out.|goto Teldrassil,35.26,35.32
-		.from Bloodfeather Rogue##2017, Bloodfeather Harpy##2015, Bloodfeather Sorceress##2018
-		.get 6 Bloodfeather Belt|q 937/1
-		.'Get 6 Bloodfeather Egg for a quest (id:26178, objective:1)|c
-	step//107
-		goto Teldrassil,36.76,34.22
-		talk Alanna Raveneye##3606
-		.'Turn in Bloodfeather Eggs (id:26178)|c
-	step//108
-		goto Teldrassil,38.31,34.38
-		talk Sentinel Arynia Cloudsbreak##3519
-		.turnin The Enchanted Glade##937
-		.accept Teldrassil##940
-	step//109
+	step//87
+		'Fill the phial at the moonwell|goto Teldrassil,38.42,34.11|use Amethyst Phial##18152
+		.get Filled Amethyst Phial|q 7383/1
+	step//88
 		'Die near the mountains to deathwarp to Darnassus|goto Teldrassil,35.05,39.34
-	step//110
-		goto Darnassus,38.36,21.44
-		talk Rellian Greenspyre##3517
-		.turnin Tumors##923
-	step//111
-		goto Darnassus,38.29,21.26
-		talk Rellian Greenspyre##3517
-		.accept Return to Denalan##2498
-	step//112
-		goto Darnassus,40.34,8.73
-		talk Jocaste##4146
-		.turnin Training the Beast##6103
-		.'Being able to accept this quest is a bug|c
-		.accept The Hunter's Path##6071
-	step//113
-		goto Darnassus,36.66,86.01
+	step//89
+		'Learn staves for 9s|goto Darnassus,57.73,46.53
+		.talk Ilyenia Moonfire##11866
+	step//90
+		goto Darnassus,36.58,85.85
 		talk Priestess A'moora##7313
-		.turnin Tears of the Moon##2518
-		.accept Sathrah's Sacrifice##2520
-	step//114
-		'Drop down into the temple's moonwell|use Sathrah's Sacrifice##8155|c
-		.goal Offer the sacrifice at the fountain|q 2520/1
-	step//115
-		goto Darnassus,36.75,85.96
-		talk Priestess A'moora##7313
-		.turnin Sathrah's Sacrifice##2520
-	step//116
-		'Buy a stack of meat for your owl and feed it|goto Darnassus,65.13,68.53
-		.talk Jaeana##4169
-	step//117
-		'Ride the cart to Dolanaar if it is around.|goto Darnassus,86.53,35.53
-	step//118
-		goto Teldrassil,56.69,59.53
-		'Buy the level 11 bow if you couldn't before and restock arrows|c
-		talk Dazalar##3601
-		.turnin The Hunter's Path##6071
-		.'Only if it was bugged and you could accept it|c
-	step//119
+		.accept Tears of the Moon##2518
+	step//91
+		goto Darnassus,38.4,21.48
+		talk Rellian Greenspyre##3517
+		.turnin Rellian Greenspyre##922
+		.accept Tumors##923
+	step//92
+		'HS back to Dolanaar|use Hearthstone##6948|c
+	step//93
 		goto Teldrassil,56.19,61.65
 		talk Corithras Moonrage##3515
 		.turnin Crown of the Earth##7383
 		.accept Crown of the Earth##935
-	step//120
-		goto Teldrassil,60.87,68.52
+	step//94
+		'Purify the demon essence at the moonwell. Use Demon Essence. Go to Teldrassil 56.07,61.96
+		.'Get Purified Essence for a quest (id:0, objective:1)|c
+	step//95
+		goto Teldrassil,55.94,59.24
+		talk Jeena Featherbow##3610
+		.'Turn in Purifying the Essence (id:26181)|c
+	step//96
+		'If somehow not level 10 go to the lake and turn in the fruits/heart quests. Do it later if you are already|c
+		.'Skip this step|c
+	step//97
+		goto Teldrassil,56.67,59.6
+		'Train level 10 skills|c
+		talk Dazalar##3601
+		.accept Taming the Beast##6063
+	step//98
+		'Tame a spider|goto Teldrassil,59.06,60.03|use Taming Rod##15921
+		.'If you cant abandon the spider after taming it, log out inside the inn even of you are in combat. Same thing for the 2 following quests|goal Tame a Webwood Lurker|q 6063/1
+	step//99
+		'Abandon it as soon as you get it. You have already finished the quest.|c
+		'If you are using ElvUI or some other UI addon the dismiss option might get blocked. Type "/run PetDismiss()" in chat if so.|c
+		'Otherwise, just log out at the inn so the pet disappears. Skip this step.|c
+	step//100
+		goto Teldrassil,56.73,59.5
+		talk Dazalar##3601
+		.turnin Taming the Beast##6063
+		.accept Taming the Beast##6101
+	step//101
+		'Only if you didn't before to reach level 10|goto Teldrassil,60.89,68.47
 		talk Denalan##2080
-		.turnin Return to Denalan##2498
 		.turnin The Glowing Fruit##930
-		..'Only if you hand't before because you were short on XP for level 10|c
 		.turnin The Shimmering Frond##931
 		.turnin The Moss-twined Heart##927
+		..'Only if you found and killed the rare previously|c
 		..accept Planting the Heart##941
-		..turnin Planting the Heart##941
-		.accept Oakenscowl##2499
-	step//121
-		goto Teldrassil,60.79,68.47
+	step//102
+		'At the planter nearby|goto Teldrassil,60.78,68.58
+		turnin Planting the Heart##941
 		accept The Sprouted Fronds##2399
-	step//122
-		goto Teldrassil,60.79,68.5
 		turnin The Sprouted Fronds##2399
+	step//103
+		'Tame a cat|goto Teldrassil,62.19,72.13|use Taming Rod##15922
+		.goal Tame a Nightsaber Stalker|q 6101/1
+	step//104
+		'Abandon pet (/run PetDismiss()), pull a bunch of mobs and die to deathwarp to Dolanaar|c
+	step//105
+		goto Teldrassil,56.67,59.59
+		talk Dazalar##3601
+		.turnin Taming the Beast##6101
+		.accept Taming the Beast##6102
+	step//106
+		'Tame an owl|goto Teldrassil,57.39,74.65|use Taming Rod##15923
+		.'Consider deathwarping in the neares furbolg camp, it also may have a chest|goal Tame a Strigid Screecher|q 6102/1
+	step//107
+		'Abandon pet (/run PetDismiss()) and die to the furbolg camp to the west to deathwarp to Dolanaar|c
+	step//108
+		goto Teldrassil,56.64,59.53
+		talk Dazalar##3601
+		.turnin Taming the Beast##6102
+		.accept Training the Beast##6103
+	step//109
+		'You can buy level 10 arrows now, a quiver with some extra slots and the level 11 bow if you have spare money. Arrows > Bow > Quiver|goto Teldrassil,55.92,59.23
+		'Tame an Owl near Dolanaar|c
+		.'Keep your pet alive!!!! You can use it and it wont run away, but if it dies you can't rez it until getting to Darnassus, making the next quests much more harder.|c
+	step//110
+		'Ride the cart if it's nearby. Check/bind your keybind to get out of a vehicle or type /leavevehicle once you arrive to the spot close to the pass through the mountains.|goto Teldrassil,48.9,48.66
+		'Go into the mountains and try to /target Corrupted Treant. Kill it if it's inside the cave and then drop down.. Go to Teldrassil 49.57,45.1
+		'Type /target Lord to check if the rare spider is around. If so kill it. Go to Teldrassil 45.62,42.39
+	step//111
+		'Kill the tramplers for the tumors while running down the river|goto Teldrassil,43.07,42.99
+		.get 5 Mossy Tumor|q 923/1
+		.'Don't bother killing Blackmoss if you find him now. We aren't going back to Dolanaar.|c
+	step//112
+		'Recall if you found Lady Sathrah west of the river before and path there or towards the alternative spawn point|c
+		'Previous spot|goto Teldrassil,40.84,25.05
+		'Alternative spawn point|goto Teldrassil,47.9,25.21
+		from Lady Sathrah##7319
+		get Silvery Spinnerets|q 2518/1
+	step//113
+		'Check for the Corrupted Treant here if you didn't kill it before. Go to Teldrassil 38.83,25.65
+	step//114
+		goto Teldrassil,31.44,31.65
+		talk Mist##3568
+		.accept Mist##938
+	step//115
+		'There is a roaming rare here (white harpy), keep an eye out.|goto Teldrassil,35.26,35.32
+		.from Bloodfeather Rogue##2017, Bloodfeather Harpy##2015, Bloodfeather Sorceress##2018
+		.get 6 Bloodfeather Belt|q 937/1
+		.'Get 6 Bloodfeather Egg for a quest (id:26178, objective:1)|c
+	step//116
+		goto Teldrassil,36.76,34.22
+		talk Alanna Raveneye##3606
+		.'Turn in Bloodfeather Eggs (id:26178)|c
+	step//117
+		goto Teldrassil,38.3,34.37
+		talk Sentinel Arynia Cloudsbreak##3519
+		.goal Lead Mist to the Sentinel near the moonwell|q 938/1
+		.turnin Mist##938
+		.turnin The Enchanted Glade##937
+		.accept Teldrassil##940
+	step//118
+		'Die near the mountains to deathwarp to Darnassus|goto Teldrassil,35.05,39.34
+	step//119
+		goto Darnassus,70.66,45.36
+		talk Mydrannul##4241
+		.accept Nessa Shadowsong##6344
+	step//120
+		'Buy the "Laminated Recurve Bow" (and quiver) if you were short on money before|goto Darnassus,58.79,44.51
+		.talk Ariyell Skyshadow##4203
+	step//121
+		'Buy 10 meat for your owl. Feed it after turning in the quests|goto Darnassus,65.13,68.53
+		.talk Jaeana##4169
+	step//122
+		goto Darnassus,36.66,86.01
+		talk Priestess A'moora##7313
+		.turnin Tears of the Moon##2518
+		.accept Sathrah's Sacrifice##2520
 	step//123
-		goto Teldrassil,53.04,74.53
-		.get Gargantuan Tumor|q 2499/1
+		'Drop down into the temple's moonwell|use Sathrah's Sacrifice##8155|c
+		.goal Offer the sacrifice at the fountain|q 2520/1
 	step//124
-		goto Teldrassil,60.84,68.48
-		talk Denalan##2080
-		.turnin Oakenscowl##2499
+		goto Darnassus,36.75,85.96
+		talk Priestess A'moora##7313
+		.turnin Sathrah's Sacrifice##2520
 	step//125
-		'Buy level 12 spells if you leveled up. Check if the cart is around to ride it to Darnassus. Otherwise, do some cardio.|goto Teldrassil,56.21,57.84
+		'Skip the follow up|goto Darnassus,38.36,21.44
+		talk Rellian Greenspyre##3517
+		.turnin Tumors##923
 	step//126
-		goto Darnassus,70.42,45.27
-		accept Nessa Shadowsong##6344
-	step//127
 		goto Darnassus,34.74,8.92
 		talk Arch Druid Fandral Staghelm##3516
 		.turnin Teldrassil##940
 		.accept Grove of the Ancients##952
 		.turnin Crown of the Earth##935
+	step//127
+		'Skip The Hunter's Path (it's a bug, you shouldn't be able to see this anymore)|goto Darnassus,40.34,8.73
+		talk Jocaste##4146
+		.turnin Training the Beast##6103
 	step//128
+		'Teleport down to Rut'theran (and feed your pet!!!)|goto Darnassus,30.37,41.43
+	step//129
 		goto Teldrassil,56.3,92.44
 		talk Nessa Shadowsong##10118
 		.turnin Nessa Shadowsong##6344
 		.accept The Bounty of Teldrassil##6341
-	step//129
+	step//130
 		goto Teldrassil,58.4,94.01
 		talk Vesprystus##3838
 		.turnin The Bounty of Teldrassil##6341
 		.accept Flight to Auberdine##6342
-	step//130
+	step//131
 		'Fly to Darkshore|c
 ]])
 
@@ -556,6 +555,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		goto Darkshore,36.59,45.56
 		talk Gwennyth Bly'Leggonde##10219
 		.accept Washed Ashore##3524
+		'During this section an alternative route will be mentioned. In this route, you are assuming someone bought you a Fine Longbow (green lvl14) off of a merchant beforehand and you don't have to go to Menethil to buy it.|c
 	step//2
 		goto Darkshore,36.79,44.36
 		talk Laird##4200
@@ -595,7 +595,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		'Explore the furbolg camp|goto Darkshore,39.17,52.68
 		.goal 	Find a corrupt furbolg camp|q 984/1
 	step//12
-		'Kill crabs for the box's quest|goto 0,0
+		'Kill crabs for the box's quest on your way|goto 36.64,46.3
 		.from Pygmy Tide Crawler##2231
 		.get 6 Crawler Leg|q 983/1
 	step//13
@@ -645,77 +645,87 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		talk Gorbold Steelhand##6301
 		.accept Deep Ocean, Vast Sea##982
 	step//24
+		'Alternative route: buy x15 Mild Spices off of the dwarf you just talked to.|c
+		'Skip the step if on regular route|c
+	step//25
 		'You can buy rep items off her after you get some rep. You should be exalted after comming back here from Ashenvale|goto Darkshore,37.78,41.08
 		'Talk to Quartermaster Nyana (id:45119)|c
 		.'Turn in Welcome to Auberdine (id:26202)|c
-	step//25
+	step//26
 		'Buy 6 slot bags for every bag slot you are missing. Fill quiver with arrows and some extra just in case.|goto Darkshore,37.49,40.53
 		.talk Dalmond##4182
-	step//26
+		'Alternative route: buy x1 Simple Wood and Flint and Tinder for later aswell|c
+	step//27
 		goto Darkshore,37.43,40.19
 		talk Thundris Windweaver##3649
 		.turnin Thundris Windweaver##4761
 		.accept The Cliffspring River##4762
 		.accept Tools of the Highborne##958
 		.accept Bashal'Aran##954
-	step//27
+	step//28
 		'Jump off the house to the shore in front|goto Darkshore,37.1,38.74
-		'Grind while on the way, prio Striders|goto Darkshore,44.21,36.33
+		'Grind while on the way, prio Striders to get Strider Meat for a quest later (need 5)|goto Darkshore,44.21,36.33
 		talk Asterion##3650
 		.turnin Bashal'Aran##954
 		.accept Bashal'Aran##955
-	step//28
+	step//29
 		'Clear the grells to the south. When you are done pull the satyr thats close to the quest giver in the north side of the ruins. Turn in and accept the quests and then finish it off to instantly finish it.|c
 		from Vile Sprite##2189, Wild Grell##2190
 		get 8 Grell Earring|q 955/1
-	step//29
+	step//30
 		goto Darkshore,44.21,36.31
 		talk Asterion##3650
 		.turnin Bashal'Aran##955
 		.accept Bashal'Aran##956
-	step//30
+	step//31
 		from Deth'ryll Satyr##2212
 		get Ancient Moonstone Seal|q 956/1
-	step//31
+	step//32
 		goto Darkshore,44.21,36.34
 		talk Asterion##3650
 		.turnin Bashal'Aran##956
 		.accept Bashal'Aran##957
-	step//32
+	step//33
 		'Grind south to the crystal. Get as many strider meat as you can.|goto Darkshore,47.25,48.73
 		.goal Locate the red crystal|q 4811/1
-	step//33
+	step//34
 		'Move here and kill both types of moonkins. There are 2 young ones here and you can finish them in the cave north, which has 5|goto Darkshore,43.53,49.92
 		.'Kill 5 Young Moonkin (id:10159) for a quest (id:26199, objective1)|c
 		.'Kill 10 Moonkin (id:10158) for a quest (id:26199, objective2)|c
 		'Save enough small eggs to get to 10 and/or 15 cooking (9 and 14 eggs respectively)!!!!!|c
-	step//34
+	step//35
 		goto Darkshore,39.05,43.56
 		talk Sentinel Elissa Starbreeze##3657
 		.accept The Tower of Althalaxx##965
-	step//35
+	step//36
 		goto Darkshore,37.68,43.46
 		talk Sentinel Glynda Nal'Shea##2930
 		.'Turn in Balancing the Forest (id:26199)|c
 		.turnin The Red Crystal##4811
 		.'Accept Balancing the Forest (id:26200)|c
 		.accept As Water Cascades##4812
-	step//36
+	step//37
 		'Sell junk at the vendor inside the inn|c
 		'>>> Fill the water tube <<<|goto Darkshore,37.81,44.05|use Empty Water Tube##14338
 		.get Moonwell Water Tube|q 4812/1
-	step//37
+	step//38
+		'Alternative route: if someone is buying you the bow now is the time to give them what they might need/grab it from your mail box|c
+	step//39
 		'Go here first to kill the first Oracle there are only 3, and you need all of them for the quest. The others are on caves to the south past the crystal|goto Darkshore,46.25,45.52
-		.'Kill 3 Moonkin Oracle (id:10157) for a quest (id:26200, objective1)|c
-		.'Kill 10 Raging Moonkin (id:10160) for a quest (id:26200, objective2)|c
-		goto Darkshore,47.27,48.71
+		'Kill Raging Moonkins to progress the quest|goto Darkshore,47.27,48.71
 		.turnin As Water Cascades##4812
 		.accept The Fragments Within##4813
-	step//38
+	step//40
+		'Second Oracle (inside the cave)|goto Darkshore,46,50.26
+		'Third Oracle|goto Darkshore,45.62,53.14
+		'Finish killing the moonkins|c
+		.'Kill 3 Moonkin Oracle (id:10157) for a quest (id:26200, objective1)|c
+		.'Kill 10 Raging Moonkin (id:10160) for a quest (id:26200, objective2)|c
+	step//41
 		'Grind south to the sentinel. Don't worry much about strider meat.|goto Darkshore,40.29,59.81
 		talk Sentinel Tysha Moonblade##3639
 		.accept The Fall of Ameth'Aran##953
-	step//39
+	step//42
 		'Burn the seal|goto Darkshore,42.32,61.81|use Ancient Moonstone Seal##5338
 		.goal Destroy the seal at the ancient flame|q 957/1
 		from Wailing Highborne##2178, Writhing Highborne##2177
@@ -726,315 +736,323 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		.goal Read the Fall of Ameth'Aran|q 953/2
 		'Interact with the other tablet|goto Darkshore,43.31,58.73
 		.goal Read the Lay of Ameth'Aran|q 953/1
-	step//40
+	step//43
 		goto Darkshore,40.27,59.77
 		talk Sentinel Tysha Moonblade##3639
 		.turnin The Fall of Ameth'Aran##953
-	step//41
-		'Use any temporary consumable buff or guardian thaat you have. You are grinding these for a while|goto Darkshore,39.01,56.57
+	step//44
+		'Small detour, grab the quest here. Turns grey at level 18|goto Darkshore,37.18,62.26
+		accept Beached Sea Turtle##4722
+	step//45
+		'Use any temporary consumable buff or guardian that you have. You are grinding these for a while|goto Darkshore,39.01,56.57
 		.kill 8 Blackwood Pathfinder##2167|q 985/1
 		.kill 5 Blackwood Windtalker##2324|q 985/2
 		'You have a vendor at [36,56]. Also, there is a rare for some easy silver at [35,55]|c
-	step//42
-		'Grind the furbolgs until you are level 15 and a half (around 4 full clears). Sell junk aafter every round at the vendor and kill bears + striders if you need to wait out respawns.|c
-		'You NEED to do this for 2 reasons. 1 is to make sure you reach Ashenvale at level 20. The other is that you are short on linen to level first aids.|c
-	step//43
-		'While going south make sure you have at least 5 strider meat and finish killing the rabid bears|goto Darkshore,37.18,62.26
-		accept Beached Sea Turtle##4722
-	step//44
-		goto Darkshore,36.13,70.94
-		accept Beached Sea Creature##4728
-	step//45
-		goto Darkshore,43.58,76.32
-		talk Onu##3616
-		.turnin Grove of the Ancients##952
 	step//46
-		'Hearth back to Auberdine. Make sure you have 5 strider meat!!!|use Hearthstone##6948|c
+		'Grind the furbolgs until you are level 15 and a half (around 4 full clears). Sell junk after every round at the vendor near the beach and kill bears + striders if you need to wait out respawns.|c
+		'You NEED to do this for 2 reasons. 1 is to make sure you reach Ashenvale at level 20. The other is that you are short on linen to level first aids.|c
 	step//47
+		'Back to Auberdine, but don't turn in any of the quests yet (other than the one at the docks). Wait until you are back from Darnassus|goto Darkshore,36.08,44.9
+	step//48
+		'Grab this quest first|goto Darkshore,36.08,44.9
+		talk Gubber Blump##10216
+		.accept Fruit of the Sea##1138
+	step//49
 		goto Darkshore,35.72,43.66
 		talk Cerellean Whiteclaw##3644
 		.turnin For Love Eternal##963
-	step//48
+	step//50
 		'Once you get to Auberdine check for the boat to Menethil. If its already there or leaving go to Darnassus instead (check some steps ahead for what to do). Otherwise, run to the docks.|goto Darkshore,32.4,43.76
 		'While you wait for the boat work on leveling first aid until linen bandage turns yellow|c
-	step//49
-		'Once on the boat, but x10 or x15 mild spices (enough to cook the eggs) from the gnome inside the boat.|c
-	step//50
+		'Alternative route: go where the boat to Darnassus docks (north), make a campfire and cook the eggs/train first aids untill bandages turn green|c
+		.'Jump to step 55 if on this route|c
+	step//51
+		'Once on the boat, buy x10 or x15 mild spices (enough to cook the eggs) from the gnome inside the boat.|c
+	step//52
 		'You are on a timer once you get to menethil, buy the bow, cook the eggs and get first aids to level 50.|goto Wetlands,11.17,58.11
 		talk Naela Trance##1459
 		.'Buy the green bow, better quiver if you haven't yet and fill it with arrows BUT DON'T SORT THE INVENTORY HERE, KEEP MOVING|c
-		'Cook the eggs here andthen head upstairs|goto Wetlands,10.67,61.51
+		'Cook the eggs here and then head upstairs|goto Wetlands,10.67,61.51
 		'Begin crafting the bandages before talking to the gnome|goto Wetlands,10.83,61.34
 		talk Fremal Doohickey##3181
 		.'Learn heavy linen bandage, train to first aids 50, learn the next FA rank and head back to the docks|c
-	step//51
+	step//53
 		'Grab the FP on your way out of the inn|goto Wetlands,4.6,57.18
 		'You should have had enough time. Keep leveling first aid with all the linen you have while traveling back to Darkshore|c
-	step//52
-		'Jump off the boat early, when you are near where the dwarf is.|goto Darkshore,36.08,44.9
-		talk Gubber Blump##10216
-		.accept Fruit of the Sea##1138
-	step//53
-		'Grab the FP to Darnassus, DON'T TURN IN ANY QUESTS YET|goto Darkshore,36.36,45.56
 	step//54
-		'Train spells. IGNORE any quest turn in for now|goto Darnassus,40.29,8.9
-		'If you somehow managed to reach FA level 80, train wool bandages|goto Darnassus,51.65,12.64
-		'If you don't want to level up with warmode, skip this (this guide might not be 100% accurate w/o the XP boost). Go talk to the Warmode NPC and turn it on. This is the reason you were ignoring the quest turn ins.|goto Darnassus,62.07,40.14
+		'Jump off the boat early, when you are near where the dwarf is.|goto Darkshore,36.08,44.9
 	step//55
+		'Grab the FP to Darnassus, DON'T TURN IN ANY QUESTS YET|goto Darkshore,36.36,45.56
+	step//56
+		'Train spells. IGNORE any quest turn in for now|goto Darnassus,40.29,8.9
+		'Alternative route: if you didn't manage to cook the eggs you can do it now at the cooking trainer|goto Darnassus,48.54,21.01
+		'If you somehow managed to reach FA level 80, train wool bandages|goto Darnassus,51.65,12.64
+		.'Alternative route: go here regardless and train first aids until you can learn the next rank|c
+		'>>> If you don't want to level up with warmode, skip this <<< (this guide might not be 100% accurate w/o the XP boost). Go talk to the Warmode NPC and turn it on. This is the reason you were ignoring the quest turn ins.|goto Darnassus,62.07,40.14
+	step//57
 		goto Darnassus,31.36,84.08
 		talk Chief Archaeologist Greywhisker##2912
 		.accept Trouble In Darkshore?##730
-	step//56
+	step//58
 		goto Teldrassil,56.26,92.41
 		talk Nessa Shadowsong##10118
 		.turnin Return to Nessa##6343
-	step//57
+	step//59
 		'Grab the FP back to Darkshore|goto Teldrassil,58.38,93.97
-	step//58
+	step//60
 		goto Darkshore,36.62,45.54
 		talk Gwennyth Bly'Leggonde##10219
 		.turnin Beached Sea Creature##4728
 		.turnin Beached Sea Turtle##4722
-	step//59
+	step//61
 		goto Darkshore,37.21,44.22
 		accept WANTED: Murkdeep!##4740
-	step//60
+	step//62
 		goto Darkshore,37.66,43.37
 		talk Sentinel Glynda Nal'Shea##2930
 		.'Turn in Balancing the Forest (id:26200)|c
 		.turnin The Fragments Within##4813
-	step//61
+	step//63
 		'Turn this one first. You will have to wait a bit for the RP to play out|goto Darkshore,39.37,43.46
 		talk Terenthis##3693
 		.turnin How Big a Threat?##985
-	step//62
+	step//64
 		goto Darkshore,38.85,43.5
 		talk Tharnariun Treetender##3701
 		.turnin Cleansing of the Infected##2138
 		.accept Tharnariun's Hope##2139
-	step//63
+	step//65
 		goto Darkshore,39.34,43.42
 		talk Terenthis##3693
 		.accept A Lost Master##986
-	step//64
+	step//66
 		goto Darkshore,37.47,41.86
 		talk Archaeologist Hollee##2913
 		.turnin Trouble In Darkshore?##730
 		.accept The Absent Minded Prospector##729
-	step//65
+	step//67
 		'If you are level 10 cooking and the strider meat quest isn't unlocked it means that you need level 15 cooking|goto Darkshore,37.68,40.71
 		talk Alanndarian Nightsong##3702
 		.accept Easy Strider Living##2178
 		.turnin Easy Strider Living##2178
 		.'Accept The Twilight's Hammer (id:26201)|c
-	step//66
+	step//68
 		goto Darkshore,37.4,40.16
 		talk Thundris Windweaver##3649
 		.turnin Tools of the Highborne##958
-	step//67
+	step//69
 		goto Darkshore,44.18,36.25
 		talk Asterion##3650
 		.turnin Bashal'Aran##957
-	step//68
+	step//70
 		goto Darkshore,41.84,31.63
 		accept Beached Sea Creature##4723
-	step//69
+	step//71
 		'Get the south-western ship lockbox first|goto Darkshore,38.24,28.83
 		.get Silver Dawning's Lockbox|q 982/1
 		goto Darkshore,39.65,27.45
 		.get Mist Veil's Lockbox|q 982/2
-	step//70
+	step//72
 		goto Darkshore,41.94,28.56
 		turnin Buzzbox 411##1001
 		accept Buzzbox 323##1002
-	step//71
-		'Try to kill some Moonstalkers on the way here|goto Darkshore,44.22,20.75
+	step//73
+		'Try to kill some Moonstalkers on the way here. Ignore the grey level ones|goto Darkshore,44.22,20.75
 		accept Beached Sea Turtle##4725
-	step//72
+	step//74
 		'Kill the crabs on your way here|goto Darkshore,50.48,22.75
 		from Reef Crawler##2235
 		get 6 Fine Crab Chunks|q 1138/1
-	step//73
+	step//75
 		'Get the river sample|goto Darkshore,50.85,25.64|use Empty Sampling Tube##12350
 		.get Cliffspring River Sample|q 4762/1
-	step//74
+	step//76
 		goto Darkshore,53.1,18.22
 		accept Beached Sea Turtle##4727
-	step//75
+	step//77
 		'If you aren't done with the Moonstalkers yet, there are a bunch of them here.|goto Darkshore,54.47,21.33
 		.from Moonstalker##2069
 		.get 6 Moonstalker Fang |q 1002/1
-	step//76
+	step//78
 		goto Darkshore,54.96,24.92
 		talk Balthule Shadowstrike##3661
 		.turnin The Tower of Althalaxx##965
 		.accept The Tower of Althalaxx##966
-	step//77
+	step//79
 		from Dark Strand Fanatic##2336
 		get 4 Worn Parchment|q 966/1
-	step//78
+	step//80
 		goto Darkshore,54.94,24.89
 		talk Balthule Shadowstrike##3661
 		.turnin The Tower of Althalaxx##966
 		.accept The Tower of Althalaxx##967
-	step//79
+	step//81
 		'If somehow not done with Moonstalkers, get them on the way here|goto Darkshore,51.34,24.62
 		turnin Buzzbox 323##1002
 		accept Buzzbox 525##1003
-	step//80
+	step//82
 		'Once you are done with the quest, suicide inside the cave and deathwarp to the GY north of Auberdine|goto Darkshore,54.96,33.09
 		.get 5 Scaber Stalk|q 947/1
 		.get Death Cap|q 947/2
 		'Turn right as soon as you enter the cave and at the end of the upper floor you can get 1 yellow shroom|c
-	step//81
+	step//83
 		goto Darkshore,38.11,41.2
 		turnin Deep Ocean, Vast Sea##982
-	step//82
-		'REFILL ARROWS|c
-	step//83
+	step//84
+		'>>> Refill arrows <<<|goto Darkshore,37.46,40.53
+		.talk Dalmond##4182
+	step//85
 		goto Darkshore,37.42,40.15
 		talk Thundris Windweaver##3649
 		.turnin The Cliffspring River##4762
 		.accept The Blackwood Corrupted##4763
-	step//84
+	step//86
 		goto Darkshore,37.36,43.66
 		talk Barithras Moonshade##3583
 		.turnin Cave Mushrooms##947
 		.accept Onu##948
-	step//85
+	step//87
 		'>>> Fill the bowl at the Moonwell <<<|goto Darkshore,37.78,44.06|use Empty Cleansing Bowl##12346
-	step//86
+	step//88
 		goto Darkshore,36.12,44.9
 		talk Gubber Blump##10216
 		.turnin Fruit of the Sea##1138
-	step//87
+	step//89
 		goto Darkshore,36.6,45.56
 		talk Gwennyth Bly'Leggonde##10219
 		.turnin Beached Sea Turtle##4727
 		.turnin Beached Sea Creature##4723
 		.turnin Beached Sea Turtle##4727
-	step//88
-		'Try to catch the cart that goes south to Ashenvale untill you arrive to Groove of the ancients. Otherwise, time for some cardio, you have rez sickness anyways|goto Darkshore,40,47.64
-	step//89
-		goto Darkshore,43.55,76.31
-		talk Onu##3616
-		.turnin Onu##948
-		.accept The Master's Glaive##944
-		.accept Onu is meditating##960
 	step//90
-		'Kill Moonstalkers and bears on your way to the Murloc camp.|goto Darkshore,36.85,76.64
+		'Make your way to the main road. If you catch the cart going south jump on it. Run otherwise.|goto Darkshore,40,49
+		'Jump off the cart here (/leavevehicle) and go towards the coast (kill any Sire or Grizzled bear you find)|goto Darkshore,41.11,70
+	step//91
+		'Avoid any unnecessary combat until rez sickness wears off (even if yor pet can handle the mobs)|goto Darkshore,36.13,70.94
+		accept Beached Sea Creature##4728
+	step//92
+		'Go south to the next Murloc camp.|goto Darkshore,36.85,76.64
 		'Once you get there, kill all the murlocs to start the event. The first wave takes a while|c
 		.kill Murkdeep##10323|q 4740/1
-	step//91
+	step//93
+		'Kill Moonstalkers and bears on your way to the nelf ruins|goto Darkshore,43.55,76.31
+		talk Onu##3616
+		.turnin Onu##948
+		.turnin Grove of the Ancients##952
+		..'Turned grey probably, buy not a big loss|c
+		.accept The Master's Glaive##944
+		.accept Onu is meditating##960
+	step//94
 		'Keep killing bears and moonstalkers on the way to Master's glaive|goto Darkshore,39.55,84.15
 		'There are not enough spawns of Twilight Disciples to finish the custom quest!!! You will have to wait for respawns regardless|c
-	step//92
+	step//95
 		'Summon the scrying bowl|goto Darkshore,38.59,86.25|use Phial of Scrying##5251
 		turnin The Master's Glaive##944
 		accept The Twilight Camp##949
-	step//93
+	step//96
 		'Interact with the book|goto Darkshore,38.58,86.12
 		turnin The Twilight Camp##949
 		accept Return to Onu##950
-	step//94
+	step//97
 		goto Darkshore,38.59,87.38
 		talk Therylune##3584
 		.accept Therylune's Escape##945
-	step//95
+	step//98
 		goal Escort Therylune|q 945/1
 		'Kill 8 Twilight Disciple (id:2338) for a quest (id:26201, objective1)|c
 		'Kill 8 Twilight Thug (id:2339) for a quest (id:26201, objective2)|c
 		'>>> Wait for the disciples to spawn to finish this <<<|c
-	step//96
+	step//99
 		'If you got the book that starts a quest, delete it and abandon the quest. By the time you get to IF it's worth the XP of 4 mobs. Takes longer to walk up to the guy.|c
-	step//97
+	step//100
 		'Keep working on Moonstalkers. Bears should be done already|goto Darkshore,41.35,80.65
 		from Grizzled Thistle Bear##2165
 		get 4 Grizzled Scalp|q 1003/1
-	step//98
+	step//101
 		goto Darkshore,41.42,80.57
 		turnin Buzzbox 525##1003
-	step//99
+	step//102
 		'If you are very low on Moonstalker pelts you can go kill some around the lake in [42,81]|goto Darkshore,43.57,76.37
 		talk Onu##3616
 		.turnin Return to Onu##950
 		.accept Mathystra Relics##951
-	step//100
+	step//103
 		'Finish Moonstalkers on the way if not done yet|goto Darkshore,35.77,83.73
 		from Moonstalker Sire##2237
 		get 5 Fine Moonstalker Pelt|q 986/1
 		talk Prospector Remtravel##2917
 		.turnin The Absent Minded Prospector##729
 		.accept The Absent Minded Prospector##731
-	step//101
+	step//104
 		'There is no point in pre-clearing since you will get respawns on the way out (or worse, during the last fight)|c
 		'As long as you pull the Behemoths and the dwarf is in combat the quest won't progress, so just kill everything before he reaches the end of the excavation site|c
 		'The final fight happens when the dwarf gets close to the stairs on the south. To the right of those stairs 3 mobs will spawn. Kill the caster as fast as you can and keep an eye on the dwarf's health to see if he is getting attacked.|c
 		goal 	Escort Prospector Remtravel|q 731/1
-	step//102
+	step//105
 		'A rare crab can spawn here, decent green boots|goto Darkshore,34.82,80.55
-	step//103
+	step//106
 		goto Darkshore,32.81,80.77
 		accept Beached Sea Creature##4730
-	step//104
+	step//107
 		goto Darkshore,31.7,83.81
 		accept Beached Sea Turtle##4731
-	step//105
+	step//108
 		goto Darkshore,31.24,85.52
 		accept Beached Sea Turtle##4732
-	step//106
+	step//109
 		goto Darkshore,31.34,87.5
 		accept Beached Sea Creature##4733
-	step//107
+	step//110
 		'Hearthstone back to Auberdine after getting all 4 sea creatures|use Hearthstone##6948|c
-	step//108
+	step//111
 		goto Darkshore,36.58,45.56
 		talk Gwennyth Bly'Leggonde##10219
 		.turnin Beached Sea Creature##4733
 		.turnin Beached Sea Turtle##4732
-		.turnin Beached Sea Turtle##4732
-		.turnin Beached Sea Creature##4733
-	step//109
+		.turnin Beached Sea Turtle##4731
+		.turnin Beached Sea Creature##4730
+		.turnin Beached Sea Creature##4728
+	step//112
 		goto Darkshore,37.68,43.35
 		talk Sentinel Glynda Nal'Shea##2930
 		.turnin WANTED: Murkdeep!##4740
-	step//110
+	step//113
 		'Go turn the other quests while the roleplay happens|goto Darkshore,39.35,43.45
 		talk Terenthis##3693
 		.turnin A Lost Master##986
-	step//111
+	step//114
 		goto Darkshore,37.49,41.83
 		talk Archaeologist Hollee##2913
 		.turnin The Absent Minded Prospector##731
 		.accept The Absent Minded Prospector##741
-	step//112
+	step//115
 		goto Darkshore,37.7,40.69
 		talk Alanndarian Nightsong##3702
 		.turnin The Twilight's Hammer##26201
-	step//113
-		'>>> Refill arrows <<< Also, check out the quartermaster for some upgrades|c
-	step//114
+	step//116
+		'>>> Refill arrows <<< Also, check out the quartermaster for some upgrades|goto Darkshore,37.46,40.53
+		.talk Dalmond##4182
+	step//117
 		goto Darkshore,39.33,43.45
 		talk Terenthis##3693
 		.accept A Lost Master##993
-	step//115
+	step//118
 		'Grab the ingredients for the summon and kill the ENTIRE camp (good xp + cloth)|goto Darkshore,50.48,35.02
 		'Once you are done with the first half, go to the moountain cave and kill the Den Mother|goto Darkshore,52.37,35.99
 		.kill Den Mother##6788|q 2139/1
-	step//116
+	step//119
 		'Back to the camp, keep killing things and looting ingredients|goto Darkshore,51.91,33.72
 		'Combine the items and use them at the bonfire. Loot the talisman off the basket after killing the demon|goto Darkshore,52.41,33.36
 		.get Talisman of Corruption|q 4763/1
-	step//117
+	step//120
 		'Go around the tower on your way to the Nagas to get extra xp and cloth|goto Darkshore,56.68,26.96
-	step//118
+	step//121
 		'The rare mage Naga can drop a blue ring|goto Darkshore,57.74,21.89
 		get 6 Mathystra Relic|q 951/1
-	step//119
+	step//122
 		'Pull a strider and a crab to the gnome if you can and accept the quest before killing them|goto Darkshore,56.7,13.53
 		talk Gelkak Gyromast##6667
 		.accept Gyromast's Retrieval##2098
-	step//120
+	step//123
 		'From the crabs, the striders and the murlocs in the sunken ship to the west|c
 		from Giant Foreststrider##2323
 		get Top of Gelkak's Key|q 2098/1
@@ -1042,50 +1060,50 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		get Middle of Gelkak's Key|q 2098/2
 		from Raging Reef Crawler##2236
 		get Bottom of Gelkak's Key|q 2098/3
-	step//121
+	step//124
 		goto Darkshore,56.7,13.49
 		talk Gelkak Gyromast##6667
 		.turnin Gyromast's Retrieval##2098
 		.accept Gyromast's Revenge##2078
-	step//122
+	step//125
 		'Activate the robot and run back to the gnome|goto Darkshore,55.87,18.12
 		kill The Threshwackonator 4100##6669|q 2078/1
-	step//123
+	step//126
 		goto Darkshore,56.69,13.53
 		turnin Gyromast's Revenge##2078
-	step//124
+	step//127
 		'DON'T SELL OR DRINK THE WATERBREATHING POTIONS BY MISTAKE. You will need them for some quests down the line|c
 		'Die to deathwarp to the GY north of Auberdine|c
-	step//125
+	step//128
 		goto Darkshore,38.83,43.41
 		talk Tharnariun Treetender##3701
 		.turnin Tharnariun's Hope##2139
-	step//126
+	step//129
 		'You should be exalted. >>> Reefill arrows <<< and buy the blue neck off the quartermaster|goto Darkshore,37.42,40.17
 		talk Thundris Windweaver##3649
 		.turnin The Blackwood Corrupted##4763
-	step//127
+	step//130
 		'Try to grab the cart again|goto Darkshore,43.61,76.31
 		talk Onu##3616
 		.turnin Mathystra Relics##951
-	step//128
+	step//131
 		'>>> Grab the horn inside the chest <<< Use it if the druid falls asleep (bind it)|goto Darkshore,44.36,76.47
 		talk Kerlonian Evershade##11218
 		.accept The Sleeper Has Awakened##5321
 		get Horn of Awakening|q 5321/2
-	step//129
+	step//132
 		'You have more than enough time to do all of this, so don't worry|goto Darkshore,44.99,85.33
 		talk Volcor##3692
 		.turnin A Lost Master##993
 		.accept Escape Through Force##994
 		'Kill things ahead of him so he doesn't stop walking as much|c
 		goal Help Volcor to the road|q 994/1
-	step//130
+	step//133
 		goto Darkshore,45.89,90.32
 		talk Sentinel Aynasha##11711
 		.accept One Shot.  One Kill.##5713
 		goal Protect Aynasha|q 5713/1
-	step//131
+	step//134
 		'Avoid the main road so you don't trigger the ambushes|goto Darkshore,44.79,93.72
 ]])
 
@@ -1095,6 +1113,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Ashenva
 	startlevel 80
 	step//1
 		'While you are in Ashenvale, try to save up to 10 Lean Wolf Flanks and 6 Gooey Spider Legs|goto Ashenvale,27.28,35.49
+		goal   	Escort Kerlonian Evershade to Maestra's Post|q 5321/1
 		talk Liladris Moonriver##11219
 		.turnin The Sleeper Has Awakened##5321
 	step//2
@@ -1170,13 +1189,14 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Ashenva
 		.accept Raene's Cleansing##991
 		.accept Culling the Threat##1054
 	step//20
-		'Fly to Auberdine|goto Ashenvale,34.4,48.07
+		'Get the FP and fly to Auberdine|goto Ashenvale,34.4,48.07
+		.talk Daelyshia##4267
 	step//21
 		goto Darkshore,39.35,43.43
 		talk Terenthis##3693
 		.turnin Escape Through Force##994
 	step//22
-		goto Darkshore,39.19,43.42
+		'>>> If the cart is about to go away don't wait out the RP, the XP from this quest isn't worth it <<<|goto Darkshore,39.19,43.42
 		talk Sentinel Selarin##3694
 		.accept Trek to Ashenvale##990
 	step//23
@@ -1197,7 +1217,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Ashenva
 	step//27
 		'Hearthstone back to Ashenvale|use Hearthstone##6948|c
 	step//28
-		goto Ashenvale,36.64,49.54
+		'If you didn't take the quest simply skip this step. The XP rewards isn't that important|goto Ashenvale,36.64,49.54
 		talk Raene Wolfrunner##3691
 		.turnin Trek to Ashenvale##990
 	step//29
@@ -1213,275 +1233,278 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Ashenva
 		'Kite him to the mountains to the south|goto Ashenvale,37.83,35.06
 		.from Dal Bloodclaw##3987
 		.get Dal Bloodclaw's Skull|q 1054/1
-		'After killing the furbolg go through the mountains to this spot. Jump down to the tree trunk to not die from the fall|goto Ashenvale,38.64,44.75
 	step//32
+		'After killing the furbolg go through the mountains to this spot. Jump down to the tree trunk to not die from the fall|goto Ashenvale,38.64,44.75
+	step//33
 		'Let the roleplay play out, we will get the quest later|goto Ashenvale,37.33,51.8
 		talk Pelturas Whitemoon##3894
 		.turnin Elune's Tear##1033
-	step//33
+	step//34
 		goto Ashenvale,36.62,49.6
 		talk Raene Wolfrunner##3691
 		.turnin Culling the Threat##1054
-	step//34
+	step//35
 		'Go to the demons area killing some wolves and spiders on the way|goto Ashenvale,28.55,60.22
 		'Split pull the two hounds and then trap the succubus (hits like a truck). Kill the orc before the CC expires|goto Ashenvale,25.7,61.54
 		.from Ilkrud Magthrull##3664
 		.get Ilkrud Magthrull's Tome|q 973/1
-	step//35
+	step//36
 		'Back to the hidden hunter trainer to sell junk|goto Ashenvale,18.2,59.94
 		'Here afterwards and drop down to the lake|goto Ashenvale,18.24,46.58
-	step//36
+	step//37
 		goto Ashenvale,20.28,42.4
 		talk Teronis' Corpse##3891
 		.turnin Raene's Cleansing##991
 		.accept Raene's Cleansing##1023
-	step//37
+	step//38
 		'Kill any of the murlocs around to get the gem while you go to the beach to the west|c
 		get Glowing Gem|q 1023/1
-	step//38
+	step//39
 		'Kill the Nagas for the heads while you are questing around here|goto Ashenvale,14.81,31.24
 		talk Talen##3846
 		.accept The Ancient Statuette##1007
-	step//39
+	step//40
 		'There is a rare Naga that can (should, it was bugged) the follow up quest item, try to kill here after turning in the first part|c
 		goto Ashenvale,14.24,20.66
 		.get Ancient Statuette|q 1007/1
-	step//40
+	step//41
 		goto Ashenvale,14.81,31.33
 		talk Talen##3846
 		.turnin The Ancient Statuette##1007
 		.accept Ruuzel##1009
-	step//41
+	step//42
 		'Talk to the elf to start the event|goto Ashenvale,16.88,19.85
 		'Get Annals of hajiri from Liallas(id:45192) for a quest (id:26239, objective:1)|c
 		'The turn in NPC will take a while to respawn. Go do the rest of the quests in the meantime|c
-	step//42
+	step//43
 		'Heads drop from any Naga|goto Ashenvale,7.78,14.01
 		from Ruuzel##3943
 		get Ring of Zoram|q 1009/1
 		get 20 Wrathtail Head|q 1008/1
-	step//43
+	step//44
 		goto Ashenvale,16.88,19.85
 		'Talk to Ashalen (id:45191)|c
 		.'Turn in Annals of Hajiri (id:26239)|c
 		.'Accept Annals of Hajiri (id:26240)|c
-	step//44
+	step//45
 		'Ugly ass chest piece, it is what it is...|goto Ashenvale,14.81,31.24
 		talk Talen##3846
 		.turnin Ruuzel##1009
-	step//45
+	step//46
 		'Slow heavy hitting staff!!!|goto Ashenvale,26.18,38.63
 		talk Delgren the Purifier##3663
 		.turnin The Tower of Althalaxx##973
-	step//46
+	step//47
 		goto Ashenvale,34.65,48.87
 		talk Shindrell Swiftfire##3845
 		.turnin The Zoram Strand##1008
 		.accept Pridewings of Stonetalon##1134
-	step//47
+	step//48
 		goto Ashenvale,34.76,49.74
 		talk Tyraeth Morningshade##45193
 		.'Turn in Annals of Hajiri (id:26240)|c
 		.'Accept Annals of Hajiri (id:26241)|c
-	step//48
+	step//49
 		'You can delete the journal after this|goto Ashenvale,36.56,49.59
 		talk Raene Wolfrunner##3691
 		.turnin Raene's Cleansing##1023
 		.accept An Aggressive Defense##1025
-	step//49
+	step//50
 		goto Ashenvale,37.33,51.8
 		talk Pelturas Whitemoon##3894
 		.accept The Ruins of Stardust##1034
-	step//50
+	step//51
 		goto Ashenvale,34.83,65.59
 		get 5 Handful of Stardust|q 1034/1
 		'Fill the phial here. Use Glass Phial. Go to Ashenvale 33.56,67.41
 		.'Get Filled Glass Phial for a quest (id:26241, objective:1)|c
-	step//51
+	step//52
 		'You have a hunter trainer here, can buy ammo and the alchemy supplies guy sells pots|goto Ashenvale,49.82,67.16
 		talk Sentinel Velene Starstrike##3885
 		.accept Elemental Bracers##1016
-	step//52
+	step//53
 		'Finish the Den watchers and Ursa in the camp to the west. You will have to go east for the others. The amulets are dropped from any furbolg|goto Ashenvale,50.87,61.56
 		kill Foulweald Den Watcher##3746|q 1025/1
 		kill 2 Foulweald Ursa##3749|q 1025/2
 		kill 10 Foulweald Totemic ##3750|q 1025/3
 		kill 12 Foulweald Warrior##3743|q 1025/4
 		'Get 15 Foulweald amulet for a quest (id:26362, objective:1)|c
-	step//53
+	step//54
 		'Don't use a water breathing potion for this. You can pull with your pet easy enough. Also, don't bother with the rare elemental. Too high level|goto Ashenvale,51.06,69.56
 		'Need 5 intact elemental bracers from the elementals|use Divining Scroll##5456|c
 		.get Divined Scroll|q 1016/1
-	step//54
+	step//55
 		goto Ashenvale,49.73,67.2
 		talk Sentinel Velene Starstrike##3885
 		.turnin Elemental Bracers##1016
-	step//55
-		'To Stonetalon. >>> Refill arrows <<< At the lodge first|goto Ashenvale,42.43,70.99
 	step//56
+		'To Stonetalon. >>> Refill arrows <<< At the lodge first|goto Ashenvale,42.43,70.99
+	step//57
 		'Kill any wyvern and humanoid on your way there. Don't bother with the spiders at the start, they will root you.|goto Stonetalon Mountains,59,62.55
 		talk Ziz Fizziks##4201
 		.accept Super Reaper 6000##1093
-	step//57
+	step//58
 		goto Stonetalon Mountains,59.53,67.13
 		talk Gaxim Rustfizzle##4077
 		.accept A Gnome's Respite##1071
-	step//58
+	step//59
 		goto Stonetalon Mountains,59.87,66.87
 		talk Kaela Shadowspear##4080
 		.'Accept Torching the Stockpiles (id:26364)|c
-	step//59
-		'>>> Light up the torch <<<. Use Unlit Torch. Go to Stonetalon Mountains 59.48,67.08
 	step//60
+		'>>> Light up the torch <<<. Use Unlit Torch. Go to Stonetalon Mountains 59.48,67.08
+	step//61
 		'First go here and kil the operators for the plans|goto Stonetalon Mountains,62.47,54.06
 		from Venture Co. Operator##3988
 		get Super Reaper 6000 Blueprints|q 1093/1
-	step//61
+	step//62
 		'Now go to the lumbermill, there are a bunch of supplies around here.|goto Stonetalon Mountains,65.82,50.99
 		'The spullies are the boxes scattered around the area. If you need to sell, there is a hidden vendor at [66,60]. Use Lit Torch|c
 		'Goal: 8 Venture Co. Supplies burned. For a quest (id:26364, objective:1)|c
 		kill 10 Venture Co. Logger##3989|q 1071/1
 		kill 10 Venture Co. Deforester##3991|q 1071/2
-	step//62
+	step//63
 		goto Stonetalon Mountains,59,62.52
 		talk Ziz Fizziks##4201
 		.turnin Super Reaper 6000##1093
 		.accept Further Instructions##1094
-	step//63
+	step//64
 		goto Stonetalon Mountains,59.47,67.17
 		talk Gaxim Rustfizzle##4077
 		.turnin A Gnome's Respite##1071
 		.accept A Scroll from Mauren##1075
 		.accept An Old Colleague##1072
-	step//64
+	step//65
 		'The follow up quest is not worth it|goto Stonetalon Mountains,59.85,66.92
 		talk Kaela Shadowspear##4080
 		.'Turn in Torching the Stockpiles (id:26364)|c
-	step//65
+	step//66
 		'You can finish pridewings on your way down|goto Stonetalon Mountains,51.22,47.24
 		'While killing these, check [48,47] and [54,36] (in the mountains) for Pridewing Patriarch, can drop a +5 agi cloack|c
 		get 12 Pridewing Venom Sac|q 1134/1
-	step//66
+	step//67
 		'Don't kill the antlers on your way up, you need them for a quest soon|goto Stonetalon Mountains,37.13,8.06
 		talk Keeper Albagorm##3994
 		.turnin Journey to Stonetalon Peak##1056
-	step//67
+	step//68
 		goto Stonetalon Mountains,37.09,7.97
 		talk Keeper Albagorm##3994
 		.accept Reclaiming the Charred Vale##1057
-	step//68
-		'Get the FP|goto Stonetalon Mountains,36.45,7.21
 	step//69
+		'Get the FP|goto Stonetalon Mountains,36.45,7.21
+	step//70
 		goto Stonetalon Mountains,36.13,7.09
 		'Talk to Bapper Tookwinkle (id:45338)|c
 		.'Accept Tinkering in the Vale (id:26358)|c
-	step//70
+	step//71
 		'She also sells potions. If you need arrows there is a vendor here. DON'T SET HEARTHSTONE|goto Stonetalon Mountains,35.8,6.37
 		'Talk to Centrica Nightsong (id:45337)|c
 		.'Accept Mirkfallon Lake (id:26356)|c
-	step//71
+	step//72
 		goto Stonetalon Mountains,37.36,6.75
 		'Talk to Vallourek Nightsong (id:45339)|c
 		.'Accept Vines of the Lake (id:26360)|c
-	step//72
+	step//73
 		goto Stonetalon Mountains,37.35,6.26
 		'Talk to Hunter Kyana (id:45335)|c
 		.'Accept Hunting in Serenity (id:26354)|c
-	step//73
-		'A couple of antlers here. Then back to the lake|goto 0,0
+	step//74
+		'A couple of antlers here. Then back to the lake|goto 39.53,8.31
 		goto Stonetalon Mountains,46.99,32.27
 		'Get 10 Courser fur from Antlered Courser(id:4018) or Great Courser(id:4019) for a quest (id:26354, objective:1)|c
-	step//74
+	step//75
 		'Start the elementals' quests here. Circle the lake to your left (if facing south, clockwise on the minimap)|goto Stonetalon Mountains,46.86,38.69
 		'Get 8 Water Vine for a quest (id:26360, objective:1)|c
 		'Get 8 Mirkfallon Essence from Mirkfallon Spirit(id:45336) for a quest (id:26356, objective:1)|c
-	step//75
+	step//76
 		'Finish pridewings if need be|c
 		get 12 Pridewing Venom Sac|q 1134/1
-	step//76
+	step//77
 		'On your way down avoid the fire elementals. Kill the harpies and the basilisks. There are not enough ambushers in the zone|goto Stonetalon Mountains,34.83,58.63
 		'You can dodge the basilisks' sleep by running away from melee range (your pet too).|c
 		'The rares around here are tough and drop nothing mostly. The only one that's worth it is the custom elemental. Some chests laying around|c
 		'The next step lists all the objectives here|c
-	step//77
+	step//78
 		kill 7 Bloodfury Harpy##4022|q 1057/1
 		kill 7 Bloodfury Ambusher##4025|q 1057/2
 		kill 7 Bloodfury Slayer##4024|q 1057/3
 		kill 7 Bloodfury Roguefeather##4023|q 1057/4
 		'Get 8 Scorched Scale from Blackened Basilisk(id:4044), Scorched Basilisk(id:4041) or Singed Basilisk(id:4042) for a quest (id:26358, objective:1)|c
 		'Get Raging Core from Enraged Stone Spirit(id:4034) for a quest (id:26358, objective:2)|c
-	step//78
+	step//79
 		'When done go to Desolace to say hello to Rexxar and grab the FP|goto Stonetalon Mountains,29.77,77.87
 		'Grab the FP|goto Desolace,64.7,10.52
 		.'Fly to stone talon peak|c
-	step//79
+	step//80
 		goto Stonetalon Mountains,37.1,7.99
 		talk Keeper Albagorm##3994
 		.turnin Reclaiming the Charred Vale##1057
 		.accept Reclaiming the Charred Vale##1059
-	step//80
+	step//81
 		goto Stonetalon Mountains,37.36,6.74
 		'Talk to Vallourek Nightsong (id:45339)|c
 		.'Turn in Vines of the Lake (id:26360)|c
 		.'Accept Vines of the Lake (id:26361)|c
-	step//81
+	step//82
 		goto Stonetalon Mountains,37.35,6.2
 		'Talk to Hunter Kyana (id:45335)|c
 		.'Turn in Hunting in Serenity (id:26354)|c
-	step//82
+	step//83
 		goto Stonetalon Mountains,36.09,7.18
 		'Talk to Bapper Tookwinkle (id:45338)|c
 		.'Turn in Tinkering in the Vale (id:26358)|c
-	step//83
+	step//84
 		'Turn this one first to avoid her becoming a frog before turning in everything|goto Stonetalon Mountains,35.83,6.38
 		'Talk to Centrica Nightsong (id:45337)|c
 		.'Turn in Vines of the Lake (id:26361)|c
-	step//84
+	step//85
 		goto Stonetalon Mountains,35.8,6.35
 		'Talk to Centrica Nightsong (id:45337)|c
 		.'Turn in Mirkfallon Lake (id:26356)|c
-	step//85
-		'Make sure you have turned everything in and HS back to Astranaar|use Hearthstone##6948|c
 	step//86
+		'Make sure you have turned everything in and HS back to Astranaar|use Hearthstone##6948|c
+	step//87
 		goto Ashenvale,36.62,49.61
 		talk Raene Wolfrunner##3691
 		.turnin An Aggressive Defense##1025
-	step//87
+	step//88
 		goto Ashenvale,37.31,51.79
 		talk Pelturas Whitemoon##3894
 		.turnin The Ruins of Stardust##1034
-	step//88
+	step//89
 		goto Ashenvale,34.87,49.77
 		'Talk to Sentinel Thenysil (id:4079)|c
 		.'Turn in Attack on the Foulweald (id:26362)|c
-	step//89
+	step//90
 		goto Ashenvale,34.76,49.73
 		'Talk to Tyraeth Morningshade (id:45193)|c
 		.'Turn in Annals of Hajiri (id:26241)|c
 		.'Accept Annals of Hajiri (id:26242)|c
-	step//90
+	step//91
 		goto Ashenvale,34.71,48.89
 		talk Shindrell Swiftfire##3845
 		.turnin Pridewings of Stonetalon##1134
-	step//91
+	step//92
 		'Forget about the quests not listed here, we are (almost) done with Ashenvale forever, the second half is garbage compared to new Hillsbrad, sadly :(|c
 		'Talk to the NPC to start the event|goto Ashenvale,22.69,52.62
 		.talk Lilyn Darkriver##11712
 		.goal Recieve Aessina's Boon|q 26242/1
-	step//92
+	step//93
 		goto Ashenvale,34.76,49.75
 		'Talk to Tyraeth Morningshade (id:45193)|c
 		.'Turn in Annals of Hajiri (id:26242)|c
-	step//93
+	step//94
 		'Fly to Darnassus|c
 		'Train spells|goto Darnassus,40.36,8.88
 		'Train wool bandages  to craft them while on the boat to Menethil|goto Darnassus,51.71,12.13
-	step//94
+	step//95
 		goto Darnassus,31.25,84.17
 		talk Chief Archaeologist Greywhisker##2912
 		.turnin The Absent Minded Prospector##741
 		.accept The Absent Minded Prospector##942
-	step//95
+	step//96
+		'Tp dwon to Rut'theran|goto Darnassus,30.75,41.4
+	step//97
 		'Fly to Darkshore|goto Teldrassil,58.37,94.01
 		'Grab the boat to menethil and craft bandages while waiting/on it|goto Darkshore,32.42,43.79
 ]])
@@ -1502,95 +1525,95 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetland
 		talk Karl Boran##1242
 		.accept Claws from the Deep##279
 	step//4
+		'Only if you took the alternative route in Darkshore (you didn't go to Menethil)|c
+		goto Wetlands,9.46,59.65
+		.talk Shellei Brondir##1571
+	step//5
 		goto Wetlands,10.83,59.67
 		talk First Mate Fitzsimmons##1239
 		.accept The Third Fleet##288
 		.accept The Greenwarden##463
-	step//5
+	step//6
 		goto Wetlands,10.77,60.26
 		talk Junder Brokk##3182
 		.'Accept Oars O'er the Bay (id:26386)|c
-	step//6
-		'>>> SET HEARTHSTONE <<< and buy a flagon of mead|goto 0,0
+	step//7
+		'>>> SET HEARTHSTONE <<< and buy a flagon of mead|goto 10.68,60.9
 		talk Innkeeper Helbrek##1464
 		.get Flagon of Mead|q 288/1
-	step//7
+	step//8
 		goto Wetlands,10.79,60.4
 		talk Archaeologist Flagongut##2911
 		.turnin The Absent Minded Prospector##942
 		.accept The Absent Minded Prospector##943
 		turnin The Absent Minded Prospector##942
-	step//8
+	step//9
 		'Train heavy woolen bandages if first aid is 115 (should be by now)|goto Wetlands,10.82,61.33
 		talk Fremal Doohickey##3181
-	step//9
+	step//10
 		goto Wetlands,10.83,59.59
 		talk First Mate Fitzsimmons##1239
 		.turnin The Third Fleet##288
 		.accept The Cursed Crew##289
-	step//10
+	step//11
 		'>>> Refill arrows <<< Half quiver is enough, next level you get better arrows|goto Wetlands,11.1,58.43
 		'You can ignore the gyroscope quest, it'll be a while untill you do it|c
-	step//11
+	step//12
 		goto Wetlands,11.76,57.95
 		talk Sida##2111
 		.accept Digging Through the Ooze##470
-	step//12
+	step//13
 		goto Wetlands,10.1,56.81
 		talk Valstag Ironjaw##2086
 		.accept Report to Captain Stoutfist##473
-	step//13
+	step//14
 		'For some reason the quest ends here in this server. You will need to do a custom quest to unlock the follow up|goto Wetlands,9.88,57.36
 		talk Captain Stoutfist##2104
 		.turnin Report to Captain Stoutfist##473
-	step//14
-		'Talk to the engi supplies guy and buy a bronze tube for the Duskwood quest|goto Wetlands,11.1,58.43
-		talk Neal Allen##1448
 	step//15
+		'Talk to the engi supplies guy and buy a bronze tube for the Duskwood quest|goto Wetlands,10.73,56.79
+		talk Neal Allen##1448
+	step//16
 		goto Wetlands,11.54,52.07
 		talk Tarrel Rockweaver##2096
 		.accept In Search of The Excavation Team##305
-	step//16
+	step//17
 		'Kill all the regular murlocs around these camps. And keep an eye out for young crocolisks|goto Wetlands,14.89,41.5
 		kill 12 Bluegill Murloc##1024|q 279/1
 		'Go here for the murloc's head|goto Wetlands,18.03,39.84
 		.from Gobbler##1259
 		.get Gobbler's Head|q 279/2
-	step//17
+	step//18
 		'Go here and clear the crocolisks pathing towards Menethil. You can get unlucky with this one|goto Wetlands,20.61,44.39
 		from Young Wetlands Crocolisk##1417
 		get 4 Young Crocolisk Skin|q 484/1
 		'If you dont get enough, don't worry you can finish it later. Get on the ferry as soon as you see it|c
-	step//18
+	step//19
 		goto Wetlands,13.28,54.38
 		talk Andrew Porter##45377
 		.turnin Oars O'er the Bay##26386
-	step//19
-		'Take the ferry to hillsbrad. Craft bandages while waiting/on the boat|c
 	step//20
+		'Take the ferry to hillsbrad. Craft bandages while waiting/on the boat|c
+	step//21
 		'About the Hillsbrad event. It's worth it. A lot. Espcially if you are the first one to get there since sudden death means that you get to finish the event as soon as you cap.|c
 		'If you are defending, you get credit for the quest as long as you step once inside the cap range.|c
-	step//21
+	step//22
 		goto Hillsbrad Foothills,50.23,59
 		talk Phin Odelic##2711
 		.'Accept Syndicate Magic (id:26387)|c
-	step//22
+	step//23
 		goto Hillsbrad Foothills,50.41,58.29
 		'Accept WANTED: Beve Perenolde (id:26404)|c
-	step//23
+	step//24
 		goto Hillsbrad Foothills,51.14,58.85
 		'>>> SET HEARTHSTONE <<<|c
 		talk Innkeeper Anderson##2352
 		.'Accept Decorating the Inn (id:26397)|c
-	step//24
+	step//25
 		goto Hillsbrad Foothills,49.55,58.74
 		talk Marshal Redpath##2263
 		.'Accept Purging the Lions (id:26398)|c
 		.'Accept Assistance to Jenna (id:26408)|c
-	step//25
-		goto Hillsbrad Foothills,49.55,58.74
-		talk Marshal Redpath##2263
-		.accept Assistance to Jenna##26408
 	step//26
 		goto Hillsbrad Foothills,48.67,59.15
 		talk Kundric Zanden##2378
@@ -1806,7 +1829,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetland
 		.'Turn in A Scout in Need (id:26392)|c
 		.'Accept A Scout in Need (id:26393)|c
 	step//76
-		'Now turn 180º and run straight to the last possible room. Jailor Eston should be walking around here|goto Hillsbrad Foothills,0,0
+		'Now turn 180º and run straight to the last possible room. Jailor Eston should be walking around here|goto Hillsbrad Foothills,84.9,37
 		'Talk to Jailor Eston (id:2427)|c
 		.'Get Eston's Key for a quest (id:26393, objective:1)|c
 	step//77
@@ -1895,7 +1918,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetland
 		'Kill the giant crocolisks to get the pelts|goto Wetlands,16.46,26.96
 		.get 6 Giant Crocolisk Skin|q 471/1
 	step//97
-		'When done, go to this house to sell junk. You cna also buy the bronze tube if you don't want that and even some decent armor.|goto Wetlands,26.09,25.91
+		'When done, go to this house to sell junk. You can also buy a bronze tube if you didn't before in Menethil and even some decent armor.|goto Wetlands,26.09,25.91
 	step//98
 		'Kill the 2 gnoll camps to finish fire taboo|goto Wetlands,37.45,29.99
 		.get 9 Crude Flint|q 277/1
@@ -1938,6 +1961,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetland
 		.get Neru Fragment|q 299/4
 	step//109
 		'Kill all the screechers near the 3 nests then get away from the mountain range to kill de regular one while going back to the excavation site|goto Wetlands,24.24,52.26
+		'You will get the Stone of Relu while killing the raptors (low drop chance), either now or later on.|c
 		kill 10 Mottled Raptor##1020|q 294/1
 		kill 10 Mottled Screecher##1021|q 294/2
 		'Go back to the excavation site|goto Wetlands,34.8,42.02
@@ -1977,140 +2001,147 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetland
 		talk Prospector Whelgar##1077
 		.turnin Uncovering the Past##299
 	step//116
-		'HS back to Menethil|use Hearthstone##6948|c
+		'If somehow you don't have the Stone of Relu get back down to the quary and kill raptors until you get it.|c
+		.get Stone of Relu|q 943/1
 	step//117
+		'>>> Don't HS back if you don't have the Stone of Relu in your bags <<<|use Hearthstone##6948|c
+		'HS back to Menethil|use Hearthstone##6948|c
+	step//118
 		goto Wetlands,10.84,60.39
 		talk Archaeologist Flagongut##2911
 		.turnin The Absent Minded Prospector##943
-	step//118
+	step//119
 		goto Wetlands,10.84,59.68
 		talk First Mate Fitzsimmons##1239
 		.turnin The Cursed Crew##289
 		.accept Lifting the Curse##290
-	step//119
+	step//120
 		'>>> Refill arrows <<<|goto Wetlands,11.08,58.29
 		.talk Edwina Monzor##1462
-	step//120
+	step//121
 		goto Wetlands,11.75,57.92
 		talk Sida##2111
 		.turnin Digging Through the Ooze##470
-	step//121
+	step//122
 		'If you don't have the MP5 boots from the crab in Darkshore, pick the boots. Otherwise, sell the staff (the one from Hillsbrad is better)|goto Wetlands,8.36,58.52
 		talk Karl Boran##1242
 		.turnin Return the Statuette##286
-	step//122
+	step//123
 		goto Wetlands,8.57,55.82
 		talk James Halloran##2094
 		.turnin Apprentice's Duties##471
-	step//123
+	step//124
 		goto Wetlands,9.87,57.39
 		talk Captain Stoutfist##2104
 		.turnin War Banners##464
 		.'Accept Gujek's Gambit (id:465)|c
 		.'Turn in Don't Kill The Messenger (id:26284)|c
-	step//124
+	step//125
 		goto Wetlands,11.56,52.09
 		talk Tarrel Rockweaver##2096
 		.turnin In Search of The Excavation Team##306
-	step//125
-		'First go here and follow the water towards the sea. Kill the 3 Fen creepers (6/10)|goto Wetlands,27.03,39.3
-		'Leave your pet in the water. Climb to the top of the ship sing the broken sail and pull Halyndor.|goto Wetlands,15.96,23.13
+	step//126
+		'First go here and follow the water towards the sea. Kill the 3 Fen creepers (6/10). If you found more thats fine.|goto Wetlands,27.03,39.3
+		'Leave your pet in the water. Climb to the top of the ship by running up the broken sail and pull Halyndor.|goto Wetlands,15.96,23.13
 		.from Captain Halyndor##1160
 		.get Intrepid Strongbox Key|q 290/1
-	step//126
+		.'He won't follow you through the gap, but instead, he will pull the entire ship. Just run to land while he does that and run far away while keeping agro on him so he gets splitted from the other mobs|c
+	step//127
 		'The ship has a crack underwater on the northern side where you can get to the box.|goto Wetlands,14.36,23.89
 		turnin Lifting the Curse##290
 		accept The Eye of Paleth##292
-	step//127
+	step//128
 		'This is only worthwile if you want to try your luck at getting Tidal Charm|goto Wetlands,30.38,14.91
 		'Go to the spot and scan the area for Prince Nazjak. In Trinity core he "should" always be at the turtle's corpse (south-west of the area). If he is anywhere near the ruins or inside the ships, forget about it.|c
 		'This is assuming Eredun hasn't forgotten to allow hunters to use Eagle eye after disabling it in beta 1 more than 1.5 years ago...|c
 		'Hunters can solo this, but it has a bit of RNG. The objective is to kite him to the coast where you came from. Trap him, slow him, stun him with your pet etc. Once you get back on your feet its a matter of kitting.|c
 		'If you manage to kill him, it's still a coin toss whether the trinket drops or not...|c
-	step//128
+	step//129
 		'Go here towards [35,33] and kill the Fen creepers you are missing|goto Wetlands,28.79,20.58
 		.kill 12 Fen Creeper##1041|q 275/1
-	step//129
+	step//130
 		goto Wetlands,47.44,47.24
 		'Turn in Gujek's Gambit (id:465)|c
 		'Accept Defeat Gujek (id:474)|c
-	step//130
+	step//131
 		'Go here, pull make-a-wish-Nek'rosh, jump down and kite him towards the green warden|goto Wetlands,53.17,56.07
 		.from General Gujek##45237
 		.get Gujek's head|q 474/1
-	step//131
+	step//132
 		goto Wetlands,56.35,40.5
 		talk Rethiel the Greenwarden##1244
 		.turnin Blisters on The Land##275
-	step//132
+	step//133
 		'Go here and kite Balgaras towards the dwarves in Dun Modr (bridge to Arathi)|goto Wetlands,61.58,28.3
 		.'You can outrange Shadowbolt Volley. Just keep healing your pet to cleanse the roots and heal the aoe damage. Trap the voidwalker so it ends up laging behind and it will eventually despawn|c
-	step//133
+	step//134
 		'Talk to the dwarf with the ? turn-in sign twice and then to the one to his left (you right) once|goto Wetlands,49.87,18.3
 		talk Longbraid the Grim##1071
 		.turnin Fall of Dun Modr##472
 		.accept A Grim Task##304
-	step//134
+	step//135
 		goto Wetlands,49.86,18.25
 		talk Rhag Garmason##1075
 		.accept The Thandol Span##631
-	step//135
+	step//136
 		'Balagaras will be dead (or close to) about when you get to the bridge|c
 		.from Balagaras the Foul##1364
 		.get Ear of Balgaras|q 304/1
-	step//136
+	step//137
 		'Sac pet and interact with the dwarf's corpse. Don't turn on cheetah untill you are outside of the building, these mobs hit through walls...|goto Wetlands,51.22,8
 		turnin The Thandol Span##631
 		accept The Thandol Span##632
-	step//137
+	step//138
 		goto Wetlands,49.85,18.25
 		talk Longbraid the Grim##1071
 		.turnin A Grim Task##304
-	step//138
+	step//139
 		goto Wetlands,49.85,18.25
 		talk Rhag Garmason##1075
 		.turnin The Thandol Span##632
 		.accept The Thandol Span##633
-	step//139
+	step//140
 		'Jump off from [43,91] with cheetah on.|goto Arathi Highlands,43.25,92.56
 		talk Foggy MacKreel##2696
 		.accept MacKreel's Moonshine##647
-	step//140
+	step//141
 		'Interact with the letter in the left hand of the dwarf's corpse (the one that's orientated towards the north)|goto Arathi Highlands,44.31,92.91|use Waterlogged Envelope##4433
 		.accept Sully Balloo's Letter##637
-	step//141
-		'Get out of the water here|goto Arathi Highlands,53.03,91.42
-		'Pet passive, pet stay, send pet to pull all the mobs. Pet passive again so it runs back and despawns. While the mobs follow it, detonate the cart of explisive and get out crossing the bridge|goto Arathi Highlands,48.83,88.16
-		.goal Cache of Explosives destroyed|q 633/1
 	step//142
+		'Get out of the water here|goto Arathi Highlands,53.03,91.42
+		'Pet passive, pet stay, send pet to pull all the mobs. Pet passive again so it runs back and despawns. While the mobs follow it, detonate the cart of explosives and get out crossing the bridge|goto Arathi Highlands,48.83,88.16
+		.goal Cache of Explosives destroyed|q 633/1
+	step//143
 		goto Wetlands,49.97,18.29
 		talk Rhag Garmason##1075
 		.turnin The Thandol Span##633
 		.accept Plea To The Alliance##634
-	step//143
+	step//144
 		goto Arathi Highlands,45.82,47.51
 		talk Captain Nials##2700
 		.turnin Plea To The Alliance##634
-	step//144
-		'Grab the FP to Southshore|c
 	step//145
+		'Discover the FP and fly to Southshore|goto Arathi Highlands,45.78,46.18
+		.talk Cedrik Prose##2835
+	step//146
 		goto Hillsbrad Foothills,52.13,58.63
 		talk Brewmeister Bilger##2705
 		.turnin MacKreel's Moonshine##647
-	step//146
-		'Fly to Menethil|goto Hillsbrad Foothills,49.36,52.35
 	step//147
+		'Fly to Menethil|goto Hillsbrad Foothills,49.36,52.35
+	step//148
 		goto Wetlands,10.61,60.52
 		talk Glorin Steelbrow##1217
 		.turnin The Eye of Paleth##292
 		.accept Cleansing the Eye##293
-	step//148
+	step//149
 		goto Wetlands,9.88,57.4
 		talk Captain Stoutfist##2104
 		.'Turn in Defeat Gujek (id:474)|c
 		.'Accept Guldar Gamble (id:26275)|c
-	step//149
+	step//150
 		'Fly to Loch Modan|goto Wetlands,9.53,59.66
+		'Enter Dun Morogh|goto Loch Modan,20,63
 		'Long run to Ironforge|goto Dun Morogh,53.38,35.03
 ]])
 
@@ -2154,8 +2185,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 		talk Lomac Gearstrip##4081
 		.turnin An Old Colleague##1072
 	step//10
-		'Take the tram and train first aids (book + wool bandages) while waiting/on it|goto Stormwind City,62.79,34.13
+		'Take the tram and train first aids (book + wool bandages) while waiting/on it|goto Ironforge,76,51
 		'Hopefully you get to 150 first aid, otherwise no silk bandages for you :(|c
+		'Turn in this quest|goto Stormwind City,62.79,34.13
 		talk Shoni the Shilent##6579
 		.turnin Speak with Shoni##2041
 	step//11
@@ -2182,103 +2214,100 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 		'Buy 1 Stormwind Seasoning herbs for the quest in Duskwood|goto Stormwind City,69.48,71.3
 		.talk Felicia Gump##1303
 	step//18
-		'Buy the Wild steelbloom he has in stock. You need a goldthorn too if you ever find one while questing (off a chest, f.ex.)|goto Stormwind City,69.39,71.68
-		.talk Bernard Gump##1302
-	step//19
 		goto Stormwind City,80.18,43.84
 		talk Bishop DeLavey##4960
 		.turnin The Missing Diplomat##1274
 		.accept The Missing Diplomat##1241
-	step//20
+	step//19
 		'Get the FP|goto Stormwind City,70.93,72.66
 		.talk Dungar Longdrink##352
 		'Go here, near the border and jump then press W to fall bellow slowly the the stone walls that let you walk up to the valley of heroes|goto Stormwind City,70.83,74.83
-	step//21
+	step//20
 		goto Stormwind City,76.17,85.23
 		talk Jorgen##4959
 		.turnin The Missing Diplomat##1241
 		.accept The Missing Diplomat##1242
-	step//22
+	step//21
 		goto Stormwind City,66.15,74.23
 		talk Elling Trias##482
 		.turnin The Missing Diplomat##1242
 		.accept The Missing Diplomat##1243
-	step//23
+	step//22
 		'If it's nightime, enter Duskwood from this place near the border. Otherwise run straight to Darkshire|goto Elwynn Forest,59.12,82.08
 		'There is a custom quest that can only be completed by killing a mob that only spawns at night. Keep an eye out for when the daycicle changes so you can complete the quest.|c
 		'Sadly, the timer that decides which part of the day cycle is happening doesn't seem consistent, varies between some hours to a couple of minutes, so just keep an eye out.|c
-	step//24
-		'Look for Plagued Shambler alongside the river if it's night time. He spawns at [64,17]|c
+	step//23
+		'Look for Plagued Shambler alongside the river if it's night time. He spawns at [64,17]|goto Duskwood,64,17
 		.'If you found it, kite it towards Darkshire and accept the WANTED quest near the townhall|goto Duskwood,73.37,46.36
 		.'Otherwise, walk the road north of Darkshire and turn in and accept the next parts of The missing diplomat|c
-	step//25
+	step//24
 		'Interact with the WANTED post and THEN kill the shambler if you were kiting it.|goto Duskwood,73.37,46.32
 		'Accept Wanted: Plagued Shambler (id:26325)|c
 		.'Kill Plagued Shambler (id:45325) for a quest (id:26325, objective1)|c
 		.'Skip this step after accepting the quest if it wasn't night time or you couldn't find/kite the mob. We will do it later|c
-	step//26
+	step//25
 		'Turn this in whenever you manage to kill it|goto Duskwood,73.67,46.77
 		talk Commander Althea Ebonlocke##264
 		.'Turn in Wanted: Plagued Shambler (id:26325)|c
 		.accept The Night Watch##56
-	step//27
+	step//26
 		'>>> SET HS <<<|goto Duskwood,73.94,44.47
 		.talk Innkeeper Trelayne##6790
-	step//28
+	step//27
 		'Turn this in now if you gathered enough in Ashenvale|goto Duskwood,73.83,43.46
 		talk Chef Grual##272
 		.accept Seasoned Wolf Kabobs##90
-	step//29
+	step//28
 		'If it was daytime and you didn't enter Darkshire through the northen road|goto Duskwood,72.5,34.32
 		talk Watcher Backus##840
 		.turnin The Missing Diplomat##1243
 		.accept The Missing Diplomat##1244
-	step//30
+	step//29
 		goto Duskwood,75.75,45.32
 		talk Madame Eva##265
 		.accept The Totem of Infliction##101
 		.accept The Legend of Stalvan##66
-	step//31
+	step//30
 		goto Duskwood,72.57,46.87
 		talk Clerk Daltry##267
 		.turnin The Legend of Stalvan##66
 		.accept The Legend of Stalvan##67
-	step//32
+	step//31
 		goto Duskwood,75.19,48.02
 		talk Calor##663
 		.accept Worgen in the Woods##173
-	step//33
+	step//32
 		goto Duskwood,75.27,48.58
 		talk Elaine Carevin##633
 		.accept The Hermit##165
 		.accept Deliveries to Sven##164
 		.accept Raven Hill##163
-	step//34
+	step//33
 		'If you didn't manage to get a Bronze Tube in any of the vendors of Wetlands or Stormwind, try your luck with this guy|goto Duskwood,77.9,48.28
 		.talk Herble Baubbletump##3133
-	step//35
+	step//34
 		'Get the FP|goto Duskwood,77.56,44.36
 		.talk Felicia Maline##2409
-	step//36
+	step//35
 		goto Duskwood,79.77,47.89
 		talk Viktori Prism'Antras##276
 		.accept Look To The Stars##174
 		.turnin Look To The Stars##174
 		.accept Look To The Stars##175
-	step//37
+	step//36
 		goto Duskwood,77.57,52.21
 		'Talk to Sarae Dewlight (id:45320)|c
 		.'Accept Life In Death (id:26313)|c
-	step//38
+	step//37
 		'Turn on Herb Tracking to see if it works with the blossoms you have to gather for the custom quest, it didn't work during the beta unfortunately|c
 		'Don't worry too much about the vials of venom or the skeleton fingers. Just go straight to the other quests.|c
 		'If at any point during questing in Duskwood you get the Old history book, just accept the quest|c
-	step//39
+	step//38
 		goto Duskwood,81.83,59.14
 		talk Blind Mary##302
 		.turnin Look To The Stars##175
 		.accept Look To The Stars##177
-	step//40
+	step//39
 		'Have to kill some grey mobs to progress this questline unfortunately...|goto Duskwood,79.83,70.69
 		.kill 8 Skeletal Warrior##48|q 56/1
 		.kill 6 Skeletal Mage##203|q 56/2
@@ -2286,381 +2315,381 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 		.get Mary's Looking Glass|q 177/1
 		.'Get 8 Brightwood Bloom for a quest (id:26313, objective:1)|c
 		..'You can delay this and gather the first ones you got on respawn. Hopefully the respawn bug for world objects gets fixed on launch and the ones you gathered at the begining are up again|c
-	step//41
+	step//40
 		goto Duskwood,77.62,52.22
 		'Talk to Sarae Dewlight (id:45320)|c
 		.'Turn in Life In Death (id:26313)|c
 		.'Accept Life In Death (id:26314)|c
-	step//42
+	step//41
 		goto Duskwood,79.78,47.88
 		turnin Look To The Stars##177
 		accept Look To The Stars##181
-	step//43
+	step//42
 		goto Duskwood,73.64,46.89
 		talk Commander Althea Ebonlocke##264
 		.turnin The Night Watch##56
 		.accept The Night Watch##57
-	step//44
+	step//43
 		'Kill them towards the western side of the orchard|goto Duskwood,65.45,65.3
 		.kill 6 Nightbane Shadow Weaver##533|q 173/1
-	step//45
+	step//44
 		'Kill any wolves you might need to finish the cooking quest|goto Duskwood,56.32,64.61
 		.from Young Black Ravager##923, Black Ravager##628
 		.get 10 Lean Wolf Flank|q 90/1
-	step//46
+	step//45
 		'Go towards STV to grab the FP|goto Duskwood,44.98,80.82
 		.'If the tauren is there it means you are the first one in STV or not that many people have been in rebel camp lately. If so, Private Thorsen should be walking away from his usual spot. That will tell you if the event is still bugged or not.|c
-		'Grab the FP|goto 38.22,4.1
-		'Go to the slope and while running and turning your camera slowly towards your right (towards the tree) spam jump to get up here. You can run through the mountains to Duskwood from here.|goto 37.6,4.25
-	step//47
+		'Grab the FP|goto Stranglethorn Vale,38.22,4.1
+		'Go to the slope and while running and turning your camera slowly towards your right (towards the tree) spam jump to get up here. You can run through the mountains to Duskwood from here.|goto Stranglethorn Vale,37.6,4.25
+	step//46
 		'Run to about this spot through the mountain range and then go to the farm|goto Duskwood,27.02,83.99
 		'Interact with the box|goto Duskwood,23.95,71.94
 		.get Defias Docket|q 1244/1
-	step//48
+	step//47
 		goto Duskwood,18.03,56.7
 		talk Jitters##288
 		.turnin Raven Hill##163
 		.accept Jitters' Growling Gut##5
-	step//49
+	step//48
 		'Sell junk and buy some pots/the alchemy recipe|goto Duskwood,18.07,54.54
 		.talk Bliztik##2481
-	step//50
+	step//49
 		'Go towards Abercrombie and kill AT LEASST 8 Skeletal Fiends and enough to finish the custom quest. We are far from done running to Raven Hill...|goto Duskwood,21.3,47.41
 		.'Get 5 Fresh Bone Powder from Skeletal Fiend(id:531) or Skeletal Horror(id:202) for a quest (id:26314, objective:1)|c
-	step//51
+	step//50
 		goto Duskwood,28,31.49
 		talk Abercrombie##289
 		.turnin The Hermit##165
 		.accept Supplies from Darkshire##148
-	step//52
+	step//51
 		goto Duskwood,17.57,29.15
 		accept The Weathered Grave##225
-	step//53
+	step//52
 		goto Duskwood,7.83,34.14
 		talk Sven Yorgen##311
 		.turnin Deliveries to Sven##164
 		.accept Sven's Revenge##95
-	step//54
-		'Go to Sentinell Hill and grab the FP. It's a good way to get back to Scen later on.|goto Westfall,56.55,52.54
+	step//53
+		'Go to Sentinell Hill and grab the FP. It's a good way to get back to Sven later on.|goto Westfall,56.55,52.54
 		.talk Thor##523
 		.'Yes, our flight master is Thor himself. Surely your faction is cooler than that, right mudhutters?|c
-	step//55
+	step//54
 		'Trap or send your pet to the spirit. You don't want to get cursed, your pet can easily be cleansed.|goto Westfall,41.52,66.84
 		'While running to Moonbrook, check the water pond at [46,59]. If Vultros is up, kill him|c
 		turnin The Legend of Stalvan##67
 		accept The Legend of Stalvan##68
-	step//56
+	step//55
 		'HS back to Darkshire|use Hearthstone##6948|c
-	step//57
+	step//56
 		'If you already turned the quest in early skip this.|goto Duskwood,73.84,43.58
 		talk Chef Grual##272
 		.turnin Jitters' Growling Gut##5
 		.turnin Seasoned Wolf Kabobs##90
-	step//58
+	step//57
 		'Only accept/turn in the spiders' legs quest and its follow up if you already have the legs from Ashenvale. Otherwise, skip it.|c
-	step//59
+	step//58
 		goto Duskwood,72.63,46.86
-		talk Some NPC
+		talk Clerk Daltry##267
 		.turnin The Legend of Stalvan##68
 		.accept The Legend of Stalvan##69
 		turnin The Legend of Stalvan##68
-	step//60
+	step//59
 		goto Duskwood,72.55,47.6
 		talk Sirra Von'Indi##268
 		.turnin The Weathered Grave##225
 		.accept Morgan Ladimore##227
-	step//61
+	step//60
 		goto Duskwood,73.61,46.77
 		talk Commander Althea Ebonlocke##264
 		.turnin Morgan Ladimore##227
 		.accept Mor'Ladim##228
-	step//62
+	step//61
 		goto Duskwood,75.33,47.88
 		talk Calor##663
 		.turnin Worgen in the Woods##173
 		.accept Worgen in the Woods##221
-	step//63
+	step//62
 		goto Duskwood,75.75,45.3
 		talk Madame Eva##265
 		.turnin Supplies from Darkshire##148
 		.accept Ghost Hair Thread##149
-	step//64
+	step//63
 		goto Duskwood,72.54,34.27
 		talk Watcher Backus##840
 		.turnin The Missing Diplomat##1244
 		.accept The Missing Diplomat##1245
-	step//65
+	step//64
 		'If you havent killed the Shambler in the north coast now it would be a good time to do it if it's night time|c
 		'Kill about 6 runners here and then finish the quest in the camps to the south. If the rare is up kill it, drops a decent head piece.|goto Duskwood,61.94,40.31
 		.kill 12 Nightbane Dark Runner##205|q 221/1
-	step//66
+	step//65
 		'>>> Refill arrows at the inn<<<|goto Duskwood,75.69,47.51
 		talk Calor##663
 		.turnin Worgen in the Woods##221
 		.accept Worgen in the Woods##222
-	step//67
+	step//66
 		goto Duskwood,81.92,59.14
 		talk Blind Mary##302
 		.turnin Ghost Hair Thread##149
 		.accept Return the Comb##154
-	step//68
+	step//67
 		goto Duskwood,77.59,52.27
 		'Talk to Sarae Dewlight (id:45320)|c
 		.'Turn in Life In Death (id:26314)|c
 		.'Accept Life In Death (id:26315)|c
-	step//69
+	step//68
 		goto Duskwood,75.71,45.32
 		talk Madame Eva##265
 		.turnin Return the Comb##154
 		.accept Deliver the Thread##157
-	step//70
+	step//69
 		'When done with this location move to the next one to the west|goto Duskwood,73.78,67.79
 		.kill 10 Nightbane Vile Fang##206|q 222/1
 		.'Only kill enough Vile Fangs to get to the cave (you will almost finisht them anyways), then kill the ones inside and move out to the next location|c
 		'When done with the previous location move to the next one to the west|goto Duskwood,59.91,80.37
 		.kill 8 Nightbane Tainted One##920|q 222/2
 		.'The rare can drop a green that sells for half a gold, kill it if up.|c
-	step//71
+	step//70
 		goto Duskwood,50.02,77.75
 		turnin Sven's Revenge##95
 		accept Sven's Camp##230
-	step//72
+	step//71
 		'Fill the Phial at the moonwell. Use Half Filled Phial. Go to Duskwood 49.11,33.72
 		.'Goal: Serae's Final Experiment. For a quest (id:26315, objective:1)|c
 		.'There is an elite nightmare to the west of the groove. Drops a great chestpiece for rogues, but the STR is not worth loosing the spirit sadly. Maybe if it was AGI.|c
-	step//73
+	step//72
 		'If you killed 8 before, killing the ones in the 2 east camps of the graveyard should be enough|goto Duskwood,22.53,48.65
 		.kill 15 Skeletal Fiend##531|q 57/1
 		.'>>> Important <<< You must have killed AT LEAST 5 skeletal horrors aswell.|c
-	step//74
+	step//73
 		'Mor'Ladim should be around, look for him and kill it by running circles around the tree a tree ([20,41] for example).|c
 		.from Mor'Ladim##522
 		.get Mor'Ladim's Skull|q 228/1
-	step//75
+	step//74
 		'Kill spiders on your way north to Abercrombie|goto Duskwood,31.31,39.4
 		.from Black Widow Hatchling##930
 		.get 5 Vial of Spider Venom|q 101/2
-	step//76
+	step//75
 		goto Duskwood,28,31.51
 		talk Abercrombie##289
 		.turnin Deliver the Thread##157
 		.accept Zombie Juice##158
-	step//77
+	step//76
 		goto Duskwood,7.82,34.12
 		talk Sven Yorgen##311
 		.turnin Sven's Camp##230
 		.accept The Shadowy Figure##262
-	step//78
+	step//77
 		'Sell junk to the innkeeper aswell|goto Elwynn Forest,38.13,68.15
 		talk Innkeeper Farley##295
 		.turnin The Legend of Stalvan##69
 		.accept The Legend of Stalvan##70
-	step//79
+	step//78
 		'>>> Important <<< Go upstairs and get the letter inside the chest.|goto Elwynn Forest,38.29,67.68
 		.get An Undelivered Letter|q 70/1
-	step//80
+	step//79
 		goto Stormwind City,66.12,74.2
 		talk Elling Trias##482
 		.turnin The Missing Diplomat##1245
 		.accept The Missing Diplomat##1246
-	step//81
+	step//80
 		'You should have enought wool to get to 150 first aid and enough to get to 180 afterwards for heavy silk bandages. Go to the bank an retrieve the book if you stored it before. Skip this otherwise|c
-	step//82
+	step//81
 		goto Stormwind City,50.53,87.48
 		talk Archmage Malin##2708
 		.accept Malin's Request##690
-	step//83
+	step//82
 		'Take your pet out because one of those ghosts that curse id about to respawn. Trap or intimidate|goto Stormwind City,42.72,72.27
 		talk Caretaker Folsom##297
 		.turnin The Legend of Stalvan##70
 		.accept The Legend of Stalvan##72
-	step//84
+	step//83
 		'Interact with the box and the ghost will spawn|goto Stormwind City,42.61,72.2
 		turnin The Legend of Stalvan##72
 		accept The Legend of Stalvan##74
-	step//85
+	step//84
 		'Learn silk bandages if you didn't reach 150 first aid before. Otherwise, skip this.|goto Stormwind City,52.93,44.83
 		.talk Shaina Fuller##2327
-	step//86
+	step//85
 		'You should be level 30 already. Go train and get Feign Death|goto Stormwind City,67.37,36.39
 		.talk Einris Brightspear##5515
+	step//86
+		'lf you already have the Old History Book now its a good time to go to [77,30] inside Stormwind keep and turning it in.|c
 	step//87
-		'lf you already have the Old History Book, no its a good time to go to [77,30] inside Stormwind keep and turning it in.|c
-	step//88
 		'Go here to get to where the Dwarf is first|goto Stormwind City,74.28,56.8
 		'Two adds will spawn after you start the quest. Feign death and agro them with your pet then kill the dwarf|goto Stormwind City,74.04,59.1
 		talk Dashel Stonefist##4961
 		.turnin The Missing Diplomat##1246
 		.accept The Missing Diplomat##1447
-	step//89
+	step//88
 		goal Defeat Dashel Stonefist|q 1447/1
-	step//90
+	step//89
 		goto Stormwind City,74.06,59.22
 		talk Dashel Stonefist##4961
 		.turnin The Missing Diplomat##1447
 		.accept The Missing Diplomat##1247
-	step//91
+	step//90
 		'If you forgot to buy the Stormwind herbs like I've done a dozen if times over the years now it's a good time to do so at [69,71]|c
-	step//92
+	step//91
 		goto Stormwind City,66.11,74.22
 		talk Elling Trias##482
 		.turnin The Missing Diplomat##1247
 		.accept The Missing Diplomat##1248
-	step//93
+	step//92
 		'Fly to Darkshire|goto Stormwind City,70.97,72.56
-	step//94
+	step//93
 		goto Duskwood,75.72,45.34
 		talk Madame Eva##265
 		.turnin The Shadowy Figure##262
 		.accept The Shadowy Search Continues##265
-	step//95
+	step//94
 		goto Duskwood,73.56,46.79
 		talk Commander Althea Ebonlocke##264
 		.turnin Mor'Ladim##228
 		.accept The Daughter Who Lived##229
-	step//96
+	step//95
 		'She moves around|goto Duskwood,74.69,46.17
 		talk Watcher Ladimore##576
 		.turnin The Daughter Who Lived##229
 		.accept A Daughter's Love##231
-	step//97
+	step//96
 		goto Duskwood,72.62,46.86
 		talk Clerk Daltry##267
 		.turnin The Shadowy Search Continues##265
 		.accept Inquire at the Inn##266
-	step//98
+	step//97
 		goto Duskwood,73.85,44.47
 		talk Tavernkeep Smitts##273
 		.turnin Zombie Juice##158
 		.accept Gather Rot Blossoms##156
 		.turnin Inquire at the Inn##266
 		.accept Finding the Shadowy Figure##453
-	step//99
+	step//98
 		'Turn this in if you didn't before or if you forgot to buy the herbs|goto Duskwood,73.84,43.4
 		talk Chef Grual##272
 		.turnin Seasoned Wolf Kabobs##90
-	step//100
+	step//99
 		goto Duskwood,75.43,47.77
 		talk Calor##663
 		.turnin Worgen in the Woods##222
 		.accept Worgen in the Woods##223
-	step//101
+	step//100
 		goto Duskwood,75.34,48.94
 		talk Jonathan Carevin##661
 		.turnin Worgen in the Woods##223
-	step//102
+	step//101
 		'After turning it in there will be some RP.But there is nothing else afterwards, you can leave.|goto Duskwood,77.61,52.23
 		'Talk to Sarae Dewlight (id:45320)|c
 		.'Turn in Life In Death (id:26315)|c
-	step//103
+	step//102
 		'You need to have killed 5 horrors before. If you don't finish rot blossoms don't worry, you can come back after flying back from Redridge|goto Duskwood,80.11,55.32
 		.kill 15 Skeletal Horror##202|q 57/2
 		.from Skeletal Horror##202
 		.get 8 Rot Blossom|q 156/1
 		.from Skeletal Horror##202
-		.get 10 Skeleton Finger|q 101/1
+		.get 10 Skeleton Finger|q 101/3
 		..'If not already done from before|c
 		'Some of these will be grey, but what can you do...|c
-	step//104
+	step//103
 		goto Duskwood,73.66,46.77
 		talk Commander Althea Ebonlocke##264
 		.turnin The Night Watch##57
 		.accept The Night Watch##58
-	step//105
+	step//104
 		'If you finished Rot Blossoms turn it in, but it's unlikely to get 8 from 10 mobs at a 80% drop rate|c
 		'If you didn't kill the shambler before and its currently night time, now it's a good time to do so. Check the northen coast.|c
 		'Skip this step if done with the shambler's quest or if it's day time and can't do it.|c
-	step//106
+	step//105
 		goto Elwynn Forest,84.58,69.47
 		talk Marshal Haggard##294
 		.turnin The Legend of Stalvan##74
 		.accept The Legend of Stalvan##75
-	step//107
+	step//106
 		'Get your pet ready, another ghost will spawn. Go upstairs and interact with the box.|goto Elwynn Forest,85.63,69.61
 		.get A Faded Journal Page|q 75/1
-	step//108
+	step//107
 		goto Elwynn Forest,84.59,69.48
 		talk Marshal Haggard##294
 		.turnin The Legend of Stalvan##75
 		.accept The Legend of Stalvan##78
-	step//109
+	step//108
 		'Get the FP. If not many players around consider doing Bellygrub's quest (check if it's up with Eagle eye)|goto Redridge Mountains,30.67,59.45
 		'Fly to Darkshire afterwards w/e you decide to do.|c
-	step//110
+	step//109
 		'>>> Refill arrows <<<|goto Duskwood,74.13,44.86
 		.talk Mabel Solaj##227
-	step//111
+	step//110
 		goto Duskwood,73.82,44.67
 		talk Tavernkeep Smitts##273
 		.turnin The Legend of Stalvan##78
 		.accept The Legend of Stalvan##79
-	step//112
+	step//111
 		goto Duskwood,73.68,46.7
 		talk Commander Althea Ebonlocke##264
 		.turnin The Legend of Stalvan##79
 		.accept The Legend of Stalvan##80
-	step//113
+	step//112
 		goto Duskwood,72.62,46.9
 		talk Clerk Daltry##267
 		.turnin The Legend of Stalvan##80
 		.accept The Legend of Stalvan##97
-	step//114
+	step//113
 		goto Duskwood,73.53,46.86
 		talk Commander Althea Ebonlocke##264
 		.turnin The Legend of Stalvan##97
 		.accept The Legend of Stalvan##98
-	step//115
+	step//114
 		'If you didn't finish Gather Rot Blossoms before, go back to [80,59] and finish it |c
 		.from Skeletal Horror##202
 		.get 8 Rot Blossom|q 156/1
 		.turnin Gather Rot Blossoms##156
 		.accept Juice Delivery##159
-	step//116
+	step//115
 		'Skip if already did before|goto Duskwood,73.85,44.49
 		talk Tavernkeep Smitts##273
 		.turnin Gather Rot Blossoms##156
 		.accept Juice Delivery##159
-	step//117
-		'This is the last chance to finish the Shambler quest after killing Stalvan. If it's not night time simply abandone the quest.|goto Duskwood,76.5,35.14
+	step//116
+		'This is the last chance to finish the Shambler quest after killing Stalvan. If it's not night time simply abandon the quest.|goto Duskwood,76.5,35.14
 		.from Stalvan Mistmantle##315
 		.get Mistmantle Family Ring|q 98/1
-	step//118
+	step//117
 		goto Duskwood,75.77,45.26
 		talk Madame Eva##265
 		.turnin The Legend of Stalvan##98
-	step//119
+	step//118
 		'Get the FP to Rebel camp in STV.|goto Duskwood,77.54,44.33
 		'Upon landing, do the same "parkour" you did before and run to Raven hill through the mountains|c
-	step//120
+	step//119
 		goto Duskwood,18.15,56.51
 		talk Jitters##288
 		.turnin Finding the Shadowy Figure##453
 		.accept Return to Sven##268
-	step//121
+	step//120
 		goto Duskwood,7.94,33.96
 		talk Sven Yorgen##311
 		.turnin Return to Sven##268
 		.accept Proving Your Worth##323
-	step//122
+	step//121
 		goto Duskwood,17.64,29.05
 		turnin A Daughter's Love##231
-	step//123
+	step//122
 		'Cool sword, too bad the weapon training skill system is garbage and you don't get to use your weapon for 30-60 min if you haven't used that weapon type since level 10 or so. Don't worry, you can buy a better staff in STV|goto Duskwood,27.96,31.51
 		talk Abercrombie##289
 		.turnin Juice Delivery##159
 		.accept Ghoulish Effigy##133
-	step//124
+	step//123
 		'This part is really cool if you have claustrophobia|c
 		'Kill the 5 Plague Spreaders surrounding the tomb (the one at the slope doesn't count).|goto Duskwood,23.28,35.05
 		'Be aware of the rare ghoul here, it can easily kill you if you ass pull many other mobs aswell.|c
 		'Kill every plague spreader in the first hallway and the first "open" space. You should be at 15/20|goto Duskwood,23.64,28.04
 		'There is one more in the next room (16/20). Go to the other crypt through this hole.|goto Duskwood,20.51,27.67
-	step//125
+	step//124
 		'We are looking to kill the raiders here (16 spawns and you need 15...). There is one in the room you entered through and then one more to the room to your right (west on minimap) from this waypoint|goto Duskwood,15.99,34.28
 		'There is 1 more here in this waypoint and another one in the room to your right (west on minimap).|goto Duskwood,15.53,36.88
 		'You should be at 4/15 when leaving the crypt. Go outside and kill everything there|c
 		'There are 2 more in the road around [19,39]. Once you are done go to Morbent's house atop the hill and finish the 2 quests by killing the ones around/inside the house|c
-	step//126
+	step//125
 		'Shopping list ahead. In short, try patience.|goto Duskwood,17.56,34.77
 		.kill 20 Plague Spreader##604|q 58/1
 		.get 10 Ghoul Fang|q 101/1
@@ -2668,85 +2697,85 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 		.kill 15 Skeletal Raider##1110|q 323/1
 		.kill 5 Skeletal Healer##787|q 323/2
 		.kill 5 Skeletal Warder##785|q 323/3
-	step//127
+	step//126
 		goto Duskwood,7.77,33.97
 		talk Sven Yorgen##311
 		.turnin Proving Your Worth##323
 		.accept Seeking Wisdom##269
-	step//128
+	step//127
 		goto Duskwood,28.01,31.48
 		talk Abercrombie##289
 		.turnin Ghoulish Effigy##133
 		.accept Ogre Thieves##134
-	step//129
+	step//128
 		'Interact with the crate|goto Duskwood,33.43,76.25
 		.get Abercrombie's Crate|q 134/1
-	step//130
+	step//129
 		goto Duskwood,36.99,83.3
 		.from Zzarc' Vul##300
 		.get Ogre's Monocle|q 181/1
-	step//131
+	step//130
 		'If somehow you didn't get the Old History book after this ordeal, consider killing every single ogre in the area to try to get it to drop.|goto Duskwood,27.99,31.45
 		talk Abercrombie##289
 		.turnin Ogre Thieves##134
 		.accept Note to the Mayor##160
-	step//132
+	step//131
 		'HS back to Darkshire|use Hearthstone##6948|c
-	step//133
+	step//132
 		'Sell junk and fill quiver inside the inn|goto Duskwood,73.63,46.97
 		talk Commander Althea Ebonlocke##264
 		.turnin The Night Watch##58
 		.'Pick the ammo pouch if you already have better regular bags (your quiver is already better). Surely you will get a dwarven hand cannon at level 52|c
-	step//134
+	step//133
 		goto Duskwood,72.02,46.61
 		talk Lord Ello Ebonlocke##263
 		.turnin Note to the Mayor##160
 		.accept Translate Abercrombie's Note##251
-	step//135
+	step//134
 		goto Duskwood,72.58,47.65
 		talk Sirra Von'Indi##268
 		.turnin Translate Abercrombie's Note##251
 		.accept Wait for Sirra to Finish##401
-	step//136
+	step//135
 		goto Duskwood,72.62,47.52
 		talk Sirra Von'Indi##268
 		.turnin Wait for Sirra to Finish##401
 		.accept Translation to Ello##252
-	step//137
+	step//136
 		goto Duskwood,72.01,46.59
 		talk Lord Ello Ebonlocke##263
 		.turnin Translation to Ello##252
 		.accept Bride of the Embalmer##253
-	step//138
+	step//137
 		goto Duskwood,75.71,45.34
 		talk Madame Eva##265
 		.turnin The Totem of Infliction##101
-	step//139
+	step//138
 		goto Duskwood,79.76,47.96
 		talk Viktori Prism'Antras##276
 		.turnin Look To The Stars##181
-	step//140
+	step//139
 		'Fly to Stormwind|goto Duskwood,77.53,44.33
 		.'If you took the ammo pouch store it in the bank upon landing|c
-	step//141
+	step//140
 		goto Stormwind City,51.2,48.38
 		talk Brother Sarno##7917
 		.accept Tinkmaster Overspark##2923
-	step//142
+	step//141
 		goto Stormwind City,50.05,46.02
 		talk Bishop Farthing##1212
 		.turnin Seeking Wisdom##269
 		.accept The Doomed Fleet##270
-	step//143
+	step//142
 		goto Stormwind City,76.97,47.69
 		talk Count Remington Ridgewell##2285
 		.accept The Perenolde Tiara##543
-	step//144
+	step//143
 		'Only if you didn't do it before, otherwise skip it|goto Stormwind City,76.99,30.55
 		talk Milton Sheaf##1440
 		.turnin An Old History Book##337
 		.accept Southshore##538
-	step//145
+	step//144
 		'Take the tram to IF|goto Stormwind City,68.97,30.96
 		.'Level up first aid while riding the tram as usual.|c
 		.'Even if you get to 210 first aid in the tram don't go to the bank to retrieve the mageweave manual yet. You can get it in Booty bay and/or Ratchet later on|c
@@ -2825,7 +2854,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetland
 		'Talk to Sarah Louthy (id:45278)|c
 		.'Accept Finding Hero (id:26346)|c
 	step//17
-		'Go to the pond and interact with the dirt mound. A Murloc will spawn. Kill it|goto Wetlands,41.81,45.88
+		'Go to the pond and interact with the dirt mound. A Murloc will spawn. Kill it|goto Wetlands,20.16,70.74
 		'Get Hero from Old Green(id:45332) for a quest (id:26346, objective:1)|c
 	step//18
 		goto Wetlands,30.68,70.38
@@ -2912,220 +2941,223 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetland
 		.'Accept Butcher of Burndural (id:26342)|c
 		.'Accept The Whelp Wranglers (id:26347)|c
 	step//36
-		'Go to the tower first. There is a rare around here that drops a good AGI + INT belt (Grol'thok)|goto Wetlands,36.32,64.48
+		'Kill the first named mob in the tower to your right just as you enter the area.|goto Wetlands,44.17,56.72
+		.'Kill Watcher Xorck (id:45281) for a quest (id:26341, objective2)|c
+	step//37
+		'To the tower next. There is a rare around here that drops a good AGI + INT belt (Grol'thok)|goto Wetlands,471,51.49
 		.'Kill 6 Dragonmaw Darkhand (id:45268) for a quest (id:26347, objective1)|c
 		.'Kill Subjugator Sharog (id:45279) for a quest (id:26347, objective2)|c
-	step//37
+	step//38
 		'Now to the worg pens|goto Wetlands,48.16,56.67
 		.'Kill Beastmistress Mor (id:45257) for a quest (id:26342, objective2)|c
-	step//38
-		'Finish any of the regular mobs you might still need while going back to the entrance|c
+	step//39
+		'Finish any of the regular mobs you might still. Clear the entrance if the mobs have respawned then head to the main frotress|c
 		.'Kill 6 Dragonmaw Butcher (id:45265) for a quest (id:26342, objective1)|c
 		.'Kill 6 Dragonmaw Blademaster (id:45264) for a quest (id:26341, objective1)|c
-		'Now for the last named mob. If you leave the area jumping off of it it looks really cool. Go to Wetlands 36.32,64.48
-		.'Kill Watcher Xorck (id:45281) for a quest (id:26341, objective2)|c
-	step//39
+	step//40
+		'Go here and kite Nek'rosh II: The revenge back to the dwarf quest giver. He is a pusheover due to the level difference. Can pet tank after kiting him.|goto Wetlands,50,58
+		.'If you fail to kite him then just turn in the quests and proceed as normal|c
+		'Skip this step|c
+	step//41
 		goto Wetlands,39.11,55.41
 		'Talk to Scout Barleybrew (id:45330)|c
 		.'Turn in Where It Hurts (id:26341)|c
 		.'Turn in Butcher of Burndural (id:26342)|c
 		.'Turn in The Whelp Wranglers (id:26347)|c
 		.'Accept Nek'rosh Must Die (id:26338)|c
-	step//40
-		'Go kill Nek'rosh II: the revenge. He was a pusheover. Can pet tank in the main hall. If that's not the case anymore, just kite him to the entrance|goto Wetlands,50,58
-		.'Get Nek'roshes's Head from Chieftain Nek'rosh(id:45262) for a quest (id:26338, objective:1)|c
-	step//41
-		goto Wetlands,26.68,59.58
+	step//42
+		'Get Nek'roshes's Head from Chieftain Nek'rosh(id:45262) for a quest (id:26338, objective:1)|c
+		'Reminder of where he is if you failed to kite him|goto Wetlands,50,58
+	step//43
+		'Nek'rosh quest is turned in at the major, not at dwarf near the fortress so don't worry.|goto Wetlands,26.68,59.58
 		'Talk to Corporal Mountainview (id:45238)|c
 		.'Turn in Ram Ranch Rescue (id:26286)|c
 		.'Turn in Highlands Hightail (id:26344)|c
 		.'Accept Evacuation Report (id:26343)|c
-	step//42
+	step//44
 		goto Wetlands,27.88,66.61
 		'Talk to Mayor Oakmaster (id:45236)|c
 		.'Turn in Nek'rosh Must Die (id:26338)|c
 		.'Turn in Evacuation Report (id:26343)|c
 		.'Accept A Temporary Victory (id:26339)|c
-	step//43
+	step//45
 		goto Wetlands,26.47,68.83
 		'Talk to Nixi Singlespring (id:45242)|c
 		.'Turn in Let's Get Outta Here (id:26282)|c
-	step//44
+	step//46
 		goto Wetlands,16.77,71.67
 		'Talk to Angus Thickbottom (id:45239)|c
 		.'Turn in Golem Gyroscope (id:26280)|c
 		.'Accept Golem Gyroscope (id:26281)|c
-	step//45
+	step//47
 		'Target the golem and wake it up, then kill it.. Use Golem Repair Kit. Go to Wetlands 16.31,71.26
 		.'Goal: Fix the Golem at Angus' Farm. For a quest (id:26281, objective:1)|c
-	step//46
+	step//48
 		goto Wetlands,16.73,71.58
 		'Talk to Angus Thickbottom (id:45239)|c
 		.'Turn in Golem Gyroscope (id:26281)|c
-	step//47
+	step//49
 		'Go here, make sure you are full HP and run (DON'T JUMP) towards the north west to fall down.|goto Wetlands,16.6,69.64
 		'Now go down here w/o taking falling damage|goto Wetlands,13.43,68.2
-	step//48
-		goto Wetlands,12.03,64.18
+	step//50
+		'On your way there, kill as few Murlocs as possible. You will need to kill them to progress the quest you are about to accept.|goto Wetlands,12.03,64.18
 		turnin Lightforge Iron##321
 		accept The Lost Ingots##324
-	step//49
+	step//51
 		from Bluegill Raider##1418
 		get 5 Lightforge Ingot|q 324/1
-	step//50
+	step//52
 		goto Wetlands,10.63,60.49
 		talk Glorin Steelbrow##1217
 		.turnin The Lost Ingots##324
 		.accept Blessed Arm##322
-	step//51
+	step//53
 		goto Wetlands,9.9,57.4
 		talk Captain Stoutfist##2104
 		.turnin A Temporary Victory##26339
-	step//52
+	step//54
 		goto Wetlands,7.44,57.4
 		accept Waterlogged Journal##26670
-	step//53
+	step//55
 		'Fly to Southshore|goto Wetlands,9.55,59.64
-	step//54
+	step//56
 		'Buy 4 Soothing spices. 1 for the quest at the inn and 3 for a quest in Dustwallow later|goto Hillsbrad Foothills,48.96,55.07
 		.talk Micha Yance##2381
-	step//55
+	step//57
 		goto Hillsbrad Foothills,52.34,56.04
 		talk Darren Malvew##2382
 		.accept Costly Menace##564
-	step//56
+	step//58
 		'No need to accept the followup yet|goto Hillsbrad Foothills,50.5,57.09
 		talk Loremaster Dibbs##2277
 		.turnin Southshore##538
-	step//57
-		goto Hillsbrad Foothills,50.34,58.89
-		talk Phin Odelic##2711
-		.accept Hints of a New Plague?##659
-	step//58
-		'>>> DON'T SET HS <<< We want it in Wetlands|c
 	step//59
+		'>>> DON'T SET HS <<< We want it in Wetlands|c
+	step//60
 		goto Hillsbrad Foothills,51.09,59.13
 		talk Neema##2364
 		.'Accept A Rare Variety (id:27718)|c
-	step//60
+	step//61
 		goto Hillsbrad Foothills,51.4,58.51
 		talk Lieutenant Farren Orinelle##2228
 		.accept Down the Coast##536
-	step//61
+	step//62
 		goto Hillsbrad Foothills,51.83,58.74
 		talk Chef Jessen##2430
 		.accept Soothing Turtle Bisque##555
-	step//62
+	step//63
 		goto Hillsbrad Foothills,49.61,58.68
 		talk Marshal Redpath##2263
 		.accept Crushridge Bounty##500
-	step//63
+	step//64
 		goto Hillsbrad Foothills,48.19,59.2
 		talk Magistrate Henry Maleb##2276
 		.accept Syndicate Assassins##505
-	step//64
+	step//65
 		'The hunters cast frost nova early during the fight. The oracles heal|goto Hillsbrad Foothills,47.55,64.19
 		.kill 10 Torn Fin Tidehunter##2377|q 536/1
 		.kill 10 Torn Fin Oracle##2376|q 536/2
-	step//65
+	step//66
 		goto Hillsbrad Foothills,51.39,58.45
 		talk Lieutenant Farren Orinelle##2228
 		.turnin Down the Coast##536
 		.accept Farren's Proof##559
-	step//66
+	step//67
 		'Back to the murlocs|goto Hillsbrad Foothills,47.55,64.19
 		.from Torn Fin Tidehunter##2377, Torn Fin Oracle##2376
 		.get 10 Murloc Head|q 559/1
-	step//67
+	step//68
 		goto Hillsbrad Foothills,51.41,58.51
 		talk Lieutenant Farren Orinelle##2228
 		.turnin Farren's Proof##559
 		.accept Farren's Proof##560
-	step//68
+	step//69
 		goto Hillsbrad Foothills,49.54,58.75
 		talk Marshal Redpath##2263
 		.turnin Farren's Proof##560
 		.accept Farren's Proof##561
-	step//69
+	step//70
 		goto Hillsbrad Foothills,51.41,58.51
 		talk Lieutenant Farren Orinelle##2228
 		.turnin Farren's Proof##561
 		.accept Stormwind Ho!##562
-	step//70
+	step//71
 		'Focus on the Shorehunters early even if they are offshore. Otherwise you will be wating for spawns or running too far off.|goto Hillsbrad Foothills,53.43,64.2
 		.'The Sirens' SWP can be nasty if you get hit by too many in a row, mind your HP.|c
 		.kill 10 Daggerspine Shorehunter##2369|q 562/1
 		.kill 10 Daggerspine Siren##2371|q 562/2
-	step//71
+	step//72
 		goto Hillsbrad Foothills,51.43,58.49
 		talk Lieutenant Farren Orinelle##2228
 		.turnin Stormwind Ho!##562
 		.accept Reassignment##563
-	step//72
+	step//73
 		'Go here and then upstream while killing the turtles. If you aren't too unlucky you will get 10 meats right after climbing the waterfall|goto Hillsbrad Foothills,55.29,56.86
 		.'If unlucky you can finish this later when running to plaguelands|c
 		.from Snapjaw##2408
 		.get 10 Turtle Meat|q 555/1
-	step//73
+	step//74
 		'Inside the cave loot the granite from the nodes|goto Hillsbrad Foothills,46.44,32.02
 		.get 5 Alterac Granite|q 689/1
 		.'The custom rare can be tanked by your pet and drops nice MP5 boots|c
-	step//74
+	step//75
 		'First clear this camp and, most importantly, the 4 Hulking Mountain Lions. You want to start the respawns|goto Alterac Mountains,44.72,79.64
+		.'Accept any of the quests laying around in the tables|c
 		'Afterwards go here and finish killing the 8 regular ones. Kill any Hulking lions you find|goto Alterac Mountains,40.24,83.9
 		.kill 8 Mountain Lion##2406|q 564/1
-	step//75
+	step//76
 		'When done with the regular lions go back to where you started and finish killing the last 3 Hulking lions.|goto Alterac Mountains,43.13,79.95
 		.kill 10 Hulking Mountain Lion##2407|q 564/2
-	step//76
+		.'Do something|c
+	step//77
 		'Kill the respawning mobs here then move onto the camp east of the road|goto Alterac Mountains,46.45,80.42
 		'Finish off the quest. Try to outrange the mage to pull it outside the camp|goto Alterac Mountains,56.27,66.79
 		.kill 12 Syndicate Footpad##2240|q 505/1
 		.kill 8 Syndicate Thief##2241|q 505/2
-	step//77
+	step//78
 		'The letters could be in both tables, but in this server they are usually in the table east of the road|goto Alterac Mountains,58.32,67.67
 		accept Foreboding Plans##510
 		accept Encrypted Letter##511
-	step//78
+	step//79
 		'Kill some ogres here while moving straight to the mountain pass|goto Alterac Mountains,50.31,60.13
 		'Go here and try to /target Lo'Grosh . It's a rare that has a 1/10 chance of dropping a 4.0s two handed lvl 32 mace. It's the best weapon for it's level.|goto Alterac Mountains,50.21,49.89
 		'Vendor things here and finish killing the ogres.|goto Alterac Mountains,47.3,35.25
 		.talk Rizz Loosebolt##2684
 		.get 9 Dirty Knucklebones|q 500/1
-	step//79
+	step//80
 		'Track hidden to try and see the stealthed mobs. Gather the seeds in the baskets near the trees.|goto Alterac Mountains,57.58,44.01
 		.'Get 6 Wintercrisp Apple Seed for a quest (id:27718, objective:1)|c
-	step//80
+	step//81
 		'Go to WPL to grab the FP and fly back to Southshore.|goto Western Plaguelands,42.96,85.02
 		.talk Bibilfaz Featherwhistle##12596
 		'If you were unlucky when doing the Turtle Meat quest take a detour to the river while on your way to WPL|c
-	step//81
+	step//82
 		goto Hillsbrad Foothills,52.36,56.02
 		talk Darren Malvew##2382
 		.turnin Costly Menace##564
-	step//82
+	step//83
 		goto Hillsbrad Foothills,50.54,57.16
 		talk Loremaster Dibbs##2277
 		.turnin Encrypted Letter##511
 		.accept Letter to Stormpike##514
-	step//83
+	step//84
 		'Don't bother with the follow up yet|goto Hillsbrad Foothills,51.1,59.2
 		talk Neema##2364
 		.'Turn in A Rare Variety (id:27718)|c
-	step//84
+	step//85
 		goto Hillsbrad Foothills,51.8,58.7
 		talk Chef Jessen##2430
 		.turnin Soothing Turtle Bisque##555
-	step//85
+	step//86
 		'Don't bother with the follow up yet|goto Hillsbrad Foothills,49.51,58.78
 		talk Marshal Redpath##2263
 		.turnin Crushridge Bounty##500
-	step//86
+	step//87
 		'Don't bother with the follow up yet|goto Hillsbrad Foothills,48.18,59.23
 		talk Magistrate Henry Maleb##2276
 		.turnin Foreboding Plans##510
 		.turnin Syndicate Assassins##505
-	step//87
+	step//88
 		'Fly to Menethil if you haven't set your HS there. Otherwise, fly to IF|goto Hillsbrad Foothills,49.35,52.34
 ]])
 
@@ -3246,7 +3278,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 		'Interact with the dirt pile|goto Dustwallow Marsh,55.44,26.01
 		accept The Orc Report##1219
 	step//30
-		'As soon as you accept the follow up Hendel and the 2 guards will atck you. Take them off you with your pet and focus in Hendel|goto Dustwallow Marsh,45.25,24.54
+		'As soon as you accept the follow up Hendel and the 2 guards will attack you. Take them off you with your pet and focus in Hendel|goto Dustwallow Marsh,45.25,24.54
 		talk Private Hendel##4966
 		.turnin The Missing Diplomat##1266
 		.accept The Missing Diplomat##1324
@@ -3274,8 +3306,8 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 		'The shield in the wall|goto Dustwallow Marsh,29.62,48.55
 		accept The Black Shield##1253
 	step//38
-		'Time for some leg day. Go to the elevator south of the barrens to get into 1k needles|goto Thousand Needles,30.54,23.87
-		'Once you are down there interact with the book near the dwarf's corpse|c
+		'Time for some leg workout. Go to the elevator south of the barrens to get into 1k needles|goto Thousand Needles,30.73,24.33
+		'Once you are down there interact with the book near the dwarf's corpse|use Henrig Lonebrow's Journal##5791|c
 		accept Lonebrow's Journal##1100
 	step//39
 		'>>> TURN IN ORDER IS IMPORTANT <<< First turn in the journal then do Reclaiming the Charred Vale. If you have auto turn in you might want to disable it for a moment|goto Feralas,89.65,46.53
@@ -3296,7 +3328,8 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 	step//43
 		'From now on and until level 40 or so when explosive trap dmg starts to fall off relative to mob HP, you should try to do the following in group of mobs that you outlevel and are grouped together|c
 		'Place an explosive trap while you send your pet to gather a bunch of mobs (you can help with range attacks on far away ones) then take agro off of you with growl/intimidate. Start healing your pet as soon as you have gathered 3 and have growled them off of you.|c
-		'When 5 of them or so are gathered bring them back to the trap to trigger it. Once your trap is off CD again place another explosive trap, cas multishot and the feign death. Keep mend pet up and the mobs will die shortly after.|c
+		'When 5 of them or so are gathered bring them back to the trap to trigger it. Once your trap is off CD again place another explosive trap, cast multishot and then feign death. Keep mend pet up and the mobs will die shortly after.|c
+		.'It's important to outlevel them, otherwise feign death has a high chance of being resisted (you have to roll for resist for every mob near you, really cool implementation as always)|c
 		'Practice with the wyverns in the area we are headed to. Yer a mage, Hunter|c
 	step//44
 		'Go to the Wyvern area. The cat is there inside the nest and hard to see if you don't turn the camera to look inside. Target the cat (/target Cody) and use the carrier. Use Empty Pet Carrier. Go to Thousand Needles 13.65,38.14
@@ -3619,7 +3652,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.
 		.turnin Bookie Herod##200
 		.accept The Hidden Key##328
 	step//26
-		'Go east and kil the fighters and the medicine mans for their respective quests. You can AoE down the lumbermill easily, just try to LoS Bookie Herod so he doesn't cast Shadow bolt constantly|goto Stranglethorn Vale,46.25,11.58
+		'Go east and kill the fighters and the medicine mans for their respective quests. You can AoE down the lumbermill easily, just try to LoS Bookie Herod so he doesn't cast Shadow bolt constantly|goto Stranglethorn Vale,46.25,11.58
 		.'You probably won't finish killing all the fighters untill you come back and they respawn|c
 	step//27
 		'Go here and kill some basilisks for the crystals (Track beasts). You don't need to finish this quest yet, just progress it|goto Stranglethorn Vale,48.21,8.1
@@ -3632,142 +3665,145 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.
 		.get 7 Jungle Remedy|q 204/1
 	step//29
 		'If you still don't have Thorsen's quest you have another chance to get it here|goto Stranglethorn Vale,38.02,3.42
-		'Do something|c
 		talk Sergeant Yohwa##733
 		.turnin Bad Medicine##204
 		.turnin The Second Rebellion##203
 		.accept Special Forces##574
 	step//30
+		'>>> Refill quiver <<<|goto Stranglethorn Vale,37.93,3.02
+		.talk Corporal Bluth##734
+	step//31
 		goto Stranglethorn Vale,37.87,3.47
 		talk Brother Nimetz##739
 		.accept Kurzen's Mystery##207
-	step//31
+	step//32
 		'Through the usual mountain skip in rebel camp. Kill some extra basilisks here again.|goto Stranglethorn Vale,35.6,10.57
 		talk Ajeck Rouack##717
 		.turnin Tiger Mastery##186
 		.accept Tiger Mastery##187
-	step//32
+	step//33
 		goto Stranglethorn Vale,35.59,10.56
 		talk Sir S. J. Erlgadin##718
 		.turnin Panther Mastery##190
 		.accept Panther Mastery##191
-	step//33
+	step//34
 		'Go here and start killing the panthers towards the south west. There are just enough to finish the quest.|goto Stranglethorn Vale,30.28,9.23
 		'Should be done with the Panthers here. Then start working on the raptors.|goto Stranglethorn Vale,28.45,16.28
 		.kill 10 Panther##736|q 191/1
 		.kill 10 Stranglethorn Raptor##685|q 194/1
 		..'Even if the raptors are together don't over do it. The baby raptors hit hard and won't despawn after killing the big ones.|c
-	step//34
+	step//35
 		'After killing the 10 raptors go here and discover the island.|goto Stranglethorn Vale,21.85,21.86
 		.goal Locate the haunted island|q 578/1
-	step//35
+	step//36
 		'Now go here and climp up the slope|goto Stranglethorn Vale,22.87,17.2
 		'Run here while killing the basilisks. You can pull the ones below with your pet/by shooting them.|goto Stranglethorn Vale,28.17,18.15
 		.from Crystal Spine Basilisk##689
 		.get 10 Singing Crystal Shard|q 605/1
-	step//36
+	step//37
 		'Go here and kill the Elder tigers. First kill the one at this spot and the one to its left, then start circling the mound counter clock wise.|goto Stranglethorn Vale,31.17,16.7
 		'You should be finishing the quest around this spot, under the bridge.|goto Stranglethorn Vale,35.47,19.02
 		.kill 10 Elder Stranglethorn Tiger##1085|q 187/1
-	step//37
-		'If you don't have Thorsen's quest go to the road where the event happens and check if he is there or if he is patrolling with eagle eye. If you already got the quest or after accepting it HS back to Booty bay|use Hearthstone##6948|c
 	step//38
+		'If you don't have Thorsen's quest go to the road where the event happens and check if he is there or if he is patrolling with eagle eye. If you already got the quest or after accepting it HS back to Booty bay|use Hearthstone##6948|c
+	step//39
 		'Don't accept the follow up yet|goto Stranglethorn Vale,27.1,77.26
 		talk Crank Fizzlebub##2498
 		.turnin Singing Blue Shards##605
-	step//39
+	step//40
 		'Don't accept the follow up either|goto Stranglethorn Vale,26.99,77.22
 		talk Krazek##773
 		.turnin Investigate the Camp##201
 		.turnin Krazek's Cookery##210
-	step//40
+	step//41
 		goto Stranglethorn Vale,27.19,76.92
 		talk Baron Revilgaz##2496
 		.turnin The Stone of the Tides##578
 		.accept Water Elementals##601
-	step//41
+	step//42
 		'Go to the bank and store any Green hills pages you may have.|goto Stranglethorn Vale,26.59,76.56
 		'If you want to try and tame the rare spectral triger you should stable your pet now too. After you get to rebel camp simply tame w/e beast that's around (and you have food for!!!)|c
-	step//42
+	step//43
 		goto Stranglethorn Vale,28.26,77.53
 		talk Drizzlik##2495
 		.turnin Supply and Demand##575
 		.accept Some Assembly Required##577
-	step//43
-		'Fly to Rebel camp|goto Stranglethorn Vale,27.54,77.74
 	step//44
+		'Fly to Rebel camp|goto Stranglethorn Vale,27.54,77.74
+	step//45
 		'>>> FILL QUIVER <<<|goto Stranglethorn Vale,37.96,3.03
 		.talk Corporal Bluth##734
 		'Once again, check if Private Forsen is patrolling if you don't have the quest... This is the last chance. If you don't get it, forget about it.|c
-	step//45
+	step//46
 		goto Stranglethorn Vale,35.61,10.57
 		talk Sir S. J. Erlgadin##718
 		.turnin Panther Mastery##191
 		.accept Panther Mastery##192
-	step//46
+	step//47
 		goto Stranglethorn Vale,35.66,10.65
 		talk Ajeck Rouack##717
 		.turnin Tiger Mastery##187
 		.accept Tiger Mastery##188
-	step//47
+	step//48
 		goto Stranglethorn Vale,35.69,10.78
 		talk Hemet Nesingwary##715
 		.turnin Raptor Mastery##194
 		.accept Raptor Mastery##195
-	step//48
+	step//49
 		'You can go through the troll camp and clear it while on your way. You will need keys.|goto Stranglethorn Vale,32.27,17.26
 		.from Sin'Dall##729
 		.get Paw of Sin'Dall|q 188/1
 		'If you stabled your pet one of the elder tigers around Sin'Dall's mound is a good temporary substitute.|c
-	step//49
-		'Go to the troll ruins and begin to gather keys and ears by killing troll.|goto Stranglethorn Vale,27.65,11.32
-		'The Mystics hit extremely hard (as every caster NPC does...). Don't pull more than one at a time|c
-		'Whenever you find gfind an alliance captive go free it. You will probably have to go out of your way to finish this. Go to the next step|c
 	step//50
+		'Go to the troll ruins and begin to gather keys and ears by killing trolls.|goto Stranglethorn Vale,27.65,11.32
+		'The Mystics hit extremely hard (as every caster NPC does...). Don't pull more than one at a time|c
+		'Whenever you find an alliance captive go free it. You will probably have to go out of your way to finish this because you can't free the horde ones so the npc respawns. Go to the next step|c
+		.'If the chance for a captive to be from either faction is a 50/50 and the spawns are not fixed this is bound to cause issues in the long run...|c
+	step//51
 		'Go to the tablet on top of the ruins first.|goto Stranglethorn Vale,24.71,8.98
 		.get The Fourth Troll Legend|q 207/4
-	step//51
+	step//52
 		'Now to this tablet. Check the shopping list before leaving Troll City|goto Stranglethorn Vale,22.98,12.02
 		.get The Third Troll Legend|q 207/3
 		get 15 Bloodscalp Ear|q 189/1
 		'Goal: 8 Adventurers Freed. For a quest (id:26437, objective:1)|c
-	step//52
+	step//53
 		'Go to the elementals' island and kill them|goto Stranglethorn Vale,21.98,21.87
 		.from Lesser Water Elemental##691
 		.get 6 Water elemental bracers|q 601/1
-	step//53
+	step//54
 		'To do this step w/o using a water breathing elixir first EXACTLY to this coordinate go here.|goto Stranglethorn Vale,24.71,23.16
 		'Now swim straight down. When you pull the Murlocs trap them and/or send your pet. Sac your pet if necessary and after you loot the table feign death.|c
 		.get The Second Troll Legend|q 207/2
-	step//54
+	step//55
 		'Finally go here and loot the last tablet|goto Stranglethorn Vale,29.48,19.19
 		.get The First Troll Legend|q 207/1
-	step//55
+	step//56
 		'Go AoE clear this raptor camp and then keep killing raptors to the south-east, towards the delta of the river.|goto Stranglethorn Vale,30.86,23.07
 		'Should be done around this spot.|goto Stranglethorn Vale,35.68,27.5
 		.kill 10 Lashtail Raptor##686|q 195/1
-	step//56
+	step//57
 		'Begin killing Crocolisks here and run north towards the Venture Co. camp|goto Stranglethorn Vale,38.53,29.78
 		'If you got bad RNG on pelts kill the crocks inside the lake|goto Stranglethorn Vale,42.56,21.16
 		.from Snapjaw Crocolisk##1152
 		.get 5 Snapjaw Crocolisk Skin|q 577/1
-	step//57
+	step//58
 		'Check with eagle eye if there is an albino rare crocolisks at the north part of the lake (Gena). If so, kill it for a dagger that selss for 1g.|c
 		'Go to the top platform and kill Foreman Cozzle to get his key.|goto Stranglethorn Vale,42.6,18.37
-	step//58
+	step//59
 		'Drop down to the lumbermill and kill the Venture Co. Mechanics. They should drop a custom item that starts a quest.. Use Experimental Mind Control Helmet. Go to Stranglethorn Vale 43.09,18.87
 		.'Accept The Janky Helmet (id:26483)|c
-	step//59
+	step//60
 		'Loot the blueprints from the chest unlocking it with the key you looted from the Foreman|goto Stranglethorn Vale,43.35,20.37
 		.get Fuel Regulator Blueprints|q 1182/1
-	step//60
-		'Make your way towards the panthers to the east while getting the crystals from the geologists.|goto 0,0
-		.from Venture Co. Geologist##1096
-		.get 8 Tumbled Crystal|q 213/213
 	step//61
+		'Make your way towards the panthers to the east while getting the crystals from the geologists.|goto 46.74,22.79
+		.from Venture Co. Geologist##1096
+		.get 8 Tumbled Crystal|q 213/1
+	step//62
 		'Track hidden on and run around this mound killing the stealthed panthers.|goto Stranglethorn Vale,48.3,22.23
 		.kill 10 Shadowmaw Panther##684|q 192/1
-	step//62
+	step//63
 		'Back to the Kurzen camp. If you got Thorsen's quest later make a detour the the house with the records ([43,9]) before entering the cave to finish the first part.|goto Stranglethorn Vale,45.58,8.35
 		.kill 10 Kurzen Commando##938|q 574/1
 		.kill 6 Kurzen Headshrinker##941|q 574/2
@@ -3775,68 +3811,72 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.
 		.turnin The Hidden Key##328
 		.accept The Spy Revealed!##329
 		'When everything that you could do is done HS back to booty bay|use Hearthstone##6948|c
-	step//63
+	step//64
 		'Don't accept the follow up yet|goto Stranglethorn Vale,27.02,77.2
 		talk Kebok##737
 		.turnin Hostile Takeover##213
 		.turnin Bloodscalp Ears##189
-	step//64
+	step//65
 		goto Stranglethorn Vale,27.18,76.9
 		talk Baron Revilgaz##2496
 		.turnin Water Elementals##601
 		.accept Magical Analysis##602
 		.turnin Goblin Sponsorship##1182
 		.accept Goblin Sponsorship##1183
-	step//65
-		'Jump down and store Greenhill pages|goto Stranglethorn Vale,26.59,76.55
 	step//66
+		'Jump down and store Greenhill pages|goto Stranglethorn Vale,26.59,76.55
+	step//67
 		'Don't accept the follow up yet|goto Stranglethorn Vale,27.59,77.43
 		talk Scooty##7853
 		.'Turn in The Janky Helmet (id:26483)|c
-	step//67
+	step//68
 		'Don't accept the follow up yet|goto Stranglethorn Vale,28.26,77.53
 		talk Drizzlik##2495
 		.turnin Some Assembly Required##577
-	step//68
-		'Fly to rebel camp|goto Stranglethorn Vale,27.54,77.76
 	step//69
+		'Fly to rebel camp|goto Stranglethorn Vale,27.54,77.76
+	step//70
 		goto Stranglethorn Vale,37.87,3.53
 		talk Brother Nimetz##739
 		.turnin Kurzen's Mystery##207
 		.accept Troll Witchery##205
-	step//70
+	step//71
 		goto Stranglethorn Vale,37.7,3.41
 		talk Corporal Sethman##1422
 		.'Turn in Stop The Shrinking (id:26437)|c
-	step//71
+	step//72
 		'>>> Refill quiver <<<|goto Stranglethorn Vale,37.93,3.02
 		.talk Corporal Bluth##734
-	step//72
+	step//73
 		'Skip all but the first turn in if you didn't do Thorsen's questline. Don't accept Colonel Kurzen|goto Stranglethorn Vale,38.03,3.06
 		talk Lieutenant Doren##469
 		.turnin Special Forces##574
 		.turnin The Spy Revealed!##329
 		.accept Patrol Schedules##330
-	step//73
+	step//74
 		'Only if you did Thorsen's questline|goto Stranglethorn Vale,37.68,3.37
 		talk Corporal Sethman##1422
 		.turnin Patrol Schedules##330
 		.accept Report to Doren##331
-	step//74
+	step//75
 		'Only if you did Thorsen's questline|goto Stranglethorn Vale,38.02,3.05
 		talk Lieutenant Doren##469
 		.turnin Report to Doren##331
-	step//75
+	step//76
 		'Through the usual mountain skip|goto Stranglethorn Vale,35.56,10.6
 		talk Sir S. J. Erlgadin##718
 		.turnin Panther Mastery##192
 		.accept Panther Mastery##193
-	step//76
+	step//77
+		goto Stranglethorn Vale,35.66,10.65
+		talk Ajeck Rouack##717
+		.turnin Tiger Mastery##188
+	step//78
 		goto Stranglethorn Vale,35.68,10.76
 		talk Hemet Nesingwary##715
 		.turnin Raptor Mastery##195
 		.accept Raptor Mastery##196
-	step//77
+	step//79
 		'Back to rebel camp and fly to Stormwind|goto Stranglethorn Vale,38.21,4.03
 ]])
 
@@ -3944,7 +3984,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Alterac
 		.accept Stormpike's Deciphering##554
 	step//25
 		'Second floor >>> Fill quiver <<<|goto Hillsbrad Foothills,49.12,55.19
-		'Fly to Arathi Highlands. Keep an eye out for the Forsaken courier and Fozruk while flying. Chances are if they don't show up they are the beggining of their patrol routes.|goto Hillsbrad Foothills,49.39,52.35
+		'Fly to Arathi Highlands. Keep an eye out for the Forsaken courier and Fozruk while flying. Chances are if they don't show up they are at the beggining of their patrol routes.|goto Hillsbrad Foothills,49.39,52.35
 	step//26
 		goto Arathi Highlands,45.73,45.83
 		'Talk to Indon Cliffreach (id:46066)|c
@@ -3972,7 +4012,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Alterac
 		accept Stones of Binding##651
 	step//32
 		'Loot 1 of the keys|goto Arathi Highlands,66.7,29.78
-		.get Cresting Key|q 651/1
+		.get Cresting Key|q 651/2
 		'Also take note where Fozruk (the giant) is. Patrols don't move unless they are in render distance of someone. He also starts his route here, so chances are he won't get too far away.|c
 	step//33
 		goto Arathi Highlands,60.24,53.71
@@ -3996,7 +4036,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Alterac
 		.turnin Hints of a New Plague?##657
 		.accept Hints of a New Plague?##660
 	step//37
-		'Follow the Nelf. You can try to kill the orcs ahead of time so she doesn't stop.|c
+		'Follow the Nelf. You can try to kill the orcs and even the undead inside the house ahead of time so she doesn't stop.|c
 		.goal Protect Kinelory|q 660/1
 	step//38
 		goto Arathi Highlands,60.13,53.88
@@ -4036,7 +4076,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Alterac
 		.'Turn in Waterlogged Journal (id:26670)|c
 		.'Accept Save The Animals (id:26682)|c
 	step//46
-		'The quest Save the animals has been bugged in betas 2.5 and 3, but I could it complete during beta 2. Basically, she will ask you to find the Gryphon I mentioned earlier and then will need meat from the spiders and berries from the berry bushes you might have seen while walking there.|c
+		'The quest Save the animals was bugged in betas 2.5 and 3, but I could it complete during beta 2. Basically, she will ask you to find the Gryphon I mentioned earlier and then you will need meat from the spiders and berries from the berry bushes you might have seen while walking there.|c
 		'I will be detailing the other quests as if the follow ups to the bugged one didn't exists since I don't remember their order exactly. The idea is to find the gryphon after you get out of the dwarves' fields while cooling the fire elementals and then, before going to talk to the water elemental, turn it in to unlock the other quests that ask you for food. This way you can do 3 gathering quests at the same time.|c
 		'If the quest works at the end of the questline you will get a free flight to Aerie peak. Make sure you get the FP there before going back to the dwarves in Arathi.|c
 		'Skip this step after reading|c
@@ -4113,7 +4153,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Alterac
 		.'Turn in Assistance Of Air (id:26693)|c
 		.'Accept Cooling The Fury (id:26694)|c
 	step//62
-		'Use the item from the quest on the hostile water elementals when they are 30-40% HP. Use Calming Air. Go to 897,37.61
+		'Use the item from the quest on the hostile water elementals when they are 30-40% HP. Use Calming Air. Go to 89.7,37.61
 		.'Goal: 8 Boling Wanderer Calmed. For a quest (id:26694, objective:1)|c
 	step//63
 		goto Arathi Highlands,89.38,35.31
@@ -4216,70 +4256,76 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Alterac
 		'Escort the gnome|c
 		.goal Defend Professor Phizzlethorpe|q 665/1
 	step//89
+		'Have to wait for the gnome to run back...|goto Arathi Highlands,33.85,80.56
+		talk Doctor Draxlegauge##2774
+		.turnin Sunken Treasure##665
+		.accept Sunken Treasure##666
+	step//90
 		'Equip the googles and drink one of your Elixir of Water Breathing|use Googles of Gem Hunting|c
 		'Basically go boat to boat retrieving charts and logs, killing the Nagas and gathering gems|c
-	step//90
+	step//91
 		'Enter the first ship through this "window" (not the hole below). Dismiss your pet before going in.|goto Arathi Highlands,23.68,84.21
 		'The log is inside a kettle in the very first room|goto Arathi Highlands,23.66,84.12
-		.get Maiden's Folly Log|q 662/1
+		.get Maiden's Folly Log|q 662/2
 		'Continue in the current floor inside the ship. Go through the doorframe to the west then enter the next room through the door to your right (north). The charts are to the left as you go in.|goto Arathi Highlands,23.02,84.44
 		.get Maiden's Folly Charts|q 662/1
-	step//91
+	step//92
 		'Exit the ship through one of the windows to the north. Dismiss your pet before doing so.|c
 		'Enter the second ship through the "window" here. Dismiss pet before going in.|goto Arathi Highlands,20.9,85.66
 		'The charts are to your left as you go in.|goto Arathi Highlands,20.48,85.61
 		.get Spirit of Silverpine Charts|q 662/3
 		'Exit the ship through the window with a cannon north west of where the charts you just looted were (dismiss pet...). Then, swim downwards and enter the lower level through the hole of the ship. The logs will be in the floor in front of you|goto Arathi Highlands,20.64,85.1
-		.get Some item|q 662/1
+		.get Spirit of Silverpine Log|q 662/4
 		.'There might be also a chest to your left|c
-	step//92
+	step//93
 		'Finish the killing quest and the gems' quest by finishing the lap counter clockwise|c
 		kill 10 Daggerspine Raider##2595|q 664/1
 		kill 3 Daggerspine Sorceress##2596|q 664/2
 		get 10 Elven Gem|q 666/1
-	step//93
+	step//94
 		goto Arathi Highlands,32.73,81.55
 		talk First Mate Nilzlix##2767
 		.turnin Deep Sea Salvage##662
-	step//94
+	step//95
 		goto Arathi Highlands,33.85,80.56
 		talk Doctor Draxlegauge##2774
 		.turnin Sunken Treasure##666
 		.accept Sunken Treasure##668
-	step//95
+	step//96
 		goto Arathi Highlands,33.93,80.75
 		talk Captain Steelgut##2769
 		.turnin Drowned Sorrows##664
-	step//96
+	step//97
 		goto Arathi Highlands,32.39,81.47
 		talk Shakes O'Breen##2610
 		.turnin Sunken Treasure##668
 		.accept Sunken Treasure##669
-	step//97
+	step//98
 		'Go back to Arathi through the same tunnel you got here.|goto Arathi Highlands,21.97,79.29
 		'Enter the Ogre cave here. The quest NPC is at the end.|goto Arathi Highlands,53.78,77.38
 		goto Arathi Highlands,54.72,81.78
 		.from Kor'gresh Coldrage##2793
 		.get Trelane's Wand of Invocation|q 693/1
-	step//98
+	step//99
 		'Go find Fozruk. He patrols around the 4 elemental stones (all the area). However, he doesn't move if he is not in render distance of someone, so chances are that you will find him by using eagle eye between the elemental stones from this tree.|goto Arathi Highlands,67.46,40.45
 		.'Mind you, Eagle eye has a limit render distance on Trinity Core, it's not like classic where you can render anything as long as you dont leave your current zone.|c
 		.from Fozruk##2611
 		.get Rod of Order|q 652/1
 		.'Kite him towards the elemental stone to the southwest (the one that gave you the quest). The adds will eventually give up. Toggle cower in your pet and spam distracting shot on CD. He will knock you down if he gets too close, so keep your distance.|c
-	step//99
+	step//100
 		'Place a trap before turning this in. An elite giant will spawn and try to kill you. Trap (or sac pet), run and FD.|goto Arathi Highlands,36.17,57.98
 		turnin Breaking the Keystone##652
 		accept Myzrael's Allies##653
-	step//100
+	step//101
 		'Buy 1 stack (x20) of level 35 meat. Your pet will get sacced A LOT very soon.|goto Arathi Highlands,45.5,47.63
 		.talk Narj Deepslice##2814
-	step//101
+	step//102
 		goto Arathi Highlands,46.57,47.04
 		talk Skuerto##2789
 		.turnin Wand over Fist##693
-	step//102
-		'With some luck you are very close to getting level 40. You probably don't have enough for mount, so just try to learn level 40 spells, specially to use mail.|goto Arathi Highlands,45.78,46.16
+	step//103
+		'Fly to Ironforge|goto Arathi Highlands,45.78,46.16
+		.'With some luck you are very close to getting level 40. You probably don't have enough for mount, so just try to learn level 40 spells, specially to use mail.|c
 ]])
 
 ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.2 & Swamp of sorrows (39-43)",[[
@@ -4374,6 +4420,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.
 		goto Stranglethorn Vale,27.68,76.73
 		talk Fin Fizracket##2486
 		.accept Stranglethorn Fever##348
+		..'Can only be accepted at level 40. If you aren't yet, just accept it afterwards|c
 	step//24
 		goto Stranglethorn Vale,28.25,77.52
 		talk Drizzlik##2495
@@ -4442,220 +4489,228 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.
 		.'Turn in Wild Tulip (id:26439)|c
 		.'Accept Wild Tulip (id:26440)|c
 	step//40
+		'Only if you didn't before because you weren't level 40|goto Stranglethorn Vale,27.68,76.73
+		talk Fin Fizracket##2486
+		.accept Stranglethorn Fever##348
+	step//41
 		goto Stranglethorn Vale,27.6,77.43
 		talk Scooty##7853
 		.'Accept The Janky Helmet (id:26484)|c
-	step//41
+	step//42
 		goto Stranglethorn Vale,26.98,77.3
 		talk Deeg##2488
 		.turnin Up to Snuff##587
-	step//42
+	step//43
 		goto Stranglethorn Vale,27.15,77.01
 		talk Fleet Master Seahorn##2487
 		.turnin The Bloodsail Buccaneers##604
 		.accept The Bloodsail Buccaneers##608
-	step//43
+	step//44
 		'Hardest thing in the entire guide and probably not doable on a non-hunter. Skip this when done reading|c
 		'Go to this ship first and clear the pirates on the deck, then kill Garr Salthoof. Since he is a Tauren his model goes through the deck, so he will get pulled through walls (and attack you aswell). His "charge" attack will deal half your HP, so try to get agro on your pet ASAP while he runs.|goto Stranglethorn Vale,29.91,89.33
 		.'Afterwards heal your pet to full, put it on passive and set your pet to stay outside of the ship (near the palm tree, f.ex.).|c
-		.'Go back on board and /target Captain to target Keelhaul. Command your pet to attack him and once he is aggroed press dive/sprint and put your pet on passive again. Your pet will run to the last stay position and will pull Keelhaul outside of his room. Hit/distract shot him and then jump off the ship with disengage towards the opposite direction your pet is going.|c
-		.'Your pet will despawn by distance before dying to mobs and Keelhaul will be chasing you. Once your pet despawns, resummon it, attack Keelhaul with it and feign death after it gets aggro. 1v1 the quest mob and go to the next ship.|c
-	step//44
-		kill Captain Keelhaul##2548|q 608/2
 	step//45
+		'Go back on board and /target Captain to target Keelhaul. Command your pet to attack him and once he is aggroed press dive/sprint and put your pet on passive again. Your pet will run to the last stay position and will pull Keelhaul outside of his room. Hit/distract shot him and then jump off the ship with disengage towards the opposite direction your pet is going.|c
+	step//46
+		'Your pet will despawn by distance before dying to mobs and Keelhaul will be chasing you. Once your pet despawns, resummon it, attack Keelhaul with it and feign death after it gets aggro. 1v1 the quest mob and go to the next ship.|c
+	step//47
+		kill Captain Keelhaul##2548|q 608/2
+	step//48
 		'Now to the second ship. Same thing but /target Fleet (Firallon) and try to jump off the ship towards the east (3rd ship)|goto Stranglethorn Vale,30.18,89.42
 		.kill Fleet Master Firallon##2546|q 608/3
-	step//46
+	step//49
 		'3rd ship, but this one we will be doing something different. Kill the pirates on deck then get inside the ship. Luckily you can pull everything here one by one and there is only 1 magus you need to fight.|goto Stranglethorn Vale,33.65,87.48
 		.'While on the middle level, hug your left (north) and kill the 2 pirates patrolling there. Before going through the doorframe that goes to the level below look right (south) and loot Cortello's riddle|goto Stranglethorn Vale,33.63,88.35|use Cortello's Riddle##4056
 		..accept Cortello's Riddle##624
 		..'In theory this thing spawns in the 3 ships at the same time in Trinity Core. This one is the easiest to get by far, the other ones are on the lowest level of the ships and are too hard to get.|c
-	step//47
-		'After you get the quest (if you don't find it here skip it, -20k XP and a bag) /target Captian and do the usual or kill it by split pulling him from the mage.|c
+	step//50
+		'After you get the quest (if you don't find it here skip it, -20k XP and a bag) /target Captian and do the usual or kill it by split pulling him from the mage. If you split pull him, stay away from the mobs or FD will get resisted|c
 		.kill Captain Stillwater##2550|q 608/1
-	step//48
+	step//51
 		'Go to Jaguero isle and hug the west shoreline to try to avoid the stealthed panthers (Track hidden). Loot the dirt pile|goto Stranglethorn Vale,39.52,76.6
 		.'Get Daniel's Spice Box for a quest (id:26440, objective:1)|c
 		'Btw, if you are wondering why these kinds of split pulling shenanigans work is because, yes, it's not blizzlike. Social aggroed mobs don't get aggro "pulses" when you hit a mob that's "tethered" to them, so you can reset and split them by getting aggro on a different unit (you) other than the original target (your pet) and then making the original target despawn.|c
-	step//49
+	step//52
 		'Now go do the gorilla related quests. Equip the helmet.|goto Stranglethorn Vale,36.37,64.19|use Experimental Mind Control Helmet##60667
 		'You need 10 gorilla fangs to summon the gorillas for STV Fever|c
-	step//50
-		'When you are about to kill and Elder Mistvale Gorilla (30-40%) use the helmet to finish them off. You can't get loot so no giblets or fangs. Get this done ASAP|goto Stranglethorn Vale,33.07,65.41
+	step//53
+		'When you are about to kill an Elder Mistvale Gorilla (30-40%) use the helmet to finish them off. You can't get loot so no giblets or fangs. Get this done ASAP|goto Stranglethorn Vale,33.07,65.41
 		.'Goal: 8 Elder Mistvale Gorilla experimented on. For a quest (id:26484, objective:1)|c
 		.from Elder Mistvale Gorilla##1557
 		.get 5 Mistvale Giblets|q 606/1
-	step//51
+	step//54
 		'When you get 10 gorilla fangs go here. The summon is possibly bugged. If it doesn't work just abandone and go back to booty bay|goto Stranglethorn Vale,35.24,60.45
 		talk Witch Doctor Unbagwa##1449
 		.'Give him the fangs to start the event|c
 		.from Mokk the Savage##1514
 		.get Heart of Mokk|q 348/1
-	step//52
+	step//55
 		goto Stranglethorn Vale,26.88,73.61
 		talk "Shaky" Phillipe##2502
 		.turnin Scaring Shaky##606
 		.accept Return to MacKinley##607
-	step//53
+	step//56
 		'Only if the summoning wasn't bugged|goto Stranglethorn Vale,27.65,76.73
 		talk Fin Fizracket##2486
 		.turnin Stranglethorn Fever##348
-	step//54
+	step//57
 		'Don't acccept the follow up yet|goto Stranglethorn Vale,27.75,77.11
 		talk "Sea Wolf" MacKinley##2501
 		.turnin Return to MacKinley##607
-	step//55
+	step//58
 		goto Stranglethorn Vale,27.58,77.4
 		talk Scooty##7853
 		.'Turn in The Janky Helmet (id:26484)|c
-	step//56
+	step//59
 		goto Stranglethorn Vale,27.15,76.97
 		talk Fleet Master Seahorn##2487
 		.turnin The Bloodsail Buccaneers##608
-	step//57
+	step//60
+		'Fly to rebel camp|goto Stranglethorn Vale,27.53,77.77
+	step//61
 		'>>> Refill quiver <<<|goto Stranglethorn Vale,37.97,3.07
 		.talk Corporal Bluth##734
-	step//58
-		'Kill Bhag'thera. Can pet tank or kite around a tree with trap. Becareful with the stealthed panther near the target|goto Stranglethorn Vale,49.52,24.08
+	step//62
+		'Kill Bhag'thera. Can pet tank or kite around a tree with trap. Be careful with the stealthed panther near the target|goto Stranglethorn Vale,49.52,24.08
 		.from Bhag'thera##728
 		.get Fang of Bhag'thera|q 193/1
-	step//59
+	step//63
 		'Any troll for the tusks, Mystics for the fetishes. Go towards the south west while killing|goto Stranglethorn Vale,41.58,36.75
 		get 18 Skullsplitter Tusk|q 209/1
 		from Skullsplitter Mystic##780
 		get 4 Skullsplitter Fetish|q 205/1
-	step//60
+	step//64
 		'Any goblin drops the crystals|goto Stranglethorn Vale,41.74,41.35
 		get 10 Singing Blue Crystal|q 600/1
 		'When questing around here the mobs will drop a relic that starts a quest. Accept the quest. Use Azothan Idol|c
 		.'Accept Azothan Relic (id:26641)|c
-	step//61
+	step//65
 		'Kill the raptors towards the elite one.|goto Stranglethorn Vale,34.46,38.67
 		kill 10 Jungle Stalker##687|q 196/1
-	step//62
+	step//66
 		'This sounds dumb but it's actually easier than it seems. You are going to kite the elite raptor towards Nesingwary camp, turn the prequest, accept the last raptor quest (kill the raptor you are kiting) and then finishing the elite off.|c
 		'Simply use arcane shot rank 1 on CD (Tethis has to reach Nesingwary's alive). If it misses, stop and shoot one auto shot. If you want to be safe, you can try to sneak an autoshot if you are max range and need some mana. But do too many of these and the raptor will die, so be careful.|c
 		'If you come across a mob while kiting (track beasts on and look at minimap) just send your pet and attack it once with it.|c
 		'YOU CAN'T TOUCH THE WATER or he will reset. You have to get him to the road the same way you came to the raptors' area. The easiest way to do it is by running through south of Bangalsh's mound, there is only 1 stealthed panther on the road and that's it.|c
 		'When done reading go near the raptor, full mana, skip the step and GL|goto Stranglethorn Vale,28.82,44.44
-	step//63
+	step//67
 		'Once you reach the camp you can send yor pet to the raptor and pet tank it (only FD after your pet hits it once) or kite with traps around a tree.|goto Stranglethorn Vale,35.69,10.8
 		talk Hemet Nesingwary Jr.##715
 		.turnin Raptor Mastery##196
 		.accept Raptor Mastery##197
 		from Tethis##730
 		get Talon of Tethis|q 197/1
-	step//64
+	step//68
 		goto Stranglethorn Vale,35.58,10.61
 		talk Sir S. J. Erlgadin##718
 		.turnin Panther Mastery##193
-	step//65
+	step//69
 		goto Stranglethorn Vale,35.66,10.78
 		talk Hemet Nesingwary##715
 		.turnin Raptor Mastery##197
 		.accept Big Game Hunter##208
-	step//66
+	step//70
 		'Drop chance for Excelsior is not 100%. Go to this one first and run north to find 2 more if you need to.|goto Stranglethorn Vale,30,25.16
 		.from Elder Saltwater Crocolisk##2635
 		.get Elder Crocolisk Skin|q 628/1
-	step//67
+	step//71
 		'Go here then swim downwards. Click the Altar to summon the goblin then pull it and swim upwards to resurface. Can be done w/o aggroing the murlocs. If you do, just finish summoning then swim upwards + FD to reset them, then pull the gobo.|goto Stranglethorn Vale,24.92,23.62
 		.from Gazban##2624
 		.get Stone of the Tides|q 611/1
-	step//68
+	step//72
 		'Finally, go here and interact with the sand pile to loot the music box|goto Stranglethorn Vale,22.17,19.43
 		.'Get Tulip's Music Box for a quest (id:26440, objective:2)|c
-	step//69
+	step//73
 		'HS back to Booty Bay|use Hearthstone##6948|c
-	step//70
+	step//74
 		goto Stranglethorn Vale,27.1,77.29
 		talk Crank Fizzlebub##2498
 		.turnin Venture Company Mining##600
-	step//71
+	step//75
 		goto Stranglethorn Vale,27.01,77.19
 		talk Kebok##737
 		.turnin Skullsplitter Tusks##209
-	step//72
+	step//76
 		goto Stranglethorn Vale,27.18,76.92
 		talk Baron Revilgaz##2496
 		.turnin The Curse of the Tides##611
-	step//73
+	step//77
 		'Jump down and store pages in the bank as needed. Pray to RNGesus you are close to being done. After swamp will be the final chance to get the pages you are missing (15 pages total)|goto Stranglethorn Vale,26.58,76.53
-	step//74
+	step//78
 		'Don't accept the follow up yet|goto Stranglethorn Vale,28.23,75.82
 		'Talk to Chel Moonwood (id:45506)|c
 		.'Turn in Wild Tulip (id:26440)|c
-	step//75
+	step//79
 		goto Stranglethorn Vale,28.26,77.52
 		talk Drizzlik##2495
 		.turnin Excelsior##628
-	step//76
+	step//80
 		'Fly to >>> Rebel camp <<< We are turning in a quest before swamp of sorrows|goto Stranglethorn Vale,27.54,77.76
-	step//77
+	step//81
 		'>>> Refill quiver <<<|goto Stranglethorn Vale,37.96,3.02
 		.talk Corporal Bluth##734
-	step//78
+	step//82
 		goto Stranglethorn Vale,37.85,3.6
 		talk Brother Nimetz##739
 		.turnin Troll Witchery##205
-	step//79
+	step//83
 		'Fly to Darkshire|goto Stranglethorn Vale,38.2,4.06
-	step//80
+	step//84
 		'>>> Set HS <<< in Darkshire|goto Duskwood,73.92,44.48
 		.talk Innkeeper Trelayne##6790
 		.'You will see a quest on your way here and back, ignore it (will accept later since it's timed)|c
-	step//81
+	step//85
 		'Only if you found the riddle at the pirate ship|goto Swamp of Sorrows,22.84,47.96
 		turnin Cortello's Riddle##624
 		accept Cortello's Riddle##625
 		'Some things about SoS: there is a flight path and an inn, but the FP was bugged in beta 3. You couldn't fly to it and fly flying from it made you go through the mountains to Redridge before redirecting you towards your actual destination. That's why we set HS in Darkshire|c
 		'Also, the devs got one guyed into changing the broken draenei models to the ugly ass Lost Ones from vanilla.|c
-	step//82
+	step//86
 		goto Swamp of Sorrows,26.28,38.86
 		'Talk to Manaar the Watcher (id:45878)|c
 		.accept Help Watcher Biggs##9609
-	step//83
+	step//87
 		'The WANTED post|goto Swamp of Sorrows,26.91,33.99
 		'Accept Wanted: Spinnaret (id:26655)|c
-	step//84
+	step//88
 		goto Swamp of Sorrows,25.5,31.17
 		'Talk to Innkeeper Finmir (id:45877)|c
 		.accept Pool of Tears##9610
-	step//85
+	step//89
 		'Up the stairs. Top floor|goto Swamp of Sorrows,25.76,31.53
 		talk Magtoor##1776
 		.accept Draenethyst Crystals##1389
-	step//86
+	step//90
 		'Discover the FP|goto Swamp of Sorrows,25.27,31.48
 		.talk Kurdol Thunderfist##45887
-	step//87
+	step//91
 		goto Swamp of Sorrows,28.06,33.06
 		talk Masat T'andr##11874
 		.'Accept Skins of the Swamp (id:26647)|c
-	step//88
+	step//92
 		goto Swamp of Sorrows,29.38,33.08
 		'Talk to Akmid (id:45876)|c
 		.'Accept Karabor Stew (id:26651)|c
 		.'Accept Eight Legged Fillets (id:26652)|c
 		.'Accept A Real Kick (id:26653)|c
-	step//89
+	step//93
 		goto Swamp of Sorrows,29.65,36.47
 		'Talk to Ocniir (id:45874)|c
 		.'Accept Freshly Polished Rods (id:26649)|c
-	step//90
+	step//94
 		'Loot the rod. Don't bother killing anything yet. Also, keep an eye out for sparkles in the ground to gather the chilies for the quest|goto Swamp of Sorrows,29.42,49.82
 		.'Get Polished Rod for a quest (id:26649, objective:1)|c
-	step//91
+	step//95
 		goto Swamp of Sorrows,26.79,59.77
 		talk Watcher Biggs##5476
 		.turnin Help Watcher Biggs##9609
 		.accept Encroaching Wildlife##1396
-	step//92
+	step//96
 		'Now kill every spider, jaguar and crock you see while heading here. Do it so while circling counter-clockwise around the area.|goto Swamp of Sorrows,17.69,41.98
-	step//93
+	step//97
 		'Very RNG heavy quest but mobs are easy to kill, there are a bunch oh chilis around here and you can just kill them again after they respawn. 50% chance aprox. to get the plans after killing all (14) of the elementals|c
 		.get Khadgar's Essays on Dimensional Convergence|q 1364/1
-	step//94
+	step//98
 		'When done, go back to the human in the south. Kill jaguars and crocks if you still need pelts|goto Swamp of Sorrows,26.8,59.58
 		kill 8 Young Sawtooth Crocolisk##1084|q 1396/1
 		kill 10 Sorrow Spinner##858|q 1396/2
@@ -4663,215 +4718,215 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.
 		talk Watcher Biggs##5476
 		.turnin Encroaching Wildlife##1396
 		.accept The Lost Caravan##1421
-	step//95
+	step//99
 		'If you are missing skins get them now.|goto Swamp of Sorrows,26.86,33.82
 		'Get 8 Thick Crocolisk Skin from Young Sawtooth Crocolisk(id:1084) for a quest (id:26647, objective:1)|c
 		'Get 8 Tough Jaguar Skin from Swamp Jaguar(id:767) for a quest (id:26647, objective:2)|c
-	step//96
+	step//100
 		goto Swamp of Sorrows,28.08,33.01
 		talk Masat T'andr##11874
 		.'Turn in Skins of the Swamp (id:26647)|c
-	step//97
+	step//101
 		'And sell junk aswell|goto Swamp of Sorrows,25.23,35.14
 		'Talk to Moruul (id:45885)|c
 		.'Accept Skins of the Swamp (id:26648)|c
-	step//98
+	step//102
 		goto Swamp of Sorrows,29.63,36.39
 		'Talk to Ocniir (id:45874)|c
 		.'Turn in Freshly Polished Rods (id:26649)|c
 		.'Accept Freshly Polished Rods (id:26650)|c
-	step//99
+	step//103
 		'Go here and kill Noboru the Cudgel. He drops an item that strats a quest|goto Swamp of Sorrows,46.96,39.25|use Noboru's Cudgel##6196
 		.accept Noboru the Cudgel##1392
-	step//100
+	step//104
 		'Go here now and kill the elite spider. Ez pet tank|goto Swamp of Sorrows,50.13,39.26
 		.'Get Oversized Arachnid Fang from Spinnaret(id:45974) for a quest (id:26655, objective:1)|c
-	step//101
+	step//105
 		'Now go north to the road and then go to the waypoint (end of the lost ones' village) while looting crystal and killing fishermans for the rod. You can ignore the rest, they will respawn on your way out.|goto Swamp of Sorrows,64.43,19.53
 		'Get Polished Rod from Lost One Fisherman(id:757) for a quest (id:26650, objective:1)|c
 		get 6 Draenethyst Crystal|q 1389/1
-	step//102
+	step//106
 		'Go to the cart and loot the chest|goto Swamp of Sorrows,64.41,18.42
 		.get Wizards' Reagents|q 1421/1
-	step//103
+	step//107
 		goto Swamp of Sorrows,65.31,18.25
 		talk Galen Goodward##5391
 		.accept Galen's Escape##1393
-	step//104
+	step//108
 		'While escorting the human and after clearing the camp in the waypoint loot the crate and accept the quest|goto Swamp of Sorrows,64.11,23.43|use Lost Supplies##6172
 		.accept The Lost Supplies##1423
-	step//105
+	step//109
 		'Escort quest ends around this spot. He is suicidal, so keep a focus tab on him and assit him if he takes damage|goto Swamp of Sorrows,52.28,29.89
 		.goal Escort Galen|q 1393/1
-	step//106
+	step//110
 		goto Swamp of Sorrows,48,39.73
 		turnin Galen's Escape##1393
-	step//107
+	step//111
 		'You should already be done with the chilis. If not look around for the remaining ones|goto Swamp of Sorrows,29.65,36.31
 		'Get 8 Karabor Chili for a quest (id:26653, objective:1)|c
 		'Talk to Ocniir (id:45874)|c
 		.'Turn in Freshly Polished Rods (id:26650)|c
-	step//108
+	step//112
 		goto Swamp of Sorrows,29.36,33.13
 		'Talk to Akmid (id:45876)|c
 		.'Turn in A Real Kick (id:26653)|c
-	step//109
+	step//113
 		goto Swamp of Sorrows,25.84,31.61
 		talk Magtoor##1776
 		.turnin Noboru the Cudgel##1392
 		.turnin Draenethyst Crystals##1389
-	step//110
+	step//114
 		goto Swamp of Sorrows,26.3,38.86
 		'Talk to Manaar the Watcher (id:45878)|c
 		.'Turn in Wanted: Spinnaret (id:26655)|c
-	step//111
+	step//115
 		goto Swamp of Sorrows,26.82,59.63
 		talk Watcher Biggs##5476
 		.turnin The Lost Caravan##1421
 		.accept Driftwood##1398
-	step//112
+	step//116
 		'Go to the tarantulas running through the south of Stonard. While you are at it, check on a database where "Shadow Panther"s are.|goto Swamp of Sorrows,54.82,61.82
 		.'Get 10 Engorged Spider Fillet from Deathstrike Tarantula(id:769) for a quest (id:26652, objective:1)|c
 		'You really want to look this up. There are 12 stealthed panthers scattered across the entire east of SoS and you need 8 drops that are not guarenteed. The quest is not well thought out.|c
-	step//113
+	step//117
 		'Jump into the lake and drink you 2nd Elixir of Water Breathing. Gather the relics and discover the temple|goto Swamp of Sorrows,69.51,55.88|use Elixir of Water Breathing##5996
 		get 10 Atal'ai Artifact|q 9610/1
 		.'If you have an addon with markers on the minimap (pfQuest f.ex.) know that some of the markers are from the pre-dungeon area and not the actual lake. Just do a lap clockwise and you should be done|c
 		goal Search for the Temple of Atal'Hakkar|q 1448/1
-	step//114
+	step//118
 		'Go here to kill another panther, then go north while killing panther and crocks (look up the panther and crocolisks spawns)|goto Swamp of Sorrows,83.79,58.91
 		'Get 8 Sturdy Crocolisk Skin for a quest (id:26648, objective:1)|c
 		'Get 8 Rugged Panther Skin for a quest (id:26648, objective:2)|c
 		'With some luck you will be done with panthers and crocks around here. If not, finish it with the respawns while running south down the coast later (look up next step)|goto Swamp of Sorrows,70.26,10.58
-	step//115
+	step//119
 		'Go here and run south down the coast while killing crabs and gathering wood. Mind you, the area is EXTREMELY buggy pathing wise for NPCs and pets (unless fixed). Toengage the crabs dismiss your pet, stand besides them and summon it again. Otherwise they will perma evade.|goto Swamp of Sorrows,75.89,4.65
 		'Get 10 Massive Crawler Claw from Silt Crawler(id:922) or Monstrous Crawler(id:1088) for a quest (id:26652, objective:1)|c
 		get 8 Sundried Driftwood|q 1398/1
 		.'Most driftwoods are in the southern half of the coast, where the murlocs are|c
 		'Don't bother with the rare custom crab. 2 minute fight for 50s (or do if you are desperate for gold mount...)|c
-	step//116
+	step//120
 		'When done with the crabs, the driftwood, the panthers and the crocks hearth back to Darkshire.|use Hearthstone##6948|c
-	step//117
+	step//121
 		'Now the quest we left behind|goto Duskwood,75.71,46.3
 		talk Watchmaster Sorigal##5464
 		.accept Supplies for Nethergarde##1395
-	step//118
+	step//122
 		'Fly to The Harborage (custom SoS flightpath). If it's still bugged and doesnt show on the map simply walk back there.|goto Duskwood,77.49,44.39
 		'Quest turn in order is scuffed because I can't know how you will get back to the quest hub. Simply turn in all, no need to accept anything else anymore.|c
-	step//119
+	step//123
 		goto Swamp of Sorrows,25.53,31.14
 		'Talk to Innkeeper Finmir (id:45877)|c
 		.'Turn in Pool of Tears (id:9610)|c
-	step//120
+	step//124
 		goto Swamp of Sorrows,25.17,35.15
 		'Talk to Moruul (id:45885)|c
 		.'Turn in Skins of the Swamp (id:26648)|c
-	step//121
+	step//125
 		goto Swamp of Sorrows,29.4,33.11
 		'Talk to Akmid (id:45876)|c
 		.'Turn in Karabor Stew (id:26651)|c
 		.'Turn in Eight Legged Fillets (id:26652)|c
 		.'Accept Karabor Fire Stew (id:26654)|c
-	step//122
+	step//126
 		'Go around town feeding the stew to the NPCs. Use Karabore Fire Stew|c
 		.'Goal: 10 Citizens Feed. For a quest (id:26654, objective:1)|c
-	step//123
+	step//127
 		goto Swamp of Sorrows,29.39,33.08
 		'Talk to Akmid (id:45876)|c
 		.'Turn in Karabor Fire Stew (id:26654)|c
-	step//124
+	step//128
 		goto Swamp of Sorrows,26.75,59.56
 		talk Watcher Biggs##5476
 		.turnin Driftwood##1398
 		.accept Deliver the Shipment##1425
-	step//125
+	step//129
 		'To Nethergarde to turn in quests. Run up the tower first|goto Blasted Lands,67.56,19.19
 		talk Watcher Mahar Ba##5385
 		.turnin Mazen's Behest##1364
-	step//126
+	step//130
 		goto Blasted Lands,66.52,21.27
 		talk Quartermaster Lungertz##5393
 		.turnin Deliver the Shipment##1425
 		.turnin The Lost Supplies##1423
 		.turnin Supplies for Nethergarde##1395
-	step//127
+	step//131
 		'Discover the FP then fly to booty bay|goto Blasted Lands,65.49,24.43
 		.talk Alexandra Constantine##8609
 		'You are probably level 42 now. If so, equip the Massive Longbow. Ranged weapon progression: starter bow -> lvl 3 vendor ->lvl 14 vendor -> lvl 26 quest -> lvl 42 vendor -> lvl 52 quest. Very good XD!11!1.|c
-	step//128
+	step//132
 		'Top floor|goto Stranglethorn Vale,26.98,77.21
 		talk Krazek##773
 		.accept Tran'rek##2864
-	step//129
+	step//133
 		'Jump down and accept this|goto Stranglethorn Vale,26.77,76.46
 		talk Privateer Bloads##2494
 		.accept Akiris by the Bundle##617
-	step//130
+	step//134
 		'Go to the bank and retrieve all the STV pages, pray to RNGesus. You need 15 and this is the last run north.|goto Stranglethorn Vale,26.58,76.54
 		'Check the AH for pages|c
-	step//131
+	step//135
 		'Back inside the inn|goto Stranglethorn Vale,27.1,77.5
 		talk Whiskey Slim##2491
 		.accept Whiskey Slim's Lost Grog##580
-	step//132
+	step//136
 		goto Stranglethorn Vale,27.12,77.28
 		talk Crank Fizzlebub##2498
 		.accept Zanzil's Secret##621
-	step//133
+	step//137
 		'>>> SET HS <<<|goto Stranglethorn Vale,27.06,77.35
 		.talk Innkeeper Skindle##6807
-	step//134
+	step//138
 		goto Stranglethorn Vale,27.74,77.14
 		talk "Sea Wolf" MacKinley##2501
 		.accept Voodoo Dues##609
 		.accept Stoley's Debt##2872
-	step//135
+	step//139
 		goto Stranglethorn Vale,28.24,75.82
 		'Talk to Chel Moonwood (id:45506)|c
 		.'Accept Wild Tulip (id:26441)|c
-	step//136
+	step//140
 		'>>> Refill arrows <<<|goto Stranglethorn Vale,28.29,74.61
 		.talk Haren Kanmae##2839
-	step//137
+	step//141
 		'Go here by jumping off the BB docks. If you are low on Green Hill pages oyu might want to kill all the pirates by going the regular way|goto Stranglethorn Vale,26.24,67.7
 		'Here afterwards and kill the nagas. Go to the fountain up the mountain for free 60s if rare is up|goto Stranglethorn Vale,24.67,64.41
 		.from Naga Explorer##1907
 		.get 10 Akiris Reed|q 617/1
-	step//138
+	step//142
 		'Wave you mouse around the leaves here, the node is there but it's too hard too see...|goto Stranglethorn Vale,25.79,55.83
 		'Turn in Wild Tulip (id:26441)|c
 		'Accept Wild Tulip (id:26442)|c
-	step//139
+	step//143
 		'Go to the south-western path of the arena. If you are desperate for pages, kill the pirates around (skip the warlocks)|goto Stranglethorn Vale,28.09,51.04
 		'Now to the Zanzil ruins|goto Stranglethorn Vale,34.04,51.95
-	step//140
+	step//144
 		'Kill Jon Jon|goto Stranglethorn Vale,34.93,51.83
 		.from Jon-Jon the Crow##2536
 		.get Jon-Jon's Golden Spyglass|q 609/2
 		goto Stranglethorn Vale,35.24,51.24
 		.from Maury "Club Foot" Wilkins##2535
 		.get Maury's Clubbed Foot|q 609/1
-	step//141
+	step//145
 		'Kill Chucky and finish getting the 12 mixtures (might take 2 full clears)|goto Stranglethorn Vale,40.02,58.23
 		.from Chucky "Ten Thumbs"##2537
 		.get Chucky's Huge Ring|q 609/3
 		.get 12 Zanzil's Mixture|q 621/1
-	step//142
+	step//146
 		'Back to the southern road of the arena|goto Stranglethorn Vale,30.09,54.18
 		'And then to the pirate ship|goto Stranglethorn Vale,26.92,38.64
-	step//143
+	step//147
 		'Go to the captain's room and kill Captain Teuta|goto Stranglethorn Vale,27.35,36.72
 		.'Get Tulip's Pendant from Captain Teuta(id:45508) for a quest (id:26442, objective:1)|c
 		.'Get Daniel's Pendant from Captain Teuta(id:45508) for a quest (id:26442, objective:2)|c
-	step//144
-		'Go to Bangalash's mound and kill the stealthed panther on the north side. Play rin around the rosie by placing a frost trap (same way you killed the giant in booty bay). Some adds will spawn a 50%. Let your pet take agroo and ignore them|goto Stranglethorn Vale,37.96,34.82
+	step//148
+		'Go to Bangalash's mound and kill the stealthed panther on the north side. Play ring around the rosie by placing a frost trap (same way you killed the giant in booty bay). Some adds will spawn at 50%. Let your pet take agro and ignore them|goto Stranglethorn Vale,37.96,34.82
 		.from King Bangalash##731
 		.get Head of Bangalash|q 208/1
-	step//145
+	step//149
 		goto Stranglethorn Vale,35.72,10.8
 		talk Hemet Nesingwary##715
 		.turnin Big Game Hunter##208
-	step//146
+	step//150
 		'If you got all 15 pages w/o using the AH this is the run|goto Stranglethorn Vale,35.7,10.6
 		talk Barnil Stonepot##716
 		.accept The Green Hills of Stranglethorn##338
@@ -4884,73 +4939,75 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.
 		.accept Chapter IV##342
 		.turnin Chapter IV##342
 		.turnin The Green Hills of Stranglethorn##338
-	step//147
+	step//151
 		'Fly to Stormwind if you have at least 90g you will be able to buy your mount now.|goto Stranglethorn Vale,38.22,4.05
-	step//148
+	step//152
 		goto Stormwind City,69.41,40.61
 		talk Brohann Caskbelly##5384
 		.turnin In Search of The Temple##1448
 		.accept To The Hinterlands##1449
-	step//149
+	step//153
 		'Take the tram to IF and craft bandages. You should be level 225 by now.|goto Stormwind City,68.88,30.97
-	step//150
+	step//154
 		goto Ironforge,68.13,46.34
 		talk Klockmort Spannerspan##6169
 		.accept The Brassbolts Brothers##2769
-	step//151
+	step//155
 		goto Ironforge,77.22,12.05
 		talk Historian Karnik##2916
 		.turnin Azothan Relic##26641
-	step//152
-		'If you don't have 90g for your mount then HS back to booty bay here. You will have enough after questing in Dustwallow. If that's the quest, check the steps in this section after this point and do them after finishing the next section (before flying to Gadgetzan).|c
-		'Skip this step. If you are not buying the mount now then skips steps until one of them tells you to HS back to Booty bay|c
-	step//153
+	step//156
+		'If you don't have 90g for your mount then HS back to booty bay here. You will have enough after questing in Dustwallow. If that's the case, check the steps in this section after this point and do them after finishing the next section (before flying to Gadgetzan).|c
+		'Also, if you are 225 first aid already go check any first aids trainer to get the breadcrumb quest|c
+		'Skip this step. If you are not buying the mount now then skip steps until one of them tells you to HS back to Booty bay|c
+	step//157
 		'Fly to Menethil harbor|goto Ironforge,55.64,47.77
-	step//154
+	step//158
 		'Check the mailbox if the boat to darkshore is not around. If it is, do it in Darnassus|goto Wetlands,4.64,57.17|use Riding Training Pamphlet##46876
 		.accept Learn to Ride in Darnassus##14085
-	step//155
+	step//159
 		'Fly to Darnassus|goto Darkshore,36.37,45.58
-	step//156
+	step//160
 		goto Teldrassil,55.51,92.13
 		talk Erelas Ambersky##7916
 		.accept Favored of Elune?##3661
-	step//157
+	step//161
 		'Check the mailbox near the bank if you didn't get it in Menethil|goto Darnassus,38.68,16.15
 		talk Jartsam##4753
 		.turnin Learn to Ride in Darnassus##14085
 		.'Accept Tiger Riding (id:27627)|c
-	step//158
+	step//162
 		'Learn riding if you have 90g|c
-	step//159
+	step//163
 		'Pick your favourite tiger. The best one is the piss colored one ofc.|goto Darnassus,38.42,15.56
 		talk Lelanai##4730
 		.turnin Tiger Riding##27627
-	step//160
+	step//164
 		'Learn spells (how to use mail armor) if you have any spare money|goto Darnassus,40.33,8.73
+		'TODO: If the cloth turn ins could be done once per race and type of cloth go do the Nelf silk turn in now|c
 		'HS back to booty bay|use Hearthstone##6948|c
-	step//161
+	step//165
 		'At the inn, lower floor|goto Stranglethorn Vale,27.09,77.25
 		talk Crank Fizzlebub##2498
 		.turnin Zanzil's Secret##621
-	step//162
+	step//166
 		goto Stranglethorn Vale,26.75,76.48
 		talk Privateer Bloads##2494
 		.turnin Akiris by the Bundle##617
 		.accept Akiris by the Bundle##623
-	step//163
+	step//167
 		'Retrieve the Murloc heads and the turtles tongues from the bank (the quests from Dustwallow)|goto Stranglethorn Vale,26.58,76.54
-	step//164
+	step//168
 		'Skip the follow up|goto Stranglethorn Vale,27.78,77.06
 		talk "Sea Wolf" MacKinley##2501
 		.turnin Voodoo Dues##609
-	step//165
+	step//169
 		'Will have to wait out a role play to turn the last one in. Just do some bandages or something|goto Stranglethorn Vale,28.24,75.81
 		'Talk to Chel Moonwood (id:45506)|c
 		.'Turn in Wild Tulip (id:26442)|c
 		.'Accept Wild Tulip (id:26443)|c
 		.'Turn in Wild Tulip (id:26443)|c
-	step//166
+	step//170
 		'Take the boat to Ratchet|goto Stranglethorn Vale,25.89,73.15
 ]])
 
@@ -5171,7 +5228,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Dustwal
 		'If Tabetha's farm quest were available (who knows why they aren't...) this is where you would kill the spiders and test the totems on the crocks. Then you would turn these in after turning the ogre's final quest to then turn the zeppelin quests and HSing back to Theramore|c
 		'Skip this step. -7k XP + mob XP if not available :(|c
 	step//51
-		'Go to Ony's lair and plant the banner. Careful with the spell casters that spawn in the first wave. Super long range. The boss is a pushover.|goto Dustwallow Marsh,52.15,75.75
+		'Go to Ony's lair and plant the banner. Careful with the spell casters that spawn in the first wave. Super long range. The boss is a pushover.|goto Dustwallow Marsh,52.15,75.75|use Stonemaul Banner##33095
 		.goal Stonemaul Clan Avenged|q 11162/1
 	step//52
 		'Can pet tank. Pop CDs and trap if you need to bandage|goto Dustwallow Marsh,44.55,77.95
@@ -5181,7 +5238,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Dustwal
 		talk Brogg##23579
 		.turnin Challenge to the Black Flight##11162
 	step//54
-		'HS back to Theramore (or turn in Tabetha's quests if available, then HS)|use Hearthstone##6948|c
+		'HS back to Theramore or turn in Tabetha's quests if available, turn the zepelin quests and then HS|use Hearthstone##6948|c
 	step//55
 		'Upstairs|goto Dustwallow Marsh,67.86,48.16
 		talk Clerk Lendry##5083
@@ -5192,7 +5249,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Dustwal
 		.turnin Justice for the Hyals##11151
 		.accept Peace at Last##11152
 	step//57
-		'Go to the GY and use the flowers on the grave|goto Dustwallow Marsh,63.66,42.86|use Wreath##33081
+		'Go to the GY and use the flowers on the grave|goto Dustwallow Marsh,63.66,42.86|use Wreath##33082
 		.'Have to wait out the RP event there or it won't progress and the quest won't complete. Do first aids, drink some water, take a piss or something while you wait...|c
 		.goal Wreath Laid|q 11152/1
 	step//58
@@ -5247,192 +5304,190 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Tanaris
 		talk Chief Engineer Bilgewhizzle##7407
 		.accept Wastewander Justice##1690
 	step//9
-		goto Tanaris,52.36,28.91
-	step//10
 		'Now go to the port followin the road. New custom area with lots of quest.|goto Tanaris,64.78,23.72
 		.'If in your way there you find a human NPC running talk to him and buy any Elixir of waterbreathing he may have|c
 		.'Skip this step once you get there|c
-	step//11
+	step//10
 		'Inside the inn|goto Tanaris,65.5,24.17
 		'Talk to Marai Ravenwater (id:45531)|c
 		.'Accept Waste Removal (id:26516)|c
 		.'Accept Think Of The Animals (id:26515)|c
-	step//12
+	step//11
 		'>>> Set HS <<< In the new inn|goto Tanaris,65.45,24.01
-	step//13
+	step//12
 		goto Tanaris,67.02,23.89
 		talk Security Chief Bilgewhizzle##7882
 		.accept Southsea Shakedown##8366
 		.'Accept No One Drinks For Free (id:26520)|c
-	step//14
+	step//13
 		goto Tanaris,67.05,23.93
 		talk Stoley##7881
 		.turnin Stoley's Debt##2872
 		.accept Stoley's Shipment##2873
-	step//15
+	step//14
 		goto Tanaris,66.75,22.94
 		'Talk to Kyx Rustwrench (id:45530)|c
 		.'Accept Water Co. Saviour (id:26522)|c
+	step//15
+		'Pick the dialog option|goto Tanaris,65.55,24.85
+		'Talk to Miki Smallsprocket (id:45532)|c
+		.'Goal: Miki Smallsprocket Threatened. For a quest (id:26520, objective:1)|c
 	step//16
 		'Press the dialog option|goto Tanaris,65.26,22.92
 		'Talk to Stelx (id:45536)|c
 		.'Goal: Stelx Threatened. For a quest (id:26520, objective:3)|c
 	step//17
-		'Pick the dialog option|goto Tanaris,65.55,24.85
-		'Talk to Miki Smallsprocket (id:45532)|c
-		.'Goal: Miki Smallsprocket Threatened. For a quest (id:26520, objective:1)|c
-	step//18
 		'Choose the dialog option after acepting the quest|goto Tanaris,65.49,21.92
 		'Talk to Inabit Wedgefeet (id:45526)|c
 		.'Accept Boom! Boom! Boom! (id:26521)|c
 		.'Goal: Inabit Wedgefeet Threatened. For a quest (id:26520, objective:2)|c
-	step//19
+	step//18
 		goto Tanaris,65.88,21.31
 		'Talk to Goddard (id:45525)|c
 		.'Turn in Azeroth Space Society (id:26513)|c
 		.'Accept The Perfect Fuel (id:26507)|c
-	step//20
+	step//19
 		goto Tanaris,66.54,22.31
 		talk Haughty Modiste##15165
 		.accept Pirate Hats Ahoy!##8365
-	step//21
+	step//20
 		'Choose the dialog option|goto Tanaris,66.64,22.14
 		talk Gikkix##8137
 		.'Goal: Gikkix Threatened. For a quest (id:26520, objective:4)|c
-	step//22
+	step//21
 		goto Tanaris,66.95,22.42
 		talk Yeh'kinya##8579
 		.accept Screecher Spirits##3520
-	step//23
+	step//22
 		goto Tanaris,66.99,23.87
 		talk Security Chief Bilgewhizzle##7882
 		.'Turn in No One Drinks For Free (id:26520)|c
-	step//24
+	step//23
 		'Right as you step out of town turn right to the mountain range and kill the 4 scorpids for venom sacs, then the one on your way to the marker|goto Tanaris,63.7,31.02
 		.'Once you get here clear the 3 tents and the water extractor (?) off of BANDITS. You need to kill at least 6 bandits between the 3 tents and the well. Only need 3 thiefs|c
 		.'North tents -> water well -> south tents -> west tents|c
-	step//25
+	step//24
 		'Now here, to the ruins. Kill the scorpid on the way. Finish off bandits ,thiefs, water pouches and batteries|goto Tanaris,60.17,23.43
 		kill 10 Wastewander Bandit##5618|q 1690/1
 		kill 10 Wastewander Thief##5616|q 1690/2
 		from Wastewander Bandit##5618, Wastewander Thief##5616
 		get 5 Wastewander Water Pouch|q 1707/1
 		'Get 8 Ancient Battery for a quest (id:26507, objective:1)|c
-	step//26
+	step//25
 		'Back to the scorpids, they should have respawned. 10 kills for 6 drops. If you are missing some check the other 2 spawns you killed or go kill the 3 that can be found south of town|goto Tanaris,62.91,22.45
 		'Get 6 Extracted Scorpid Venom Sac from Scorpid Hunter(id:5422) for a quest (id:26507, objective:2)|c
-	step//27
+	step//26
 		goto Tanaris,65.91,21.36
 		'Talk to Goddard (id:45525)|c
 		.'Turn in The Perfect Fuel (id:26507)|c
 		.'Accept The Perfect Fuel (id:26508)|c
-	step//28
-		'Go to the coast, drink your 3rd water breathing elixir (if you bought one use that one to free bag space) and then swim south while cleaning animals, cleaning oil spillages and recovering underwater parts.|goto Tanaris,67.1,19.8
+	step//27
+		'Go to the coast, drink your 3rd water breathing elixir (if you bought one use that one to free bag space) and then swim south while cleaning animals, cleaning oil spillages and recovering underwater parts.|goto Tanaris,67.1,19.8|use Elixir of Water Breathing##5996
 		.'Use the Cleaning Supplies to clean the animals. Some might attack you. Use Cleaning Supplies|c
 		..'Goal: 8 Oil Soaked Critter Cleansed. For a quest (id:26515, objective:1)|c
 		.'Use the Oil Absorber to clean the spills|c
 		..'Goal: 6 Oil Spill Removed. For a quest (id:26516, objective:1)|c
 		.'The filter parts are undewater, and are hard to see, so move your mouse around while killing sharks to see if the cursor changes|c
 		..'Get 8 Filter Parts for a quest (id:26522, objective:1)|c
-	step//29
+	step//28
 		goto Tanaris,65.52,24.18
 		'Talk to Marai Ravenwater (id:45531)|c
 		.'Turn in Think Of The Animals (id:26515)|c
 		.'Turn in Waste Removal (id:26516)|c
 		.'Accept Desperate Measures (id:26517)|c
-	step//30
+	step//29
 		goto Tanaris,66.75,22.95
 		'Talk to Kyx Rustwrench (id:45530)|c
 		.'Turn in Water Co. Saviour (id:26522)|c
 		.'Accept A Workwomans Tools (id:26523)|c
-	step//31
+	step//30
 		'Back to Gadgetzan. Choose the dialog option|goto Tanaris,52.29,27.71
 		talk Buzzeck Bracketswing
 		.'Get Marai's Supplies for a quest (id:26517, objective:1)|c
-	step//32
+	step//31
 		goto Tanaris,52.42,28.44
 		talk Chief Engineer Bilgewhizzle##7407
 		.turnin Wastewander Justice##1690
 		.accept More Wastewander Justice##1691
-	step//33
+	step//32
 		goto Tanaris,52.44,28.45
 		talk Spigot Operator Luglunket##7408
 		.turnin Water Pouch Bounty##1707
-	step//34
+	step//33
 		'Now go to the Mirage Raceway. No need to accept anything else from the gnomes|goto Thousand Needles,78.24,77.08
 		talk Wizzle Brassbolts##4453
 		.turnin The Brassbolts Brothers##2769
-	step//35
+	step//34
 		goto Thousand Needles,80.11,75.93
 		talk Pozzik##4630
 		.turnin Goblin Sponsorship##1183
 		.accept The Eighteenth Pilot##1186
-	step//36
+	step//35
 		'Don't accept the follow up 'Razzeric's Tweaking'. Could be worth it with 30min HS cooldown, definetly not otherwise.|goto Thousand Needles,80.24,76.19
 		'Choose the dialog option to get the battery|c
 		talk Razzeric##4706
 		.turnin The Eighteenth Pilot##1186
 		.get Battery Boosted Welder|q 26523/1
-	step//37
+	step//36
 		'HS back to Tanaris' port|use Hearthstone##6948|c
-	step//38
+	step//37
 		goto Tanaris,65.5,24.17
 		'Talk to Marai Ravenwater (id:45531)|c
 		.'Turn in Desperate Measures (id:26517)|c
 		.'Accept Oil Baron Beatdown (id:26518)|c
 		.'Accept Sink The Rig (id:26519)|c
-	step//39
+	step//38
 		goto Tanaris,66.73,22.93
 		'Talk to Kyx Rustwrench (id:45530)|c
 		.'Turn in A Workwomans Tools (id:26523)|c
 		.'Accept A Workwomans Tools (id:26524)|c
-	step//40
+	step//39
 		'Use the Oil Cannister at the base of the oil rig (right on the marker).. Use Empty Oil Cannister. Go to Tanaris 68.53,13.78
 		.'Get Filled Oil Cannister for a quest (id:26508, objective:1)|c
-	step//41
+	step//40
 		'Get on the oil rig and use the explosives on the orange barrells. Use Timed Explosives|c
 		.'Goal: 4 Explosives Placed. For a quest (id:26519, objective:1)|c
 		'The Overseer is in the top floor|c
 		.'Kill 8 Oil Rig Worker (id:45714) for a quest (id:26518, objective1)|c
 		.'Kill Overseer Loonet (id:45716) for a quest (id:26518, objective2)|c
-	step//42
+	step//41
 		goto Tanaris,65.9,21.3
 		'Talk to Goddard (id:45525)|c
 		.'Turn in The Perfect Fuel (id:26508)|c
 		.'Accept The Perfect Container (id:26509)|c
-	step//43
+	step//42
 		goto Tanaris,65.9,21.29
 		'Talk to Poole (id:45533)|c
 		.'Accept Even Better Fuel (id:26510)|c
-	step//44
+	step//43
 		goto Tanaris,65.5,24.16
 		'Talk to Marai Ravenwater (id:45531)|c
 		.'Turn in Oil Baron Beatdown (id:26518)|c
 		.'Turn in Sink The Rig (id:26519)|c
-	step//45
+	step//44
 		'Go here and kill Hagesh|goto Tanaris,66.98,35.74
-		.from HAgesh##45710
+		.from Hagesh##45710
 		.get Mutated Basilisk Gland|q 26510/1
-	step//46
+	step//45
 		'Go into the pirate area through the tunnel south of were you are. Go to where Andre is while killing other pirates for the TF2 quest (pirate hats)|goto Tanaris,73.36,46.58
 		.from Andre Firebeard##7883
 		.get Firebeard's Head|q 2875/1
-		'While killing mobs here some might drop a footlocker. What you are looking for here is the Ship Shedule, an item that starts a quest. You can delte anything else (including the maps).|c
+		'While killing mobs here some might drop a footlocker. What you are looking for here is the Ship Shedule, an item that starts a quest. You can delete anything else (including the maps).|c
 		.'It's a 1.5% drop chance roughly between the footlocker drop rate (10%) and the contents of it (15% for the schedule), so don't bother grinding for it, it's just some extra.|c
-	step//47
+	step//46
 		'Go to the second floor here to recover the shipment. 3 pirates pull on the second room, use the explosives you just got from the oil rig quest.|goto Tanaris,72.21,46.82
 		.get Stoley's Shipment|q 2873/1
-	step//48
+	step//47
 		'Now go outside and finish the hats + the other pirates you might be missing.|c
 		.kill 10 Southsea Pirate##7855|q 8366/1
 		.kill 10 Southsea Freebooter ##7856|q 8366/2
 		.kill 10 Southsea Dock Worker##7857|q 8366/3
 		.kill 10 Southsea Swashbuckler##7858|q 8366/4
-		.get 20 Southsea Pirate Hat|q 20519/1
-	step//49
+		.get 20 Southsea Pirate Hat|q 8365/1
+	step//48
 		'If you didn't get the Ship Schedules just skip this step|use Ship Schedule##9250|c
 		.accept Ship Schedules##2876
-	step//50
+	step//49
 		'While running around keep an eye out for Raging tempests (air elementals). Use the item while they are low HP (30%) to absorb them for a quest|c
 		'Back to the Wastewanderers (kill rogues, assassins and lock on the way area. You will se Scorpidsting running around at some point. He is guarded by 2 stealthed rogues.|goto Tanaris,62.57,37.73
 		.kill 8 Wastewander Rogue##5615|q 1691/1
@@ -5441,96 +5496,97 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Tanaris
 		..'Hit like trucks as per usual. Elemental damage (true damage practically) is very balanced with the mobs increased damage custom change!!!|c
 		.from Caliph Scorpidsting##7847
 		.get Caliph Scorpidsting's Head|q 2781/1
-	step//51
+	step//50
 		'Check how many water pouches you have. Try to leave the area with an amount equal to a multiple of 5 (390 XP for every 5 puches).|c
 		'Skip this step|c
-	step//52
-		'Kill Basilisks and collect Raging tempests while making your way to the skeletons with the Fire Rocs at [46,39]|goto Tanaris,56.31,35.77
+	step//51
+		'Kill Basilisks and collect Raging tempests while making your way to the skeletons with the Fire Rocs to the south west|goto Tanaris,56.31,35.77
 		.'Get 8 Glasshide Glands from Glasshide Basilisk(id:5419) for a quest (id:26510, objective:2)|c
 		.'Use the charger on the Raging Tempests when low HP. Use Bulky Battery Charger|c
 		..'Goal: 4 Battery Charged. For a quest (id:26524, objective:1)|c
-	step//53
+		'Path towards here|goto Tanaris,46,38
+	step//52
 		'Just do laps around the bones killing vultures. It will take a while, drop rate is low (edited: seems drop rate has been increased as per the bug tracker)|goto Tanaris,45.8,38.37
 		.'Get 8 Flame Sack from Fire Roc(id:5429) for a quest (id:26521, objective:1)|c
-	step//54
+	step//53
 		'Leave your pet behind. Use the pipe to complete the quest. 2 mobs will spawn, just disengage + FD|goto Tanaris,38.95,29.15|use Untapped Dowsing Widget##8584
 		.get Tapped Dowsing Widget|q 992/1
-	step//55
+	step//54
 		'Gnomes will attack you when you collect the quest items|goto Tanaris,48.02,25.49
 		.get 6 Gnome Car Parts|q 26509/1
 		.'7 nodes, 6 items required. Super party friendly quest... Too bad if you want to level with friends|c
-	step//56
+	step//55
 		'HS back to Tanari's port|use Hearthstone##6948|c
-	step//57
+	step//56
 		goto Tanaris,65.49,21.92
 		'Talk to Inabit Wedgefeet (id:45526)|c
 		.'Turn in Boom! Boom! Boom! (id:26521)|c
-	step//58
+	step//57
 		goto Tanaris,65.87,21.26
 		'Talk to Poole (id:45533)|c
 		.'Turn in Even Better Fuel (id:26510)|c
-	step//59
+	step//58
 		goto Tanaris,65.9,21.34
 		'Talk to Goddard (id:45525)|c
 		.'Turn in The Perfect Container (id:26509)|c
 		.'Accept A Dangerous Mixture (id:26511)|c
-	step//60
+	step//59
 		'Go to the gnome's north of town to mix the ingredients. Use Crate of Rocket Fuel Ingredients. Go to Tanaris 65.27,18.54
 		.'Get Experimental Rocket Fuel for a quest (id:26511, objective:1)|c
-	step//61
+	step//60
 		goto Tanaris,65.9,21.32
 		'Talk to Goddard (id:45525)|c
 		.'Turn in A Dangerous Mixture (id:26511)|c
 		.'Accept The Final Countdown (id:26512)|c
-	step//62
+	step//61
 		'Pull the lever (Kronk!) that's besides Goddard then turn the quest in|c
 		.talk Goddard##45525
 		..'Turn in The Final Countdown (id:26512)|c
-	step//63
+	step//62
 		goto Tanaris,65.85,21.25
 		'Talk to Poole (id:45533)|c
 		.'Accept A.S.S. Overhaul (id:26514)|c
-	step//64
+	step//63
 		goto Tanaris,66.55,22.34
 		talk Haughty Modiste##15165
 		.turnin Pirate Hats Ahoy!##8365
-	step//65
+	step//64
 		'>>> Refill quiver <<<|goto Tanaris,67,22
 		.talk Jabbey##8139
-	step//66
+	step//65
 		goto Tanaris,66.74,22.94
 		'Talk to Kyx Rustwrench (id:45530)|c
 		.'Turn in A Workwomans Tools (id:26524)|c
 		.'Accept Water Injection (id:26525)|c
-	step//67
+	step//66
 		goto Tanaris,67,23.86
 		talk Security Chief Bilgewhizzle##7882
 		.turnin Southsea Shakedown##8366
 		.turnin WANTED: Andre Firebeard##2875
 		.turnin Ship Schedules##2876
 		..'Skip this step if you didn't get the item while doing pirates's quests|c
-	step//68
+	step//67
 		goto Tanaris,67.05,23.95
 		talk Stoley##7881
 		.turnin Stoley's Shipment##2873
 		.accept Deliver to MacKinley##2874
-	step//69
+	step//68
 		'Back to Gadgetzan. Check if water guy still has some elixirs while on the road|goto Tanaris,52.42,28.43
 		talk Chief Engineer Bilgewhizzle##7407
 		.turnin More Wastewander Justice##1691
 		.turnin WANTED: Caliph Scorpidsting##2781
-	step//70
+	step//69
 		'Turn in as many water pouches as you can for some XP + a chance at potions|goto Tanaris,52.44,28.44
 		talk Spigot Operator Luglunket##7408
-	step//71
+	step//70
 		goto Tanaris,51.71,26.71
 		'Talk to Kranz (id:45711)|c
 		.'Turn in A.S.S. Overhaul (id:26514)|c
-	step//72
+	step//71
 		'Don't accept the follow up yet|goto Tanaris,50.23,27.43
 		talk Senior Surveyor Fizzledowser##7724
 		.turnin Gadgetzan Water Survey##992
-	step//73
+	step//72
 		'Fly to Feralas' border with 1k needels|goto Tanaris,51.04,29.33
 ]])
 
@@ -5555,7 +5611,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 		talk Jer'kai Moonweaver##7957
 		.accept Doling Justice##2970
 	step//5
-		'You wil have to go to this camp to finish off Naturalists as tehre are not enough in the first one where the cage is|goto Feralas,69.36,39.69
+		'You wil have to go to this camp to finish off Naturalists as there are not enough in the first one where the cage is|goto Feralas,69.36,39.69
 		.kill 12 Grimtotem Naturalist##7726|q 2970/1
 		.kill 10 Grimtotem Raider##7725|q 2970/2
 		.kill 6 Grimtotem Shaman##7727|q 2970/3
@@ -5711,9 +5767,10 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 		'Kill the group of apes halfway to the ruins of the south to start respawns|c
 	step//43
 		'Get the hypogriff egg. If you spot the giant tree mark it and remember where it's pathing|goto Feralas,53.66,74.33
+		.get Hippogryph Egg|q 2741/1
 	step//44
 		'Once you find the giant tree lure or wait untill he paths to this tree. Kill the ape while waiting/before pull|goto Feralas,58.2,62.04
-		'Growl off, screech off (important, the AoE debuff will aggro the Forestwalker), cower on. Spam distracting shot and viper sting on CD to drain mana and keep agro. Can't slow him, but can outrun him. If it cast the corrupted tranquility just walk out and re-engage at the at the north east, then circle back|c
+		'Growl off, screech off (important, the AoE debuff will aggro the Forestwalker), cower on. Spam distracting shot and viper sting on CD to drain mana and keep agro. Can't slow him, but can outrun him. If he casts the corrupted tranquility just walk out and re-engage at the north eastern tree, then circle back|c
 		.'Get Hefty Ancient Log from Lost Ancient(id:45888) for a quest (id:26602, objective:1)|c
 	step//45
 		'Finish bear + ape meat. If treant branches was viable finish it too.|goto Feralas,57.39,60.38
@@ -5724,11 +5781,12 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 	step//46
 		'Kill yetis for hides. One might drop a pristine hide. Loot it and accept the quest if so.|goto Feralas,55.2,56.31|use Pristine Yeti Hide##18969
 		.accept Pristine Yeti Hide##7735
-		..'Skip if it didn't drop. Note: seems bugged, only seems to drop from 1 of the 2 yetis that ambush the robot chicken :/. Tested on trinity core repack|c
+		..'Skip if it didn't drop. Note: seems bugged, only drops from the yetis north of feralas|c
 		.from Enraged Feral Scar##5295, Feral Scar Yeti##5292
 		.get 10 Thick Yeti Hide|q 2821/1
 	step//47
-		goto Feralas,53.4,55.71
+		'Only if you got the item. Try to kill some extra yetis if you didn't then leave|goto Feralas,53.4,55.71|use OOX-22/FE Distress Beacon##8705
+		.accept Find OOX-22/FE!##2766
 		talk Homing Robot OOX-22/FE##7807
 		.turnin Find OOX-22/FE!##2766
 		.accept Rescue OOX-22/FE!##2767
@@ -5755,6 +5813,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 		talk Pratt McGrubben##7852
 		.turnin Pristine Yeti Hide##7735
 		.turnin The Mark of Quality##2821
+		..'Skip this if you didn't get the drop before|c
 	step//54
 		goto Feralas,31.88,45.55
 		talk Angelas Moonbreeze##7900
@@ -5829,9 +5888,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing
 		.from Enraged Rock Elemental##2791
 		.get Torn Scroll Fragment|q 692/1
 		.from Enraged Rock Elemental##2791
-		.get Crumpled Scroll Fragment|q 692/1
+		.get Crumpled Scroll Fragment|q 692/2
 		.from Enraged Rock Elemental##2791
-		.get Singed Scroll Fragment|q 692/1
+		.get Singed Scroll Fragment|q 692/3
 	step//5
 		'Turn in and leave for Searing Gorge. Don't need to wait out the RP or accept the follow up (unless you want to finish the questline for w/e reason)|goto Badlands,51.41,76.77
 		talk Theldurin the Lost##2785
@@ -5917,177 +5976,171 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing
 		talk Marin Noggenfogger##7564
 		.accept The Thirsty Goblin##2605
 	step//29
-		goto Tanaris,51.96,29.63
-	step//30
 		goto Tanaris,52.73,45.89
 		talk Marvon Rivetseeker##7771
 		.turnin The Sunken Temple##3445
 		.accept The Stone Circle##3444
 		.'Accept Two Legged Vultures (id:26529)|c
 		.accept Gahz'ridian##3161
-	step//31
+	step//30
 		'Go to the Zepelin crash. Get the fuel injectors from the looters or the crates. Get Marvon's things from the looters|goto Tanaris,51.25,46.08
 		.'Get 8 Fuel Injector from Ravenous Looter(id:45727) for a quest (id:26525, objective:1)|c
 		.'Get Marvon's Pocket Watch from Ravenous Looter(id:45727) for a quest (id:26529, objective:1)|c
 		.'Get Marvon's Brimmed Hat from Ravenous Looter(id:45727) for a quest (id:26529, objective:2)|c
 		.'Get Marvon's Ham Radio from Ravenous Looter(id:45727) for a quest (id:26529, objective:3)|c
-	step//32
+	step//31
 		goto Tanaris,52.68,45.87
 		talk Marvon Rivetseeker##7771
 		.'Turn in Two Legged Vultures (id:26529)|c
-	step//33
+	step//32
 		'Kill any silithid for the insect parts. Collect any Gahz'ridian you find|goto Tanaris,36.57,46.4
 		.get 5 Centipaar Insect Parts|q 82/1
 		'You can equip the helmet you got for the quest to track the Gahz'ridian (or use a DB addon that has all the nodes marked *cough*)|c
-	step//34
+	step//33
 		'Start killing ogres and circle counter clock wise towards the cave to the south. Keep collecting Gahz'ridian|goto Tanaris,39.63,51.15
 		'Kill Gor'Marok here|goto Tanaris,41.47,57.74
 		.kill Gor'marok the Ravager##12046|q 5863/3
 		kill 10 Dunemaul Brute##5474|q 5863/1
 		kill 10 Dunemaul Enforcer##5472|q 5863/2
 		'If you are still missing 2 brutes and enforcerers you can proceed to the next step and finish there|c
-	step//35
+	step//34
 		'Now collect any Gahz'ridian you find in these ruins then move onto the next step|goto Tanaris,46.88,64.15
-	step//36
+	step//35
 		'Finish collecting the Gahz'ridian and any brutes/enforcerers you may be missing|goto Tanaris,41.74,70.89
 		.get 30 Gahz'ridian Ornament|q 3161/1
-	step//37
+	step//36
 		'Run close to Udum to get the exploration XP then go west to the valley with the elementals|goto Tanaris,37.43,76.73
 		'Kill dew collectors for the gland and the other 2 for the kill quest|goto Tanaris,28.28,69.46
 		.from Thistleshrub Dew Collector##5481
 		.get Laden Dew Gland|q 2605/1
 		.kill 8 Gnarled Thistleshrub##5490|q 3362/1
 		.kill 8 Thistleshrub Rootshaper##5485|q 3362/2
-	step//38
+	step//37
 		'While traveling through Un'Goro to Marshall's refugee gather 7 of each crystal type (nodes are static in Trinity core, just look them up)|goto Un'Goro Crater,62.88,68.58
 		accept It's a Secret to Everybody##3844
-	step//39
+	step//38
 		'Underwater|goto Un'Goro Crater,63.07,68.97
 		turnin It's a Secret to Everybody##3844
 		accept It's a Secret to Everybody##3845
-	step//40
+	step//39
 		'Make sure you have 7 of each crystal (red, green, blue, yellow). Open the bag to loot the items.|goto Un'Goro Crater,44.6,8.29|use A Small Pack##11107
 		talk Linken##8737
 		.turnin It's a Secret to Everybody##3845
 		.accept It's a Secret to Everybody##3908
-	step//41
+	step//40
 		'Turn in the crystals, ignore the other quests|goto Un'Goro Crater,41.89,2.64
 		talk J.D. Collie##9117
 		.accept Crystals of Power##4284
 		.turnin Crystals of Power##4284
-	step//42
+	step//41
 		'>>> Refill quiver <<<|goto Un'Goro Crater,43.33,7.77
 		.talk Nergal##12959
-	step//43
+	step//42
 		'Discover the FP and fly to Gadgetzan|goto Un'Goro Crater,45.19,5.85
 		.talk Gryfe##10583
-	step//44
+	step//43
 		goto Tanaris,51.81,28.57
 		talk Marin Noggenfogger##7564
 		.turnin The Thirsty Goblin##2605
 		.accept In Good Taste##2606
-	step//45
+	step//44
 		goto Tanaris,51.09,26.95
 		talk Sprinkle##7583
 		.turnin In Good Taste##2606
 		.accept Sprinkle's Secret Ingredient##2641
-	step//46
+	step//45
 		goto Tanaris,50.95,26.98
 		talk Alchemist Pestlezugg##5594
 		.turnin Noxious Lair Investigation##82
-	step//47
+	step//46
 		goto Tanaris,50.26,27.44
 		talk Senior Surveyor Fizzledowser##7724
 		.accept The Scrimshank Redemption##10
-	step//48
+	step//47
 		goto Tanaris,51.57,26.79
 		talk Tran'rek##7876
 		.turnin Thistleshrub Valley##3362
-	step//49
+	step//48
 		goto Tanaris,52.77,27.33
 		talk Andi Lynn##11758
 		.turnin The Dunemaul Compound##5863
-	step//50
+	step//49
 		'>>> Set HS <<< In Tanaris port|goto Tanaris,65.45,24.01
-	step//51
+	step//50
 		goto Tanaris,66.74,22.92
 		'Talk to Kyx Rustwrench (id:45530)|c
 		.'Turn in Water Injection (id:26525)|c
 		.'Wait out the roleplay...|c
 		.'Accept A Saboteur In Our Midst (id:26526)|c
-	step//52
+	step//51
 		'Go around town talking to the guards to progress the quest|c
 		.'Goal: 6 Bruisers questioned. For a quest (id:26526, objective:1)|c
-	step//53
+	step//52
 		goto Tanaris,66.74,22.93
 		'Talk to Kyx Rustwrench (id:45530)|c
 		.'Turn in A Saboteur In Our Midst (id:26526)|c
 		.'Accept Clear Accusations (id:26527)|c
-	step//54
+	step//53
 		'Skip the follow up|goto Tanaris,66.95,22.39
 		talk Yeh'kinya##8579
 		.turnin Screecher Spirits##3520
-	step//55
+	step//54
 		goto Tanaris,66.99,23.87
 		talk Security Chief Bilgewhizzle##7882
 		.'Turn in Clear Accusations (id:26527)|c
-	step//56
+	step//55
 		'The WANTED post right at the town's entrance will activate now|goto Tanaris,64.82,23.57
 		'Accept Wanted: Doszurd (id:26528)|c
-	step//57
+	step//56
 		'Place a trap at the goblin's feet and talk to him to start the fight. Can pet tank ez|goto Tanaris,53.03,33.19
 		.'Kill Doszurd (id:45725) for a quest (id:26528, objective1)|c
-	step//58
+	step//57
 		goto Tanaris,52.77,45.9
 		talk Marvon Rivetseeker##7771
 		.turnin Gahz'ridian##3161
-	step//59
+	step//58
 		'Go into the silithid hive through this tunnel|goto Tanaris,55.71,69.04
 		'Turn right in the first bifurcation|goto Tanaris,56.13,68.26
 		'Right again after crossing the first room|goto Tanaris,57.63,70.59
 		'Get the surveying gear|goto Tanaris,55.97,71.19
 		.get Scrimshank's Surveying Gear|q 10/1
-	step//60
+	step//59
 		'If you didn't get the robot chicken beacon you can HS back to Tanaris port now. Otherwise, backtrack. Turn left on the first bifurcation|goto Tanaris,57.49,71.2
 		'Left again after crossing the room and you are out|goto Tanaris,56.02,68.27
-	step//61
+	step//60
 		'Use the Tanaris' beacon to accept to chicken quest|goto Tanaris,60.25,64.66|use OOX-17/TN Distress Beacon##8623
 		.accept Find OOX-17/TN!##351
 		talk Homing Robot OOX-17/TN##7784
 		.turnin Find OOX-17/TN!##351
 		.'Start the escort|c
 		.accept Rescue OOX-17/TN!##648
-	step//62
+	step//61
 		'There is an ambush right before Caverns of time and thats it|goto Tanaris,61.25,53.66
-		.goal Some objectivea	Escort OOX-17/TN to safety|q 648/1
-	step//63
+		.goal Escort OOX-17/TN to safety|q 648/1
+	step//62
 		'HS back to Tanaris port|use Hearthstone##6948|c
-	step//64
+	step//63
 		goto Tanaris,66.99,23.88
 		talk Security Chief Bilgewhizzle##7882
 		.'Turn in Wanted: Doszurd (id:26528)|c
-	step//65
+	step//64
 		goto Tanaris,50.23,27.44
 		talk Senior Surveyor Fizzledowser##7724
 		.turnin The Scrimshank Redemption##10
 		.accept Insect Part Analysis##110
-	step//66
-		goto Tanaris,50.23,27.44
-		talk Senior Surveyor Fizzledowser##7724
-		.accept Insect Part Analysis##110
-	step//67
+	step//65
 		goto Tanaris,50.92,26.95
 		talk Alchemist Pestlezugg##5594
 		.turnin Insect Part Analysis##110
 		.accept Insect Part Analysis##113
-	step//68
+	step//66
 		goto Tanaris,50.24,27.44
 		talk Senior Surveyor Fizzledowser##7724
 		.turnin Insect Part Analysis##113
 		.accept Rise of the Silithid##162
-	step//69
+	step//67
 		'Fly to Theramore|goto Tanaris,50.98,29.33
-	step//70
+	step//68
 		'Boat to Menethil|goto Dustwallow Marsh,71.55,56.37
 ]])
 
@@ -6109,63 +6162,66 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Hinterl
 		.turnin To The Hinterlands##1449
 		.accept Gryphon Master Talonaxe##1450
 	step//5
+		'Get the FP if the elemental plateau quest that brings you here was bugged|goto The Hinterlands,11.13,46.14
+		.talk Guthrum Thunderfist##8018
+	step//6
 		'Skip the other dwarf's quests (the one about the fish). WIll accept later|goto The Hinterlands,9.81,44.54
 		talk Gryphon Master Talonaxe##5636
 		.turnin Gryphon Master Talonaxe##1450
 		.accept Rhapsody Shindigger##1451
 		.accept Witherbark Cages##2988
 		.accept Preying on the Predators##9471
-	step//6
+	step//7
 		goto The Hinterlands,10.19,43.68
 		'Talk to Tizzie Sparkcraft (id:45694)|c
 		.'Accept Falling Up To Grace (id:26498)|c
-	step//7
+	step//8
 		goto The Hinterlands,14.29,47.88
 		'Talk to Golith Slatestrike (id:45683)|c
 		.accept Featherbeard's Endorsement##9469
 		.accept A Gesture of Goodwill##9470
-	step//8
+	step//9
 		goto The Hinterlands,15.95,47.11
 		talk Kerr Ironsight##11813
 		.'Accept Can't Make An Omelette Without... (id:26491)|c
-	step//9
+	step//10
 		goto The Hinterlands,16.42,47.47
 		talk Claira Kindfeather##11812
 		.'Accept A Vicious Vocation (id:26496)|c
-	step//10
+	step//11
 		'Wanted post right outside the inn|goto The Hinterlands,14.08,45.39
 		'Accept Wanted: Foulcrest (id:26506)|c
-	step//11
+	step//12
 		'Don't accept the oozes quest|goto The Hinterlands,14.76,44.53
 		.'The reason you are skipping some quest is because quest log is getting too full (if it already isn't...)|c
 		talk Fraggar Thundermantle##7884
 		.accept Troll Necklace Bounty##2880
-	step//12
+	step//13
 		'The book besides the fireplace|goto The Hinterlands,13.33,55.21
 		.'No, you didn't forget to set your HS. We will set it later as you don't need it now|c
-		.'Whie running around the area kill wolves, owl beasts and gather feathers|c
+		.'While running around the area kill wolves, owl beasts and gather feathers|c
 		turnin Featherbeard's Endorsement##9469
 		accept In Pursuit of Featherbeard##9476
-	step//13
+	step//14
 		'Skip the follow up|goto The Hinterlands,26.87,48.5
 		talk Rhapsody Shindigger##5634
 		.turnin Rhapsody Shindigger##1451
-	step//14
-		'First two cages. Can AoE the camp down. You have explosive from Tanaris too (maybe)|goto The Hinterlands,23.24,58.59
+	step//15
+		'First two cages. Can AoE the camp down. You have explosives from Tanaris too if you didn't sell them|goto The Hinterlands,23.24,58.59
 		.goal Check First Cage|q 2988/1
 		.goal Check Second Cage|q 2988/2
-	step//15
+	step//16
 		'Kill the troll and the spider|goto The Hinterlands,24.73,65.64
 		.kill Witch Doctor Mai'jin##17235|q 9470/1
 		.kill Tcha'kaz##17236|q 9470/2
-	step//16
+	step//17
 		'Third cage. Can AoE the camp down. Possible chest inside the tent|goto The Hinterlands,31.95,57.42
 		.goal Check Third Cage|q 2988/3
-	step//17
+	step//18
 		'Dead dwarf top of the temple. While around the area kill spiders for silk and gather spider eggs|goto The Hinterlands,37.05,71.46
 		turnin In Pursuit of Featherbeard##9476
 		accept Reclaiming the Eggs##9475
-	step//18
+	step//19
 		'Go here and gather 2 of the eggs|goto The Hinterlands,34.13,72.77
 		'Ignore the exile's quest. 3 last eggs here, or at least in Trinity core. If not, check all the areas listed on the note you got after accepting the quest (check nort eastern slope last).|goto The Hinterlands,33.69,75.08
 		.get 5 Gryphon Egg|q 9475/1
@@ -6174,12 +6230,12 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Hinterl
 		..'Any troll|c
 		.'Get 8 Whitherbark Shawl Scrap for a quest (id:26498, objective:1)|c
 		.'Get 8 Perfect Broodguard Silk from Witherbark Broodguard(id:2686) for a quest (id:26498, objective:2)|c
-	step//19
+	step//20
 		'Jump down to the lake from here. Possible chest inside the tent|goto The Hinterlands,40,65.69
 		'Gather the mushroom then look around the lake for the black elite gryphon and kill it|goto The Hinterlands,41.01,59.85
 		.get Violet Tragan|q 2641/1
 		.'Get Foulcrest Plume from Foulcrest(id:45706) for a quest (id:26506, objective:1)|c
-	step//20
+	step//21
 		'Make your way back to Aerie peak. Shopping list before first back|c
 		.kill 10 Mangy Silvermane##2923|q 9471/1
 		.kill 5 Silvermane Wolf##2924|q 9471/2
@@ -6188,21 +6244,21 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Hinterl
 		..'Any troll|c
 		.get 15 Favored of Elune?|q 3661/1
 		..'Can finish later|c
-	step//21
+	step//22
 		goto The Hinterlands,14.4,48.02
 		'Talk to Golith Slatestrike (id:45683)|c
 		.turnin A Gesture of Goodwill##9470
 		.turnin Reclaiming the Eggs##9475
-	step//22
+	step//23
 		goto The Hinterlands,15.98,47.13
 		talk Kerr Ironsight##11813
 		.'Turn in Can't Make An Omelette Without... (id:26491)|c
-	step//23
+	step//24
 		goto The Hinterlands,16.43,47.49
 		talk Claira Kindfeather##11812
 		.'Turn in A Vicious Vocation (id:26496)|c
 		.'Accept Primitive Pummeling (id:26493)|c
-	step//24
+	step//25
 		'Going here first to free quest log space|goto The Hinterlands,9.84,44.52
 		talk Gryphon Master Talonaxe##5636
 		.turnin Witherbark Cages##2988
@@ -6210,178 +6266,178 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Hinterl
 		.turnin Preying on the Predators##9471
 		.'Accept Stalking the Stalkers (id:26492)|c
 		.'Turn in Wanted: Foulcrest (id:26506)|c
-	step//25
+	step//26
 		goto The Hinterlands,9.82,44.7
 		'Talk to Gryphon Master Stonemace (id:45697)|c
 		.'Accept Razorbeak Friends (id:26489)|c
-	step//26
+	step//27
 		goto The Hinterlands,10.04,43.51
 		'Talk to Tizzie Sparkcraft (id:45694)|c
 		.'Turn in Falling Up To Grace (id:26498)|c
 		.'Accept Falling Up To Grace (id:26499)|c
-	step//27
+	step//28
 		goto The Hinterlands,14.74,44.53
 		talk Fraggar Thundermantle##7884
 		.turnin Troll Necklace Bounty##2880
 		.accept Skulk Rock Clean-up##2877
-	step//28
+	step//29
 		goto The Hinterlands,14.43,42.47
 		talk Truk Wildbeard##4782
 		.'Accept Turtle Power (id:26487)|c
 		.'Accept A Sticky Situation (id:26497)|c
-	step//29
+	step//30
 		goto The Hinterlands,13.79,43.78
 		'Talk to Murdug Drunkbelly (id:45701)|c
 		.'Accept Prime Slime (id:26488)|c
-	step//30
+	step//31
 		goto The Hinterlands,14,43.34
 		'Talk to Chief Engineer Urul (id:45700)|c
 		.'Accept Parts From Afar (id:26504)|c
-	step//31
+	step//32
 		'Face north after accepting the quest then go through the door to your right, behind the siege engine, and go upstairs. Thats where the inkeeper is|goto The Hinterlands,14.1,41.59
 		'>>> Set HS  <<<|c
 		.talk Innkeeper Thulfram##7744
-	step//32
+	step//33
 		'Can go up from the slope near the house south west of the marker|goto The Hinterlands,34.31,37.84
 		talk Ruppo Zipcoil##2688
 		.'Turn in Falling Up To Grace (id:26499)|c
 		.'Accept Falling Up To Grace (id:26500)|c
-	step//33
-		'Go here and start killing the howlers and the owlbeasts. Check the howler spawn, you barely can miss any|goto The Hinterlands,39.23,45.57
-		'Go towards here to kill the far away howler spwan. You should be done with owlbeasts aswell|goto The Hinterlands,50.58,59.91
+	step//34
+		'Go here and start killing the howlers and the owlbeasts. Go ut of your wat to kill howlers, you barely can miss any|goto The Hinterlands,39.23,45.57
+		'Go towards here to kill the far away howler spawn. You should be done with owlbeasts aswell|goto The Hinterlands,50.58,59.91
 		.'Kill 15 Primitive Owlbeast (id:2928) for a quest (id:26493, objective1)|c
 		..'Can finish later too|c
-	step//34
+	step//35
 		'Climb halfway through the stairs. Put a frost trap down. Send your pet to the keeprs and then command it to attack 1 of the far away trolls downstairs. Discover the altar while the mobs are distracted then go down and FD if your pet dies|goto The Hinterlands,48.23,67.51
 		.goal Search the Altar of Zul|q 2989/1
-	step//35
+	step//36
 		'Now go west while finishing howlers and owlbeasts (if needed)|goto The Hinterlands,37.39,59.02
 		.'Kill 15 Silvermane Howler (id:2925) for a quest (id:26492, objective2)|c
 		'Look for a summon to Ironforge (or even SW) for right after finishing the owlbeasts and these wolves|c
-	step//36
-		'HS back to Aerie peak (yes, to turn a single quest...)|use Hearthstone##6948|c
-		'If you managed to get a summon turn 'Parts From Afar' there then HS back. The turn in is at the forge and asks you to go back to Aerie peak afterwards. No idea what the follow up may be (or if there even is one...)|c
-		.'The guide continues as if you didn't get a summon|c
 	step//37
+		'HS back to Aerie peak (yes, to turn a single quest...)|use Hearthstone##6948|c
+		'If you managed to get a summon go to Ironforge and turn 'Parts From Afar' there then HS back. The turn in is at the forge and asks you to go back to Aerie peak afterwards. No idea what the follow up may be (or if there even is one...)|c
+		.'The guide continues as if you didn't get a summon|c
+	step//38
 		goto The Hinterlands,16.41,47.52
 		talk Claira Kindfeather##11812
 		.'Turn in Primitive Pummeling (id:26493)|c
 		.'Accept Savage Slam (id:26494)|c
-	step//38
-		'Go to these ruins and gather the 3 horde supply crates in there (check on any DB) the gather the 4th one near the lake (marker). Fully loot the boxes so they respawn, don't be an ass.|goto The Hinterlands,47.43,37.93
 	step//39
+		'Go to these ruins and gather the 3 horde supply crates in there (check on any DB) then gather the 4th one near the lake (marker). Fully loot the boxes so they respawn, don't be an ass.|goto The Hinterlands,47.43,37.93
+	step//40
 		'Go to the chicken's lake and do a lap around it killing the fishes for meat and gathering the reeds. You won't finish now, but it will start the respawns.|c
 		'Dive to the bottom of the lake and gather the item. Is pretty hard to see. It's besides the cages at the bottom, wiggle your mouse around there until the cursor changes or you spot the sparkles|goto The Hinterlands,48.09,35.95
 		.'Get Warbling Altometer for a quest (id:26500, objective:1)|c
-	step//40
+	step//41
 		'Use the beacon to accept the quest. If you haven't found the beacon yet just come back later|goto The Hinterlands,49.37,37.69|use OOX-09/HL Distress Beacon##8704
 		.accept Find OOX-09/HL!##485
 		talk Homing Robot OOX-09/HL##7806
 		.turnin Find OOX-09/HL!##485
 		.accept Rescue OOX-09/HL!##836
-	step//41
+	step//42
 		'Escort the chicken. You will get ambushed by 3 owlbeasts at this spot. Quest ends right after|goto The Hinterlands,58.03,50.28
 		.goal Escort OOX-09/HL to safety|q 836/1
-	step//42
+	step//43
 		'Go to the Oozes cave. You should have killed 8 stalkers on the way (check spawns on DB, they are stealthed), kill any owlbeast you might find too and check out the river for reeds and groupers|goto The Hinterlands,57.47,38.76
 		.'1 crate outside the cave. 1 in the upper level right just as you go in. 1 in the middle level, 2 on the eastern room (and a rare), the last one in the south western room (with the giant ooze)|c
 		..'Get 10 Hinterlands Honey Ripple for a quest (id:26497, objective:1)|c
 		.kill 10 Green Sludge##2655|q 2877/1
 		.kill 10 Jade Ooze##2656|q 2877/2
 		.'Get Direglob Sample from The Direglob(id:45702) for a quest (id:26488, objective:1)|c
-	step//43
+	step//44
 		'Go up to this spot killing groupers and gathering reeds, then go south and start killing owlbeasts and stalkers|goto The Hinterlands,62.33,38.76
 		'Once you have killed 4 owlbeasts (5/10) begin to turn towards the west. 4 Owlbeasts south of the road (9/10) and lots of stalkers.|goto The Hinterlands,60.85,47.24
 		'Last owlbeast here. You should be done with stalkers by now too|goto The Hinterlands,55.98,46.03
 		.'Kill 10 Savage Owlbeast (id:2929) for a quest (id:26494, objective1)|c
 		.'Kill 15 Silvermane Stalker (id:2926) for a quest (id:26492, objective1)|c
-	step//44
+	step//45
 		'Back to the lake if you need to to finish reeds + grouper meat|goto The Hinterlands,50.81,38.18
 		.'Get 8 Grouper Steak from Chunky Grouper(id:45695) for a quest (id:26489, objective:1)|c
 		.'Get 15 Royal Bite for a quest (id:26489, objective:2)|c
-	step//45
+	step//46
 		'Back to the gnomes in the mountains|goto The Hinterlands,34.32,37.82
 		talk Ruppo Zipcoil##2688
 		.'Turn in Falling Up To Grace (id:26500)|c
 		.'Accept Falling Up To Grace (id:26501)|c
-	step//46
+	step//47
 		goto The Hinterlands,16.44,47.48
 		talk Claira Kindfeather##11812
 		.'Turn in Savage Slam (id:26494)|c
 		.'Accept Owlkin Leadership (id:26495)|c
-	step//47
+	step//48
 		goto The Hinterlands,14.78,44.46
 		talk Fraggar Thundermantle##7884
 		.turnin Skulk Rock Clean-up##2877
-	step//48
+	step//49
 		goto The Hinterlands,14.41,42.47
 		talk Truk Wildbeard##4782
 		.'Turn in A Sticky Situation (id:26497)|c
-	step//49
+	step//50
 		goto The Hinterlands,14.13,43.92
 		'Talk to Murdug Drunkbelly (id:45701)|c
 		.'Turn in Prime Slime (id:26488)|c
-	step//50
+	step//51
 		goto The Hinterlands,9.82,44.55
 		talk Gryphon Master Talonaxe##5636
 		.turnin The Altar of Zul##2989
 		.accept Thadius Grimshade##2990
 		.turnin Stalking the Stalkers##26492
-	step//51
+	step//52
 		goto The Hinterlands,9.9,44.83
 		'Talk to Gryphon Master Stonemace (id:45697)|c
 		.'Turn in Razorbeak Friends (id:26489)|c
 		.'Accept Razorbeak Friends (id:26490)|c
-	step//52
+	step//53
 		goto The Hinterlands,10.03,43.5
 		talk Tizzie Sparkcraft##45694
 		.'Turn in Falling Up To Grace (id:26501)|c
 		.'Accept Falling Up To Grace (id:26502)|c
-	step//53
-		'Go in front of Falstad Windhammer and test the parachute. You will get team rocket blasted then it will automatically deploy. Use Tizzie's Jetpack. Go to The Hinterlands 11.84,46.8
-		.'26502. Goal: Parachute Tested. For a quest (id:26502, objective:1)|c
 	step//54
+		'Go in front of Falstad Windhammer and test the parachute. You will get team rocket blasted then it will automatically deploy. Use Tizzie's Jetpack. Go to The Hinterlands 11.84,46.8
+		.'Goal: Parachute Tested. For a quest (id:26502, objective:1)|c
+	step//55
 		'Back to the nest|goto The Hinterlands,10.04,43.45
 		talk Tizzie Sparkcraft##45694
 		.'Turn in Falling Up To Grace (id:26502)|c
 		.'Accept Falling Up To Grace (id:26503)|c
-	step//55
+	step//56
 		'Finish the questline|goto The Hinterlands,11.86,46.85
 		talk Falstad Wildhammer##5635
 		.turnin Falling Up To Grace##26503
-	step//56
+	step//57
 		'Feed the gryphons|goto The Hinterlands,15.9,50.93|use Razorbeak Treats##60673
 		.goal 7 Trained Razorbeak Fed|q 26490/1
-	step//57
-		'Long run to the other corner of the map... There is an efigy at the top of thos mound. Use the item here to summon it. Use Wildhammer Torch. Go to The Hinterlands 66.24,53.29
+	step//58
+		'Long run to the other corner of the map... There is an efigy at the top of this mound. Use the item here to summon it. Use Wildhammer Torch. Go to The Hinterlands 66.24,53.29
 		.'This chicken slaps. Has an execute and enrages when <40% hp. No match for the true and tested method of pilar + frost trap tho. Go to this rock, kill the 2 stalkers that are nearby, summon the chicken and play ring around the rosie with growl off, cower on and a frost trap.|goto The Hinterlands,67.71,53.07
 		.'Kill Rirrek (id:45688) for a quest (id:26495, objective1)|c
-	step//58
-		'Check the bottom of this lake for a rare slime with eagle eye. If it's up just kill it for a wand, can vendor or sell on AH (probably no one will ahve money at this level range cause riding skill)|goto The Hinterlands,64.09,61.44
+	step//59
+		'Check the bottom of this lake for a rare slime with eagle eye. If it's up just kill it for a wand, can vendor or sell on AH (probably no one will have money at this level range because riding skill)|goto The Hinterlands,64.09,61.44
 		'Go down to the beach from here|goto The Hinterlands,72.51,66.13
 		'Skip this afterwards|c
-	step//59
+	step//60
 		'Go here and finish Cortelo's riddle. Get meat from the turtles, take a photo of the elite one and gather wine bottles|goto The Hinterlands,80.86,46.9
 		turnin Cortello's Riddle##626
 		'Get 10 Lean Turtle Flank from Saltwater Snapjaw(id:2505) for a quest (id:26487, objective:1)|c
 		get 12 Pupellyverbos Port|q 580/1
 		get Snapshot of Gammerita|q 2944/1
 		.'Use the camera while targeting the turtle. It's bugged, but it will agro on you in normal conditions after taking the picture (make sure you have room in your bags)|use Super Snapper FX##9328|c
-	step//60
-		'HS back to Aerie peak|use Hearthstone##6948|c
 	step//61
+		'HS back to Aerie peak|use Hearthstone##6948|c
+	step//62
 		goto The Hinterlands,14.41,42.47
 		talk Truk Wildbeard##4782
 		.'Turn in Turtle Power (id:26487)|c
-	step//62
+	step//63
 		goto The Hinterlands,16.44,47.48
 		talk Claira Kindfeather##11812
 		.'Turn in Owlkin Leadership (id:26495)|c
-	step//63
+	step//64
 		goto The Hinterlands,9.64,44.16
 		talk Gryphon Master Stonemace##45697
 		.turnin Razorbeak Friends##26490
-	step//64
+	step//65
 		'Fly to IF|goto The Hinterlands,11.08,46.12
 ]])
 
@@ -6419,8 +6475,8 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing
 		goto Ironforge,70.97,94.25
 		talk Xiggs Fuselighter##8517
 		.turnin An Easy Pickup##3450
-		.accept Singal for Pickup##3451
-		.turnin Singal for Pickup##3451
+		.accept Signal for Pickup##3451
+		.turnin Signal for Pickup##3451
 	step//8
 		'>>> Refill quiver <<< 2nd floor. Also, make sure you have the Standard Issue Flare in your bags. You should have gotten it from the dwarf in the Military Ward|goto Ironforge,71.69,66.38
 		.talk Skolmin Goldfury##5122
@@ -6435,7 +6491,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing
 		.turnin At Last!##3201
 	step//12
 		'Back to Thelsamar, fly to Searing Gorge. It's 30s faster to just fly instead of going through the door with the key|goto Loch Modan,33.95,51.01
-		'While flying prepare a macro with /run SelectGossipOption(1) and bind it somewhere where is easy to spam. It click the first dialog option when talking to NPCs (that have one)|c
+		'While flying prepare a macro with /run SelectGossipOption(1) and bind it somewhere where is easy to spam. It clicks the first dialog option when talking to NPCs (that have one)|c
 	step//13
 		goto Searing Gorge,38.57,28.51
 		talk Master Smith Burninate##14624
@@ -6456,7 +6512,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing
 		'Go down the slope to your left while facing the flight master|goto Searing Gorge,39,38.87
 		talk Kalaran Windblade##8479
 		.accept Divine Retribution##3441
-		.'Talk to him again and spam the gossip macro. You don't need to use the macro here, but on a later quest is heavily recommended|c
+		.'Talk to him again and spam the gossip macro. You don't need to use the macro here, but on a later quest it's heavily recommended|c
 		..goal Kalaran Story|q 3441/1
 	step//17
 		goto Searing Gorge,39,38.87
@@ -6466,7 +6522,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing
 	step//18
 		'If at any point the Outhouse key drops while killing dwarves just hold onto the item. Will accept later.|c
 		'Look east and kill the elemental. Prioritize killing all the elementals you can while moving from place to place. Drop rate is atrocious.|c
-		'Kill one Steamsmith for a quest item (100% drop rate in Trinity core) tehn move west killing elementals, war golems and spiders|goto Searing Gorge,39.03,47.94
+		'Kill one Steamsmith for a quest item (100% drop rate in Trinity core) then move west killing elementals, war golems and spiders|goto Searing Gorge,39.03,47.94
 		.from Dark Iron Steamsmith##5840
 		.get Smithing Tuyere|q 7728/1
 		'Kill the elemental here and then the spiders. Start moving south|goto Searing Gorge,30.95,44.55
@@ -6513,83 +6569,85 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing
 		.turnin Dwarven Justice##3371
 		.accept Release Them##3372
 	step//27
-		'While running up the staris, at the crossroads, go north and kill every dwarf on the hallway. Then, do the same in the next room. While doing so read the rest of the step to get ready for the hardest fight on the run.|goto Searing Gorge,43.68,27.84
+		'While running up the staris, at the crossroads, go north and kill every dwarf on the hallway. Then, do the same in the next room. While doing so read the rest of the step to get ready for the next fight.|goto Searing Gorge,43.68,27.84
 		'Maltorius can't be LoS cheesed like the rest of the elite casters because he casts Shadow Word: Pain (SWP) on his main target (secondary if available), Power Word: Shield (PWS) on himself and Poly on secondary targets while casting Shadowbolts.|c
-		'The problem is that he stops casting Shadowbolts when using anything else for a while, which makes him run into you regardless of wether you are in LoS or not. And worse, he runs out of mana in doing so. This wouldn't be a problem if it wasn't because, even if he has no weapons, he is some kind of Shaolin monk who can break stones with his firsts. Your pet can't face tank it, unless...|c
-		'When he is oom and meleeing your pet you can trap him, cast mend pet/first aid, viper sting (doesn't break freezing trap somehow) and then FD + drink. You can reset the fight while his HP stays the same. To do this tho, make sure you don't have ANYTHING that can put a DoT on him (a certain trinket from a rare in Duskwood *cough*). Furthermore, after you use FD if mend pet's HoT heals your pet then you will be put into combat and won't be able to drink|c
-		'Read next step|c
 	step//28
+		'The problem is that he stops casting Shadowbolts when using anything else for a while, which makes him run into you regardless of wether you are in LoS or not. And worse, he runs out of mana in doing so. This wouldn't be a problem if it wasn't because, even if he has no weapons, he is some kind of Shaolin monk who can break stones with his firsts. Your pet can't face tank it, unless...|c
+	step//29
+		'When he is oom and meleeing your pet you can trap him, cast mend pet/first aid, viper sting (doesn't break freezing trap somehow) and then FD + drink. You can reset the fight while his HP stays the same. To do this tho, make sure you don't have ANYTHING that can put a DoT on him (a certain trinket from a rare in Duskwood *cough*). Furthermore, after you use FD if mend pet's HoT heals your pet then you will be put into combat and won't be able to drink|c
+	step//30
+		'Kill the 2 Taskmasters near the boxes at the south western side of the room. You are going to kit him to (almost) the bridge and need to go through there. Kill the lookout by pulling him with LoS and split pulling him if necessary. Then, place a trap between the grinding stone and the bridge. This is the killing spot. If you go further he can reset by distance.|c
+		'Turn growl off. Your pet will get agro once and you won't be able to overtake it after the first FD. Use mend pet on your pet (will dispell any SWP. You specced into the talent RIGHT???) then drink to full.|c
+	step//31
 		'The plan is the following:|c
-		.'Kill the 2 Taskmasters near the boxes at the south western side of the room. You are going to kit him to (almost) the bridge and need to go through there. Kill the look out by pulling him with LoS and split pulling him if necessary. Then, place a trap between the grinding stone and the bridge. This is the killing spot. If you go further he can reset by distance.|c
-		.'Turn growl off, your pet will get agro once and you won't be able to overtake it after the first FD. Use mend pet on your pet (will dispell any SWP, you specced into the talent RIGHT???) then drink to full.|c
 		.'Open by body pulling with your pet, use viper sting and while he casts shadow bolt (pet face tanks this) use distracting shot to overtake it on agro. Now, LoS every shadow bolt while draining him. 3 things will eventually happen:|c
 		..'He uses PWS, use Arcane Shot to dispel it (the level 46 rank onwards does this in TBC). NEVER use arcane shot for anything else, the shield is nasty.|c
 		..'He uses SWP on your pet. No problem, just keep Mend pet up to dispell it.|c
 		..'He uses polymorph. Use bestial wrath for you and your pet to become inmune. He won't do this anyomero during the fight, he won't have enough mana to do so.|c
 		.'Keep viper sting up. When he is below 25% mana eat a Shadowbolt to the face so he finally runs oom and starts chasing you. Bring him to the killing spot and trap him.|c
-		.'Read next step|c
-	step//29
+	step//32
 		'Now begins the actual loop of the fight. While trapped use mend pet, let mend pet tick once then FD + drink (make a /cast + /use macro). He will get some mana back while trapped. When there are 4-3 seconds left on the trap viper sting him again and let the trap run off then send your pet (with mend pet up ofc).|c
 		'This repeats for more than 3 minutes (mobs will respawn, and bestial wrath will come off cd, don't worry)|c
+	step//33
 		'Things that can go wrong:|c
 		.'Didn't  drain him in time so he uses PWS with the little mana he has -> Use Arcane shot to dispell it|c
 		.'Trap gets resisted or your pet eats some fat crits -> Use intimidation, wing clip, pet on follow then kite him on the bridge while healing your pet. Bring it back to the killing spot before reaching the other end by crossing through him, trap CD should be up by then.|c
 		.'FD gets resisted because the evil devs have made it resistible (*puke*) or you screw up the FD timing with mend pet (shame on you) -> Inmediately use a mana pot and heal your pet with bandages|c
-		'You can always not kill him and simply loot the plans by saccing your pet. But then, why are you playing this class if you can't pull these things off dude... just play a lock or something and press 1 from lvl 1 to the heat death of the universe or something.|c
-	step//30
+		'You can always not kill him and simply loot the plans by saccing your pet.|c
+	step//34
 		from Overseer Maltorius##14621
 		get Head of Overseer Maltorius|q 7701/1
 		'Loot the plans, the mobs will have respawned if you killed Maltorius|goto Searing Gorge,40.5,35.76
 		.get Secret Plans: Fiery Flux|q 7722/1
-	step//31
+	step//35
 		'Finish the killing quests and gathering the daggers. There is a slaver after the bridge towards the exist if you are only missing that (you are heading there)|c
 		.kill 15 Dark Iron Taskmaster##5846|q 7729/1
 		.kill 15 Dark Iron Slaver##5844|q 7729/2
 		.get 8 Thorium Plated Dagger|q 3443/1
 		..'Any dwarf dops them|c
-	step//32
+	step//36
 		'Go towards the the end of the bridge and drop down to the lower level where the Incendosaur is (look nort east)|goto Searing Gorge,47.61,41.76
 		.'Now kill every Incendosaur going forward. What do you mean there are only 13 of the 20 required? Ofc these things never happen while questing (kill the respawns...)|c
 		.kill 20 Incendosaur##9318|q 7727/1
-	step//33
+	step//37
 		'HS back to Thelsamar|use Hearthstone##6948|c
-	step//34
+	step//38
 		'Fly to Searing gorge|goto Loch Modan,33.9,50.89
-	step//35
+	step//39
 		'>>> Refill quiver and buy some meat while at it <<< Your pet willl get sacced a bunch probably|goto Searing Gorge,38.71,28.36
 		talk Master Smith Burninate##14624
 		.turnin What the Flux?##7722
-	step//36
+	step//40
 		goto Searing Gorge,38.49,27.94
 		talk Hansel Heavyhands##14627
 		.turnin Curse These Fat Fingers##7723
 		.turnin Incendosaurs? Whateverosaur is More Like It##7727
 		.turnin Fiery Menace!##7724
-	step//37
+	step//41
 		goto Searing Gorge,38.8,27.71
 		talk Taskmaster Scrange##14626
 		.turnin JOB OPPORTUNITY: Culling the Competition##7729
 		.turnin STOLEN: Smithing Tuyere and Lookout's Spyglass##7728
-	step//38
+	step//42
 		'Only if you killed Maltorius, otherwise skip this step|goto Searing Gorge,37.73,26.65
 		talk Lookout Captain Lolo Longstriker##14634
 		.turnin WANTED: Overseer Maltorius##7701
-	step//39
+	step//43
 		goto Searing Gorge,39.14,39.25
 		talk Kalaran Windblade##8479
 		.turnin Forging the Shaft##3443
 		.accept The Flame's Casing##3452
-	step//40
+	step//44
 		'Go here and get the gossip macro ready, you are about to use it|goto Searing Gorge,25.02,31.01
 		'Twilight Fireguards are a very though fight. They cast a 350-450 damage fireball (sometimes twice in a row...) to the secondary targets, thats you. So you will need to trap then heal (bandages or FD + eating) or straight up health pot. Pop CDs when fighting them and keep mend pet up.|c
 		'Geomancers on the other hand are a joke. Just pet tank it and run out of rain of fire. Your pet can stand on it, it deals less damage than their melees.|c
 		'Once you reach this other spot put your pet on stay a little further behind (near the slope) and read the next step|goto Searing Gorge,26.97,26.05
-	step//41
+	step//45
 		'Send your pet to attack the fireguard near the caged night elf. Pop sprint/dive and once the npcs are aggroed put it on passive so it runs back to the stay spot. Run past everything tho the marker on the map where there are no mobs|goto Searing Gorge,31.01,28.72
 		'Full HP on you and pet. Split pull the fireguard guarding the cage then kill it (pop CDs, use pots if needed etc)|c
-		'Plan: locate one of the far away necromancers, send pet to nearby fireguard then into one of the Idolaters around the lave pit. Afterwards, send it to the far away geomancer, accept the quest, spam the gossip macro while talking the elf, turn in and accept next quest. Finally, get on top of the stone of the lava pit (on top, not on the borders or you will burn), loot the item, run back to the safe spot and feign death.|c
+		'Plan: locate one of the far away necromancers, send pet to nearby fireguard then into one of the Idolaters around the lava pit. Afterwards, send it to the far away geomancer, accept the quest, spam the gossip macro while talking to the elf, turn in and accept next quest. Finally, get on top of the stone of the lava pit (on top, not on the borders or you will burn), loot the item, run back to the safe spot and feign death.|c
 		'If you were too slow while talking to the elf just do all the steps mentioned in 2-3 rounds of pet sacs. Skip to next step when done reading.|c
-	step//42
+	step//46
 		goto Searing Gorge,29.77,26.18
 		talk Zamael Lunthistle##8436
 		.accept Prayer to Elune##3377
@@ -6599,88 +6657,88 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing
 		talk Zamael Lunthistle##8436
 		.turnin Prayer to Elune##3377
 		.accept Prayer to Elune##3378
-	step//43
+	step//47
 		'Remember, on top of it or you will die to lava|goto Searing Gorge,29.15,25.86
 		.get Mysterious Artifact|q 3372/1
-	step//44
+	step//48
 		'Now go kill any of the Shamans (easiest ones, it doesn't matter which) for the Prayer to Elune. 100% drop chance. You probably have the Symbol of Ragnaros too from killing the elites before. Just listing it in case|goto Searing Gorge,25.75,36.55
 		.get Prayer to Elune|q 3378/1
 		.get Symbol of Ragnaros|q 3452/1
-	step//45
+	step//49
 		'The following accept/turn in sequence is stupid, don't question it|goto Searing Gorge,38.99,38.69
 		talk Kalaran Windblade##8479
 		.turnin The Flame's Casing##3452
 		.accept The Torch of Retribution##3453
-	step//46
+	step//50
 		goto Searing Gorge,38.99,38.69
 		talk Kalaran Windblade##8479
 		.'Ask him to carft the torch and wait out the RP (takes a while, craft or kill things)|c
 		.goal Torch Creation|q 3453/1
-	step//47
+	step//51
 		goto Searing Gorge,39.01,39.08
 		talk Kalaran Windblade##8479
 		.turnin The Torch of Retribution##3453
 		.accept The Torch of Retribution##3454
-	step//48
+	step//52
 		'Interact with the torch to turn in the next part|goto Searing Gorge,39.01,39.1
 		turnin The Torch of Retribution##3454
-	step//49
+	step//53
 		goto Searing Gorge,39.01,39.1
 		talk Kalaran Windblade##8479
 		.accept Squire Maltrake##3462
-	step//50
+	step//54
 		goto Searing Gorge,39.05,39.1
 		talk Squire Maltrake##8509
 		.turnin Squire Maltrake##3462
 		.accept Set Them Ablaze!##3463
-	step//51
-		'Be careful with the sentries, the yare elite and will kill you. When done killing all the things at the base equip the torch, put pet on stay far away, send it to pull the mobs in the tower then put on passive to drag them out.|goto Searing Gorge,33.32,53.47
+	step//55
+		'Be careful with the sentries, they are elite and will kill you. When done killing all the things at the base equip the torch, put pet on stay far away, send it to pull the mobs in the tower then put on passive to drag them out.|goto Searing Gorge,33.32,53.47
 		'Burn the brazier at the south western corner of the tower.|goto Searing Gorge,33.31,54.48
 		.goal Northern Tower Ablaze|q 3463/4
-	step//52
+	step//56
 		'Drop down the pit like before and skip this step after|goto Searing Gorge,35,42.7
-	step//53
-		'Forget about killing Obsidion, just turn this in. Before they buffed his damage he could be split pulled and facetanked. No longer, and also, you can't kite him with traps on the stairs or around the room. The mobs will respawn and he starts flying while trying to path on the stairs, is not consistent and super easy to mess up once and die on a 5 minute fight.|goto Searing Gorge,41.37,25.66
+	step//57
+		'Forget about killing Obsidion, just turn this in. Before they buffed his damage he could be split pulled and facetanked. No longer, and also, you can't kite him with traps on the stairs or around the room. The mobs will respawn and he flies while trying to path on the stairs, it's not consistent and super easy to mess up once and die on a 5 minute fight.|goto Searing Gorge,41.37,25.66
 		turnin Release Them##3372
-	step//54
+	step//58
 		'Exit the pit through here|goto Searing Gorge,37.71,44.34
 		'Then here|goto Searing Gorge,41.44,54.14
 		'And finally run up the slope to end up at the next tower|goto Searing Gorge,37.32,58.01
 		'Hopefully the slavers quest gets fixed and there is something else to do while down there|c
-	step//55
+	step//59
 		'Same thing, kill the mobs at the base then pull the ones of top with the pet. Equip the torch before getting into combat and burn the tower|goto Searing Gorge,35.66,59.79
 		'Burn the brazier at the south western side of the tower|goto Searing Gorge,35.65,60.79
 		.goal Western Tower Ablaze|q 3463/1
-	step//56
+	step//60
 		'Nothing on this tower but a free chest :/ Brazier at the north eastern side|goto Searing Gorge,44.02,60.99
 		.goal Southern Tower Ablaze|q 3463/2
-	step//57
+	step//61
 		'This is the hard one. Kill the mobs before the bridge and split pull the patrolling sentries. Face tank them with your pet, then get rid of the regular mobs|goto Searing Gorge,52.74,58.41
-		'2 more sentries on top of the twer, drag them out with your pet and send it to mobs away from the bridge.|goto Searing Gorge,50.28,55.61
+		'2 more sentries on top of the tower, drag them out with your pet and send it to the mobs away from the bridge.|goto Searing Gorge,50.28,55.61
 		'Burn the brazier on the nort eastern side of the tower|goto Searing Gorge,50.06,54.85
 		.goal Eastern Tower Ablaze|q 3463/3
-	step//58
+	step//62
 		'If you got the Outhouse key accept the quest|goto Searing Gorge,65.43,62.21|use Grimesilt Outhouse Key##11818
 		.accept The Key to Freedom##4451
 		'Otherwise -5.5k XP :(|c
-	step//59
+	step//63
 		'Skip this if no key dropped|goto Searing Gorge,65.53,62.22
 		turnin The Key to Freedom##4451
-	step//60
+	step//64
 		'HS back to Thelsamar and fly to Thorium point afterwards or just ride to the quest turn in on the next step if it's on CD|c
-	step//61
+	step//65
 		goto Searing Gorge,39,39.15
 		talk Squire Maltrake##8509
 		.turnin Set Them Ablaze!##3463
-	step//62
+	step//66
 		'Interact with the chest twice. Be careful not to hit the dragon, it's bugged and can kill you if aggroed|goto Searing Gorge,38.65,38.9
 		accept Trinkets...##3481
 		turnin Trinkets...##3481
-	step//63
+	step//67
 		'>>> Full quiver <<< no ammo vendor in Blasted Lands|goto Searing Gorge,38.67,28.69
 		.talk Master Smith Burninate##14624
 		.'Open the chest you just got and sell the contents. Keep the Black Dragonflight Molt|use Hoard of the Black Dragonflight##10569|c
-	step//64
+	step//68
 		'Fly to Stormwind|goto Searing Gorge,37.85,30.76
 ]])
 
@@ -6751,7 +6809,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Blasted
 		.'Turn in Feeding the Troops (id:27646)|c
 		.'Accept Alchemy is the Answer (id:27647)|c
 	step//14
-		'This quest unlock other Felstone related quests, but skip the follow up|goto Blasted Lands,67.57,19.16
+		'This quest unlocks other Felstone related quests. However, skip its follow up|goto Blasted Lands,67.57,19.16
 		talk Watcher Mahar Ba##5385
 		.'Turn in Gathering Intelligence (id:27661)|c
 	step//15
@@ -6833,7 +6891,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Blasted
 		.turnin The Basilisk's Bite##2601
 		.turnin Vulture's Vigor##2603
 	step//32
-		'Use the consumables as you see fit. But remember two things: 1. you have them stacked now due to the turn ins, but you can't stack the ones from the consumables. 2. Save the inellinge one for later when you are Un'Goro, need to engage in the very interesting system of leveling up weapon skills in 2025|goto Blasted Lands,66.86,18.31
+		'Use the consumables as you see fit. But remember two things: 1. you have them stacked now due to the turn ins, but you can't stack the ones from the consumables. 2. Save the intellinge one for later when you are in Un'Goro, need to engage in the very interesting system of leveling up weapon skills in 2025|goto Blasted Lands,66.86,18.31
 		'Talk to Nina Lightbrew (id:8178)|c
 		.'Turn in The Clay Cleanse (id:27648)|c
 		.'Accept Ready for Distribution (id:27649)|c
@@ -6842,13 +6900,13 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Blasted
 		talk Quartermaster Lungertz##5393
 		.'Turn in Ready for Distribution (id:27649)|c
 	step//34
-		'HS back to SW|c
+		'HS back to SW|use Hearthstone##6948|c
 	step//35
 		goto Stormwind City,67.6,35.98
 		talk Ulfir Ironbeard##5516
 		.accept The Hunter's Charm##8151
 	step//36
-		'Learn level 50 spells|goto 0,0
+		'Learn level 50 spells|goto Stormwind City,67.37,36.27
 		.talk Einris Brightspear##5515
 	step//37
 		'Fly to Booty Bay|goto Stormwind City,70.96,72.57
@@ -6921,7 +6979,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Azshara
 		.turnin The Hunter's Charm##8151
 		.accept Courser Antlers##8153
 	step//12
-		'Kill any antler you see on your way to the globin for the 2 perfect antlers. No need to finish now.|goto Azshara,53.5,21.75
+		'Kill any courser you see on your way to the globin for the 2 perfect antlers. No need to finish now.|goto Azshara,53.5,21.75
 		talk Kim'jael##8420
 		.accept Kim'jael Indeed!##3601
 	step//13
@@ -7033,13 +7091,13 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Azshara
 		.'Accept The Horizon Scout (id:27268)|c
 		.'Accept Trying, But Not That Hard (id:27269)|c
 	step//38
-		'Go further south, where most of the debris is and drink your last Elixir of Water Breathing|c
+		'Go further south, where most of the debris is and drink your last Elixir of Water Breathing|use Elixir of Water Breathing##5996|c
 		'Inside the ship fight the gnome and locate the 3 drowned crew ("talk" to the corpses) members. Oddly enough, all these NPCs, the ships and the debris is there in the actual game, it's just that they do nothing.|c
 		'Goal: First Mate Jen Located. For a quest (id:27268, objective:1)|c
 		'Goal: Engineer Thompson Located. For a quest (id:27268, objective:2)|c
 		'Goal: Galley Chief Benny Located. For a quest (id:27268, objective:3)|c
 		'Goal: Do Your Best. For a quest (id:27269, objective:1)|c
-		.'Gnome becomes firnedly when about to die. You can turn the quest on him|c
+		.'The gnome becomes firnedly when he is about to die. You can turn the quest in afterwards|c
 	step//39
 		talk Roland Geardabbler##8394
 		.'Turn in Trying, But Not That Hard (id:27269)|c
@@ -7053,7 +7111,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Azshara
 		talk Captain Vanessa Beltis##8380
 		.'Turn in The Horizon Scout (id:27270)|c
 	step//42
-		'Swim to the helipad at the south eastern corenr of Azshara and use the flare to call the NPC|goto Azshara,77.81,91.38|use Standard Issue Flare Gun##10444
+		'Swim to the helipad at the south eastern corner of Azshara and use the flare to call the NPC|goto Azshara,77.81,91.38|use Standard Issue Flare Gun##10444
 		'From now on use the mana gem trinket on CD as soon as you use 600 mana|c
 		'TODO Note: This should be the last thing you do in Azshara, the idea is to HS out of here to Ratchet, turn in things at Thalendris point and then ride to Felwood. To be determined what to do after seeing the new quests|c
 		talk Pilot Xiggs Fuselighter##8392
@@ -7090,6 +7148,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Azshara
 		'Either grind to unfriendly (1 full clear more or less) or complete the quest|goto Felwood,48.74,89.71
 		.kill 6 Deadwood Warrior##7153|q 8460/1
 		.kill 6 Deadwood Pathfinder##7155|q 8460/2
+		..'Only 5 of these. Have to kill respawns.|c
 		.kill 6 Deadwood Gardener##7154|q 8460/3
 	step//51
 		'Skip if the NPC wasn't brought back|goto Felwood,50.96,85.03
@@ -7127,7 +7186,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Azshara
 	step//59
 		'Go here and open the package with the ooze jars if you haven't yet. Circle the lake clockwise and you will have enough once you reach the satyr camp|goto Felwood,40.74,73.55|use Package of Empty Ooze Containers##11912
 		.'Gather cursed ooze with the appropiate jar afther killing the mobs around the lake|c
-		.'>>> Make sure you have room for the first jar of each type on you inventory, otherwise, you won't be able to complete the quest since you will lose 1 of the jars <<<|use Empty Cursed Ooze Jar##11914|c
+		.'>>> Make sure you have room for the first jar of each type on your inventory, otherwise, you won't be able to complete the quest since you will lose 1 of the jars <<<|use Empty Cursed Ooze Jar##11914|c
 		.get 6 Filled Cursed Ooze Jar|q 4512/1
 	step//60
 		'Kill satyrs for the quest. The named one is on the marker. You may have to kill respawns to finish the quest so just headh straight to the named move then go back|goto Felwood,32.4,67.06
@@ -7138,7 +7197,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Azshara
 	step//61
 		'Gather the Tainted ooze now. You will need 1 extra ooze so get it on the lake north|goto Felwood,40.82,59.61
 		.'>>> Make sure you have 1 bag slot before gathering the first one <<<|use Empty Tainted Ooze Jar##11948|c
-		.get 6 Filled Tainted Ooze Jar|q 4512/1
+		.get 6 Filled Tainted Ooze Jar|q 4512/2
 	step//62
 		'Go into the tunnel to gather the relics. Try not to pull the hounds yourself while on LoS or they will mana drain you|goto Felwood,39.13,59.43
 		.'First one on the first floor's right bridge room|goto Felwood,37.71,61.07
@@ -7174,13 +7233,13 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Azshara
 		.turnin Forces of Jaedenar##5155
 		.accept Collection of the Corrupt Water##5157
 	step//68
-		'Gather the moonwell water|goto Felwood,35.21,59.92|use Empty Canteen##12921
+		'Gather the moonwell water|goto Felwood,35.21,59.92|use Empty Canteen##12922
 		.get Corrupt Moonwell Water|q 5157/1
 	step//69
 		'Go inside the crater the get the exploration objective then kill 2 of each elemental. Head north east while doing so. Avoid the infernals|goto Felwood,40.45,41.22
 		.goal Explore the craters in Shater Scar Vale|q 5156/1
-		.kill 2 Entropic Beast##9878|q 5156/1
-		.kill 2 Entropic Horror##9879|q 5156/2
+		.kill 2 Entropic Beast##9878|q 5156/2
+		.kill 2 Entropic Horror##9879|q 5156/3
 	step//70
 		'Head towards the alliance camp from here|goto Felwood,48.57,37.81
 		'Then here|goto Felwood,57.42,18.37
@@ -7302,7 +7361,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 		.'Accept Convincing the Denied (id:26605)|c
 		'If you did the branches quest earlier you can accept the follow up now and gather the items from the rivers up north, Guide proceeds as if it wasn't done|c
 	step//9
-		'Buy x3 Bait (only need 1, it's just to be sure)|goto Feralas,45.12,25.53
+		'Buy x1 Bait|goto Feralas,45.12,25.53
 		.talk Gregan Brewspewer##7775
 	step//10
 		goto Feralas,42.37,21.89
@@ -7347,7 +7406,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 	step//22
 		goto Feralas,45.11,25.54
 		talk Gregan Brewspewer##7775
-		.turnin The Videre Elixir##3909
+		.turnin The Videre Elixir##4041
 	step//23
 		goto Feralas,51.79,46.35
 		'Turn in the water plants quests if you accepted it and then get the follow up too|c
@@ -7388,7 +7447,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 		'Talk to Jrall (id:45867)|c
 		.'Turn in Dental Records (id:26607)|c
 		.'Accept Dental Records (id:26608)|c
-		'Also turn in the other quest chain of doing it. Skip the next step if it asks you to gi to the silithd hive|c
+		'Also turn in the other quest chain if doing it. Skip the next step if it asks you to go to the silithid hive|c
 	step//30
 		'Talk to the ghost, again|goto Feralas,51.92,46.35
 		'Talk to Trog (id:45869)|c
@@ -7403,6 +7462,8 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 		.get 10 Rage Scar Yeti Hide|q 7733/1
 		.'AoE down everything at the cave of the mount|c
 		.'TODO: The quest for the yetis' teeth may have a better droprate now. It wasn't worth doing in the last beta|c
+		'If a Pristine Yeti Hide drops accept the quest (skip this otherwise)|use Pristine Yeti Hide##18969|c
+		.accept Pristine Yeti Hide##7735
 	step//33
 		'Only if the teeth quest was worth doing. Otherwise, skip this step and go to Feathermoon|goto Feralas,51.83,46.33
 		'Talk to Jrall (id:45867)|c
@@ -7418,6 +7479,8 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 		goto Feralas,30.65,42.7
 		talk Pratt McGrubben##7852
 		.turnin Improved Quality##7733
+		.turnin Pristine Yeti Hide##7735
+		..'Only if you found it before|c
 	step//37
 		'HS back to Auberdine|use Hearthstone##6948|c
 	step//38
@@ -7426,7 +7489,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 		'Fly to Ironforge|goto Wetlands,9.52,59.66
 	step//40
 		goto Ironforge,31.21,4.65
-		'If you see Courier Hammerfall (moving quest marker) accept his quest|c
+		'If you see Courier Hammerfall (moving quest marker) accept his quest. Check the Military ward first (south-eastern area)|c
 		talk Tymor##8507
 		.turnin Return to Tymor##3461
 	step//41
@@ -7474,7 +7537,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 		goto Western Plaguelands,37.15,56.95
 		accept Return to Chillwind Camp##5217
 	step//52
-		'Inside the house careful while pulling the mobs inside|goto Western Plaguelands,38.35,54.1
+		'Inside the house. Be careful while pulling the mobs inside|goto Western Plaguelands,38.35,54.1
 		talk Janice Felstone##10778
 		.accept Better Late Than Never##5021
 	step//53
@@ -7515,61 +7578,64 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro
 	step//6
 		'Fly to Gadgetzan. Alternatively, fly to Theramore, learn first aids recipes then go to Gadgetzan|goto The Barrens,63.1,37.17
 	step//7
+		'Turn the other quest while waiting out the RP|goto Tanaris,51.09,26.9
+		talk Sprinkle##7583
+		.turnin Sprinkle's Secret Ingredient##2641
+	step//8
 		goto Tanaris,50.95,26.99
 		talk Alchemist Pestlezugg##5594
 		.turnin March of the Silithid##4493
 		.accept Bungle in the Jungle##4496
-	step//8
-		goto Tanaris,51.09,26.9
-		talk Sprinkle##7583
-		.turnin Sprinkle's Secret Ingredient##2641
-		.accept Delivery for Marin##2661
 	step//9
+		'Wait the RP out...|goto Tanaris,51.09,26.9
+		talk Sprinkle##7583
+		.accept Delivery for Marin##2661
+	step//10
 		goto Tanaris,51.57,26.76
 		talk Tran'rek##7876
 		.accept Super Sticky##4504
-	step//10
+	step//11
 		'>>> DON'T set your HS here, we want it to remain in Auberdine <<<|goto Tanaris,51.79,28.62
 		talk Marin Noggenfogger##7564
 		.turnin Delivery for Marin##2661
 		.accept Noggenfogger Elixir##2662
 		.turnin Noggenfogger Elixir##2662
-	step//11
+	step//12
 		'Buy 1 stack of Noggenfogger. Slowfall can always be useful|c
 		'Skip this step|c
-	step//12
+	step//13
 		'Drink your Videre Elixir to die and be able to speak to a ghost|goto Tanaris,53.88,29.05|use Videre Elixir##11243
 		'Dont rez inmediately, skip this step|c
-	step//13
-		'As a ghost|goto Tanaris,53.91,23.38
+	step//14
+		'The addon's compass aims to your corpse, not the NPC where you can turn in the quest. Go to northern mountain range|goto Tanaris,53.91,23.38
 		talk Gaeriyan##9299
 		.turnin Meet at the Grave##3912
 		.accept A Grave Situation##3913
-	step//14
+	step//15
 		'Interact with the tombstone after rezing. You can delete the extra Videre Elixir|goto Tanaris,53.88,29.06
 		turnin A Grave Situation##3913
 		accept Linken's Sword##3914
-	step//15
+	step//16
 		'Fly to Un'Goro crater|goto Tanaris,51.02,29.34
 		'If the server has progressed enough consider buying a Mithril Casing from the AH before flying to Un'Goro|c
-	step//16
+	step//17
 		goto Un'Goro Crater,44.74,8.13
 		talk Linken##8737
 		.turnin Linken's Sword##3914
 		.accept A Gnome's Assistance##3941
-	step//17
+	step//18
 		goto Un'Goro Crater,44.02,7.23
 		talk Williden Marshal##9270
 		.accept Expedition Salvation##3881
-	step//18
+	step//19
 		goto Un'Goro Crater,43.98,7.22
 		talk Hol'anyee Marshal##9271
 		.accept Alien Ecology##3883
-	step//19
+	step//20
 		goto Un'Goro Crater,43.56,7.42
 		talk Spark Nilminer##9272
 		.accept Roll the Bones##3882
-	step//20
+	step//21
 		'Turn in "A Gnome's Assitance" last (accept quests first) and skip the RP and "Linken's Memory". It's from Felwood. Will do later|goto Un'Goro Crater,41.86,2.6
 		talk J.D. Collie##9117
 		.accept The Northern Pylon##4285
@@ -7577,137 +7643,137 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro
 		.accept The Western Pylon##4288
 		.'Accept The Southern Pylon (id:27516)|c
 		.turnin A Gnome's Assistance##3941
-	step//21
+	step//22
 		'Skip "Lost!" for now no need to accept until you come back here for turn-ins after the first lap|goto Un'Goro Crater,43.56,8.39
 		accept Beware of Pterrordax##4501
 		.'From the post beside the female goblin (skip her quest for now)|c
-	step//22
+	step//23
 		goto Un'Goro Crater,42.94,9.56
 		talk Muigin##9119
 		.accept Muigin and Larion##4141
-	step//23
+	step//24
 		goto Un'Goro Crater,44.84,9.06
 		'Talk to S.J. Erlgadin Jr. (id:46351)|c
 		.'Accept The Un'Goro Hunt (id:27389)|c
-	step//24
+	step//25
 		goto Un'Goro Crater,44.35,10.26
 		'Talk to Yaluni Flamewatcher (id:46522)|c
 		.'Accept Storm, Earth, Wind, and Fire (id:27511)|c
-	step//25
+	step//26
 		goto Un'Goro Crater,44.24,11.63
 		talk Shizzle##9998
 		.accept Shizzle's Flyer##4503
-	step//26
+	step//27
 		goto Un'Goro Crater,46.31,13.48
 		talk Karna Remtravel##9618
 		.accept Chasing A-Me 01##4243
-	step//27
+	step//28
 		'You should be at 21/25 quests accepted right now. If 22/25 that might be because the furbolg in south Felwood wasn't there and you had to accept the quest while on the north. If you are 23/25 or more there is something wrong.|c
 		'Also, while in Un'Goro keep any Un'Goro soil you get. You need a total of 25 for 2 quests|c
 		'Go south-east and use the Totem to absorb the elementals power when they are below 30-40% HP. If totem still on CD just work on killing the next one while waiting (trap the elemental). Use Yaluni's Totem. Go to Un'Goro Crater 46,14.54
 		.'Goal: 6 Power Absorbed. For a quest (id:27511, objective:1)|c
 		'No need to finish "Super Sticky" for now, but gather ad many as you can|c
-	step//28
+	step//29
 		'Everything is a quest objective right now. Bloodpetal? Kill it. Diemetradon? Kill it. Pterrordax? You guessed it, kill it. Ooze? Kill it then gather it (open the bag with the ooze jars if you havent yet).|goto Un'Goro Crater,51.99,13.86|use Bag of Empty Ooze Containers##11955
 		.'To gather the oozes use these jars on their corpses. >>> Make sure you have room in the inventory for the first one <<< Also, loot the ooze before consuming it|c
 		.from Spinescale##46352
 		.get Spinescale's Head|q 27389/1
-	step//29
+	step//30
 		'Interact with the Pylon then kill the 6 Pterrordaxes here|goto Un'Goro Crater,56.44,12.52
 		.goal Discover and examine the Northern Crystal Pylon|q 4285/1
-	step//30
-		'Back to camp to progress some of the quests and freeing up quest log space. Kill any tar elementals that might have respawned to progress "Super Sticky"|goto Un'Goro Crater,47.11,15.65
 	step//31
+		'Back to camp to progress some of the quests and freeing up quest log space. Kill any tar elementals that might have respawned to progress "Super Sticky"|goto Un'Goro Crater,47.11,15.65
+	step//32
 		goto Un'Goro Crater,44.35,10.26
 		'Talk to Yaluni Flamewatcher (id:46522)|c
 		.'Turn in Storm, Earth, Wind, and Fire (id:27511)|c
 		.'Accept Storm, Earth, Wind, and Fire (id:27512)|c
-	step//32
+	step//33
 		goto Un'Goro Crater,44.84,9.06
 		'Talk to S.J. Erlgadin Jr. (id:46351)|c
 		.'Turn in The Un'Goro Hunt (id:27389)|c
 		.'Accept The Un'Goro Hunt (id:27390)|c
-	step//33
+	step//34
 		'You probably got the journal that starts the quest already (60% drop chance off of anything)|goto Un'Goro Crater,43.96,7.21|use A Mangled Journal##11116
 		talk Williden Marshal##9270
 		.turnin Williden's Journal##3884
-	step//34
+	step//35
 		goto Un'Goro Crater,41.85,2.64
 		talk J.D. Collie##9117
 		.turnin The Northern Pylon##4285
-	step//35
+	step//36
 		'Back to work. Path south-west this time and finish "Super sticky"|goto Un'Goro Crater,45.91,14.81
 		.get 12 Super Sticky Tar|q 4504/1
-	step//36
+	step//37
 		'Kill any ooze (and gather them), Frenzied Pterrordax, Diemetradon and/or Bloodpetal you find on your way You will be done with their quests by the second lap around Un'Goro most likely|goto Un'Goro Crater,30.92,50.54
 		talk Krakle##10302
 		.accept Finding the Source##974
-	step//37
+	step//38
 		'Discover the western pylon then kill 3 of the Pterrordaxes up here (plus the one below)|goto Un'Goro Crater,23.91,59.1
 		.goal 	Discover and examine the Western Crystal Pylon|q 4288/1
-	step//38
+	step//39
 		'Hug ther western mountain range. Keep killing the wildlife on your way|goto Un'Goro Crater,29.04,77.2
 		'Talk to Jaylssa Stonesong (id:46486)|c
 		.'Accept The Legend of Aru-Talis (id:27492)|c
-	step//39
+	step//40
 		'Discover the nearby ruin then go back to the Nelf|goto Un'Goro Crater,30.65,83
 		.'Goal: Find one of the ruins of Aru-Talis. For a quest (id:27492, objective:1)|c
-	step//40
+	step//41
 		goto Un'Goro Crater,29.04,77.2
 		'Talk to Jaylssa Stonesong (id:46486)|c
 		.'Turn in The Legend of Aru-Talis (id:27492)|c
 		.'Accept The Legend of Aru-Talis (id:27493)|c
-	step//41
+	step//42
 		'Back to the ruins, kill and absorb elementals. Use Yaluni's Totem. Go to Un'Goro Crater 30.65,83
 		.'Get 6 Aru-Talis Artifact for a quest (id:27493, objective:1)|c
 		..'Dropped by elementals and found on the ground|c
 		.'Goal: 6 Power Absorbed. For a quest (id:27512, objective:1)|c
-	step//42
+	step//43
 		goto Un'Goro Crater,29.04,77.2
 		'Talk to Jaylssa Stonesong (id:46486)|c
 		.'Turn in The Legend of Aru-Talis (id:27493)|c
-	step//43
+	step//44
 		goto Un'Goro Crater,28.98,77.07
 		'Talk to Leakey Cartspark (id:46487)|c
 		.'Accept The Legend of Aru-Talis (id:27494)|c
-	step//44
-		'Kill Pterrordaxes on the way to the destroyed camp and interact withj the equipment|goto Un'Goro Crater,38.42,66.07
-		.get Research Equipment|q 3881/2
 	step//45
+		'Kill Pterrordaxes on the way to the destroyed camp and interact with the equipment|goto Un'Goro Crater,38.42,66.07
+		.get Research Equipment|q 3881/2
+	step//46
 		'2 Frenzied Pterrordaxes this way then one more to the east. You should be done at this point|goto Un'Goro Crater,36.87,77.1
 		.kill 15 Frenzied Pterrordax##9167|q 4501/2
-	step//46
+	step//47
 		'Discover the southern pylon. No need to interact|goto Un'Goro Crater,44.98,87.39
 		.'Goal: Southern Pylon Examined. For a quest (id:27516, objective:1)|c
 		'Also, there should be enough regular Pterrordaxes here to finish the other part|c
 		.kill 10 Pterrordax##9166|q 4501/1
-	step//47
-		'Enter the Silithid hive from here. Probably will get the Scenpt Gland|goto Un'Goro Crater,50.07,80.45
+	step//48
+		'Enter the Silithid hive from here. Probably will get the Scent Gland on the way|goto Un'Goro Crater,50.07,80.45
 		.get Gorishi Scent Gland|q 4496/1
 		.'Go to the first room to gather the sample|goto Un'Goro Crater,48.71,85.19|use Unused Scraping Vial##11132
 		..get Hive Wall Sample|q 3883/1
-	step//48
+	step//49
 		goto Un'Goro Crater,71.58,76.07
 		talk Torwa Pathfinder##9619
 		.accept The Fare of Lar'korwi##4290
 		.accept The Apes of Un'Goro##4289
-	step//49
+	step//50
 		'Loot the dinosaur corpse|goto Un'Goro Crater,68.61,57.15
 		.get Piece of Threshadon Carcass|q 4290/1
-	step//50
+	step//51
 		'Interact with the Eastern pylon|goto Un'Goro Crater,77.16,50.11
 		.goal Discover and examine the Eastern Crystal Pylon|q 4287/1
-	step//51
+	step//52
 		'Use the drill here then kill the named Pterrordax to the east. Use Lakey's Core Driller. Go to Un'Goro Crater 80.82,40.98
 		.'Get Ironstone Plateau Core for a quest (id:27494, objective:3)|c
 		.'Get Terrorwind's head from Terrorwing(id:46353) for a quest (id:27390, objective:1)|c
-	step//52
+	step//53
 		'Loot the crate|goto Un'Goro Crater,68.48,36.56
 		.get Crate of Foodstuffs|q 3881/1
-	step//53
+	step//54
 		'Lots of Bloodpetals on your way to the ape cave. You should be finishing this|goto Un'Goro Crater,63.02,19.59
 		.get 15 Bloodpetal|q 4141/1
-	step//54
+	step//55
 		'If you have a Mithril Casing don't start the escort quest (follow up after finding the robot monkey) until you have all the pelts. If no casing, just skip the follow up. Guide asumes you don't have it|goto Un'Goro Crater,67.59,16.84
 		.from Un'Goro Gorilla##6514
 		.get 2 Un'Goro Gorilla Pelt|q 4289/1
@@ -7717,12 +7783,12 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro
 		.get 2 Un'Goro Thunderer Pelt|q 4289/3
 		talk A-Me 01##9623
 		.turnin Chasing A-Me 01##4243
-	step//55
+	step//56
 		'If still missing regular Pterrordaxes or webbed scales (unlikely) go here|goto Un'Goro Crater,56.74,12.47
 		.kill 10 Pterrordax##9166|q 4501/1
 		.from Pterrordax##9166
 		.get 8 Webbed Pterrordax Scale |q 4503/2
-	step//56
+	step//57
 		'List of things you should have by now|c
 		get 8 Webbed Diemetradon Scale|q 4503/1
 		.'Any Diemetradon|c
@@ -7736,10 +7802,8 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro
 		.'Any Bloodpetal|c
 		get 5 Un'Goro Soil|q 4496/2
 		.'From any mob or dirt piles around Un'Goro. Need 25, but 5 is enough for now.|c
-	step//57
-		'Back to camp. Make sure you have everything listed on the previous step|goto Un'Goro Crater,46.09,13.57
 	step//58
-		'TODO: Have to accept "Lost!" here|c
+		'Back to camp. Make sure you have everything listed on the previous step|goto Un'Goro Crater,46.09,13.57
 	step//59
 		goto Un'Goro Crater,44.18,11.42
 		talk Shizzle##9998
@@ -7771,7 +7835,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro
 		talk Spark Nilminer##9272
 		.turnin Roll the Bones##3882
 	step//66
-		'Can accept the Felwood quest now since quest log is less bloated now|goto Un'Goro Crater,41.83,2.58
+		'Can accept the Felwood quest now since the quest log is less bloated|goto Un'Goro Crater,41.83,2.58
 		talk J.D. Collie##9117
 		.turnin The Eastern Pylon##4287
 		.turnin The Western Pylon##4288
@@ -7831,7 +7895,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro
 	step//78
 		'Back to bug Disneyland, enter tunnel of fun here|goto Un'Goro Crater,49.95,81.51
 		'Follow the tunnel west to the end to here. Try to kill all the mobs in this room as fast as you can to avoid respawns while fighting the waves|goto Un'Goro Crater,43.54,81.07
-		'Full mana/HP and use the lure when ready. First 2 waves spawn at the side of the entrance of the room so just stay near the crystal. The 3rd wave spawn with the queen near the crystal, so go back to the entrance. The queen can be splitpulled from her guards.|use Gorish Queen Lure##11833|c
+		'Full mana/HP and use the lure when ready. First 2 waves spawn at the side of the entrance of the room so just stay near the crystal. The 3rd wave spawns with the queen near the crystal, so go back to the entrance. The queen can be splitpulled from her guards.|use Gorish Queen Lure##11833|c
 		.from Gorish Hive Queen##10041
 		.get Gorish Queen Brain|q 4507/1
 	step//79
@@ -7847,9 +7911,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro
 		'Go to this slope and kill any ooze you find on the way untill the quest item drops|goto Un'Goro Crater,47.35,52.3
 		.'Get Ooze Compound from Glutinous Ooze(id:6559) for a quest (id:27518, objective:2)|c
 	step//82
-		'At the slope, face the topo of the volcano then run and jump constantly to your left until you get to the next level.|goto Un'Goro Crater,47.35,52.3
+		'At the slope, face the top of the volcano then run and jump constantly to your left until you get to the next level.|goto Un'Goro Crater,47.35,52.3
 		.'Kill and absorb the elementals on your way. Use Yaluni's Totem|c
-		'Afterwards just spam jump here to get on the upper level then border the lave lake counter clock wise (you will aggro elemental Ganondorf otherwise)|goto Un'Goro Crater,48.12,50.02
+		'Afterwards just spam jump here to get on the upper level then border the lava lake counter clock wise (you will aggro elemental Ganondorf otherwise)|goto Un'Goro Crater,48.12,50.02
 		.'Skip to next step|c
 	step//83
 		'Use the thermometer here|goto Un'Goro Crater,49.63,45.82|use Krakle's Thermometer##12472
@@ -7906,7 +7970,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro
 		'Finish absorbing the elementals while moving south. Use Yaluni's Totem|c
 		.'Goal: 6 Power Absorbed. For a quest (id:27514, objective:1)|c
 	step//96
-		'>>> Don't vendor or delete the spell hit trinket for the gnome <<< If FD is nerfed back to being able to be resisted (*puke*) this thing suddenly is useful.|goto Un'Goro Crater,28.95,77.06
+		'>>> Don't vendor or delete the spell hit trinket from the gnome <<< If FD is nerfed back to being able to be resisted (*puke*) this thing suddenly is useful.|goto Un'Goro Crater,28.95,77.06
 		'Talk to Leakey Cartspark (id:46487)|c
 		.'Turn in The Legend of Aru-Talis (id:27494)|c
 		.'Turn in One of These Things is Not Like the Others (id:27518)|c
@@ -7928,7 +7992,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro
 		.'Get Fourth Tablet Rubbing for a quest (id:27495, objective:4)|c
 	step//101
 		'If my italian organized crime degree is right, there are no Devilsaurs in west Un'Goro in Trinity Core (unless fixed by the devs). What's more, only a single spawn is a regular Devilsaur, the one you need for the quest (east Volcano's skirts). If no one is in the area, it should be exactly there. Listing all the spawns now|c
-		.'Always a Tyrant Devilsaur|goto Un'Goro Crater,46.61,56.96
+		.'Always a Tyrant Devilsaur|goto Un'Goro Crater,49.79,60.75
 		.'Always an Ironhide Devilsaur|goto Un'Goro Crater,58.44,61.09
 		.'Always a regular Devilsaur. You want this one. It patrols straight south untill almost the mountain range then north untill the river|goto Un'Goro Crater,56.9,50.9
 		..from Devilsaur##6498
@@ -7948,160 +8012,157 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro
 		'Last tablet. Use Third Tablet Rubbing. Go to Un'Goro Crater 78.56,35.71
 		.'Get Third Tablet Rubbing for a quest (id:27495, objective:3)|c
 	step//105
-		'Another tablet here. Use Fourth Tablet Rubbing. Go to Un'Goro Crater 45.96,94.15
-		.'Get Fourth Tablet Rubbing for a quest (id:27495, objective:4)|c
-	step//106
 		'Open Torwa's pouch then use the item here to summon the Ravasur|goto Un'Goro Crater,79.92,49.91|use Torwa's Pouch##11568
 		.'Meat|use Preserved Threshadon Meat##11569|c
 		.'Some seasoning|use Preserved Pheromone Mixture##11570|c
 		.from Lar'korwi##9684
 		.get Larwoki's Head|q 4292/1
-	step//107
+	step//106
 		'Run south now, get ready for more if this...|goto Un'Goro Crater,71.61,75.97
 		talk Torwa Pathfinder##9619
 		.turnin The Mighty U'cha##4301
-		..'Pick the axe. Try to level this one with your soon to be new xbow and the blasted lands buff (leveling weapon skills in 2025, cool vanilla -)|c
+		..'Pick the axe. Try to level this one with your soon to be new xbow and the blasted lands buff (leveling weapon skills in 2025, cool vanilla minus)|c
 		.turnin The Bait for Lar'korwi##4292
-	step//108
+	step//107
 		goto Un'Goro Crater,71.61,75.97
 		talk Torwa Pathfinder##9619
 		.turnin The Bait for Lar'korwi##4292
-	step//109
+	step//108
 		'Yes, the other corner again. Un'Goro is very quest dense, but the last runs of the new quests are awful. If someone knows a better way I'm all ears.|goto Un'Goro Crater,29.03,77.18
 		'Talk to Jaylssa Stonesong (id:46486)|c
 		.'Turn in The Legend of Aru-Talis (id:27495)|c
 		.'Accept The Legend of Aru-Talis (id:27496)|c
-	step//110
+	step//109
 		goto Un'Goro Crater,28.95,77.08
 		'Talk to Leakey Cartspark (id:46487)|c
 		.'Turn in One of These Things is Not Like the Others (id:27519)|c
 		.'Accept One of These Things is Not Like the Others (id:27520)|c
-	step//111
+	step//110
 		'Tired of running yet? Only 1 more after this and it's done|goto Un'Goro Crater,44.35,10.26
 		'Talk to Yaluni Flamewatcher (id:46522)|c
 		.'Turn in Storm, Earth, Wind, and Fire (id:27514)|c
 		.'Accept Storm, Earth, Wind, and Fire (id:27515)|c
-	step//112
+	step//111
 		'Pick the xbow, last weapon upgrade pre-60. Don't vendor the bow yet, you haven't trained xbow skill and you need to kill an elite soon|goto Un'Goro Crater,44.84,9.04
 		'Talk to S.J. Erlgadin Jr. (id:46351)|c
 		.'Turn in The Un'Goro Hunt (id:27392)|c
-	step//113
+	step//112
 		'>>> Refill quiver <<<|goto Un'Goro Crater,43.3,7.78
 		.talk Nergal##12959
-	step//114
+	step//113
 		goto Un'Goro Crater,41.86,2.58
 		talk J.D. Collie##9117
 		.turnin One of These Things is Not Like the Others##27520
 		.accept One of These Things is Not Like the Others##27521
-	step//115
+	step//114
 		goto Un'Goro Crater,43.83,7.23
 		talk Hol'anyee Marshal##9271
 		.'Turn in One of These Things is Not Like the Others (id:27521)|c
 		.'Accept One of These Things is Not Like the Others (id:27522)|c
-	step//116
+	step//115
 		goto Un'Goro Crater,41.84,2.62
 		talk J.D. Collie##9117
 		.'Turn in One of These Things is Not Like the Others (id:27522)|c
 		.'Accept The Storm Gathers (id:27523)|c
-	step//117
+	step//116
 		'Go here and use the empowered totem to weaken the guardian. Kite it towards the entrance of Silithus (follow the river, don't touch the water or it will reset). Use Yaluni's Elementally Empowered Totem. Go to Un'Goro Crater 44.3,27.19
 		'Growl off, Cower on, Distracting shot on CD. Kite up until this point then just play ring around the rosie in the tree trunk with a frost trap. You outrun this thing anyways, could kite it to Sillithus if you feel like it|goto Un'Goro Crater,30.47,23.67
 		.'Kill Stone Guardian (id:6560) for a quest (id:27515, objective1)|c
-	step//118
+	step//117
 		'Go north-west to Silithus|goto Un'Goro Crater,29.26,22.31
 		'Get close to the pillar. This should complete the quest as per beta 3 (no need to discover both pilars). If it's required to discover both, abandon quest (not going down there again). Guide continues as if 1 is enough|goto Silithus,82.72,14.65
 		.'Goal: Discover the pilars. For a quest (id:27523, objective:1)|c
-	step//119
+	step//118
 		'Discover the FP and fly back to Un'Goro|goto Silithus,82.04,19.79
 		.talk Shaethis Darkoak##12333
-	step//120
+	step//119
 		goto Un'Goro Crater,44.4,10.39
 		'Talk to Yaluni Flamewatcher (id:46522)|c
 		.'Turn in Storm, Earth, Wind, and Fire (id:27515)|c
-	step//121
+	step//120
 		goto Un'Goro Crater,41.85,2.6
 		talk J.D. Collie##9117
 		.'Turn in The Storm Gathers (id:27523)|c
 		.'Accept The Storm Gathers (id:27524)|c
-	step//122
+	step//121
 		'Fly to Silithus again. Yes, it's weird but the quest makes you go back and forth, devs were not very inspired :/|goto Un'Goro Crater,45.2,5.89
-	step//123
+	step//122
 		goto Silithus,81.93,18.63
 		talk Sasia Forestcrest##46144
 		.'Turn in The Storm Gathers (id:27524)|c
 		.'Accept The Storm Gathers (id:27525)|c
-	step//124
+	step//123
 		'Fly back to Un'Goro...|goto Silithus,82.04,19.79
-	step//125
+	step//124
 		'And back to the gnome... This time accept Linken's quest, we are leaving soon.|goto Un'Goro Crater,41.85,2.64
 		talk J.D. Collie##9117
 		.'Turn in The Storm Gathers (id:27525)|c
 		.'Accept The Storm Gathers (id:27527)|c
 		.accept Linken's Memory##3942
-	step//126
+	step//125
 		'>>> Make sure you have x20 Un'Goro soil before flying to Gadgetzan <<<|c
 		.'If you don't (why?) farm them off the elementals right outside of the camp. If you are 5 away|c
 		'Fly to Gadgetzan|goto Un'Goro Crater,45.17,5.88
-	step//127
+	step//126
 		goto Tanaris,50.96,26.98
 		talk Alchemist Pestlezugg##5594
 		.turnin Pawn Captures Queen##4507
 		.accept Calm Before the Storm##4508
-	step//128
+	step//127
 		'HS back to Auberdine. Not setting it to Gadgetzan pays off now|use Hearthstone##6948|c
 		.'Not accepting "Yuka Screwspigot" in the port because the quest doesn't give XP and the follow up is a dungeon quest (kill Ribbley in BRD)|c
-	step//129
+	step//128
 		'Fly to Darnassus|goto Darkshore,36.35,45.57
-	step//130
+	step//129
 		goto Teldrassil,55.46,92.1
 		talk Erelas Ambersky##7916
 		.turnin Moontouched Wildkin##978
 		.accept Find Ranshalla##979
-	step//131
+	step//130
 		goto Teldrassil,55.44,92.2
 		talk Daryn Lightwind##7907
 		.accept Starfall##5250
-	step//132
+	step//131
 		'Portal up to Darnassus|goto Teldrassil,55.93,89.69
-	step//133
+	step//132
 		'Time to cash in some traveling quests XP|goto Darnassus,42.04,85.42
 		talk Gracina Spiritmight##7740
 		.turnin Calm Before the Storm##4508
 		.accept Calm Before the Storm##4510
 		.'Turn in The Storm Gathers (id:27527)|c
-	step//134
+	step//133
 		goto Darnassus,39.24,81.49
 		talk Tyrande Whisperwind##7999
 		.turnin The Legend of Aru-Talis##27496
-	step//135
+	step//134
 		goto Darnassus,39.78,42.41
 		talk Idriana##4155
 		.turnin Calm Before the Storm##4510
-	step//136
+	step//135
 		'Bank in the spell hit trinket and anything else you might not need|c
 		'Skip step afterwards|c
-	step//137
+	step//136
 		'You sohuld have enough money to train anything you haven't yet. Go nuts. Also, if aspect of the viper gets fixed it will be HUGE for the last few levels|goto Darnassus,40.36,8.68
 		.talk Jocaste##4146
-	step//138
+	step//137
 		'Top level of the tree house|goto Darnassus,34.72,8.97
 		talk Arch Druid Fandral Staghelm##3516
 		.accept Un'Goro Soil##3764
-	step//139
+	step//138
 		'Jump down and turn in the 20 Un'Goro soil|goto Darnassus,31.52,8.41
 		talk Jenal##9047
 		.turnin Un'Goro Soil##3764
-	step//140
+	step//139
 		'Back up again...|goto Darnassus,34.72,8.97
 		talk Arch Druid Fandral Staghelm##3516
 		.accept Morrowgrain Research##3781
-	step//141
-		'Downstairs to the middle level... Ski pfollow up and vendor the seeds|goto Darnassus,35.11,8.38
+	step//140
+		'Downstairs to the middle level... Skip follow up and vendor the seeds|goto Darnassus,35.11,8.38
 		talk Mathrengyl Bearwalker##4217
 		.turnin Morrowgrain Research##3781
-	step//142
+	step//141
 		'Teleport back down to Rut'theran. The quests that send you to Silithus and Feathermoon are gone (no DM, Silithus revamped), don't look for them|goto Darnassus,30.45,41.42
-	step//143
+	step//142
 		'Fly to south Felwood (Emerald Sanctuary)|goto Teldrassil,58.38,94.03
 ]])
 
@@ -8114,16 +8175,16 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood
 		talk Arathandris Silversky##9528
 		.accept Cleansing Felwood##4101
 	step//2
+		goto Felwood,51.25,82.15
+		talk Greta Mosshoof##10922
+		.turnin Cleansed Water Returns to Felwood##5159
+		.accept Dousing the Flames of Protection##5165
+	step//3
 		goto Felwood,51.35,81.52
 		talk Eridan Bluewind##9116
 		.accept Further Corruption##4906
 		.turnin Linken's Memory##3942
 		.accept Silver Heart##4084
-	step//3
-		goto Felwood,51.25,82.15
-		talk Greta Mosshoof##10922
-		.turnin Cleansed Water Returns to Felwood##5159
-		.accept Dousing the Flames of Protection##5165
 	step//4
 		'Start moving north to Jaedenar but stop in high concentration areas of bears and/or wolves to AoE them down for Silvery Claws|goto Felwood,45.66,73.85
 		.'Use the Blasted Lands int buff to begin training your XBOW + Axe skills (fun...)|use Cerebral Cortex Compound##8423|c
@@ -8184,7 +8245,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood
 		'Fly to southern Felwood (Emerald Sanctuary)|goto Felwood,62.5,24.2
 	step//18
 		'Go south for a second and turn this in. Ask her for a beacon afterwards and keep it on your bags for now|goto Felwood,54.12,86.79
-		.'If the Felwood plant items were bugged and were dropping w/o the beacon turn the follow up now. Guides asumes they aren't|c
+		.'If the Felwood plant items were bugged and were dropping w/o the beacon turn the follow up now. Guide asumes they aren't|c
 		talk Arathandris Silversky##9528
 		.turnin Cleansing Felwood##4101
 	step//19
@@ -8204,7 +8265,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood
 		.turnin Silver Heart##4084
 		.turnin Further Corruption##4906
 	step//22
-		'Back to Jaedenar. If you didn't get the red key quest before but do now then do it while finishing the other quest. Unfortunately, it won't worth to do the follow up in this case, you are not going back here again.|goto Felwood,35.41,58.83
+		'Back to Jaedenar. If you didn't get the red key quest before but do now then do it while finishing the other quest. Unfortunately, it won't be worth to do the follow up in this case, you are not going back here again.|goto Felwood,35.41,58.83
 		'Careful with this room, try to split pull things by LoSing them on the pilars, hitting them with your pet and using FD|goto Felwood,38.31,50.51
 		.kill Rakaiah##9518|q 5204/1
 	step//23
@@ -8274,7 +8335,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood
 		.turnin The Ruins of Kel'Theril##5244
 		.accept Troubled Spirits of Kel'Theril##5245
 	step//40
-		'TODO: If you were able to accept "A Gift for the Spiritseer" from Mau'ari the go turn it in here and accept the foloow up|goto Winterspring,49.74,45
+		'TODO: If you were able to accept "A Gift for the Spiritseer" from Mau'ari then go turn it in here and accept the follow up|goto Winterspring,49.74,45
 	step//41
 		'If you spot the Winterfall runners take note of where they are|goto Winterspring,31.29,45.13
 		talk Donova Snowden##9298
@@ -8291,15 +8352,15 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood
 		'Go here and kill the entire camp|goto Winterspring,30.68,36.02
 		'Then here and do the same|goto Winterspring,33.11,37.05
 		'Finally here, clear from east (marker) to west|goto Winterspring,41.52,42.58
-		'Notice that you are 4/8 Den watchers. You will have to wait for respawns. Kill the other furbolgs meanwhile to try to get the item that starts a quest|c
+		'Notice that you are 4/8 Den watchers and 1 totemic off. You will have to wait for respawns. Kill the other furbolgs meanwhile to try to get the item that starts a quest|c
 		.kill 8 Winterfall Pathfinder##7442|q 5082/1
-		.kill 8 Winterfall Totemic##7441|q 5082/3
 	step//44
 		'Cycle this spot|goto Winterspring,30.64,35.9
 		'And this one for the last 4 Den Watchers|goto Winterspring,41.54,42.71
 		'Farm furbolgs untill the quest item drops. If the ritual totem drops too accept the quest and turn it in|use Empty Firewater Flask##12771|c
 		.accept Winterfall Firewater##5083
-		.kill 7 Winterfall Den Watcher##7440|q 5082/2
+		.kill 8 Winterfall Den Watcher##7440|q 5082/2
+		.kill 8 Winterfall Totemic##7441|q 5082/3
 	step//45
 		goto Winterspring,31.3,45.12
 		talk Donova Snowden##9298
@@ -8311,7 +8372,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood
 		talk Salfa##11556
 		.turnin Winterfall Activity##8464
 	step//47
-		'If you are neutral with Timbermaw adn have the totme already turn in the totem quest. If not just wait untill later and skip the step|goto Felwood,65.5,3.33|use Winterfall Ritual Totem##20742
+		'If you are neutral with Timbermaw and have the totem already turn in the totem quest. If not just wait untill later and skip the step|goto Felwood,65.5,3.33|use Winterfall Ritual Totem##20742
 		.accept Winterfall Ritual Totem##8471
 		talk Kernda##11558
 		.turnin Winterfall Ritual Totem##8471
@@ -8333,7 +8394,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood
 		'Also turn in any multiple of 5 feathers if you have them|goto Felwood,64.8,8.19
 		.'Go to the alliance camp south of the slope if you need to sell/arrows|c
 		talk Nafien##15395
-		.turnin Deadwood of the North##6221
+		.turnin Deadwood of the North##8461
 		.accept Speak to Salfa##8465
 	step//52
 		'Same as before, if you got the other ritual totem turn it in now|goto Felwood,65.54,3.41|use Deadwood Ritual Totem##20741
@@ -8379,7 +8440,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood
 	step//61
 		'>>> Likely scenario <<< Farm the rep and the cloth and turn in things inside the tunnel (totems + cloth)|c
 	step//62
-		goto Winterspring,31.29,45.13
+		'3 furbolgs will ambush you after turning this in|goto Winterspring,31.29,45.13
 		talk Donova Snowden##9298
 		.turnin Winterfall Runners##5087
 		.accept High Chief Winterfall##5121
@@ -8585,7 +8646,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Burning
 		'Kill all the ogres at the entrance of the cave for guts but mostly chances at Dark Iron Scraps|goto Burning Steppes,74.76,47.83
 		'Then go north and AoE the imps for "Demonfire"|goto Burning Steppes,70.93,31.7
 		'Move east to the elite dragons area. Two things to consider while circling the volcano|goto Burning Steppes,81.75,27.82
-		.'Use the goblin device on broodlings before killing them so they drop a a gem that you can interact with.|use Draco-Incarcinatrix 900##12284|c
+		.'Use the goblin device on broodlings before killing them so they drop a gem that you can interact with.|use Draco-Incarcinatrix 900##12284|c
 		.'Use the vial to gather the poison from dead scorpids. Make sure you have 1 free bag slot before gathering the first one, like the oozes. Use Empty Vial|c
 		.'Bind both items to something|c
 	step//41
@@ -8645,23 +8706,23 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Burning
 		'Talk to Myldis (id:46888)|c
 		.'Turn in Meeran's Escape (id:27742)|c
 	step//51
-		'Fly to Redridge|goto Burning Steppes,84.36,68.31
-	step//52
 		goto Burning Steppes,84.56,68.54
 		talk Oralius##9177
 		.turnin Extinguish the Firegut##3823
 		.accept Gor'tesh the Brute Lord##3824
-	step//53
+	step//52
 		goto Burning Steppes,85.74,68.93
 		talk Helendis Riverhorn##9562
 		.turnin Dragonkin Menace##4182
 		.accept The True Masters##4183
+	step//53
+		'Fly to Redridge|goto Burning Steppes,84.36,68.31
 	step//54
 		'>>> Refill quiver and then some to be safe <<<|goto Redridge Mountains,27.03,45.63
 		.talk Kimberly Hiett##789
 		.'Meat is sold at the kitchen if you need for pet|c
 	step//55
-		goto Lakeshire Town Hall,29.82,44.44
+		goto Redridge Mountains,29.82,44.44
 		talk Magistrate Solomon##344
 		.turnin The True Masters##4183
 		.accept The True Masters##4184
@@ -8669,7 +8730,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Burning
 		'If it's night time get on top of this hill and scout the lake with eagle eye + Track elementals + spam /target Everstill Lurker|goto Redridge Mountains,48.41,47.85
 		.'Starts patrolling here|goto Redridge Mountains,58.71,56.35
 		.'Get Misty Core from Everstill Lurker(id:46904) for a quest (id:27752, objective:1)|c
-		'If not night time, tough luck, skip this step. We aren't comming back here. Guide asumes you got completed the quest (will only miss this one and 1 more quest)|c
+		'If not night time, tough luck, skip this step. We aren't comming back here. Guide asumes you completed the quest (will only miss this one and 1 more quest)|c
 	step//57
 		'Either fly back to Morgan's Vigil if not nightime or ride to Burning Steppes if you had to jump into the lake to kill the elemental|c
 		'Skip to next step when back at Burning Steppes|c
@@ -8695,14 +8756,14 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Burning
 		'Go to the ruins area for a second and kill one of the golems for |goto Burning Steppes,66,35.5
 		.'Get Resonator Crystal from War Reaver(id:7039) for a quest (id:27747, objective:1)|c
 	step//63
-		goto Burning Steppes,65.26,24.05
-		talk Maxwort Uberglint##9536
-		.turnin Tablet of the Seven##4296
-	step//64
 		goto Burning Steppes,65.36,24.04
 		talk Tinkee Steamboil##10267
 		.turnin Broodling Essence##4726
 		.accept Felnok Steelspring##4808
+	step//64
+		goto Burning Steppes,65.26,24.05
+		talk Maxwort Uberglint##9536
+		.turnin Tablet of the Seven##4296
 	step//65
 		'Clear the tower from orcs and kill the named one on top|goto Burning Steppes,56.38,52.92
 		.'Kill Captain Grumma (id:46877) for a quest (id:27732, objective1)|c
@@ -8722,7 +8783,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Burning
 		.from Gor'tesh##9176
 		.get Gor'tesh's Lopped Off Head|q 3824/1
 	step//70
-		'Finish killing the imps here if yuo ahven't yet|goto Burning Steppes,36.9,59.68
+		'Finish killing the imps here if you haven't yet|goto Burning Steppes,36.9,59.68
 		.'Get 8 Smoldering Heart for a quest (id:27727, objective:1)|c
 	step//71
 		'Finish filling the vials from the scorpids. Keep moving west|goto Burning Steppes,31.94,55.34|use Empty Vial##63491
@@ -9128,7 +9189,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Winters
 	step//78
 		'Go north and kill any frostsabers until "Sacred Frostsaber Meat" drops (the purple ones have a higher chance)|goto Winterspring,50.66,14.72
 		.'Bonus: if Rak'shiri is wandering around here abandon the temporary owl, place a trap, wait out the CD, agro her, trap her, place another trap then start the tame.|goto Winterspring,50.98,10.48
-		'Drop the meat at the pedestal and kite the tiger towards the pilars to the south-east, then run around them on a frost trap|goto Winterspring,49.71,9.76|use Sacred Frostsaber Meat##12733
+		'Drop the meat at the pedestal and kite the tiger towards the pilars to the south-east, then run around them on a frost trap. Do so while far away from the mob, it has an AoE fear (can trigger it if your pet attacks it)|goto Winterspring,49.71,9.76|use Sacred Frostsaber Meat##12733
 		.kill Shy-Rotam##10737|q 5056/1
 	step//79
 		goto Winterspring,57.63,23.09
@@ -9187,7 +9248,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Winters
 		talk Storm Shadowhoof##10303
 		.turnin Shy-Rotam##5056
 	step//92
-		'Fly to souther Felwood (Emerald Sanctuary)|goto Winterspring,62.33,36.63
+		'Fly to southern Felwood (Emerald Sanctuary)|goto Winterspring,62.33,36.63
 	step//93
 		goto Felwood,51.12,81.81
 		talk Kelek Skykeeper##10920
@@ -9265,7 +9326,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguel
 	step//9
 		'Fly to Redridge|goto Stormwind City,70.94,72.61
 	step//10
-		goto Lakeshire Town Hall,29.83,44.48
+		goto Redridge Mountains,29.83,44.48
 		talk Magistrate Solomon##344
 		.turnin The True Masters##4186
 		.accept The True Masters##4223
@@ -9312,7 +9373,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguel
 		talk High Priestess MacDonnell##11053
 		.accept Target: Dalson's Tears##5219
 	step//22
-		'This is the xbow mastery questline. Can be soloed up to the last step which requires killing Shadowhunter in LBRS. Very decent blue xbow right very early when 60|goto Western Plaguelands,42.61,84.22
+		'This is the xbow mastery questline. Can be soloed up to the last step which requires killing Shadowhunter in LBRS. Very decent blue xbow which you can get right after hitting 60|goto Western Plaguelands,42.61,84.22
 		'Talk to Mariel Dumont (id:46918)|c
 		.'Accept The Bowyer's Behest (id:27773)|c
 	step//23
@@ -9324,10 +9385,10 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguel
 		talk Argent Officer Pureheart##10840
 		.turnin The Everlook Report##6028
 	step//25
-		'You will notice Andorhal looks different. It's because is the Andorhal from earlier vanilla patches. Chromie is not where usually is and to spawn the lich you have to destroy the 4 crystals guarded in each of the towers|c
+		'You will notice Andorhal looks different. It's because it is the Andorhal from earlier vanilla patches. Chromie is not where she usually is and to spawn the lich you have to destroy the 4 crystals guarded in each of the towers|c
 		'Burn  the first tower. Can pet tank the elite skele, it just takes a while...|goto Western Plaguelands,40.31,71.74|use Beacon Torch##12815
 		.goal Tower One Marked|q 5097/1
-		.'Don't break the crystals inside the towers, you don't want to spam the boss + guards at the plaza|c
+		.'Don't break the crystals inside the towers, you don't want to spawn the boss + guards at the plaza|c
 	step//26
 		'Avoid the main roads while traveling through this area, the abominations are mega overtuned. Also, be careful when entering Chromie's house, can easily pull 4 mobs at a time|goto Western Plaguelands,44.28,73.24
 		talk Chromie##10667
@@ -9341,8 +9402,8 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguel
 		.turnin Good Luck Charm##5050
 		.accept Two Halves Become One##5051
 	step//29
-		'Kill the ghoul, look the other half of the charm and combine them|goto Western Plaguelands,36.83,58.24|use Good Luck Other-Half-Charm##12722
-		.get Good Luck Charm|q 5903/1
+		'Kill the ghoul, loot the other half of the charm and combine them|goto Western Plaguelands,36.83,58.24|use Good Luck Other-Half-Charm##12722
+		.get Good Luck Charm|q 5051/1
 	step//30
 		goto Western Plaguelands,38.36,54.1
 		talk Janice Felstone##10778
@@ -9426,7 +9487,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguel
 		'Interact with the correspondence|goto Eastern Plaguelands,22.46,68
 		.'Get Ranger Marris' Notes for a quest (id:27773, objective:1)|c
 	step//47
-		'Use Eyes of the beast if you didn't forget to train it and the devs remembered to activate it again after 2 years to pull Nathanos to the south (otherwise just sac pet inside the upper floor of the house). Exit the house towards the north and let your pet die/despawn|c
+		'Put pet on stay on the upper floor, send it to Nathanos with Bestial Wrath on (to avoid the stun), then pet passive and run towards the northern side while they chase your pet. FD once pet dies.|c
 		'Skip this step|c
 	step//48
 		'Kill the northen side of Nathanos' house to progress the quests then head to Darrowshire|goto Eastern Plaguelands,32.49,83.75
@@ -9467,7 +9528,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguel
 	step//55
 		'Kill the high level dogs to finish Tirion's quest. Kill diseased flayers, gibbering ghouls and/or cannibal ghouls then free the spirit by talking to them while traveling north|goto Eastern Plaguelands,48.78,17.55
 		.'Most likely you will reach 60 with Tirion's turn ins + the quest that you currently have in WPL. Check XP to see if it's worth to just fly back to WPL|c
-		.kill 5 Frenzied Plaguehound##8598|q 5544/3
+		.kill 5 Frenzied Plaguehound##8598|q 5542/3
 		talk Aurora Skycaller##10304
 		.turnin Troubled Spirits of Kel'Theril##5245
 		..'Skip the follow up|c
@@ -9533,7 +9594,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguel
 		talk Mulgris Deepriver##10739
 		.turnin The Wildlife Suffers Too##4984
 		.accept The Wildlife Suffers Too##4985
-		..'Can skip, is not important, but might aswell do it while finishing the last cauldron quest at 60|c
+		..'Can skip, it isn't important, but might aswell do it while finishing the last cauldron quest at 60|c
 	step//70
 		goto Western Plaguelands,49.2,78.72
 		talk Marlene Redpath##10927
@@ -9541,6 +9602,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguel
 		.accept A Strange Historian##5153
 	step//71
 		'Open the grave to get the ring for Chromie|goto Western Plaguelands,49.7,76.79
+		.get Joseph's Wedding Ring|q 5153/1
 	step//72
 		'Kill Skeletal Flayers (even if they are grey...) while going to Chillwind camp to finish gathering the skeletal fragments. You can try to AoE down groups of them|goto Western Plaguelands,43.33,83.27
 		.from Skeletal Flayer##1783
@@ -9552,11 +9614,10 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguel
 		.accept The Blightcaller Cometh##6186
 		..'Just to progress it at 60|c
 	step//74
-		goto Western Plaguelands,42.73,83.8
-		talk Alchemist Arbington##11056
-		.turnin Skeletal Fragments##5537
-		.accept Mold Rhymes With...##5538
-		..'To progress at 60. The scholo key is mandatory to get inside the dungeon in this server|c
+		goto Western Plaguelands,43.46,84.87
+		talk Nathaniel Dumah##11616
+		.turnin A Plague Upon Thee##5903
+		.accept A Plague Upon Thee##5904
 	step//75
 		goto Western Plaguelands,42.94,84.45
 		talk High Priestess MacDonnell##11053
@@ -9570,20 +9631,26 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguel
 		.'Accept The Bowyer's Behest (id:27774)|c
 		..'For later, there are some vultures south of the Scholomance lake if you want to gather the feathers there|c
 	step//77
+		goto Western Plaguelands,42.73,83.8
+		talk Alchemist Arbington##11056
+		.turnin Skeletal Fragments##5537
+		.accept Mold Rhymes With...##5538
+		..'To progress at 60. The scholo key is mandatory to get inside the dungeon in this server|c
+	step//78
 		'Finish gathering the watches for chromie|goto Western Plaguelands,44.22,73.26
 		.get 5 Andorhal Watch|q 4972/1
-	step//78
+	step//79
 		goto Western Plaguelands,44.22,73.26
 		talk Chromie##10667
 		.turnin Counting Out Time##4972
 		.turnin A Strange Historian##5153
 		.accept The Annals of Darrowshire##5154
-	step//79
+	step//80
 		'Only if you need the XP from this quest to hit 60. It's the book in the middle of the wall to the east|goto Western Plaguelands,44.97,66.86
 		.get The Annals of Darrowshire|q 5154/1
-	step//80
-		'Turn in The Annals of Darrowshire if you are short on XP or just go ding 60 here|goto Western Plaguelands,43.47,84.88
-		talk Nathaniel Dumah##11616
-		.turnin A Plague Upon Thee##5903
+	step//81
+		'Turn in The Annals of Darrowshire if you are short on XP or just go ding 60 here|goto Western Plaguelands,48.36,31.92
+		turnin A Plague Upon Thee##5904
+		accept A Plague Upon Thee##6389
 		'Ding 60? Gz|c
 ]])
