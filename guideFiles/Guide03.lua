@@ -368,49 +368,54 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Teldras
 		'Learn staves for 9s. Go to Darnassus 57.73,46.53
 		.'Talk to Ilyenia Moonfire (id:11866)|c
 	step//90
-		Go to Darnassus 36.58,85.85
-		'Talk to Priestess A'moora (id:7313)|c
-		.'Accept Tears of the Moon (id:2518)|c
-	step//91
 		Go to Darnassus 38.4,21.48
 		'Talk to Rellian Greenspyre (id:3517)|c
 		.'Turn in Rellian Greenspyre (id:922)|c
 		.'Accept Tumors (id:923)|c
+	step//91
+		Go to Darnassus 28.9,45.8
+		'Talk to Sister Aquinne (id:7316)|c
+		.'Accept The Temple of the Moon (id:2519)|c
 	step//92
-		'HS back to Dolanaar. Use Hearthstone|c
+		Go to Darnassus 36.58,85.85
+		'Talk to Priestess A'moora (id:7313)|c
+		.'Turn in Tears of the Moon (id:2519)|c
+		.'Accept Tears of the Moon (id:2518)|c
 	step//93
+		'HS back to Dolanaar. Use Hearthstone|c
+	step//94
 		Go to Teldrassil 56.19,61.65
 		'Talk to Corithras Moonrage (id:3515)|c
 		.'Turn in Crown of the Earth (id:7383)|c
 		.'Accept Crown of the Earth (id:935)|c
-	step//94
+	step//95
 		'Purify the demon essence at the moonwell. Use Demon Essence. Go to Teldrassil 56.07,61.96
 		.'Get Purified Essence for a quest (id:0, objective:1)|c
-	step//95
+	step//96
 		Go to Teldrassil 55.94,59.24
 		'Talk to Jeena Featherbow (id:3610)|c
 		.'Turn in Purifying the Essence (id:26181)|c
-	step//96
+	step//97
 		'If somehow not level 10 go to the lake and turn in the fruits/heart quests. Do it later if you are already|c
 		.'Skip this step|c
-	step//97
+	step//98
 		Go to Teldrassil 56.67,59.6
 		'Train level 10 skills|c
 		'Talk to Dazalar (id:3601)|c
 		.'Accept Taming the Beast (id:6063)|c
-	step//98
+	step//99
 		'Tame a spider. Use Taming Rod. Go to Teldrassil 59.06,60.03
 		.'If you cant abandon the spider after taming it, log out inside the inn even of you are in combat. Same thing for the 2 following quests. Goal: Tame a Webwood Lurker. For a quest (id:6063, objective:1)|c
-	step//99
+	step//100
 		'Abandon it as soon as you get it. You have already finished the quest.|c
 		'If you are using ElvUI or some other UI addon the dismiss option might get blocked. Type "/run PetDismiss()" in chat if so.|c
 		'Otherwise, just log out at the inn so the pet disappears. Skip this step.|c
-	step//100
+	step//101
 		Go to Teldrassil 56.73,59.5
 		'Talk to Dazalar (id:3601)|c
 		.'Turn in Taming the Beast (id:6063)|c
 		.'Accept Taming the Beast (id:6101)|c
-	step//101
+	step//102
 		'Only if you didn't before to reach level 10. Go to Teldrassil 60.89,68.47
 		'Talk to Denalan (id:2080)|c
 		.'Turn in The Glowing Fruit (id:930)|c
@@ -418,120 +423,120 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Teldras
 		.'Turn in The Moss-twined Heart (id:927)|c
 		..'Only if you found and killed the rare previously|c
 		..'Accept Planting the Heart (id:941)|c
-	step//102
+	step//103
 		'At the planter nearby. Go to Teldrassil 60.78,68.58
 		'Turn in Planting the Heart (id:941)|c
 		'Accept The Sprouted Fronds (id:2399)|c
 		'Turn in The Sprouted Fronds (id:2399)|c
-	step//103
+	step//104
 		'Tame a cat. Use Taming Rod. Go to Teldrassil 62.19,72.13
 		.'Goal: Tame a Nightsaber Stalker. For a quest (id:6101, objective:1)|c
-	step//104
-		'Abandon pet (/run PetDismiss()), pull a bunch of mobs and die to deathwarp to Dolanaar|c
 	step//105
+		'Abandon pet (/run PetDismiss()), pull a bunch of mobs and die to deathwarp to Dolanaar|c
+	step//106
 		Go to Teldrassil 56.67,59.59
 		'Talk to Dazalar (id:3601)|c
 		.'Turn in Taming the Beast (id:6101)|c
 		.'Accept Taming the Beast (id:6102)|c
-	step//106
+	step//107
 		'Tame an owl. Use Taming Rod. Go to Teldrassil 57.39,74.65
 		.'Consider deathwarping in the neares furbolg camp, it also may have a chest. Goal: Tame a Strigid Screecher. For a quest (id:6102, objective:1)|c
-	step//107
-		'Abandon pet (/run PetDismiss()) and die to the furbolg camp to the west to deathwarp to Dolanaar|c
 	step//108
+		'Abandon pet (/run PetDismiss()) and die to the furbolg camp to the west to deathwarp to Dolanaar|c
+	step//109
 		Go to Teldrassil 56.64,59.53
 		'Talk to Dazalar (id:3601)|c
 		.'Turn in Taming the Beast (id:6102)|c
 		.'Accept Training the Beast (id:6103)|c
-	step//109
+	step//110
 		'You can buy level 10 arrows now, a quiver with some extra slots and the level 11 bow if you have spare money. Arrows > Bow > Quiver. Go to Teldrassil 55.92,59.23
 		'Tame an Owl near Dolanaar|c
 		.'Keep your pet alive!!!! You can use it and it wont run away, but if it dies you can't rez it until getting to Darnassus, making the next quests much more harder.|c
-	step//110
+	step//111
 		'Ride the cart if it's nearby. Check/bind your keybind to get out of a vehicle or type /leavevehicle once you arrive to the spot close to the pass through the mountains.. Go to Teldrassil 48.9,48.66
 		'Go into the mountains and try to /target Corrupted Treant. Kill it if it's inside the cave and then drop down.. Go to Teldrassil 49.57,45.1
 		'Type /target Lord to check if the rare spider is around. If so kill it. Go to Teldrassil 45.62,42.39
-	step//111
+	step//112
 		'Kill the tramplers for the tumors while running down the river. Go to Teldrassil 43.07,42.99
 		.'Get 5 Mossy Tumor for a quest (id:923, objective:1)|c
 		.'Don't bother killing Blackmoss if you find him now. We aren't going back to Dolanaar.|c
-	step//112
+	step//113
 		'Recall if you found Lady Sathrah west of the river before and path there or towards the alternative spawn point|c
 		'Previous spot. Go to Teldrassil 40.84,25.05
 		'Alternative spawn point. Go to Teldrassil 47.9,25.21
 		'Get Silvery Spinnerets from Lady Sathrah(id:7319) for a quest (id:2518, objective:1)|c
-	step//113
-		'Check for the Corrupted Treant here if you didn't kill it before. Go to Teldrassil 38.83,25.65
 	step//114
+		'Check for the Corrupted Treant here if you didn't kill it before. Go to Teldrassil 38.83,25.65
+	step//115
 		Go to Teldrassil 31.44,31.65
 		'Talk to Mist (id:3568)|c
 		.'Accept Mist (id:938)|c
-	step//115
+	step//116
 		'There is a roaming rare here (white harpy), keep an eye out.. Go to Teldrassil 35.26,35.32
 		.'Get 6 Bloodfeather Belt from Bloodfeather Rogue(id:2017), Bloodfeather Harpy(id:2015) or Bloodfeather Sorceress(id:2018) for a quest (id:937, objective:1)|c
 		.'Get 6 Bloodfeather Egg for a quest (id:26178, objective:1)|c
-	step//116
+	step//117
 		Go to Teldrassil 36.76,34.22
 		'Talk to Alanna Raveneye (id:3606)|c
 		.'Turn in Bloodfeather Eggs (id:26178)|c
-	step//117
+	step//118
 		Go to Teldrassil 38.3,34.37
 		'Talk to Sentinel Arynia Cloudsbreak (id:3519)|c
 		.'Goal: Lead Mist to the Sentinel near the moonwell. For a quest (id:938, objective:1)|c
 		.'Turn in Mist (id:938)|c
 		.'Turn in The Enchanted Glade (id:937)|c
 		.'Accept Teldrassil (id:940)|c
-	step//118
-		'Die near the mountains to deathwarp to Darnassus. Go to Teldrassil 35.05,39.34
 	step//119
+		'Die near the mountains to deathwarp to Darnassus. Go to Teldrassil 35.05,39.34
+	step//120
 		Go to Darnassus 70.66,45.36
 		'Talk to Mydrannul (id:4241)|c
 		.'Accept Nessa Shadowsong (id:6344)|c
-	step//120
+	step//121
 		'Buy the "Laminated Recurve Bow" (and quiver) if you were short on money before. Go to Darnassus 58.79,44.51
 		.'Talk to Ariyell Skyshadow (id:4203)|c
-	step//121
+	step//122
 		'Buy 10 meat for your owl. Feed it after turning in the quests. Go to Darnassus 65.13,68.53
 		.'Talk to Jaeana (id:4169)|c
-	step//122
+	step//123
 		Go to Darnassus 36.66,86.01
 		'Talk to Priestess A'moora (id:7313)|c
 		.'Turn in Tears of the Moon (id:2518)|c
 		.'Accept Sathrah's Sacrifice (id:2520)|c
-	step//123
+	step//124
 		'Drop down into the temple's moonwell. Use Sathrah's Sacrifice|c
 		.'Goal: Offer the sacrifice at the fountain. For a quest (id:2520, objective:1)|c
-	step//124
+	step//125
 		Go to Darnassus 36.75,85.96
 		'Talk to Priestess A'moora (id:7313)|c
 		.'Turn in Sathrah's Sacrifice (id:2520)|c
-	step//125
+	step//126
 		'Skip the follow up. Go to Darnassus 38.36,21.44
 		'Talk to Rellian Greenspyre (id:3517)|c
 		.'Turn in Tumors (id:923)|c
-	step//126
+	step//127
 		Go to Darnassus 34.74,8.92
 		'Talk to Arch Druid Fandral Staghelm (id:3516)|c
 		.'Turn in Teldrassil (id:940)|c
 		.'Accept Grove of the Ancients (id:952)|c
 		.'Turn in Crown of the Earth (id:935)|c
-	step//127
+	step//128
 		'Skip The Hunter's Path (it's a bug, you shouldn't be able to see this anymore). Go to Darnassus 40.34,8.73
 		'Talk to Jocaste (id:4146)|c
 		.'Turn in Training the Beast (id:6103)|c
-	step//128
-		'Teleport down to Rut'theran (and feed your pet!!!). Go to Darnassus 30.37,41.43
 	step//129
+		'Teleport down to Rut'theran (and feed your pet!!!). Go to Darnassus 30.37,41.43
+	step//130
 		Go to Teldrassil 56.3,92.44
 		'Talk to Nessa Shadowsong (id:10118)|c
 		.'Turn in Nessa Shadowsong (id:6344)|c
 		.'Accept The Bounty of Teldrassil (id:6341)|c
-	step//130
+	step//131
 		Go to Teldrassil 58.4,94.01
 		'Talk to Vesprystus (id:3838)|c
 		.'Turn in The Bounty of Teldrassil (id:6341)|c
 		.'Accept Flight to Auberdine (id:6342)|c
-	step//131
+	step//132
 		'Fly to Darkshore|c
 ]])
 

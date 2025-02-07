@@ -2914,37 +2914,6 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 36.58,
-							"yCoord": 85.85
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Priestess A'moora",
-							"npcId": 7313,
-							"subTasks": [
-								{
-									"questId": 2518,
-									"questName": "Tears of the Moon",
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darnassus",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 38.4,
 							"yCoord": 21.48
 						},
@@ -2965,6 +2934,76 @@
 								{
 									"questName": "Tumors",
 									"questId": 923,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 28.9,
+							"yCoord": 45.8,
+							"coordsMap": "Darnassus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Sister Aquinne",
+							"npcId": 7316,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 2519,
+									"questName": "The Temple of the Moon",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Darnassus",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 36.58,
+							"yCoord": 85.85
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Priestess A'moora",
+							"npcId": 7313,
+							"subTasks": [
+								{
+									"questId": 2519,
+									"questName": "Tears of the Moon",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Tears of the Moon",
+									"questId": 2518,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
