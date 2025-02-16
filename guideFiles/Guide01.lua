@@ -262,7 +262,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Teldras
 		'Skip this step|c
 	step//59
 		'The are 3 Fel Cones here|goto Teldrassil,58.34,55.93
-		.get 3 Fel Cone|q 489/3
+		.get 3 Fel Cone|q 489/1
 	step//60
 		goto Teldrassil,60.47,56.37
 		turnin Seek Redemption!##489
