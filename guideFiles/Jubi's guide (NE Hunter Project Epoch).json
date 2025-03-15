@@ -23679,18 +23679,6 @@
 					]
 				},
 				{
-					"stepTasks": [
-						{
-							"comment": "Some of the coordinates may be rough from now on. Upper Marshes is somehow an independent zone with its own coordinates, but you are still using the coordinates for Wetlands",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -24335,6 +24323,13 @@
 									"type": "Kill",
 									"subTasks": [],
 									"isCustom": true
+								},
+								{
+									"comment": "If you are not going to kite him just head back to the quest giver after finishing",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"isCustom": true
@@ -24462,10 +24457,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Wetlands",
 							"xCoord": 26.68,
 							"yCoord": 59.58,
-							"coordsMap": "Wetlands",
-							"comment": "Nek'rosh quest is turned in at the major, not at dwarf near the fortress so don't worry.",
+							"comment": "Nek'rosh quest is turned in at the major, not at the dwarf near the fortress so don't worry.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -25114,6 +25109,14 @@
 									"questName": "Syndicate Assassins",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questId": 28044,
+									"questName": "Syndicate Documents",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -25518,7 +25521,7 @@
 							"type": "Go to",
 							"subTasks": [
 								{
-									"comment": "Accept any of the quests laying around in the tables",
+									"comment": "Accept/Turn in any of the quests laying around in the tables. However, seems that the quest are always on the oposite camp in this server",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -25571,13 +25574,6 @@
 									"depth": 1,
 									"type": "Kill",
 									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"comment": "Do something",
-									"depth": 1,
-									"subTasks": [],
-									"type": "Comment",
 									"isCustom": false
 								}
 							],
@@ -25646,6 +25642,14 @@
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
+						},
+						{
+							"questName": "Syndicate Documents",
+							"questId": 28044,
+							"depth": 0,
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": true
 						},
 						{
 							"depth": 0,
@@ -31860,6 +31864,14 @@
 									"questName": "Preserving Knowledge",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Rare Books",
+									"questId": 27887,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -31916,19 +31928,12 @@
 							"npcId": 2364,
 							"subTasks": [
 								{
-									"questId": 0,
+									"questId": 27719,
 									"questName": "Watermelon Punch",
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
 									"isCustom": true
-								},
-								{
-									"comment": "Manually skip this step. No quest ID currently",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -31946,6 +31951,68 @@
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 48.68,
+							"yCoord": 59.04,
+							"coordsMap": "Hillsbrad Foothills",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Kundric Zanden",
+							"npcId": 2378,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Barony Mordis",
+									"questId": 27890,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"coordsMap": "Hillsbrad Foothills",
+							"xCoord": 48.17,
+							"yCoord": 60.07,
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Private Noit",
+							"npcId": 47170,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Threats from Abroad",
+									"questId": 28077,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
 						}
 					],
 					"onlyForClasses": []
@@ -32074,14 +32141,46 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Clear your way to the town hall. The tall building you can see north-east as you enter thorugh the hole. Prioritize enforcerers and mages over warmongers (slower to kill) to get the books.",
+							"xCoord": 39.61,
+							"yCoord": 52.88,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Make your way towards the church (?) and kill the ogre inside. On pull try to pet tank it. Trap him to heal your pet. If that's not enough then simply kite him towards and through the hole you just went through.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Tales from Tel'Abim",
+									"questId": 27887,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Targ",
+											"npcId": 2420
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Make your way to the town hall. The tall building you can see north-east as you enter thorugh the hole. Prioritize enforcerers and mages over warmongers (slower to kill) to get the books.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "As you enter type /target Grel'Borg and put a mark. Keep looking for him, he patrols. When he is on a safe spot out of the castle just kill him while draining his mana. Interrput rain of fire with intimidation + traps.",
+							"comment": "As you enter type /target Grel'Borg and put a mark. Keep looking for him, he patrols. When he is on a safe spot out of the castle just kill him while draining his mana. Interrupt rain of fire with intimidation + traps.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -32136,6 +32235,38 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 39.69,
+							"yCoord": 41.76,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Probably can pet tank this one unlike the one at the church. Trap if needed to heal your pet to full",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Night Stars By Longitude",
+									"count": 1,
+									"questId": 27887,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Glommus",
+											"npcId": 2422
+										}
+									],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 38.64,
 							"yCoord": 38.89,
 							"coordsMap": "Alterac Mountains",
@@ -32179,6 +32310,55 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Alterac Mountains",
+							"xCoord": 25.86,
+							"yCoord": 43.22,
+							"comment": "Go southwest and kill some Murlocs. You outlevel them so try to AoE a bit",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Murloc Lake Hunter",
+									"npcId": 47168,
+									"count": 10,
+									"questId": 28077,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Murloc Lake Oracle",
+									"npcId": 47169,
+									"count": 8,
+									"questId": 28077,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 34.1,
+							"yCoord": 38.27,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Drop down here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"xCoord": 31.84,
 							"yCoord": 33.17,
 							"coordsMap": "Alterac Mountains",
@@ -32200,20 +32380,55 @@
 							],
 							"isCustom": false
 						}
-					],
-					"onlyForClasses": []
+					]
 				},
 				{
 					"stepTasks": [
 						{
-							"xCoord": 40.47,
-							"yCoord": 19.52,
+							"xCoord": 39.99,
+							"yCoord": 23.47,
 							"coordsMap": "Alterac Mountains",
-							"comment": "Gather the Watermelons for Watermelon Punch custom quest. Didn't do it during the beta, but it's most likely here.",
+							"comment": "Mordis begins patrolling around here. If you are the only one on the area you will spot him as soon as you get close to the farming field.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
+						},
+						{
+							"comment": "If not here then you will finding patrolling the slope up until Strahnbrad",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "After you kill him accept the quest from the item he drops. Skip this step if you don't find him and do it later.",
+							"itemId": 64226,
+							"itemName": "Barony Mordis Key",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"npcName": "Baron Valimar Mordis",
+									"npcId": 46990,
+									"count": 1,
+									"questId": 27890,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "The Mordis Key",
+									"questId": 27889,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
 						}
 					],
 					"onlyForClasses": []
@@ -32221,28 +32436,23 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 39.49,
-							"yCoord": 15.68,
 							"coordsMap": "Alterac Mountains",
-							"comment": "Kill the Orc (Nagaz). Mind the stealthed mobs.",
+							"xCoord": 40.47,
+							"yCoord": 19.52,
+							"comment": "Gather the Watermelons",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
 								{
-									"itemName": "Head of Nagaz",
-									"questId": 537,
-									"questObjectiveIndex": 2,
-									"toLootNpcs": [
-										{
-											"npcName": "Nagaz",
-											"npcId": 2320
-										}
-									],
-									"count": 1,
+									"itemName": "Juicy Watermelon",
+									"questId": 27719,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 4,
 									"depth": 1,
 									"type": "Get",
 									"subTasks": [],
-									"isCustom": false
+									"isCustom": true
 								}
 							],
 							"isCustom": false
@@ -32253,22 +32463,37 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 39.22,
-							"yCoord": 14.71,
+							"xCoord": 46.51,
+							"yCoord": 21.54,
 							"coordsMap": "Alterac Mountains",
-							"comment": "Go inside the house and loot the small wooden chest. Use the parchment to start a quest",
-							"itemId": 3706,
-							"itemName": "Ensorcelled Parchment",
+							"comment": "Go east towards this slope then go up. You will find a bos to turn the box in at the end",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Kill the Shadow Mage in the camp for a chance at the book before going up.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 41.28,
+							"yCoord": 31.16,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Here is the chest",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
 								{
-									"questId": 551,
-									"questName": "The Ensorcelled Parchment",
+									"questName": "The Mordis Key",
+									"questId": 27889,
 									"depth": 1,
-									"type": "Accept quest",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"isCustom": false
+									"isCustom": true
 								}
 							],
 							"isCustom": false
@@ -32287,13 +32512,18 @@
 							"type": "Go to",
 							"subTasks": [
 								{
-									"npcName": "Argus Shadow Mage",
-									"npcId": 2318,
-									"count": 4,
+									"itemName": "Argus Spellbook",
 									"questId": 537,
 									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Argus Shadow Mage",
+											"npcId": 2318
+										}
+									],
+									"count": 1,
 									"depth": 1,
-									"type": "Kill",
+									"type": "Get",
 									"subTasks": [],
 									"isCustom": false
 								},
@@ -32361,19 +32591,12 @@
 							"npcId": 2364,
 							"subTasks": [
 								{
+									"questId": 27719,
 									"questName": "Watermelon Punch",
-									"questId": 0,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"comment": "No ID since I couldn't do it during beta. Don't know if there is a follow up either.",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -32384,13 +32607,77 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 48.68,
+							"yCoord": 59.04,
 							"coordsMap": "Hillsbrad Foothills",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Kundric Zanden",
+							"npcId": 2378,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Barony Mordis",
+									"questId": 27890,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 48.17,
+							"yCoord": 60.07,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Skip the follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Private Noit",
+							"npcId": 47170,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Threats from Abroad",
+									"questId": 28077,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 48.18,
-							"yCoord": 59.18
+							"yCoord": 59.18,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Skip the quests that send you to Ravenhold",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -32431,13 +32718,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 50.48,
-							"yCoord": 56.97
+							"yCoord": 56.97,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Skip the Rare Books follow up (ogre in Alterac)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -32462,20 +32750,12 @@
 									"isCustom": false
 								},
 								{
-									"questId": 551,
-									"questName": "The Ensorcelled Parchment",
+									"questName": "Rare Books",
+									"questId": 27887,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"questId": 554,
-									"questName": "Stormpike's Deciphering",
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -33223,7 +33503,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "The quest Save the animals was bugged in betas 2.5 and 3, but I could it complete during beta 2. Basically, she will ask you to find the Gryphon I mentioned earlier and then you will need meat from the spiders and berries from the berry bushes you might have seen while walking there.",
+							"comment": "The quest Save the animals was bugged in betas 2.5, 3 and 3.5, but I could complete itduring beta 2. Basically, she will ask you to find the Gryphon I mentioned earlier and then you will need meat from the spiders and berries from the berry bushes you might have seen while walking there.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -33656,7 +33936,14 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Skip this step. TODO: If the dwarf's quest is fixed this is probably where you go do it",
+							"comment": "If the dwarf's quest is fixed this is probably where you go do it",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -35343,37 +35630,6 @@
 							"type": "Talk to"
 						}
 					]
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 74.48,
-							"yCoord": 12.01,
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"npcName": "Prospector Stormpike",
-							"npcId": 1356,
-							"depth": 0,
-							"type": "Talk to",
-							"subTasks": [
-								{
-									"questId": 554,
-									"questName": "Stormpike's Deciphering",
-									"depth": 1,
-									"type": "Turn in quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
