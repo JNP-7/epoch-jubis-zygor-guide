@@ -29278,7 +29278,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "However, this event was bugged and never happens (even if the devs said they fixed it in one of the betas...). Chances are you will be locked out of the entire Jungle Secrets quest line. If so, just don't bother with it.",
+							"comment": "However, this event was bugged and he never offers the quest (even if the devs said they fixed it in one of the betas...). Chances are you will be locked out of the entire Jungle Secrets quest line. If so, just don't bother with it.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -29313,6 +29313,13 @@
 									"questName": "Supplies to Private Thorsen",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"comment": "If you can't turn in the quest when he is not patrolling most likely the event is bugged and you will never be able to get the quest chain going nor turn this ques in.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -29863,6 +29870,13 @@
 								}
 							],
 							"isCustom": false
+						},
+						{
+							"comment": "Also check the lumbermill at [45,12] and kill Bookie Herod if he is up. Chance at a very good BoE druid trinket (mini SHotM).",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -30311,7 +30325,7 @@
 							"xCoord": 27.1,
 							"yCoord": 77.26,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "Don't accept the follow up yet",
+							"comment": "Don't accept the follow up yet, just the new quest.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -30330,6 +30344,14 @@
 									"questName": "Singing Blue Shards",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"questName": "The Tablet of Zuul'daia",
+									"questId": 28098,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -30518,6 +30540,38 @@
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.77,
+							"yCoord": 3.07,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Yet another custom quest for the crypt",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Shep Daitry",
+							"npcId": 47179,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Looting the Looters",
+									"questId": 28091,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
 						}
 					],
 					"onlyForClasses": []
@@ -30793,6 +30847,161 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 21.55,
+							"yCoord": 8.8,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Into the crypts",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 21.28,
+							"yCoord": 6.37,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "First item",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Daltry Lantern",
+									"questId": 28091,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 19.78,
+							"yCoord": 6.39,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Second item",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Daltry Book",
+									"questId": 28091,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 60.13,
+							"yCoord": 83.87,
+							"coordsMap": "Wetlands",
+							"comment": "Third item. Yes, zone says Westfall, don't ask.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Daltry Perfume",
+									"questId": 28091,
+									"questObjectiveIndex": 4,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 60.58,
+							"yCoord": 84.88,
+							"coordsMap": "Wetlands",
+							"comment": "Fourth and last for this quest. Still missing the tablet for the other one.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Daltry Jewelry",
+									"questId": 28091,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 56.71,
+							"yCoord": 84.49,
+							"coordsMap": "Wetlands",
+							"comment": "Interact with the tablet. A ghost will appear. Kill it to get the tablet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "The Tablet of Zuul'daia",
+									"questId": 28098,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Zuuldaia Protector",
+											"npcId": 47185
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 21.98,
 							"yCoord": 21.87,
 							"coordsMap": "Stranglethorn Vale",
@@ -30990,7 +31199,7 @@
 							"xCoord": 43.09,
 							"yCoord": 18.87,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "Drop down to the lumbermill and kill the Venture Co. Mechanics. They should drop a custom item that starts a quest.",
+							"comment": "If you still don't have the helmet that starts the quest drop down to the lumbermill and kill the Venture Co. Mechanics, those are the mobs that drop it",
 							"itemId": 60666,
 							"itemName": "Experimental Mind Control Helmet",
 							"depth": 0,
@@ -31028,6 +31237,13 @@
 									"count": 1,
 									"depth": 1,
 									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": ">>> MAKE SURE YOU HAVE 1 FREE BAG SLOT <<< The key will get consumed otherwise and you won't get to loot the item if you close the looting window.",
+									"depth": 1,
+									"type": "Comment",
 									"subTasks": [],
 									"isCustom": false
 								}
@@ -31165,6 +31381,38 @@
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 27.12,
+							"yCoord": 77.26,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "No follow up for this it seems",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Crank Fizzlebub",
+							"npcId": 2498,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Tablet of Zuul'daia",
+									"questId": 28098,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -31432,6 +31680,38 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 37.77,
+							"yCoord": 3.07,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "No follow up either. Weird custom area for 2 quests. I guess horde has more?",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Shep Daitry",
+							"npcId": 47179,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Looting the Looters",
+									"questId": 28091,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 37.93,
 							"yCoord": 3.02,
 							"coordsMap": "Stranglethorn Vale",
@@ -31689,7 +31969,7 @@
 							"xCoord": 38.21,
 							"yCoord": 4.03,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "Back to rebel camp and fly to Stormwind",
+							"comment": "Back to rebel camp and fly to Stormwind. If you couldn't turn in the supplies to Thorsen abandon \"Supplies to Private Thorsen\"",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -36621,7 +36901,7 @@
 							"xCoord": 33.59,
 							"yCoord": 73.74,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "Kill all the pirates on the way to booty bay.",
+							"comment": "Kill all the pirates on the way to booty bay so you can easily kite the giant there.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -36915,7 +37195,7 @@
 							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 29.91,
 							"yCoord": 89.33,
-							"comment": "Go to this ship first and clear the pirates on the deck, then kill Garr Salthoof. Since he is a Tauren his model goes through the deck, so he will get pulled through walls (and attack you aswell). His \"charge\" attack will deal half your HP, so try to get agro on your pet ASAP while he runs.",
+							"comment": "Go to this ship first and clear the pirates on the deck. Don't pull Garr Salthoof, he will pull the pirates below deck (somehow...)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -36935,7 +37215,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Go back on board and /target Captain to target Keelhaul. Command your pet to attack him and once he is aggroed press dive/sprint and put your pet on passive again. Your pet will run to the last stay position and will pull Keelhaul outside of his room. Hit/distract shot him and then jump off the ship with disengage towards the opposite direction your pet is going.",
+							"comment": "Go back on board and /target Captain to target Keelhaul. Command your pet to attack him and press dive/sprint once it goes inside the ship. Once Keelhaul is aggroed put your pet on passive again. Your pet will run to the last stay position and will pull Keelhaul outside of his room. Hit/distract shot him and then jump off the ship with disengage towards the opposite direction your pet is going.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -36947,7 +37227,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Your pet will despawn by distance before dying to mobs and Keelhaul will be chasing you. Once your pet despawns, resummon it, attack Keelhaul with it and feign death after it gets aggro. 1v1 the quest mob and go to the next ship.",
+							"comment": "Your pet will despawn by distance before dying to mobs and Keelhaul will be chasing you. Once your pet despawns, resummon it, attack Keelhaul with it and feign death after it gets aggro. 1v1 the quest mob and go to the next ship. If your pet died pulling the mobs rez it while the boss runs at you.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -37572,21 +37852,21 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Simply use arcane shot rank 1 on CD (Tethis has to reach Nesingwary's alive). If it misses, stop and shoot one auto shot. If you want to be safe, you can try to sneak an autoshot if you are max range and need some mana. But do too many of these and the raptor will die, so be careful.",
+							"comment": "Simply use arcane shot rank 1 on CD (Tethis has to reach Nesingwary's alive). If it misses, stop and shoot one auto shot. If you want to be safe, you can try to sneak an autoshot if you are max range and need some mana. But do too many of these and the raptor might die, so be careful.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "If you come across a mob while kiting (track beasts on and look at minimap) just send your pet and attack it once with it.",
+							"comment": "If you come across a mob while kiting (track beasts on and look at minimap) just send your pet and attack it once with it, then put it on follow until the mob deagroes.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "YOU CAN'T TOUCH THE WATER or he will reset. You have to get him to the road the same way you came to the raptors' area. The easiest way to do it is by running through south of Bangalsh's mound, there is only 1 stealthed panther on the road and that's it.",
+							"comment": "YOU CAN'T TOUCH THE WATER or he will reset. You have to get him to the road the same way you came to the raptors' area. The easiest way to do it is by running north of Bangalsh's mound and following the river until the bridge, no stealthed panthers but some crocs/tigers.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -37608,10 +37888,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 35.69,
 							"yCoord": 10.8,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Once you reach the camp you can send yor pet to the raptor and pet tank it (only FD after your pet hits it once) or kite with traps around a tree.",
+							"comment": "Once you reach the camp you can send yor pet to the raptor with growl off and kite it around the tree with a frost trap.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -39280,6 +39560,16 @@
 							"isCustom": true
 						},
 						{
+							"xCoord": 79.87,
+							"yCoord": 22,
+							"coordsMap": "Swamp of Sorrows",
+							"comment": "You can check this spot to see if a stealthed rare tiger is up.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"xCoord": 70.26,
 							"yCoord": 10.58,
 							"coordsMap": "Swamp of Sorrows",
@@ -39295,10 +39585,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Swamp of Sorrows",
 							"xCoord": 75.89,
 							"yCoord": 4.65,
-							"coordsMap": "Swamp of Sorrows",
-							"comment": "Go here and run south down the coast while killing crabs and gathering wood. Mind you, the area is EXTREMELY buggy pathing wise for NPCs and pets (unless fixed). Toengage the crabs dismiss your pet, stand besides them and summon it again. Otherwise they will perma evade.",
+							"comment": "Go here and run south down the coast while killing crabs and gathering wood.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -39341,13 +39631,6 @@
 									"isCustom": false
 								}
 							],
-							"isCustom": false
-						},
-						{
-							"comment": "Don't bother with the rare custom crab. 2 minute fight for 50s (or do if you are desperate for gold mount...)",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -40778,13 +41061,6 @@
 							"comment": "Learn spells (how to use mail armor) if you have any spare money",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "TODO: If the cloth turn ins could be done once per race and type of cloth go do the Nelf silk turn in now",
-							"depth": 0,
-							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
@@ -47606,6 +47882,13 @@
 									"questName": "Handle With Care",
 									"subTasks": [],
 									"type": "Turn in quest"
+								},
+								{
+									"comment": "Accept favored of elune if you weren't here before",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
