@@ -40858,6 +40858,78 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 54.92,
+							"yCoord": 58.37,
+							"coordsMap": "Ironforge",
+							"comment": "If you have 225 first aid (you should) go grab the prequest for the 300 FA quest in Theramore",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Nissa Firestone",
+							"npcId": 5150,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 6625,
+									"questName": "Alliance Trauma",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 20,
+							"yCoord": 51.1,
+							"coordsMap": "Ironforge",
+							"comment": "Upper floor of the inn",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "On release might not be available at this level (it's level 45, but mobs are level 48-50...)",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"npcName": "Merida Stoutforge",
+							"npcId": 47205,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Thorium Brotherhood",
+									"questId": 28153,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"comment": "If you don't have 90g for your mount then HS back to booty bay here. You will have enough after questing in Dustwallow. If that's the case, check the steps in this section after this point and do them after finishing the next section (before flying to Gadgetzan).",
 							"depth": 0,
 							"type": "Comment",
@@ -41284,10 +41356,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Dustwallow Marsh",
 							"xCoord": 67.71,
 							"yCoord": 48.91,
-							"coordsMap": "Dustwallow Marsh",
-							"comment": "This was bugged during beta, but hopefully (it better be) fixed by launch. If you have 225 firs aid (you should) turn friendly nameplates on and bind the quest item.",
+							"comment": "If you have 225 firs aid (you should) turn friendly nameplates on and bind the quest item.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -41300,12 +41372,20 @@
 							"npcId": 12939,
 							"subTasks": [
 								{
+									"questId": 6625,
+									"questName": "Alliance Trauma",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 6624,
-									"questName": "Triage",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": false
+								},
+								{
+									"questName": "Triage",
+									"questId": 6624,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -42670,7 +42750,7 @@
 							"xCoord": 46.03,
 							"yCoord": 57.11,
 							"coordsMap": "Dustwallow Marsh",
-							"comment": "If the 2 apprentices' quests are available (3), accept them and do them. Not detailed here but will have indications later when to do them",
+							"comment": "Apprentices' quests are not available, won't be detailed",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -42765,13 +42845,6 @@
 								}
 							],
 							"isCustom": false
-						},
-						{
-							"comment": "If Tabetha's apprentices' quests were available kill the 12 Grimtotems here",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -42821,9 +42894,18 @@
 							"xCoord": 45.48,
 							"yCoord": 57.72,
 							"coordsMap": "Dustwallow Marsh",
+							"comment": "Only if he was made available. Otherwise just abandon the quest",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "Not only this one but like, half the quests in Dustwallow were removed. For some odd reason Justice for the Hyjals questline is in its TBC state (has a conclusion, unfinished in vanilla) but things like Theramore deserters, Tabetha's apprentices, witch hill, grim totem raptors... are not available when the only one that shouldn't be is the Defias' questline which is related to Varian...",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						},
 						{
@@ -42953,7 +43035,6 @@
 							"xCoord": 53.7,
 							"yCoord": 56.6,
 							"coordsMap": "Dustwallow Marsh",
-							"comment": "If Tabetha's quests were available don't backtrack here. Do Ony -> Elite crock -> Turn in Ogre quest -> Finish and turn in Tabetha's quest -> Turn these quests in -> HS to Theramore",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -42985,25 +43066,6 @@
 							"type": "Talk to"
 						}
 					]
-				},
-				{
-					"stepTasks": [
-						{
-							"comment": "If Tabetha's farm quest were available (who knows why they aren't...) this is where you would kill the spiders and test the totems on the crocks. Then you would turn these in after turning the ogre's final quest to then turn the zeppelin quests and HSing back to Theramore",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Skip this step. -7k XP + mob XP if not available :(",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
 				},
 				{
 					"stepTasks": [
@@ -43099,7 +43161,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "HS back to Theramore or turn in Tabetha's quests if available, turn the zepelin quests and then HS",
+							"comment": "HS back to Theramore",
 							"itemId": 6948,
 							"itemName": "Hearthstone",
 							"depth": 0,
@@ -45249,10 +45311,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Tanaris",
 							"xCoord": 45.8,
 							"yCoord": 38.37,
-							"coordsMap": "Tanaris",
-							"comment": "Just do laps around the bones killing vultures. It will take a while, drop rate is low (edited: seems drop rate has been increased as per the bug tracker)",
+							"comment": "Just do laps around the bones killing vultures. Drop rate was greatly improved since betas, used to be a pain.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -46176,32 +46238,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 51.69,
-							"yCoord": 47.79,
-							"coordsMap": "Feralas",
-							"comment": "From the WANTED post left as you enter the camp",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"questName": "Wanted: Lost Ancient",
-							"questId": 26602,
-							"depth": 0,
-							"type": "Accept quest",
-							"subTasks": [],
-							"isCustom": true
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
 							"xCoord": 51.64,
 							"yCoord": 47.57,
 							"coordsMap": "Feralas",
+							"comment": "Ignore the WANTED poster. Not soleable as of beta 3.5",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -47133,7 +47173,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Check the drop rate on the branches. Interrupt regrowth with traps/intimidation. Forestwalkers were bugged on 2 ways, however: the cast heals on their traget and not themselves and also, they have 6k HP instead ok 2k (as per the issue tracker). If drop rate is bad abandon quest.",
+							"comment": "Check the drop rate on the branches. From the treants. If it's bad (no branches after 2 treants) just abandon quest",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -47307,44 +47347,12 @@
 								}
 							],
 							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 58.2,
-							"yCoord": 62.04,
-							"coordsMap": "Feralas",
-							"comment": "Once you find the giant tree lure or wait untill he paths to this tree. Kill the ape while waiting/before pull",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
 						},
 						{
-							"comment": "Growl off, screech off (important, the AoE debuff will aggro the Forestwalker), cower on. Spam distracting shot and viper sting on CD to drain mana and keep agro. Can't slow him, but can outrun him. If he casts the corrupted tranquility just walk out and re-engage at the north eastern tree, then circle back",
+							"comment": "Don't bother with the giant tree. As of beta 3.5 casts roots and the guards in the ogre post won't bother helping you kill it. Not reallistically soleable",
 							"depth": 0,
 							"type": "Comment",
-							"subTasks": [
-								{
-									"itemName": "Hefty Ancient Log",
-									"questId": 26602,
-									"questObjectiveIndex": 1,
-									"toLootNpcs": [
-										{
-											"npcName": "Lost Ancient",
-											"npcId": 45888
-										}
-									],
-									"count": 1,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": true
-								}
-							],
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -47557,13 +47565,13 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.62,
+							"yCoord": 47.5,
 							"coordsMap": "Feralas",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.62,
-							"yCoord": 47.5
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -47572,27 +47580,110 @@
 							"npcId": 45865,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": true,
-									"questId": 26602,
-									"questName": "Wanted: Lost Ancient",
-									"subTasks": [],
-									"type": "Turn in quest"
-								},
-								{
 									"questId": 26593,
 									"questName": "Fit For A King",
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [
 										{
-											"comment": "Skip if killing the treants was too slow/bad drop rate. Also, don't accept the follow up",
+											"comment": "Skip this and the next 2 steps if killing the treants was too slow/bad drop rate.",
 											"depth": 2,
 											"type": "Comment",
 											"subTasks": [],
 											"isCustom": false
 										}
 									],
+									"isCustom": true
+								},
+								{
+									"questId": 26594,
+									"questName": "Fit For A King",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.09,
+							"yCoord": 46.08,
+							"coordsMap": "Feralas",
+							"comment": "Go up here, clim the slope west of the camp",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Gather some reeds then drop down to the beach.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "After gathering the ones down the beach go back to the camp. Check the lake above it again to see if things have respawned and finish the quest.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Wetland Hemp",
+									"questId": 26594,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 62.4,
+							"yCoord": 52.55,
+							"coordsMap": "Feralas",
+							"comment": "If respawns are still bugged (2 years of this...) then go here to gather the last one (one node around trhe shore of the pond)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 51.62,
+							"yCoord": 47.5,
+							"coordsMap": "Feralas",
+							"comment": "Skip the next one for now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Viggo",
+							"npcId": 45865,
+							"subTasks": [
+								{
+									"questName": "Fit For A King",
+									"questId": 26594,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
 									"isCustom": true
 								}
 							],
@@ -47884,7 +47975,7 @@
 									"type": "Turn in quest"
 								},
 								{
-									"comment": "Accept favored of elune if you weren't here before",
+									"comment": "Accept favored of elune if you didn't here before",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -48536,6 +48627,51 @@
 							"isCustom": false
 						},
 						{
+							"comment": "Check fast with eagle eyes if the Twilight mobs in the cave to the west are elite and take note. We will skip some questlines down the line if that's the case.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 37.74,
+							"yCoord": 26.7,
+							"coordsMap": "Searing Gorge",
+							"comment": "Skip follow up for now. Will only do it if the Twilight mobs weren't elite",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Lookout Captain Lolo Longstriker",
+							"npcId": 14634,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Thorium Brotherhood",
+									"questId": 28153,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 37.9,
 							"yCoord": 30.78,
 							"coordsMap": "Searing Gorge",
@@ -48554,8 +48690,7 @@
 							],
 							"isCustom": false
 						}
-					],
-					"onlyForClasses": []
+					]
 				},
 				{
 					"stepTasks": [
@@ -52817,7 +52952,15 @@
 							"comment": "Back to accept the quest we left behind before going to Hinterlands",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "If \"The Thorium Brotherhood\" wasn't available before for w/e reason go grab it now at the inn",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						},
 						{
@@ -52873,6 +53016,45 @@
 									"isCustom": false
 								}
 							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 74.77,
+							"yCoord": 12.87,
+							"coordsMap": "Ironforge",
+							"comment": "No data for this quest, couldn't do during beta 3.5 due to no drops bug in SG",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Librarian Mae Paledust",
+							"npcId": 3979,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 0,
+									"questName": "The Shadowforge Librarian",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this afterwards",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -53230,6 +53412,38 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"coordsMap": "Searing Gorge",
+							"xCoord": 37.7,
+							"yCoord": 26.77,
+							"comment": "Only if the Twilight Cultists at the cave to the west weren't elite",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Lookout Captain Lolo Longstriker",
+							"npcId": 14634,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Twilight Tactics",
+									"questId": 27981,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -53513,6 +53727,45 @@
 				{
 					"stepTasks": [
 						{
+							"comment": "Only if the Twilight Cultists weren't elite. Skip otherwise",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 41.35,
+							"yCoord": 74.85,
+							"coordsMap": "Searing Gorge",
+							"comment": "Go here before killing the elements at the entrance of BRM",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Elementalist Shirleen",
+							"npcId": 47071,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Elements, Corrupted",
+									"questId": 27976,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 33.36,
 							"yCoord": 74.82,
 							"coordsMap": "Searing Gorge",
@@ -53568,6 +53821,47 @@
 						}
 					],
 					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 39.01,
+							"yCoord": 39.13,
+							"coordsMap": "Searing Gorge",
+							"comment": "Backtrack and kill the respawning golems, dwarves, spiders (should be almost done) and elementals you need",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Greater Lava Spider",
+									"npcId": 5858,
+									"count": 20,
+									"questId": 7724,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "If you are doing the elementals then go down the gorge at [35,58] and kill Inferno elementals to progress it",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "You can keep going east of this spot to finish fire/earth elementals and doing the air elementals part for \"The elements, corrupted\". Skip this step afterwards",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
 				},
 				{
 					"stepTasks": [
@@ -53664,7 +53958,56 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Before dropping into the pit kill the dwarf camps to the east then finish golems. If by some miracle the single slaver (there is another one where the Smiths were) drops the quest item, turn it in and accept the follow up. Guide proceeds as if this quest is still bugged.",
+							"comment": "Do right after previous step -> Some questlines couldn't be finished during beta because the whole area was bugged. Not going to detail them, but this is how I suspect they will go. Obviously if the cultists are elite skip both the cultists + elementals quest line (not worth doing)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "Kill the Twilight cultists outside the cave/mountains. Then you get a quest to retrieve a relic deep inside the cave. Don't get to the cave inmediately.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Do Enslavers Keep records? will probably ask you to go rescue someone inside the Twilight Cultists cave after getting the documents (caged NPC was there with no aparent purpose).",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [
+										{
+											"comment": "If that's the case then do Retrieving relic + water elementals + escort quest at the same time",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								},
+								{
+									"comment": "After retrieving the relic you are asked to go interrupt a metting in a cave south WEST of the area (quest text is wrong). Go there at the same time you turn in the escort + elemental quests",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "From here on no idea how the quests progress. Skip this.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Before dropping into the pit kill the dwarf camps to the east then finish golems. If by some miracle the single slaver (there is another one where the Smiths were) drops the quest item for enslavers records, turn it in and accept the follow up. Guide proceeds as if this quest is still bugged.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -53778,7 +54121,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "The problem is that he stops casting Shadowbolts when using anything else for a while, which makes him run into you regardless of wether you are in LoS or not. And worse, he runs out of mana in doing so. This wouldn't be a problem if it wasn't because, even if he has no weapons, he is some kind of Shaolin monk who can break stones with his firsts. Your pet can't face tank it, unless...",
+							"comment": "The problem is that he stops casting Shadowbolts for a while when using anything else, which makes him run into you regardless of wether you are in LoS or not. And worse, he runs out of mana in doing so. This wouldn't be a problem if it wasn't because, even if he has no weapons, he is some kind of Shaolin monk who can break stones with his firsts. Your pet can't face tank it, unless...",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -53802,7 +54145,14 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Kill the 2 Taskmasters near the boxes at the south western side of the room. You are going to kit him to (almost) the bridge and need to go through there. Kill the lookout by pulling him with LoS and split pulling him if necessary. Then, place a trap between the grinding stone and the bridge. This is the killing spot. If you go further he can reset by distance.",
+							"comment": "Kill the 2 Taskmasters near the boxes at the south western side of the room. You are going to kite him to (almost) the bridge and need to go through there. Kill the lookout by pulling him with LoS and split pulling him if necessary. Then, place a trap between the grinding stone and the bridge. This is the killing spot. If you go further he can reset by distance.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "New from beta 3.5: Kill the Shadowforge Librarian patrolling the bridge to progress (and complete) \"The Shadowforge Librarian\"",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -53831,7 +54181,7 @@
 									"type": "Comment",
 									"subTasks": [
 										{
-											"comment": "He uses PWS, use Arcane Shot to dispel it (the level 46 rank onwards does this in TBC). NEVER use arcane shot for anything else, the shield is nasty.",
+											"comment": "He uses PWS, use Arcane Shot to dispell it (the level 46 rank onwards does this in TBC). NEVER use arcane shot for anything else, the shield is nasty.",
 											"depth": 2,
 											"type": "Comment",
 											"subTasks": [],
@@ -53845,7 +54195,7 @@
 											"isCustom": false
 										},
 										{
-											"comment": "He uses polymorph. Use bestial wrath for you and your pet to become inmune. He won't do this anyomero during the fight, he won't have enough mana to do so.",
+											"comment": "He uses polymorph. Use bestial wrath for you and your pet to become inmune. He won't do this anymore during the fight, he won't have enough mana to do so.",
 											"depth": 2,
 											"type": "Comment",
 											"subTasks": [],
@@ -53877,7 +54227,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "This repeats for more than 3 minutes (mobs will respawn, and bestial wrath will come off cd, don't worry)",
+							"comment": "This repeats for more than 3 minutes (mobs might respawn, and bestial wrath will come off cd, don't worry)",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -54335,7 +54685,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Plan: locate one of the far away necromancers, send pet to nearby fireguard then into one of the Idolaters around the lava pit. Afterwards, send it to the far away geomancer, accept the quest, spam the gossip macro while talking to the elf, turn in and accept next quest. Finally, get on top of the stone of the lava pit (on top, not on the borders or you will burn), loot the item, run back to the safe spot and feign death.",
+							"comment": "Plan: locate one of the far away geomancers, send pet to nearby fireguard then into one of the Idolaters around the lava pit. Afterwards, send it to the far away geomancer, accept the quest, spam the gossip macro while talking to the elf, turn in and accept next quest. Finally, get on top of the stone of the lava pit (on top, not on the borders or you will burn), loot the item, run back to the safe spot and feign death.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -55129,13 +55479,6 @@
 							"comment": ">>> Set HS <<< And accept the quest",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "TODO: Testing things out because Azshara is reworked, I want \"The Hunter's Charm quest\", but I need to be level 50",
-							"depth": 0,
-							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
@@ -60052,6 +60395,38 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 51.65,
+							"yCoord": 47.58,
+							"coordsMap": "Feralas",
+							"comment": "Only if you did the treants and reeds' quest before",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Viggo",
+							"npcId": 45865,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26595,
+									"questName": "Fit For A King",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -60079,13 +60454,6 @@
 								}
 							],
 							"type": "Talk to"
-						},
-						{
-							"comment": "If you did the branches quest earlier you can accept the follow up now and gather the items from the rivers up north, Guide proceeds as if it wasn't done",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
 						}
 					]
 				},
@@ -60719,11 +61087,32 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "If you are doing the other questline you can do it now (it's about using an item while killing beasts)",
+							"comment": "If you are doing the other questline you can do it now (it's about using an item while killing beasts, only if you killed the treants last time)",
+							"itemId": 60885,
+							"itemName": "Hemovac Max",
 							"depth": 0,
 							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
+							"subTasks": [
+								{
+									"comment": "Use the item when any beast is below 40%",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Vial of Beast Blood",
+									"questId": 26595,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 20,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
 						},
 						{
 							"xCoord": 48.73,
@@ -60759,13 +61148,45 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.65,
+							"yCoord": 47.58,
+							"coordsMap": "Feralas",
+							"comment": "Only if you did the treants and reeds' quest before. Skip the follow up after completing it",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Viggo",
+							"npcId": 45865,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Fit For A King",
+									"questId": 26595,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 51.8,
+							"yCoord": 46.36,
 							"coordsMap": "Feralas",
 							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 51.8,
-							"yCoord": 46.36
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -60791,13 +61212,6 @@
 								}
 							],
 							"type": "Talk to"
-						},
-						{
-							"comment": "Also turn in the other quest chain if doing it. Skip the next step if it asks you to go to the silithid hive",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
 						}
 					]
 				},
@@ -60839,13 +61253,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Feralas",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 51.83,
-							"yCoord": 46.33
+							"yCoord": 46.33,
+							"coordsMap": "Feralas",
+							"comment": "No more of these questlines. Not worth the time, but finish Fit For A King when level 60 for a blue xbow",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -60860,17 +61275,16 @@
 									"questName": "Dental Records",
 									"subTasks": [],
 									"type": "Turn in quest"
-								},
-								{
-									"questName": "Dental Records",
-									"questId": 26609,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": true
 								}
 							],
 							"type": "Talk to"
+						},
+						{
+							"comment": "You are killing Yetis now, but there are only 5 spawns for the 8 items required on the next step. What's more, the drop rate is below 40%. Awful quest, awful questlines.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -60902,13 +61316,6 @@
 									"type": "Comment",
 									"subTasks": [],
 									"isCustom": false
-								},
-								{
-									"comment": "TODO: The quest for the yetis' teeth may have a better droprate now. It wasn't worth doing in the last beta",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
 								}
 							],
 							"isCustom": false
@@ -60930,38 +61337,6 @@
 								}
 							],
 							"isCustom": false
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"xCoord": 51.83,
-							"yCoord": 46.33,
-							"coordsMap": "Feralas",
-							"comment": "Only if the teeth quest was worth doing. Otherwise, skip this step and go to Feathermoon",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": true,
-							"npcName": "Jrall",
-							"npcId": 45867,
-							"subTasks": [
-								{
-									"questName": "Dental Records",
-									"questId": 26609,
-									"depth": 1,
-									"type": "Turn in quest",
-									"subTasks": [],
-									"isCustom": true
-								}
-							],
-							"type": "Talk to"
 						}
 					]
 				},
@@ -61184,6 +61559,45 @@
 									"isCustom": false
 								}
 							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 74.77,
+							"yCoord": 12.87,
+							"coordsMap": "Ironforge",
+							"comment": "No data for this quest again. I guess it ends here too.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Librarian Mae Paledust",
+							"npcId": 3979,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 0,
+									"questName": "The Shadowforge Librarian",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip afterwards",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
