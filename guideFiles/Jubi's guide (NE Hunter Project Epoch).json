@@ -50728,13 +50728,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "The Hinterlands",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 15.95,
-							"yCoord": 47.11
+							"yCoord": 47.11,
+							"coordsMap": "The Hinterlands",
+							"comment": "Ignore the fisherman's quest for now. Will pick it up later",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -51067,7 +51068,15 @@
 							"comment": "Go here and gather 2 of the eggs",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "The quest has always been bugged. If the eggs can't be interacted with abandon quest.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						},
 						{
@@ -51857,7 +51866,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "If you managed to get a summon go to Ironforge and turn 'Parts From Afar' there then HS back. The turn in is at the forge and asks you to go back to Aerie peak afterwards. No idea what the follow up may be (or if there even is one...)",
+							"comment": "If you managed to get a summon go to Ironforge and turn 'Parts From Afar' there then HS back. The turn in is at the forge and asks you to go back to Aerie peak afterwards.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -52254,6 +52263,45 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 15.75,
+							"yCoord": 47.17,
+							"coordsMap": "The Hinterlands",
+							"comment": "Awards a +25 fishing rod at the end. Don't know if fishing is a pre-requisite",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Howin Kindfeather",
+							"npcId": 11810,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 28143,
+									"questName": "Howin's Favorite Fishing Hole",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"comment": "Roams inside and out of the bunker",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -52384,6 +52432,45 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 14,
+							"yCoord": 43.28,
+							"coordsMap": "The Hinterlands",
+							"comment": "If you got the summon to IF before turn the quest in now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Chief Engineer Urul",
+							"npcId": 45700,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26505,
+									"questName": "Parts From Afar",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						},
+						{
+							"comment": "Skip otherwise",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -52690,20 +52777,62 @@
 							"isCustom": false
 						},
 						{
-							"xCoord": 72.51,
-							"yCoord": 66.13,
+							"xCoord": 79.58,
+							"yCoord": 47.35,
 							"coordsMap": "The Hinterlands",
-							"comment": "Go down to the beach from here",
+							"comment": "Now go here. Top of the waterfall behind a rock. Don't fall down (yet)",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"questName": "Howin's Favorite Fishing Hole",
+									"questId": 28143,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Howin's Favorite Fishing Hole",
+									"questId": 28144,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
 							"isCustom": false
-						},
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
 						{
-							"comment": "Skip this afterwards",
+							"xCoord": 81.18,
+							"yCoord": 46.36,
+							"coordsMap": "The Hinterlands",
+							"comment": "Ezio Auditore down the waterfall to turn in the next step.",
 							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "Howin's Favorite Fishing Hole",
+									"questId": 28144,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Howin's Favorite Fishing Hole",
+									"questId": 28145,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -52783,7 +52912,39 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "HS back to Aerie peak",
+							"xCoord": 90.12,
+							"yCoord": 52.25,
+							"coordsMap": "The Hinterlands",
+							"comment": "Swim to this spot",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "Howin's Favorite Fishing Hole",
+									"questId": 28145,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Howin's Favorite Fishing Hole",
+									"questId": 28146,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Resurface and HS back to Aerie peak",
 							"itemId": 6948,
 							"itemName": "Hearthstone",
 							"depth": 0,
@@ -52822,6 +52983,44 @@
 								}
 							],
 							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 15.75,
+							"yCoord": 47.17,
+							"coordsMap": "The Hinterlands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Howin Kindfeather",
+							"npcId": 11810,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Howin's Favorite Fishing Hole",
+									"questId": 28146,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"comment": "Roams inside and out of the bunker",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -61148,6 +61347,58 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 51.88,
+							"yCoord": 31.96,
+							"coordsMap": "Feralas",
+							"comment": "Kill yetis for hides",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Rage Scar Yeti Hide",
+									"questId": 7733,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "AoE down everything at the cave of the mount",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "If a Pristine Yeti Hide drops accept the quest (skip this otherwise)",
+							"itemId": 18969,
+							"itemName": "Pristine Yeti Hide",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"questId": 7735,
+									"questName": "Pristine Yeti Hide",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 51.65,
 							"yCoord": 47.58,
 							"coordsMap": "Feralas",
@@ -61284,58 +61535,6 @@
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
-							"isCustom": false
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"xCoord": 51.88,
-							"yCoord": 31.96,
-							"coordsMap": "Feralas",
-							"comment": "Kill yetis for hides",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"itemName": "Rage Scar Yeti Hide",
-									"questId": 7733,
-									"questObjectiveIndex": 1,
-									"toLootNpcs": [],
-									"count": 10,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"comment": "AoE down everything at the cave of the mount",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						},
-						{
-							"comment": "If a Pristine Yeti Hide drops accept the quest (skip this otherwise)",
-							"itemId": 18969,
-							"itemName": "Pristine Yeti Hide",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [
-								{
-									"questId": 7735,
-									"questName": "Pristine Yeti Hide",
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
 							"isCustom": false
 						}
 					]
@@ -65617,7 +65816,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "If my italian organized crime degree is right, there are no Devilsaurs in west Un'Goro in Trinity Core (unless fixed by the devs). What's more, only a single spawn is a regular Devilsaur, the one you need for the quest (east Volcano's skirts). If no one is in the area, it should be exactly there. Listing all the spawns now",
+							"comment": "If my italian organized crime degree is right, there are no Devilsaurs in west Un'Goro in Trinity Core (unless fixed by the devs). What's more, only a single spawn is a regular Devilsaur, which is the easiest one for the quest (all 3 types work). If no one is in the area, it should be exactly there. Listing all the spawns now",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -65635,7 +65834,7 @@
 									"xCoord": 58.44,
 									"yCoord": 61.09,
 									"coordsMap": "Un'Goro Crater",
-									"comment": "Always an Ironhide Devilsaur",
+									"comment": "Always an Ironhide Devilsaur. Go for this one if the next on the list is not up/can't find",
 									"depth": 1,
 									"type": "Go to",
 									"subTasks": [],
@@ -65666,7 +65865,7 @@
 											"isCustom": false
 										},
 										{
-											"comment": "Just like with the Stegodon, place freezing trap and trap/scare beast if things go south. Pet can factank. Can't kite (too fast) or use frost trap around a tree (semi-ranged attack + very big model)",
+											"comment": "Just like with the Stegodon, place freezing trap and trap/scare beast if things go south. Pet can facetank. Can't kite (too fast) or use frost trap around a tree (semi-ranged attack + very big model)",
 											"depth": 2,
 											"type": "Comment",
 											"subTasks": [],
@@ -66273,10 +66472,10 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Silithus",
 							"xCoord": 82.72,
 							"yCoord": 14.65,
-							"coordsMap": "Silithus",
-							"comment": "Get close to the pillar. This should complete the quest as per beta 3 (no need to discover both pilars). If it's required to discover both, abandon quest (not going down there again). Guide continues as if 1 is enough",
+							"comment": "Get close to the pillar. This should complete the quest as per beta 3 and 3.5 (no need to discover both pilars). If it's required to discover both, abandon quest (not going down there again). Guide continues as if 1 is enough",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
