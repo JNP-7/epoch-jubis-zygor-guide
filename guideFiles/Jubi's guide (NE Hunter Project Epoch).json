@@ -58801,16 +58801,9 @@
 							"xCoord": 50.96,
 							"yCoord": 85.03,
 							"coordsMap": "Felwood",
-							"comment": "Mind you, this one might not be here but at the entrance of Timbermaw Hold. If devs have some common sense they will move it down",
+							"comment": "Need to get to unfriendly with Timbermaw in order to pass through the tunnel",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Regardless of what happens, you have to grind to unfriendly with Timbermaw in order to pass through the tunnel",
-							"depth": 0,
-							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
@@ -58837,10 +58830,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Felwood",
 							"xCoord": 48.74,
 							"yCoord": 89.71,
-							"coordsMap": "Felwood",
-							"comment": "Either grind to unfriendly (1 full clear more or less) or complete the quest",
+							"comment": "Get to unfriendly by completing the quest and doing a full clear (190 rep for a clear, 600 for the quest).",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -58898,7 +58891,6 @@
 							"xCoord": 50.96,
 							"yCoord": 85.03,
 							"coordsMap": "Felwood",
-							"comment": "Skip if the NPC wasn't brought back",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -59047,6 +59039,37 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 50.95,
+							"yCoord": 81.7,
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Ivy Leafrunner",
+							"npcId": 10924,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Containing the Contamination",
+									"questId": 27908,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -59330,10 +59353,39 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 41.71,
+							"yCoord": 45.99,
+							"coordsMap": "Felwood",
+							"comment": "Go north to the lake briefly to try to cleanse the water (go to the \"docks\")",
+							"itemId": 64316,
+							"itemName": "Felwood Water Purifier",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Damaged Water Purifier",
+									"questId": 27908,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 39.13,
 							"yCoord": 59.43,
 							"coordsMap": "Felwood",
-							"comment": "Go into the tunnel to gather the relics. Try not to pull the hounds yourself while on LoS or they will mana drain you",
+							"comment": "Back to Jaedenar. Go into the tunnel to gather the relics. Try not to pull the hounds yourself while on LoS or they will mana drain you",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -59534,6 +59586,45 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 50.95,
+							"yCoord": 81.7,
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Ivy Leafrunner",
+							"npcId": 10924,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Containing the Contamination",
+									"questId": 27908,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Containing the Contamination",
+									"questId": 27909,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"coordsMap": "Felwood",
 							"depth": 0,
 							"isCustom": false,
@@ -59667,7 +59758,7 @@
 							"xCoord": 40.45,
 							"yCoord": 41.22,
 							"coordsMap": "Felwood",
-							"comment": "Go inside the crater the get the exploration objective then kill 2 of each elemental. Head north east while doing so. Avoid the infernals",
+							"comment": "Go inside the crater the get to exploration objective then kill 2 of each elemental and 1 Infernal Bodyguard (not sentry). Head north east while doing so.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -59702,6 +59793,33 @@
 									"type": "Kill",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"itemName": "Burning Elemental Core",
+									"questId": 27909,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Infernal Bodyguard",
+											"npcId": 7135
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [
+										{
+											"xCoord": 39.47,
+											"yCoord": 43.2,
+											"coordsMap": "Felwood",
+											"comment": "You need a big tree trunk to kite them with a Frost trap since they have a semi-ranged attack",
+											"depth": 2,
+											"type": "Go to",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": true
 								}
 							],
 							"isCustom": false
@@ -59715,27 +59833,122 @@
 							"xCoord": 48.57,
 							"yCoord": 37.81,
 							"coordsMap": "Felwood",
-							"comment": "Head towards the alliance camp from here",
+							"comment": "Head towards the alliance camp from here. You will find an elite chimaera that you have to kite there.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Keep your distance with the chimaera as it uses a casted ranged spell (outrange it) and a close range breath attack.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 48.33,
+							"yCoord": 27.54,
+							"coordsMap": "Felwood",
+							"comment": "Take the longer path to the road. Taking the \"shortcut\" (east side) is too hard, +12 mobs vs 4 if taking this path.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"xCoord": 57.42,
-							"yCoord": 18.37,
+							"xCoord": 61.99,
+							"yCoord": 24.46,
 							"coordsMap": "Felwood",
-							"comment": "Then here",
+							"comment": "Follow the road then talk to the quest giver and kill the chimaera.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
+						{
+							"npcName": "Golhine the Hooded",
+							"npcId": 9465,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Wanted: Kal'alash",
+									"questId": 27904,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Finish the elite off by running circles around the lake",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Kal'alash",
+							"npcId": 47011,
+							"count": 1,
+							"questId": 27904,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 61.99,
+							"yCoord": 24.46,
+							"coordsMap": "Felwood",
+							"comment": "Turn it in. Couldn't finish it on the beta because the mob didn't respawn and I had killed it before accepting the quest. No idea if there is a follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Golhine the Hooded",
+							"npcId": 9465,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Wanted: Kal'alash",
+									"questId": 27904,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
 						{
 							"xCoord": 62.51,
 							"yCoord": 24.19,
 							"coordsMap": "Felwood",
-							"comment": "And finally here. Discover the FP.",
+							"comment": "Discover the FP.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -59778,10 +59991,27 @@
 							"coordsMap": "Felwood",
 							"xCoord": 64.76,
 							"yCoord": 8.21,
-							"comment": "Either turn in \"Speak to Nafien\" if Grazle was in southern Felwood and you were able to do his quest or get the quest now to do it soon",
+							"comment": "Turn in Speak to Nafien",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Nafien",
+							"npcId": 15395,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 8462,
+									"questName": "Speak to Nafien",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						},
 						{
@@ -59910,6 +60140,38 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 50.95,
+							"yCoord": 81.7,
+							"coordsMap": "Felwood",
+							"comment": "Skip the follow up for now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Ivy Leafrunner",
+							"npcId": 10924,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Containing the Contamination",
+									"questId": 27909,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"stepTasks": [
@@ -67337,6 +67599,37 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 50.95,
+							"yCoord": 81.7,
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Ivy Leafrunner",
+							"npcId": 10924,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Containing the Contamination",
+									"questId": 27910,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 45.66,
 							"yCoord": 73.85,
 							"coordsMap": "Felwood",
@@ -67583,10 +67876,49 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 41.74,
+							"yCoord": 46.12,
+							"coordsMap": "Felwood",
+							"comment": "Back to the docks. Summon and kill the ooze",
+							"itemId": 64319,
+							"itemName": "Oozemother Lure",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Vile Oozemother",
+									"npcId": 47023,
+									"count": 1,
+									"questId": 27910,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 38.33,
 							"yCoord": 44.74,
 							"coordsMap": "Felwood",
 							"comment": "Go north and keep killing the wildlife. More bears here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 41.82,
+							"yCoord": 35.35,
+							"coordsMap": "Felwood",
+							"comment": "Elite rare here. Attempt to kill it by running towards Jadefire. Drops a blue staff",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -67612,6 +67944,28 @@
 									"isCustom": false
 								}
 							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"coordsMap": "Felwood",
+							"xCoord": 41.82,
+							"yCoord": 35.35,
+							"comment": "Elite rare here. Attempt to kill it by running towards Jadefire. Drops a blue staff",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Just in case the previous step gets autoskipped if you finish the questline early :P. Skip me.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -67888,6 +68242,18 @@
 					"onlyForClasses": []
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": "Ask the NPC for a Cenarion Beacon",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -68007,6 +68373,37 @@
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 50.95,
+							"yCoord": 81.7,
+							"coordsMap": "Felwood",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Ivy Leafrunner",
+							"npcId": 10924,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Containing the Contamination",
+									"questId": 27910,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"isCustom": false
@@ -68435,7 +68832,6 @@
 							"xCoord": 61.89,
 							"yCoord": 38.3,
 							"coordsMap": "Winterspring",
-							"comment": "TODO: Check if Doctor Mauri gives you a custom quest about visiting someone at the lake (didn't do this one \"A Gift for the Spiritseer\"). If so, accept it",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -68474,7 +68870,7 @@
 							"xCoord": 61.43,
 							"yCoord": 37.01,
 							"coordsMap": "Winterspring",
-							"comment": "Make sure you have 30 runecloths in your bags. Also, unbank the Black Dragonflight Molt if you banked it earlier. Will need it next section.",
+							"comment": "Unbank the Black Dragonflight Molt if you banked it earlier. Will need it next section.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -68578,21 +68974,6 @@
 							"type": "Talk to"
 						}
 					]
-				},
-				{
-					"stepTasks": [
-						{
-							"coordsMap": "Winterspring",
-							"xCoord": 49.74,
-							"yCoord": 45,
-							"comment": "TODO: If you were able to accept \"A Gift for the Spiritseer\" from Mau'ari then go turn it in here and accept the follow up",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -68937,7 +69318,6 @@
 							"xCoord": 64.76,
 							"yCoord": 8.23,
 							"coordsMap": "Felwood",
-							"comment": "TODO: Maybe he is not here and Grazle is here instead. Need to check on beta",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -69273,76 +69653,6 @@
 					"onlyForClasses": []
 				},
 				{
-					"stepTasks": [
-						{
-							"xCoord": 63.25,
-							"yCoord": 13.21,
-							"coordsMap": "Felwood",
-							"comment": ">>> Unlikely scenario <<< Farm furbolgs until you get to Friendly. Totem quest (if you didn't do it before) = 600 rep, 5 feathers = 200 rep",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"comment": "If you don't have 30 runecloth either, farm untill you do",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						},
-						{
-							"comment": "Skip step afterwards",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"xCoord": 65.66,
-							"yCoord": 2.86,
-							"coordsMap": "Felwood",
-							"comment": ">>> Unlikely scenario <<< Turn in any totem quest if you didn't before aswell",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Meilosh",
-							"npcId": 11557,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 6031,
-									"questName": "Runecloth",
-									"subTasks": [],
-									"type": "Accept quest"
-								},
-								{
-									"questName": "Runecloth",
-									"questId": 6031,
-									"depth": 1,
-									"type": "Turn in quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -69384,7 +69694,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Woke: the runners were close to the dwarf so you kill them and just come back. You farmed the rep previously",
+							"comment": "Woke: the runners were close to the dwarf so you kill them and just come back.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -69413,18 +69723,6 @@
 							"count": 1,
 							"depth": 0,
 							"type": "Get",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"comment": ">>> Likely scenario <<< Farm the rep and the cloth and turn in things inside the tunnel (totems + cloth)",
-							"depth": 0,
-							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						}
@@ -69480,54 +69778,6 @@
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 57.4,
-							"yCoord": 40.71,
-							"coordsMap": "Winterspring",
-							"comment": "TODO: If you were able to get \"A Door to the Past\" kill the Chimaeras and bears here (50% drop chance)",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"comment": "Get 1 Undamaged Chimera Venom Sac",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"comment": "Get Undamaged Bear Femur",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						},
-						{
-							"xCoord": 58.41,
-							"yCoord": 34.64,
-							"coordsMap": "Winterspring",
-							"comment": "TODO: If you had the quest go here afterwards and kill the owlbeasts",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"comment": "Get 1 Undamaged Wildkin Eye",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
 							"isCustom": false
 						}
 					],
@@ -72987,10 +73237,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Winterspring",
 							"xCoord": 61.91,
 							"yCoord": 38.37,
-							"coordsMap": "Winterspring",
-							"comment": "TODO: Wasn't up during beta. If that's the case again just skip all his steps",
+							"comment": "Not available during beta to alliance. If that's the case again just skip all his steps",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -73176,89 +73426,6 @@
 									"itemName": "Third Relic Fragment",
 									"questId": 5245,
 									"questObjectiveIndex": 3,
-									"toLootNpcs": [],
-									"count": 1,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"comment": "Two possibilities wether you got the custom quest from the troll in WS (you got 3 perfect parts):",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [
-								{
-									"xCoord": 49.73,
-									"yCoord": 44.94,
-									"coordsMap": "Winterspring",
-									"comment": "Go turn the quest in and accept the follow up. It's about attuning with the mobs around the lake (probably use item while they are low/dead)",
-									"depth": 1,
-									"type": "Go to",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"comment": "Just go for the missing fragments",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"comment": "If you have the questline go back to the lake and finish it (possibly while gathering the missing 2 fragments)",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Skip if no quest or when done",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"comment": "If you did the quest, then turn it in, accept the follow up, protect the NPC and accept the next follow up",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"xCoord": 50.87,
-							"yCoord": 41.71,
-							"coordsMap": "Winterspring",
-							"comment": "Keep gathering fragments",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"itemName": "Second Relic Fragment",
-									"questId": 5245,
-									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 1,
 									"depth": 1,
@@ -73699,7 +73866,7 @@
 							"type": "Go to",
 							"subTasks": [
 								{
-									"comment": "TODO: Don't know if it's possible to pet tank or have to kite. If the later, then do so towards the next objective",
+									"comment": "Don't know if it's possible to pet tank or have to kite. If the later, then do so towards the next objective",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -73717,28 +73884,6 @@
 									"isCustom": false
 								}
 							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 67.8,
-							"yCoord": 27.4,
-							"coordsMap": "Winterspring",
-							"comment": "TODO: If you did the 2 customs quests at the lake go here and turn the quest in + gather follow up",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Skip to next step afterwards or if not on the quest",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -74223,10 +74368,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Winterspring",
 							"xCoord": 59.05,
 							"yCoord": 59.77,
-							"coordsMap": "Winterspring",
-							"comment": "If you see Brumeran remember where he was, will have to kill later",
+							"comment": "If you see Brumeran remember where he was, will have to kill later (if you have the quest, that is...)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -75002,28 +75147,6 @@
 					]
 				},
 				{
-					"stepTasks": [
-						{
-							"xCoord": 49.74,
-							"yCoord": 45.01,
-							"coordsMap": "Winterspring",
-							"comment": "TODO: If you did the undocumented questline then go back to the lake and defeat the spirit, then accept the follow up",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Skip to next when done or if not doing quest",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -75776,21 +75899,6 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 67.79,
-							"yCoord": 27.39,
-							"coordsMap": "Winterspring",
-							"comment": "TODO: If you purged the spirit at the lake finish the questline here",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
 							"comment": "Gather the icesaps (blue buds near trees), frost crystals (blue pilars) and the blood feathers (kill owls) around the area",
 							"depth": 0,
 							"type": "Comment",
@@ -75876,19 +75984,22 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Winterspring",
 							"xCoord": 63.93,
 							"yCoord": 17.04,
-							"coordsMap": "Winterspring",
 							"comment": "Only doable at night. Skip if unlucky with timing. Escort ends and elite spawns here (can pet tank)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
 								{
-									"comment": "TODO: Couldn't do in beta, no info about the objective",
+									"goalName": "Delevan assisted",
+									"questId": 27293,
+									"questObjectiveIndex": 1,
+									"count": 1,
 									"depth": 1,
-									"type": "Comment",
+									"type": "Goal",
 									"subTasks": [],
-									"isCustom": false
+									"isCustom": true
 								},
 								{
 									"questName": "In Moonlit Mourning",
