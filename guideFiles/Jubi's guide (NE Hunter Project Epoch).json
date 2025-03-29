@@ -57314,7 +57314,6 @@
 							"xCoord": 12.06,
 							"yCoord": 78.26,
 							"coordsMap": "Azshara",
-							"comment": "Accept just to check how good the reworked Azshara is/where the other quests take you",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -57333,6 +57332,14 @@
 									"questName": "Descendants of Exiles",
 									"subTasks": [],
 									"type": "Accept quest"
+								},
+								{
+									"questName": "Message for Wobble Hollow",
+									"questId": 27811,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -57711,22 +57718,6 @@
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": false
-								},
-								{
-									"questId": 8231,
-									"questName": "Wavethrashing",
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [
-										{
-											"comment": "TODO: This might or might not be worth it depending on what quests the furbolgs give. If not doing, delete when leaving for Felwood",
-											"depth": 2,
-											"type": "Comment",
-											"subTasks": [],
-											"isCustom": false
-										}
-									],
-									"isCustom": false
 								}
 							],
 							"isCustom": false
@@ -57993,12 +57984,27 @@
 							"npcId": 8380,
 							"subTasks": [
 								{
+									"questName": "Shipwreck on the Horizon",
+									"questId": 27833,
 									"depth": 1,
-									"isCustom": false,
-									"questId": 3382,
-									"questName": "A Crew Under Fire",
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
+								},
+								{
+									"questName": "A Crew Under Fire",
+									"questId": 3382,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Might want to disable auto turn in just in case.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -59809,10 +59815,10 @@
 									"type": "Get",
 									"subTasks": [
 										{
+											"coordsMap": "Felwood",
 											"xCoord": 39.47,
 											"yCoord": 43.2,
-											"coordsMap": "Felwood",
-											"comment": "You need a big tree trunk to kite them with a Frost trap since they have a semi-ranged attack",
+											"comment": "You need a big tree trunk to kite them with a Frost trap since they have a semi-ranged attack. Circle WIDE around the tree or you will get hit",
 											"depth": 2,
 											"type": "Go to",
 											"subTasks": [],
