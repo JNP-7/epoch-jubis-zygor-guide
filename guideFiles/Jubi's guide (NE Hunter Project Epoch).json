@@ -57445,6 +57445,581 @@
 				{
 					"stepTasks": [
 						{
+							"comment": "Follow this path to gnome town then skip to the next step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"xCoord": 34.09,
+									"yCoord": 62.82,
+									"coordsMap": "Azshara",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"xCoord": 44.14,
+									"yCoord": 73.67,
+									"coordsMap": "Azshara",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"xCoord": 44.79,
+									"yCoord": 87.19,
+									"coordsMap": "Azshara",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 45.85,
+							"yCoord": 89.44,
+							"coordsMap": "Azshara",
+							"comment": "Wanted Poster below the helipad",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "Wanted: Cliff Giants",
+							"questId": 27871,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 45.8,
+							"yCoord": 89.58,
+							"coordsMap": "Azshara",
+							"comment": "Up the helipad",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wilson Wobblesmith",
+							"npcId": 46989,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Shipwreck on the Horizon",
+									"questId": 27833,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "She moves between the helipad and the houses to the east",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wilhelmina Wobblesmith",
+							"npcId": 46993,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Hungry Gnome",
+									"questId": 27858,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.84,
+							"yCoord": 90.75,
+							"coordsMap": "Azshara",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wilbur Wobblesmith",
+							"npcId": 46988,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Salvaging the Sea",
+									"questId": 27828,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": ">>> READ ME <<< Then skip to next step step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "The previous quest just gave you a free HS with no CD to the gnome town. It shouldn't get deleted for the next 5 hours, even if you turn in the quest.",
+							"itemId": 63905,
+							"itemName": "Limited Teleportation Prompter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If for w/e reason the item gets deleted on launch after turning the quest in then just do the shipwreck quests to get the trinket and then the quest that asks you to go to the helipad at the south-eastern most corener of Azshara (HS back to Ratchet there).",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.63,
+							"yCoord": 89.5,
+							"coordsMap": "Azshara",
+							"comment": "Ignore the WANTED poster about the dragons outside of her house. Too hard and, on top of that, couldn't even be completed in beta 3.5 (wrong mobs as objectives)...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wendy Wobblesmith",
+							"npcId": 46985,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Message for Wobble Hollow",
+									"questId": 27811,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Threats to Wobble Hollow",
+									"questId": 27797,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 47.77,
+							"yCoord": 79.74,
+							"coordsMap": "Azshara",
+							"comment": "Go outside of town to this tree and kill any Coursers you find on your way. Use this tree to kill the giants with a Frost trap. Circle wide to avoid getting hit by the stomp",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Giants slain",
+									"questId": 27871,
+									"questObjectiveIndex": 1,
+									"count": 5,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [
+										{
+											"comment": "Both types of giants (Walkers and Breakers) progress the quest",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": true
+								},
+								{
+									"itemName": "Venison Steak",
+									"count": 10,
+									"questId": 27858,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Mosshoof Courser",
+											"npcId": 8761
+										}
+									],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Once you are done, TP back to gnome town",
+							"itemId": 63905,
+							"itemName": "Limited Teleportation Prompter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "She moves between the helipad and where you just teleported",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wilhelmina Wobblesmith",
+							"npcId": 46993,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Hungry Gnome",
+									"questId": 27858,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "The Hungry Gnome",
+									"questId": 27859,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.63,
+							"yCoord": 89.5,
+							"coordsMap": "Azshara",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wendy Wobblesmith",
+							"npcId": 46985,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Wanted: Cliff Giants",
+									"questId": 27871,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 42.71,
+							"yCoord": 70.85,
+							"coordsMap": "Azshara",
+							"comment": "Exit town and go here to enter the central ruins",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 44.09,
+							"yCoord": 67.08,
+							"coordsMap": "Azshara",
+							"comment": "Now here and turn north-west",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 42.36,
+							"yCoord": 64.04,
+							"coordsMap": "Azshara",
+							"comment": "Get this rune",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Rubbing: Rune of Sael'hai",
+									"questId": 3449,
+									"questObjectiveIndex": 4,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Ignore the mobs if possible, focus on the runes",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 39.31,
+							"yCoord": 55.44,
+							"coordsMap": "Azshara",
+							"comment": "Second rune",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Rubbing: Rune of Markri",
+									"questId": 3449,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 39.56,
+							"yCoord": 50.45,
+							"coordsMap": "Azshara",
+							"comment": "Third",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Rubbing: Rune of Jin'yael",
+									"questId": 3449,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 36.92,
+							"yCoord": 53.08,
+							"coordsMap": "Azshara",
+							"comment": "Fourth and last",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Rubbing: Rune of Beth'Amara",
+									"questId": 3449,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 33.67,
+							"yCoord": 54.63,
+							"coordsMap": "Azshara",
+							"comment": "Exit the ruins from here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 29.53,
+							"yCoord": 58.11,
+							"coordsMap": "Azshara",
+							"comment": "Kill Warriors and Sirens all over the area.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Spitelash Screamer",
+									"npcId": 6193,
+									"count": 10,
+									"questId": 27797,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Spitelash Warrior",
+									"npcId": 6190,
+									"count": 10,
+									"questId": 27797,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Scrounged Supplies",
+									"count": 10,
+									"questId": 27859,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Spitelash Screamer",
+											"npcId": 6193
+										},
+										{
+											"npcName": "Spitelash Warrior",
+											"npcId": 6190
+										}
+									],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 31.98,
+							"yCoord": 50.29,
+							"coordsMap": "Azshara",
+							"comment": "Begin moving north-east when you are getting close to being done",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 42.39,
 							"yCoord": 42.67,
 							"coordsMap": "Azshara",
@@ -57519,17 +58094,90 @@
 							"xCoord": 55.22,
 							"yCoord": 13.98,
 							"coordsMap": "Azshara",
-							"comment": "TODO: Go check what the Furbolgs doin. They have added quests here after beta 3",
+							"comment": "Enter the furbolg village here. Keep killing coursers on the way",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "Guide proceeds as if nothing was added :(",
+							"comment": "It was mentioned that a way to access the furbolg town more easily was going to be added (after beta 3.5). Maybe there is a new flightpath?",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 52.29,
+							"yCoord": 9.51,
+							"coordsMap": "Azshara",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "High Chief Ungarl",
+							"npcId": 46212,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Demonic Intruders",
+									"questId": 27789,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Foul Effigies",
+									"questId": 27794,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 51.38,
+							"yCoord": 18.71,
+							"coordsMap": "Azshara",
+							"comment": "One effigy here. Kill coursers on the way and Satyrs on the ruins (no need to finish yet)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "West Legashi Effigy",
+									"count": 1,
+									"questId": 27794,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -57621,13 +58269,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 53.44,
-							"yCoord": 21.81
+							"yCoord": 21.81,
+							"coordsMap": "Azshara",
+							"comment": "Briefly back to the goblin",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -57648,15 +58297,7 @@
 									"questName": "Kim'jael's \"Missing\" Equipment",
 									"depth": 1,
 									"type": "Accept quest",
-									"subTasks": [
-										{
-											"comment": "TODO: Not worth it if no additional furbolg quests",
-											"depth": 2,
-											"type": "Comment",
-											"subTasks": [],
-											"isCustom": false
-										}
-									],
+									"subTasks": [],
 									"isCustom": false
 								}
 							],
@@ -57667,12 +58308,16 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Finish killing the antlers around the mound while moving southwest towards [42,42]",
+							"xCoord": 66.22,
+							"yCoord": 17.42,
+							"coordsMap": "Azshara",
+							"comment": "Kill coursers on the way, should be getting the second now by now",
 							"depth": 0,
-							"type": "Comment",
+							"type": "Go to",
 							"subTasks": [
 								{
 									"itemName": "Perfect Courser Antler",
+									"count": 2,
 									"questId": 8153,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
@@ -57681,13 +58326,37 @@
 											"npcId": 8761
 										}
 									],
-									"count": 2,
 									"depth": 1,
 									"type": "Get",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"itemName": "East Legashi Effigy",
+									"count": 1,
+									"questId": 27794,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": ">>> Before teleporting <<< make sure you are only missing, at worst, the following Satyrs: 7 regular satyrs, 6 rogues and/or 5 Hellcallers",
+							"itemId": 63905,
+							"itemName": "Limited Teleportation Prompter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -57697,131 +58366,73 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 42.39,
-							"yCoord": 42.67,
-							"coordsMap": "Azshara",
+							"comment": "She moves between the helipad and where you just teleported",
 							"depth": 0,
-							"type": "Go to",
+							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"npcName": "Ogtinc",
-							"npcId": 8405,
+							"comment": "Skip the follow up, not worth doing",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wilhelmina Wobblesmith",
+							"npcId": 46993,
 							"depth": 0,
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questName": "Courser Antlers",
-									"questId": 8153,
+									"questName": "The Hungry Gnome",
+									"questId": 27859,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
-									"isCustom": false
+									"isCustom": true
 								}
 							],
-							"isCustom": false
+							"isCustom": true
 						}
 					]
 				},
 				{
 					"stepTasks": [
 						{
-							"xCoord": 40.35,
-							"yCoord": 43.07,
+							"xCoord": 46.63,
+							"yCoord": 89.5,
 							"coordsMap": "Azshara",
-							"comment": "Jump down here to get into the Naga area. Kill a few of them to get the rune",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "TODO: If furbolg quests are bad just skip this and go straight to get the gnome's runes",
+							"npcName": "Wendy Wobblesmith",
+							"npcId": 46985,
 							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"itemName": "Some Rune",
-							"questId": 5534,
-							"questObjectiveIndex": 1,
-							"toLootNpcs": [],
-							"count": 1,
-							"depth": 0,
-							"type": "Get",
+							"type": "Talk to",
 							"subTasks": [
 								{
-									"comment": "Any Naga",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 46.06,
-							"yCoord": 38.9,
-							"coordsMap": "Azshara",
-							"comment": "Go here to get back to the upper area. Skip to next step",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 53.42,
-							"yCoord": 21.75
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Kim'jael",
-							"npcId": 8420,
-							"subTasks": [
-								{
-									"questName": "Kim'jael's \"Missing\" Equipment",
-									"questId": 5534,
+									"questName": "Threats to Wobble Hollow",
+									"questId": 27797,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
-									"isCustom": false
+									"isCustom": true
+								},
+								{
+									"questName": "Threats to Wobble Hollow",
+									"questId": 27798,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 40.42,
-							"yCoord": 43.1,
-							"coordsMap": "Azshara",
-							"comment": "Back to the Nagas' area. Skip to next step",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
+							"isCustom": true
 						}
 					],
 					"onlyForClasses": []
@@ -57829,89 +58440,23 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 39.52,
-							"yCoord": 50.14,
+							"xCoord": 46.59,
+							"yCoord": 92.6,
 							"coordsMap": "Azshara",
-							"comment": "One",
+							"comment": "Jump into the water south of town and gather this",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
 								{
-									"itemName": "Rubbing: Rune of Jin'yael",
-									"questId": 3449,
-									"questObjectiveIndex": 2,
-									"toLootNpcs": [],
+									"itemName": "Wilhelmina's Supplies",
 									"count": 1,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						},
-						{
-							"xCoord": 36.94,
-							"yCoord": 53.05,
-							"coordsMap": "Azshara",
-							"comment": "Two",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"itemName": "Rubbing: Rune of Beth'Amara",
-									"questId": 3449,
-									"questObjectiveIndex": 1,
-									"toLootNpcs": [],
-									"count": 1,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						},
-						{
-							"xCoord": 39.31,
-							"yCoord": 55.44,
-							"coordsMap": "Azshara",
-							"comment": "Three",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"itemName": "Rubbing: Rune of Markri",
-									"questId": 3449,
-									"questObjectiveIndex": 3,
-									"toLootNpcs": [],
-									"count": 1,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						},
-						{
-							"xCoord": 42.36,
-							"yCoord": 64.04,
-							"coordsMap": "Azshara",
-							"comment": "Four",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"itemName": "Rubbing: Rune of Sael'hai",
-									"questId": 3449,
+									"questId": 27828,
 									"questObjectiveIndex": 4,
 									"toLootNpcs": [],
-									"count": 1,
 									"depth": 1,
 									"type": "Get",
 									"subTasks": [],
-									"isCustom": false
+									"isCustom": true
 								}
 							],
 							"isCustom": false
@@ -57922,43 +58467,46 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 43.75,
-							"yCoord": 65.73,
+							"xCoord": 47.82,
+							"yCoord": 96.47,
 							"coordsMap": "Azshara",
-							"comment": "Leave Naga area through here (turn right in crossroad)",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Skip to next step",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 44.52,
-							"yCoord": 86.42,
-							"coordsMap": "Azshara",
-							"comment": "Enter the reworked gnome town here",
+							"comment": "Now this",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
 								{
-									"comment": "TODO: Might have changed. Search the town's vendors for one that sells supplies (a quest later). In beta 3, however, none of them sold any",
+									"itemName": "Wilbur's Supplies",
+									"count": 1,
+									"questId": 27828,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
 									"depth": 1,
-									"type": "Comment",
+									"type": "Get",
 									"subTasks": [],
-									"isCustom": false
+									"isCustom": true
 								}
 							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Teleport back to town",
+							"itemId": 63905,
+							"itemName": "Limited Teleportation Prompter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -58000,7 +58548,7 @@
 									"isCustom": false
 								},
 								{
-									"comment": "Might want to disable auto turn in just in case.",
+									"comment": "Might want to disable auto turn in to not start the waves just in case.",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -58012,6 +58560,7 @@
 					]
 				},
 				{
+					"onlyForClasses": [],
 					"stepTasks": [
 						{
 							"comment": "Prioritize the casters (Witches) in the waves.",
@@ -58030,8 +58579,7 @@
 							"subTasks": [],
 							"isCustom": false
 						}
-					],
-					"onlyForClasses": []
+					]
 				},
 				{
 					"onlyForClasses": [],
@@ -58160,10 +58708,925 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 50.42,
+							"yCoord": 95.93,
+							"coordsMap": "Azshara",
+							"comment": "Gather these gnome supplies now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Wendy's Supplies",
+									"count": 1,
+									"questId": 27828,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 49.21,
+							"yCoord": 99.99,
+							"coordsMap": "Azshara",
+							"comment": "Out of the map. You will find the supplies for the crew and the gnomes around this area",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Medical Supply Crate",
+									"questId": 27266,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 3,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Wilson's Supplies",
+									"count": 1,
+									"questId": 27828,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [
+										{
+											"comment": "This one is underwater, look for a crashed plane",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Teleport back to gnome town",
+							"itemId": 63905,
+							"itemName": "Limited Teleportation Prompter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.84,
+							"yCoord": 90.75,
+							"coordsMap": "Azshara",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wilbur Wobblesmith",
+							"npcId": 46988,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Salvaging the Sea",
+									"questId": 27828,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Salvaging the Shore",
+									"questId": 27829,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": ">>> Read me <<< If the devs hate fun and they removed your teleporter after finishing this quest simply do the next section as normal doing the walk of shame from the Furbolg town back to the gnome town.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Afterwards, jump down back to the crew's cove and finish their quests to get the trinket. Go to the eastern helipad and HS back to Ratchet",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "The guide proceeds as if the teleporter wasn't removed. Skip this step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 53.56,
+							"yCoord": 78.42,
+							"coordsMap": "Azshara",
+							"comment": "Exit town and get down to the coast from here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"coordsMap": "Azshara",
+							"xCoord": 58.26,
+							"yCoord": 73.81,
+							"comment": "Begin gathering the supplies froom here while moving nort-west. Avoid the hydra and the Razorclaw you might cross",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 50.3,
+							"yCoord": 66.55,
+							"coordsMap": "Azshara",
+							"comment": "From here onwards you will find the Nagas you have to kill",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Keep gathering the supplies and skip to the next step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 48.84,
+							"yCoord": 55.18,
+							"coordsMap": "Azshara",
+							"comment": "Kill Nagas and gather supplies towards this structure. Notice the named mob on top of it. At some point the sirens will drop an item that starts a quest. Accept it then kill her",
+							"itemId": 63936,
+							"itemName": "Seaweed-Wrapped Orders",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "The Shattered Strand Commander",
+									"questId": 27848,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [
+										{
+											"npcName": "Tide Priestess Aquila",
+											"npcId": 46991,
+											"count": 1,
+											"questId": 27848,
+											"questObjectiveIndex": 1,
+											"depth": 2,
+											"type": "Kill",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 45.94,
+							"yCoord": 38.63,
+							"coordsMap": "Azshara",
+							"comment": "Keep progressing the quests and exist the bay by climbing this slope. Shopping list ahead.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Spitelash Siren",
+									"npcId": 6195,
+									"count": 10,
+									"questId": 27798,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Spitelash Myrmidon",
+									"npcId": 6196,
+									"count": 10,
+									"questId": 27798,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Shipwrecked Supplies",
+									"count": 10,
+									"questId": 27829,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Some Rune",
+									"count": 1,
+									"questId": 5534,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [
+										{
+											"comment": "From any of the Nagas",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 45.94,
+							"yCoord": 38.63,
+							"coordsMap": "Azshara",
+							"comment": "Reminder of where to exit the bay",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 42.39,
+							"yCoord": 42.67,
+							"coordsMap": "Azshara",
+							"comment": "Skip the follow up. Drop chance: bad, location of mobs: worse. Obviously finish the quest line once you hit 60 for the Devilsaur Eye.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Ogtinc",
+							"npcId": 8405,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Courser Antlers",
+									"questId": 8153,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 61.66,
+							"yCoord": 25.23,
+							"coordsMap": "Azshara",
+							"comment": "To the last Satyr camp. >>> DON'T KILL THE NAMED SATYR NEAR THE EFFIGY <<< Finish killing the other satyrs and trap the named one to gather the last effigy",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Legashi Satyr",
+									"npcId": 6200,
+									"count": 10,
+									"questId": 27789,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Legashi Rogue",
+									"npcId": 6201,
+									"count": 10,
+									"questId": 27789,
+									"questObjectiveIndex": 2,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"npcName": "Legashi Hellcaller",
+									"npcId": 6202,
+									"count": 8,
+									"questId": 27789,
+									"questObjectiveIndex": 3,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "South Legashi Effigy",
+									"count": 1,
+									"questId": 27794,
+									"questObjectiveIndex": 3,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "You are going to kite the Satyr to the furbolg town, turn in the killing quest then accept the quest to kill him, just like the raptors in Wetlands and STV",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "There is a catch. He casts Curse of Pain and you will be dead halfway through the second one if you don't pot.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "The solution is pulling him (from the lower ground), sending your pet with Intimidation and Growl on to generate lots of aggro and then just kiting him as usual. Simply use rank 1 mend pet to cleanse the curse off of your pet while using Arcane shot Rank 1 on CD",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip after reading",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"coordsMap": "Azshara",
+							"xCoord": 55.22,
+							"yCoord": 13.98,
+							"comment": "Enter the furbolg village here. Somehow, the guards don't care about the Satyr...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 52.29,
+							"yCoord": 9.51,
+							"coordsMap": "Azshara",
+							"comment": "Turn the killing quest then accept the follow up. You can let your pet tank the satyr once you are inside the town",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "High Chief Ungarl",
+							"npcId": 46212,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Demonic Intruders",
+									"questId": 27789,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Demonic Intruders",
+									"questId": 27790,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Kill the Satyr or go back to the camp if you failed to kite him",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Baxxzalan's Head",
+							"count": 1,
+							"questId": 27790,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [
+								{
+									"npcName": "Baxxzalan",
+									"npcId": 46970
+								}
+							],
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 52.29,
+							"yCoord": 9.51,
+							"coordsMap": "Azshara",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "High Chief Ungarl",
+							"npcId": 46212,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Demonic Intruders",
+									"questId": 27790,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [
+										{
+											"comment": "Cool stick. Probably will have to use it until 60. Not leveling 2H Axes for the Un'Goro axe.",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
+									"isCustom": true
+								},
+								{
+									"questName": "Foul Effigies",
+									"questId": 27794,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 52.76,
+							"yCoord": 9.68,
+							"coordsMap": "Azshara",
+							"comment": "2 new quests have been unlocked on other furbolgs now.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Nolg",
+							"npcId": 46220,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "How to Make Friends with a Furbolg",
+									"questId": 27795,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 53.72,
+							"yCoord": 8.88,
+							"coordsMap": "Azshara",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Trader Mallu",
+							"npcId": 46917,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Furbolg - Goblin Trade Network",
+									"questId": 27840,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 53.42,
+							"yCoord": 21.75,
+							"coordsMap": "Azshara",
+							"comment": "Gather the feathers off the ground while moving",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Kim'jael",
+							"npcId": 8420,
+							"subTasks": [
+								{
+									"questName": "Kim'jael's \"Missing\" Equipment",
+									"questId": 5534,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Furbolg - Goblin Trade Network",
+									"questId": 27840,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "The Furbolg - Goblin Trade Network",
+									"questId": 27841,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Gather the feathers around here and to the east. Try to finish close to the Furbolg town.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"itemName": "Thunderhead Hippogryph Feather",
+							"count": 10,
+							"questId": 27795,
+							"questObjectiveIndex": 1,
+							"toLootNpcs": [],
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 52.76,
+							"yCoord": 9.68,
+							"coordsMap": "Azshara",
+							"comment": "Back to furbolg town one last time",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Nolg",
+							"npcId": 46220,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "How to Make Friends with a Furbolg",
+									"questId": 27795,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "How to Make Friends with a Furbolg",
+									"questId": 27796,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Can't be arsed to list the objectives. Target the questgiver and type the following (or read what he says)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "/bow -> /cheer -> /cry -> /dance",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"npcName": "Nolg",
+							"npcId": 46220,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "How to Make Friends with a Furbolg",
+									"questId": 27796,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Option 1: Use the teleporter",
+							"itemId": 63905,
+							"itemName": "Limited Teleportation Prompter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Option 2: If there is a Flight path now, fly to to south-western Azshara",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Option 3: Walk of shame back to the gnomes, can't HS because we will need to soon.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.84,
+							"yCoord": 90.75,
+							"coordsMap": "Azshara",
+							"comment": "Won't do the follow ups, but at level 60 finish his questline to get 1 of the 8 fancy recipes than don't get consumed on use.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wilbur Wobblesmith",
+							"npcId": 46988,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Salvaging the Shore",
+									"questId": 27829,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.63,
+							"yCoord": 89.5,
+							"coordsMap": "Azshara",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wendy Wobblesmith",
+							"npcId": 46985,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Threats to Wobble Hollow",
+									"questId": 27798,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Threats to Wobble Hollow",
+									"questId": 27799,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Leader of the Spitelash",
+									"questId": 27800,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "The Shattered Strand Commander",
+									"questId": 27848,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "If you don't have the teleporter anymore skip killing the Oracles",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 60.75,
+							"yCoord": 92.32,
+							"coordsMap": "Azshara",
+							"comment": "Jump down to the water south of the gnome town where the Oracle is and swim east past the stranded crew cove. Kill Oracles on the way",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this after reaching the beach with the Nagas",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 60.71,
 							"yCoord": 91.8,
 							"coordsMap": "Azshara",
-							"comment": "Swim to the Naga camp. The female Naga at the shrine has the item for one of the quests. Extremely buggy area during the betas. Have to summon pet on top of enemies like in SoS",
+							"comment": "The female Naga at the shrine has the item for one of the quests.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -58214,25 +59677,45 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 49.21,
-							"yCoord": 99.99,
+							"xCoord": 66.16,
+							"yCoord": 96,
 							"coordsMap": "Azshara",
-							"comment": "Out of the map. You will find the supplies around this area",
+							"comment": "More Oracles to the east. Should be done exactly with the last one around here. Skip if no teleporter",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [
-								{
-									"itemName": "Medical Supply Crate",
-									"questId": 27266,
-									"questObjectiveIndex": 1,
-									"toLootNpcs": [],
-									"count": 3,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": true
-								}
-							],
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Storm Bay Oracle",
+							"npcId": 6351,
+							"count": 8,
+							"questId": 27799,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Option 1: Use the teleporter.",
+							"itemId": 63905,
+							"itemName": "Limited Teleportation Prompter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"comment": "Option 2: Swim back to the strandred crew",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -58242,13 +59725,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 52.98,
-							"yCoord": 87.72
+							"yCoord": 87.72,
+							"coordsMap": "Azshara",
+							"comment": "Back to the crew's cove",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -58422,7 +59906,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Inside the ship fight the gnome and locate the 3 drowned crew (\"talk\" to the corpses) members. Oddly enough, all these NPCs, the ships and the debris is there in the actual game, it's just that they do nothing.",
+							"comment": "Inside the ship fight the gnome and locate the 3 drowned crew members(\"talk\" to the corpses, they even speak!) . Oddly enough, all these NPCs, the ships and the debris is there in the actual game, it's just that they do nothing.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -58467,7 +59951,7 @@
 							"type": "Goal",
 							"subTasks": [
 								{
-									"comment": "The gnome becomes firnedly when he is about to die. You can turn the quest in afterwards",
+									"comment": "The gnome becomes friendly when he is about to die. You can turn the quest in afterwards",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -58505,7 +59989,7 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"comment": "Back to the scout. >>> Pick the ring as a reward <<<",
+							"comment": "Back to the scout. >>> Pick the ring with hit as a reward <<<",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -58535,6 +60019,27 @@
 								}
 							],
 							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"comment": "Option 1: Use the teleporter.",
+							"itemId": 63905,
+							"itemName": "Limited Teleportation Prompter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"comment": "Option 2: Swim back to the strandred crew",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -58573,6 +60078,127 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"comment": "Option 1: Use the teleporter. To continue with the gnomes' quests",
+							"itemId": 63905,
+							"itemName": "Limited Teleportation Prompter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"comment": "Option 2: Swim to the helipad in the south-eastern corner of the zone, past the Naga camp. Skip to step 88",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.63,
+							"yCoord": 89.5,
+							"coordsMap": "Azshara",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wendy Wobblesmith",
+							"npcId": 46985,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Threats to Wobble Hollow",
+									"questId": 27799,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 61.61,
+							"yCoord": 83.17,
+							"coordsMap": "Azshara",
+							"comment": "Get out of the gnome town and go here.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 65.56,
+							"yCoord": 87.85,
+							"coordsMap": "Azshara",
+							"comment": "Now here, cross this bridge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 65.67,
+							"yCoord": 91.12,
+							"coordsMap": "Azshara",
+							"comment": "Kill the named Naga here. Avoid fighting as much as you can, they outlevel you",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Sorceress Yalina",
+									"npcId": 46979,
+									"count": 1,
+									"questId": 27800,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 74.21,
+							"yCoord": 87.79,
+							"coordsMap": "Azshara",
+							"comment": "Go here. Dismount, activate Cheetah, run forward to the ledge south east of where you are. Heal, jump to the ledge to your right and then into the water",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this step",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"coordsMap": "Azshara",
 							"xCoord": 77.81,
 							"yCoord": 91.38,
@@ -58586,13 +60212,6 @@
 						},
 						{
 							"comment": "From now on use the mana gem trinket on CD as soon as you use 600 mana",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "TODO Note: This should be the last thing you do in Azshara, the idea is to HS out of here to Ratchet, turn in things at Thalendris point and then ride to Felwood. To be determined what to do after seeing the new quests",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -58626,15 +60245,97 @@
 					]
 				},
 				{
+					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"comment": "HS back to Ratchet",
+							"comment": "Option 1: Use the teleporter.",
+							"itemId": 63905,
+							"itemName": "Limited Teleportation Prompter",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"comment": "Option 2: HS back to Ratchet",
 							"itemId": 6948,
 							"itemName": "Hearthstone",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 46.63,
+							"yCoord": 89.5,
+							"coordsMap": "Azshara",
+							"comment": "Only if you used the teleporter",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Wendy Wobblesmith",
+							"npcId": 46985,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Leader of the Spitelash",
+									"questId": 27800,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						},
+						{
+							"comment": "HS back to Ratchet afterwards",
+							"itemId": 6948,
+							"itemName": "Hearthstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 61.75,
+							"yCoord": 38.34,
+							"coordsMap": "The Barrens",
+							"comment": "In Ratchet turn this in and skip the follow up. The questline is a flightpath simulator across all the goblin towns in the game. People TOTALLY don't put up with this garbage because the end reward is a discount Cape of the Black Baron. Do it when 60 :( ...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "M. Spencer Copperpinch",
+							"npcId": 46608,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Furbolg - Goblin Trade Network",
+									"questId": 27841,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
 						}
 					],
 					"onlyForClasses": []
@@ -58724,7 +60425,7 @@
 							"xCoord": 12.05,
 							"yCoord": 78.32,
 							"coordsMap": "Azshara",
-							"comment": "Pick the bow if you did this quest",
+							"comment": "Pick the bow. You should be crying of joy after getting an upgrade after 10 levels. The truth is that there is a slow xbow (*chef kiss*) as a reward for a quest in Un'Goro, so it's not that important",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
