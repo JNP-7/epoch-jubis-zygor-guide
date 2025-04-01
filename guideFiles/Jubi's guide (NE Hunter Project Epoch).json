@@ -79709,13 +79709,116 @@
 					"onlyForClasses": []
 				},
 				{
+					"stepTasks": [
+						{
+							"comment": "Kill the northen side of Nathanos' house to progress the quests and take note of where Duskwing is",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 32.16,
+							"yCoord": 70.89,
+							"coordsMap": "Eastern Plaguelands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Lady Patrice Erlgadin",
+							"npcId": 47027,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 27916,
+									"questName": "The Nature of the Beast",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 23.31,
+							"yCoord": 61.93,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Duskwing patrols northwest of where you accepted the quest up to this spot and then turns back",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "You will need a big tree trunk to circle WIDE around it with a frost trap. Otherwise the sonic boom will kill you.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Duskwing",
+							"npcId": 11897,
+							"count": 1,
+							"questId": 27916,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 32.16,
+							"yCoord": 70.89,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Accept the follow up for when you get to 60",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Lady Patrice Erlgadin",
+							"npcId": 47027,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "The Nature of the Beast",
+									"questId": 27916,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
 							"xCoord": 32.49,
 							"yCoord": 83.75,
 							"coordsMap": "Eastern Plaguelands",
-							"comment": "Kill the northen side of Nathanos' house to progress the quests then head to Darrowshire",
+							"comment": "Head to Darrowshire",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -79828,6 +79931,104 @@
 								}
 							],
 							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.28,
+							"yCoord": 67.33,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Couldn't complete the very first step of this questline due to the target not respawning, but since you will end up back here it might be worth doing.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Engineer Flikswitch",
+							"npcId": 47028,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 27918,
+									"questName": "We Have the Technology",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 68.28,
+							"yCoord": 73.59,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Supposedly, the goblin's quest's target spawns around the broken war machines here. Consider killing it to then backtrack to the goblin for the next step",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "You are looking for Scourge Engineer Rotwrench",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Catapult Plans",
+									"questId": 27918,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 49.28,
+							"yCoord": 67.33,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Backtrack if you did the goblin's quest or skip this",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Engineer Flikswitch",
+							"npcId": 47028,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "We Have the Technology",
+									"questId": 27918,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
 						}
 					]
 				},
@@ -80095,6 +80296,13 @@
 									"type": "Goal",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"comment": "Can complete these later while backtracking from Terrordale",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"isCustom": false
@@ -80140,7 +80348,6 @@
 							"xCoord": 11.36,
 							"yCoord": 28.64,
 							"coordsMap": "Eastern Plaguelands",
-							"comment": "TODO: Bugged during beta. If his quest is available accept it and finish it",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -80200,7 +80407,6 @@
 							"xCoord": 11.36,
 							"yCoord": 28.64,
 							"coordsMap": "Eastern Plaguelands",
-							"comment": "Skip if bugged",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -80219,6 +80425,14 @@
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"questId": 27342,
+									"questName": "Open for Business",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"isCustom": false
@@ -80228,26 +80442,164 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 12.23,
-							"yCoord": 24.58,
+							"xCoord": 26.93,
+							"yCoord": 23.96,
 							"coordsMap": "Eastern Plaguelands",
-							"comment": "Through the tunnel back to Tirion. Track undead and keep an eye out for the rare (Nerubian Overseer). FD or hide in an alcove untill it goeas away",
+							"comment": "Backtrack back to the crossroads' inn. Interact with the book",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"xCoord": 4.35,
-							"yCoord": 35.96,
+							"questId": 27342,
+							"questName": "Open for Business",
+							"depth": 0,
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"questId": 27343,
+							"questName": "Open for Business",
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 49.68,
+							"yCoord": 45.56,
 							"coordsMap": "Eastern Plaguelands",
+							"comment": "To the lake. Book on the ground",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
+						},
+						{
+							"questName": "Open for Business",
+							"questId": 27343,
+							"depth": 0,
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"questId": 27344,
+							"questName": "Open for Business",
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": true
 						}
 					],
 					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.5,
+							"yCoord": 64.58,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Inside the Inn of Corin's Crossing. Upper floor. Pull slowly or you will chain pull 3 mobs or more",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "Open for Business",
+							"questId": 27344,
+							"depth": 0,
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"questId": 27345,
+							"questName": "Open for Business",
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 55.49,
+							"yCoord": 68.75,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "Outside the inn, by the lake in a cart",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questName": "Open for Business",
+							"questId": 27345,
+							"depth": 0,
+							"type": "Turn in quest",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"questName": "Open for Business",
+							"questId": 27345,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [
+								{
+									"comment": "Later on finish the questline. Rewards a free 16 slot bag",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 49.28,
+							"yCoord": 67.33,
+							"coordsMap": "Eastern Plaguelands",
+							"comment": "If you did the goblin's quest and the follow up could be done on the way and back to Terrordale turn it in now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Engineer Flikswitch",
+							"npcId": 47028,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"comment": "Skip this",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
 				},
 				{
 					"onlyForClasses": [],
@@ -80511,10 +80863,10 @@
 				{
 					"stepTasks": [
 						{
-							"coordsMap": "Western Plaguelands",
 							"xCoord": 69.24,
 							"yCoord": 49.68,
-							"comment": "If the goblin flight path hasn't been removed fly to Light's hope and turn in \"Zaeldarr the Outcast\" and \"Defenders of Darrowshire\" and flight back to the goblin. Otherwise just continue",
+							"coordsMap": "Western Plaguelands",
+							"comment": "If the goblin flight path hasn't been removed fly to Light's hope and turn in \"Zaeldarr the Outcast\" and \"Defenders of Darrowshire\" and fly back to the goblin. Otherwise just continue",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
