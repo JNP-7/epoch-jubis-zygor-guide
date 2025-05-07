@@ -4190,7 +4190,15 @@
 									"isCustom": false,
 									"questId": 940,
 									"questName": "Teldrassil",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"comment": "Sometimes the turn in of this one bugs out and you have to manually skip to the next step",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"type": "Turn in quest"
 								},
 								{
@@ -6016,7 +6024,15 @@
 							"count": 1,
 							"depth": 0,
 							"type": "Get",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "She runs laps around the center of the ruins. There is also a rare that looks like her.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						},
 						{
@@ -6514,16 +6530,6 @@
 							"yCoord": 8.9,
 							"coordsMap": "Darnassus",
 							"comment": "Train spells.",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"xCoord": 48.54,
-							"yCoord": 21.01,
-							"coordsMap": "Darnassus",
-							"comment": "Alternative route: if you didn't manage to cook the eggs you can do it now at the cooking trainer",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -7627,21 +7633,15 @@
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
+						},
 						{
 							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 36.12,
-							"yCoord": 44.9
+							"yCoord": 44.9,
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"npcName": "Gubber Blump",
@@ -7660,7 +7660,8 @@
 							],
 							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -7846,7 +7847,15 @@
 									"questId": 960,
 									"depth": 1,
 									"type": "Accept quest",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"comment": "If you already have the scrying bowl you can ignore this quest",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"isCustom": false
 								}
 							],
@@ -8287,6 +8296,16 @@
 									"isCustom": true
 								}
 							],
+							"isCustom": false
+						},
+						{
+							"coordsMap": "Darkshore",
+							"xCoord": 34.84,
+							"yCoord": 85.05,
+							"comment": "If you see a chest here you can open it by jumping to the right of the slope",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -8869,20 +8888,20 @@
 				{
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
 							"xCoord": 50.48,
 							"yCoord": 35.02,
-							"comment": "Grab the first 2 ingredients for the summon inside the cilinders.",
+							"coordsMap": "Darkshore",
+							"comment": "Grab the first ingredient for the summon inside the container",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Darkshore",
 							"xCoord": 52.37,
 							"yCoord": 35.99,
-							"coordsMap": "Darkshore",
-							"comment": "Once you are done with the first half, go to the moountain cave and kill the Den Mother",
+							"comment": "Once you are done with the first half, go to the mountain cave and kill the Den Mother",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -8916,10 +8935,22 @@
 							"isCustom": false
 						},
 						{
+							"xCoord": 52.82,
+							"yCoord": 33.45,
+							"coordsMap": "Darkshore",
+							"comment": "Another ingredient here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"xCoord": 52.41,
 							"yCoord": 33.36,
 							"coordsMap": "Darkshore",
 							"comment": "Combine the items and use them at the bonfire. Loot the talisman off the basket after killing the demon",
+							"itemId": 12347,
+							"itemName": "Filled Cleansing Bowl",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -9714,10 +9745,49 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 26.4,
+							"yCoord": 38.59,
+							"coordsMap": "Ashenvale",
+							"comment": "Turn in both quests then accept the follow ups after the RP",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Orendil Broadleaf",
+							"npcId": 3847,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 1010,
+									"questName": "Bathran's Hair",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Orendil's Cure",
+									"questId": 1020,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 26.23,
 							"yCoord": 38.68,
 							"coordsMap": "Ashenvale",
-							"comment": "Will need to wait out the tower of Althalaxx roleplay",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -9768,14 +9838,6 @@
 							"npcName": "Orendil Broadleaf",
 							"npcId": 3847,
 							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1010,
-									"questName": "Bathran's Hair",
-									"subTasks": [],
-									"type": "Turn in quest"
-								},
 								{
 									"questName": "Orendil's Cure",
 									"questId": 1020,
@@ -10121,8 +10183,8 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 33.72,
-							"yCoord": 43.42,
+							"xCoord": 37.69,
+							"yCoord": 43.43,
 							"coordsMap": "Darkshore",
 							"depth": 0,
 							"type": "Go to",
@@ -13120,14 +13182,6 @@
 								}
 							],
 							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 942,
-							"questName": "The Absent Minded Prospector",
-							"subTasks": [],
-							"type": "Turn in quest"
 						}
 					]
 				},
@@ -13500,7 +13554,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "About the Hillsbrad event. It's worth it. A lot. Espcially if you are the first one to get there since sudden death means that you get to finish the event as soon as you cap.",
+							"comment": "About the Hillsbrad event. It's worth it. A lot. Especially if you are the first one to get there since sudden death means that you get to finish the event as soon as you cap.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -14989,7 +15043,18 @@
 							"comment": "Fly to southshore. DON'T set HS there, keep it in wetlands",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"xCoord": 11.44,
+									"yCoord": 59.44,
+									"coordsMap": "Wetlands",
+									"comment": ">>> Grab the crates of weapons <<< Double check",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						},
 						{
@@ -16181,10 +16246,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Wetlands",
 							"xCoord": 42.72,
 							"yCoord": 27.12,
-							"coordsMap": "Wetlands",
-							"comment": "Pray to RNGesus for a fast bag (10% drop...). (not so) Fun fact: SIDA means AIDS in spanish. If you ever play this game in spanish the quest asks you to get an AIDS bag :/",
+							"comment": "Pray to RNGesus for a fast bag (10% drop chane...). (not so) Fun fact: SIDA means AIDS in spanish. If you ever did play this game in spanish in the early 2000s the quest asks you to get an AIDS bag :/ Blizz changed the name later.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -17841,7 +17906,7 @@
 							"xCoord": 49.36,
 							"yCoord": 52.35,
 							"coordsMap": "Hillsbrad Foothills",
-							"comment": "Fly to Menethil",
+							"comment": "Fly to Menethil (or use your HS if it's up)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -18442,6 +18507,14 @@
 									"type": "Talk to",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"comment": "Do something",
+									"itemName": "Weapon mastery on Polearms for alliance is on NElfs, but they have to travel to SW to learn how to use them from a human. I wonder how many people will get to use the polearms that drop/are rewarded in Darkshore :P",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"isCustom": false
@@ -18638,13 +18711,6 @@
 						},
 						{
 							"comment": "There is a custom quest that can only be completed by killing a mob that only spawns at night. Keep an eye out for when the daycicle changes so you can complete the quest.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Sadly, the timer that decides which part of the day cycle is happening doesn't seem consistent, varies between some hours to a couple of minutes, so just keep an eye out.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -19486,10 +19552,10 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 37.6,
 							"yCoord": 4.25,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Go to the slope and while running and turning your camera slowly towards your right (towards the tree) spam jump to get up here. You can run through the mountains to Duskwood from here.",
+							"comment": "Go to the slope and run up as high as you can (wiggle your camera, jump etc). Once up there, jump while running forward and strafe towards your right.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -19601,10 +19667,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Duskwood",
 							"xCoord": 21.3,
 							"yCoord": 47.41,
-							"coordsMap": "Duskwood",
-							"comment": "Go towards Abercrombie and kill AT LEASST 8 Skeletal Fiends and enough to finish the custom quest. We are far from done running to Raven Hill...",
+							"comment": "Go towards Abercrombie and kill AT LEAST 8 Skeletal Fiends then get enough bone powder to finish the custom quest. We are far from done running to Raven Hill...",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -20324,7 +20390,7 @@
 									"isCustom": false
 								},
 								{
-									"comment": "Only kill enough Vile Fangs to get to the cave (you will almost finisht them anyways), then kill the ones inside and move out to the next location",
+									"comment": "Only kill enough Vile Fangs to get to the cave (you will almost finish them anyways), then kill the ones inside and move out to the next location",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -20990,7 +21056,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "If you forgot to buy the Stormwind herbs like I've done a dozen if times over the years now it's a good time to do so at [69,71]",
+							"comment": "If you forgot to buy the Stormwind herbs like I've done a dozen of times over the years now it's a good time to do so at [69,71]",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -21869,19 +21935,37 @@
 									"isCustom": false
 								},
 								{
-									"questId": 156,
-									"questName": "Gather Rot Blossoms",
+									"xCoord": 73.8,
+									"yCoord": 44.57,
+									"coordsMap": "Duskwood",
 									"depth": 1,
-									"type": "Turn in quest",
+									"type": "Go to",
 									"subTasks": [],
 									"isCustom": false
 								},
 								{
-									"questId": 159,
-									"questName": "Juice Delivery",
+									"npcName": "Tavernkeep Smitts",
+									"npcId": 273,
 									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
+									"type": "Talk to",
+									"subTasks": [
+										{
+											"questName": "Gather Rot Blossoms",
+											"questId": 156,
+											"depth": 2,
+											"type": "Turn in quest",
+											"subTasks": [],
+											"isCustom": false
+										},
+										{
+											"questName": "Juice Delivery",
+											"questId": 159,
+											"depth": 2,
+											"type": "Accept quest",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"isCustom": false
 								}
 							],
@@ -24233,8 +24317,8 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 471,
-							"yCoord": 51.49,
+							"xCoord": 47.17,
+							"yCoord": 51.34,
 							"coordsMap": "Wetlands",
 							"comment": "To the tower next. There is a rare around here that drops a good AGI + INT belt (Grol'thok)",
 							"depth": 0,
@@ -25993,7 +26077,7 @@
 							"xCoord": 49.35,
 							"yCoord": 52.34,
 							"coordsMap": "Hillsbrad Foothills",
-							"comment": "Fly to Menethil if you haven't set your HS there. Otherwise, fly to IF",
+							"comment": "Fly to Menethil >>> if you haven't set your HS there <<<. Otherwise, fly to IF",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -26488,7 +26572,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "There are a couple quest lines missing in Dustwallow and some from TBC that remain, it's really weaird and lame... I understand not keeping the one where you find out that the Defias were the ones who kidnapped Varian, but the others...",
+							"comment": "There are a couple quest lines missing in Dustwallow and some from TBC that remain, it's really weird and lame... I understand not keeping the one where you find out that the Defias were involved into kidnapping Varian (or something like that), but the others...",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -26679,14 +26763,6 @@
 							"npcName": "Fiora Longears",
 							"npcId": 4456,
 							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1132,
-									"questName": "Fiora Longears",
-									"subTasks": [],
-									"type": "Turn in quest"
-								},
 								{
 									"questName": "Highperch Venom",
 									"questId": 1135,
@@ -29800,10 +29876,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 44.45,
 							"yCoord": 9.76,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "You can deal with the grouped up mobs easily woth AoE, even against multiple Medicine Mans. Loot the supplies",
+							"comment": "You can deal with the grouped up mobs easily with AoE, even against multiple Medicine Mans. Loot the supplies",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -30919,7 +30995,7 @@
 						{
 							"xCoord": 60.13,
 							"yCoord": 83.87,
-							"coordsMap": "Wetlands",
+							"coordsMap": "Westfall",
 							"comment": "Third item. Yes, zone says Westfall, don't ask.",
 							"depth": 0,
 							"type": "Go to",
@@ -30946,7 +31022,7 @@
 						{
 							"xCoord": 60.58,
 							"yCoord": 84.88,
-							"coordsMap": "Wetlands",
+							"coordsMap": "Westfall",
 							"comment": "Fourth and last for this quest. Still missing the tablet for the other one.",
 							"depth": 0,
 							"type": "Go to",
@@ -30973,7 +31049,7 @@
 						{
 							"xCoord": 56.71,
 							"yCoord": 84.49,
-							"coordsMap": "Wetlands",
+							"coordsMap": "Westfall",
 							"comment": "Interact with the tablet. A ghost will appear. Kill it to get the tablet",
 							"depth": 0,
 							"type": "Go to",
@@ -31034,17 +31110,17 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 24.71,
 							"yCoord": 23.16,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "To do this step w/o using a water breathing elixir first EXACTLY to this coordinate go here.",
+							"comment": "To do this step w/o using a water breathing elixir first go EXACTLY to this coordinate",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "Now swim straight down. When you pull the Murlocs trap them and/or send your pet. Sac your pet if necessary and after you loot the table feign death.",
+							"comment": "Now swim straight down. When you pull the Murlocs trap them and/or send your pet. Sac your pet if necessary and after you loot the tablet feign death.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -31174,7 +31250,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Check with eagle eye if there is an albino rare crocolisks at the north part of the lake (Gena). If so, kill it for a dagger that selss for 1g.",
+							"comment": "Check with eagle eye if there is an albino rare crocolisk at the north part of the lake (Gena). If so, kill it for a dagger that sells for 1g.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -32629,16 +32705,6 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 34.1,
-							"yCoord": 38.27,
-							"coordsMap": "Alterac Mountains",
-							"comment": "Drop down here",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
 							"xCoord": 31.84,
 							"yCoord": 33.17,
 							"coordsMap": "Alterac Mountains",
@@ -32743,17 +32809,32 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Alterac Mountains",
 							"xCoord": 46.51,
 							"yCoord": 21.54,
-							"coordsMap": "Alterac Mountains",
-							"comment": "Go east towards this slope then go up. You will find a bos to turn the box in at the end",
+							"comment": "Go east towards this slope then go up. You will find a box to turn in the quest at the end",
 							"depth": 0,
 							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Killing Nagaz is not necessary anymore. The quest lines have changed and, unless you want to go back and forth from here to Ravenholdt multiple times, you might aswell skip it. The elemental area in arathi is better.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "Kill the Shadow Mages in each for a chance at the book before going up.",
+							"depth": 0,
+							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "Kill the Shadow Mage in the camp for a chance at the book before going up.",
+							"comment": "You can also find the rare tiger just as you exit the farm if you were looking for it (and it's alive)",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -33783,7 +33864,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "The quest Save the animals was bugged in betas 2.5, 3 and 3.5, but I could complete itduring beta 2. Basically, she will ask you to find the Gryphon I mentioned earlier and then you will need meat from the spiders and berries from the berry bushes you might have seen while walking there.",
+							"comment": "The quest Save the animals was bugged in betas 2.5, 3 and 3.5, but I could complete it during beta 2. Basically, she will ask you to find the Gryphon I mentioned earlier and then you will need meat from the spiders and berries from the berry bushes you might have seen while walking there.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -35853,10 +35934,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Ironforge",
 							"xCoord": 43.69,
 							"yCoord": 31.73,
-							"coordsMap": "Ironforge",
-							"comment": "Silk donation. You should have more than enough. Only 1 of each type will give you XP",
+							"comment": "Silk donation. You should have more than enough. Probably doesn't give XP although it should. Give it a try.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -36786,10 +36867,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 27.2,
 							"yCoord": 82.67,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Kill all the swashbucklers on your way here. Try to avoid the warlocks, specially the ones with a succubus. If you have to fight one, trap trhe succubus otherwise you will get hit by a 400 damage lash of pain.",
+							"comment": "Kill all the swashbucklers on your way here. Try to avoid the warlocks, specially the ones with a succubus. If you have to fight one, trap the succubus otherwise you will get hit by a 400 damage lash of pain.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -37825,7 +37906,18 @@
 							"comment": "Kill the raptors towards the elite one.",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"xCoord": 28.75,
+									"yCoord": 44.87,
+									"coordsMap": "Stranglethorn Vale",
+									"comment": "The elite one is here.",
+									"depth": 1,
+									"type": "Go to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						},
 						{
@@ -38433,7 +38525,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Some things about SoS: there is a flight path and an inn, but the FP was bugged in beta 3. You couldn't fly to it and fly flying from it made you go through the mountains to Redridge before redirecting you towards your actual destination. That's why we set HS in Darkshire",
+							"comment": "Some things about SoS: there is a flight path and an inn, but we are setting the HS in Darkshire because we want to get a quest afterwards. You can quickly fly bag to SoS anyways.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -39503,7 +39595,7 @@
 							"type": "Get",
 							"subTasks": [
 								{
-									"comment": "If you have an addon with markers on the minimap (pfQuest f.ex.) know that some of the markers are from the pre-dungeon area and not the actual lake. Just do a lap clockwise and you should be done",
+									"comment": "If you have an addon with markers on the minimap (pfQuest f.ex.) know that some of the markers are from the pre-dungeon area and not the actual lake. Just do a lap counter-clockwise and you should be done",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -40009,7 +40101,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "You are probably level 42 now. If so, equip the Massive Longbow. Ranged weapon progression: starter bow -> lvl 3 vendor ->lvl 14 vendor -> lvl 26 quest -> lvl 42 vendor -> lvl 52 quest. Very good XD!11!1.",
+							"comment": "You are probably level 42 now. If so, equip the Massive Longbow. Ranged weapon progression is not the best, it is what it is",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -40288,10 +40380,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 26.24,
 							"yCoord": 67.7,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Go here by jumping off the BB docks. If you are low on Green Hill pages oyu might want to kill all the pirates by going the regular way",
+							"comment": "Go here by jumping off the BB docks. If you are low on Green Hill pages you might want to kill all the pirates by going the regular way",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -40931,13 +41023,6 @@
 					"stepTasks": [
 						{
 							"comment": "If you don't have 90g for your mount then HS back to booty bay here. You will have enough after questing in Dustwallow. If that's the case, check the steps in this section after this point and do them after finishing the next section (before flying to Gadgetzan).",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Also, if you are 225 first aid already go check any first aids trainer to get the breadcrumb quest",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -41714,7 +41799,7 @@
 							"type": "Get",
 							"subTasks": [
 								{
-									"comment": "For these you can just check in any database for the world object \"Zeppelin Cargo\" since those are from an actual quest even if they are custom here. The boxes don't sparkle and they are brown, like the ENTIRE ZONE >:(. No need to wear your eyes down,",
+									"comment": "For these you can just check in any database for the world object \"Zeppelin Cargo\" since those are from an actual quest even if they are custom here. The boxes don't sparkle and they are brown, like the ENTIRE ZONE >:(. No need to wear your eyes out,",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -45012,7 +45097,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "While killing mobs here some might drop a footlocker. What you are looking for here is the Ship Shedule, an item that starts a quest. You can delete anything else (including the maps).",
+							"comment": "While killing mobs here some might drop a footlocker. What you are looking for here is the Ship Schedule, an item that starts a quest. You can delete anything else (including the maps).",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -45196,7 +45281,7 @@
 									"type": "Kill",
 									"subTasks": [
 										{
-											"comment": "Hit like trucks as per usual. Elemental damage (true damage practically) is very balanced with the mobs increased damage custom change!!!",
+											"comment": "They hit like trucks as per usual.",
 											"depth": 2,
 											"type": "Comment",
 											"subTasks": [],
@@ -46319,10 +46404,10 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Feralas",
 							"xCoord": 30.98,
 							"yCoord": 43.34,
-							"coordsMap": "Feralas",
-							"comment": "Now go to Feathermoon. If the ship was arriving when you set foot in the docs take it then jump down off of it at the sout-eastern side of the island and mount up. Otherwise, just swim.",
+							"comment": "Now go to Feathermoon. If the ship was arriving when you set foot in the docks take it then jump down off of it at the sout-eastern side of the island and mount up. Otherwise, just swim.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -46775,24 +46860,24 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Feralas",
 							"xCoord": 25.83,
 							"yCoord": 67.05,
-							"coordsMap": "Feralas",
-							"comment": "Make your way to pandemonium and check your HS CD. I'm not going to ask you to grind 1.5 levels here (although you could...), but try to grind untill there are only 5 minutes left on your HS after you finish the quest.",
+							"comment": "Make your way to the cave and check your HS CD. I'm not going to ask you to grind 1.5 levels here (although you could...), but try to grind untill there are only 5 minutes left on your HS after you finish the quest.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "With the XP buff from warmode and a Hunter killing mobs at a good pace you can reach >60k xp/hr by killing mobs running in circles",
+							"comment": "With the XP buff from warmode and a Hunter killing mobs at a good pace you can reach >60k xp/hr",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "It's not mage solo AoE farming WR XP, but it certainly fills the gap untill HS CD comes back, especially considering AoE is capped on this server",
+							"comment": "It's not mage solo AoE farming WR XP, but it certainly fills the gap untill the HS CD comes back",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -46850,10 +46935,10 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Feralas",
 							"xCoord": 35.37,
 							"yCoord": 73.55,
-							"coordsMap": "Feralas",
-							"comment": "W/e the case is. Leave the cave afterwards and head here. Be careful with the level ?? elementals running around",
+							"comment": "W/e the case is. Leave the cave afterwards and head here. Be careful with the skull level elementals running around",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -47278,7 +47363,28 @@
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"xCoord": 59.61,
+											"yCoord": 57.15,
+											"coordsMap": "Feralas",
+											"comment": "Don't forget to kill the one up here.",
+											"depth": 2,
+											"type": "Go to",
+											"subTasks": [],
+											"isCustom": false
+										},
+										{
+											"xCoord": 61.42,
+											"yCoord": 57.83,
+											"coordsMap": "Feralas",
+											"comment": "You can climb up there by running up this fallen tree",
+											"depth": 2,
+											"type": "Go to",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"isCustom": false
 								},
 								{
@@ -47541,7 +47647,7 @@
 							"coordsMap": "Feralas",
 							"xCoord": 55.6,
 							"yCoord": 52.74,
-							"comment": "There is an ambush here and that's it, unlike vanilla where you have to escort the chicken to the beach. Only 2 yetis (as oposed to 5...), 1 always seems to be the only mob that drops the pristine hide (the one to your right, probably a bug)",
+							"comment": "There is an ambush here and that's it, unlike vanilla where you have to escort the chicken to the beach. Only 2 yetis (as oposed to 5)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -47647,10 +47753,10 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Feralas",
 							"xCoord": 62.4,
 							"yCoord": 52.55,
-							"coordsMap": "Feralas",
-							"comment": "If respawns are still bugged (2 years of this...) then go here to gather the last one (one node around trhe shore of the pond)",
+							"comment": "If respawns are still bugged then go here to gather the last one (one node around the shore of the pond)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -47952,13 +48058,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Teldrassil",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 55.48,
-							"yCoord": 92.08
+							"yCoord": 92.08,
+							"coordsMap": "Teldrassil",
+							"comment": "Accept Favored of Elune if you didn't before",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -47975,9 +48082,10 @@
 									"type": "Turn in quest"
 								},
 								{
-									"comment": "Accept favored of elune if you didn't here before",
+									"questName": "Favored of Elune?",
+									"questId": 3661,
 									"depth": 1,
-									"type": "Comment",
+									"type": "Accept quest",
 									"subTasks": [],
 									"isCustom": false
 								}
@@ -50822,7 +50930,7 @@
 							"type": "Go to",
 							"subTasks": [
 								{
-									"comment": "The reason you are skipping some quest is because quest log is getting too full (if it already isn't...)",
+									"comment": "The reason you are skipping some quest is because the quest log is getting too full (if it isn't already...)",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -54320,7 +54428,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "The problem is that he stops casting Shadowbolts for a while when using anything else, which makes him run into you regardless of wether you are in LoS or not. And worse, he runs out of mana in doing so. This wouldn't be a problem if it wasn't because, even if he has no weapons, he is some kind of Shaolin monk who can break stones with his firsts. Your pet can't face tank it, unless...",
+							"comment": "The problem is that he stops casting Shadowbolts for a while when using anything else, which makes him run into you regardless of wether you are in LoS or not. And worse, he runs out of mana in doing so. This wouldn't be a problem if it wasn't because, even if he has no weapons, he is some kind of Shaolin monk who can break stones with his fists. Your pet can't face tank it, unless...",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -54576,10 +54684,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Searing Gorge",
 							"xCoord": 47.61,
 							"yCoord": 41.76,
-							"coordsMap": "Searing Gorge",
-							"comment": "Go towards the the end of the bridge and drop down to the lower level where the Incendosaur is (look nort east)",
+							"comment": "Go towards the the end of the bridge and drop down to the lower level where the Incendosaur is (look north east)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -56574,22 +56682,16 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 82.7,
-							"yCoord": 35.64,
-							"coordsMap": "Blasted Lands",
-							"comment": "Go to the sunken ship at the marker and drink your 4th water breathing elixir. Check inside the ship with eagle eye for the treasure. It's usually in this ship, but by the wording of the quest's text it could be in any of the other sunken ships",
+							"comment": "Drink your 4th water breathing elixir. Check inside every ship with eagle eye (there are 4) to see which one has the treasure chest. It used to always be in the north-eastern most one.",
 							"depth": 0,
-							"type": "Go to",
+							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"coordsMap": "Blasted Lands",
-							"xCoord": 81.69,
-							"yCoord": 38.36,
-							"comment": "Trap the first drowned sailor (if resist, get away, FD and reset). Send your pet with intimidate to the 2nd one and open the chest",
+							"comment": "Trap the first drowned sailor (if resist, get away, FD and reset). Send your pet with intimidate to the 2nd one and open the chest. If lucky, you might be able to sneak in by just pulling 1",
 							"depth": 0,
-							"type": "Go to",
+							"type": "Comment",
 							"subTasks": [
 								{
 									"itemName": "Sunken Treasure",
@@ -57188,10 +57290,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "The Barrens",
 							"xCoord": 63.88,
 							"yCoord": 0.09,
-							"coordsMap": "The Barrens",
-							"comment": "Mount to Orgrimmar's backdoor (careful with the guards) the ride to Azshara's border",
+							"comment": "Mount to Orgrimmar's backdoor (careful with the guards) then ride to Azshara's border",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -58308,10 +58410,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Azshara",
 							"xCoord": 66.22,
 							"yCoord": 17.42,
-							"coordsMap": "Azshara",
-							"comment": "Kill coursers on the way, should be getting the second now by now",
+							"comment": "Kill coursers on the way, should be getting the second antler by now",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -59623,8 +59725,8 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 60.71,
-							"yCoord": 91.8,
+							"xCoord": 62.18,
+							"yCoord": 93.52,
 							"coordsMap": "Azshara",
 							"comment": "The female Naga at the shrine has the item for one of the quests.",
 							"depth": 0,
@@ -60311,10 +60413,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "The Barrens",
 							"xCoord": 61.75,
 							"yCoord": 38.34,
-							"coordsMap": "The Barrens",
-							"comment": "In Ratchet turn this in and skip the follow up. The questline is a flightpath simulator across all the goblin towns in the game. People TOTALLY don't put up with this garbage because the end reward is a discount Cape of the Black Baron. Do it when 60 :( ...",
+							"comment": "In Ratchet turn this in and skip the follow up. The questline is a flightpath simulator across all the goblin towns in the game. People TOTALLY don't put up with this because the end reward is a discount Cape of the Black Baron. Finish it when 60 :( ...",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -60964,10 +61066,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Felwood",
 							"xCoord": 32.4,
 							"yCoord": 67.06,
-							"coordsMap": "Felwood",
-							"comment": "Kill satyrs for the quest. The named one is on the marker. You may have to kill respawns to finish the quest so just headh straight to the named move then go back",
+							"comment": "Kill satyrs for the quest. The named one is on the marker. You may have to kill respawns to finish the quest so just head straight to the named mob then go back",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -61913,13 +62015,6 @@
 				},
 				{
 					"stepTasks": [
-						{
-							"comment": "If you had to accept \"Timbermaw Ally\" at the entrance of Timbermaw Hold beacuse Grazle was missing (south furbolg) then go do it now.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
 						{
 							"xCoord": 51.51,
 							"yCoord": 82.26,
@@ -63003,6 +63098,13 @@
 								}
 							],
 							"type": "Talk to"
+						},
+						{
+							"comment": "Manually skip this",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -63017,13 +63119,6 @@
 							"type": "Go to",
 							"xCoord": 51.79,
 							"yCoord": 46.35
-						},
-						{
-							"comment": "Turn in the water plants quests if you accepted it and then get the follow up too",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -63500,7 +63595,7 @@
 							"type": "Talk to"
 						},
 						{
-							"comment": "You are killing Yetis now, but there are only 5 spawns for the 8 items required on the next step. What's more, the drop rate is below 40%. Awful quest, awful questlines.",
+							"comment": "You are killing Yetis now, but there are only 5 spawns for the 8 items required on the next step. What's more, the drop rate is below 40% :/",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -67911,10 +68006,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Un'Goro Crater",
 							"xCoord": 70.61,
 							"yCoord": 16.69,
-							"coordsMap": "Un'Goro Crater",
-							"comment": "Next tablet here. The slope to get up here is unusually step, but it can be done.",
+							"comment": "Next tablet here. The slope to get up here is unusually step, but it can climbed.",
 							"itemId": 63035,
 							"itemName": "Second Tablet Rubbing",
 							"depth": 0,
@@ -68044,7 +68139,7 @@
 									"questName": "The Mighty U'cha",
 									"subTasks": [
 										{
-											"comment": "Pick the axe. Try to level this one with your soon to be new xbow and the blasted lands buff (leveling weapon skills in 2025, cool vanilla minus)",
+											"comment": "Pick the axe. Only level this one with your soon to be new xbow and the blasted lands buff if it's much better than the new staff you got in Azshara (leveling weapon skills in 2025, cool vanilla minus)",
 											"depth": 2,
 											"type": "Comment",
 											"subTasks": [],
@@ -68683,7 +68778,7 @@
 							"type": "Comment",
 							"subTasks": [
 								{
-									"comment": "If you don't (why?) farm them off the elementals right outside of the camp. If you are 5 away",
+									"comment": "If you don't (why?) farm them off the elementals right outside of the camp.",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -70602,6 +70697,7 @@
 							"xCoord": 51.98,
 							"yCoord": 30.39,
 							"coordsMap": "Winterspring",
+							"comment": "You might have noticed some lootable world objects that look like a tear drop and give you a mana consumable. Gather them for a quest down the line.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -71072,8 +71168,8 @@
 							"subTasks": [
 								{
 									"npcName": "Deadwood Den Watcher",
-									"npcId": 7158,
-									"count": 5,
+									"npcId": 7156,
+									"count": 6,
 									"questId": 8461,
 									"questObjectiveIndex": 1,
 									"depth": 1,
@@ -71083,8 +71179,8 @@
 								},
 								{
 									"npcName": "Deadwood Avenger",
-									"npcId": 7158,
-									"count": 5,
+									"npcId": 7157,
+									"count": 6,
 									"questId": 8461,
 									"questObjectiveIndex": 2,
 									"depth": 1,
@@ -71095,7 +71191,7 @@
 								{
 									"npcName": "Deadwood Shaman",
 									"npcId": 7158,
-									"count": 5,
+									"count": 6,
 									"questId": 8461,
 									"questObjectiveIndex": 3,
 									"depth": 1,
@@ -71335,7 +71431,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Two possibilities here",
+							"comment": "If you are not neutral yet to be able to turn in the totem quests there are two possibilities here:",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -71450,6 +71546,13 @@
 							"isCustom": false
 						},
 						{
+							"comment": "If you needed to farm rep to turn in the totem quests and you had to go to Feelwood now it's the time to do so.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"depth": 0,
 							"isCustom": false,
 							"npcName": "Donova Snowden",
@@ -71549,10 +71652,10 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Dustwallow Marsh",
 							"xCoord": 67.74,
 							"yCoord": 48.88,
-							"coordsMap": "Dustwallow Marsh",
-							"comment": "If you kept first aid up to date you should be able to learn heavy runecloth bandages by now (or crafting untill you do).",
+							"comment": "If you kept first aid up to date you should be able to learn heavy runecloth bandages by now (or by crafting untill you do).",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -72106,10 +72209,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Burning Steppes",
 							"xCoord": 80.45,
 							"yCoord": 52.82,
-							"coordsMap": "Burning Steppes",
-							"comment": "Kill anything on the way, the obsidian elemental near the fake lava river and then move onto the imps/ogres north west",
+							"comment": "Kill anything on the way, the obsidian elemental near the fake lava river included, and then move onto the imps/ogres north west",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -73646,7 +73749,7 @@
 									"isCustom": false
 								},
 								{
-									"comment": "Meat is sold at the kitchen if you need for pet",
+									"comment": "Meat is sold at the kitchen if you need for your pet",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -74549,7 +74652,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Read up if want to do the golem quest: quest was bugged during beta but the reward is worth doing even if a weird quest.",
+							"comment": "Read up if want to do the golem quest: quest was bugged during beta but the reward is worth doing even if it's a weird quest.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -75565,10 +75668,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Winterspring",
 							"xCoord": 63.98,
 							"yCoord": 24.24,
-							"coordsMap": "Winterspring",
-							"comment": "Kill Chimaeras and loot orange crystals while looking for Ursius. He starts patroling here then moves to the southern mountains near everlook.",
+							"comment": "Kill Chimaeras and loot mana crystals while looking for Ursius. He starts patroling here then moves to the southern mountains near everlook.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -75621,7 +75724,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Continue gathering orange crystals as you quest through WS",
+							"comment": "Continue gathering mana crystals as you quest through WS",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -75770,7 +75873,7 @@
 									"type": "Turn in quest",
 									"subTasks": [
 										{
-											"comment": "Ends here untill you turn in the orange crystals",
+											"comment": "Ends here untill you turn in the mana crystals",
 											"depth": 2,
 											"type": "Comment",
 											"subTasks": [],
@@ -78199,7 +78302,7 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 808,
+							"xCoord": 80.8,
 							"yCoord": 38.39,
 							"coordsMap": "Stormwind City",
 							"comment": "Spam gossip macro after talking to Prestor",
@@ -79074,7 +79177,7 @@
 							"type": "Go to",
 							"subTasks": [
 								{
-									"comment": "Split pull the Scarlet crusade ptrol if they aren't fighting the undead",
+									"comment": "Split pull the Scarlet crusade patrol if they aren't fighting the undead",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -81157,10 +81260,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Western Plaguelands",
 							"xCoord": 42.61,
 							"yCoord": 84.22,
-							"coordsMap": "Western Plaguelands",
-							"comment": "This is the xbow mastery questline. Can be soloed up to the last step which requires killing Shadowhunter in LBRS. Very decent blue xbow right very early when 60",
+							"comment": "This is the xbow mastery questline. Can be soloed up to the last step which requires killing Shadowhunter in LBRS. Decent blue xbow that can be acquired very early when 60",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
