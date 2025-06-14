@@ -8938,6 +8938,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood
 		'If you are not neutral yet to be able to turn in the totem quests there are two possibilities here:|c
 		.'Unlikely: Winterfall runners were close to the dwarf, farm the reputation now|c
 		.'Likely: Winterfall runners were far away, farm the rep later|c
+		'Unfortunately, the winterfall runner in felwood will aggro the Timbermaw Hold furbolgs if you attempt to kite him through the tunnel (not blizzlike), so that's not an option.|c
 	step//61
 		goto Winterspring,31.29,45.13
 		talk Donova Snowden##9298

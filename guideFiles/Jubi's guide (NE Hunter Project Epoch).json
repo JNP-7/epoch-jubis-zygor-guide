@@ -71451,6 +71451,13 @@
 								}
 							],
 							"isCustom": false
+						},
+						{
+							"comment": "Unfortunately, the winterfall runner in felwood will aggro the Timbermaw Hold furbolgs if you attempt to kite him through the tunnel (not blizzlike), so that's not an option.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
