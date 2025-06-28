@@ -657,100 +657,105 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		.'Turn in Plagued Lands (id:2118)|c
 		.'Accept Cleansing of the Infected (id:2138)|c
 	step//26
-		Go to Darkshore 39.34,43.45
-		'Accept How Big a Threat? (id:985)|c
-	step//27
 		Go to Darkshore 39.31,43.42
 		'Talk to Terenthis (id:3693)|c
 		.'Turn in How Big a Threat? (id:984)|c
 		.'Accept How Big a Threat? (id:985)|c
 		.'Accept Thundris Windweaver (id:4761)|c
-	step//28
+	step//27
 		Go to Darkshore 38.11,41.21
 		'Talk to Gorbold Steelhand (id:6301)|c
 		.'Accept Deep Ocean, Vast Sea (id:982)|c
 		'If you can't because you are too low level there will be a reminder later after comming back from Darnassus|c
-	step//29
+	step//28
 		'Alternative route: buy x15 Mild Spices off of the dwarf you just talked to.|c
 		'Skip the step if on regular route|c
-	step//30
+	step//29
 		'You can buy rep items off her after you get some rep. You should be exalted after comming back here from Ashenvale. Go to Darkshore 37.78,41.08
 		'Talk to Quartermaster Nyana (id:45119)|c
 		.'Turn in Welcome to Auberdine (id:26202)|c
-	step//31
+	step//30
 		'Buy 6 slot bags for every bag slot you are missing. Fill quiver with arrows and some extra just in case.. Go to Darkshore 37.49,40.53
 		.'Talk to Dalmond (id:4182)|c
 		'Alternative route: buy x1 Simple Wood and Flint and Tinder for later aswell|c
-	step//32
+	step//31
 		Go to Darkshore 37.43,40.19
 		'Talk to Thundris Windweaver (id:3649)|c
 		.'Turn in Thundris Windweaver (id:4761)|c
 		.'Accept The Cliffspring River (id:4762)|c
 		.'Accept Tools of the Highborne (id:958)|c
 		.'Accept Bashal'Aran (id:954)|c
-	step//33
+	step//32
 		'Jump off the house to the shore in front. If you didn't finish threshers' eyes you can try now if you go a little off the coast.. Go to Darkshore 37.1,38.74
 		.'Get 3 Thresher Eye from Darkshore Thresher(id:2185) for a quest (id:1001, objective:1)|c
-		'Grind while on the way, prio Striders to get Strider Meat for a quest later (need 5). Go to Darkshore 44.21,36.33
+	step//33
+		'Grind while on the way, prio Striders to get Strider Meat for a quest later (need 5). Go to Darkshore 41.84,31.63
+		'Accept Beached Sea Creature (id:4723)|c
+	step//34
+		Go to Darkshore 41.94,28.56
+		'Turn in Buzzbox 411 (id:1001)|c
+		'Accept Buzzbox 323 (id:1002)|c
+	step//35
+		'Now also try to kill Moonstalkers for the fangs. Drop chance was lowered in the last beta and it would be miserable to accept it later and not be able to progress it ASAP. Go to Darkshore 44.21,36.33
 		'Talk to Asterion (id:3650)|c
 		.'Turn in Bashal'Aran (id:954)|c
 		.'Accept Bashal'Aran (id:955)|c
-	step//34
+	step//36
 		'Clear the grells to the south. When you are done pull the satyr thats close to the quest giver in the north side of the ruins. Turn in and accept the quests and then finish it off to instantly finish it.|c
 		'Get 8 Grell Earring from Vile Sprite(id:2189) or Wild Grell(id:2190) for a quest (id:955, objective:1)|c
-	step//35
+	step//37
 		Go to Darkshore 44.21,36.31
 		'Talk to Asterion (id:3650)|c
 		.'Turn in Bashal'Aran (id:955)|c
 		.'Accept Bashal'Aran (id:956)|c
-	step//36
+	step//38
 		'Get Ancient Moonstone Seal from Deth'ryll Satyr(id:2212) for a quest (id:956, objective:1)|c
-	step//37
+	step//39
 		Go to Darkshore 44.21,36.34
 		'Talk to Asterion (id:3650)|c
 		.'Turn in Bashal'Aran (id:956)|c
 		.'Accept Bashal'Aran (id:957)|c
-	step//38
-		'Grind south to the crystal. Get as many strider meat as you can (need 5).. Go to Darkshore 47.25,48.73
+	step//40
+		'Grind south to the crystal. Get as many strider meat (need 5) and moonstalker fangs as you can.. Go to Darkshore 47.25,48.73
 		.'Goal: Locate the red crystal. For a quest (id:4811, objective:1)|c
-	step//39
+	step//41
 		'Move here and kill both types of moonkins. There are 2 young ones here and you can finish them in the cave north, which has 5. Go to Darkshore 43.53,49.92
 		.'Kill 5 Young Moonkin (id:10159) for a quest (id:26199, objective1)|c
 		.'Kill 10 Moonkin (id:10158) for a quest (id:26199, objective2)|c
 		'Save enough small eggs to get to 10 and/or 15 cooking (9 and 14 eggs respectively)!!!!!|c
-	step//40
+	step//42
 		Go to Darkshore 39.05,43.56
 		'Talk to Sentinel Elissa Starbreeze (id:3657)|c
 		.'Accept The Tower of Althalaxx (id:965)|c
-	step//41
+	step//43
 		Go to Darkshore 37.68,43.46
 		'Talk to Sentinel Glynda Nal'Shea (id:2930)|c
 		.'Turn in Balancing the Forest (id:26199)|c
 		.'Turn in The Red Crystal (id:4811)|c
 		.'Accept Balancing the Forest (id:26200)|c
 		.'Accept As Water Cascades (id:4812)|c
-	step//42
+	step//44
 		'Sell junk at the vendor inside the inn|c
 		'>>> Fill the water tube <<<. Use Empty Water Tube. Go to Darkshore 37.81,44.05
 		.'Get Moonwell Water Tube for a quest (id:4812, objective:1)|c
-	step//43
+	step//45
 		'Alternative route: if someone is buying you the bow now is the time to give them what they might need/grab it from your mail box|c
-	step//44
+	step//46
 		'Go here first to kill the first Oracle there are only 3, and you need all of them for the quest. The others are on caves to the south past the crystal. Go to Darkshore 46.25,45.52
 		'Kill Raging Moonkins to progress the quest. Go to Darkshore 47.27,48.71
 		.'Turn in As Water Cascades (id:4812)|c
 		.'Accept The Fragments Within (id:4813)|c
-	step//45
+	step//47
 		'Second Oracle (inside the cave). Go to Darkshore 46,50.26
 		'Third Oracle. Go to Darkshore 45.62,53.14
 		'Finish killing the moonkins|c
 		.'Kill 3 Moonkin Oracle (id:10157) for a quest (id:26200, objective1)|c
 		.'Kill 10 Raging Moonkin (id:10160) for a quest (id:26200, objective2)|c
-	step//46
+	step//48
 		'Grind south to the sentinel. Don't worry much about strider meat.. Go to Darkshore 40.29,59.81
 		'Talk to Sentinel Tysha Moonblade (id:3639)|c
 		.'Accept The Fall of Ameth'Aran (id:953)|c
-	step//47
+	step//49
 		'Burn the seal. Use Ancient Moonstone Seal. Go to Darkshore 42.32,61.81
 		.'Goal: Destroy the seal at the ancient flame. For a quest (id:957, objective:1)|c
 		'Get 7 Highborne Relic from Wailing Highborne(id:2178) or Writhing Highborne(id:2177) for a quest (id:958, objective:1)|c
@@ -760,44 +765,44 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		.'Goal: Read the Fall of Ameth'Aran. For a quest (id:953, objective:2)|c
 		'Interact with the other tablet. Go to Darkshore 43.31,58.73
 		.'Goal: Read the Lay of Ameth'Aran. For a quest (id:953, objective:1)|c
-	step//48
+	step//50
 		Go to Darkshore 40.27,59.77
 		'Talk to Sentinel Tysha Moonblade (id:3639)|c
 		.'Turn in The Fall of Ameth'Aran (id:953)|c
-	step//49
+	step//51
 		'Small detour, grab the quest here. Turns grey at level 18. Go to Darkshore 37.18,62.26
 		'Accept Beached Sea Turtle (id:4722)|c
-	step//50
+	step//52
 		'Finish killing the Murlocs for the Murloc quest while running north. Each spawn can be both a seer or a coast runner so if you don't finish now just come back here while we do our laps in the furbolg camp.. Go to Darkshore 35.51,55.26
 		.'Kill 6 Greymist Seer (id:2203) for a quest (id:27937, objective1)|c
 		.'Kill 6 Greymist Coastrunner (id:2202) for a quest (id:27937, objective2)|c
 		'You might also find a rare in this spot. Kill it for some easy vendor trash (no one will ever get to use this polearm, lets be real here...).|c
-	step//51
+	step//53
 		'Use any temporary consumable buff or guardian that you have. You are grinding these for a while. Go to Darkshore 39.01,56.57
 		.'Kill 8 Blackwood Pathfinder (id:2167) for a quest (id:985, objective1)|c
 		.'Kill 5 Blackwood Windtalker (id:2324) for a quest (id:985, objective2)|c
 		'You have a vendor at [36,56]|c
-	step//52
+	step//54
 		'Grind the furbolgs until you are level 15 (around 3 full clears). Sell junk after every round at the vendor near the beach and kill bears + striders if you need to wait out respawns.|c
 		'You NEED to do this for 3 reasons. 1 is to make sure you reach Ashenvale at level 20. Next is that you are short on linen to level first aids. And last, if you wan't to level with warmode you will need level 15. If you needed to turn in quests now to get there then you would lose the bonus XP on said quests.|c
 		'Also, if you still don't have 5 strider meat try to kill the ones that are around for some|c
-	step//53
-		'Back to Auberdine, but don't turn in any of the quests yet (other than the one at the docks). Wait until you are back from Darnassus. Go to Darkshore 36.08,44.9
+	step//55
+		'Back to Auberdine, but don't turn in any of the quests yet (unless stated). Wait until you are back from Darnassus. Go to Darkshore 36.08,44.9
 		.'>>> Make sure you have 5 Strider Meat <<<|c
-	step//54
+	step//56
 		'Grab this quest first. Go to Darkshore 36.08,44.9
 		'Talk to Gubber Blump (id:10216)|c
 		.'Accept Fruit of the Sea (id:1138)|c
-	step//55
+	step//57
 		Go to Darkshore 35.72,43.66
 		'Talk to Cerellean Whiteclaw (id:3644)|c
 		.'Turn in For Love Eternal (id:963)|c
-	step//56
+	step//58
 		'Once you get to Auberdine check for the boat to Menethil. If its already there or leaving go to Darnassus instead (check some steps ahead for what to do). Otherwise, run to the docks.. Go to Darkshore 32.4,43.76
 		'While you wait for the boat work on leveling first aid until linen bandage turns green (45)|c
 		'Alternative route: go where the boat to Darnassus docks (north), train first aids untill bandages turn green (45 first aids). If the boat just docked you don't have time. Fly to Darnassus and train FA in front of the trainer there.|c
-		.'Jump to step 61 if on this route|c
-	step//57
+		.'Jump to step 62 if on this route|c
+	step//59
 		'You are on a timer once you get to menethil, buy the bow, cook the eggs and get first aids to level 50.. Go to Wetlands 11.17,58.11
 		'Talk to Naela Trance (id:1459)|c
 		.'Buy the green bow, better quiver if you haven't yet and fill it with arrows BUT DON'T SORT THE INVENTORY HERE, KEEP MOVING|c
@@ -805,93 +810,87 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		'Begin crafting the bandages before talking to the gnome if you are not 45 first aids yet. Go to Wetlands 10.83,61.34
 		'Talk to Fremal Doohickey (id:3181)|c
 		.'Learn heavy linen bandage, train to first aids 50, learn the next FA rank and head back to the docks|c
-	step//58
+	step//60
 		'Grab the FP on your way out of the inn. Go to Wetlands 4.6,57.18
 		'You should have had enough time. Keep leveling first aid with all the linen you have while traveling back to Darkshore|c
-	step//59
-		'Jump off the boat early, when you are near where the dwarf is.. Go to Darkshore 36.08,44.9
-	step//60
-		'Grab the FP to Darnassus, DON'T TURN IN ANY QUESTS YET except for the ones mentioned. Go to Darkshore 36.36,45.56
 	step//61
+		'Jump off the boat early, when you are near where the dwarf is.. Go to Darkshore 36.08,44.9
+	step//62
+		'Grab the FP to Darnassus, DON'T TURN IN ANY QUESTS YET except for the ones mentioned. Go to Darkshore 36.36,45.56
+	step//63
 		Go to Teldrassil 56.26,92.41
 		'Talk to Nessa Shadowsong (id:10118)|c
 		.'Turn in Return to Nessa (id:6343)|c
-	step//62
+	step//64
 		'Train spells.. Go to Darnassus 40.29,8.9
 		'If you somehow managed to reach FA level 80, train wool bandages. Go to Darnassus 51.65,12.64
 		.'Alternative route: go here regardless and train first aids until you can learn the next rank|c
 		'>>> If you don't want to level up with warmode, skip this <<< (this guide might not be 100% accurate w/o the XP boost). Go talk to the Warmode NPC and turn it on. This is the reason you were ignoring the quest turn ins.. Go to Darnassus 62.07,40.14
-	step//63
+	step//65
 		Go to Darnassus 31.36,84.08
 		'Talk to Chief Archaeologist Greywhisker (id:2912)|c
 		.'Accept Trouble In Darkshore? (id:730)|c
-	step//64
+	step//66
 		'HS back to Auberdine. Use Hearthstone|c
-	step//65
+	step//67
 		Go to Darkshore 36.62,45.54
 		'Talk to Gwennyth Bly'Leggonde (id:10219)|c
 		.'Turn in Beached Sea Turtle (id:4722)|c
-	step//66
+		.'Turn in Beached Sea Creature (id:4723)|c
+	step//68
 		'First wanted poster. Go to Darkshore 37.21,44.22
 		'Accept WANTED: Murkdeep! (id:4740)|c
-	step//67
+	step//69
 		'Second wanted poster. Go to Darkshore 37.25,44.19
 		'Accept Wanted: Grizzletooth (id:27941)|c
-	step//68
+	step//70
 		Go to Darkshore 37.66,43.37
 		'Talk to Sentinel Glynda Nal'Shea (id:2930)|c
 		.'Turn in Balancing the Forest (id:26200)|c
 		.'Turn in The Fragments Within (id:4813)|c
-	step//69
+	step//71
 		'Turn this one first. You will have to wait a bit for the RP to play out. Go to Darkshore 39.37,43.46
 		'Talk to Terenthis (id:3693)|c
 		.'Turn in How Big a Threat? (id:985)|c
-	step//70
+	step//72
 		'Craft some bandages. Alternative route: create a campfire here and cook the eggs (10 cooking). Go to Darkshore 39.34,43.42
 		'Talk to Terenthis (id:3693)|c
 		.'Accept A Lost Master (id:986)|c
-	step//71
+	step//73
 		'Only if you coulnd't before, otherwise skip this. Go to Darkshore 38.11,41.21
 		'Talk to Gorbold Steelhand (id:6301)|c
 		.'Accept Deep Ocean, Vast Sea (id:982)|c
-	step//72
+	step//74
 		Go to Darkshore 37.47,41.86
 		'Talk to Archaeologist Hollee (id:2913)|c
 		.'Turn in Trouble In Darkshore? (id:730)|c
 		.'Accept The Absent Minded Prospector (id:729)|c
-	step//73
+	step//75
 		'Skip the follow up on the sister questline.. Go to Darkshore 37.55,41.64
 		'Talk to Bill Wheeland (id:46696)|c
 		.'Turn in My Sister Isabetta (id:28110)|c
 		.'Turn in The Greymist Menace (id:27937)|c
 		.'Accept The Greymist Menace (id:27938)|c
 		'Just run across a zone with skull mobs/do an unintended skip to finish the questline in Westfall. Don't add the SW boat in Darkshore obviously, it's all in the vanilla spirit and not terrible game design, didn't you know? I wonder why they added a ferry to Southshore. Why don't we have to run across Arathi to go there early? Hmmmm...|c
-	step//74
+	step//76
 		'If you are level 10 cooking and the strider meat quest isn't unlocked it means that you need level 15 cooking. Go to Darkshore 37.68,40.71
 		'Talk to Alanndarian Nightsong (id:3702)|c
 		.'Accept Easy Strider Living (id:2178)|c
 		.'Turn in Easy Strider Living (id:2178)|c
 		.'Accept The Twilight's Hammer (id:26201)|c
-	step//75
+	step//77
 		Go to Darkshore 37.4,40.16
 		'Talk to Thundris Windweaver (id:3649)|c
 		.'Turn in Tools of the Highborne (id:958)|c
-	step//76
+	step//78
 		Go to Darkshore 44.18,36.25
 		'Talk to Asterion (id:3650)|c
 		.'Turn in Bashal'Aran (id:957)|c
-	step//77
-		Go to Darkshore 41.84,31.63
-		'Accept Beached Sea Creature (id:4723)|c
-	step//78
+	step//79
 		'Get the south-western ship lockbox first. Go to Darkshore 38.24,28.83
 		.'Get Silver Dawning's Lockbox for a quest (id:982, objective:1)|c
 		Go to Darkshore 39.65,27.45
 		.'Get Mist Veil's Lockbox for a quest (id:982, objective:2)|c
-	step//79
-		Go to Darkshore 41.94,28.56
-		'Turn in Buzzbox 411 (id:1001)|c
-		'Accept Buzzbox 323 (id:1002)|c
 	step//80
 		'Try to kill some Moonstalkers on the way here. Ignore the grey level ones. Go to Darkshore 44.22,20.75
 		'Accept Beached Sea Turtle (id:4725)|c
@@ -905,7 +904,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		Go to Darkshore 53.1,18.22
 		'Accept Beached Sea Turtle (id:4727)|c
 	step//84
-		'There are a bunch of Moonstalkers here. Since the drop rates were reverted to vanilla (absolutely miserable chance) there is no way you are done.... Go to Darkshore 54.47,21.33
+		'There are a bunch of Moonstalkers here if you need fangs.. Go to Darkshore 54.47,21.33
 		'Skip this step|c
 	step//85
 		Go to Darkshore 54.96,24.92
@@ -931,7 +930,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		'Turn in Buzzbox 323 (id:1002)|c
 		'Accept Buzzbox 525 (id:1003)|c
 	step//90
-		'Walk down to Auberdine. >>> Don't suicide <<< There is GY in the "secret" troll village now and you will respawn there.. Go to Darkshore 38.85,43.5
+		'Walk down to Auberdine or die to deathwarp (if the later, keep reading). There is GY in the "secret" troll village now and you will respawn there if you are too up north in darkshore.. Go to Darkshore 38.85,43.5
+		'Dying near the river delta should be good enough to deathwarp to Auberdine's graveyard. Go to Darkshore 50.78,22.38
+		'Likewise for the furbolg camp. Go to Darkshore 52.38,33.43
 		'Talk to Tharnariun Treetender (id:3701)|c
 		.'Turn in Cleansing of the Infected (id:2138)|c
 		.'Accept Tharnariun's Hope (id:2139)|c
@@ -960,10 +961,10 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		Go to Darkshore 36.6,45.56
 		'Talk to Gwennyth Bly'Leggonde (id:10219)|c
 		.'Turn in Beached Sea Turtle (id:4727)|c
-		.'Turn in Beached Sea Creature (id:4723)|c
 		.'Turn in Beached Sea Turtle (id:4725)|c
 	step//97
 		'Make your way to the main road. If you catch the cart going south jump on it. Run otherwise.. Go to Darkshore 40,49
+		'If you deathwarped before and have rez sickness simply avoid unnecessary fights|c
 		'Jump off the cart here (/leavevehicle) and go towards the coast (kill any Sire or Grizzled bear you find). Go to Darkshore 41.11,70
 	step//98
 		Go to Darkshore 36.13,70.94
@@ -1144,7 +1145,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		'Turn in Gyromast's Revenge (id:2078)|c
 	step//142
 		'DON'T SELL OR DRINK THE WATERBREATHING POTIONS BY MISTAKE. You will need them for some quests down the line|c
-		'Time to walk down to Auberdine because you can't deathwarp due to the graveyard in the troll village ZZZZZ|c
+		'Walk down to Auberdine or deathwarp yet again near the river's delta if you were succesful the first time around. Go to Darkshore 50.74,22.91
 		'Skip this step|c
 	step//143
 		Go to Darkshore 38.83,43.41
@@ -1155,7 +1156,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		'Talk to Thundris Windweaver (id:3649)|c
 		.'Turn in The Blackwood Corrupted (id:4763)|c
 	step//145
-		'Try to grab the cart again. Go to Darkshore 43.61,76.31
+		'Try to grab the cart again. Also, avoid unnecessary fights if you death warped like the last time. Go to Darkshore 43.61,76.31
 		'Talk to Onu (id:3616)|c
 		.'Turn in Mathystra Relics (id:951)|c
 		.'Accept The Odd Relic (id:28158)|c

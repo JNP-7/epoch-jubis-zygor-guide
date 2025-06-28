@@ -5199,28 +5199,6 @@
 							"isCustom": false,
 							"subTasks": [],
 							"type": "Go to",
-							"xCoord": 39.34,
-							"yCoord": 43.45
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 985,
-							"questName": "How Big a Threat?",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 39.31,
 							"yCoord": 43.42
 						},
@@ -5463,12 +5441,70 @@
 								}
 							],
 							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 41.84,
+							"yCoord": 31.63,
+							"coordsMap": "Darkshore",
+							"comment": "Grind while on the way, prio Striders to get Strider Meat for a quest later (need 5)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"questId": 4723,
+							"questName": "Beached Sea Creature",
+							"subTasks": [],
+							"type": "Accept quest"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Darkshore",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 41.94,
+							"yCoord": 28.56
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"questId": 1001,
+							"questName": "Buzzbox 411",
+							"subTasks": [],
+							"type": "Turn in quest"
+						},
+						{
+							"questName": "Buzzbox 323",
+							"questId": 1002,
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
 						{
 							"xCoord": 44.21,
 							"yCoord": 36.33,
 							"coordsMap": "Darkshore",
-							"comment": "Grind while on the way, prio Striders to get Strider Meat for a quest later (need 5)",
+							"comment": "Now also try to kill Moonstalkers for the fangs. Drop chance was lowered in the last beta and it would be miserable to accept it later and not be able to progress it ASAP",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -5638,7 +5674,7 @@
 							"xCoord": 47.25,
 							"yCoord": 48.73,
 							"coordsMap": "Darkshore",
-							"comment": "Grind south to the crystal. Get as many strider meat as you can (need 5).",
+							"comment": "Grind south to the crystal. Get as many strider meat (need 5) and moonstalker fangs as you can.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -6253,10 +6289,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Darkshore",
 							"xCoord": 36.08,
 							"yCoord": 44.9,
-							"coordsMap": "Darkshore",
-							"comment": "Back to Auberdine, but don't turn in any of the quests yet (other than the one at the docks). Wait until you are back from Darnassus",
+							"comment": "Back to Auberdine, but don't turn in any of the quests yet (unless stated). Wait until you are back from Darnassus",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -6361,7 +6397,7 @@
 							"type": "Comment",
 							"subTasks": [
 								{
-									"comment": "Jump to step 61 if on this route",
+									"comment": "Jump to step 62 if on this route",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -6632,6 +6668,14 @@
 								{
 									"questName": "Beached Sea Turtle",
 									"questId": 4722,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Beached Sea Creature",
+									"questId": 4723,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -7028,28 +7072,6 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.84,
-							"yCoord": 31.63
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 4723,
-							"questName": "Beached Sea Creature",
-							"subTasks": [],
-							"type": "Accept quest"
-						}
-					]
-				},
-				{
 					"stepTasks": [
 						{
 							"xCoord": 38.24,
@@ -7096,36 +7118,6 @@
 						}
 					],
 					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 41.94,
-							"yCoord": 28.56
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"questId": 1001,
-							"questName": "Buzzbox 411",
-							"subTasks": [],
-							"type": "Turn in quest"
-						},
-						{
-							"questName": "Buzzbox 323",
-							"questId": 1002,
-							"depth": 0,
-							"type": "Accept quest",
-							"subTasks": [],
-							"isCustom": false
-						}
-					]
 				},
 				{
 					"onlyForClasses": [],
@@ -7235,10 +7227,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Darkshore",
 							"xCoord": 54.47,
 							"yCoord": 21.33,
-							"coordsMap": "Darkshore",
-							"comment": "There are a bunch of Moonstalkers here. Since the drop rates were reverted to vanilla (absolutely miserable chance) there is no way you are done...",
+							"comment": "There are a bunch of Moonstalkers here if you need fangs.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -7463,7 +7455,27 @@
 							"xCoord": 38.85,
 							"yCoord": 43.5,
 							"coordsMap": "Darkshore",
-							"comment": "Walk down to Auberdine. >>> Don't suicide <<< There is GY in the \"secret\" troll village now and you will respawn there.",
+							"comment": "Walk down to Auberdine or die to deathwarp (if the later, keep reading). There is GY in the \"secret\" troll village now and you will respawn there if you are too up north in darkshore.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 50.78,
+							"yCoord": 22.38,
+							"coordsMap": "Darkshore",
+							"comment": "Dying near the river delta should be good enough to deathwarp to Auberdine's graveyard",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 52.38,
+							"yCoord": 33.43,
+							"coordsMap": "Darkshore",
+							"comment": "Likewise for the furbolg camp",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -7690,14 +7702,6 @@
 									"type": "Turn in quest"
 								},
 								{
-									"questName": "Beached Sea Creature",
-									"questId": 4723,
-									"depth": 1,
-									"type": "Turn in quest",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
 									"questId": 4725,
 									"questName": "Beached Sea Turtle",
 									"depth": 1,
@@ -7719,6 +7723,13 @@
 							"comment": "Make your way to the main road. If you catch the cart going south jump on it. Run otherwise.",
 							"depth": 0,
 							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you deathwarped before and have rez sickness simply avoid unnecessary fights",
+							"depth": 0,
+							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
@@ -9205,9 +9216,12 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Time to walk down to Auberdine because you can't deathwarp due to the graveyard in the troll village ZZZZZ",
+							"xCoord": 50.74,
+							"yCoord": 22.91,
+							"coordsMap": "Darkshore",
+							"comment": "Walk down to Auberdine or deathwarp yet again near the river's delta if you were succesful the first time around",
 							"depth": 0,
-							"type": "Comment",
+							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
@@ -9291,7 +9305,7 @@
 							"xCoord": 43.61,
 							"yCoord": 76.31,
 							"coordsMap": "Darkshore",
-							"comment": "Try to grab the cart again",
+							"comment": "Try to grab the cart again. Also, avoid unnecessary fights if you death warped like the last time",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
