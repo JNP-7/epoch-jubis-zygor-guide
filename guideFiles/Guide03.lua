@@ -1,10 +1,10 @@
 local ZygorGuidesViewer=ZygorGuidesViewer
 if not ZygorGuidesViewer then return end
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Teldrassil (1-12)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Teldrassil (1-12)",[[
 	author Jubi (discord: jubi_7)
 	defaultfor NightElf
-	next Jubi's guide (NE Hunter Project Epoch)\\Darkshore (12-20)
+	next Jubi's guide Full text\\Darkshore (12-20)
 	startlevel 80
 	step//1
 		Go to Teldrassil 58.61,44.79
@@ -551,9 +551,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Teldras
 		'Fly to Darkshore|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darkshore (12-20)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Darkshore (12-20)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Ashenvale & Stonetalon (20-24)
+	next Jubi's guide Full text\\Ashenvale & Stonetalon (20-24)
 	startlevel 80
 	step//1
 		Go to Darkshore 36.59,45.56
@@ -1183,9 +1183,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darksho
 		'Avoid the main road so you don't trigger the ambushes. Go to Darkshore 44.79,93.72
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Ashenvale & Stonetalon (20-24)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Ashenvale & Stonetalon (20-24)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Wetlands & Hillsbrad Pt.1 (24-29)
+	next Jubi's guide Full text\\Wetlands & Hillsbrad Pt.1 (24-29)
 	startlevel 80
 	step//1
 		'While you are in Ashenvale, try to save up to 10 Lean Wolf Flanks and 6 Gooey Spider Legs. Go to Ashenvale 27.28,35.49
@@ -1603,9 +1603,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Ashenva
 		'Grab the boat to menethil and craft bandages while waiting/on it. Go to Darkshore 32.42,43.79
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetlands & Hillsbrad Pt.1 (24-29)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Wetlands & Hillsbrad Pt.1 (24-29)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Duskwood (29-31)
+	next Jubi's guide Full text\\Duskwood (29-31)
 	startlevel 80
 	step//1
 		'Jump early on the boat towards this guy. Go to Wetlands 8.55,55.83
@@ -2231,9 +2231,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetland
 		'Long run to Ironforge. Go to Dun Morogh 53.38,35.03
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwood (29-31)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Duskwood (29-31)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Wetlands & Hillsbrad Pt.2 (31-34)
+	next Jubi's guide Full text\\Wetlands & Hillsbrad Pt.2 (31-34)
 	startlevel 80
 	step//1
 		'Buy weapon skills + the green level 30 quiver. You can even store it in your current quiver until you hit 30. Go to Ironforge 61.35,89.31
@@ -2861,9 +2861,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 		'If you got to level 32, train skills before leaving|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetlands & Hillsbrad Pt.2 (31-34)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Wetlands & Hillsbrad Pt.2 (31-34)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Duskwood final & 1k needles (34-35)
+	next Jubi's guide Full text\\Duskwood final & 1k needles (34-35)
 	startlevel 80
 	step//1
 		'Right as you exist the tram. Go to Ironforge 69.85,50.31
@@ -3237,9 +3237,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetland
 		'Fly to Menethil >>> if you haven't set your HS there <<<. Otherwise, fly to IF. Go to Hillsbrad Foothills 49.35,52.34
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwood final & 1k needles (34-35)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Duskwood final & 1k needles (34-35)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\STV Pt.1 (35-37)
+	next Jubi's guide Full text\\STV Pt.1 (35-37)
 	startlevel 80
 	step//1
 		'This will trigger some roleplay, go learn spells and fill your quiver meanwhile. Go to Ironforge 38.71,87.61
@@ -3604,9 +3604,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwoo
 		'Take the boat to Booty Bay. Go to The Barrens 63.64,38.65
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.1 (35-37)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\STV Pt.1 (35-37)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Alterac & Arathi Highlands (37-39)
+	next Jubi's guide Full text\\Alterac & Arathi Highlands (37-39)
 	startlevel 80
 	step//1
 		'While leveling in STV keep any Greenhill pages in your bag (RIP bagspace) while questing then store them in the bank when visiting Booty Bay|c
@@ -3979,9 +3979,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.
 		'Back to rebel camp and fly to Stormwind. If you couldn't turn in the supplies to Thorsen abandon "Supplies to Private Thorsen". Go to Stranglethorn Vale 38.21,4.03
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Alterac & Arathi Highlands (37-39)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Alterac & Arathi Highlands (37-39)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\STV Pt.2 & Swamp of sorrows (39-43)
+	next Jubi's guide Full text\\STV Pt.2 & Swamp of sorrows (39-43)
 	startlevel 80
 	step//1
 		Go to Stormwind City 51.7,74.23
@@ -4453,9 +4453,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Alterac
 		.'With some luck you are very close to getting level 40. You probably don't have enough for mount, so just try to learn level 40 spells, specially to use mail.|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.2 & Swamp of sorrows (39-43)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\STV Pt.2 & Swamp of sorrows (39-43)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Dustwallow Marsh (43)
+	next Jubi's guide Full text\\Dustwallow Marsh (43)
 	startlevel 80
 	step//1
 		'Silk donation. You should have more than enough. Probably doesn't give XP although it should. Give it a try.. Go to Ironforge 43.69,31.73
@@ -5126,9 +5126,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.
 		'Take the boat to Ratchet. Go to Stranglethorn Vale 25.89,73.15
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Dustwallow Marsh (43)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Dustwallow Marsh (43)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Tanaris Pt.1 (43-45)
+	next Jubi's guide Full text\\Tanaris Pt.1 (43-45)
 	startlevel 80
 	step//1
 		'Fly to Theramore. Go to The Barrens 63.08,37.14
@@ -5379,9 +5379,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Dustwal
 		'When done fly to Gadgetzan. Go to Dustwallow Marsh 67.5,51.27
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Tanaris Pt.1 (43-45)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Tanaris Pt.1 (43-45)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Feralas Pt.1 (45-46)
+	next Jubi's guide Full text\\Feralas Pt.1 (45-46)
 	startlevel 80
 	step//1
 		'While questing in Tanaris if you get the chicken beacon just hold it in your bags. It will be a while until we do that quest.. Go to Tanaris 50.24,27.45
@@ -5697,9 +5697,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Tanaris
 		'Fly to Feralas' border with 1k needels. Go to Tanaris 51.04,29.33
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas Pt.1 (45-46)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Feralas Pt.1 (45-46)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)
+	next Jubi's guide Full text\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)
 	startlevel 80
 	step//1
 		'Just like in Tanaris, if you come across the chicken beacon just hold onto it untill you have to accept the quest.. Go to Feralas 65.9,45.64
@@ -5982,9 +5982,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 		'Boat to Menethil. Make some bandages?. Go to Darkshore 32.4,43.81
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Hinterlands (47-48)
+	next Jubi's guide Full text\\Hinterlands (47-48)
 	startlevel 80
 	step//1
 		'Fly to Loch Modan. Go to Wetlands 9.52,59.66
@@ -6258,9 +6258,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing
 		'Boat to Menethil. Go to Dustwallow Marsh 71.55,56.37
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Hinterlands (47-48)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Hinterlands (47-48)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Searing Gorge Pt.2 (48-49)
+	next Jubi's guide Full text\\Searing Gorge Pt.2 (48-49)
 	startlevel 80
 	step//1
 		'Fly to Southshore. Go to Wetlands 9.52,59.66
@@ -6580,9 +6580,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Hinterl
 		'Fly to IF. Go to The Hinterlands 11.08,46.12
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing Gorge Pt.2 (48-49)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Searing Gorge Pt.2 (48-49)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Blasted lands (49-50)
+	next Jubi's guide Full text\\Blasted lands (49-50)
 	startlevel 80
 	step//1
 		'Only If you dind't get the summon to IF in Hinterlands. Don't accept the follow up as we won't be going back there. Go to Ironforge 51.56,41.77
@@ -6904,9 +6904,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing
 		'Fly to Stormwind. Go to Searing Gorge 37.85,30.76
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Blasted lands (49-50)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Blasted lands (49-50)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Azshara & Felwood Pt.1 (50-52)
+	next Jubi's guide Full text\\Azshara & Felwood Pt.1 (50-52)
 	startlevel 80
 	step//1
 		'>>> Set HS <<< And accept the quest. Go to Stormwind City 60.47,75.19
@@ -7091,9 +7091,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Blasted
 		'Boat to Ratchet. Go to Stranglethorn Vale 25.89,73.14
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Azshara & Felwood Pt.1 (50-52)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Azshara & Felwood Pt.1 (50-52)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Feralas Pt.2 & Plaguelands Pt.1 (52)
+	next Jubi's guide Full text\\Feralas Pt.2 & Plaguelands Pt.1 (52)
 	startlevel 80
 	step//1
 		'Open the chest. Go to The Barrens 62.51,38.54
@@ -7718,9 +7718,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Azshara
 		.'10 minute nap|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas Pt.2 & Plaguelands Pt.1 (52)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Feralas Pt.2 & Plaguelands Pt.1 (52)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Un'Goro (52-54)
+	next Jubi's guide Full text\\Un'Goro (52-54)
 	startlevel 80
 	step//1
 		Go to Feralas 30.59,42.76
@@ -7955,9 +7955,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas
 		'If grinding undead at the graveyard was good XP/feasible to AoE >4 do so while waiting for your HS CD. Otherwise just fly to Menethil then boat to Darkshore|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro (52-54)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Un'Goro (52-54)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Felwood Pt.2 & Winterspring Pt.1 (54-56)
+	next Jubi's guide Full text\\Felwood Pt.2 & Winterspring Pt.1 (54-56)
 	startlevel 80
 	step//1
 		'Fly to Moonglade. Go to Darkshore 36.35,45.58
@@ -8559,9 +8559,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro
 		'Fly to south Felwood (Emerald Sanctuary). Go to Teldrassil 58.38,94.03
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood Pt.2 & Winterspring Pt.1 (54-56)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Felwood Pt.2 & Winterspring Pt.1 (54-56)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Burning Steppes (56-57)
+	next Jubi's guide Full text\\Burning Steppes (56-57)
 	startlevel 80
 	step//1
 		'Go south for a second and grab the quest you left behind the first time you entered the zone. Go to Felwood 54.11,86.73
@@ -8859,9 +8859,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood
 		'Boat to Menethil. Go to Dustwallow Marsh 71.52,56.27
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Burning Steppes (56-57)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Burning Steppes (56-57)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Winterspring Pt.2 (57-58)
+	next Jubi's guide Full text\\Winterspring Pt.2 (57-58)
 	startlevel 80
 	step//1
 		'Fly to Ironforge. Go to Wetlands 9.44,59.74
@@ -9260,9 +9260,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Burning
 		'Hearthstone back to Winterspring (that's why you didn't change it). Use Hearthstone|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Winterspring Pt.2 (57-58)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Winterspring Pt.2 (57-58)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide (NE Hunter Project Epoch)\\Plaguelands Pt.2 (58-60)
+	next Jubi's guide Full text\\Plaguelands Pt.2 (58-60)
 	startlevel 80
 	step//1
 		Go to Winterspring 61.59,38.58
@@ -9654,7 +9654,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Winters
 		'Fly to IF. Go to Wetlands 9.53,59.62
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguelands Pt.2 (58-60)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Plaguelands Pt.2 (58-60)",[[
 	author Jubi (discord: jubi_7)
 	startlevel 80
 	step//1
