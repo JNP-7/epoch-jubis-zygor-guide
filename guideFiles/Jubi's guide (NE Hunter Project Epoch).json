@@ -296,13 +296,13 @@
 						},
 						{
 							"npcName": "Alanea Miststriker",
-							"npcId": 45087,
+							"npcId": 46257,
 							"depth": 0,
 							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 27480,
 									"questName": "Corruption in Shadowglen",
-									"questId": 26179,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -869,7 +869,7 @@
 									"npcName": "Frenzied Moonkin",
 									"npcId": 45088,
 									"count": 8,
-									"questId": 26179,
+									"questId": 27480,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -880,7 +880,7 @@
 									"npcName": "Natook",
 									"npcId": 45089,
 									"count": 1,
-									"questId": 26179,
+									"questId": 27480,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -919,8 +919,8 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 27480,
 									"questName": "Corruption in Shadowglen",
-									"questId": 26179,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -1230,8 +1230,8 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 27483,
 									"questName": "Demons In Fel Rock",
-									"questId": 26180,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -1294,8 +1294,8 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 27477,
 									"questName": "Attack on the Gnarlpine",
-									"questId": 26176,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -1303,6 +1303,29 @@
 								}
 							],
 							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"coordsMap": "Teldrassil",
+							"xCoord": 55.67,
+							"yCoord": 59.75,
+							"comment": "If you didn't reach level 6 in Shadowgleen talk to the trainer afterwards to learn Arcane shot",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"comment": "Learn skinning from the profession trainer nearby regardless",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -1403,8 +1426,8 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
+									"questId": 27485,
 									"questName": "Herbal Medicine",
-									"questId": 26182,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -2016,7 +2039,7 @@
 									"npcName": "Gnarlpine Warrior",
 									"npcId": 2008,
 									"count": 4,
-									"questId": 26176,
+									"questId": 27477,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -2179,7 +2202,7 @@
 							"subTasks": [
 								{
 									"itemName": "Demon Essence",
-									"questId": 26180,
+									"questId": 27483,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -2353,30 +2376,6 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 42.1,
-							"yCoord": 50.03,
-							"coordsMap": "Teldrassil",
-							"comment": "Learn skinning for a free damage buff. Don't buy a skinning knife. Don't waste time leveling skinning. Don't pass go. Don't collect 200g.",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"npcName": "Radnaal Maneweaver",
-									"npcId": 6287,
-									"depth": 1,
-									"type": "Talk to",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
 							"xCoord": 38.51,
 							"yCoord": 66.04,
 							"coordsMap": "Teldrassil",
@@ -2388,7 +2387,7 @@
 									"npcName": "Gnarlpine Defender",
 									"npcId": 2010,
 									"count": 4,
-									"questId": 26176,
+									"questId": 27477,
 									"questObjectiveIndex": 3,
 									"depth": 1,
 									"type": "Kill",
@@ -2399,7 +2398,7 @@
 									"npcName": "Gnarlpine Shaman",
 									"npcId": 2009,
 									"count": 4,
-									"questId": 26176,
+									"questId": 27477,
 									"questObjectiveIndex": 4,
 									"depth": 1,
 									"type": "Kill",
@@ -2424,7 +2423,7 @@
 							"subTasks": [
 								{
 									"itemName": "Lily Whip",
-									"questId": 26182,
+									"questId": 27485,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 8,
@@ -2571,12 +2570,12 @@
 							"npcId": 3604,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 26182,
+									"questId": 27485,
 									"questName": "Herbal Medicine",
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -2602,12 +2601,12 @@
 							"npcId": 6781,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": true,
-									"questId": 26176,
+									"questId": 27477,
 									"questName": "Attack on the Gnarlpine",
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -2634,12 +2633,12 @@
 							"npcId": 3610,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": true,
-									"questId": 26180,
+									"questId": 27483,
 									"questName": "Demons In Fel Rock",
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
 								},
 								{
 									"questName": "Purifying the Essence",
