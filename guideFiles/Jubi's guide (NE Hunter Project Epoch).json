@@ -5277,14 +5277,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Alternative route: buy x15 Mild Spices off of the dwarf you just talked to.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Skip the step if on regular route",
+							"comment": "Buy x15 Mild Spices off of the dwarf you just talked to.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -6491,6 +6484,13 @@
 									"type": "Comment",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"comment": "Alternative route: don't buy the Reinforced Bow if someone bought you the Fine Longbow before.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"isCustom": false
@@ -7349,10 +7349,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Darkshore",
 							"xCoord": 38.85,
 							"yCoord": 43.5,
-							"coordsMap": "Darkshore",
-							"comment": "Walk down to Auberdine or die to deathwarp (if the later, keep reading). There is GY in the \"secret\" troll village now and you will respawn there if you are too up north in darkshore.",
+							"comment": "Walk down to Auberdine or die to deathwarp (if the later, keep reading). There is a GY in the \"secret\" troll village now and you will respawn there if you are too up north in darkshore.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -9323,36 +9323,38 @@
 									"questName": "A Lost Master",
 									"subTasks": [],
 									"type": "Turn in quest"
-								},
-								{
-									"questName": "Escape Through Force",
-									"questId": 994,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
 								}
 							],
 							"type": "Talk to"
-						},
+						}
+					]
+				},
+				{
+					"stepTasks": [
 						{
-							"comment": "Kill things ahead of him so he doesn't stop walking as much",
+							"comment": "Accept \"Escape through force\" if you think you won't be hitting level 20 when you reach the Ashenvale's outpost. Accept the other option otherwise",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"goalName": "Help Volcor to the road",
-							"questId": 994,
-							"questObjectiveIndex": 1,
-							"count": 1,
+							"comment": "If you are doing excape through force kill things ahead of him so he doesn't stop walking as much",
 							"depth": 0,
-							"type": "Goal",
-							"subTasks": [],
+							"type": "Comment",
+							"subTasks": [
+								{
+									"comment": "Otherwise just run south. Skip this after you are done",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
-					]
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -10173,12 +10175,18 @@
 							"npcId": 3693,
 							"subTasks": [
 								{
+									"comment": "Turn in either of Volcor's quests, the one you chose back there at the cave when running to Ashenvale",
 									"depth": 1,
-									"isCustom": false,
-									"questId": 994,
-									"questName": "Escape Through Force",
+									"type": "Comment",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": false
+								},
+								{
+									"comment": "Skip otherwise",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"

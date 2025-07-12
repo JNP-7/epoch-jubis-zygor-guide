@@ -668,8 +668,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Darkshore (12-20)",[[
 		.'Accept Deep Ocean, Vast Sea (id:982)|c
 		'If you can't because you are too low level there will be a reminder later after comming back from Darnassus|c
 	step//28
-		'Alternative route: buy x15 Mild Spices off of the dwarf you just talked to.|c
-		'Skip the step if on regular route|c
+		'Buy x15 Mild Spices off of the dwarf you just talked to.|c
 	step//29
 		'You can buy rep items off her after you get some rep. You should be exalted after comming back here from Ashenvale. Go to Darkshore 37.78,41.08
 		'Talk to Quartermaster Nyana (id:45119)|c
@@ -813,6 +812,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Darkshore (12-20)",[[
 		'Buy a Reinforced Bow (level 16 white bow) from her. If you have the money, buy the Heavy Recurve bow too (lvl 20 white bow). Go to Darnassus 63.4,66.4
 		.'Talk to Landria (id:4173)|c
 		.'If you are close to the money ammount for both but not yet there, craft some heavy bandages and sell them. That should do the trick.|c
+		.'Alternative route: don't buy the Reinforced Bow if someone bought you the Fine Longbow before.|c
 	step//62
 		Go to Darnassus 31.36,84.08
 		'Talk to Chief Archaeologist Greywhisker (id:2912)|c
@@ -917,7 +917,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Darkshore (12-20)",[[
 		'Turn in Buzzbox 323 (id:1002)|c
 		'Accept Buzzbox 525 (id:1003)|c
 	step//87
-		'Walk down to Auberdine or die to deathwarp (if the later, keep reading). There is GY in the "secret" troll village now and you will respawn there if you are too up north in darkshore.. Go to Darkshore 38.85,43.5
+		'Walk down to Auberdine or die to deathwarp (if the later, keep reading). There is a GY in the "secret" troll village now and you will respawn there if you are too up north in darkshore.. Go to Darkshore 38.85,43.5
 		'Dying near the river delta should be good enough to deathwarp to Auberdine's graveyard. Go to Darkshore 50.78,22.38
 		'Likewise for the furbolg camp. Go to Darkshore 52.38,33.43
 		'Talk to Tharnariun Treetender (id:3701)|c
@@ -1158,15 +1158,16 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Darkshore (12-20)",[[
 		.'Kill Grizzletooth (id:46905) for a quest (id:27941, objective1)|c
 		'Talk to Volcor (id:3692)|c
 		.'Turn in A Lost Master (id:993)|c
-		.'Accept Escape Through Force (id:994)|c
-		'Kill things ahead of him so he doesn't stop walking as much|c
-		'Goal: Help Volcor to the road. For a quest (id:994, objective:1)|c
 	step//145
+		'Accept "Escape through force" if you think you won't be hitting level 20 when you reach the Ashenvale's outpost. Accept the other option otherwise|c
+		'If you are doing excape through force kill things ahead of him so he doesn't stop walking as much|c
+		.'Otherwise just run south. Skip this after you are done|c
+	step//146
 		Go to Darkshore 45.89,90.32
 		'Talk to Sentinel Aynasha (id:11711)|c
 		.'Accept One Shot.  One Kill. (id:5713)|c
 		'Goal: Protect Aynasha. For a quest (id:5713, objective:1)|c
-	step//146
+	step//147
 		'Avoid the main road so you don't trigger the ambushes. Go to Darkshore 44.79,93.72
 		.'If you bought the level 20 white bow in Darnassus, equip it (or when you hit 20 pretty soon).|c
 ]])
@@ -1269,7 +1270,8 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Ashenvale & Stonetalon 
 	step//24
 		Go to Darkshore 39.35,43.43
 		'Talk to Terenthis (id:3693)|c
-		.'Turn in Escape Through Force (id:994)|c
+		.'Turn in either of Volcor's quests, the one you chose back there at the cave when running to Ashenvale|c
+		.'Skip otherwise|c
 	step//25
 		'>>> If the cart is about to go away don't wait out the RP, the XP from this quest isn't worth it <<<. Go to Darkshore 39.19,43.42
 		'Talk to Sentinel Selarin (id:3694)|c
