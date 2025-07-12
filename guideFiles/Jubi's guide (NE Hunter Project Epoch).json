@@ -4396,7 +4396,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "During this section an alternative route will be mentioned. In this route, you are assuming someone bought you a Fine Longbow (green lvl14) off of a merchant beforehand and you don't have to go to Menethil to buy it.",
+							"comment": "During this section an alternative route will be mentioned. In this route, you are assuming someone bought you a Fine Longbow (green lvl14) off of a merchant beforehand.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -5347,7 +5347,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Alternative route: buy x1 Simple Wood and Flint and Tinder for later aswell",
+							"comment": "Buy x1 Simple Wood and Flint and Tinder for later aswell",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -6262,7 +6262,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Grind the furbolgs until you are level 15 (around 3 full clears). Sell junk after every round at the vendor near the beach and kill bears + striders if you need to wait out respawns.",
+							"comment": "Grind the furbolgs until you are level 15 (around 3 full clears). Sell junk after every round at the vendor near the beach and kill bears, striders and moonstalkers if you need to wait out respawns.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -6276,7 +6276,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "Also, if you still don't have 5 strider meat try to kill the ones that are around for some",
+							"comment": "Also, if you still don't have 5 strider meat try to kill the ones that are around for some regardless",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -6377,150 +6377,16 @@
 							"coordsMap": "Darkshore",
 							"xCoord": 32.4,
 							"yCoord": 43.76,
-							"comment": "Once you get to Auberdine check for the boat to Menethil. If its already there or leaving go to Darnassus instead (check some steps ahead for what to do). Otherwise, run to the docks.",
+							"comment": "Once you get to Auberdine check for the boat to Teldrassil (north-east). If its already there or leaving go grab the flightpath, you won't make it. Otherwise, run to the docks.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"comment": "While you wait for the boat work on leveling first aid until linen bandage turns green (45)",
+							"comment": "While you wait for the boat/are on it work on leveling first aid until linen bandage turns green (45)",
 							"depth": 0,
 							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Alternative route: go where the boat to Darnassus docks (north), train first aids untill bandages turn green (45 first aids). If the boat just docked you don't have time. Fly to Darnassus and train FA in front of the trainer there.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [
-								{
-									"comment": "Jump to step 62 if on this route",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 11.17,
-							"yCoord": 58.11,
-							"coordsMap": "Wetlands",
-							"comment": "You are on a timer once you get to menethil, buy the bow, cook the eggs and get first aids to level 50.",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"npcName": "Naela Trance",
-							"npcId": 1459,
-							"depth": 0,
-							"type": "Talk to",
-							"subTasks": [
-								{
-									"comment": "Buy the green bow, better quiver if you haven't yet and fill it with arrows BUT DON'T SORT THE INVENTORY HERE, KEEP MOVING",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						},
-						{
-							"xCoord": 10.67,
-							"yCoord": 61.51,
-							"coordsMap": "Wetlands",
-							"comment": "Cook the eggs here and then head upstairs",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"xCoord": 10.83,
-							"yCoord": 61.34,
-							"coordsMap": "Wetlands",
-							"comment": "Begin crafting the bandages before talking to the gnome if you are not 45 first aids yet",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"npcName": "Fremal Doohickey",
-							"npcId": 3181,
-							"depth": 0,
-							"type": "Talk to",
-							"subTasks": [
-								{
-									"comment": "Learn heavy linen bandage, train to first aids 50, learn the next FA rank and head back to the docks",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 4.6,
-							"yCoord": 57.18,
-							"coordsMap": "Wetlands",
-							"comment": "Grab the FP on your way out of the inn",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "You should have had enough time. Keep leveling first aid with all the linen you have while traveling back to Darkshore",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"xCoord": 36.08,
-							"yCoord": 44.9,
-							"coordsMap": "Darkshore",
-							"comment": "Jump off the boat early, when you are near where the dwarf is.",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						}
-					]
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 36.36,
-							"yCoord": 45.56,
-							"coordsMap": "Darkshore",
-							"comment": "Grab the FP to Darnassus, DON'T TURN IN ANY QUESTS YET except for the ones mentioned",
-							"depth": 0,
-							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						}
@@ -6571,15 +6437,15 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Darnassus",
 							"xCoord": 51.65,
 							"yCoord": 12.64,
-							"coordsMap": "Darnassus",
-							"comment": "If you somehow managed to reach FA level 80, train wool bandages",
+							"comment": "Learn heavy linen bandages and train first aids to level 50 to learn the next rank",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
 								{
-									"comment": "Alternative route: go here regardless and train first aids until you can learn the next rank",
+									"comment": "If somehow you still have >100 linen at this point you can keep crafting heavy bandages untill you reach FA 80 for wool bandages. Not recommended anyways since you will have plenty of chances moving forward where you have nothing else to do other than craft",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -6596,6 +6462,37 @@
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.4,
+							"yCoord": 66.4,
+							"coordsMap": "Darnassus",
+							"comment": "Buy a Reinforced Bow (level 16 white bow) from her. If you have the money, buy the Heavy Recurve bow too (lvl 20 white bow)",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Landria",
+									"npcId": 4173,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "If you are close to the money ammount for both but not yet there, craft some heavy bandages and sell them. That should do the trick.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -6809,7 +6706,7 @@
 							"xCoord": 39.34,
 							"yCoord": 43.42,
 							"coordsMap": "Darkshore",
-							"comment": "Craft some bandages. Alternative route: create a campfire here and cook the eggs (10 cooking)",
+							"comment": "Create a campfire here (that's why you bought the wood and the flint) and cook the eggs (10 cooking). If the RP hasn't ended yet, train first aids",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -7043,13 +6940,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 44.18,
-							"yCoord": 36.25
+							"yCoord": 36.25,
+							"coordsMap": "Darkshore",
+							"comment": "You should have hit level 16 already. Equip the bow bought in Darnassus",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -9506,7 +9404,15 @@
 							"comment": "Avoid the main road so you don't trigger the ambushes",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "If you bought the level 20 white bow in Darnassus, equip it (or when you hit 20 pretty soon).",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -9868,13 +9774,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ashenvale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 26.22,
-							"yCoord": 38.61
+							"yCoord": 38.61,
+							"coordsMap": "Ashenvale",
+							"comment": "Do bandages while waiting",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -9902,7 +9809,6 @@
 							"xCoord": 22.67,
 							"yCoord": 51.89,
 							"coordsMap": "Ashenvale",
-							"comment": "Do bandages while waiting",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -12831,13 +12737,37 @@
 							"isCustom": false
 						},
 						{
+							"coordsMap": "Darnassus",
 							"xCoord": 51.71,
 							"yCoord": 12.13,
-							"coordsMap": "Darnassus",
-							"comment": "Train wool bandages  to craft them while on the boat to Menethil",
+							"comment": "Train wool bandages  to craft them while on the boat to Menethil if you didn't train them before",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.4,
+							"yCoord": 66.4,
+							"coordsMap": "Darnassus",
+							"comment": "If you didn't buy a Heavy recurve bow (lvl 20 white bow) from her before do so now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Landria",
+									"npcId": 4173,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],

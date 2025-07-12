@@ -1,10 +1,10 @@
 local ZygorGuidesViewer=ZygorGuidesViewer
 if not ZygorGuidesViewer then return end
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Teldrassil (1-12)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Teldrassil (1-12)",[[
 	author Jubi (discord: jubi_7)
 	defaultfor NightElf
-	next Jubi's guide Full text\\Darkshore (12-20)
+	next Jubi's guide Full Text\\Darkshore (12-20)
 	startlevel 80
 	step//1
 		Go to Teldrassil 58.61,44.79
@@ -45,8 +45,8 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Teldrassil (1-12)",[[
 		.'Accept Etched Sigil (id:3117)|c
 	step//9
 		Go to Teldrassil 60.01,42.2
-		'Talk to Alanea Miststriker (id:45087)|c
-		.'Accept Corruption in Shadowglen (id:26179)|c
+		'Talk to Alanea Miststriker (id:46257)|c
+		.'Accept Corruption in Shadowglen (id:27480)|c
 	step//10
 		Go to Teldrassil 60.9,41.93
 		'Talk to Dirania Silvershine (id:8583)|c
@@ -119,13 +119,13 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Teldrassil (1-12)",[[
 		'Finish the quest while moving towards here. Boars near the well, sabers are towards where you are moving. Go to Teldrassil 63.85,41.86
 	step//27
 		'Skip this if the area is to busy on launch. Go to Teldrassil 63.85,41.86
-		.'Kill 8 Frenzied Moonkin (id:45088) for a quest (id:26179, objective1)|c
-		.'Kill Natook (id:45089) for a quest (id:26179, objective2)|c
+		.'Kill 8 Frenzied Moonkin (id:45088) for a quest (id:27480, objective1)|c
+		.'Kill Natook (id:45089) for a quest (id:27480, objective2)|c
 		.'Keep an eye on your HP, the DoT will kill you if you stack too many|c
 	step//28
 		'Skip this step if the area was too busy. Go to Teldrassil 60.11,42.28
 		'Talk to Alanea Miststriker (id:45087)|c
-		.'Turn in Corruption in Shadowglen (id:26179)|c
+		.'Turn in Corruption in Shadowglen (id:27480)|c
 	step//29
 		'Sell junk. Go to Teldrassil 59.32,41.13
 		'Talk to Keina (id:3589)|c
@@ -167,7 +167,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Teldrassil (1-12)",[[
 	step//38
 		'Jump down. Sell junk while you are at it.. Go to Teldrassil 55.93,59.18
 		'Talk to Jeena Featherbow (id:3610)|c
-		.'Accept Demons In Fel Rock (id:26180)|c
+		.'Accept Demons In Fel Rock (id:27483)|c
 	step//39
 		'>>>SET HEARTHSTONE<<<. Go to Teldrassil 55.67,59.78
 		'Talk to Innkeeper Keldamyr (id:6736)|c
@@ -175,140 +175,140 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Teldrassil (1-12)",[[
 	step//40
 		'If you didn't reach level 6 in Shadowgleen talk to the trainer afterwards to learn Arcane shot. Go to Teldrassil 55.67,59.75
 		'Talk to Melarith (id:6781)|c
-		.'Accept Attack on the Gnarlpine (id:26176)|c
+		.'Accept Attack on the Gnarlpine (id:27477)|c
 	step//41
+		'If you didn't reach level 6 in Shadowgleen talk to the trainer afterwards to learn Arcane shot. Go to Teldrassil 55.67,59.75
+		.'Learn skinning from the profession trainer nearby regardless|c
+	step//42
 		Go to Teldrassil 56.19,61.64
 		'Talk to Corithras Moonrage (id:3515)|c
 		.'Turn in Crown of the Earth (id:928)|c
 		.'Accept Crown of the Earth (id:929)|c
-	step//42
+	step//43
 		'Learn cooking. Need spider legs x7 and eggs x9. Go to Teldrassil 57.18,61.23
 		'Talk to Zarrin (id:6286)|c
 		.'Accept Recipe of the Kaldorei (id:4161)|c
-	step//43
+	step//44
 		Go to Teldrassil 57.67,60.65
 		'Learn herbalism here. Track herbs can be used to track some quest items.|c
 		'Talk to Malorne Bladeleaf (id:3604)|c
-		.'Accept Herbal Medicine (id:26182)|c
-	step//44
-		'Kill the owl behind the house and some nightsabers while running towards the lake.. Go to Teldrassil 58.99,63
+		.'Accept Herbal Medicine (id:27485)|c
 	step//45
+		'Kill the owl behind the house and some nightsabers while running towards the lake.. Go to Teldrassil 58.99,63
+	step//46
 		'Wait out the roleplay when turning the quest. Go to Teldrassil 60.83,68.54
 		'Talk to Denalan (id:2080)|c
 		.'Turn in Denalan's Earth (id:997)|c
 		.'Accept Timberling Seeds (id:918)|c
 		.'Accept Timberling Sprouts (id:919)|c
-	step//46
+	step//47
 		'All around the lake. Preferably the southern side of it. Get the sprouts nort-east of the quest giver up until where the Nigthsabers were then go south. You won't have to go too far away this way.|c
 		'Get 12 Timberling Sprout for a quest (id:919, objective:1)|c
 		'Get 8 Timberling Seed for a quest (id:918, objective:1)|c
-	step//47
+	step//48
 		Go to Teldrassil 60.88,68.53
 		'Talk to Denalan (id:2080)|c
 		.'Turn in Timberling Sprouts (id:919)|c
 		.'Turn in Timberling Seeds (id:918)|c
 		.'Accept Rellian Greenspyre (id:922)|c
-	step//48
-		'Climb up from here to get out of the lake. Go to Teldrassil 62.32,65.38
 	step//49
-		'Kill owls and spiders on the way for the satyr quest. Go to Teldrassil 66.05,60.11
+		'Climb up from here to get out of the lake. Go to Teldrassil 62.32,65.38
 	step//50
+		'Kill owls and spiders on the way for the satyr quest. Go to Teldrassil 66.05,60.11
+	step//51
 		'Look around to see if the rare is around, he paths into the house|c
 		'Click the furniture inside the house. Go to Teldrassil 67.98,59.6
 		.'Get Emerald Dreamcatcher for a quest (id:2438, objective:1)|c
-	step//51
+	step//52
 		Go to Teldrassil 66.27,58.53
 		'You can cheese the mobs by jumping up and down the ledges of the house|c
 		'Talk to Gaerolas Talvethren (id:2107)|c
 		.'Turn in A Troubling Breeze (id:475)|c
 		.'Accept Gnarlpine Corruption (id:476)|c
-	step//52
+	step//53
 		'Fill the phial at the moonwell. Use Jade Phial. Go to Teldrassil 63.3,58.06
 		.'Get Filled Jade Phial for a quest (id:929, objective:1)|c
-	step//53
+	step//54
 		'Cats southwest of the moonwell. If missing lots of owls there are some extra on the road to Shadowgleen. Try to finish cooking quest|c
 		.'Get 3 Nightsaber Fang from Nightsaber(id:2042) for a quest (id:488, objective:1)|c
 		.'Get 3 Strigid Owl Feather from Strigid Owl(id:1995) for a quest (id:488, objective:2)|c
 		.'Get 3 Webwood Spider Silk from Webwood Lurker(id:1998) for a quest (id:488, objective:3)|c
 		.'Get 7 Small Spider Leg from Webwood Lurker(id:1998) for a quest (id:4161, objective:1)|c
-	step//54
+	step//55
 		Go to Teldrassil 60.43,56.34
 		'Talk to Zenn Foulhoof (id:2150)|c
 		.'Turn in Zenn's Bidding (id:488)|c
-	step//55
+	step//56
 		Go to Teldrassil 56.21,57.74
 		'Talk to Syral Bladeleaf (id:2083)|c
 		.'Accept Seek Redemption! (id:489)|c
-	step//56
+	step//57
 		'Skip the relics quest. Go to Teldrassil 55.93,57.35
 		'Talk to Athridas Bearmantle (id:2078)|c
 		.'Turn in Gnarlpine Corruption (id:476)|c
-	step//57
+	step//58
 		Go to Teldrassil 55.52,56.91
 		'Learn First Aid|c
 		'Talk to Tallonkai Swiftroot (id:3567)|c
 		.'Turn in The Emerald Dreamcatcher (id:2438)|c
 		.'Accept Ferocitas the Dream Eater (id:2459)|c
-	step//58
+	step//59
 		'Repair/Buy arrows if needed at the inn and train level 8 skills if at that level.|c
 		'Otherwise, just head to the east|c
 		'Skip this step|c
-	step//59
+	step//60
 		'The are 3 Fel Cones here. Go to Teldrassil 58.34,55.93
 		.'Get 3 Fel Cone for a quest (id:489, objective:1)|c
-	step//60
+	step//61
 		Go to Teldrassil 60.47,56.37
 		'Turn in Seek Redemption! (id:489)|c
-	step//61
+	step//62
 		'The chest in this camp is not worth going for if the respawns are fast. Go to Teldrassil 68.41,53.86
 		.'Kill 7 Gnarlpine Mystic (id:7235) for a quest (id:2459, objective1)|c
-		.'Kill 4 Gnarlpine Warrior (id:2008) for a quest (id:26176, objective2)|c
+		.'Kill 4 Gnarlpine Warrior (id:2008) for a quest (id:27477, objective2)|c
 		..'Might have finished those already. Need to now if not.|c
 		.'Get Tallonkai's Jewel from Ferocitas the Dream Eater(id:7234) for a quest (id:2459, objective:2)|c
 		..'The gem is inside the container that Ferocitas drops. Use Gnarlpine Necklace|c
-	step//62
-		'Die around this place to deathwarp to Dolanaar. Go to Teldrassil 67.1,59.69
 	step//63
+		'Die around this place to deathwarp to Dolanaar. Go to Teldrassil 67.1,59.69
+	step//64
 		Go to Teldrassil 56.16,61.66
 		'Talk to Corithras Moonrage (id:3515)|c
 		.'Turn in Crown of the Earth (id:929)|c
 		.'Accept Crown of the Earth (id:933)|c
-	step//64
+	step//65
 		Go to Teldrassil 57.06,61.3
 		'Need to save some items to reach Cooking 10 for a quest in Darkshore. 9 small eggs, can be adquired in Darkshore later too.|c
 		'Talk to Zarrin (id:6286)|c
 		.'Turn in Recipe of the Kaldorei (id:4161)|c
-	step//65
-		'Buy arrows/repair at the inn and train level 8 spells if you didn't before.|c
 	step//66
+		'Buy arrows/repair at the inn and train level 8 spells if you didn't before.|c
+	step//67
 		'Look for the Satyr boss inside the cave. Path towards the lower level where the pond is. If he is in 1 of the 2 balconies, go through the first corridor the went north at the entrance of the cave.. Go to Teldrassil 54.65,52.63
-		.'Get 10 Demon Essence from Shadow Sprite(id:2003), Rascal Sprite(id:2002), Dark Sprite(id:2004) or Vicious Grell(id:2005) for a quest (id:26180, objective:1)|c
+		.'Get 10 Demon Essence from Shadow Sprite(id:2003), Rascal Sprite(id:2002), Dark Sprite(id:2004) or Vicious Grell(id:2005) for a quest (id:27483, objective:1)|c
 		.'Get Melenas' Head from Lord Melenas(id:2038) for a quest (id:932, objective:1)|c
 		..'Doesn't seem to social agro de Grells for some reason|c
-	step//67
+	step//68
 		'Look for the patrol and accept their quest if you haven't yet. Go to Teldrassil 52.8,56.72
 		'Talk to Moon Priestess Amara (id:2151)|c
 		.'Accept The Road to Darnassus (id:487)|c
-	step//68
+	step//69
 		Go to Teldrassil 48.49,54.88
 		.'Kill 4 Gnarlpine Ambusher (id:2152) for a quest (id:26176, objective1)|c
-	step//69
+	step//70
 		'Should be finishing the amulets quest now. >>> Kill at least 2 Shamans here <<< 3 are outside the tunnel. 1 more inside. Go to Teldrassil 44.69,56.97
 		.'Get 10 Gnarlpine Amulet for a quest (id:487, objective:1)|c
 		..'Any Furbolg|c
-	step//70
+	step//71
 		'>>> Kill at least 2 Shamans here <<< 3 are outside the tunnel. 1 more inside. Go to Teldrassil 44.69,56.97
 		'Skip this step afterwards|c
-	step//71
-		'Learn skinning for a free damage buff. Don't buy a skinning knife. Don't waste time leveling skinning. Don't pass go. Don't collect 200g.. Go to Teldrassil 42.1,50.03
-		.'Talk to Radnaal Maneweaver (id:6287)|c
 	step//72
 		'Loop around the mountain counter-clock wise to reach the lakes. Loot the lilies while heading towards the furbolg camp. Finish killing the Shamans and Defenders now.. Go to Teldrassil 38.51,66.04
-		.'Kill 4 Gnarlpine Defender (id:2010) for a quest (id:26176, objective3)|c
-		.'Kill 4 Gnarlpine Shaman (id:2009) for a quest (id:26176, objective4)|c
+		.'Kill 4 Gnarlpine Defender (id:2010) for a quest (id:27477, objective3)|c
+		.'Kill 4 Gnarlpine Shaman (id:2009) for a quest (id:27477, objective4)|c
 	step//73
 		'Continue looting lilies towards the well at the south of the lakes. Go to Teldrassil 39.59,65.4
-		.'Get 8 Lily Whip for a quest (id:26182, objective:1)|c
+		.'Get 8 Lily Whip for a quest (id:27485, objective:1)|c
 	step//74
 		'Fill the phial at the moonwell. Use Tourmaline Phial. Go to Teldrassil 42.4,67.12
 		.'Get Filled Tourmaline Phial for a quest (id:933, objective:1)|c
@@ -326,15 +326,15 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Teldrassil (1-12)",[[
 	step//78
 		Go to Teldrassil 57.67,60.62
 		'Talk to Malorne Bladeleaf (id:3604)|c
-		.'Turn in Herbal Medicine (id:26182)|c
+		.'Turn in Herbal Medicine (id:27485)|c
 	step//79
 		Go to Teldrassil 55.71,59.65
 		'Talk to Melarith (id:6781)|c
-		.'Turn in Attack on the Gnarlpine (id:26176)|c
+		.'Turn in Attack on the Gnarlpine (id:27477)|c
 	step//80
 		'Buy arrows/repair if needed. Go to Teldrassil 55.9,59.16
 		'Talk to Jeena Featherbow (id:3610)|c
-		.'Turn in Demons In Fel Rock (id:26180)|c
+		.'Turn in Demons In Fel Rock (id:27483)|c
 		.'Accept Purifying the Essence (id:26181)|c
 	step//81
 		'If the patroling quest giver is around turn the quest in. Skip this step|c
@@ -551,15 +551,15 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Teldrassil (1-12)",[[
 		'Fly to Darkshore|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Darkshore (12-20)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Darkshore (12-20)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Ashenvale & Stonetalon (20-24)
+	next Jubi's guide Full Text\\Ashenvale & Stonetalon (20-24)
 	startlevel 80
 	step//1
 		Go to Darkshore 36.59,45.56
 		'Talk to Gwennyth Bly'Leggonde (id:10219)|c
 		.'Accept Washed Ashore (id:3524)|c
-		'During this section an alternative route will be mentioned. In this route, you are assuming someone bought you a Fine Longbow (green lvl14) off of a merchant beforehand and you don't have to go to Menethil to buy it.|c
+		'During this section an alternative route will be mentioned. In this route, you are assuming someone bought you a Fine Longbow (green lvl14) off of a merchant beforehand.|c
 	step//2
 		Go to Darkshore 36.79,44.36
 		'Talk to Laird (id:4200)|c
@@ -677,7 +677,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Darkshore (12-20)",[[
 	step//30
 		'Buy 6 slot bags for every bag slot you are missing. Fill quiver with arrows and some extra just in case.. Go to Darkshore 37.49,40.53
 		.'Talk to Dalmond (id:4182)|c
-		'Alternative route: buy x1 Simple Wood and Flint and Tinder for later aswell|c
+		'Buy x1 Simple Wood and Flint and Tinder for later aswell|c
 	step//31
 		Go to Darkshore 37.43,40.19
 		'Talk to Thundris Windweaver (id:3649)|c
@@ -783,9 +783,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Darkshore (12-20)",[[
 		.'Kill 5 Blackwood Windtalker (id:2324) for a quest (id:985, objective2)|c
 		'You have a vendor at [36,56]|c
 	step//54
-		'Grind the furbolgs until you are level 15 (around 3 full clears). Sell junk after every round at the vendor near the beach and kill bears + striders if you need to wait out respawns.|c
+		'Grind the furbolgs until you are level 15 (around 3 full clears). Sell junk after every round at the vendor near the beach and kill bears, striders and moonstalkers if you need to wait out respawns.|c
 		'You NEED to do this for 3 reasons. 1 is to make sure you reach Ashenvale at level 20. Next is that you are short on linen to level first aids. And last, if you wan't to level with warmode you will need level 15. If you needed to turn in quests now to get there then you would lose the bonus XP on said quests.|c
-		'Also, if you still don't have 5 strider meat try to kill the ones that are around for some|c
+		'Also, if you still don't have 5 strider meat try to kill the ones that are around for some regardless|c
 	step//55
 		'Back to Auberdine, but don't turn in any of the quests yet (unless stated). Wait until you are back from Darnassus. Go to Darkshore 36.08,44.9
 		.'>>> Make sure you have 5 Strider Meat <<<|c
@@ -798,182 +798,169 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Darkshore (12-20)",[[
 		'Talk to Cerellean Whiteclaw (id:3644)|c
 		.'Turn in For Love Eternal (id:963)|c
 	step//58
-		'Once you get to Auberdine check for the boat to Menethil. If its already there or leaving go to Darnassus instead (check some steps ahead for what to do). Otherwise, run to the docks.. Go to Darkshore 32.4,43.76
-		'While you wait for the boat work on leveling first aid until linen bandage turns green (45)|c
-		'Alternative route: go where the boat to Darnassus docks (north), train first aids untill bandages turn green (45 first aids). If the boat just docked you don't have time. Fly to Darnassus and train FA in front of the trainer there.|c
-		.'Jump to step 62 if on this route|c
+		'Once you get to Auberdine check for the boat to Teldrassil (north-east). If its already there or leaving go grab the flightpath, you won't make it. Otherwise, run to the docks.. Go to Darkshore 32.4,43.76
+		'While you wait for the boat/are on it work on leveling first aid until linen bandage turns green (45)|c
 	step//59
-		'You are on a timer once you get to menethil, buy the bow, cook the eggs and get first aids to level 50.. Go to Wetlands 11.17,58.11
-		'Talk to Naela Trance (id:1459)|c
-		.'Buy the green bow, better quiver if you haven't yet and fill it with arrows BUT DON'T SORT THE INVENTORY HERE, KEEP MOVING|c
-		'Cook the eggs here and then head upstairs. Go to Wetlands 10.67,61.51
-		'Begin crafting the bandages before talking to the gnome if you are not 45 first aids yet. Go to Wetlands 10.83,61.34
-		'Talk to Fremal Doohickey (id:3181)|c
-		.'Learn heavy linen bandage, train to first aids 50, learn the next FA rank and head back to the docks|c
-	step//60
-		'Grab the FP on your way out of the inn. Go to Wetlands 4.6,57.18
-		'You should have had enough time. Keep leveling first aid with all the linen you have while traveling back to Darkshore|c
-	step//61
-		'Jump off the boat early, when you are near where the dwarf is.. Go to Darkshore 36.08,44.9
-	step//62
-		'Grab the FP to Darnassus, DON'T TURN IN ANY QUESTS YET except for the ones mentioned. Go to Darkshore 36.36,45.56
-	step//63
 		Go to Teldrassil 56.26,92.41
 		'Talk to Nessa Shadowsong (id:10118)|c
 		.'Turn in Return to Nessa (id:6343)|c
-	step//64
+	step//60
 		'Train spells.. Go to Darnassus 40.29,8.9
-		'If you somehow managed to reach FA level 80, train wool bandages. Go to Darnassus 51.65,12.64
-		.'Alternative route: go here regardless and train first aids until you can learn the next rank|c
+		'Learn heavy linen bandages and train first aids to level 50 to learn the next rank. Go to Darnassus 51.65,12.64
+		.'If somehow you still have >100 linen at this point you can keep crafting heavy bandages untill you reach FA 80 for wool bandages. Not recommended anyways since you will have plenty of chances moving forward where you have nothing else to do other than craft|c
 		'>>> If you don't want to level up with warmode, skip this <<< (this guide might not be 100% accurate w/o the XP boost). Go talk to the Warmode NPC and turn it on. This is the reason you were ignoring the quest turn ins.. Go to Darnassus 62.07,40.14
-	step//65
+	step//61
+		'Buy a Reinforced Bow (level 16 white bow) from her. If you have the money, buy the Heavy Recurve bow too (lvl 20 white bow). Go to Darnassus 63.4,66.4
+		.'Talk to Landria (id:4173)|c
+		.'If you are close to the money ammount for both but not yet there, craft some heavy bandages and sell them. That should do the trick.|c
+	step//62
 		Go to Darnassus 31.36,84.08
 		'Talk to Chief Archaeologist Greywhisker (id:2912)|c
 		.'Accept Trouble In Darkshore? (id:730)|c
-	step//66
+	step//63
 		'HS back to Auberdine. Use Hearthstone|c
-	step//67
+	step//64
 		Go to Darkshore 36.62,45.54
 		'Talk to Gwennyth Bly'Leggonde (id:10219)|c
 		.'Turn in Beached Sea Turtle (id:4722)|c
 		.'Turn in Beached Sea Creature (id:4723)|c
-	step//68
+	step//65
 		'First wanted poster. Go to Darkshore 37.21,44.22
 		'Accept WANTED: Murkdeep! (id:4740)|c
-	step//69
+	step//66
 		'Second wanted poster. Go to Darkshore 37.25,44.19
 		'Accept Wanted: Grizzletooth (id:27941)|c
-	step//70
+	step//67
 		Go to Darkshore 37.66,43.37
 		'Talk to Sentinel Glynda Nal'Shea (id:2930)|c
 		.'Turn in Balancing the Forest (id:26200)|c
 		.'Turn in The Fragments Within (id:4813)|c
-	step//71
+	step//68
 		'Turn this one first. You will have to wait a bit for the RP to play out. Go to Darkshore 39.37,43.46
 		'Talk to Terenthis (id:3693)|c
 		.'Turn in How Big a Threat? (id:985)|c
-	step//72
-		'Craft some bandages. Alternative route: create a campfire here and cook the eggs (10 cooking). Go to Darkshore 39.34,43.42
+	step//69
+		'Create a campfire here (that's why you bought the wood and the flint) and cook the eggs (10 cooking). If the RP hasn't ended yet, train first aids. Go to Darkshore 39.34,43.42
 		'Talk to Terenthis (id:3693)|c
 		.'Accept A Lost Master (id:986)|c
-	step//73
+	step//70
 		'Only if you coulnd't before, otherwise skip this. Go to Darkshore 38.11,41.21
 		'Talk to Gorbold Steelhand (id:6301)|c
 		.'Accept Deep Ocean, Vast Sea (id:982)|c
-	step//74
+	step//71
 		Go to Darkshore 37.47,41.86
 		'Talk to Archaeologist Hollee (id:2913)|c
 		.'Turn in Trouble In Darkshore? (id:730)|c
 		.'Accept The Absent Minded Prospector (id:729)|c
-	step//75
+	step//72
 		'Skip the follow up on the sister questline.. Go to Darkshore 37.55,41.64
 		'Talk to Bill Wheeland (id:46696)|c
 		.'Turn in My Sister Isabetta (id:28110)|c
 		.'Turn in The Greymist Menace (id:27937)|c
 		.'Accept The Greymist Menace (id:27938)|c
 		'Just run across a zone with skull mobs/do an unintended skip to finish the questline in Westfall. Don't add the SW boat in Darkshore obviously, it's all in the vanilla spirit and not terrible game design, didn't you know? I wonder why they added a ferry to Southshore. Why don't we have to run across Arathi to go there early? Hmmmm...|c
-	step//76
+	step//73
 		'If you are level 10 cooking and the strider meat quest isn't unlocked it means that you need level 15 cooking. Go to Darkshore 37.68,40.71
 		'Talk to Alanndarian Nightsong (id:3702)|c
 		.'Accept Easy Strider Living (id:2178)|c
 		.'Turn in Easy Strider Living (id:2178)|c
 		.'Accept The Twilight's Hammer (id:26201)|c
-	step//77
+	step//74
 		Go to Darkshore 37.4,40.16
 		'Talk to Thundris Windweaver (id:3649)|c
 		.'Turn in Tools of the Highborne (id:958)|c
-	step//78
-		Go to Darkshore 44.18,36.25
+	step//75
+		'You should have hit level 16 already. Equip the bow bought in Darnassus. Go to Darkshore 44.18,36.25
 		'Talk to Asterion (id:3650)|c
 		.'Turn in Bashal'Aran (id:957)|c
-	step//79
+	step//76
 		'Get the south-western ship lockbox first. Go to Darkshore 38.24,28.83
 		.'Get Silver Dawning's Lockbox for a quest (id:982, objective:1)|c
 		Go to Darkshore 39.65,27.45
 		.'Get Mist Veil's Lockbox for a quest (id:982, objective:2)|c
-	step//80
+	step//77
 		'Try to kill some Moonstalkers on the way here. Ignore the grey level ones. Go to Darkshore 44.22,20.75
 		'Accept Beached Sea Turtle (id:4725)|c
-	step//81
+	step//78
 		'Kill the crabs on your way here. Go to Darkshore 50.48,22.75
 		'Get 6 Fine Crab Chunks from Reef Crawler(id:2235) for a quest (id:1138, objective:1)|c
-	step//82
+	step//79
 		'Get the river sample. Use Empty Sampling Tube. Go to Darkshore 50.85,25.64
 		.'Get Cliffspring River Sample for a quest (id:4762, objective:1)|c
-	step//83
+	step//80
 		Go to Darkshore 53.1,18.22
 		'Accept Beached Sea Turtle (id:4727)|c
-	step//84
+	step//81
 		'There are a bunch of Moonstalkers here if you need fangs.. Go to Darkshore 54.47,21.33
 		'Skip this step|c
-	step//85
+	step//82
 		Go to Darkshore 54.96,24.92
 		'Talk to Balthule Shadowstrike (id:3661)|c
 		.'Turn in The Tower of Althalaxx (id:965)|c
 		.'Accept The Tower of Althalaxx (id:966)|c
-	step//86
+	step//83
 		'Get 4 Worn Parchment from Dark Strand Fanatic(id:2336) for a quest (id:966, objective:1)|c
-	step//87
+	step//84
 		Go to Darkshore 54.94,24.89
 		'Talk to Balthule Shadowstrike (id:3661)|c
 		.'Turn in The Tower of Althalaxx (id:966)|c
 		.'Accept The Tower of Althalaxx (id:967)|c
-	step//88
+	step//85
 		'Grind Moonstalkers and bears towards the cave to progress both quests.. Go to Darkshore 54.96,33.09
 		.'Get 5 Scaber Stalk for a quest (id:947, objective:1)|c
 		.'Get Death Cap for a quest (id:947, objective:2)|c
 		'Turn right as soon as you enter the cave and at the end of the upper floor you can get 1 yellow shroom|c
-	step//89
+	step//86
 		'Kill Moonstalkers and bears around the river to finish both related quests then turn in the fangs at the Buzzbox. Go to Darkshore 51.34,24.62
 		'Get 6 Moonstalker Fang  from Moonstalker(id:2069) for a quest (id:1002, objective:1)|c
 		'Kill 20 Rabid Thistle Bear (id:2164) for a quest (id:2138, objective1)|c
 		'Turn in Buzzbox 323 (id:1002)|c
 		'Accept Buzzbox 525 (id:1003)|c
-	step//90
+	step//87
 		'Walk down to Auberdine or die to deathwarp (if the later, keep reading). There is GY in the "secret" troll village now and you will respawn there if you are too up north in darkshore.. Go to Darkshore 38.85,43.5
 		'Dying near the river delta should be good enough to deathwarp to Auberdine's graveyard. Go to Darkshore 50.78,22.38
 		'Likewise for the furbolg camp. Go to Darkshore 52.38,33.43
 		'Talk to Tharnariun Treetender (id:3701)|c
 		.'Turn in Cleansing of the Infected (id:2138)|c
 		.'Accept Tharnariun's Hope (id:2139)|c
-	step//91
+	step//88
 		Go to Darkshore 38.11,41.2
 		'Turn in Deep Ocean, Vast Sea (id:982)|c
-	step//92
+	step//89
 		'>>> Refill arrows <<<. Go to Darkshore 37.46,40.53
 		.'Talk to Dalmond (id:4182)|c
-	step//93
+	step//90
 		Go to Darkshore 37.42,40.15
 		'Talk to Thundris Windweaver (id:3649)|c
 		.'Turn in The Cliffspring River (id:4762)|c
 		.'Accept The Blackwood Corrupted (id:4763)|c
-	step//94
+	step//91
 		Go to Darkshore 37.36,43.66
 		'Talk to Barithras Moonshade (id:3583)|c
 		.'Turn in Cave Mushrooms (id:947)|c
 		.'Accept Onu (id:948)|c
-	step//95
+	step//92
 		'>>> Fill the bowl at the Moonwell <<<. Use Empty Cleansing Bowl. Go to Darkshore 37.78,44.06
 		Go to Darkshore 36.12,44.9
 		'Talk to Gubber Blump (id:10216)|c
 		.'Turn in Fruit of the Sea (id:1138)|c
-	step//96
+	step//93
 		Go to Darkshore 36.6,45.56
 		'Talk to Gwennyth Bly'Leggonde (id:10219)|c
 		.'Turn in Beached Sea Turtle (id:4727)|c
 		.'Turn in Beached Sea Turtle (id:4725)|c
-	step//97
+	step//94
 		'Make your way to the main road. If you catch the cart going south jump on it. Run otherwise.. Go to Darkshore 40,49
 		'If you deathwarped before and have rez sickness simply avoid unnecessary fights|c
 		'Jump off the cart here (/leavevehicle) and go towards the coast (kill any Sire or Grizzled bear you find). Go to Darkshore 41.11,70
-	step//98
+	step//95
 		Go to Darkshore 36.13,70.94
 		'Accept Beached Sea Creature (id:4728)|c
-	step//99
+	step//96
 		'Go south to the next Murloc camp. You might find a rare crab here. Kill it for some nice Mp5 boots. Go to Darkshore 36.85,76.64
 		'Once you get there, kill all the murlocs to start the event. The first wave takes a while. Craft bandages in between.|c
 		.'Kill Murkdeep (id:10323) for a quest (id:4740, objective1)|c
-	step//100
+	step//97
 		'Kill Moonstalkers and bears on your way to the nelf ruins. Go to Darkshore 43.55,76.31
 		'Talk to Onu (id:3616)|c
 		.'Turn in Onu (id:948)|c
@@ -982,97 +969,97 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Darkshore (12-20)",[[
 		.'Accept The Master's Glaive (id:944)|c
 		.'Accept Onu is meditating (id:960)|c
 		..'If you already have the scrying bowl you can ignore this quest|c
-	step//101
+	step//98
 		'Keep killing bears and moonstalkers on the way to Master's glaive. Go to Darkshore 39.55,84.15
 		'There are not enough spawns of Twilight Disciples to finish the custom quest!!! You will have to wait for respawns regardless|c
-	step//102
+	step//99
 		'Summon the scrying bowl. Use Phial of Scrying. Go to Darkshore 38.59,86.25
 		'Turn in The Master's Glaive (id:944)|c
 		'Accept The Twilight Camp (id:949)|c
-	step//103
+	step//100
 		'Interact with the book. Go to Darkshore 38.58,86.12
 		'Turn in The Twilight Camp (id:949)|c
 		'Accept Return to Onu (id:950)|c
-	step//104
+	step//101
 		Go to Darkshore 38.59,87.38
 		'Talk to Therylune (id:3584)|c
 		.'Accept Therylune's Escape (id:945)|c
-	step//105
+	step//102
 		'Goal: Escort Therylune. For a quest (id:945, objective:1)|c
 		.'Craft bandages while she walks. She will run back to her previous spot if you agro far away mobs so it's pointless.|c
 		'Kill 8 Twilight Disciple (id:2338) for a quest (id:26201, objective1)|c
 		'Kill 8 Twilight Thug (id:2339) for a quest (id:26201, objective2)|c
 		'>>> Wait for the disciples to spawn to finish this <<<|c
-	step//106
+	step//103
 		'If you got the book that starts a quest, delete it and abandon the quest. By the time you get to IF it's worth the XP of 4 mobs. Takes longer to walk up to the guy.|c
-	step//107
+	step//104
 		'Keep working on Moonstalkers. Bears should be done already. Go to Darkshore 41.35,80.65
 		'Get 4 Grizzled Scalp from Grizzled Thistle Bear(id:2165) for a quest (id:1003, objective:1)|c
-	step//108
+	step//105
 		Go to Darkshore 41.42,80.57
 		'Turn in Buzzbox 525 (id:1003)|c
-	step//109
+	step//106
 		'If you are very low on Moonstalker pelts you can go kill some around the lake in [42,81]. Go to Darkshore 43.57,76.37
 		'Talk to Onu (id:3616)|c
 		.'Turn in Return to Onu (id:950)|c
 		.'Accept Mathystra Relics (id:951)|c
-	step//110
+	step//107
 		'Finish Moonstalkers on the way if not done yet. Go to Darkshore 35.79,83.62
 		'Get 5 Fine Moonstalker Pelt from Moonstalker Sire(id:2237) for a quest (id:986, objective:1)|c
 		'Talk to Archeologist Everit (id:47061)|c
 		.'Accept Rampaging Golems (id:27943)|c
 		.'Accept Personal Possessions (id:27942)|c
-	step//111
+	step//108
 		'Start the escort quest. Go to Darkshore 35.77,83.73
 		'Talk to Prospector Remtravel (id:2917)|c
 		.'Turn in The Absent Minded Prospector (id:729)|c
 		.'Accept The Absent Minded Prospector (id:731)|c
-	step//112
+	step//109
 		'There is no point in pre-clearing since you will get respawns on the way out (or worse, during the last fight)|c
 		'As long as you pull the Behemoths and the dwarf is in combat the quest won't progress, so just kill everything before he reaches the end of the excavation site|c
 		'Do while escorting the Dwarf. On top of the first wooden structure. Go to Darkshore 35.19,84.45
 		.'Get Everit's Canteen for a quest (id:27942, objective:1)|c
-	step//113
+	step//110
 		'A book on the table. Go to Darkshore 35.39,84.88
 		.'Get Everit's Notebook for a quest (id:27942, objective:2)|c
 		'If you see a chest here you can open it by jumping to the right of the slope. Go to Darkshore 34.84,85.05
-	step//114
+	step//111
 		'On top of that wooden structure. Like the first one.. Go to Darkshore 36.28,86.67
 		.'Get Everit's Lantern for a quest (id:27942, objective:3)|c
-	step//115
+	step//112
 		'Behind to stone structure. Go to Darkshore 36.12,85.67
 		.'Get Everit's Laundry for a quest (id:27942, objective:4)|c
-	step//116
+	step//113
 		'The final fight happens when the dwarf gets close to the stairs on the south. To the right of those stairs 3 mobs will spawn. Kill the caster as fast as you can and keep an eye on the dwarf's health to see if he is getting attacked.|c
 		'Goal: 	Escort Prospector Remtravel. For a quest (id:731, objective:1)|c
 		'Goal: 6 Golems slain. For a quest (id:27943, objective:1)|c
-	step//117
+	step//114
 		Go to Darkshore 35.79,83.62
 		'Talk to Archeologist Everit (id:47061)|c
 		.'Turn in Rampaging Golems (id:27943)|c
 		.'Turn in Personal Possessions (id:27942)|c
-	step//118
+	step//115
 		'A rare crab can spawn here, decent green boots. Go to Darkshore 34.82,80.55
-	step//119
+	step//116
 		Go to Darkshore 32.81,80.77
 		'Accept Beached Sea Creature (id:4730)|c
-	step//120
+	step//117
 		Go to Darkshore 31.7,83.81
 		'Accept Beached Sea Turtle (id:4731)|c
-	step//121
+	step//118
 		Go to Darkshore 31.24,85.52
 		'Accept Beached Sea Turtle (id:4732)|c
-	step//122
+	step//119
 		Go to Darkshore 31.34,87.5
 		'Accept Beached Sea Creature (id:4733)|c
-	step//123
+	step//120
 		'Make sure you are done with the Murloc killing quest|c
 		'Kill 6 Greymist Hunter (id:2206) for a quest (id:27938, objective1)|c
 		.'Probably done with this from the Murkdeep quest|c
 		'Kill 6 Greymist Oracle (id:2207) for a quest (id:27938, objective2)|c
-	step//124
+	step//121
 		'Hearthstone back to Auberdine after getting all 4 sea creatures and killing all the needed Murlocs. Use Hearthstone|c
-	step//125
+	step//122
 		Go to Darkshore 36.58,45.56
 		'Talk to Gwennyth Bly'Leggonde (id:10219)|c
 		.'Turn in Beached Sea Creature (id:4733)|c
@@ -1080,92 +1067,92 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Darkshore (12-20)",[[
 		.'Turn in Beached Sea Turtle (id:4731)|c
 		.'Turn in Beached Sea Creature (id:4730)|c
 		.'Turn in Beached Sea Creature (id:4728)|c
-	step//126
+	step//123
 		Go to Darkshore 37.68,43.35
 		'Talk to Sentinel Glynda Nal'Shea (id:2930)|c
 		.'Turn in WANTED: Murkdeep! (id:4740)|c
-	step//127
+	step//124
 		'Go turn the other quests while the roleplay happens. Go to Darkshore 39.35,43.45
 		'Talk to Terenthis (id:3693)|c
 		.'Turn in A Lost Master (id:986)|c
-	step//128
+	step//125
 		Go to Darkshore 37.49,41.83
 		'Talk to Archaeologist Hollee (id:2913)|c
 		.'Turn in The Absent Minded Prospector (id:731)|c
 		.'Accept The Absent Minded Prospector (id:741)|c
-	step//129
+	step//126
 		Go to Darkshore 37.55,41.64
 		'Talk to Bill Wheeland (id:46696)|c
 		.'Turn in The Greymist Menace (id:27938)|c
 		.'Accept Shoalbeard (id:27939)|c
-	step//130
+	step//127
 		Go to Darkshore 37.7,40.69
 		'Talk to Alanndarian Nightsong (id:3702)|c
 		.'Turn in The Twilight's Hammer (id:26201)|c
-	step//131
+	step//128
 		'>>> Refill arrows <<< Also, check out the quartermaster for some upgrades. Go to Darkshore 37.46,40.53
 		.'Talk to Dalmond (id:4182)|c
-	step//132
+	step//129
 		Go to Darkshore 39.33,43.45
 		'Talk to Terenthis (id:3693)|c
 		.'Accept A Lost Master (id:993)|c
-	step//133
+	step//130
 		'Grab the first ingredient for the summon inside the container. Go to Darkshore 50.48,35.02
 		'Once you are done with the first half, go to the mountain cave and kill the Den Mother. Go to Darkshore 52.37,35.99
 		.'Kill Den Mother (id:6788) for a quest (id:2139, objective1)|c
-	step//134
+	step//131
 		'Back to the camp, keep killing things and looting ingredients. Go to Darkshore 51.91,33.72
 		'Another ingredient here. Go to Darkshore 52.82,33.45
 		'Combine the items and use them at the bonfire. Loot the talisman off the basket after killing the demon. Use Filled Cleansing Bowl. Go to Darkshore 52.41,33.36
 		.'Get Talisman of Corruption for a quest (id:4763, objective:1)|c
-	step//135
+	step//132
 		'Go around the tower on your way to the Nagas to get extra xp and cloth. Go to Darkshore 56.68,26.96
-	step//136
+	step//133
 		'The rare mage Naga can drop a blue ring. Go to Darkshore 57.74,21.89
 		'Get 6 Mathystra Relic for a quest (id:951, objective:1)|c
-	step//137
+	step//134
 		'Pull a strider and a crab to the gnome if you can and accept the quest before killing them. Go to Darkshore 56.7,13.53
 		'Talk to Gelkak Gyromast (id:6667)|c
 		.'Accept Gyromast's Retrieval (id:2098)|c
-	step//138
+	step//135
 		'From the crabs, the striders and the murlocs in the sunken ship to the west|c
 		'Get Top of Gelkak's Key from Giant Foreststrider(id:2323) for a quest (id:2098, objective:1)|c
 		'Get Middle of Gelkak's Key from Greymist Oracle(id:2207) or Greymist Tidehunter(id:2208) for a quest (id:2098, objective:2)|c
 		'Get Bottom of Gelkak's Key from Raging Reef Crawler(id:2236) for a quest (id:2098, objective:3)|c
-	step//139
+	step//136
 		Go to Darkshore 56.7,13.49
 		'Talk to Gelkak Gyromast (id:6667)|c
 		.'Turn in Gyromast's Retrieval (id:2098)|c
 		.'Accept Gyromast's Revenge (id:2078)|c
-	step//140
+	step//137
 		'Activate the robot and run back to the gnome. Go to Darkshore 55.87,18.12
 		'Kill The Threshwackonator 4100 (id:6669) for a quest (id:2078, objective1)|c
-	step//141
+	step//138
 		Go to Darkshore 56.69,13.53
 		'Turn in Gyromast's Revenge (id:2078)|c
-	step//142
+	step//139
 		'DON'T SELL OR DRINK THE WATERBREATHING POTIONS BY MISTAKE. You will need them for some quests down the line|c
 		'Walk down to Auberdine or deathwarp yet again near the river's delta if you were succesful the first time around. Go to Darkshore 50.74,22.91
 		'Skip this step|c
-	step//143
+	step//140
 		Go to Darkshore 38.83,43.41
 		'Talk to Tharnariun Treetender (id:3701)|c
 		.'Turn in Tharnariun's Hope (id:2139)|c
-	step//144
+	step//141
 		'>>> Reefill arrows <<<. Go to Darkshore 37.42,40.17
 		'Talk to Thundris Windweaver (id:3649)|c
 		.'Turn in The Blackwood Corrupted (id:4763)|c
-	step//145
+	step//142
 		'Try to grab the cart again. Also, avoid unnecessary fights if you death warped like the last time. Go to Darkshore 43.61,76.31
 		'Talk to Onu (id:3616)|c
 		.'Turn in Mathystra Relics (id:951)|c
 		.'Accept The Odd Relic (id:28158)|c
-	step//146
+	step//143
 		'>>> Grab the horn inside the chest <<< Use it if the druid falls asleep (bind it). Go to Darkshore 44.36,76.47
 		'Talk to Kerlonian Evershade (id:11218)|c
 		.'Accept The Sleeper Has Awakened (id:5321)|c
 		'Get Horn of Awakening for a quest (id:5321, objective:2)|c
-	step//147
+	step//144
 		'You have more than enough time to do all of this, so don't worry. Go to Darkshore 44.99,85.33
 		'Kill the bear inside the cave|c
 		.'Kill Grizzletooth (id:46905) for a quest (id:27941, objective1)|c
@@ -1174,18 +1161,19 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Darkshore (12-20)",[[
 		.'Accept Escape Through Force (id:994)|c
 		'Kill things ahead of him so he doesn't stop walking as much|c
 		'Goal: Help Volcor to the road. For a quest (id:994, objective:1)|c
-	step//148
+	step//145
 		Go to Darkshore 45.89,90.32
 		'Talk to Sentinel Aynasha (id:11711)|c
 		.'Accept One Shot.  One Kill. (id:5713)|c
 		'Goal: Protect Aynasha. For a quest (id:5713, objective:1)|c
-	step//149
+	step//146
 		'Avoid the main road so you don't trigger the ambushes. Go to Darkshore 44.79,93.72
+		.'If you bought the level 20 white bow in Darnassus, equip it (or when you hit 20 pretty soon).|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Ashenvale & Stonetalon (20-24)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Ashenvale & Stonetalon (20-24)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Wetlands & Hillsbrad Pt.1 (24-29)
+	next Jubi's guide Full Text\\Wetlands & Hillsbrad Pt.1 (24-29)
 	startlevel 80
 	step//1
 		'While you are in Ashenvale, try to save up to 10 Lean Wolf Flanks and 6 Gooey Spider Legs. Go to Ashenvale 27.28,35.49
@@ -1230,11 +1218,11 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Ashenvale & Stonetalon 
 		'Talk to Orendil Broadleaf (id:3847)|c
 		.'Accept Orendil's Cure (id:1020)|c
 	step//10
-		Go to Ashenvale 26.22,38.61
+		'Do bandages while waiting. Go to Ashenvale 26.22,38.61
 		'Talk to Delgren the Purifier (id:3663)|c
 		.'Accept The Tower of Althalaxx (id:973)|c
 	step//11
-		'Do bandages while waiting. Go to Ashenvale 22.67,51.89
+		Go to Ashenvale 22.67,51.89
 		'Talk to Therysil (id:3585)|c
 		.'Turn in Therylune's Escape (id:945)|c
 	step//12
@@ -1589,23 +1577,26 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Ashenvale & Stonetalon 
 	step//100
 		'Fly to Darnassus. Go to Darkshore 36.35,45.57
 		'Train spells. Go to Darnassus 40.36,8.88
-		'Train wool bandages  to craft them while on the boat to Menethil. Go to Darnassus 51.71,12.13
+		'Train wool bandages  to craft them while on the boat to Menethil if you didn't train them before. Go to Darnassus 51.71,12.13
 	step//101
+		'If you didn't buy a Heavy recurve bow (lvl 20 white bow) from her before do so now. Go to Darnassus 63.4,66.4
+		.'Talk to Landria (id:4173)|c
+	step//102
 		Go to Darnassus 31.25,84.17
 		'Talk to Chief Archaeologist Greywhisker (id:2912)|c
 		.'Turn in The Absent Minded Prospector (id:741)|c
 		.'Accept The Absent Minded Prospector (id:942)|c
 		.'Turn in The Odd Relic (id:28158)|c
-	step//102
-		'Tp down to Rut'theran. Go to Darnassus 30.75,41.4
 	step//103
+		'Tp down to Rut'theran. Go to Darnassus 30.75,41.4
+	step//104
 		'Fly to Darkshore. Go to Teldrassil 58.37,94.01
 		'Grab the boat to menethil and craft bandages while waiting/on it. Go to Darkshore 32.42,43.79
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Wetlands & Hillsbrad Pt.1 (24-29)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Wetlands & Hillsbrad Pt.1 (24-29)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Duskwood (29-31)
+	next Jubi's guide Full Text\\Duskwood (29-31)
 	startlevel 80
 	step//1
 		'Jump early on the boat towards this guy. Go to Wetlands 8.55,55.83
@@ -2231,9 +2222,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Wetlands & Hillsbrad Pt
 		'Long run to Ironforge. Go to Dun Morogh 53.38,35.03
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Duskwood (29-31)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Duskwood (29-31)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Wetlands & Hillsbrad Pt.2 (31-34)
+	next Jubi's guide Full Text\\Wetlands & Hillsbrad Pt.2 (31-34)
 	startlevel 80
 	step//1
 		'Buy weapon skills + the green level 30 quiver. You can even store it in your current quiver until you hit 30. Go to Ironforge 61.35,89.31
@@ -2861,9 +2852,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Duskwood (29-31)",[[
 		'If you got to level 32, train skills before leaving|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Wetlands & Hillsbrad Pt.2 (31-34)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Wetlands & Hillsbrad Pt.2 (31-34)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Duskwood final & 1k needles (34-35)
+	next Jubi's guide Full Text\\Duskwood final & 1k needles (34-35)
 	startlevel 80
 	step//1
 		'Right as you exist the tram. Go to Ironforge 69.85,50.31
@@ -3237,9 +3228,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Wetlands & Hillsbrad Pt
 		'Fly to Menethil >>> if you haven't set your HS there <<<. Otherwise, fly to IF. Go to Hillsbrad Foothills 49.35,52.34
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Duskwood final & 1k needles (34-35)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Duskwood final & 1k needles (34-35)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\STV Pt.1 (35-37)
+	next Jubi's guide Full Text\\STV Pt.1 (35-37)
 	startlevel 80
 	step//1
 		'This will trigger some roleplay, go learn spells and fill your quiver meanwhile. Go to Ironforge 38.71,87.61
@@ -3604,9 +3595,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Duskwood final & 1k nee
 		'Take the boat to Booty Bay. Go to The Barrens 63.64,38.65
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\STV Pt.1 (35-37)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\STV Pt.1 (35-37)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Alterac & Arathi Highlands (37-39)
+	next Jubi's guide Full Text\\Alterac & Arathi Highlands (37-39)
 	startlevel 80
 	step//1
 		'While leveling in STV keep any Greenhill pages in your bag (RIP bagspace) while questing then store them in the bank when visiting Booty Bay|c
@@ -3979,9 +3970,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\STV Pt.1 (35-37)",[[
 		'Back to rebel camp and fly to Stormwind. If you couldn't turn in the supplies to Thorsen abandon "Supplies to Private Thorsen". Go to Stranglethorn Vale 38.21,4.03
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Alterac & Arathi Highlands (37-39)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Alterac & Arathi Highlands (37-39)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\STV Pt.2 & Swamp of sorrows (39-43)
+	next Jubi's guide Full Text\\STV Pt.2 & Swamp of sorrows (39-43)
 	startlevel 80
 	step//1
 		Go to Stormwind City 51.7,74.23
@@ -4453,9 +4444,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Alterac & Arathi Highla
 		.'With some luck you are very close to getting level 40. You probably don't have enough for mount, so just try to learn level 40 spells, specially to use mail.|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\STV Pt.2 & Swamp of sorrows (39-43)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\STV Pt.2 & Swamp of sorrows (39-43)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Dustwallow Marsh (43)
+	next Jubi's guide Full Text\\Dustwallow Marsh (43)
 	startlevel 80
 	step//1
 		'Silk donation. You should have more than enough. Probably doesn't give XP although it should. Give it a try.. Go to Ironforge 43.69,31.73
@@ -5126,9 +5117,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\STV Pt.2 & Swamp of sor
 		'Take the boat to Ratchet. Go to Stranglethorn Vale 25.89,73.15
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Dustwallow Marsh (43)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Dustwallow Marsh (43)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Tanaris Pt.1 (43-45)
+	next Jubi's guide Full Text\\Tanaris Pt.1 (43-45)
 	startlevel 80
 	step//1
 		'Fly to Theramore. Go to The Barrens 63.08,37.14
@@ -5379,9 +5370,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Dustwallow Marsh (43)",
 		'When done fly to Gadgetzan. Go to Dustwallow Marsh 67.5,51.27
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Tanaris Pt.1 (43-45)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Tanaris Pt.1 (43-45)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Feralas Pt.1 (45-46)
+	next Jubi's guide Full Text\\Feralas Pt.1 (45-46)
 	startlevel 80
 	step//1
 		'While questing in Tanaris if you get the chicken beacon just hold it in your bags. It will be a while until we do that quest.. Go to Tanaris 50.24,27.45
@@ -5697,9 +5688,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Tanaris Pt.1 (43-45)",[
 		'Fly to Feralas' border with 1k needels. Go to Tanaris 51.04,29.33
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Feralas Pt.1 (45-46)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Feralas Pt.1 (45-46)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)
+	next Jubi's guide Full Text\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)
 	startlevel 80
 	step//1
 		'Just like in Tanaris, if you come across the chicken beacon just hold onto it untill you have to accept the quest.. Go to Feralas 65.9,45.64
@@ -5982,9 +5973,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Feralas Pt.1 (45-46)",[
 		'Boat to Menethil. Make some bandages?. Go to Darkshore 32.4,43.81
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Hinterlands (47-48)
+	next Jubi's guide Full Text\\Hinterlands (47-48)
 	startlevel 80
 	step//1
 		'Fly to Loch Modan. Go to Wetlands 9.52,59.66
@@ -6258,9 +6249,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Searing Gorge Pt.1 & Ta
 		'Boat to Menethil. Go to Dustwallow Marsh 71.55,56.37
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Hinterlands (47-48)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Hinterlands (47-48)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Searing Gorge Pt.2 (48-49)
+	next Jubi's guide Full Text\\Searing Gorge Pt.2 (48-49)
 	startlevel 80
 	step//1
 		'Fly to Southshore. Go to Wetlands 9.52,59.66
@@ -6580,9 +6571,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Hinterlands (47-48)",[[
 		'Fly to IF. Go to The Hinterlands 11.08,46.12
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Searing Gorge Pt.2 (48-49)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Searing Gorge Pt.2 (48-49)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Blasted lands (49-50)
+	next Jubi's guide Full Text\\Blasted lands (49-50)
 	startlevel 80
 	step//1
 		'Only If you dind't get the summon to IF in Hinterlands. Don't accept the follow up as we won't be going back there. Go to Ironforge 51.56,41.77
@@ -6904,9 +6895,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Searing Gorge Pt.2 (48-
 		'Fly to Stormwind. Go to Searing Gorge 37.85,30.76
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Blasted lands (49-50)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Blasted lands (49-50)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Azshara & Felwood Pt.1 (50-52)
+	next Jubi's guide Full Text\\Azshara & Felwood Pt.1 (50-52)
 	startlevel 80
 	step//1
 		'>>> Set HS <<< And accept the quest. Go to Stormwind City 60.47,75.19
@@ -7091,9 +7082,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Blasted lands (49-50)",
 		'Boat to Ratchet. Go to Stranglethorn Vale 25.89,73.14
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Azshara & Felwood Pt.1 (50-52)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Azshara & Felwood Pt.1 (50-52)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Feralas Pt.2 & Plaguelands Pt.1 (52)
+	next Jubi's guide Full Text\\Feralas Pt.2 & Plaguelands Pt.1 (52)
 	startlevel 80
 	step//1
 		'Open the chest. Go to The Barrens 62.51,38.54
@@ -7718,9 +7709,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Azshara & Felwood Pt.1 
 		.'10 minute nap|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Feralas Pt.2 & Plaguelands Pt.1 (52)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Feralas Pt.2 & Plaguelands Pt.1 (52)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Un'Goro (52-54)
+	next Jubi's guide Full Text\\Un'Goro (52-54)
 	startlevel 80
 	step//1
 		Go to Feralas 30.59,42.76
@@ -7955,9 +7946,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Feralas Pt.2 & Plaguela
 		'If grinding undead at the graveyard was good XP/feasible to AoE >4 do so while waiting for your HS CD. Otherwise just fly to Menethil then boat to Darkshore|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Un'Goro (52-54)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Un'Goro (52-54)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Felwood Pt.2 & Winterspring Pt.1 (54-56)
+	next Jubi's guide Full Text\\Felwood Pt.2 & Winterspring Pt.1 (54-56)
 	startlevel 80
 	step//1
 		'Fly to Moonglade. Go to Darkshore 36.35,45.58
@@ -8559,9 +8550,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Un'Goro (52-54)",[[
 		'Fly to south Felwood (Emerald Sanctuary). Go to Teldrassil 58.38,94.03
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Felwood Pt.2 & Winterspring Pt.1 (54-56)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Felwood Pt.2 & Winterspring Pt.1 (54-56)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Burning Steppes (56-57)
+	next Jubi's guide Full Text\\Burning Steppes (56-57)
 	startlevel 80
 	step//1
 		'Go south for a second and grab the quest you left behind the first time you entered the zone. Go to Felwood 54.11,86.73
@@ -8859,9 +8850,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Felwood Pt.2 & Wintersp
 		'Boat to Menethil. Go to Dustwallow Marsh 71.52,56.27
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Burning Steppes (56-57)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Burning Steppes (56-57)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Winterspring Pt.2 (57-58)
+	next Jubi's guide Full Text\\Winterspring Pt.2 (57-58)
 	startlevel 80
 	step//1
 		'Fly to Ironforge. Go to Wetlands 9.44,59.74
@@ -9260,9 +9251,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Burning Steppes (56-57)
 		'Hearthstone back to Winterspring (that's why you didn't change it). Use Hearthstone|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Winterspring Pt.2 (57-58)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Winterspring Pt.2 (57-58)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full text\\Plaguelands Pt.2 (58-60)
+	next Jubi's guide Full Text\\Plaguelands Pt.2 (58-60)
 	startlevel 80
 	step//1
 		Go to Winterspring 61.59,38.58
@@ -9654,7 +9645,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Winterspring Pt.2 (57-5
 		'Fly to IF. Go to Wetlands 9.53,59.62
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full text\\Plaguelands Pt.2 (58-60)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Plaguelands Pt.2 (58-60)",[[
 	author Jubi (discord: jubi_7)
 	startlevel 80
 	step//1
