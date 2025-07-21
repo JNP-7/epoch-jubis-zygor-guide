@@ -17,7 +17,7 @@ You may have seen me using it while leveling during release. I made it by playin
 - Start the game, make sure ZygorGuidesViewer is loaded for your character and select the guide in the Interface > AddOns > ZygorGuidesViewer in-game menu if it wasn't loaded by default.
   - In this menu you will notice multiple entries corresponding to different sections of the guide which summarize the zone(s) and level range that section covers.
   - You may have also noticed 3 different entries for each zone and/or level range preceded by "Jubi's guide Full/Custom2Text/Full Text". Each one of those indicates to which guide the section you are currently loading corresponds to. To summarize:
-    - Full: displays everything on the guides viewer. Do note that the customs quest and objectives may not be correctly tracked. They will still be displayed nonetheless. Check the FAQ for more info.
+    - Full: displays everything on the guides viewer. Do note that the custom quests and objectives may not be correctly tracked. They will still be displayed nonetheless. Check the FAQ for more info.
     - Custom2Text: custom quests and objectives are displayed as a comment. Those do not get tracked, but the regular ones do.
     - Full Text: everything but coordinates is displayed as a comment in the guides viewer.
 
