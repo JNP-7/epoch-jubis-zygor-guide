@@ -10,7 +10,7 @@ You may have seen me using it while leveling during release. I made it by playin
 - Extract it and locate the "ZygorGuidesViewer" folder. If it's named something like "ZygorGuidesViewer-master" rename it to "ZygorGuidesViewer".
 - Copy the folder to your Project Epoch's WoW client instalation AddOn folder.
   - wow_root_folder/Interface/AddOns
-- Download the guide files. [Link to latest release](TODO)
+- Download the guide files. [Link to latest release](https://github.com/JNP-7/epoch-jubis-zygor-guide/releases/tag/v1.0)
 - Copy them to the addon's guides folder. If the files already exist, override or rename the older ones.
   - wow_root_folder/Interface/AddOns/ZygorGuidesViewer/Guides
   - Note: if you renamed your older guide files you can still load them by modifying the "Autoload.xml" file found in the same folder you just put the guides on. By default the addon tries to load the files Guide01 to Guide40. Simply add another entry following the same format with your files' new names or use one of the already existing names.
@@ -45,4 +45,4 @@ Sure thing. It's the same thing I did to make it.
 
 #### What's the "Jubi's guide (NE Hunter Project Epoch)" JSON file about?
 
-That's the file I used to edit the guide on [my custom editor](TODO) ~~that I made because I'm too lazy to learn how to properly use an excel sheet :P~~.
+That's the file I used to edit the guide on [my custom editor](https://github.com/JNP-7/zygors-guides-3.3.5a-ui) ~~that I made because I'm too lazy to learn how to properly use an excel sheet :P~~.
