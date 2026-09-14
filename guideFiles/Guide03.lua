@@ -1,10 +1,10 @@
 local ZygorGuidesViewer=ZygorGuidesViewer
 if not ZygorGuidesViewer then return end
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Teldrassil (1-12)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Teldrassil (1-12)",[[
 	author Jubi (discord: jubi_7)
 	defaultfor NightElf
-	next Jubi's guide Full Text\\Darkshore (12-20)
+	next Jubi's guide (NE Hunter Project Epoch)\\Darkshore (12-20)
 	startlevel 80
 	step//1
 		Go to Teldrassil 58.61,44.79
@@ -119,12 +119,12 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Teldrassil (1-12)",[[
 		'Finish the quest while moving towards here. Boars near the well, sabers are towards where you are moving. Go to Teldrassil 63.85,41.86
 	step//27
 		'Skip this if the area is to busy on launch. Go to Teldrassil 63.85,41.86
-		.'Kill 8 Frenzied Moonkin (id:45088) for a quest (id:27480, objective1)|c
-		.'Kill Natook (id:45089) for a quest (id:27480, objective2)|c
+		.'Kill 8 Frenzied Moonkin (id:45258) for a quest (id:27480, objective1)|c
+		.'Kill Natook (id:46259) for a quest (id:27480, objective2)|c
 		.'Keep an eye on your HP, the DoT will kill you if you stack too many|c
 	step//28
 		'Skip this step if the area was too busy. Go to Teldrassil 60.11,42.28
-		'Talk to Alanea Miststriker (id:45087)|c
+		'Talk to Alanea Miststriker (id:46257)|c
 		.'Turn in Corruption in Shadowglen (id:27480)|c
 	step//29
 		'Sell junk. Go to Teldrassil 59.32,41.13
@@ -287,7 +287,6 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Teldrassil (1-12)",[[
 		'Look for the Satyr boss inside the cave. Path towards the lower level where the pond is. If he is in 1 of the 2 balconies, go through the first corridor the went north at the entrance of the cave.. Go to Teldrassil 54.65,52.63
 		.'Get 10 Demon Essence from Shadow Sprite(id:2003), Rascal Sprite(id:2002), Dark Sprite(id:2004) or Vicious Grell(id:2005) for a quest (id:27483, objective:1)|c
 		.'Get Melenas' Head from Lord Melenas(id:2038) for a quest (id:932, objective:1)|c
-		..'Doesn't seem to social agro de Grells for some reason|c
 	step//68
 		'Look for the patrol and accept their quest if you haven't yet. Go to Teldrassil 52.8,56.72
 		'Talk to Moon Priestess Amara (id:2151)|c
@@ -335,7 +334,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Teldrassil (1-12)",[[
 		'Buy arrows/repair if needed. Go to Teldrassil 55.9,59.16
 		'Talk to Jeena Featherbow (id:3610)|c
 		.'Turn in Demons In Fel Rock (id:27483)|c
-		.'Accept Purifying the Essence (id:26181)|c
+		.'Accept Purifying the Essence (id:27484)|c
 	step//81
 		'If the patroling quest giver is around turn the quest in. Skip this step|c
 	step//82
@@ -364,7 +363,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Teldrassil (1-12)",[[
 	step//87
 		Go to Teldrassil 36.69,34.08
 		'Talk to Alanna Raveneye (id:3606)|c
-		.'Accept Bloodfeather Eggs (id:26178)|c
+		.'Accept Bloodfeather Eggs (id:27479)|c
 	step//88
 		Go to Teldrassil 38.3,34.37
 		'Talk to Sentinel Arynia Cloudsbreak (id:3519)|c
@@ -400,11 +399,11 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Teldrassil (1-12)",[[
 		.'Accept Crown of the Earth (id:935)|c
 	step//97
 		'Purify the demon essence at the moonwell. Use Demon Essence. Go to Teldrassil 56.07,61.96
-		.'Get Purified Essence for a quest (id:26181, objective:1)|c
+		.'Get Purified Essence for a quest (id:27484, objective:1)|c
 	step//98
 		Go to Teldrassil 55.94,59.24
 		'Talk to Jeena Featherbow (id:3610)|c
-		.'Turn in Purifying the Essence (id:26181)|c
+		.'Turn in Purifying the Essence (id:27484)|c
 	step//99
 		'If somehow not level 10 go to the lake and turn in the fruits/heart quests. Do it later if you are already|c
 		.'Skip this step|c
@@ -484,11 +483,11 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Teldrassil (1-12)",[[
 	step//118
 		'There is a roaming rare here (white harpy), keep an eye out.. Go to Teldrassil 35.26,35.32
 		.'Get 6 Bloodfeather Belt from Bloodfeather Rogue(id:2017), Bloodfeather Harpy(id:2015) or Bloodfeather Sorceress(id:2018) for a quest (id:937, objective:1)|c
-		.'Get 6 Bloodfeather Egg for a quest (id:26178, objective:1)|c
+		.'Get 6 Bloodfeather Egg for a quest (id:27479, objective:1)|c
 	step//119
 		Go to Teldrassil 36.76,34.22
 		'Talk to Alanna Raveneye (id:3606)|c
-		.'Turn in Bloodfeather Eggs (id:26178)|c
+		.'Turn in Bloodfeather Eggs (id:27479)|c
 	step//120
 		Go to Teldrassil 38.3,34.37
 		'Talk to Sentinel Arynia Cloudsbreak (id:3519)|c
@@ -506,54 +505,51 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Teldrassil (1-12)",[[
 		'Buy the "Laminated Recurve Bow" (and quiver) if you were short on money before. Go to Darnassus 58.79,44.51
 		.'Talk to Ariyell Skyshadow (id:4203)|c
 	step//124
-		'Buy 10 meat for your owl. Feed it after turning in the quests. Go to Darnassus 65.13,68.53
-		.'Talk to Jaeana (id:4169)|c
-	step//125
 		Go to Darnassus 36.66,86.01
 		'Talk to Priestess A'moora (id:7313)|c
 		.'Turn in Tears of the Moon (id:2518)|c
 		.'Accept Sathrah's Sacrifice (id:2520)|c
-	step//126
+	step//125
 		'Drop down into the temple's moonwell. Use Sathrah's Sacrifice|c
 		.'Goal: Offer the sacrifice at the fountain. For a quest (id:2520, objective:1)|c
-	step//127
+	step//126
 		Go to Darnassus 36.75,85.96
 		'Talk to Priestess A'moora (id:7313)|c
 		.'Turn in Sathrah's Sacrifice (id:2520)|c
-	step//128
+	step//127
 		'Skip the follow up. Go to Darnassus 38.36,21.44
 		'Talk to Rellian Greenspyre (id:3517)|c
 		.'Turn in Tumors (id:923)|c
-	step//129
+	step//128
 		Go to Darnassus 34.74,8.92
 		'Talk to Arch Druid Fandral Staghelm (id:3516)|c
 		.'Turn in Teldrassil (id:940)|c
 		..'Sometimes the turn in of this one bugs out and you have to manually skip to the next step|c
 		.'Accept Grove of the Ancients (id:952)|c
 		.'Turn in Crown of the Earth (id:935)|c
-	step//130
+	step//129
 		'Skip The Hunter's Path (it's a bug, you shouldn't be able to see this anymore). Go to Darnassus 40.34,8.73
 		'Talk to Jocaste (id:4146)|c
 		.'Turn in Training the Beast (id:6103)|c
-	step//131
+	step//130
 		'Teleport down to Rut'theran (and feed your pet!!!). Go to Darnassus 30.37,41.43
-	step//132
+	step//131
 		Go to Teldrassil 56.3,92.44
 		'Talk to Nessa Shadowsong (id:10118)|c
 		.'Turn in Nessa Shadowsong (id:6344)|c
 		.'Accept The Bounty of Teldrassil (id:6341)|c
-	step//133
+	step//132
 		Go to Teldrassil 58.4,94.01
 		'Talk to Vesprystus (id:3838)|c
 		.'Turn in The Bounty of Teldrassil (id:6341)|c
 		.'Accept Flight to Auberdine (id:6342)|c
-	step//134
+	step//133
 		'Fly to Darkshore|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Darkshore (12-20)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Darkshore (12-20)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Ashenvale & Stonetalon (20-24)
+	next Jubi's guide (NE Hunter Project Epoch)\\Ashenvale & Stonetalon (20-24)
 	startlevel 80
 	step//1
 		Go to Darkshore 36.59,45.56
@@ -565,6 +561,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Darkshore (12-20)",[[
 		'Talk to Laird (id:4200)|c
 		.'Turn in Flight to Auberdine (id:6342)|c
 		.'Accept Return to Nessa (id:6343)|c
+		.'Buy x10 fish to feed your owl|c
 	step//3
 		'>>> Set Hearthstone <<. Go to Darkshore 36.99,44.17
 		'Talk to Innkeeper Shaussiy (id:6737)|c
@@ -1172,9 +1169,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Darkshore (12-20)",[[
 		.'If you bought the level 20 white bow in Darnassus, equip it (or when you hit 20 pretty soon).|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Ashenvale & Stonetalon (20-24)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Ashenvale & Stonetalon (20-24)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Wetlands & Hillsbrad Pt.1 (24-29)
+	next Jubi's guide (NE Hunter Project Epoch)\\Wetlands & Hillsbrad Pt.1 (24-29)
 	startlevel 80
 	step//1
 		'While you are in Ashenvale, try to save up to 10 Lean Wolf Flanks and 6 Gooey Spider Legs. Go to Ashenvale 27.28,35.49
@@ -1596,9 +1593,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Ashenvale & Stonetalon 
 		'Grab the boat to menethil and craft bandages while waiting/on it. Go to Darkshore 32.42,43.79
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Wetlands & Hillsbrad Pt.1 (24-29)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetlands & Hillsbrad Pt.1 (24-29)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Duskwood (29-31)
+	next Jubi's guide (NE Hunter Project Epoch)\\Duskwood (29-31)
 	startlevel 80
 	step//1
 		'Jump early on the boat towards this guy. Go to Wetlands 8.55,55.83
@@ -2224,9 +2221,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Wetlands & Hillsbrad Pt
 		'Long run to Ironforge. Go to Dun Morogh 53.38,35.03
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Duskwood (29-31)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwood (29-31)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Wetlands & Hillsbrad Pt.2 (31-34)
+	next Jubi's guide (NE Hunter Project Epoch)\\Wetlands & Hillsbrad Pt.2 (31-34)
 	startlevel 80
 	step//1
 		'Buy weapon skills + the green level 30 quiver. You can even store it in your current quiver until you hit 30. Go to Ironforge 61.35,89.31
@@ -2854,9 +2851,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Duskwood (29-31)",[[
 		'If you got to level 32, train skills before leaving|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Wetlands & Hillsbrad Pt.2 (31-34)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Wetlands & Hillsbrad Pt.2 (31-34)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Duskwood final & 1k needles (34-35)
+	next Jubi's guide (NE Hunter Project Epoch)\\Duskwood final & 1k needles (34-35)
 	startlevel 80
 	step//1
 		'Right as you exist the tram. Go to Ironforge 69.85,50.31
@@ -3230,9 +3227,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Wetlands & Hillsbrad Pt
 		'Fly to Menethil >>> if you haven't set your HS there <<<. Otherwise, fly to IF. Go to Hillsbrad Foothills 49.35,52.34
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Duskwood final & 1k needles (34-35)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Duskwood final & 1k needles (34-35)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\STV Pt.1 (35-37)
+	next Jubi's guide (NE Hunter Project Epoch)\\STV Pt.1 (35-37)
 	startlevel 80
 	step//1
 		'This will trigger some roleplay, go learn spells and fill your quiver meanwhile. Go to Ironforge 38.71,87.61
@@ -3597,9 +3594,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Duskwood final & 1k nee
 		'Take the boat to Booty Bay. Go to The Barrens 63.64,38.65
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\STV Pt.1 (35-37)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.1 (35-37)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Alterac & Arathi Highlands (37-39)
+	next Jubi's guide (NE Hunter Project Epoch)\\Alterac & Arathi Highlands (37-39)
 	startlevel 80
 	step//1
 		'While leveling in STV keep any Greenhill pages in your bag (RIP bagspace) while questing then store them in the bank when visiting Booty Bay|c
@@ -3972,9 +3969,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\STV Pt.1 (35-37)",[[
 		'Back to rebel camp and fly to Stormwind. If you couldn't turn in the supplies to Thorsen abandon "Supplies to Private Thorsen". Go to Stranglethorn Vale 38.21,4.03
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Alterac & Arathi Highlands (37-39)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Alterac & Arathi Highlands (37-39)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\STV Pt.2 & Swamp of sorrows (39-43)
+	next Jubi's guide (NE Hunter Project Epoch)\\STV Pt.2 & Swamp of sorrows (39-43)
 	startlevel 80
 	step//1
 		Go to Stormwind City 51.7,74.23
@@ -4446,9 +4443,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Alterac & Arathi Highla
 		.'With some luck you are very close to getting level 40. You probably don't have enough for mount, so just try to learn level 40 spells, specially to use mail.|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\STV Pt.2 & Swamp of sorrows (39-43)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\STV Pt.2 & Swamp of sorrows (39-43)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Dustwallow Marsh (43)
+	next Jubi's guide (NE Hunter Project Epoch)\\Dustwallow Marsh (43)
 	startlevel 80
 	step//1
 		'Silk donation. You should have more than enough. Probably doesn't give XP although it should. Give it a try.. Go to Ironforge 43.69,31.73
@@ -5119,9 +5116,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\STV Pt.2 & Swamp of sor
 		'Take the boat to Ratchet. Go to Stranglethorn Vale 25.89,73.15
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Dustwallow Marsh (43)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Dustwallow Marsh (43)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Tanaris Pt.1 (43-45)
+	next Jubi's guide (NE Hunter Project Epoch)\\Tanaris Pt.1 (43-45)
 	startlevel 80
 	step//1
 		'Fly to Theramore. Go to The Barrens 63.08,37.14
@@ -5372,9 +5369,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Dustwallow Marsh (43)",
 		'When done fly to Gadgetzan. Go to Dustwallow Marsh 67.5,51.27
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Tanaris Pt.1 (43-45)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Tanaris Pt.1 (43-45)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Feralas Pt.1 (45-46)
+	next Jubi's guide (NE Hunter Project Epoch)\\Feralas Pt.1 (45-46)
 	startlevel 80
 	step//1
 		'While questing in Tanaris if you get the chicken beacon just hold it in your bags. It will be a while until we do that quest.. Go to Tanaris 50.24,27.45
@@ -5690,9 +5687,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Tanaris Pt.1 (43-45)",[
 		'Fly to Feralas' border with 1k needels. Go to Tanaris 51.04,29.33
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Feralas Pt.1 (45-46)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas Pt.1 (45-46)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)
+	next Jubi's guide (NE Hunter Project Epoch)\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)
 	startlevel 80
 	step//1
 		'Just like in Tanaris, if you come across the chicken beacon just hold onto it untill you have to accept the quest.. Go to Feralas 65.9,45.64
@@ -5975,9 +5972,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Feralas Pt.1 (45-46)",[
 		'Boat to Menethil. Make some bandages?. Go to Darkshore 32.4,43.81
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing Gorge Pt.1 & Tanaris Pt.2 (46-47)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Hinterlands (47-48)
+	next Jubi's guide (NE Hunter Project Epoch)\\Hinterlands (47-48)
 	startlevel 80
 	step//1
 		'Fly to Loch Modan. Go to Wetlands 9.52,59.66
@@ -6251,9 +6248,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Searing Gorge Pt.1 & Ta
 		'Boat to Menethil. Go to Dustwallow Marsh 71.55,56.37
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Hinterlands (47-48)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Hinterlands (47-48)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Searing Gorge Pt.2 (48-49)
+	next Jubi's guide (NE Hunter Project Epoch)\\Searing Gorge Pt.2 (48-49)
 	startlevel 80
 	step//1
 		'Fly to Southshore. Go to Wetlands 9.52,59.66
@@ -6573,9 +6570,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Hinterlands (47-48)",[[
 		'Fly to IF. Go to The Hinterlands 11.08,46.12
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Searing Gorge Pt.2 (48-49)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Searing Gorge Pt.2 (48-49)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Blasted lands (49-50)
+	next Jubi's guide (NE Hunter Project Epoch)\\Blasted lands (49-50)
 	startlevel 80
 	step//1
 		'Only If you dind't get the summon to IF in Hinterlands. Don't accept the follow up as we won't be going back there. Go to Ironforge 51.56,41.77
@@ -6897,9 +6894,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Searing Gorge Pt.2 (48-
 		'Fly to Stormwind. Go to Searing Gorge 37.85,30.76
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Blasted lands (49-50)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Blasted lands (49-50)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Azshara & Felwood Pt.1 (50-52)
+	next Jubi's guide (NE Hunter Project Epoch)\\Azshara & Felwood Pt.1 (50-52)
 	startlevel 80
 	step//1
 		'>>> Set HS <<< And accept the quest. Go to Stormwind City 60.47,75.19
@@ -7084,9 +7081,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Blasted lands (49-50)",
 		'Boat to Ratchet. Go to Stranglethorn Vale 25.89,73.14
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Azshara & Felwood Pt.1 (50-52)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Azshara & Felwood Pt.1 (50-52)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Feralas Pt.2 & Plaguelands Pt.1 (52)
+	next Jubi's guide (NE Hunter Project Epoch)\\Feralas Pt.2 & Plaguelands Pt.1 (52)
 	startlevel 80
 	step//1
 		'Open the chest. Go to The Barrens 62.51,38.54
@@ -7711,9 +7708,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Azshara & Felwood Pt.1 
 		.'10 minute nap|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Feralas Pt.2 & Plaguelands Pt.1 (52)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Feralas Pt.2 & Plaguelands Pt.1 (52)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Un'Goro (52-54)
+	next Jubi's guide (NE Hunter Project Epoch)\\Un'Goro (52-54)
 	startlevel 80
 	step//1
 		Go to Feralas 30.59,42.76
@@ -7948,9 +7945,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Feralas Pt.2 & Plaguela
 		'If grinding undead at the graveyard was good XP/feasible to AoE >4 do so while waiting for your HS CD. Otherwise just fly to Menethil then boat to Darkshore|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Un'Goro (52-54)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Un'Goro (52-54)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Felwood Pt.2 & Winterspring Pt.1 (54-56)
+	next Jubi's guide (NE Hunter Project Epoch)\\Felwood Pt.2 & Winterspring Pt.1 (54-56)
 	startlevel 80
 	step//1
 		'Fly to Moonglade. Go to Darkshore 36.35,45.58
@@ -8552,9 +8549,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Un'Goro (52-54)",[[
 		'Fly to south Felwood (Emerald Sanctuary). Go to Teldrassil 58.38,94.03
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Felwood Pt.2 & Winterspring Pt.1 (54-56)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Felwood Pt.2 & Winterspring Pt.1 (54-56)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Burning Steppes (56-57)
+	next Jubi's guide (NE Hunter Project Epoch)\\Burning Steppes (56-57)
 	startlevel 80
 	step//1
 		'Go south for a second and grab the quest you left behind the first time you entered the zone. Go to Felwood 54.11,86.73
@@ -8852,9 +8849,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Felwood Pt.2 & Wintersp
 		'Boat to Menethil. Go to Dustwallow Marsh 71.52,56.27
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Burning Steppes (56-57)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Burning Steppes (56-57)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Winterspring Pt.2 (57-58)
+	next Jubi's guide (NE Hunter Project Epoch)\\Winterspring Pt.2 (57-58)
 	startlevel 80
 	step//1
 		'Fly to Ironforge. Go to Wetlands 9.44,59.74
@@ -9253,9 +9250,9 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Burning Steppes (56-57)
 		'Hearthstone back to Winterspring (that's why you didn't change it). Use Hearthstone|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Winterspring Pt.2 (57-58)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Winterspring Pt.2 (57-58)",[[
 	author Jubi (discord: jubi_7)
-	next Jubi's guide Full Text\\Plaguelands Pt.2 (58-60)
+	next Jubi's guide (NE Hunter Project Epoch)\\Plaguelands Pt.2 (58-60)
 	startlevel 80
 	step//1
 		Go to Winterspring 61.59,38.58
@@ -9647,7 +9644,7 @@ ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Winterspring Pt.2 (57-5
 		'Fly to IF. Go to Wetlands 9.53,59.62
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Jubi's guide Full Text\\Plaguelands Pt.2 (58-60)",[[
+ZygorGuidesViewer:RegisterGuide("Jubi's guide (NE Hunter Project Epoch)\\Plaguelands Pt.2 (58-60)",[[
 	author Jubi (discord: jubi_7)
 	startlevel 80
 	step//1

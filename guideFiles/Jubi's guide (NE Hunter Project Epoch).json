@@ -867,7 +867,7 @@
 							"subTasks": [
 								{
 									"npcName": "Frenzied Moonkin",
-									"npcId": 45088,
+									"npcId": 45258,
 									"count": 8,
 									"questId": 27480,
 									"questObjectiveIndex": 1,
@@ -878,7 +878,7 @@
 								},
 								{
 									"npcName": "Natook",
-									"npcId": 45089,
+									"npcId": 46259,
 									"count": 1,
 									"questId": 27480,
 									"questObjectiveIndex": 2,
@@ -914,7 +914,7 @@
 						},
 						{
 							"npcName": "Alanea Miststriker",
-							"npcId": 45087,
+							"npcId": 46257,
 							"depth": 0,
 							"type": "Talk to",
 							"subTasks": [
@@ -2241,15 +2241,7 @@
 									"count": 1,
 									"depth": 1,
 									"type": "Get",
-									"subTasks": [
-										{
-											"comment": "Doesn't seem to social agro de Grells for some reason",
-											"depth": 2,
-											"type": "Comment",
-											"subTasks": [],
-											"isCustom": false
-										}
-									],
+									"subTasks": [],
 									"isCustom": false
 								}
 							],
@@ -2642,7 +2634,7 @@
 								},
 								{
 									"questName": "Purifying the Essence",
-									"questId": 26181,
+									"questId": 27484,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -2866,12 +2858,12 @@
 							"npcId": 3606,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": true,
-									"questId": 26178,
+									"questId": 27479,
 									"questName": "Bloodfeather Eggs",
+									"depth": 1,
+									"type": "Accept quest",
 									"subTasks": [],
-									"type": "Accept quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -3147,14 +3139,14 @@
 							"yCoord": 61.96,
 							"coordsMap": "Teldrassil",
 							"comment": "Purify the demon essence at the moonwell",
-							"itemId": 60061,
+							"itemId": 63355,
 							"itemName": "Demon Essence",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
 								{
 									"itemName": "Purified Essence",
-									"questId": 26181,
+									"questId": 27484,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -3187,12 +3179,12 @@
 							"npcId": 3610,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": true,
-									"questId": 26181,
 									"questName": "Purifying the Essence",
+									"questId": 27484,
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -3842,7 +3834,7 @@
 								},
 								{
 									"itemName": "Bloodfeather Egg",
-									"questId": 26178,
+									"questId": 27479,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 6,
@@ -3876,12 +3868,12 @@
 							"npcId": 3606,
 							"subTasks": [
 								{
-									"depth": 1,
-									"isCustom": true,
-									"questId": 26178,
+									"questId": 27479,
 									"questName": "Bloodfeather Eggs",
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
-									"type": "Turn in quest"
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -4004,30 +3996,6 @@
 								{
 									"npcName": "Ariyell Skyshadow",
 									"npcId": 4203,
-									"depth": 1,
-									"type": "Talk to",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 65.13,
-							"yCoord": 68.53,
-							"coordsMap": "Darnassus",
-							"comment": "Buy 10 meat for your owl. Feed it after turning in the quests",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"npcName": "Jaeana",
-									"npcId": 4169,
 									"depth": 1,
 									"type": "Talk to",
 									"subTasks": [],
@@ -4435,6 +4403,13 @@
 									"questId": 6343,
 									"depth": 1,
 									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "Buy x10 fish to feed your owl",
+									"depth": 1,
+									"type": "Comment",
 									"subTasks": [],
 									"isCustom": false
 								}
