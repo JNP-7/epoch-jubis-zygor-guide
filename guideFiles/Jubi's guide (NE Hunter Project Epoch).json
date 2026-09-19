@@ -4524,7 +4524,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26199,
+									"questId": 26200,
 									"questName": "Balancing the Forest",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -4893,7 +4893,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26202,
+									"questId": 26203,
 									"questName": "Welcome to Auberdine",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -5283,7 +5283,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26202,
+									"questId": 26203,
 									"questName": "Welcome to Auberdine",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -5675,7 +5675,7 @@
 									"npcName": "Young Moonkin",
 									"npcId": 10159,
 									"count": 5,
-									"questId": 26199,
+									"questId": 26200,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -5686,7 +5686,7 @@
 									"npcName": "Moonkin",
 									"npcId": 10158,
 									"count": 10,
-									"questId": 26199,
+									"questId": 26200,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -5758,7 +5758,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26199,
+									"questId": 26200,
 									"questName": "Balancing the Forest",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -5773,7 +5773,7 @@
 								},
 								{
 									"questName": "Balancing the Forest",
-									"questId": 26200,
+									"questId": 26201,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -5913,7 +5913,7 @@
 									"npcName": "Moonkin Oracle",
 									"npcId": 10157,
 									"count": 3,
-									"questId": 26200,
+									"questId": 26201,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -5924,7 +5924,7 @@
 									"npcName": "Raging Moonkin",
 									"npcId": 10160,
 									"count": 10,
-									"questId": 26200,
+									"questId": 26201,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -6624,7 +6624,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26200,
+									"questId": 26201,
 									"questName": "Balancing the Forest",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -6869,7 +6869,7 @@
 								},
 								{
 									"questName": "The Twilight's Hammer",
-									"questId": 26201,
+									"questId": 26202,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -7887,7 +7887,7 @@
 							"npcName": "Twilight Disciple",
 							"npcId": 2338,
 							"count": 8,
-							"questId": 26201,
+							"questId": 26202,
 							"questObjectiveIndex": 1,
 							"depth": 0,
 							"type": "Kill",
@@ -7898,7 +7898,7 @@
 							"npcName": "Twilight Thug",
 							"npcId": 2339,
 							"count": 8,
-							"questId": 26201,
+							"questId": 26202,
 							"questObjectiveIndex": 2,
 							"depth": 0,
 							"type": "Kill",
@@ -8703,7 +8703,7 @@
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 26201,
+									"questId": 26202,
 									"questName": "The Twilight's Hammer",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -9519,7 +9519,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26245,
+									"questId": 27038,
 									"questName": "Forsaken Looters",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -9605,7 +9605,7 @@
 							"npcName": "Forsaken Seeker",
 							"npcId": 3732,
 							"count": 5,
-							"questId": 26245,
+							"questId": 27038,
 							"questObjectiveIndex": 1,
 							"depth": 0,
 							"type": "Kill",
@@ -9616,7 +9616,7 @@
 							"npcName": "Forsaken Herbalist",
 							"npcId": 3733,
 							"count": 5,
-							"questId": 26245,
+							"questId": 27038,
 							"questObjectiveIndex": 2,
 							"depth": 0,
 							"type": "Kill",
@@ -9627,7 +9627,7 @@
 							"npcName": "Forsaken Thug",
 							"npcId": 3734,
 							"count": 10,
-							"questId": 26245,
+							"questId": 27038,
 							"questObjectiveIndex": 3,
 							"depth": 0,
 							"type": "Kill",
@@ -9698,7 +9698,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26245,
+									"questId": 27038,
 									"questName": "Forsaken Looters",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -9919,7 +9919,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26237,
+									"questId": 27024,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -10233,14 +10233,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26237,
+									"questId": 27024,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Annals of Hajiri",
-									"questId": 26238,
+									"questId": 27025,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -10262,7 +10262,7 @@
 						},
 						{
 							"goalName": "Defend Ashalen",
-							"questId": 26238,
+							"questId": 27025,
 							"questObjectiveIndex": 1,
 							"count": 1,
 							"depth": 0,
@@ -10294,14 +10294,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26238,
+									"questId": 27025,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Annals of Hajiri",
-									"questId": 26239,
+									"questId": 27026,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -10793,7 +10793,7 @@
 						},
 						{
 							"itemName": "Annals of hajiri",
-							"questId": 26239,
+							"questId": 27026,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -10907,14 +10907,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26239,
+									"questId": 27026,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Annals of Hajiri",
-									"questId": 26240,
+									"questId": 27027,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -11056,14 +11056,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26240,
+									"questId": 27027,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Annals of Hajiri",
-									"questId": 26241,
+									"questId": 27028,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -11179,7 +11179,7 @@
 							"subTasks": [
 								{
 									"itemName": "Filled Glass Phial",
-									"questId": 26241,
+									"questId": 27028,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -12529,14 +12529,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26241,
+									"questId": 27028,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Annals of Hajiri",
-									"questId": 26242,
+									"questId": 27029,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -12605,7 +12605,7 @@
 								},
 								{
 									"goalName": "Recieve Aessina's Boon",
-									"questId": 26242,
+									"questId": 27029,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -12641,7 +12641,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26242,
+									"questId": 27029,
 									"questName": "Annals of Hajiri",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -15922,7 +15922,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26279,
+									"questId": 27011,
 									"questName": "Golem Gyroscope",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -17908,7 +17908,7 @@
 								},
 								{
 									"questName": "Guldar Gamble",
-									"questId": 26275,
+									"questId": 27001,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -23336,14 +23336,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26279,
+									"questId": 27011,
 									"questName": "Golem Gyroscope",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Golem Gyroscope",
-									"questId": 26280,
+									"questId": 27012,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -23375,14 +23375,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26275,
+									"questId": 27001,
 									"questName": "Guldar Gamble",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Report to the Front Lines",
-									"questId": 26276,
+									"questId": 27002,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -23390,7 +23390,7 @@
 								},
 								{
 									"questName": "Evacuation Report",
-									"questId": 26278,
+									"questId": 27009,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -23422,7 +23422,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26278,
+									"questId": 27009,
 									"questName": "Evacuation Report",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -23709,14 +23709,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26276,
+									"questId": 27002,
 									"questName": "Report to the Front Lines",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Calm and Collected",
-									"questId": 26277,
+									"questId": 27003,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -23752,7 +23752,7 @@
 							"subTasks": [
 								{
 									"goalName": "Frantic Refugees Calmed",
-									"questId": 26277,
+									"questId": 27003,
 									"questObjectiveIndex": 1,
 									"count": 5,
 									"depth": 1,
@@ -23787,7 +23787,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26277,
+									"questId": 27003,
 									"questName": "Calm and Collected",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -23818,7 +23818,7 @@
 						},
 						{
 							"itemName": "Gyroscopes",
-							"questId": 26280,
+							"questId": 27012,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 2,
@@ -24500,7 +24500,7 @@
 								},
 								{
 									"questName": "Evacuation Report",
-									"questId": 26343,
+									"questId": 27010,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -24539,7 +24539,7 @@
 								},
 								{
 									"questName": "Evacuation Report",
-									"questId": 26343,
+									"questId": 27010,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -24610,14 +24610,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26280,
+									"questId": 27012,
 									"questName": "Golem Gyroscope",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Golem Gyroscope",
-									"questId": 26281,
+									"questId": 27013,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -24642,7 +24642,7 @@
 							"subTasks": [
 								{
 									"goalName": "Fix the Golem at Angus' Farm",
-									"questId": 26281,
+									"questId": 27013,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -24677,7 +24677,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26281,
+									"questId": 27013,
 									"questName": "Golem Gyroscope",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -53273,7 +53273,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 0,
+									"questId": 26863,
 									"questName": "The Shadowforge Librarian",
 									"depth": 1,
 									"type": "Accept quest",
@@ -63772,7 +63772,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 0,
+									"questId": 26863,
 									"questName": "The Shadowforge Librarian",
 									"depth": 1,
 									"type": "Turn in quest",
