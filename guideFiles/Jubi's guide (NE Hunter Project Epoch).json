@@ -9888,7 +9888,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26362,
+									"questId": 27412,
 									"questName": "Attack on the Foulweald",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -11284,7 +11284,7 @@
 						},
 						{
 							"itemName": "Foulweald amulet",
-							"questId": 26362,
+							"questId": 27412,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 15,
@@ -11462,7 +11462,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26364,
+									"questId": 27414,
 									"questName": "Torching the Stockpiles",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -11543,7 +11543,7 @@
 						},
 						{
 							"goalName": "Venture Co. Supplies burned",
-							"questId": 26364,
+							"questId": 27414,
 							"questObjectiveIndex": 1,
 							"count": 8,
 							"depth": 0,
@@ -11684,7 +11684,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26364,
+									"questId": 27414,
 									"questName": "Torching the Stockpiles",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -11826,7 +11826,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26358,
+									"questId": 27408,
 									"questName": "Tinkering in the Vale",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -11858,7 +11858,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26356,
+									"questId": 27401,
 									"questName": "Mirkfallon Lake",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -11889,7 +11889,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26360,
+									"questId": 27410,
 									"questName": "Vines of the Lake",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -11920,7 +11920,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26354,
+									"questId": 27399,
 									"questName": "Hunting in Serenity",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -11954,7 +11954,7 @@
 						{
 							"itemName": "Courser fur",
 							"count": 10,
-							"questId": 26354,
+							"questId": 27399,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -11988,7 +11988,7 @@
 						},
 						{
 							"itemName": "Water Vine",
-							"questId": 26360,
+							"questId": 27410,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 8,
@@ -11999,7 +11999,7 @@
 						},
 						{
 							"itemName": "Mirkfallon Essence",
-							"questId": 26356,
+							"questId": 27401,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -12123,7 +12123,7 @@
 						},
 						{
 							"itemName": "Scorched Scale",
-							"questId": 26358,
+							"questId": 27408,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -12147,7 +12147,7 @@
 						},
 						{
 							"itemName": "Raging Core",
-							"questId": 26358,
+							"questId": 27408,
 							"questObjectiveIndex": 2,
 							"toLootNpcs": [
 								{
@@ -12257,14 +12257,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26360,
+									"questId": 27410,
 									"questName": "Vines of the Lake",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Vines of the Lake",
-									"questId": 26361,
+									"questId": 27411,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -12296,7 +12296,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26354,
+									"questId": 27399,
 									"questName": "Hunting in Serenity",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -12327,7 +12327,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26358,
+									"questId": 27408,
 									"questName": "Tinkering in the Vale",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -12359,7 +12359,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26361,
+									"questId": 27411,
 									"questName": "Vines of the Lake",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -12390,7 +12390,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26356,
+									"questId": 27401,
 									"questName": "Mirkfallon Lake",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -12498,7 +12498,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26362,
+									"questId": 27412,
 									"questName": "Attack on the Foulweald",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -13027,7 +13027,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26386,
+									"questId": 26818,
 									"questName": "Oars O'er the Bay",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -13455,7 +13455,7 @@
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 26386,
+									"questId": 26818,
 									"questName": "Oars O'er the Bay",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -13517,7 +13517,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26387,
+									"questId": 26825,
 									"questName": "Syndicate Magic",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -13541,7 +13541,7 @@
 						},
 						{
 							"questName": "WANTED: Beve Perenolde",
-							"questId": 26404,
+							"questId": 26830,
 							"depth": 0,
 							"type": "Accept quest",
 							"subTasks": [],
@@ -13577,7 +13577,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26397,
+									"questId": 26805,
 									"questName": "Decorating the Inn",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -13608,14 +13608,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26398,
-									"questName": "Purging the Lions",
+									"questId": 26819,
+									"questName": "Purging the Land of Lions",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"questName": "Assistance to Jenna",
-									"questId": 26408,
+									"questId": 26834,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -13646,7 +13646,7 @@
 							"subTasks": [
 								{
 									"questName": "Breaking the Armory",
-									"questId": 26374,
+									"questId": 26803,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -13678,14 +13678,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26329,
+									"questId": 26822,
 									"questName": "Hillsbrad Assault",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"questName": "Hillsbrad Defense",
-									"questId": 26330,
+									"questId": 26823,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -13718,7 +13718,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26402,
+									"questId": 26828,
 									"questName": "Mudsnout Concoction",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -13749,8 +13749,8 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26395,
-									"questName": "A Venom That Cures",
+									"questId": 26802,
+									"questName": "Venom Medicine",
 									"subTasks": [],
 									"type": "Accept quest"
 								}
@@ -13812,7 +13812,7 @@
 							"npcName": "Starving Mountain Lion",
 							"npcId": 2384,
 							"count": 10,
-							"questId": 26398,
+							"questId": 26819,
 							"questObjectiveIndex": 1,
 							"depth": 0,
 							"type": "Kill",
@@ -13821,7 +13821,7 @@
 						},
 						{
 							"itemName": "Bear fur",
-							"questId": 26397,
+							"questId": 26805,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -13853,7 +13853,7 @@
 						},
 						{
 							"itemName": "Moss Venom",
-							"questId": 26395,
+							"questId": 26802,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -13876,7 +13876,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26408,
+									"questId": 26834,
 									"questName": "Assistance to Jenna",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -13915,14 +13915,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26375,
+									"questId": 26806,
 									"questName": "Defense of Southshore",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"questName": "A Scout in Need",
-									"questId": 26391,
+									"questId": 26798,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -13976,7 +13976,7 @@
 							"subTasks": [
 								{
 									"itemName": "Paxton's Report",
-									"questId": 26375,
+									"questId": 26806,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 1,
@@ -14010,7 +14010,7 @@
 							"subTasks": [
 								{
 									"itemName": "Tristan's Report",
-									"questId": 26375,
+									"questId": 26806,
 									"questObjectiveIndex": 3,
 									"toLootNpcs": [],
 									"count": 1,
@@ -14046,7 +14046,7 @@
 						},
 						{
 							"itemName": "Syndicate Armor Scrap",
-							"questId": 26391,
+							"questId": 26798,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -14092,7 +14092,7 @@
 						},
 						{
 							"itemName": "Mudsnout Ichor",
-							"questId": 26402,
+							"questId": 26828,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -14132,7 +14132,7 @@
 							"subTasks": [
 								{
 									"itemName": "Emily's Report",
-									"questId": 26375,
+									"questId": 26806,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -14182,7 +14182,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26397,
+									"questId": 26805,
 									"questName": "Decorating the Inn",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -14213,14 +14213,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26375,
+									"questId": 26806,
 									"questName": "Defense of Southshore",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Defense of Southshore",
-									"questId": 26376,
+									"questId": 26807,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -14228,7 +14228,7 @@
 								},
 								{
 									"questName": "A Scout in Need",
-									"questId": 26391,
+									"questId": 26798,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -14236,7 +14236,7 @@
 								},
 								{
 									"questName": "A Scout in Need",
-									"questId": 26392,
+									"questId": 26799,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -14268,8 +14268,8 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26395,
-									"questName": "A Venom That Cures",
+									"questId": 26802,
+									"questName": "Venom Medicine",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -14300,7 +14300,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26402,
+									"questId": 26828,
 									"questName": "Mudsnout Concoction",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -14331,8 +14331,8 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26398,
-									"questName": "Purging the Lions",
+									"questId": 26819,
+									"questName": "Purging the Land of Lions",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -14377,7 +14377,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26403,
+									"questId": 26829,
 									"questName": "Venom to the Syndicate",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -14507,7 +14507,7 @@
 							"subTasks": [
 								{
 									"questName": "Defense of Southshore",
-									"questId": 26376,
+									"questId": 26807,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -14515,7 +14515,7 @@
 								},
 								{
 									"questName": "Defense of Southshore",
-									"questId": 26377,
+									"questId": 26808,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -14564,7 +14564,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26283,
+									"questId": 27021,
 									"questName": "Message to Menethil",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -14669,7 +14669,7 @@
 						},
 						{
 							"itemName": "Ghost-Touched Ore",
-							"questId": 26377,
+							"questId": 26808,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 8,
@@ -14803,7 +14803,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26377,
+									"questId": 26808,
 									"questName": "Defense of Southshore",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -14817,7 +14817,7 @@
 								},
 								{
 									"questName": "Defense of Southshore",
-									"questId": 26379,
+									"questId": 26810,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -14911,7 +14911,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26283,
+									"questId": 27021,
 									"questName": "Message to Menethil",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -14949,7 +14949,7 @@
 								},
 								{
 									"questName": "Don't Kill The Messenger",
-									"questId": 26284,
+									"questId": 27022,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -15014,14 +15014,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26379,
+									"questId": 26810,
 									"questName": "Defense of Southshore",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Defense of Southshore",
-									"questId": 26380,
+									"questId": 26811,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -15053,14 +15053,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26380,
+									"questId": 26811,
 									"questName": "Defense of Southshore",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Keep the Horde Away",
-									"questId": 26382,
+									"questId": 26813,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -15068,7 +15068,7 @@
 								},
 								{
 									"questName": "An Apple a Day",
-									"questId": 26381,
+									"questId": 26812,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -15103,7 +15103,7 @@
 									"npcName": "Horde Scout",
 									"npcId": 45424,
 									"count": 6,
-									"questId": 26382,
+									"questId": 26813,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -15123,7 +15123,7 @@
 							"subTasks": [
 								{
 									"goalName": "Apple Cider stored",
-									"questId": 26381,
+									"questId": 26812,
 									"questObjectiveIndex": 1,
 									"count": 6,
 									"depth": 1,
@@ -15158,14 +15158,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26381,
+									"questId": 26812,
 									"questName": "An Apple a Day",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Keep the Horde Away",
-									"questId": 26382,
+									"questId": 26813,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -15173,7 +15173,7 @@
 								},
 								{
 									"questName": "Defense of Southshore",
-									"questId": 26384,
+									"questId": 26815,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -15205,14 +15205,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26384,
+									"questId": 26815,
 									"questName": "Defense of Southshore",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Defense of Southshore",
-									"questId": 26385,
+									"questId": 26816,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -15254,7 +15254,7 @@
 							"subTasks": [
 								{
 									"goalName": "Southshore defended",
-									"questId": 26385,
+									"questId": 26816,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -15321,7 +15321,7 @@
 							"subTasks": [
 								{
 									"goalName": "Syndicate Food Supplies poisoned",
-									"questId": 26403,
+									"questId": 26829,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -15342,7 +15342,7 @@
 							"subTasks": [
 								{
 									"itemName": "Durnholde Armaments",
-									"questId": 26374,
+									"questId": 26803,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 10,
@@ -15379,14 +15379,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26392,
+									"questId": 26799,
 									"questName": "A Scout in Need",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "A Scout in Need",
-									"questId": 26393,
+									"questId": 26800,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -15417,7 +15417,7 @@
 							"subTasks": [
 								{
 									"itemName": "Eston's Key",
-									"questId": 26393,
+									"questId": 26800,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -15454,14 +15454,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26393,
+									"questId": 26800,
 									"questName": "A Scout in Need",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "A Scout in Need",
-									"questId": 26394,
+									"questId": 26801,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -15503,7 +15503,7 @@
 							"subTasks": [
 								{
 									"goalName": "Scout Vernado rescued",
-									"questId": 26394,
+									"questId": 26801,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -15580,7 +15580,7 @@
 							"subTasks": [
 								{
 									"itemName": "Beve's Head",
-									"questId": 26404,
+									"questId": 26830,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -15603,7 +15603,7 @@
 									"subTasks": [
 										{
 											"questName": "Syndicate Plans",
-											"questId": 26405,
+											"questId": 26831,
 											"depth": 2,
 											"type": "Accept quest",
 											"subTasks": [],
@@ -15639,7 +15639,7 @@
 								},
 								{
 									"itemName": "Syndicate Orb",
-									"questId": 26387,
+									"questId": 26825,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 5,
@@ -15736,14 +15736,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26385,
+									"questId": 26816,
 									"questName": "Defense of Southshore",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "A Scout in Need",
-									"questId": 26394,
+									"questId": 26801,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -15751,7 +15751,7 @@
 								},
 								{
 									"questName": "WANTED: Beve Perenolde",
-									"questId": 26404,
+									"questId": 26830,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -15759,7 +15759,7 @@
 								},
 								{
 									"questName": "Syndicate Plans",
-									"questId": 26405,
+									"questId": 26831,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -15791,7 +15791,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26403,
+									"questId": 26829,
 									"questName": "Venom to the Syndicate",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -15822,7 +15822,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26387,
+									"questId": 26825,
 									"questName": "Syndicate Magic",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -15853,7 +15853,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26374,
+									"questId": 26803,
 									"questName": "Breaking the Armory",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -16271,7 +16271,7 @@
 							"subTasks": [
 								{
 									"goalName": "Bundural Messenger Healed",
-									"questId": 26284,
+									"questId": 27022,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -17098,7 +17098,7 @@
 								},
 								{
 									"questName": "Don't Kill The Messenger",
-									"questId": 26284,
+									"questId": 27022,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -18693,7 +18693,7 @@
 						},
 						{
 							"questName": "Wanted: Plagued Shambler",
-							"questId": 26325,
+							"questId": 26723,
 							"depth": 0,
 							"type": "Accept quest",
 							"subTasks": [
@@ -18701,7 +18701,7 @@
 									"npcName": "Plagued Shambler",
 									"npcId": 45325,
 									"count": 1,
-									"questId": 26325,
+									"questId": 26723,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -18742,7 +18742,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26325,
+									"questId": 26723,
 									"questName": "Wanted: Plagued Shambler",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -19128,7 +19128,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26313,
+									"questId": 26711,
 									"questName": "Life In Death",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -19253,7 +19253,7 @@
 								},
 								{
 									"itemName": "Brightwood Bloom",
-									"questId": 26313,
+									"questId": 26711,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 8,
@@ -19297,14 +19297,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26313,
+									"questId": 26711,
 									"questName": "Life In Death",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Life In Death",
-									"questId": 26314,
+									"questId": 26712,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -19602,7 +19602,7 @@
 							"subTasks": [
 								{
 									"itemName": "Fresh Bone Powder",
-									"questId": 26314,
+									"questId": 26712,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -20237,14 +20237,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26314,
+									"questId": 26712,
 									"questName": "Life In Death",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Life In Death",
-									"questId": 26315,
+									"questId": 26713,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -20401,7 +20401,7 @@
 							"subTasks": [
 								{
 									"goalName": "Serae's Final Experiment",
-									"questId": 26315,
+									"questId": 26713,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -21381,7 +21381,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26315,
+									"questId": 26713,
 									"questName": "Life In Death",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -23429,7 +23429,7 @@
 								},
 								{
 									"questName": "Ram Ranch Rescue",
-									"questId": 26286,
+									"questId": 27014,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -23437,7 +23437,7 @@
 								},
 								{
 									"questName": "Highlands Hightail",
-									"questId": 26344,
+									"questId": 27017,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -23469,7 +23469,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26345,
+									"questId": 27018,
 									"questName": "Till The Work Is Done",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -23500,7 +23500,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26346,
+									"questId": 27019,
 									"questName": "Finding Hero",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -23524,7 +23524,7 @@
 						},
 						{
 							"itemName": "Hero",
-							"questId": 26346,
+							"questId": 27019,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -23562,7 +23562,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26346,
+									"questId": 27019,
 									"questName": "Finding Hero",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -23583,7 +23583,7 @@
 						},
 						{
 							"itemName": "Highland Corn",
-							"questId": 26345,
+							"questId": 27018,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 10,
@@ -23616,7 +23616,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26345,
+									"questId": 27018,
 									"questName": "Till The Work Is Done",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -23636,7 +23636,7 @@
 							"subTasks": [
 								{
 									"goalName": "Louthy Family Convinced",
-									"questId": 26344,
+									"questId": 27017,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -23678,7 +23678,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26287,
+									"questId": 27015,
 									"questName": "Drastic Measures",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -23724,7 +23724,7 @@
 								},
 								{
 									"questName": "Push Them Back",
-									"questId": 26285,
+									"questId": 27004,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -23732,7 +23732,7 @@
 								},
 								{
 									"questName": "Spoils of War",
-									"questId": 26289,
+									"questId": 27005,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -23852,7 +23852,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26282,
+									"questId": 27020,
 									"questName": "Let's Get Outta Here",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -23866,7 +23866,7 @@
 					"stepTasks": [
 						{
 							"itemName": "Crude Dragonmaw Outfit",
-							"questId": 26287,
+							"questId": 27015,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 1,
@@ -23887,7 +23887,7 @@
 							"npcName": "Dragonmaw Adept",
 							"npcId": 45246,
 							"count": 6,
-							"questId": 26285,
+							"questId": 27004,
 							"questObjectiveIndex": 1,
 							"depth": 0,
 							"type": "Kill",
@@ -23898,7 +23898,7 @@
 							"npcName": "Dragonwmaw Warder",
 							"npcId": 45247,
 							"count": 6,
-							"questId": 26285,
+							"questId": 27004,
 							"questObjectiveIndex": 2,
 							"depth": 0,
 							"type": "Kill",
@@ -23907,7 +23907,7 @@
 						},
 						{
 							"itemName": "Dragonwaw Weapon",
-							"questId": 26289,
+							"questId": 27005,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 8,
@@ -23923,7 +23923,7 @@
 					"stepTasks": [
 						{
 							"goalName": "Escort Sadira Ironbit",
-							"questId": 26282,
+							"questId": 27020,
 							"questObjectiveIndex": 1,
 							"count": 1,
 							"depth": 0,
@@ -23948,7 +23948,7 @@
 							"subTasks": [
 								{
 									"questName": "Push Them Back",
-									"questId": 26285,
+									"questId": 27004,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -23956,7 +23956,7 @@
 								},
 								{
 									"questName": "Spoils of War",
-									"questId": 26289,
+									"questId": 27005,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -23964,7 +23964,7 @@
 								},
 								{
 									"questName": "Eye of Zulumar",
-									"questId": 26340,
+									"questId": 27006,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -23997,14 +23997,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26287,
+									"questId": 27015,
 									"questName": "Drastic Measures",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Drastic Measures",
-									"questId": 26288,
+									"questId": 27016,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -24034,7 +24034,7 @@
 									"subTasks": [
 										{
 											"goalName": "First Paddock Burned",
-											"questId": 26288,
+											"questId": 27016,
 											"questObjectiveIndex": 2,
 											"count": 1,
 											"depth": 2,
@@ -24055,7 +24055,7 @@
 									"subTasks": [
 										{
 											"goalName": "Stable Burned",
-											"questId": 26288,
+											"questId": 27016,
 											"questObjectiveIndex": 1,
 											"count": 1,
 											"depth": 2,
@@ -24076,7 +24076,7 @@
 									"subTasks": [
 										{
 											"goalName": "Second Paddock Burned",
-											"questId": 26288,
+											"questId": 27016,
 											"questObjectiveIndex": 3,
 											"count": 1,
 											"depth": 2,
@@ -24114,7 +24114,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26288,
+									"questId": 27016,
 									"questName": "Drastic Measures",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -24145,7 +24145,7 @@
 							"subTasks": [
 								{
 									"goalName": "Glori Cramber Convinced",
-									"questId": 26286,
+									"questId": 27014,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -24179,22 +24179,22 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26340,
+									"questId": 27006,
 									"questName": "Eye of Zulumar",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Where It Hurts",
-									"questId": 26341,
+									"questId": 27007,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
 									"isCustom": true
 								},
 								{
-									"questName": "Butcher of Burndural",
-									"questId": 26342,
+									"questName": "Butchers of Burndural",
+									"questId": 27008,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -24202,7 +24202,7 @@
 								},
 								{
 									"questName": "The Whelp Wranglers",
-									"questId": 26347,
+									"questId": 27023,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -24227,7 +24227,7 @@
 									"npcName": "Watcher Xorck",
 									"npcId": 45281,
 									"count": 1,
-									"questId": 26341,
+									"questId": 27007,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -24254,7 +24254,7 @@
 									"npcName": "Dragonmaw Darkhand",
 									"npcId": 45268,
 									"count": 6,
-									"questId": 26347,
+									"questId": 27023,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -24265,7 +24265,7 @@
 									"npcName": "Subjugator Sharog",
 									"npcId": 45279,
 									"count": 1,
-									"questId": 26347,
+									"questId": 27023,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -24292,7 +24292,7 @@
 									"npcName": "Beastmistress Mor",
 									"npcId": 45257,
 									"count": 1,
-									"questId": 26342,
+									"questId": 27008,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -24316,7 +24316,7 @@
 									"npcName": "Dragonmaw Butcher",
 									"npcId": 45265,
 									"count": 6,
-									"questId": 26342,
+									"questId": 27008,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -24327,7 +24327,7 @@
 									"npcName": "Dragonmaw Blademaster",
 									"npcId": 45264,
 									"count": 6,
-									"questId": 26341,
+									"questId": 27007,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -24398,14 +24398,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26341,
+									"questId": 27007,
 									"questName": "Where It Hurts",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
-									"questName": "Butcher of Burndural",
-									"questId": 26342,
+									"questName": "Butchers of Burndural",
+									"questId": 27008,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -24413,7 +24413,7 @@
 								},
 								{
 									"questName": "The Whelp Wranglers",
-									"questId": 26347,
+									"questId": 27023,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -24421,7 +24421,7 @@
 								},
 								{
 									"questName": "Nek'rosh Must Die",
-									"questId": 26338,
+									"questId": 26999,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -24437,7 +24437,7 @@
 						{
 							"itemName": "Nek'roshes's Head",
 							"count": 1,
-							"questId": 26338,
+							"questId": 26999,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -24485,14 +24485,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26286,
+									"questId": 27014,
 									"questName": "Ram Ranch Rescue",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Highlands Hightail",
-									"questId": 26344,
+									"questId": 27017,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -24532,7 +24532,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26338,
+									"questId": 26999,
 									"questName": "Nek'rosh Must Die",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -24547,7 +24547,7 @@
 								},
 								{
 									"questName": "A Temporary Victory",
-									"questId": 26339,
+									"questId": 27000,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -24579,7 +24579,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26282,
+									"questId": 27020,
 									"questName": "Let's Get Outta Here",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -24824,7 +24824,7 @@
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 26339,
+									"questId": 27000,
 									"questName": "A Temporary Victory",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -29419,7 +29419,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26437,
+									"questId": 26902,
 									"questName": "Stop The Shrinking",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -30835,7 +30835,7 @@
 						},
 						{
 							"goalName": "Adventurers Freed",
-							"questId": 26437,
+							"questId": 26902,
 							"questObjectiveIndex": 1,
 							"count": 8,
 							"depth": 0,
@@ -31669,7 +31669,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26437,
+									"questId": 26902,
 									"questName": "Stop The Shrinking",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -36320,7 +36320,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26439,
+									"questId": 26907,
 									"questName": "Wild Tulip",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -36840,7 +36840,7 @@
 							"subTasks": [
 								{
 									"itemName": "Chest of Memories",
-									"questId": 26439,
+									"questId": 26907,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -37038,14 +37038,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26439,
+									"questId": 26907,
 									"questName": "Wild Tulip",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Wild Tulip",
-									"questId": 26440,
+									"questId": 26908,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -37366,7 +37366,7 @@
 							"subTasks": [
 								{
 									"itemName": "Daniel's Spice Box",
-									"questId": 26440,
+									"questId": 26908,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -38105,7 +38105,7 @@
 							"subTasks": [
 								{
 									"itemName": "Tulip's Music Box",
-									"questId": 26440,
+									"questId": 26908,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 1,
@@ -38264,7 +38264,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26440,
+									"questId": 26908,
 									"questName": "Wild Tulip",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -40269,7 +40269,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26441,
+									"questId": 26909,
 									"questName": "Wild Tulip",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -40361,14 +40361,14 @@
 						{
 							"depth": 0,
 							"isCustom": true,
-							"questId": 26441,
+							"questId": 26909,
 							"questName": "Wild Tulip",
 							"subTasks": [],
 							"type": "Turn in quest"
 						},
 						{
 							"questName": "Wild Tulip",
-							"questId": 26442,
+							"questId": 26910,
 							"depth": 0,
 							"type": "Accept quest",
 							"subTasks": [],
@@ -40539,7 +40539,7 @@
 							"subTasks": [
 								{
 									"itemName": "Tulip's Pendant",
-									"questId": 26442,
+									"questId": 26910,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -40555,7 +40555,7 @@
 								},
 								{
 									"itemName": "Daniel's Pendant",
-									"questId": 26442,
+									"questId": 26910,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [
 										{
@@ -41297,7 +41297,7 @@
 							"npcId": 45506,
 							"subTasks": [
 								{
-									"questId": 26442,
+									"questId": 26910,
 									"questName": "Wild Tulip",
 									"depth": 1,
 									"type": "Turn in quest",
@@ -41305,7 +41305,7 @@
 									"isCustom": true
 								},
 								{
-									"questId": 26443,
+									"questId": 26911,
 									"questName": "Wild Tulip",
 									"depth": 1,
 									"type": "Accept quest",
@@ -41314,7 +41314,7 @@
 								},
 								{
 									"questName": "Wild Tulip",
-									"questId": 26443,
+									"questId": 26911,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -41574,7 +41574,7 @@
 						{
 							"depth": 0,
 							"isCustom": true,
-							"questId": 26445,
+							"questId": 27292,
 							"questName": "Wanted: King Krool",
 							"subTasks": [],
 							"type": "Accept quest"
@@ -41634,7 +41634,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26464,
+									"questId": 27294,
 									"questName": "The Downed Zeppelin",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -41680,14 +41680,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26464,
+									"questId": 27294,
 									"questName": "The Downed Zeppelin",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Grab The Goods",
-									"questId": 26466,
+									"questId": 27296,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -41695,7 +41695,7 @@
 								},
 								{
 									"questName": "Where In The World Is Beezil Linkspanner?",
-									"questId": 26465,
+									"questId": 27295,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -41717,7 +41717,7 @@
 						},
 						{
 							"itemName": "Zeppelin Cargo",
-							"questId": 26466,
+							"questId": 27296,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 8,
@@ -41736,7 +41736,7 @@
 						},
 						{
 							"itemName": "Beezil Location Clue I",
-							"questId": 26465,
+							"questId": 27295,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -41760,7 +41760,7 @@
 						},
 						{
 							"itemName": "Beezil Location Clue II",
-							"questId": 26465,
+							"questId": 27295,
 							"questObjectiveIndex": 2,
 							"toLootNpcs": [
 								{
@@ -41784,7 +41784,7 @@
 						},
 						{
 							"itemName": "Beezil Location Clue III",
-							"questId": 26465,
+							"questId": 27295,
 							"questObjectiveIndex": 3,
 							"toLootNpcs": [
 								{
@@ -41830,14 +41830,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26465,
+									"questId": 27295,
 									"questName": "Where In The World Is Beezil Linkspanner?",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Grab The Goods",
-									"questId": 26466,
+									"questId": 27296,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -42429,14 +42429,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26455,
+									"questId": 27283,
 									"questName": "Cast Away",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"goalName": "Escort Argyle Wilkes",
-									"questId": 26455,
+									"questId": 27283,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -42501,7 +42501,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26455,
+									"questId": 27283,
 									"questName": "Cast Away",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -43119,7 +43119,7 @@
 								{
 									"itemName": "Giant Crocolisk Tooth",
 									"count": 1,
-									"questId": 26445,
+									"questId": 27292,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -43205,7 +43205,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26445,
+									"questId": 27292,
 									"questName": "Wanted: King Krool",
 									"subTasks": [],
 									"type": "Turn in quest"
