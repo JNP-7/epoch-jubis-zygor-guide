@@ -27198,7 +27198,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26565,
+									"questId": 27503,
 									"questName": "Why Oh Wyvern",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -27229,7 +27229,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26567,
+									"questId": 27496,
 									"questName": "Stitching Supplies",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -27318,7 +27318,7 @@
 							"subTasks": [
 								{
 									"itemName": "Cody's carrier",
-									"questId": 26565,
+									"questId": 27503,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -27336,7 +27336,7 @@
 								},
 								{
 									"itemName": "Dusty Leather",
-									"questId": 26567,
+									"questId": 27496,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 10,
@@ -27384,7 +27384,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26565,
+									"questId": 27503,
 									"questName": "Why Oh Wyvern",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -27415,7 +27415,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26567,
+									"questId": 27496,
 									"questName": "Stitching Supplies",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -63062,7 +63062,7 @@
 								},
 								{
 									"questName": "A Reflection of Death",
-									"questId": 26617,
+									"questId": 27323,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -63093,7 +63093,7 @@
 							"subTasks": [
 								{
 									"goalName": "Mirror Shown",
-									"questId": 26617,
+									"questId": 27323,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -63128,14 +63128,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26617,
+									"questId": 27323,
 									"questName": "A Reflection of Death",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Dead and Gone",
-									"questId": 26606,
+									"questId": 27324,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -63170,7 +63170,7 @@
 									"subTasks": [
 										{
 											"goalName": "Mek'nell Asked",
-											"questId": 26606,
+											"questId": 27324,
 											"questObjectiveIndex": 2,
 											"count": 1,
 											"depth": 2,
@@ -63199,7 +63199,7 @@
 									"subTasks": [
 										{
 											"goalName": "Gark Asked",
-											"questId": 26606,
+											"questId": 27324,
 											"questObjectiveIndex": 3,
 											"count": 1,
 											"depth": 2,
@@ -63220,7 +63220,7 @@
 							"subTasks": [
 								{
 									"goalName": "Enforcerer Asked",
-									"questId": 26606,
+									"questId": 27324,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -63254,7 +63254,7 @@
 							"subTasks": [
 								{
 									"questName": "Dead and Gone",
-									"questId": 26606,
+									"questId": 27324,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -63262,7 +63262,7 @@
 								},
 								{
 									"questName": "Dental Records",
-									"questId": 26607,
+									"questId": 27325,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -63313,7 +63313,7 @@
 							"subTasks": [
 								{
 									"itemName": "Ironfur Tooth",
-									"questId": 26607,
+									"questId": 27325,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -63438,14 +63438,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26607,
+									"questId": 27325,
 									"questName": "Dental Records",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Dental Records",
-									"questId": 26608,
+									"questId": 27326,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -63477,7 +63477,7 @@
 							"subTasks": [
 								{
 									"goalName": "Teeth Shown",
-									"questId": 26608,
+									"questId": 27326,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -63512,7 +63512,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26608,
+									"questId": 27326,
 									"questName": "Dental Records",
 									"subTasks": [],
 									"type": "Turn in quest"
