@@ -27661,7 +27661,7 @@
 								},
 								{
 									"questName": "The Ghost of the Flats",
-									"questId": 26561,
+									"questId": 27499,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -27876,7 +27876,7 @@
 									"npcName": "Chief Dusthoof",
 									"npcId": 45826,
 									"count": 1,
-									"questId": 26561,
+									"questId": 27499,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -27901,7 +27901,7 @@
 							"subTasks": [
 								{
 									"questName": "Amber Memento",
-									"questId": 26560,
+									"questId": 27486,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -28046,7 +28046,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26560,
+									"questId": 27486,
 									"questName": "Amber Memento",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -28306,7 +28306,7 @@
 								},
 								{
 									"questName": "The Ghost of the Flats",
-									"questId": 26561,
+									"questId": 27499,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -31209,7 +31209,7 @@
 							"subTasks": [
 								{
 									"questName": "The Janky Helmet",
-									"questId": 26483,
+									"questId": 26904,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -31550,7 +31550,7 @@
 							"subTasks": [
 								{
 									"questName": "The Janky Helmet",
-									"questId": 26483,
+									"questId": 26904,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -37106,7 +37106,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 26484,
+									"questId": 26905,
 									"questName": "The Janky Helmet",
 									"depth": 1,
 									"type": "Accept quest",
@@ -37424,7 +37424,7 @@
 							"subTasks": [
 								{
 									"goalName": "Elder Mistvale Gorilla experimented on",
-									"questId": 26484,
+									"questId": 26905,
 									"questObjectiveIndex": 1,
 									"count": 8,
 									"depth": 1,
@@ -37625,7 +37625,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26484,
+									"questId": 26905,
 									"questName": "The Janky Helmet",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -37810,7 +37810,7 @@
 							"type": "Comment",
 							"subTasks": [
 								{
-									"questId": 26641,
+									"questId": 26283,
 									"questName": "Azothan Relic",
 									"depth": 1,
 									"type": "Accept quest",
@@ -38628,7 +38628,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26647,
+									"questId": 26920,
 									"questName": "Skins of the Swamp",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -38659,14 +38659,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26651,
+									"questId": 26916,
 									"questName": "Karabor Stew",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"questName": "Eight Legged Fillets",
-									"questId": 26652,
+									"questId": 26917,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -38706,7 +38706,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26649,
+									"questId": 26913,
 									"questName": "Freshly Polished Rods",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -38728,7 +38728,7 @@
 							"subTasks": [
 								{
 									"itemName": "Polished Rod",
-									"questId": 26649,
+									"questId": 26913,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -38908,7 +38908,7 @@
 						},
 						{
 							"itemName": "Thick Crocolisk Skin",
-							"questId": 26647,
+							"questId": 26920,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -38924,7 +38924,7 @@
 						},
 						{
 							"itemName": "Tough Jaguar Skin",
-							"questId": 26647,
+							"questId": 26920,
 							"questObjectiveIndex": 2,
 							"toLootNpcs": [
 								{
@@ -38962,7 +38962,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26647,
+									"questId": 26920,
 									"questName": "Skins of the Swamp",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -38994,7 +38994,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26648,
+									"questId": 26921,
 									"questName": "Skins of the Swamp",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -39025,14 +39025,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26649,
+									"questId": 26913,
 									"questName": "Freshly Polished Rods",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Freshly Polished Rods",
-									"questId": 26650,
+									"questId": 26914,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -39115,7 +39115,7 @@
 						},
 						{
 							"itemName": "Polished Rod",
-							"questId": 26650,
+							"questId": 26914,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -39308,7 +39308,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26650,
+									"questId": 26914,
 									"questName": "Freshly Polished Rods",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -39470,7 +39470,7 @@
 							"subTasks": [
 								{
 									"itemName": "Engorged Spider Fillet",
-									"questId": 26652,
+									"questId": 26917,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -39557,7 +39557,7 @@
 						},
 						{
 							"itemName": "Sturdy Crocolisk Skin",
-							"questId": 26648,
+							"questId": 26921,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 8,
@@ -39568,7 +39568,7 @@
 						},
 						{
 							"itemName": "Rugged Panther Skin",
-							"questId": 26648,
+							"questId": 26921,
 							"questObjectiveIndex": 2,
 							"toLootNpcs": [],
 							"count": 8,
@@ -39614,7 +39614,7 @@
 						},
 						{
 							"itemName": "Massive Crawler Claw",
-							"questId": 26652,
+							"questId": 26917,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -39774,7 +39774,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26648,
+									"questId": 26921,
 									"questName": "Skins of the Swamp",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -39805,14 +39805,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26651,
+									"questId": 26916,
 									"questName": "Karabor Stew",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Eight Legged Fillets",
-									"questId": 26652,
+									"questId": 26917,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -40862,7 +40862,7 @@
 							"subTasks": [
 								{
 									"questName": "Azothan Relic",
-									"questId": 26641,
+									"questId": 26283,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -41080,7 +41080,7 @@
 								},
 								{
 									"questName": "Tiger Riding",
-									"questId": 27627,
+									"questId": 27482,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -41124,7 +41124,7 @@
 							"subTasks": [
 								{
 									"questName": "Tiger Riding",
-									"questId": 27627,
+									"questId": 27482,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -41845,7 +41845,7 @@
 								},
 								{
 									"questName": "Defibrillated",
-									"questId": 26467,
+									"questId": 27297,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -41867,7 +41867,7 @@
 							"subTasks": [
 								{
 									"goalName": "Crew Member \"Helped\"",
-									"questId": 26467,
+									"questId": 27297,
 									"questObjectiveIndex": 1,
 									"count": 6,
 									"depth": 1,
@@ -41902,14 +41902,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26467,
+									"questId": 27297,
 									"questName": "Defibrillated",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Sniffotron MK IV",
-									"questId": 26482,
+									"questId": 27298,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -42586,7 +42586,7 @@
 							"subTasks": [
 								{
 									"itemName": "Sniffotron Kit",
-									"questId": 26482,
+									"questId": 27298,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -42960,14 +42960,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26482,
+									"questId": 27298,
 									"questName": "Sniffotron MK IV",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Sniff Him Out",
-									"questId": 26468,
+									"questId": 27299,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -42989,7 +42989,7 @@
 						},
 						{
 							"goalName": "Follow the Sniffotron",
-							"questId": 26468,
+							"questId": 27299,
 							"questObjectiveIndex": 1,
 							"count": 1,
 							"depth": 0,
@@ -43021,14 +43021,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26468,
+									"questId": 27299,
 									"questName": "Sniff Him Out",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Beezil And The Burning Blade",
-									"questId": 26469,
+									"questId": 27300,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -43060,14 +43060,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26469,
+									"questId": 27300,
 									"questName": "Beezil And The Burning Blade",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Burning Blade Dossier",
-									"questId": 26471,
+									"questId": 27302,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -43365,7 +43365,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26471,
+									"questId": 27302,
 									"questName": "Burning Blade Dossier",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -43489,7 +43489,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26513,
+									"questId": 27443,
 									"questName": "Azeroth Space Society",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -43696,14 +43696,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26516,
+									"questId": 27462,
 									"questName": "Waste Removal",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"questName": "Think Of The Animals",
-									"questId": 26515,
+									"questId": 27461,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -43757,7 +43757,7 @@
 								},
 								{
 									"questName": "No One Drinks For Free",
-									"questId": 26520,
+									"questId": 27422,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -43828,7 +43828,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26522,
+									"questId": 27470,
 									"questName": "Water Co. Saviour",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -43858,7 +43858,7 @@
 							"subTasks": [
 								{
 									"goalName": "Miki Smallsprocket Threatened",
-									"questId": 26520,
+									"questId": 27422,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -43892,7 +43892,7 @@
 							"subTasks": [
 								{
 									"goalName": "Stelx Threatened",
-									"questId": 26520,
+									"questId": 27422,
 									"questObjectiveIndex": 3,
 									"count": 1,
 									"depth": 1,
@@ -43928,14 +43928,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26521,
+									"questId": 27419,
 									"questName": "Boom! Boom! Boom!",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"goalName": "Inabit Wedgefeet Threatened",
-									"questId": 26520,
+									"questId": 27422,
 									"questObjectiveIndex": 2,
 									"count": 1,
 									"depth": 1,
@@ -43969,14 +43969,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26513,
+									"questId": 27443,
 									"questName": "Azeroth Space Society",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Perfect Fuel",
-									"questId": 26507,
+									"questId": 27444,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -44038,7 +44038,7 @@
 							"subTasks": [
 								{
 									"goalName": "Gikkix Threatened",
-									"questId": 26520,
+									"questId": 27422,
 									"questObjectiveIndex": 4,
 									"count": 1,
 									"depth": 1,
@@ -44104,7 +44104,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26520,
+									"questId": 27422,
 									"questName": "No One Drinks For Free",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -44200,7 +44200,7 @@
 						},
 						{
 							"itemName": "Ancient Battery",
-							"questId": 26507,
+							"questId": 27444,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 8,
@@ -44226,7 +44226,7 @@
 						},
 						{
 							"itemName": "Extracted Scorpid Venom Sac",
-							"questId": 26507,
+							"questId": 27444,
 							"questObjectiveIndex": 2,
 							"toLootNpcs": [
 								{
@@ -44264,14 +44264,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26507,
+									"questId": 27444,
 									"questName": "The Perfect Fuel",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Perfect Fuel",
-									"questId": 26508,
+									"questId": 27445,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -44303,7 +44303,7 @@
 									"subTasks": [
 										{
 											"goalName": "Oil Soaked Critter Cleansed",
-											"questId": 26515,
+											"questId": 27461,
 											"questObjectiveIndex": 1,
 											"count": 8,
 											"depth": 2,
@@ -44321,7 +44321,7 @@
 									"subTasks": [
 										{
 											"goalName": "Oil Spill Removed",
-											"questId": 26516,
+											"questId": 27462,
 											"questObjectiveIndex": 1,
 											"count": 6,
 											"depth": 2,
@@ -44339,7 +44339,7 @@
 									"subTasks": [
 										{
 											"itemName": "Filter Parts",
-											"questId": 26522,
+											"questId": 27470,
 											"questObjectiveIndex": 1,
 											"toLootNpcs": [],
 											"count": 8,
@@ -44378,14 +44378,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26515,
+									"questId": 27461,
 									"questName": "Think Of The Animals",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Waste Removal",
-									"questId": 26516,
+									"questId": 27462,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -44393,7 +44393,7 @@
 								},
 								{
 									"questName": "Desperate Measures",
-									"questId": 26517,
+									"questId": 27463,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -44425,14 +44425,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26522,
+									"questId": 27470,
 									"questName": "Water Co. Saviour",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "A Workwomans Tools",
-									"questId": 26523,
+									"questId": 27471,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -44462,7 +44462,7 @@
 							"subTasks": [
 								{
 									"itemName": "Marai's Supplies",
-									"questId": 26517,
+									"questId": 27463,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -44654,7 +44654,7 @@
 								},
 								{
 									"itemName": "Battery Boosted Welder",
-									"questId": 26523,
+									"questId": 27471,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -44703,14 +44703,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26517,
+									"questId": 27463,
 									"questName": "Desperate Measures",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Oil Baron Beatdown",
-									"questId": 26518,
+									"questId": 27464,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -44718,7 +44718,7 @@
 								},
 								{
 									"questName": "Sink The Rig",
-									"questId": 26519,
+									"questId": 27465,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -44750,14 +44750,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26523,
+									"questId": 27471,
 									"questName": "A Workwomans Tools",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "A Workwomans Tools",
-									"questId": 26524,
+									"questId": 27472,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -44782,7 +44782,7 @@
 							"subTasks": [
 								{
 									"itemName": "Filled Oil Cannister",
-									"questId": 26508,
+									"questId": 27445,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -44808,7 +44808,7 @@
 							"subTasks": [
 								{
 									"goalName": "Explosives Placed",
-									"questId": 26519,
+									"questId": 27465,
 									"questObjectiveIndex": 1,
 									"count": 4,
 									"depth": 1,
@@ -44828,7 +44828,7 @@
 									"npcName": "Oil Rig Worker",
 									"npcId": 45714,
 									"count": 8,
-									"questId": 26518,
+									"questId": 27464,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -44839,7 +44839,7 @@
 									"npcName": "Overseer Loonet",
 									"npcId": 45716,
 									"count": 1,
-									"questId": 26518,
+									"questId": 27464,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -44873,14 +44873,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26508,
+									"questId": 27445,
 									"questName": "The Perfect Fuel",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Perfect Container",
-									"questId": 26509,
+									"questId": 27446,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -44912,7 +44912,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26510,
+									"questId": 27447,
 									"questName": "Even Better Fuel",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -44943,14 +44943,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26518,
+									"questId": 27464,
 									"questName": "Oil Baron Beatdown",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Sink The Rig",
-									"questId": 26519,
+									"questId": 27465,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -44973,7 +44973,7 @@
 							"subTasks": [
 								{
 									"itemName": "Mutated Basilisk Gland",
-									"questId": 26510,
+									"questId": 27447,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -45269,7 +45269,7 @@
 							"subTasks": [
 								{
 									"itemName": "Glasshide Glands",
-									"questId": 26510,
+									"questId": 27447,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [
 										{
@@ -45292,7 +45292,7 @@
 									"subTasks": [
 										{
 											"goalName": "Battery Charged",
-											"questId": 26524,
+											"questId": 27472,
 											"questObjectiveIndex": 1,
 											"count": 4,
 											"depth": 2,
@@ -45331,7 +45331,7 @@
 							"subTasks": [
 								{
 									"itemName": "Flame Sack",
-									"questId": 26521,
+									"questId": 27419,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -45392,7 +45392,7 @@
 							"subTasks": [
 								{
 									"itemName": "Gnome Car Parts",
-									"questId": 26509,
+									"questId": 27446,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 6,
@@ -45449,7 +45449,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26521,
+									"questId": 27419,
 									"questName": "Boom! Boom! Boom!",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -45480,7 +45480,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26510,
+									"questId": 27447,
 									"questName": "Even Better Fuel",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -45511,14 +45511,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26509,
+									"questId": 27446,
 									"questName": "The Perfect Container",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "A Dangerous Mixture",
-									"questId": 26511,
+									"questId": 27448,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -45543,7 +45543,7 @@
 							"subTasks": [
 								{
 									"itemName": "Experimental Rocket Fuel",
-									"questId": 26511,
+									"questId": 27448,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -45579,14 +45579,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26511,
+									"questId": 27448,
 									"questName": "A Dangerous Mixture",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Final Countdown",
-									"questId": 26512,
+									"questId": 27449,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -45612,7 +45612,7 @@
 									"subTasks": [
 										{
 											"questName": "The Final Countdown",
-											"questId": 26512,
+											"questId": 27449,
 											"depth": 2,
 											"type": "Turn in quest",
 											"subTasks": [],
@@ -45648,7 +45648,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26514,
+									"questId": 27450,
 									"questName": "A.S.S. Overhaul",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -45734,14 +45734,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26524,
+									"questId": 27472,
 									"questName": "A Workwomans Tools",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Water Injection",
-									"questId": 26525,
+									"questId": 27473,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -45930,7 +45930,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26514,
+									"questId": 27450,
 									"questName": "A.S.S. Overhaul",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -46267,7 +46267,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26593,
+									"questId": 26293,
 									"questName": "Fit For A King",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -46298,7 +46298,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26635,
+									"questId": 27313,
 									"questName": "Meat!",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -47403,7 +47403,7 @@
 								{
 									"itemName": "Ironfur Meat",
 									"count": 6,
-									"questId": 26635,
+									"questId": 27313,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -47418,7 +47418,7 @@
 								},
 								{
 									"itemName": "Ape Meat",
-									"questId": 26635,
+									"questId": 27313,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [
 										{
@@ -47434,7 +47434,7 @@
 								},
 								{
 									"itemName": "Walker Branches",
-									"questId": 26593,
+									"questId": 26293,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -47612,7 +47612,7 @@
 							"npcId": 45865,
 							"subTasks": [
 								{
-									"questId": 26593,
+									"questId": 26293,
 									"questName": "Fit For A King",
 									"depth": 1,
 									"type": "Turn in quest",
@@ -47628,7 +47628,7 @@
 									"isCustom": true
 								},
 								{
-									"questId": 26594,
+									"questId": 26294,
 									"questName": "Fit For A King",
 									"depth": 1,
 									"type": "Accept quest",
@@ -47666,7 +47666,7 @@
 							"subTasks": [
 								{
 									"itemName": "Wetland Hemp",
-									"questId": 26594,
+									"questId": 26294,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 8,
@@ -47712,7 +47712,7 @@
 							"subTasks": [
 								{
 									"questName": "Fit For A King",
-									"questId": 26594,
+									"questId": 26294,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -47744,7 +47744,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26635,
+									"questId": 27313,
 									"questName": "Meat!",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -49150,7 +49150,7 @@
 								},
 								{
 									"questName": "Two Legged Vultures",
-									"questId": 26529,
+									"questId": 27420,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -49183,7 +49183,7 @@
 								{
 									"itemName": "Fuel Injector",
 									"count": 8,
-									"questId": 26525,
+									"questId": 27473,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -49198,7 +49198,7 @@
 								},
 								{
 									"itemName": "Marvon's Pocket Watch",
-									"questId": 26529,
+									"questId": 27420,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -49214,7 +49214,7 @@
 								},
 								{
 									"itemName": "Marvon's Brimmed Hat",
-									"questId": 26529,
+									"questId": 27420,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [
 										{
@@ -49230,7 +49230,7 @@
 								},
 								{
 									"itemName": "Marvon's Ham Radio",
-									"questId": 26529,
+									"questId": 27420,
 									"questObjectiveIndex": 3,
 									"toLootNpcs": [
 										{
@@ -49270,7 +49270,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26529,
+									"questId": 27420,
 									"questName": "Two Legged Vultures",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -49908,7 +49908,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26525,
+									"questId": 27473,
 									"questName": "Water Injection",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -49922,7 +49922,7 @@
 								},
 								{
 									"questName": "A Saboteur In Our Midst",
-									"questId": 26526,
+									"questId": 27474,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -49943,7 +49943,7 @@
 							"subTasks": [
 								{
 									"goalName": "Bruisers questioned",
-									"questId": 26526,
+									"questId": 27474,
 									"questObjectiveIndex": 1,
 									"count": 6,
 									"depth": 1,
@@ -49977,14 +49977,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26526,
+									"questId": 27474,
 									"questName": "A Saboteur In Our Midst",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Clear Accusations",
-									"questId": 26527,
+									"questId": 27475,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -50048,7 +50048,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26527,
+									"questId": 27475,
 									"questName": "Clear Accusations",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -50074,7 +50074,7 @@
 						{
 							"depth": 0,
 							"isCustom": true,
-							"questId": 26528,
+							"questId": 27476,
 							"questName": "Wanted: Doszurd",
 							"subTasks": [],
 							"type": "Accept quest"
@@ -50096,7 +50096,7 @@
 									"npcName": "Doszurd",
 									"npcId": 45725,
 									"count": 1,
-									"questId": 26528,
+									"questId": 27476,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -50340,7 +50340,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26528,
+									"questId": 27476,
 									"questName": "Wanted: Doszurd",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -50709,7 +50709,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26498,
+									"questId": 26171,
 									"questName": "Falling Up To Grace",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -50780,7 +50780,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26491,
+									"questId": 26168,
 									"questName": "Can't Make An Omelette Without...",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -50811,7 +50811,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26496,
+									"questId": 26191,
 									"questName": "A Vicious Vocation",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -50837,7 +50837,7 @@
 						{
 							"depth": 0,
 							"isCustom": true,
-							"questId": 26506,
+							"questId": 26198,
 							"questName": "Wanted: Foulcrest",
 							"subTasks": [],
 							"type": "Accept quest"
@@ -51142,7 +51142,7 @@
 							"subTasks": [
 								{
 									"itemName": "Shadraspawn Egg",
-									"questId": 26491,
+									"questId": 26168,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 12,
@@ -51161,7 +51161,7 @@
 								},
 								{
 									"itemName": "Whitherbark Shawl Scrap",
-									"questId": 26498,
+									"questId": 26171,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 8,
@@ -51172,7 +51172,7 @@
 								},
 								{
 									"itemName": "Perfect Broodguard Silk",
-									"questId": 26498,
+									"questId": 26171,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [
 										{
@@ -51225,7 +51225,7 @@
 								},
 								{
 									"itemName": "Foulcrest Plume",
-									"questId": 26506,
+									"questId": 26198,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -51278,7 +51278,7 @@
 									"npcName": "Vicious Owlbeast",
 									"npcId": 2927,
 									"count": 10,
-									"questId": 26496,
+									"questId": 26191,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -51389,7 +51389,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26491,
+									"questId": 26168,
 									"questName": "Can't Make An Omelette Without...",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -51419,7 +51419,7 @@
 							"subTasks": [
 								{
 									"questName": "A Vicious Vocation",
-									"questId": 26496,
+									"questId": 26191,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -51427,7 +51427,7 @@
 								},
 								{
 									"questName": "Primitive Pummeling",
-									"questId": 26493,
+									"questId": 26192,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -51483,7 +51483,7 @@
 								},
 								{
 									"questName": "Stalking the Stalkers",
-									"questId": 26492,
+									"questId": 26188,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -51491,7 +51491,7 @@
 								},
 								{
 									"questName": "Wanted: Foulcrest",
-									"questId": 26506,
+									"questId": 26198,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -51523,7 +51523,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26489,
+									"questId": 26177,
 									"questName": "Razorbeak Friends",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -51552,7 +51552,7 @@
 							"npcId": 45694,
 							"subTasks": [
 								{
-									"questId": 26498,
+									"questId": 26171,
 									"questName": "Falling Up To Grace",
 									"depth": 1,
 									"type": "Turn in quest",
@@ -51561,7 +51561,7 @@
 								},
 								{
 									"questName": "Falling Up To Grace",
-									"questId": 26499,
+									"questId": 26172,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -51632,14 +51632,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26487,
+									"questId": 26196,
 									"questName": "Turtle Power",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"questName": "A Sticky Situation",
-									"questId": 26497,
+									"questId": 26167,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -51671,7 +51671,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26488,
+									"questId": 26189,
 									"questName": "Prime Slime",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -51702,7 +51702,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26504,
+									"questId": 26186,
 									"questName": "Parts From Afar",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -51765,14 +51765,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26499,
+									"questId": 26172,
 									"questName": "Falling Up To Grace",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Falling Up To Grace",
-									"questId": 26500,
+									"questId": 26173,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -51807,7 +51807,7 @@
 									"npcName": "Primitive Owlbeast",
 									"npcId": 2928,
 									"count": 15,
-									"questId": 26493,
+									"questId": 26192,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -51868,7 +51868,7 @@
 									"npcName": "Silvermane Howler",
 									"npcId": 2925,
 									"count": 15,
-									"questId": 26492,
+									"questId": 26188,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -51938,14 +51938,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26493,
+									"questId": 26192,
 									"questName": "Primitive Pummeling",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Savage Slam",
-									"questId": 26494,
+									"questId": 26193,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -51990,7 +51990,7 @@
 							"subTasks": [
 								{
 									"itemName": "Warbling Altometer",
-									"questId": 26500,
+									"questId": 26173,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -52099,7 +52099,7 @@
 									"subTasks": [
 										{
 											"itemName": "Hinterlands Honey Ripple",
-											"questId": 26497,
+											"questId": 26167,
 											"questObjectiveIndex": 1,
 											"toLootNpcs": [],
 											"count": 10,
@@ -52135,7 +52135,7 @@
 								},
 								{
 									"itemName": "Direglob Sample",
-									"questId": 26488,
+									"questId": 26189,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -52189,7 +52189,7 @@
 									"npcName": "Savage Owlbeast",
 									"npcId": 2929,
 									"count": 10,
-									"questId": 26494,
+									"questId": 26193,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -52200,7 +52200,7 @@
 									"npcName": "Silvermane Stalker",
 									"npcId": 2926,
 									"count": 15,
-									"questId": 26492,
+									"questId": 26188,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -52225,7 +52225,7 @@
 							"subTasks": [
 								{
 									"itemName": "Grouper Steak",
-									"questId": 26489,
+									"questId": 26177,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -52241,7 +52241,7 @@
 								},
 								{
 									"itemName": "Royal Bite",
-									"questId": 26489,
+									"questId": 26177,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 15,
@@ -52278,14 +52278,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26500,
+									"questId": 26173,
 									"questName": "Falling Up To Grace",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Falling Up To Grace",
-									"questId": 26501,
+									"questId": 26174,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -52356,14 +52356,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26494,
+									"questId": 26193,
 									"questName": "Savage Slam",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Owlkin Leadership",
-									"questId": 26495,
+									"questId": 26194,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -52426,7 +52426,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26497,
+									"questId": 26167,
 									"questName": "A Sticky Situation",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -52457,7 +52457,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26488,
+									"questId": 26189,
 									"questName": "Prime Slime",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -52486,7 +52486,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 26505,
+									"questId": 26186,
 									"questName": "Parts From Afar",
 									"depth": 1,
 									"type": "Turn in quest",
@@ -52542,7 +52542,7 @@
 								},
 								{
 									"questName": "Stalking the Stalkers",
-									"questId": 26492,
+									"questId": 26188,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -52574,14 +52574,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26489,
+									"questId": 26177,
 									"questName": "Razorbeak Friends",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Razorbeak Friends",
-									"questId": 26490,
+									"questId": 26178,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -52613,14 +52613,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26501,
+									"questId": 26174,
 									"questName": "Falling Up To Grace",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Falling Up To Grace",
-									"questId": 26502,
+									"questId": 26175,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -52645,7 +52645,7 @@
 							"subTasks": [
 								{
 									"goalName": "Parachute Tested",
-									"questId": 26502,
+									"questId": 26175,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -52681,14 +52681,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26502,
+									"questId": 26175,
 									"questName": "Falling Up To Grace",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Falling Up To Grace",
-									"questId": 26503,
+									"questId": 26176,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -52721,7 +52721,7 @@
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 26503,
+									"questId": 26176,
 									"questName": "Falling Up To Grace",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -52745,7 +52745,7 @@
 							"subTasks": [
 								{
 									"goalName": "Trained Razorbeak Fed",
-									"questId": 26490,
+									"questId": 26178,
 									"questObjectiveIndex": 1,
 									"count": 7,
 									"depth": 1,
@@ -52785,7 +52785,7 @@
 									"npcName": "Rirrek",
 									"npcId": 45688,
 									"count": 1,
-									"questId": 26495,
+									"questId": 26194,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -52895,7 +52895,7 @@
 						},
 						{
 							"itemName": "Lean Turtle Flank",
-							"questId": 26487,
+							"questId": 26196,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -53010,7 +53010,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26487,
+									"questId": 26196,
 									"questName": "Turtle Power",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -53078,7 +53078,7 @@
 							"subTasks": [
 								{
 									"questName": "Owlkin Leadership",
-									"questId": 26495,
+									"questId": 26194,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -53110,7 +53110,7 @@
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 26490,
+									"questId": 26178,
 									"questName": "Razorbeak Friends",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -53165,7 +53165,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26504,
+									"questId": 26186,
 									"questName": "Parts From Afar",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -62602,7 +62602,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 26595,
+									"questId": 26295,
 									"questName": "Fit For A King",
 									"depth": 1,
 									"type": "Accept quest",
@@ -62636,7 +62636,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26605,
+									"questId": 27322,
 									"questName": "Convincing the Denied",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -62924,7 +62924,7 @@
 							"subTasks": [
 								{
 									"itemName": "Broken mirror shard",
-									"questId": 26605,
+									"questId": 27322,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 8,
@@ -63055,7 +63055,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26605,
+									"questId": 27322,
 									"questName": "Convincing the Denied",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -63291,7 +63291,7 @@
 								},
 								{
 									"itemName": "Vial of Beast Blood",
-									"questId": 26595,
+									"questId": 26295,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 20,
@@ -63406,7 +63406,7 @@
 							"subTasks": [
 								{
 									"questName": "Fit For A King",
-									"questId": 26595,
+									"questId": 26295,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -75974,7 +75974,7 @@
 								},
 								{
 									"questName": "Kill Wraithroar",
-									"questId": 27287,
+									"questId": 27560,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -76061,7 +76061,7 @@
 									"npcName": "Wraithroar",
 									"npcId": 46209,
 									"count": 1,
-									"questId": 27287,
+									"questId": 27560,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -76535,7 +76535,7 @@
 								},
 								{
 									"questName": "Kill Wraithroar",
-									"questId": 27287,
+									"questId": 27560,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
