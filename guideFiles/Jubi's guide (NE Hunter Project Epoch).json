@@ -4563,14 +4563,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27937,
+									"questId": 26204,
 									"questName": "The Greymist Menace",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"questName": "My Sister Isabetta",
-									"questId": 28109,
+									"questId": 27205,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -4989,7 +4989,7 @@
 							"subTasks": [
 								{
 									"questName": "My Sister Isabetta",
-									"questId": 28109,
+									"questId": 27205,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -4997,7 +4997,7 @@
 								},
 								{
 									"questName": "My Sister Isabetta",
-									"questId": 28110,
+									"questId": 27206,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -5028,7 +5028,7 @@
 							"subTasks": [
 								{
 									"goalName": "First Clue Found",
-									"questId": 28110,
+									"questId": 27206,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -5054,7 +5054,7 @@
 							"subTasks": [
 								{
 									"goalName": "Third Clue Found",
-									"questId": 28110,
+									"questId": 27206,
 									"questObjectiveIndex": 3,
 									"count": 1,
 									"depth": 1,
@@ -5080,7 +5080,7 @@
 							"subTasks": [
 								{
 									"goalName": "Second Clue Found",
-									"questId": 28110,
+									"questId": 27206,
 									"questObjectiveIndex": 2,
 									"count": 1,
 									"depth": 1,
@@ -6151,7 +6151,7 @@
 									"npcName": "Greymist Seer",
 									"npcId": 2203,
 									"count": 6,
-									"questId": 27937,
+									"questId": 26204,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -6162,7 +6162,7 @@
 									"npcName": "Greymist Coastrunner",
 									"npcId": 2202,
 									"count": 6,
-									"questId": 27937,
+									"questId": 26204,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -6594,7 +6594,7 @@
 						},
 						{
 							"questName": "Wanted: Grizzletooth",
-							"questId": 27941,
+							"questId": 26208,
 							"depth": 0,
 							"type": "Accept quest",
 							"subTasks": [],
@@ -6797,7 +6797,7 @@
 							"subTasks": [
 								{
 									"questName": "My Sister Isabetta",
-									"questId": 28110,
+									"questId": 27206,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -6805,7 +6805,7 @@
 								},
 								{
 									"questName": "The Greymist Menace",
-									"questId": 27937,
+									"questId": 26204,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -6813,7 +6813,7 @@
 								},
 								{
 									"questName": "The Greymist Menace",
-									"questId": 27938,
+									"questId": 26205,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -8057,7 +8057,7 @@
 							"subTasks": [
 								{
 									"questName": "Rampaging Golems",
-									"questId": 27943,
+									"questId": 27224,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -8065,7 +8065,7 @@
 								},
 								{
 									"questName": "Personal Possessions",
-									"questId": 27942,
+									"questId": 27223,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -8142,7 +8142,7 @@
 							"subTasks": [
 								{
 									"itemName": "Everit's Canteen",
-									"questId": 27942,
+									"questId": 27223,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -8169,7 +8169,7 @@
 							"subTasks": [
 								{
 									"itemName": "Everit's Notebook",
-									"questId": 27942,
+									"questId": 27223,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 1,
@@ -8206,7 +8206,7 @@
 							"subTasks": [
 								{
 									"itemName": "Everit's Lantern",
-									"questId": 27942,
+									"questId": 27223,
 									"questObjectiveIndex": 3,
 									"toLootNpcs": [],
 									"count": 1,
@@ -8233,7 +8233,7 @@
 							"subTasks": [
 								{
 									"itemName": "Everit's Laundry",
-									"questId": 27942,
+									"questId": 27223,
 									"questObjectiveIndex": 4,
 									"toLootNpcs": [],
 									"count": 1,
@@ -8269,7 +8269,7 @@
 						},
 						{
 							"goalName": "Golems slain",
-							"questId": 27943,
+							"questId": 27224,
 							"questObjectiveIndex": 1,
 							"count": 6,
 							"depth": 0,
@@ -8299,7 +8299,7 @@
 							"subTasks": [
 								{
 									"questName": "Rampaging Golems",
-									"questId": 27943,
+									"questId": 27224,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -8307,7 +8307,7 @@
 								},
 								{
 									"questName": "Personal Possessions",
-									"questId": 27942,
+									"questId": 27223,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -8435,7 +8435,7 @@
 							"npcName": "Greymist Hunter",
 							"npcId": 2206,
 							"count": 6,
-							"questId": 27938,
+							"questId": 26205,
 							"questObjectiveIndex": 1,
 							"depth": 0,
 							"type": "Kill",
@@ -8454,7 +8454,7 @@
 							"npcName": "Greymist Oracle",
 							"npcId": 2207,
 							"count": 6,
-							"questId": 27938,
+							"questId": 26205,
 							"questObjectiveIndex": 2,
 							"depth": 0,
 							"type": "Kill",
@@ -8662,14 +8662,14 @@
 							"subTasks": [
 								{
 									"questName": "The Greymist Menace",
-									"questId": 27938,
+									"questId": 26205,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": true
 								},
 								{
-									"questId": 27939,
+									"questId": 26206,
 									"questName": "Shoalbeard",
 									"depth": 1,
 									"type": "Accept quest",
@@ -9198,7 +9198,7 @@
 									"type": "Turn in quest"
 								},
 								{
-									"questId": 28158,
+									"questId": 27229,
 									"questName": "The Odd Relic",
 									"depth": 1,
 									"type": "Accept quest",
@@ -9275,7 +9275,7 @@
 									"npcName": "Grizzletooth",
 									"npcId": 46905,
 									"count": 1,
-									"questId": 27941,
+									"questId": 26208,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -10095,7 +10095,7 @@
 							"subTasks": [
 								{
 									"questName": "Wanted: Grizzletooth",
-									"questId": 27941,
+									"questId": 26208,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -10873,7 +10873,7 @@
 									"npcName": "Shoalbeard",
 									"npcId": 46697,
 									"count": 1,
-									"questId": 27939,
+									"questId": 26206,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -12684,7 +12684,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 27939,
+									"questId": 26206,
 									"questName": "Shoalbeard",
 									"depth": 1,
 									"type": "Turn in quest",
@@ -12792,7 +12792,7 @@
 								},
 								{
 									"questName": "The Odd Relic",
-									"questId": 28158,
+									"questId": 27229,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -24991,7 +24991,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27718,
+									"questId": 26542,
 									"questName": "A Rare Variety",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -25121,7 +25121,7 @@
 									"type": "Accept quest"
 								},
 								{
-									"questId": 28044,
+									"questId": 26504,
 									"questName": "Syndicate Documents",
 									"depth": 1,
 									"type": "Accept quest",
@@ -25655,7 +25655,7 @@
 						},
 						{
 							"questName": "Syndicate Documents",
-							"questId": 28044,
+							"questId": 26504,
 							"depth": 0,
 							"type": "Turn in quest",
 							"subTasks": [],
@@ -25746,7 +25746,7 @@
 							"subTasks": [
 								{
 									"itemName": "Wintercrisp Apple Seed",
-									"questId": 27718,
+									"questId": 26542,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 6,
@@ -25882,7 +25882,7 @@
 							"subTasks": [
 								{
 									"questName": "A Rare Variety",
-									"questId": 27718,
+									"questId": 26542,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -30349,7 +30349,7 @@
 								},
 								{
 									"questName": "The Tablet of Zuul'daia",
-									"questId": 28098,
+									"questId": 26906,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -30566,7 +30566,7 @@
 							"subTasks": [
 								{
 									"questName": "Looting the Looters",
-									"questId": 28091,
+									"questId": 26884,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -30873,7 +30873,7 @@
 							"subTasks": [
 								{
 									"itemName": "Daltry Lantern",
-									"questId": 28091,
+									"questId": 26884,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -30900,7 +30900,7 @@
 							"subTasks": [
 								{
 									"itemName": "Daltry Book",
-									"questId": 28091,
+									"questId": 26884,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 1,
@@ -30928,7 +30928,7 @@
 							"subTasks": [
 								{
 									"itemName": "Daltry Perfume",
-									"questId": 28091,
+									"questId": 26884,
 									"questObjectiveIndex": 4,
 									"toLootNpcs": [],
 									"count": 1,
@@ -30955,7 +30955,7 @@
 							"subTasks": [
 								{
 									"itemName": "Daltry Jewelry",
-									"questId": 28091,
+									"questId": 26884,
 									"questObjectiveIndex": 3,
 									"toLootNpcs": [],
 									"count": 1,
@@ -30982,7 +30982,7 @@
 							"subTasks": [
 								{
 									"itemName": "The Tablet of Zuul'daia",
-									"questId": 28098,
+									"questId": 26906,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -31408,7 +31408,7 @@
 							"subTasks": [
 								{
 									"questName": "The Tablet of Zuul'daia",
-									"questId": 28098,
+									"questId": 26906,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -31699,7 +31699,7 @@
 							"subTasks": [
 								{
 									"questName": "Looting the Looters",
-									"questId": 28091,
+									"questId": 26884,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -32149,7 +32149,7 @@
 								},
 								{
 									"questName": "Rare Books",
-									"questId": 27887,
+									"questId": 26502,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -32210,7 +32210,7 @@
 							"npcId": 2364,
 							"subTasks": [
 								{
-									"questId": 27719,
+									"questId": 26543,
 									"questName": "Watermelon Punch",
 									"depth": 1,
 									"type": "Accept quest",
@@ -32256,7 +32256,7 @@
 							"subTasks": [
 								{
 									"questName": "The Barony Mordis",
-									"questId": 27890,
+									"questId": 26538,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -32287,7 +32287,7 @@
 							"subTasks": [
 								{
 									"questName": "Threats from Abroad",
-									"questId": 28077,
+									"questId": 26540,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -32344,7 +32344,7 @@
 								},
 								{
 									"questName": "Justice Left Undone",
-									"questId": 27720,
+									"questId": 26817,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -32432,7 +32432,7 @@
 							"subTasks": [
 								{
 									"itemName": "Tales from Tel'Abim",
-									"questId": 27887,
+									"questId": 26502,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -32527,7 +32527,7 @@
 								{
 									"itemName": "Night Stars By Longitude",
 									"count": 1,
-									"questId": 27887,
+									"questId": 26502,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -32603,7 +32603,7 @@
 									"npcName": "Murloc Lake Hunter",
 									"npcId": 47168,
 									"count": 10,
-									"questId": 28077,
+									"questId": 26540,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -32614,7 +32614,7 @@
 									"npcName": "Murloc Lake Oracle",
 									"npcId": 47169,
 									"count": 8,
-									"questId": 28077,
+									"questId": 26540,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -32642,7 +32642,7 @@
 									"npcName": "Grandpa Vishas",
 									"npcId": 3985,
 									"count": 1,
-									"questId": 27720,
+									"questId": 26817,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -32684,7 +32684,7 @@
 									"npcName": "Baron Valimar Mordis",
 									"npcId": 46990,
 									"count": 1,
-									"questId": 27890,
+									"questId": 26538,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -32693,7 +32693,7 @@
 								},
 								{
 									"questName": "The Mordis Key",
-									"questId": 27889,
+									"questId": 26537,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -32717,7 +32717,7 @@
 							"subTasks": [
 								{
 									"itemName": "Juicy Watermelon",
-									"questId": 27719,
+									"questId": 26543,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 4,
@@ -32776,7 +32776,7 @@
 							"subTasks": [
 								{
 									"questName": "The Mordis Key",
-									"questId": 27889,
+									"questId": 26537,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -32878,7 +32878,7 @@
 							"npcId": 2364,
 							"subTasks": [
 								{
-									"questId": 27719,
+									"questId": 26543,
 									"questName": "Watermelon Punch",
 									"depth": 1,
 									"type": "Turn in quest",
@@ -32910,7 +32910,7 @@
 							"subTasks": [
 								{
 									"questName": "The Barony Mordis",
-									"questId": 27890,
+									"questId": 26538,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -32942,7 +32942,7 @@
 							"subTasks": [
 								{
 									"questName": "Threats from Abroad",
-									"questId": 28077,
+									"questId": 26540,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -32990,7 +32990,7 @@
 								},
 								{
 									"questName": "Justice Left Undone",
-									"questId": 27720,
+									"questId": 26817,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -33038,7 +33038,7 @@
 								},
 								{
 									"questName": "Rare Books",
-									"questId": 27887,
+									"questId": 26502,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -40933,7 +40933,7 @@
 							"subTasks": [
 								{
 									"questName": "The Thorium Brotherhood",
-									"questId": 28153,
+									"questId": 26858,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -48690,7 +48690,7 @@
 							"subTasks": [
 								{
 									"questName": "The Thorium Brotherhood",
-									"questId": 28153,
+									"questId": 26858,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -52315,7 +52315,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 28143,
+									"questId": 26213,
 									"questName": "Howin's Favorite Fishing Hole",
 									"depth": 1,
 									"type": "Accept quest",
@@ -52820,7 +52820,7 @@
 							"subTasks": [
 								{
 									"questName": "Howin's Favorite Fishing Hole",
-									"questId": 28143,
+									"questId": 26213,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -52828,7 +52828,7 @@
 								},
 								{
 									"questName": "Howin's Favorite Fishing Hole",
-									"questId": 28144,
+									"questId": 26214,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -52852,7 +52852,7 @@
 							"subTasks": [
 								{
 									"questName": "Howin's Favorite Fishing Hole",
-									"questId": 28144,
+									"questId": 26214,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -52860,7 +52860,7 @@
 								},
 								{
 									"questName": "Howin's Favorite Fishing Hole",
-									"questId": 28145,
+									"questId": 26215,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -52955,7 +52955,7 @@
 							"subTasks": [
 								{
 									"questName": "Howin's Favorite Fishing Hole",
-									"questId": 28145,
+									"questId": 26215,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -52963,7 +52963,7 @@
 								},
 								{
 									"questName": "Howin's Favorite Fishing Hole",
-									"questId": 28146,
+									"questId": 26216,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -53040,7 +53040,7 @@
 							"subTasks": [
 								{
 									"questName": "Howin's Favorite Fishing Hole",
-									"questId": 28146,
+									"questId": 26216,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -53664,7 +53664,7 @@
 							"subTasks": [
 								{
 									"questName": "Twilight Tactics",
-									"questId": 27981,
+									"questId": 26854,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -53984,7 +53984,7 @@
 							"subTasks": [
 								{
 									"questName": "The Elements, Corrupted",
-									"questId": 27976,
+									"questId": 26859,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -55771,7 +55771,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27646,
+									"questId": 26599,
 									"questName": "Feeding the Troops",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -55834,7 +55834,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27661,
+									"questId": 26614,
 									"questName": "Gathering Intelligence",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -56118,7 +56118,7 @@
 						},
 						{
 							"itemName": "Bundle of Cultist Writings",
-							"questId": 27661,
+							"questId": 26614,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 12,
@@ -56129,7 +56129,7 @@
 						},
 						{
 							"itemName": "Sulfurous Meat",
-							"questId": 27646,
+							"questId": 26599,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -56168,14 +56168,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27646,
+									"questId": 26599,
 									"questName": "Feeding the Troops",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Alchemy is the Answer",
-									"questId": 27647,
+									"questId": 26600,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -56208,7 +56208,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27661,
+									"questId": 26614,
 									"questName": "Gathering Intelligence",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -56239,14 +56239,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27647,
+									"questId": 26600,
 									"questName": "Alchemy is the Answer",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Clay Cleanse",
-									"questId": 27648,
+									"questId": 26601,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -56277,7 +56277,7 @@
 							"npcId": 8022,
 							"subTasks": [
 								{
-									"questId": 27673,
+									"questId": 26626,
 									"questName": "An Unlikely Ally",
 									"depth": 1,
 									"type": "Accept quest",
@@ -56308,7 +56308,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 27665,
+									"questId": 26618,
 									"questName": "Parched and Parcel",
 									"depth": 1,
 									"type": "Accept quest",
@@ -56366,14 +56366,14 @@
 							"subTasks": [
 								{
 									"questName": "An Unlikely Ally",
-									"questId": 27673,
+									"questId": 26626,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": true
 								},
 								{
-									"questId": 27674,
+									"questId": 26627,
 									"questName": "The Best of the Worst",
 									"depth": 1,
 									"type": "Accept quest",
@@ -56395,7 +56395,7 @@
 							"subTasks": [
 								{
 									"itemName": "Red Clay",
-									"questId": 27648,
+									"questId": 26601,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 7,
@@ -56446,7 +56446,7 @@
 									"npcName": "Lydia Cartwright",
 									"npcId": 46640,
 									"count": 1,
-									"questId": 27674,
+									"questId": 26627,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -56480,7 +56480,7 @@
 							"subTasks": [
 								{
 									"questName": "The Best of the Worst",
-									"questId": 27674,
+									"questId": 26627,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -56575,7 +56575,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 27665,
+									"questId": 26618,
 									"questName": "Parched and Parcel",
 									"depth": 1,
 									"type": "Turn in quest",
@@ -56592,7 +56592,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 27669,
+									"questId": 26622,
 									"questName": "Sunken Treasure",
 									"depth": 1,
 									"type": "Accept quest",
@@ -56621,7 +56621,7 @@
 							"subTasks": [
 								{
 									"itemName": "Sunken Treasure",
-									"questId": 27669,
+									"questId": 26622,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -56671,7 +56671,7 @@
 							"subTasks": [
 								{
 									"questName": "Sunken Treasure",
-									"questId": 27669,
+									"questId": 26622,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -56848,14 +56848,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27648,
+									"questId": 26601,
 									"questName": "The Clay Cleanse",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Ready for Distribution",
-									"questId": 27649,
+									"questId": 26602,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -56887,7 +56887,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27649,
+									"questId": 26602,
 									"questName": "Ready for Distribution",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -57363,7 +57363,7 @@
 								},
 								{
 									"questName": "Message for Wobble Hollow",
-									"questId": 27811,
+									"questId": 27097,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -57524,7 +57524,7 @@
 						},
 						{
 							"questName": "Wanted: Cliff Giants",
-							"questId": 27871,
+							"questId": 27164,
 							"depth": 0,
 							"type": "Accept quest",
 							"subTasks": [],
@@ -57553,7 +57553,7 @@
 							"subTasks": [
 								{
 									"questName": "Shipwreck on the Horizon",
-									"questId": 27833,
+									"questId": 27119,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -57582,7 +57582,7 @@
 							"subTasks": [
 								{
 									"questName": "The Hungry Gnome",
-									"questId": 27858,
+									"questId": 27151,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -57613,7 +57613,7 @@
 							"subTasks": [
 								{
 									"questName": "Salvaging the Sea",
-									"questId": 27828,
+									"questId": 27114,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -57673,7 +57673,7 @@
 							"subTasks": [
 								{
 									"questName": "Message for Wobble Hollow",
-									"questId": 27811,
+									"questId": 27097,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -57681,7 +57681,7 @@
 								},
 								{
 									"questName": "Threats to Wobble Hollow",
-									"questId": 27797,
+									"questId": 27083,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -57705,7 +57705,7 @@
 							"subTasks": [
 								{
 									"goalName": "Giants slain",
-									"questId": 27871,
+									"questId": 27164,
 									"questObjectiveIndex": 1,
 									"count": 5,
 									"depth": 1,
@@ -57724,7 +57724,7 @@
 								{
 									"itemName": "Venison Steak",
 									"count": 10,
-									"questId": 27858,
+									"questId": 27151,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -57781,7 +57781,7 @@
 							"subTasks": [
 								{
 									"questName": "The Hungry Gnome",
-									"questId": 27858,
+									"questId": 27151,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -57789,7 +57789,7 @@
 								},
 								{
 									"questName": "The Hungry Gnome",
-									"questId": 27859,
+									"questId": 27152,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -57820,7 +57820,7 @@
 							"subTasks": [
 								{
 									"questName": "Wanted: Cliff Giants",
-									"questId": 27871,
+									"questId": 27164,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -57991,7 +57991,7 @@
 									"npcName": "Spitelash Screamer",
 									"npcId": 6193,
 									"count": 10,
-									"questId": 27797,
+									"questId": 27083,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -58002,7 +58002,7 @@
 									"npcName": "Spitelash Warrior",
 									"npcId": 6190,
 									"count": 10,
-									"questId": 27797,
+									"questId": 27083,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -58012,7 +58012,7 @@
 								{
 									"itemName": "Scrounged Supplies",
 									"count": 10,
-									"questId": 27859,
+									"questId": 27152,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -58164,7 +58164,7 @@
 							"subTasks": [
 								{
 									"questName": "Demonic Intruders",
-									"questId": 27789,
+									"questId": 27074,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -58172,7 +58172,7 @@
 								},
 								{
 									"questName": "Foul Effigies",
-									"questId": 27794,
+									"questId": 27080,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -58197,7 +58197,7 @@
 								{
 									"itemName": "West Legashi Effigy",
 									"count": 1,
-									"questId": 27794,
+									"questId": 27080,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"depth": 1,
@@ -58362,7 +58362,7 @@
 								{
 									"itemName": "East Legashi Effigy",
 									"count": 1,
-									"questId": 27794,
+									"questId": 27080,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"depth": 1,
@@ -58415,7 +58415,7 @@
 							"subTasks": [
 								{
 									"questName": "The Hungry Gnome",
-									"questId": 27859,
+									"questId": 27152,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -58445,7 +58445,7 @@
 							"subTasks": [
 								{
 									"questName": "Threats to Wobble Hollow",
-									"questId": 27797,
+									"questId": 27083,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -58453,7 +58453,7 @@
 								},
 								{
 									"questName": "Threats to Wobble Hollow",
-									"questId": 27798,
+									"questId": 27084,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -58478,7 +58478,7 @@
 								{
 									"itemName": "Wilhelmina's Supplies",
 									"count": 1,
-									"questId": 27828,
+									"questId": 27114,
 									"questObjectiveIndex": 4,
 									"toLootNpcs": [],
 									"depth": 1,
@@ -58505,7 +58505,7 @@
 								{
 									"itemName": "Wilbur's Supplies",
 									"count": 1,
-									"questId": 27828,
+									"questId": 27114,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"depth": 1,
@@ -58561,7 +58561,7 @@
 							"subTasks": [
 								{
 									"questName": "Shipwreck on the Horizon",
-									"questId": 27833,
+									"questId": 27119,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -58723,7 +58723,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27266,
+									"questId": 27135,
 									"questName": "On the Brink",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -58746,7 +58746,7 @@
 								{
 									"itemName": "Wendy's Supplies",
 									"count": 1,
-									"questId": 27828,
+									"questId": 27114,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"depth": 1,
@@ -58773,7 +58773,7 @@
 							"subTasks": [
 								{
 									"itemName": "Medical Supply Crate",
-									"questId": 27266,
+									"questId": 27135,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 3,
@@ -58785,7 +58785,7 @@
 								{
 									"itemName": "Wilson's Supplies",
 									"count": 1,
-									"questId": 27828,
+									"questId": 27114,
 									"questObjectiveIndex": 3,
 									"toLootNpcs": [],
 									"depth": 1,
@@ -58839,7 +58839,7 @@
 							"subTasks": [
 								{
 									"questName": "Salvaging the Sea",
-									"questId": 27828,
+									"questId": 27114,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -58847,7 +58847,7 @@
 								},
 								{
 									"questName": "Salvaging the Shore",
-									"questId": 27829,
+									"questId": 27115,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -58941,7 +58941,7 @@
 							"subTasks": [
 								{
 									"questName": "The Shattered Strand Commander",
-									"questId": 27848,
+									"questId": 27141,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [
@@ -58949,7 +58949,7 @@
 											"npcName": "Tide Priestess Aquila",
 											"npcId": 46991,
 											"count": 1,
-											"questId": 27848,
+											"questId": 27141,
 											"questObjectiveIndex": 1,
 											"depth": 2,
 											"type": "Kill",
@@ -58979,7 +58979,7 @@
 									"npcName": "Spitelash Siren",
 									"npcId": 6195,
 									"count": 10,
-									"questId": 27798,
+									"questId": 27084,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -58990,7 +58990,7 @@
 									"npcName": "Spitelash Myrmidon",
 									"npcId": 6196,
 									"count": 10,
-									"questId": 27798,
+									"questId": 27084,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -59000,7 +59000,7 @@
 								{
 									"itemName": "Shipwrecked Supplies",
 									"count": 10,
-									"questId": 27829,
+									"questId": 27115,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"depth": 1,
@@ -59089,7 +59089,7 @@
 									"npcName": "Legashi Satyr",
 									"npcId": 6200,
 									"count": 10,
-									"questId": 27789,
+									"questId": 27074,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -59100,7 +59100,7 @@
 									"npcName": "Legashi Rogue",
 									"npcId": 6201,
 									"count": 10,
-									"questId": 27789,
+									"questId": 27074,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -59111,7 +59111,7 @@
 									"npcName": "Legashi Hellcaller",
 									"npcId": 6202,
 									"count": 8,
-									"questId": 27789,
+									"questId": 27074,
 									"questObjectiveIndex": 3,
 									"depth": 1,
 									"type": "Kill",
@@ -59121,7 +59121,7 @@
 								{
 									"itemName": "South Legashi Effigy",
 									"count": 1,
-									"questId": 27794,
+									"questId": 27080,
 									"questObjectiveIndex": 3,
 									"toLootNpcs": [],
 									"depth": 1,
@@ -59198,7 +59198,7 @@
 							"subTasks": [
 								{
 									"questName": "Demonic Intruders",
-									"questId": 27789,
+									"questId": 27074,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -59206,7 +59206,7 @@
 								},
 								{
 									"questName": "Demonic Intruders",
-									"questId": 27790,
+									"questId": 27075,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -59230,7 +59230,7 @@
 						{
 							"itemName": "Baxxzalan's Head",
 							"count": 1,
-							"questId": 27790,
+							"questId": 27075,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [
 								{
@@ -59266,7 +59266,7 @@
 							"subTasks": [
 								{
 									"questName": "Demonic Intruders",
-									"questId": 27790,
+									"questId": 27075,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [
@@ -59282,7 +59282,7 @@
 								},
 								{
 									"questName": "Foul Effigies",
-									"questId": 27794,
+									"questId": 27080,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -59313,7 +59313,7 @@
 							"subTasks": [
 								{
 									"questName": "How to Make Friends with a Furbolg",
-									"questId": 27795,
+									"questId": 27081,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -59344,7 +59344,7 @@
 							"subTasks": [
 								{
 									"questName": "The Furbolg - Goblin Trade Network",
-									"questId": 27840,
+									"questId": 27129,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -59385,7 +59385,7 @@
 								},
 								{
 									"questName": "The Furbolg - Goblin Trade Network",
-									"questId": 27840,
+									"questId": 27129,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -59393,7 +59393,7 @@
 								},
 								{
 									"questName": "The Furbolg - Goblin Trade Network",
-									"questId": 27841,
+									"questId": 27132,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -59416,7 +59416,7 @@
 						{
 							"itemName": "Thunderhead Hippogryph Feather",
 							"count": 10,
-							"questId": 27795,
+							"questId": 27081,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"depth": 0,
@@ -59447,7 +59447,7 @@
 							"subTasks": [
 								{
 									"questName": "How to Make Friends with a Furbolg",
-									"questId": 27795,
+									"questId": 27081,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -59455,7 +59455,7 @@
 								},
 								{
 									"questName": "How to Make Friends with a Furbolg",
-									"questId": 27796,
+									"questId": 27082,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -59492,7 +59492,7 @@
 							"subTasks": [
 								{
 									"questName": "How to Make Friends with a Furbolg",
-									"questId": 27796,
+									"questId": 27082,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -59552,7 +59552,7 @@
 							"subTasks": [
 								{
 									"questName": "Salvaging the Shore",
-									"questId": 27829,
+									"questId": 27115,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -59583,7 +59583,7 @@
 							"subTasks": [
 								{
 									"questName": "Threats to Wobble Hollow",
-									"questId": 27798,
+									"questId": 27084,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -59591,7 +59591,7 @@
 								},
 								{
 									"questName": "Threats to Wobble Hollow",
-									"questId": 27799,
+									"questId": 27085,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -59599,7 +59599,7 @@
 								},
 								{
 									"questName": "Leader of the Spitelash",
-									"questId": 27800,
+									"questId": 27086,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -59607,7 +59607,7 @@
 								},
 								{
 									"questName": "The Shattered Strand Commander",
-									"questId": 27848,
+									"questId": 27141,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -59718,7 +59718,7 @@
 							"npcName": "Storm Bay Oracle",
 							"npcId": 6351,
 							"count": 8,
-							"questId": 27799,
+							"questId": 27085,
 							"questObjectiveIndex": 1,
 							"depth": 0,
 							"type": "Kill",
@@ -59802,7 +59802,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27266,
+									"questId": 27135,
 									"questName": "On the Brink",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -60142,7 +60142,7 @@
 							"subTasks": [
 								{
 									"questName": "Threats to Wobble Hollow",
-									"questId": 27799,
+									"questId": 27085,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -60188,7 +60188,7 @@
 									"npcName": "Sorceress Yalina",
 									"npcId": 46979,
 									"count": 1,
-									"questId": 27800,
+									"questId": 27086,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -60315,7 +60315,7 @@
 							"subTasks": [
 								{
 									"questName": "Leader of the Spitelash",
-									"questId": 27800,
+									"questId": 27086,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -60356,7 +60356,7 @@
 							"subTasks": [
 								{
 									"questName": "The Furbolg - Goblin Trade Network",
-									"questId": 27841,
+									"questId": 27132,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -60765,7 +60765,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27721,
+									"questId": 27306,
 									"questName": "The Garden of Jadefire Glen",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -60794,7 +60794,7 @@
 							"subTasks": [
 								{
 									"questName": "Containing the Contamination",
-									"questId": 27908,
+									"questId": 27303,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -60858,7 +60858,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27722,
+									"questId": 27307,
 									"questName": "The Shrine of the Deceiver",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -60881,7 +60881,7 @@
 								{
 									"itemName": "Kalek's Weeder",
 									"count": 1,
-									"questId": 27721,
+									"questId": 27306,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -60900,7 +60900,7 @@
 								},
 								{
 									"itemName": "Kalek's Trowel",
-									"questId": 27721,
+									"questId": 27306,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [
 										{
@@ -60920,7 +60920,7 @@
 								},
 								{
 									"itemName": "Kalek's Bucket",
-									"questId": 27721,
+									"questId": 27306,
 									"questObjectiveIndex": 3,
 									"toLootNpcs": [
 										{
@@ -61099,7 +61099,7 @@
 							"subTasks": [
 								{
 									"itemName": "Damaged Water Purifier",
-									"questId": 27908,
+									"questId": 27303,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -61134,7 +61134,7 @@
 									"subTasks": [
 										{
 											"itemName": "Memento of illidan",
-											"questId": 27722,
+											"questId": 27307,
 											"questObjectiveIndex": 2,
 											"toLootNpcs": [],
 											"count": 1,
@@ -61156,7 +61156,7 @@
 									"subTasks": [
 										{
 											"itemName": "Memento of Tichondrius",
-											"questId": 27722,
+											"questId": 27307,
 											"questObjectiveIndex": 4,
 											"toLootNpcs": [],
 											"count": 1,
@@ -61178,7 +61178,7 @@
 									"subTasks": [
 										{
 											"itemName": "Memento of Kil'jaeden",
-											"questId": 27722,
+											"questId": 27307,
 											"questObjectiveIndex": 3,
 											"toLootNpcs": [],
 											"count": 1,
@@ -61201,7 +61201,7 @@
 										{
 											"itemName": "Memento of Archimonde",
 											"count": 1,
-											"questId": 27722,
+											"questId": 27307,
 											"questObjectiveIndex": 1,
 											"toLootNpcs": [],
 											"depth": 2,
@@ -61299,14 +61299,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27722,
+									"questId": 27307,
 									"questName": "The Shrine of the Deceiver",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Mementos of the Third War",
-									"questId": 27723,
+									"questId": 27308,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -61337,7 +61337,7 @@
 							"subTasks": [
 								{
 									"questName": "Containing the Contamination",
-									"questId": 27908,
+									"questId": 27303,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -61345,7 +61345,7 @@
 								},
 								{
 									"questName": "Containing the Contamination",
-									"questId": 27909,
+									"questId": 27304,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -61377,7 +61377,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27721,
+									"questId": 27306,
 									"questName": "The Garden of Jadefire Glen",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -61531,7 +61531,7 @@
 								},
 								{
 									"itemName": "Burning Elemental Core",
-									"questId": 27909,
+									"questId": 27304,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -61610,7 +61610,7 @@
 							"subTasks": [
 								{
 									"questName": "Wanted: Kal'alash",
-									"questId": 27904,
+									"questId": 27310,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -61635,7 +61635,7 @@
 							"npcName": "Kal'alash",
 							"npcId": 47011,
 							"count": 1,
-							"questId": 27904,
+							"questId": 27310,
 							"questObjectiveIndex": 1,
 							"depth": 0,
 							"type": "Kill",
@@ -61665,7 +61665,7 @@
 							"subTasks": [
 								{
 									"questName": "Wanted: Kal'alash",
-									"questId": 27904,
+									"questId": 27310,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -61896,7 +61896,7 @@
 							"subTasks": [
 								{
 									"questName": "Containing the Contamination",
-									"questId": 27909,
+									"questId": 27304,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -62139,7 +62139,7 @@
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 27723,
+									"questId": 27308,
 									"questName": "Mementos of the Third War",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -69343,7 +69343,7 @@
 							"subTasks": [
 								{
 									"questName": "Containing the Contamination",
-									"questId": 27910,
+									"questId": 27305,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -69617,7 +69617,7 @@
 									"npcName": "Vile Oozemother",
 									"npcId": 47023,
 									"count": 1,
-									"questId": 27910,
+									"questId": 27305,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -70127,7 +70127,7 @@
 							"subTasks": [
 								{
 									"questName": "Containing the Contamination",
-									"questId": 27910,
+									"questId": 27305,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -72175,7 +72175,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27751,
+									"questId": 26654,
 									"questName": "Fireguts",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -72206,7 +72206,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27734,
+									"questId": 26637,
 									"questName": "Absent Discourse",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -72231,7 +72231,7 @@
 							"subTasks": [
 								{
 									"questName": "Blazing Gemstone",
-									"questId": 27725,
+									"questId": 26243,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -72249,14 +72249,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27725,
+									"questId": 26243,
 									"questName": "Blazing Gemstone",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Obtaining Obsidian",
-									"questId": 27726,
+									"questId": 26244,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -72264,7 +72264,7 @@
 								},
 								{
 									"questName": "Absent Discourse",
-									"questId": 27734,
+									"questId": 26637,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -72272,7 +72272,7 @@
 								},
 								{
 									"questName": "Bracers that Bind",
-									"questId": 27735,
+									"questId": 26638,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -72304,7 +72304,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27746,
+									"questId": 26649,
 									"questName": "Golem Grabbing",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -72335,14 +72335,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27730,
+									"questId": 26633,
 									"questName": "Arming Ashfall",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"questName": "Hitting Where it Hurts",
-									"questId": 27733,
+									"questId": 26636,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -72374,7 +72374,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27743,
+									"questId": 26646,
 									"questName": "Spies Among Us",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -72405,7 +72405,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27739,
+									"questId": 26642,
 									"questName": "Meeran's Missing",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -72430,7 +72430,7 @@
 						},
 						{
 							"questName": "Meeran's Missing",
-							"questId": 27739,
+							"questId": 26642,
 							"depth": 0,
 							"type": "Turn in quest",
 							"subTasks": [],
@@ -72438,7 +72438,7 @@
 						},
 						{
 							"questName": "Is it Ogre?",
-							"questId": 27740,
+							"questId": 26643,
 							"depth": 0,
 							"type": "Accept quest",
 							"subTasks": [],
@@ -72458,7 +72458,7 @@
 							"subTasks": [
 								{
 									"itemName": "Evidence of Pursuit",
-									"questId": 27743,
+									"questId": 26646,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -72563,7 +72563,7 @@
 							"subTasks": [
 								{
 									"itemName": "Lugar's Control Rod",
-									"questId": 27746,
+									"questId": 26649,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -72645,7 +72645,7 @@
 									"npcName": "Nargosh Rageblade",
 									"npcId": 46881,
 									"count": 1,
-									"questId": 27733,
+									"questId": 26636,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -72670,7 +72670,7 @@
 							"subTasks": [
 								{
 									"itemName": "Obsidian Fragments",
-									"questId": 27726,
+									"questId": 26244,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -72686,7 +72686,7 @@
 								},
 								{
 									"itemName": "Dark Iron Dagger",
-									"questId": 27730,
+									"questId": 26633,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -72702,7 +72702,7 @@
 								},
 								{
 									"itemName": "Dark Iron Gun",
-									"questId": 27730,
+									"questId": 26633,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [
 										{
@@ -72761,14 +72761,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27746,
+									"questId": 26649,
 									"questName": "Golem Grabbing",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Building Upon Giants",
-									"questId": 27747,
+									"questId": 26650,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -72776,7 +72776,7 @@
 								},
 								{
 									"questName": "The Right Kind of Oil",
-									"questId": 27749,
+									"questId": 26652,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -72784,7 +72784,7 @@
 								},
 								{
 									"questName": "Charging the Core",
-									"questId": 27748,
+									"questId": 26651,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -72816,14 +72816,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27726,
+									"questId": 26244,
 									"questName": "Obtaining Obsidian",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Demonfire",
-									"questId": 27727,
+									"questId": 26245,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -72831,7 +72831,7 @@
 								},
 								{
 									"questName": "Dragonfire",
-									"questId": 27728,
+									"questId": 26246,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -72863,14 +72863,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27733,
+									"questId": 26636,
 									"questName": "Hitting Where it Hurts",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Arming Ashfall",
-									"questId": 27730,
+									"questId": 26633,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -72878,7 +72878,7 @@
 								},
 								{
 									"questName": "Tired o' them Orcs!",
-									"questId": 27731,
+									"questId": 26634,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [
@@ -72894,7 +72894,7 @@
 								},
 								{
 									"questName": "The Blazing Hydra",
-									"questId": 27732,
+									"questId": 26635,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -72925,7 +72925,7 @@
 							"subTasks": [
 								{
 									"questName": "Spies Among Us",
-									"questId": 27743,
+									"questId": 26646,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -72933,7 +72933,7 @@
 								},
 								{
 									"questName": "Law of the Lawless",
-									"questId": 27744,
+									"questId": 26647,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -72964,7 +72964,7 @@
 								},
 								{
 									"goalName": "Agent Killed",
-									"questId": 27744,
+									"questId": 26647,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -72999,7 +72999,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27744,
+									"questId": 26647,
 									"questName": "Law of the Lawless",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -73263,7 +73263,7 @@
 								},
 								{
 									"itemName": "Flashfire Gland",
-									"questId": 27728,
+									"questId": 26246,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 12,
@@ -73308,7 +73308,7 @@
 							"subTasks": [
 								{
 									"questName": "Is it Ogre?",
-									"questId": 27740,
+									"questId": 26643,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -73316,7 +73316,7 @@
 								},
 								{
 									"questName": "The Cavern",
-									"questId": 27741,
+									"questId": 26644,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -73390,7 +73390,7 @@
 							"subTasks": [
 								{
 									"questName": "The Cavern",
-									"questId": 27741,
+									"questId": 26644,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -73398,7 +73398,7 @@
 								},
 								{
 									"questName": "Meeran's Escape",
-									"questId": 27742,
+									"questId": 26645,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -73429,7 +73429,7 @@
 							"subTasks": [
 								{
 									"goalName": "Objective Complete",
-									"questId": 27741,
+									"questId": 26645,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -73452,7 +73452,7 @@
 							"subTasks": [
 								{
 									"itemName": "Dark Iron Scraps",
-									"questId": 27735,
+									"questId": 26638,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 30,
@@ -73489,7 +73489,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27728,
+									"questId": 26246,
 									"questName": "Dragonfire",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -73520,14 +73520,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27751,
+									"questId": 26654,
 									"questName": "Fireguts",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Neverstill",
-									"questId": 27752,
+									"questId": 26655,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -73560,7 +73560,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27742,
+									"questId": 26645,
 									"questName": "Meeran's Escape",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -73755,7 +73755,7 @@
 								},
 								{
 									"itemName": "Misty Core",
-									"questId": 27752,
+									"questId": 26655,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -73814,7 +73814,7 @@
 							"subTasks": [
 								{
 									"itemName": "Dark Iron Scraps",
-									"questId": 27735,
+									"questId": 26638,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 30,
@@ -73849,14 +73849,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27735,
+									"questId": 26638,
 									"questName": "Bracers that Bind",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Assistance Required",
-									"questId": 27736,
+									"questId": 26639,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -73889,14 +73889,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27752,
+									"questId": 26655,
 									"questName": "Neverstill",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Weather the Weather",
-									"questId": 27753,
+									"questId": 26656,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -73928,14 +73928,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27736,
+									"questId": 26639,
 									"questName": "Assistance Required",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Infernal Runes",
-									"questId": 27737,
+									"questId": 26640,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -73959,7 +73959,7 @@
 							"subTasks": [
 								{
 									"itemName": "Resonator Crystal",
-									"questId": 27747,
+									"questId": 26650,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -74062,7 +74062,7 @@
 									"npcName": "Captain Grumma",
 									"npcId": 46877,
 									"count": 1,
-									"questId": 27732,
+									"questId": 26635,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -74096,7 +74096,7 @@
 							"subTasks": [
 								{
 									"itemName": "Filled Runic Bottle",
-									"questId": 27747,
+									"questId": 26650,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 1,
@@ -74132,7 +74132,7 @@
 									"npcName": "Sorcerer Maltarg",
 									"npcId": 46879,
 									"count": 1,
-									"questId": 27732,
+									"questId": 26635,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -74159,7 +74159,7 @@
 									"npcName": "Forgemaster Tralak",
 									"npcId": 46880,
 									"count": 1,
-									"questId": 27732,
+									"questId": 26635,
 									"questObjectiveIndex": 3,
 									"depth": 1,
 									"type": "Kill",
@@ -74216,7 +74216,7 @@
 							"subTasks": [
 								{
 									"itemName": "Smoldering Heart",
-									"questId": 27727,
+									"questId": 26245,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 8,
@@ -74245,7 +74245,7 @@
 							"subTasks": [
 								{
 									"itemName": "Vial of Scorpid Ooze",
-									"questId": 27749,
+									"questId": 26652,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 16,
@@ -74296,7 +74296,7 @@
 							"subTasks": [
 								{
 									"itemName": "Charge Golem Core",
-									"questId": 27748,
+									"questId": 26651,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -74323,7 +74323,7 @@
 							"subTasks": [
 								{
 									"goalName": "Orcs killed",
-									"questId": 27731,
+									"questId": 26634,
 									"questObjectiveIndex": 1,
 									"count": 30,
 									"depth": 1,
@@ -74341,7 +74341,7 @@
 								},
 								{
 									"itemName": "Infernal Rune",
-									"questId": 27737,
+									"questId": 26640,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -74438,7 +74438,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27727,
+									"questId": 26245,
 									"questName": "Demonfire",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -74470,14 +74470,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27747,
+									"questId": 26650,
 									"questName": "Building Upon Giants",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Charging the Core",
-									"questId": 27748,
+									"questId": 26651,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -74485,7 +74485,7 @@
 								},
 								{
 									"questName": "The Right Kind of Oil",
-									"questId": 27749,
+									"questId": 26652,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -74517,14 +74517,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27737,
+									"questId": 26640,
 									"questName": "Infernal Runes",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Called Forth",
-									"questId": 27738,
+									"questId": 26641,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -74556,14 +74556,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27732,
+									"questId": 26635,
 									"questName": "The Blazing Hydra",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Tired o' them Orcs!",
-									"questId": 27731,
+									"questId": 26634,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [
@@ -74769,7 +74769,7 @@
 								},
 								{
 									"goalName": "Bound Elemental Slain",
-									"questId": 27738,
+									"questId": 26641,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -74795,7 +74795,7 @@
 							"subTasks": [
 								{
 									"itemName": "Emberg Worg Pelt",
-									"questId": 27753,
+									"questId": 26656,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -74868,7 +74868,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27753,
+									"questId": 26656,
 									"questName": "Weather the Weather",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -74905,7 +74905,7 @@
 							"subTasks": [
 								{
 									"questName": "Called Forth",
-									"questId": 27738,
+									"questId": 26641,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -75299,7 +75299,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27535,
+									"questId": 26271,
 									"questName": "Ancient Gemcutting",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -75370,7 +75370,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27554,
+									"questId": 27580,
 									"questName": "Shadow of the Vilehorn",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -75401,7 +75401,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27540,
+									"questId": 27574,
 									"questName": "Lost Souls",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -75432,7 +75432,7 @@
 							"subTasks": [
 								{
 									"questName": "Nightmare Seeds",
-									"questId": 27549,
+									"questId": 27575,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -75456,7 +75456,7 @@
 							"subTasks": [
 								{
 									"itemName": "Highborne Artisan Kit",
-									"questId": 27535,
+									"questId": 26271,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -75467,7 +75467,7 @@
 								},
 								{
 									"itemName": "Nightmare Seeds",
-									"questId": 27549,
+									"questId": 27575,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -75509,14 +75509,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27549,
+									"questId": 27575,
 									"questName": "Nightmare Seeds",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Malvor's Guidance",
-									"questId": 27550,
+									"questId": 27576,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -75549,7 +75549,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27535,
+									"questId": 26271,
 									"questName": "Ancient Gemcutting",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -75580,14 +75580,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27536,
+									"questId": 26272,
 									"questName": "We Need Repairs!",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"questName": "Falling Stars",
-									"questId": 27537,
+									"questId": 26273,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -75801,7 +75801,7 @@
 								},
 								{
 									"questName": "We Need Repairs!",
-									"questId": 27536,
+									"questId": 26272,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [
@@ -76781,7 +76781,7 @@
 								{
 									"itemName": "Starfall Crystal",
 									"count": 10,
-									"questId": 27537,
+									"questId": 26273,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"depth": 1,
@@ -76871,14 +76871,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27537,
+									"questId": 26273,
 									"questName": "Falling Stars",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Felnok's Finesse",
-									"questId": 27538,
+									"questId": 26274,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -76996,7 +76996,7 @@
 							"subTasks": [
 								{
 									"questName": "Malvor's Guidance",
-									"questId": 27550,
+									"questId": 27576,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -77004,7 +77004,7 @@
 								},
 								{
 									"questName": "Pure as the Moon",
-									"questId": 27551,
+									"questId": 27577,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -77029,7 +77029,7 @@
 							"subTasks": [
 								{
 									"itemName": "Filled Crystal Flask",
-									"questId": 27551,
+									"questId": 27577,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -77065,14 +77065,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27551,
+									"questId": 27577,
 									"questName": "Pure as the Moon",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Return to Aharu",
-									"questId": 27552,
+									"questId": 27578,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -77188,7 +77188,7 @@
 							"subTasks": [
 								{
 									"itemName": "\"Restored\" Artisan Kit",
-									"questId": 27538,
+									"questId": 26274,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -77250,14 +77250,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27538,
+									"questId": 26274,
 									"questName": "Felnok's Finesse",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "A Gift, For You!",
-									"questId": 27539,
+									"questId": 26275,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -77280,7 +77280,7 @@
 							"subTasks": [
 								{
 									"itemName": "Bag of Gem Settings",
-									"questId": 27539,
+									"questId": 26275,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -77317,7 +77317,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27539,
+									"questId": 26275,
 									"questName": "A Gift, For You!",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -77398,14 +77398,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27552,
+									"questId": 27578,
 									"questName": "Return to Aharu",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Planting Dreams",
-									"questId": 27553,
+									"questId": 27579,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -77428,7 +77428,7 @@
 							"subTasks": [
 								{
 									"goalName": "Dream Seeds Planted",
-									"questId": 27553,
+									"questId": 27579,
 									"questObjectiveIndex": 1,
 									"count": 5,
 									"depth": 1,
@@ -77440,7 +77440,7 @@
 									"npcName": "Vilehorn Satyr",
 									"npcId": 46578,
 									"count": 12,
-									"questId": 27554,
+									"questId": 27580,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -77478,7 +77478,7 @@
 									"npcName": "Theles'aran Citizen",
 									"npcId": 46561,
 									"count": 15,
-									"questId": 27540,
+									"questId": 27574,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -77512,7 +77512,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27540,
+									"questId": 27574,
 									"questName": "Lost Souls",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -77543,14 +77543,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27554,
+									"questId": 27580,
 									"questName": "Shadow of the Vilehorn",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Planting Dreams",
-									"questId": 27553,
+									"questId": 27579,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -77589,7 +77589,7 @@
 								},
 								{
 									"questName": "A Scribe's Work",
-									"questId": 27530,
+									"questId": 27569,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -77780,7 +77780,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27530,
+									"questId": 27569,
 									"questName": "A Scribe's Work",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -78793,7 +78793,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27773,
+									"questId": 26954,
 									"questName": "The Bowyer's Behest",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -79710,7 +79710,7 @@
 							"subTasks": [
 								{
 									"itemName": "Ranger Marris' Notes",
-									"questId": 27773,
+									"questId": 26954,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -79769,7 +79769,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 27916,
+									"questId": 26758,
 									"questName": "The Nature of the Beast",
 									"depth": 1,
 									"type": "Accept quest",
@@ -79805,7 +79805,7 @@
 							"npcName": "Duskwing",
 							"npcId": 11897,
 							"count": 1,
-							"questId": 27916,
+							"questId": 26758,
 							"questObjectiveIndex": 1,
 							"depth": 0,
 							"type": "Kill",
@@ -79836,7 +79836,7 @@
 							"subTasks": [
 								{
 									"questName": "The Nature of the Beast",
-									"questId": 27916,
+									"questId": 26758,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -79989,7 +79989,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 27918,
+									"questId": 26764,
 									"questName": "We Have the Technology",
 									"depth": 1,
 									"type": "Accept quest",
@@ -80021,7 +80021,7 @@
 							"subTasks": [
 								{
 									"itemName": "Catapult Plans",
-									"questId": 27918,
+									"questId": 26764,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -80057,7 +80057,7 @@
 							"subTasks": [
 								{
 									"questName": "We Have the Technology",
-									"questId": 27918,
+									"questId": 26764,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -81210,14 +81210,14 @@
 							"subTasks": [
 								{
 									"questName": "The Bowyer's Behest",
-									"questId": 27773,
+									"questId": 26954,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": true
 								},
 								{
-									"questId": 27774,
+									"questId": 26955,
 									"questName": "The Bowyer's Behest",
 									"depth": 1,
 									"type": "Accept quest",
