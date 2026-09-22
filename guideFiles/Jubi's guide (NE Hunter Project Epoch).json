@@ -24849,7 +24849,7 @@
 						{
 							"depth": 0,
 							"isCustom": false,
-							"questId": 26670,
+							"questId": 26570,
 							"questName": "Waterlogged Journal",
 							"subTasks": [],
 							"type": "Accept quest"
@@ -27447,7 +27447,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26665,
+									"questId": 27491,
 									"questName": "Driving License Approval",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -27466,7 +27466,7 @@
 							"subTasks": [
 								{
 									"goalName": "/beg Race Master Kronkrider",
-									"questId": 26665,
+									"questId": 27491,
 									"questObjectiveIndex": 3,
 									"count": 1,
 									"depth": 1,
@@ -27499,7 +27499,7 @@
 							"subTasks": [
 								{
 									"goalName": "/beg Wizzle Brassbolts",
-									"questId": 26665,
+									"questId": 27491,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -27634,7 +27634,7 @@
 							"subTasks": [
 								{
 									"goalName": "/plead with Razzeric",
-									"questId": 26665,
+									"questId": 27491,
 									"questObjectiveIndex": 2,
 									"count": 1,
 									"depth": 1,
@@ -27669,7 +27669,7 @@
 								},
 								{
 									"questName": "Fresh Water Delivery",
-									"questId": 26666,
+									"questId": 27492,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -27699,7 +27699,7 @@
 							"subTasks": [
 								{
 									"goalName": "/plead with Trackmaster Zherin",
-									"questId": 26665,
+									"questId": 27491,
 									"questObjectiveIndex": 4,
 									"count": 1,
 									"depth": 1,
@@ -27751,7 +27751,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26665,
+									"questId": 27491,
 									"questName": "Driving License Approval",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -27959,7 +27959,7 @@
 							"subTasks": [
 								{
 									"goalName": "Water Dispensed",
-									"questId": 26666,
+									"questId": 27492,
 									"questObjectiveIndex": 1,
 									"count": 10,
 									"depth": 1,
@@ -28298,7 +28298,7 @@
 								},
 								{
 									"questName": "Fresh Water Delivery",
-									"questId": 26666,
+									"questId": 27492,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -33095,7 +33095,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26685,
+									"questId": 26547,
 									"questName": "To The Hills",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -33676,14 +33676,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26685,
+									"questId": 26547,
 									"questName": "To The Hills",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Cooling Waters",
-									"questId": 26686,
+									"questId": 26548,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -33730,14 +33730,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26671,
+									"questId": 26558,
 									"questName": "The Rumbling Fields",
 									"subTasks": [],
 									"type": "Accept quest"
 								},
 								{
 									"questName": "When Life Gives You... Berries?",
-									"questId": 26672,
+									"questId": 26560,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -33769,14 +33769,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26670,
+									"questId": 26570,
 									"questName": "Waterlogged Journal",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Save The Animals",
-									"questId": 26682,
+									"questId": 26559,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -33834,7 +33834,7 @@
 							"subTasks": [
 								{
 									"goalName": "Terrified Animal Saved",
-									"questId": 26682,
+									"questId": 26559,
 									"questObjectiveIndex": 1,
 									"count": 6,
 									"depth": 1,
@@ -33846,7 +33846,7 @@
 									"npcName": "Frantic Earth",
 									"npcId": 46038,
 									"count": 7,
-									"questId": 26671,
+									"questId": 26558,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -33857,7 +33857,7 @@
 									"npcName": "Rambling Earth",
 									"npcId": 46015,
 									"count": 7,
-									"questId": 26671,
+									"questId": 26558,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -33866,7 +33866,7 @@
 								},
 								{
 									"itemName": "Bushel of Shadowberry",
-									"questId": 26672,
+									"questId": 26560,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 8,
@@ -33909,7 +33909,7 @@
 							"subTasks": [
 								{
 									"questName": "Save The Animals",
-									"questId": 26682,
+									"questId": 26559,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -33949,14 +33949,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26671,
+									"questId": 26558,
 									"questName": "The Rumbling Fields",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "When Life Gives You... Berries?",
-									"questId": 26672,
+									"questId": 26560,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -33978,7 +33978,7 @@
 							"subTasks": [
 								{
 									"itemName": "Cooled Aqual Essence",
-									"questId": 26682,
+									"questId": 26548,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -34019,14 +34019,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26686,
+									"questId": 26548,
 									"questName": "Cooling Waters",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "A Painful Dousing",
-									"questId": 26687,
+									"questId": 26549,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -34048,7 +34048,7 @@
 							"subTasks": [
 								{
 									"itemName": "Raging Bindings",
-									"questId": 26687,
+									"questId": 26549,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -34096,14 +34096,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26687,
+									"questId": 26549,
 									"questName": "A Painful Dousing",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "An Audience With Water",
-									"questId": 26688,
+									"questId": 26550,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -34136,14 +34136,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26688,
+									"questId": 26550,
 									"questName": "An Audience With Water",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Close The Vents",
-									"questId": 26689,
+									"questId": 26551,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -34151,7 +34151,7 @@
 								},
 								{
 									"questName": "Offering Of Feathers",
-									"questId": 26690,
+									"questId": 26552,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -34176,7 +34176,7 @@
 							"subTasks": [
 								{
 									"goalName": "Steam Vent Closed",
-									"questId": 26689,
+									"questId": 26551,
 									"questObjectiveIndex": 1,
 									"count": 8,
 									"depth": 1,
@@ -34186,7 +34186,7 @@
 								},
 								{
 									"itemName": "Pristine Strider Feather",
-									"questId": 26690,
+									"questId": 26552,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -34260,14 +34260,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26689,
+									"questId": 26551,
 									"questName": "Close The Vents",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Offering Of Feathers",
-									"questId": 26690,
+									"questId": 26552,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -34275,7 +34275,7 @@
 								},
 								{
 									"questName": "An Audience With Air",
-									"questId": 26691,
+									"questId": 26553,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -34336,7 +34336,7 @@
 							"subTasks": [
 								{
 									"questName": "An Audience With Air",
-									"questId": 26691,
+									"questId": 26553,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -34344,7 +34344,7 @@
 								},
 								{
 									"questName": "Assistance Of Air",
-									"questId": 26693,
+									"questId": 26554,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -34406,14 +34406,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26693,
+									"questId": 26554,
 									"questName": "Assistance Of Air",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Cooling The Fury",
-									"questId": 26694,
+									"questId": 26555,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -34438,7 +34438,7 @@
 							"subTasks": [
 								{
 									"goalName": "Boling Wanderer Calmed",
-									"questId": 26694,
+									"questId": 26555,
 									"questObjectiveIndex": 1,
 									"count": 8,
 									"depth": 1,
@@ -34473,14 +34473,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26694,
+									"questId": 26555,
 									"questName": "Cooling The Fury",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Return To Fire",
-									"questId": 26695,
+									"questId": 26556,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -34513,14 +34513,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26695,
+									"questId": 26556,
 									"questName": "Return To Fire",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Convening The Council",
-									"questId": 26696,
+									"questId": 26557,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -34528,7 +34528,7 @@
 								},
 								{
 									"questName": "Convening The Council",
-									"questId": 26696,
+									"questId": 26557,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -34536,7 +34536,7 @@
 								},
 								{
 									"questName": "The Southern Hills",
-									"questId": 26697,
+									"questId": 26571,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -34560,7 +34560,7 @@
 							"subTasks": [
 								{
 									"goalName": "Discover the southern hills",
-									"questId": 26697,
+									"questId": 26571,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -34574,7 +34574,7 @@
 						{
 							"depth": 0,
 							"isCustom": true,
-							"questId": 26697,
+							"questId": 26571,
 							"questName": "The Southern Hills",
 							"subTasks": [],
 							"type": "Turn in quest"
@@ -34596,14 +34596,14 @@
 						{
 							"depth": 0,
 							"isCustom": true,
-							"questId": 26698,
+							"questId": 26572,
 							"questName": "Furious Flaying",
 							"subTasks": [],
 							"type": "Accept quest"
 						},
 						{
 							"questName": "Blazing Hills Berserkers",
-							"questId": 26699,
+							"questId": 26573,
 							"depth": 0,
 							"type": "Accept quest",
 							"subTasks": [],
@@ -34611,7 +34611,7 @@
 						},
 						{
 							"questName": "Bindings Of My Brethren",
-							"questId": 26700,
+							"questId": 26574,
 							"depth": 0,
 							"type": "Accept quest",
 							"subTasks": [],
@@ -34634,7 +34634,7 @@
 							"subTasks": [
 								{
 									"questName": "The Dark Shamans",
-									"questId": 26701,
+									"questId": 26575,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -34660,14 +34660,14 @@
 						{
 							"depth": 0,
 							"isCustom": true,
-							"questId": 26701,
+							"questId": 26575,
 							"questName": "The Dark Shamans",
 							"subTasks": [],
 							"type": "Turn in quest"
 						},
 						{
 							"questName": "The Dark Shamans",
-							"questId": 26702,
+							"questId": 26576,
 							"depth": 0,
 							"type": "Accept quest",
 							"subTasks": [],
@@ -34687,7 +34687,7 @@
 							"subTasks": [
 								{
 									"itemName": "Drezco's Head",
-									"questId": 26702,
+									"questId": 26576,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -34736,7 +34736,7 @@
 								},
 								{
 									"itemName": "Enwi's Head",
-									"questId": 26702,
+									"questId": 26576,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [
 										{
@@ -34767,7 +34767,7 @@
 									"npcName": "Witherbark Berserker",
 									"npcId": 46032,
 									"count": 8,
-									"questId": 26699,
+									"questId": 26573,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -34776,7 +34776,7 @@
 								},
 								{
 									"itemName": "Corrupted Bindings",
-									"questId": 26700,
+									"questId": 26574,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -34794,7 +34794,7 @@
 									"npcName": "Witherbark Flayer",
 									"npcId": 46033,
 									"count": 8,
-									"questId": 26698,
+									"questId": 26572,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -34823,14 +34823,14 @@
 						{
 							"depth": 0,
 							"isCustom": true,
-							"questId": 26698,
+							"questId": 26572,
 							"questName": "Furious Flaying",
 							"subTasks": [],
 							"type": "Turn in quest"
 						},
 						{
 							"questName": "Bindings Of My Brethren",
-							"questId": 26700,
+							"questId": 26574,
 							"depth": 0,
 							"type": "Turn in quest",
 							"subTasks": [],
@@ -34838,7 +34838,7 @@
 						},
 						{
 							"questName": "Blazing Hills Berserkers",
-							"questId": 26699,
+							"questId": 26573,
 							"depth": 0,
 							"type": "Turn in quest",
 							"subTasks": [],
@@ -34866,7 +34866,7 @@
 							"subTasks": [
 								{
 									"questName": "The Dark Shamans",
-									"questId": 26702,
+									"questId": 26576,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -38512,7 +38512,7 @@
 						},
 						{
 							"questName": "Wanted: Spinnaret",
-							"questId": 26655,
+							"questId": 26923,
 							"depth": 0,
 							"type": "Accept quest",
 							"subTasks": [],
@@ -38674,7 +38674,7 @@
 								},
 								{
 									"questName": "A Real Kick",
-									"questId": 26653,
+									"questId": 26918,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -39081,7 +39081,7 @@
 							"subTasks": [
 								{
 									"itemName": "Oversized Arachnid Fang",
-									"questId": 26655,
+									"questId": 26923,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -39290,7 +39290,7 @@
 						},
 						{
 							"itemName": "Karabor Chili",
-							"questId": 26653,
+							"questId": 26918,
 							"questObjectiveIndex": 1,
 							"toLootNpcs": [],
 							"count": 8,
@@ -39339,7 +39339,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26653,
+									"questId": 26918,
 									"questName": "A Real Kick",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -39409,7 +39409,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26655,
+									"questId": 26923,
 									"questName": "Wanted: Spinnaret",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -39820,7 +39820,7 @@
 								},
 								{
 									"questName": "Karabor Fire Stew",
-									"questId": 26654,
+									"questId": 26919,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -39842,7 +39842,7 @@
 							"subTasks": [
 								{
 									"goalName": "Citizens Feed",
-									"questId": 26654,
+									"questId": 26919,
 									"questObjectiveIndex": 1,
 									"count": 10,
 									"depth": 1,
@@ -39877,7 +39877,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 26654,
+									"questId": 26919,
 									"questName": "Karabor Fire Stew",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -53586,7 +53586,7 @@
 								},
 								{
 									"questName": "Grampy Stoutforge",
-									"questId": 27246,
+									"questId": 26868,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -53931,14 +53931,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27246,
+									"questId": 26868,
 									"questName": "Grampy Stoutforge",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Do Slavers Keep Records?",
-									"questId": 27242,
+									"questId": 26864,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [
@@ -57356,7 +57356,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27251,
+									"questId": 27076,
 									"questName": "Descendants of Exiles",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -58269,7 +58269,7 @@
 									"npcName": "Blood Elf Reclaimer",
 									"npcId": 6199,
 									"count": 10,
-									"questId": 27251,
+									"questId": 27076,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -58280,7 +58280,7 @@
 									"npcName": "Blood Elf Surveyor",
 									"npcId": 6198,
 									"count": 10,
-									"questId": 27251,
+									"questId": 27076,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -58661,7 +58661,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27264,
+									"questId": 27133,
 									"questName": "Thieves!",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -58692,7 +58692,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27265,
+									"questId": 27134,
 									"questName": "Just To Be Safe",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -59662,7 +59662,7 @@
 									"npcName": "Spitelash Raider",
 									"npcId": 46190,
 									"count": 10,
-									"questId": 27265,
+									"questId": 27134,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -59673,7 +59673,7 @@
 									"npcName": "Spitelash Witch",
 									"npcId": 46191,
 									"count": 5,
-									"questId": 27265,
+									"questId": 27134,
 									"questObjectiveIndex": 2,
 									"depth": 1,
 									"type": "Kill",
@@ -59682,7 +59682,7 @@
 								},
 								{
 									"itemName": "Alexandra's Text",
-									"questId": 27264,
+									"questId": 27133,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -59771,7 +59771,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27265,
+									"questId": 27134,
 									"questName": "Just To Be Safe",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -59833,7 +59833,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27264,
+									"questId": 27133,
 									"questName": "Thieves!",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -59864,7 +59864,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27267,
+									"questId": 27136,
 									"questName": "The Horizon Scout",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -59896,14 +59896,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27267,
+									"questId": 27136,
 									"questName": "The Horizon Scout",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Horizon Scout",
-									"questId": 27268,
+									"questId": 27137,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -59911,7 +59911,7 @@
 								},
 								{
 									"questName": "Trying, But Not That Hard",
-									"questId": 27269,
+									"questId": 27138,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -59942,7 +59942,7 @@
 						},
 						{
 							"goalName": "First Mate Jen Located",
-							"questId": 27268,
+							"questId": 27137,
 							"questObjectiveIndex": 1,
 							"count": 1,
 							"depth": 0,
@@ -59952,7 +59952,7 @@
 						},
 						{
 							"goalName": "Engineer Thompson Located",
-							"questId": 27268,
+							"questId": 27137,
 							"questObjectiveIndex": 2,
 							"count": 1,
 							"depth": 0,
@@ -59962,7 +59962,7 @@
 						},
 						{
 							"goalName": "Galley Chief Benny Located",
-							"questId": 27268,
+							"questId": 27137,
 							"questObjectiveIndex": 3,
 							"count": 1,
 							"depth": 0,
@@ -59972,7 +59972,7 @@
 						},
 						{
 							"goalName": "Do Your Best",
-							"questId": 27269,
+							"questId": 27138,
 							"questObjectiveIndex": 1,
 							"count": 1,
 							"depth": 0,
@@ -60003,7 +60003,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27269,
+									"questId": 27138,
 									"questName": "Trying, But Not That Hard",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -60032,14 +60032,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27268,
+									"questId": 27137,
 									"questName": "The Horizon Scout",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Horizon Scout",
-									"questId": 27270,
+									"questId": 27139,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -60092,7 +60092,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27270,
+									"questId": 27139,
 									"questName": "The Horizon Scout",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -60468,7 +60468,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27251,
+									"questId": 27076,
 									"questName": "Descendants of Exiles",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -64876,7 +64876,7 @@
 								},
 								{
 									"questName": "The Southern Pylon",
-									"questId": 27516,
+									"questId": 27528,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -64978,7 +64978,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27389,
+									"questId": 27509,
 									"questName": "The Un'Goro Hunt",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -65009,7 +65009,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27511,
+									"questId": 27517,
 									"questName": "Storm, Earth, Wind, and Fire",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -65109,7 +65109,7 @@
 							"subTasks": [
 								{
 									"goalName": "Power Absorbed",
-									"questId": 27511,
+									"questId": 27517,
 									"questObjectiveIndex": 1,
 									"count": 6,
 									"depth": 1,
@@ -65151,7 +65151,7 @@
 								},
 								{
 									"itemName": "Spinescale's Head",
-									"questId": 27389,
+									"questId": 27509,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -65231,14 +65231,14 @@
 							"subTasks": [
 								{
 									"questName": "Storm, Earth, Wind, and Fire",
-									"questId": 27511,
+									"questId": 27517,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": true
 								},
 								{
-									"questId": 27512,
+									"questId": 27518,
 									"questName": "Storm, Earth, Wind, and Fire",
 									"depth": 1,
 									"type": "Accept quest",
@@ -65270,7 +65270,7 @@
 							"subTasks": [
 								{
 									"questName": "The Un'Goro Hunt",
-									"questId": 27389,
+									"questId": 27509,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -65278,7 +65278,7 @@
 								},
 								{
 									"questName": "The Un'Goro Hunt",
-									"questId": 27390,
+									"questId": 27510,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -65460,7 +65460,7 @@
 							"subTasks": [
 								{
 									"questName": "The Legend of Aru-Talis",
-									"questId": 27492,
+									"questId": 27522,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -65484,7 +65484,7 @@
 							"subTasks": [
 								{
 									"goalName": "Find one of the ruins of Aru-Talis",
-									"questId": 27492,
+									"questId": 27522,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -65518,7 +65518,7 @@
 							"subTasks": [
 								{
 									"questName": "The Legend of Aru-Talis",
-									"questId": 27492,
+									"questId": 27522,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -65526,7 +65526,7 @@
 								},
 								{
 									"questName": "The Legend of Aru-Talis",
-									"questId": 27493,
+									"questId": 27523,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -65552,7 +65552,7 @@
 							"subTasks": [
 								{
 									"itemName": "Aru-Talis Artifact",
-									"questId": 27493,
+									"questId": 27523,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 6,
@@ -65571,7 +65571,7 @@
 								},
 								{
 									"goalName": "Power Absorbed",
-									"questId": 27512,
+									"questId": 27518,
 									"questObjectiveIndex": 1,
 									"count": 6,
 									"depth": 1,
@@ -65603,7 +65603,7 @@
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questId": 27493,
+									"questId": 27523,
 									"questName": "The Legend of Aru-Talis",
 									"depth": 1,
 									"type": "Turn in quest",
@@ -65634,7 +65634,7 @@
 							"subTasks": [
 								{
 									"questName": "The Legend of Aru-Talis",
-									"questId": 27494,
+									"questId": 27524,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -65712,7 +65712,7 @@
 							"subTasks": [
 								{
 									"goalName": "Southern Pylon Examined",
-									"questId": 27516,
+									"questId": 27528,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -65902,7 +65902,7 @@
 							"subTasks": [
 								{
 									"itemName": "Ironstone Plateau Core",
-									"questId": 27494,
+									"questId": 27524,
 									"questObjectiveIndex": 3,
 									"toLootNpcs": [],
 									"count": 1,
@@ -65914,7 +65914,7 @@
 								{
 									"itemName": "Terrorwind's head",
 									"count": 1,
-									"questId": 27390,
+									"questId": 27510,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -66306,14 +66306,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27512,
+									"questId": 27518,
 									"questName": "Storm, Earth, Wind, and Fire",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Storm, Earth, Wind, and Fire",
-									"questId": 27513,
+									"questId": 27519,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -66345,14 +66345,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27390,
+									"questId": 27510,
 									"questName": "The Un'Goro Hunt",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Un'Goro Hunt",
-									"questId": 27391,
+									"questId": 27511,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -66526,7 +66526,7 @@
 								},
 								{
 									"questName": "The Southern Pylon",
-									"questId": 27516,
+									"questId": 27528,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -66534,7 +66534,7 @@
 								},
 								{
 									"questName": "One of These Things is Not Like the Others",
-									"questId": 27517,
+									"questId": 27529,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -66583,7 +66583,7 @@
 							"subTasks": [
 								{
 									"itemName": "Crystal Cave Core",
-									"questId": 27494,
+									"questId": 27524,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -66657,7 +66657,7 @@
 								},
 								{
 									"questName": "Research Salvation",
-									"questId": 27399,
+									"questId": 27508,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -66940,7 +66940,7 @@
 							"subTasks": [
 								{
 									"itemName": "Research Notes",
-									"questId": 27399,
+									"questId": 27508,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 10,
@@ -67028,7 +67028,7 @@
 							"subTasks": [
 								{
 									"itemName": "Stegodon Head",
-									"questId": 27391,
+									"questId": 27511,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [
 										{
@@ -67069,14 +67069,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27517,
+									"questId": 27529,
 									"questName": "One of These Things is Not Like the Others",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "One of These Things is Not Like the Others",
-									"questId": 27518,
+									"questId": 27530,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -67099,7 +67099,7 @@
 							"subTasks": [
 								{
 									"itemName": "Ooze Compound",
-									"questId": 27518,
+									"questId": 27530,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [
 										{
@@ -67204,7 +67204,7 @@
 							"subTasks": [
 								{
 									"itemName": "Fire Plume Ridge Core",
-									"questId": 27494,
+									"questId": 27524,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -67244,7 +67244,7 @@
 								},
 								{
 									"goalName": "Power Absorbed",
-									"questId": 27513,
+									"questId": 27519,
 									"questObjectiveIndex": 1,
 									"count": 6,
 									"depth": 1,
@@ -67318,7 +67318,7 @@
 								},
 								{
 									"itemName": "Fine River Sand",
-									"questId": 27518,
+									"questId": 27530,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 4,
@@ -67357,14 +67357,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27513,
+									"questId": 27519,
 									"questName": "Storm, Earth, Wind, and Fire",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "Storm, Earth, Wind, and Fire",
-									"questId": 27514,
+									"questId": 27520,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -67396,14 +67396,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27391,
+									"questId": 27511,
 									"questName": "The Un'Goro Hunt",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Un'Goro Hunt",
-									"questId": 27392,
+									"questId": 27512,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -67500,7 +67500,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27399,
+									"questId": 27508,
 									"questName": "Research Salvation",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -67581,7 +67581,7 @@
 							"subTasks": [
 								{
 									"itemName": "Golakka Hot Springs Core",
-									"questId": 27494,
+									"questId": 27524,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 1,
@@ -67607,7 +67607,7 @@
 							"subTasks": [
 								{
 									"goalName": "Power Absorbed",
-									"questId": 27514,
+									"questId": 27520,
 									"questObjectiveIndex": 1,
 									"count": 6,
 									"depth": 1,
@@ -67643,14 +67643,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27494,
+									"questId": 27524,
 									"questName": "The Legend of Aru-Talis",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "One of These Things is Not Like the Others",
-									"questId": 27518,
+									"questId": 27530,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -67658,7 +67658,7 @@
 								},
 								{
 									"questName": "One of These Things is Not Like the Others",
-									"questId": 27519,
+									"questId": 27531,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -67690,7 +67690,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27495,
+									"questId": 27525,
 									"questName": "The Legend of Aru-Talis",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -67714,7 +67714,7 @@
 							"subTasks": [
 								{
 									"itemName": "First Tablet Rubbing",
-									"questId": 27495,
+									"questId": 27525,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 1,
@@ -67750,7 +67750,7 @@
 								},
 								{
 									"goalName": "Investigate Southern Pylon",
-									"questId": 27519,
+									"questId": 27531,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -67789,7 +67789,7 @@
 								{
 									"itemName": "Fourth Tablet Rubbing",
 									"count": 1,
-									"questId": 27495,
+									"questId": 27525,
 									"questObjectiveIndex": 4,
 									"toLootNpcs": [],
 									"depth": 1,
@@ -67840,7 +67840,7 @@
 									"subTasks": [
 										{
 											"itemName": "Devilsaur Head",
-											"questId": 27392,
+											"questId": 27512,
 											"questObjectiveIndex": 1,
 											"toLootNpcs": [
 												{
@@ -67943,7 +67943,7 @@
 							"subTasks": [
 								{
 									"itemName": "Second Tablet Rubbing",
-									"questId": 27495,
+									"questId": 27525,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 1,
@@ -67973,7 +67973,7 @@
 							"subTasks": [
 								{
 									"itemName": "Third Tablet Rubbing",
-									"questId": 27495,
+									"questId": 27525,
 									"questObjectiveIndex": 3,
 									"toLootNpcs": [],
 									"count": 1,
@@ -68140,14 +68140,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27495,
+									"questId": 27525,
 									"questName": "The Legend of Aru-Talis",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Legend of Aru-Talis",
-									"questId": 27496,
+									"questId": 27526,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -68179,14 +68179,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27519,
+									"questId": 27531,
 									"questName": "One of These Things is Not Like the Others",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "One of These Things is Not Like the Others",
-									"questId": 27520,
+									"questId": 27532,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -68218,7 +68218,7 @@
 							"subTasks": [
 								{
 									"questName": "Storm, Earth, Wind, and Fire",
-									"questId": 27514,
+									"questId": 27520,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -68226,7 +68226,7 @@
 								},
 								{
 									"questName": "Storm, Earth, Wind, and Fire",
-									"questId": 27515,
+									"questId": 27521,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -68259,7 +68259,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27392,
+									"questId": 27512,
 									"questName": "The Un'Goro Hunt",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -68314,14 +68314,14 @@
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 27520,
+									"questId": 27532,
 									"questName": "One of These Things is Not Like the Others",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "One of These Things is Not Like the Others",
-									"questId": 27521,
+									"questId": 27533,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -68353,14 +68353,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27521,
+									"questId": 27533,
 									"questName": "One of These Things is Not Like the Others",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "One of These Things is Not Like the Others",
-									"questId": 27522,
+									"questId": 27534,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -68392,14 +68392,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27522,
+									"questId": 27534,
 									"questName": "One of These Things is Not Like the Others",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Storm Gathers",
-									"questId": 27523,
+									"questId": 27535,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -68436,7 +68436,7 @@
 									"npcName": "Stone Guardian",
 									"npcId": 6560,
 									"count": 1,
-									"questId": 27515,
+									"questId": 27521,
 									"questObjectiveIndex": 1,
 									"depth": 1,
 									"type": "Kill",
@@ -68471,7 +68471,7 @@
 							"subTasks": [
 								{
 									"goalName": "Discover the pilars",
-									"questId": 27523,
+									"questId": 27535,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -68530,7 +68530,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27515,
+									"questId": 27521,
 									"questName": "Storm, Earth, Wind, and Fire",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -68559,7 +68559,7 @@
 							"subTasks": [
 								{
 									"questName": "The Storm Gathers",
-									"questId": 27523,
+									"questId": 27535,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -68567,7 +68567,7 @@
 								},
 								{
 									"questName": "The Storm Gathers",
-									"questId": 27524,
+									"questId": 27536,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -68613,7 +68613,7 @@
 							"subTasks": [
 								{
 									"questName": "The Storm Gathers",
-									"questId": 27524,
+									"questId": 27536,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -68621,7 +68621,7 @@
 								},
 								{
 									"questName": "The Storm Gathers",
-									"questId": 27525,
+									"questId": 27537,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -68668,7 +68668,7 @@
 							"subTasks": [
 								{
 									"questName": "The Storm Gathers",
-									"questId": 27525,
+									"questId": 27537,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -68676,7 +68676,7 @@
 								},
 								{
 									"questName": "The Storm Gathers",
-									"questId": 27527,
+									"questId": 27539,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -68924,7 +68924,7 @@
 								},
 								{
 									"questName": "The Storm Gathers",
-									"questId": 27527,
+									"questId": 27539,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -68956,7 +68956,7 @@
 								{
 									"depth": 1,
 									"isCustom": false,
-									"questId": 27496,
+									"questId": 27526,
 									"questName": "The Legend of Aru-Talis",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -75061,7 +75061,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27528,
+									"questId": 27567,
 									"questName": "Road to Teles'aran",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -75123,7 +75123,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27285,
+									"questId": 27558,
 									"questName": "Biz with The Fizz",
 									"subTasks": [],
 									"type": "Accept quest"
@@ -75330,7 +75330,7 @@
 							"subTasks": [
 								{
 									"questName": "Road to Teles'aran",
-									"questId": 27528,
+									"questId": 27567,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -75338,7 +75338,7 @@
 								},
 								{
 									"questName": "Words in Stone",
-									"questId": 27529,
+									"questId": 27568,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -75879,7 +75879,7 @@
 							"subTasks": [
 								{
 									"questName": "Biz with The Fizz",
-									"questId": 27285,
+									"questId": 27558,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -75887,7 +75887,7 @@
 								},
 								{
 									"questName": "Quality Reagents",
-									"questId": 27286,
+									"questId": 27559,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -75923,7 +75923,7 @@
 								},
 								{
 									"itemName": "Yeti Finger",
-									"questId": 27286,
+									"questId": 27559,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 80,
@@ -75959,14 +75959,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27286,
+									"questId": 27559,
 									"questName": "Quality Reagents",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Fizz",
-									"questId": 27288,
+									"questId": 27561,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -76093,7 +76093,7 @@
 								},
 								{
 									"goalName": "Electro B.TL.R. Charges",
-									"questId": 27288,
+									"questId": 27561,
 									"questObjectiveIndex": 1,
 									"count": 8,
 									"depth": 1,
@@ -76520,14 +76520,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27288,
+									"questId": 27561,
 									"questName": "The Fizz",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "A Fine... Product?",
-									"questId": 27289,
+									"questId": 27562,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -76567,14 +76567,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27289,
+									"questId": 27562,
 									"questName": "A Fine... Product?",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "The Universal Language",
-									"questId": 27290,
+									"questId": 27563,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -76597,7 +76597,7 @@
 							"subTasks": [
 								{
 									"goalName": "Tanum's Lesson Taught",
-									"questId": 27290,
+									"questId": 27563,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -76632,14 +76632,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27290,
+									"questId": 27563,
 									"questName": "The Universal Language",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "To Delevan's Aid",
-									"questId": 27291,
+									"questId": 27564,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -77465,7 +77465,7 @@
 							"subTasks": [
 								{
 									"itemName": "Quel'dorei Tablet",
-									"questId": 27529,
+									"questId": 27568,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 12,
@@ -77582,7 +77582,7 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27529,
+									"questId": 27568,
 									"questName": "Words in Stone",
 									"subTasks": [],
 									"type": "Turn in quest"
@@ -77621,14 +77621,14 @@
 								{
 									"depth": 1,
 									"isCustom": true,
-									"questId": 27291,
+									"questId": 27564,
 									"questName": "To Delevan's Aid",
 									"subTasks": [],
 									"type": "Turn in quest"
 								},
 								{
 									"questName": "A Rod of Reagents",
-									"questId": 27292,
+									"questId": 27565,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -77648,7 +77648,7 @@
 							"subTasks": [
 								{
 									"itemName": "Icesap",
-									"questId": 27292,
+									"questId": 27565,
 									"questObjectiveIndex": 1,
 									"toLootNpcs": [],
 									"count": 8,
@@ -77659,7 +77659,7 @@
 								},
 								{
 									"itemName": "Frost Crystal",
-									"questId": 27292,
+									"questId": 27565,
 									"questObjectiveIndex": 2,
 									"toLootNpcs": [],
 									"count": 6,
@@ -77670,7 +77670,7 @@
 								},
 								{
 									"itemName": "Blood Feather",
-									"questId": 27292,
+									"questId": 27565,
 									"questObjectiveIndex": 3,
 									"toLootNpcs": [],
 									"count": 5,
@@ -77705,7 +77705,7 @@
 							"subTasks": [
 								{
 									"questName": "A Rod of Reagents",
-									"questId": 27292,
+									"questId": 27565,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -77713,7 +77713,7 @@
 								},
 								{
 									"questName": "In Moonlit Mourning",
-									"questId": 27293,
+									"questId": 27566,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -77736,7 +77736,7 @@
 							"subTasks": [
 								{
 									"goalName": "Delevan assisted",
-									"questId": 27293,
+									"questId": 27566,
 									"questObjectiveIndex": 1,
 									"count": 1,
 									"depth": 1,
@@ -77746,7 +77746,7 @@
 								},
 								{
 									"questName": "In Moonlit Mourning",
-									"questId": 27293,
+									"questId": 27566,
 									"depth": 1,
 									"type": "Turn in quest",
 									"subTasks": [],
@@ -80463,7 +80463,7 @@
 									"isCustom": false
 								},
 								{
-									"questId": 27342,
+									"questId": 26744,
 									"questName": "Open for Business",
 									"depth": 1,
 									"type": "Accept quest",
@@ -80488,7 +80488,7 @@
 							"isCustom": false
 						},
 						{
-							"questId": 27342,
+							"questId": 26744,
 							"questName": "Open for Business",
 							"depth": 0,
 							"type": "Turn in quest",
@@ -80496,7 +80496,7 @@
 							"isCustom": true
 						},
 						{
-							"questId": 27343,
+							"questId": 26745,
 							"questName": "Open for Business",
 							"depth": 0,
 							"type": "Accept quest",
@@ -80520,14 +80520,14 @@
 						},
 						{
 							"questName": "Open for Business",
-							"questId": 27343,
+							"questId": 26745,
 							"depth": 0,
 							"type": "Turn in quest",
 							"subTasks": [],
 							"isCustom": true
 						},
 						{
-							"questId": 27344,
+							"questId": 26746,
 							"questName": "Open for Business",
 							"depth": 0,
 							"type": "Accept quest",
@@ -80551,14 +80551,14 @@
 						},
 						{
 							"questName": "Open for Business",
-							"questId": 27344,
+							"questId": 26746,
 							"depth": 0,
 							"type": "Turn in quest",
 							"subTasks": [],
 							"isCustom": true
 						},
 						{
-							"questId": 27345,
+							"questId": 26747,
 							"questName": "Open for Business",
 							"depth": 0,
 							"type": "Accept quest",
@@ -80582,7 +80582,7 @@
 						},
 						{
 							"questName": "Open for Business",
-							"questId": 27345,
+							"questId": 26747,
 							"depth": 0,
 							"type": "Turn in quest",
 							"subTasks": [],
@@ -80590,7 +80590,7 @@
 						},
 						{
 							"questName": "Open for Business",
-							"questId": 27345,
+							"questId": 26748,
 							"depth": 0,
 							"type": "Accept quest",
 							"subTasks": [
