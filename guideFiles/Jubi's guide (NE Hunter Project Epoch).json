@@ -4473,6 +4473,29 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 37.22,
+							"yCoord": 44.36,
+							"coordsMap": "Darkshore",
+							"comment": "One of the WANTED boards",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questId": 26207,
+							"questName": "Wanted: Mistfin",
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -6256,10 +6279,50 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 28.74,
+							"yCoord": 54.88,
 							"coordsMap": "Darkshore",
+							"comment": "Swim west until you see the quest target",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Mistfin",
+							"npcId": 45040,
+							"count": 1,
+							"questId": 26207,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Kill",
+							"subTasks": [],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "HS out",
+							"itemId": 6948,
+							"itemName": "Heartstone",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
 							"xCoord": 36.08,
 							"yCoord": 44.9,
-							"comment": "Back to Auberdine, but don't turn in any of the quests yet (unless stated). Wait until you are back from Darnassus",
+							"coordsMap": "Darkshore",
+							"comment": "Back in Auberdine, but don't turn in any of the quests yet (unless stated). Wait until you are back from Darnassus",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -6342,10 +6405,10 @@
 				{
 					"stepTasks": [
 						{
-							"coordsMap": "Darkshore",
 							"xCoord": 32.4,
 							"yCoord": 43.76,
-							"comment": "Once you get to Auberdine check for the boat to Teldrassil (north-east). If its already there or leaving go grab the flightpath, you won't make it. Otherwise, run to the docks.",
+							"coordsMap": "Darkshore",
+							"comment": "Check for the boat to Teldrassil (north-east). If its already there or leaving go grab the flightpath, you won't make it. Otherwise, run to the docks.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -6353,6 +6416,13 @@
 						},
 						{
 							"comment": "While you wait for the boat/are on it work on leveling first aid until linen bandage turns green (45)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Make sure to save x20 heavy linen bandages for later",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -6441,7 +6511,7 @@
 							"xCoord": 63.4,
 							"yCoord": 66.4,
 							"coordsMap": "Darnassus",
-							"comment": "Buy a Reinforced Bow (level 16 white bow) from her. If you have the money, buy the Heavy Recurve bow too (lvl 20 white bow)",
+							"comment": "Buy a Reinforced Bow (level 16 white bow) from her if you didn't get the Menethil bow. If you have the money, buy the Heavy Recurve bow too (lvl 20 white bow)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -6507,11 +6577,22 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "HS back to Auberdine",
-							"itemId": 6948,
-							"itemName": "Hearthstone",
+							"xCoord": 30.51,
+							"yCoord": 41.35,
+							"coordsMap": "Darnassus",
+							"comment": "Back down",
 							"depth": 0,
-							"type": "Comment",
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"xCoord": 58.4,
+							"yCoord": 93.97,
+							"coordsMap": "Teldrassil",
+							"comment": "Fly to Auberdine",
+							"depth": 0,
+							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						}
@@ -6636,6 +6717,14 @@
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"questId": 26207,
+									"questName": "Wanted: Mistfin",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"type": "Talk to"
@@ -6771,6 +6860,13 @@
 									"type": "Accept quest",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"comment": "Accept the commission quest too",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
 								}
 							],
 							"type": "Talk to"
@@ -6826,7 +6922,15 @@
 							"comment": "Just run across a zone with skull mobs/do an unintended skip to finish the questline in Westfall. Don't add the SW boat in Darkshore obviously, it's all in the vanilla spirit and not terrible game design, didn't you know? I wonder why they added a ferry to Southshore. Why don't we have to run across Arathi to go there early? Hmmmm...",
 							"depth": 0,
 							"type": "Comment",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "There is a boat to SW now. Ez rePoch W.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -9407,9 +9511,9 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Ashenvale",
 							"xCoord": 27.28,
 							"yCoord": 35.49,
-							"coordsMap": "Ashenvale",
 							"comment": "While you are in Ashenvale, try to save up to 10 Lean Wolf Flanks and 6 Gooey Spider Legs",
 							"depth": 0,
 							"type": "Go to",
@@ -11644,14 +11748,6 @@
 								{
 									"questName": "A Scroll from Mauren",
 									"questId": 1075,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"questName": "An Old Colleague",
-									"questId": 1072,
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
@@ -17922,30 +18018,20 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 9.53,
-							"yCoord": 59.66,
+							"xCoord": 4.64,
+							"yCoord": 57.23,
 							"coordsMap": "Wetlands",
-							"comment": "Fly to Loch Modan",
+							"comment": "Take the boat to Darkshore (do bandages?)",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"xCoord": 20,
-							"yCoord": 63,
-							"coordsMap": "Loch Modan",
-							"comment": "Enter Dun Morogh",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"xCoord": 53.38,
-							"yCoord": 35.03,
-							"coordsMap": "Dun Morogh",
-							"comment": "Long run to Ironforge",
+							"xCoord": 30.76,
+							"yCoord": 41.02,
+							"coordsMap": "Darkshore",
+							"comment": "Take the new boat to stormwind",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -17962,328 +18048,6 @@
 		{
 			"sectionName": "Duskwood (29-31)",
 			"sectionSteps": [
-				{
-					"stepTasks": [
-						{
-							"xCoord": 61.35,
-							"yCoord": 89.31,
-							"coordsMap": "Ironforge",
-							"comment": "Buy weapon skills + the green level 30 quiver. You can even store it in your current quiver until you hit 30",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"npcName": "Thalgus Thunderfist",
-									"npcId": 7976,
-									"depth": 1,
-									"type": "Talk to",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 70.59,
-							"yCoord": 83.75,
-							"coordsMap": "Ironforge",
-							"comment": "Train spells",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 72.62,
-							"yCoord": 93.69
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Pilot Longbeard",
-							"npcId": 2092,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1179,
-									"questName": "The Brassbolts Brothers",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 63.83,
-							"yCoord": 67.95
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Sara Balloo",
-							"npcId": 2695,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 637,
-									"questName": "Sully Balloo's Letter",
-									"subTasks": [],
-									"type": "Turn in quest"
-								},
-								{
-									"questName": "Sara Balloo's Plea",
-									"questId": 683,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 55.68,
-							"yCoord": 48.08,
-							"coordsMap": "Ironforge",
-							"comment": "Get the FP",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"npcName": "Gryth Thurden",
-									"npcId": 1573,
-									"depth": 1,
-									"type": "Talk to",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 39.04,
-							"yCoord": 56.19
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "King Magni Bronzebeard",
-							"npcId": 2784,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 683,
-									"questName": "Sara Balloo's Plea",
-									"subTasks": [],
-									"type": "Turn in quest"
-								},
-								{
-									"questName": "A King's Tribute",
-									"questId": 686,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 38.71,
-							"yCoord": 87.62
-						},
-						{
-							"npcName": "Grand Mason Marblesten",
-							"npcId": 2790,
-							"depth": 0,
-							"type": "Talk to",
-							"subTasks": [
-								{
-									"questName": "A King's Tribute",
-									"questId": 686,
-									"depth": 1,
-									"type": "Turn in quest",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"questName": "A King's Tribute",
-									"questId": 689,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 69.31,
-							"yCoord": 50.44
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Gnoarn",
-							"npcId": 6569,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2041,
-									"questName": "Speak with Shoni",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 71.67,
-							"yCoord": 52.03
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Lomac Gearstrip",
-							"npcId": 4081,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 1072,
-									"questName": "An Old Colleague",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"xCoord": 76,
-							"yCoord": 51,
-							"coordsMap": "Ironforge",
-							"comment": "Take the tram and train first aids (book + wool bandages) while waiting/on it",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Hopefully you get to 150 first aid, otherwise no silk bandages for you :(",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"xCoord": 62.79,
-							"yCoord": 34.13,
-							"coordsMap": "Stormwind City",
-							"comment": "Turn in this quest",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Shoni the Shilent",
-							"npcId": 6579,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 2041,
-									"questName": "Speak with Shoni",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
@@ -18433,16 +18197,23 @@
 									"type": "Talk to",
 									"subTasks": [],
 									"isCustom": false
-								},
-								{
-									"comment": "Do something",
-									"itemName": "Weapon mastery on Polearms for alliance is on NElfs, but they have to travel to SW to learn how to use them from a human. I wonder how many people will get to use the polearms that drop/are rewarded in Darkshore :P",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
 								}
 							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 63.96,
+							"yCoord": 68.6,
+							"coordsMap": "Stormwind City",
+							"comment": "Buy Heavy Quiver and Heavy crossbow. Equip the xbow now and the quiver later",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -18510,6 +18281,30 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 67.39,
+							"yCoord": 36.37,
+							"coordsMap": "Stormwind City",
+							"comment": "Go learn spells",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Einris Brightspear",
+									"npcId": 5515,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"stepTasks": [
@@ -18651,7 +18446,7 @@
 							"xCoord": 64,
 							"yCoord": 17,
 							"coordsMap": "Duskwood",
-							"comment": "Look for Plagued Shambler alongside the river if it's night time. He spawns at [64,17]",
+							"comment": "Look for Plagued Shambler alongside the river if it's night time (use eagle eye). It spawn near Morbent Fel's house in Ravenhill then patrols to where you are.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -18666,10 +18461,29 @@
 									"isCustom": false
 								},
 								{
-									"comment": "Otherwise, walk the road north of Darkshire and turn in and accept the next parts of The missing diplomat",
+									"xCoord": 77.13,
+									"yCoord": 35.74,
+									"coordsMap": "Duskwood",
+									"comment": "Otherwise, go to Mistmantle mansion and clim to the top of the tower iusing the stairs",
 									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
+									"type": "Go to",
+									"subTasks": [
+										{
+											"comment": "Also, walk the road north of Darkshire and turn in and accept the next parts of The missing diplomat",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										},
+										{
+											"questId": 26714,
+											"questName": "The Handmaiden's Fall",
+											"depth": 2,
+											"type": "Accept quest",
+											"subTasks": [],
+											"isCustom": true
+										}
+									],
 									"isCustom": false
 								}
 							],
@@ -18817,6 +18631,125 @@
 					]
 				},
 				{
+					"stepTasks": [
+						{
+							"xCoord": 73.61,
+							"yCoord": 43.64,
+							"coordsMap": "Duskwood",
+							"comment": "Only if you didn't kite the Shambler and you got the Mistmantle manor quest. Upstairs.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Farrin Daris",
+							"npcId": 2112,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26714,
+									"questName": "The Handmaiden's Fall",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 26715,
+									"questName": "The Handmaiden's Fall",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 73.78,
+							"yCoord": 44.25,
+							"coordsMap": "Duskwood",
+							"comment": "Bartender's bar",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Stolem Fresh Bread",
+									"questId": 26715,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"coordsMap": "Duskwood",
+							"xCoord": 73.94,
+							"yCoord": 43.63,
+							"comment": "To the kitchen and downstairs in the basemanet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Cask of Brightwood White",
+									"questId": 26715,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 73.61,
+							"yCoord": 43.64,
+							"coordsMap": "Duskwood",
+							"comment": "Upstairs again...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Farrin Daris",
+									"npcId": 2112,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Handmaiden's Fall",
+									"questId": 26715,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 26716,
+									"questName": "The Handmaiden's Fall",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
@@ -18853,6 +18786,25 @@
 								}
 							],
 							"type": "Talk to"
+						},
+						{
+							"xCoord": 77.13,
+							"yCoord": 35.74,
+							"coordsMap": "Duskwood",
+							"comment": "If you didn't do the Shambler fancy thing. Mistmantle mansion and clim to the top of the tower iusing the stairs",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"questName": "The Handmaiden's Fall",
+									"questId": 26714,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -18892,6 +18844,125 @@
 								}
 							],
 							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 73.61,
+							"yCoord": 43.64,
+							"coordsMap": "Duskwood",
+							"comment": "If you kited the Shambler. Upstairs.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Farrin Daris",
+							"npcId": 2112,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26714,
+									"questName": "The Handmaiden's Fall",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 26715,
+									"questName": "The Handmaiden's Fall",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 73.78,
+							"yCoord": 44.25,
+							"coordsMap": "Duskwood",
+							"comment": "Bartender's bar",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Stolem Fresh Bread",
+									"questId": 26715,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"coordsMap": "Duskwood",
+							"xCoord": 73.94,
+							"yCoord": 43.63,
+							"comment": "To the kitchen and downstairs in the basemanet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Cask of Brightwood White",
+									"questId": 26715,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"xCoord": 73.61,
+							"yCoord": 43.64,
+							"coordsMap": "Duskwood",
+							"comment": "Upstairs again...",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Farrin Daris",
+									"npcId": 2112,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "The Handmaiden's Fall",
+									"questId": 26715,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 26716,
+									"questName": "The Handmaiden's Fall",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -19417,7 +19488,7 @@
 							"xCoord": 56.32,
 							"yCoord": 64.61,
 							"coordsMap": "Duskwood",
-							"comment": "Kill any wolves you might need to finish the cooking quest",
+							"comment": "Kill any wolves you might need to finish the cooking quest and also gather the pelts",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -19440,6 +19511,22 @@
 									"type": "Get",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"itemName": "Soft Wolf Fur",
+									"questId": 26716,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Young Black Ravager",
+											"npcId": 923
+										}
+									],
+									"count": 6,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"isCustom": false
@@ -19833,7 +19920,15 @@
 									"isCustom": false,
 									"questId": 5,
 									"questName": "Jitters' Growling Gut",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"comment": "Skip follow up",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"type": "Turn in quest"
 								},
 								{
@@ -19850,16 +19945,44 @@
 					]
 				},
 				{
+					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"comment": "Only accept/turn in the spiders' legs quest and its follow up if you already have the legs from Ashenvale. Otherwise, skip it.",
+							"xCoord": 73.61,
+							"yCoord": 43.64,
+							"coordsMap": "Duskwood",
+							"comment": "Upstairs",
 							"depth": 0,
-							"type": "Comment",
+							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
+						},
+						{
+							"npcName": "Farrin Daris",
+							"npcId": 2112,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26716,
+									"questName": "The Handmaiden's Fall",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 26717,
+									"questName": "The Handmaiden's Fall",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						}
-					],
-					"onlyForClasses": []
+					]
 				},
 				{
 					"onlyForClasses": [],
@@ -20106,7 +20229,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "If you havent killed the Shambler in the north coast now it would be a good time to do it if it's night time",
+							"comment": "If you havent killed the Shambler in the north coast now it would be a good time to do it if it's night time and it has patroled down there",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -20293,6 +20416,34 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 73.83,
+							"yCoord": 53.28,
+							"coordsMap": "Duskwood",
+							"comment": "Use the picnic set here and kil the ghost",
+							"itemId": 62538,
+							"itemName": "Prepared Picnic Set",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Put Nelle Osborn to rest",
+									"questId": 26717,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"stepTasks": [
@@ -20594,6 +20745,18 @@
 							"type": "Talk to"
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Another chance to kill the Shambler. Skip this.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"onlyForClasses": [],
@@ -21286,6 +21449,38 @@
 								}
 							],
 							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 73.61,
+							"yCoord": 43.64,
+							"coordsMap": "Duskwood",
+							"comment": "Upstairs",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Farrin Daris",
+							"npcId": 2112,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26717,
+									"questName": "The Handmaiden's Fall",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						}
 					]
 				},
@@ -22982,16 +23177,9 @@
 						}
 					],
 					"onlyForClasses": []
-				}
-			],
-			"nextSectionVal": 5,
-			"defaultForRace": -1,
-			"startLevel": 29
-		},
-		{
-			"sectionName": "Wetlands & Hillsbrad Pt.2 (31-34)",
-			"sectionSteps": [
+				},
 				{
+					"onlyForClasses": [],
 					"stepTasks": [
 						{
 							"coordsMap": "Ironforge",
@@ -23020,24 +23208,212 @@
 							],
 							"isCustom": false
 						}
-					],
-					"onlyForClasses": []
+					]
 				},
 				{
+					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 55.63,
-							"yCoord": 47.87,
 							"coordsMap": "Ironforge",
-							"comment": "Fly to Menethil Harbor",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 63.83,
+							"yCoord": 67.95
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Sara Balloo",
+							"npcId": 2695,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 637,
+									"questName": "Sully Balloo's Letter",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "Sara Balloo's Plea",
+									"questId": 683,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Ironforge",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 72.62,
+							"yCoord": 93.69
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Pilot Longbeard",
+							"npcId": 2092,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 1179,
+									"questName": "The Brassbolts Brothers",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 61.35,
+							"yCoord": 89.31,
+							"coordsMap": "Ironforge",
+							"comment": "Buy weapon skills",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"npcName": "Thalgus Thunderfist",
+									"npcId": 7976,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
-					],
-					"onlyForClasses": []
+					]
 				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Ironforge",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 39.04,
+							"yCoord": 56.19
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "King Magni Bronzebeard",
+							"npcId": 2784,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 683,
+									"questName": "Sara Balloo's Plea",
+									"subTasks": [],
+									"type": "Turn in quest"
+								},
+								{
+									"questName": "A King's Tribute",
+									"questId": 686,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Ironforge",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 38.71,
+							"yCoord": 87.62
+						},
+						{
+							"npcName": "Grand Mason Marblesten",
+							"npcId": 2790,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "A King's Tribute",
+									"questId": 686,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "A King's Tribute",
+									"questId": 689,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 55.68,
+							"yCoord": 48.08,
+							"coordsMap": "Ironforge",
+							"comment": "Get the FP and fly to Menethil harbor",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Gryth Thurden",
+									"npcId": 1573,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				}
+			],
+			"nextSectionVal": 5,
+			"defaultForRace": -1,
+			"startLevel": 29
+		},
+		{
+			"sectionName": "Wetlands & Hillsbrad Pt.2 (31-34)",
+			"sectionSteps": [
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
@@ -24862,7 +25238,7 @@
 							"xCoord": 9.55,
 							"yCoord": 59.64,
 							"coordsMap": "Wetlands",
-							"comment": "Fly to Southshore",
+							"comment": "Fly to Southshore. If the assassin's event is running try to kill one by pulling them inside a house so the guards don't delete them",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -25067,40 +25443,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Hillsbrad Foothills",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 49.61,
-							"yCoord": 58.68
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marshal Redpath",
-							"npcId": 2263,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 500,
-									"questName": "Crushridge Bounty",
-									"subTasks": [],
-									"type": "Accept quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
 							"xCoord": 48.19,
 							"yCoord": 59.2,
 							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Skipping Crushridge bounty until after comming from STV",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -25682,61 +26028,6 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 50.31,
-							"yCoord": 60.13,
-							"coordsMap": "Alterac Mountains",
-							"comment": "Kill some ogres here while moving straight to the mountain pass",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"xCoord": 50.21,
-							"yCoord": 49.89,
-							"coordsMap": "Alterac Mountains",
-							"comment": "Go here and try to /target Lo'Grosh . It's a rare that has a 1/10 chance of dropping a 4.0s two handed lvl 32 mace. It's the best weapon for it's level.",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"xCoord": 47.3,
-							"yCoord": 35.25,
-							"coordsMap": "Alterac Mountains",
-							"comment": "Vendor things here and finish killing the ogres.",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"npcName": "Rizz Loosebolt",
-									"npcId": 2684,
-									"depth": 1,
-									"type": "Talk to",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"itemName": "Dirty Knucklebones",
-									"questId": 500,
-									"questObjectiveIndex": 1,
-									"toLootNpcs": [],
-									"count": 9,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
 							"xCoord": 57.58,
 							"yCoord": 44.01,
 							"coordsMap": "Alterac Mountains",
@@ -25917,38 +26208,6 @@
 									"isCustom": false,
 									"questId": 555,
 									"questName": "Soothing Turtle Bisque",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"xCoord": 49.51,
-							"yCoord": 58.78,
-							"coordsMap": "Hillsbrad Foothills",
-							"comment": "Don't bother with the follow up yet",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Marshal Redpath",
-							"npcId": 2263,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 500,
-									"questName": "Crushridge Bounty",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -26728,6 +26987,25 @@
 									"isCustom": false
 								}
 							],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Consider stabling your pet if you want to try using a wind serpent (probably OP)",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Skip this",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -32238,6 +32516,37 @@
 					"onlyForClasses": []
 				},
 				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"coordsMap": "Hillsbrad Foothills",
+							"depth": 0,
+							"isCustom": false,
+							"subTasks": [],
+							"type": "Go to",
+							"xCoord": 49.61,
+							"yCoord": 58.68
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Marshal Redpath",
+							"npcId": 2263,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 500,
+									"questName": "Crushridge Bounty",
+									"subTasks": [],
+									"type": "Accept quest"
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
 					"stepTasks": [
 						{
 							"xCoord": 48.68,
@@ -32302,16 +32611,6 @@
 				{
 					"onlyForClasses": [],
 					"stepTasks": [
-						{
-							"xCoord": 48.19,
-							"yCoord": 59.23,
-							"coordsMap": "Hillsbrad Foothills",
-							"comment": "Skipping Crushridge warmongers from Redpath outside the town hall",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
 						{
 							"depth": 0,
 							"isCustom": false,
@@ -32552,7 +32851,7 @@
 							"xCoord": 38.64,
 							"yCoord": 38.89,
 							"coordsMap": "Alterac Mountains",
-							"comment": "Make sure you have the 5 books that drop from any ogre before leaving!",
+							"comment": "Exit elite area here",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -32562,17 +32861,6 @@
 							"comment": "Some potions in the goblin. If the recipe is limited stock buy it.",
 							"depth": 0,
 							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"itemName": "Recovered Tome",
-							"count": 5,
-							"questId": 540,
-							"questObjectiveIndex": 1,
-							"toLootNpcs": [],
-							"depth": 0,
-							"type": "Get",
 							"subTasks": [],
 							"isCustom": false
 						}
@@ -32789,6 +33077,52 @@
 					"onlyForClasses": []
 				},
 				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 47.3,
+							"yCoord": 35.25,
+							"coordsMap": "Alterac Mountains",
+							"comment": "Gather things from the ogres, there is a vendor here",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Rizz Loosebolt",
+									"npcId": 2684,
+									"depth": 1,
+									"type": "Talk to",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Dirty Knucklebones",
+									"questId": 500,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 9,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Recovered Tome",
+									"count": 5,
+									"questId": 540,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
 					"stepTasks": [
 						{
 							"xCoord": 58.44,
@@ -32884,6 +33218,38 @@
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": true
+								}
+							],
+							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 49.51,
+							"yCoord": 58.78,
+							"coordsMap": "Hillsbrad Foothills",
+							"comment": "Skip follow up",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": false,
+							"npcName": "Marshal Redpath",
+							"npcId": 2263,
+							"subTasks": [
+								{
+									"depth": 1,
+									"isCustom": false,
+									"questId": 500,
+									"questName": "Crushridge Bounty",
+									"subTasks": [],
+									"type": "Turn in quest"
 								}
 							],
 							"type": "Talk to"
