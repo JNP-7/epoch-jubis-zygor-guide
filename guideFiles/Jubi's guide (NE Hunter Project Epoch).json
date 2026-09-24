@@ -20610,7 +20610,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Mor'Ladim should be around, look for him and kill it by running circles around the tree a tree ([20,41] for example).",
+							"comment": "Mor'Ladim should be around, look for him and kill it by kitting him. Can't run in circles around a tree amymore, they LoS.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -27312,7 +27312,6 @@
 							"xCoord": 29.8,
 							"yCoord": 47.75,
 							"coordsMap": "Dustwallow Marsh",
-							"comment": "The footprints don't give a quest. -1k XP for no reason. At least these don't block the questchain",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -27334,6 +27333,29 @@
 								}
 							],
 							"type": "Talk to"
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 29.72,
+							"yCoord": 47.56,
+							"coordsMap": "Dustwallow Marsh",
+							"comment": "The footprints",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"questId": 1284,
+							"questName": "Suspicious Hoofprints",
+							"depth": 0,
+							"type": "Accept quest",
+							"subTasks": [],
+							"isCustom": false
 						}
 					]
 				},
@@ -28792,6 +28814,14 @@
 									"questId": 1319,
 									"depth": 1,
 									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questId": 4944,
+									"questName": "Suspicious Hoofprints",
+									"depth": 1,
+									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": false
 								}
@@ -31035,15 +31065,7 @@
 							"comment": "Whenever you find an alliance captive go free it. You will probably have to go out of your way to finish this because you can't free the horde ones so the npc respawns. Go to the next step",
 							"depth": 0,
 							"type": "Comment",
-							"subTasks": [
-								{
-									"comment": "If the chance for a captive to be from either faction is a 50/50 and the spawns are not fixed this is bound to cause issues in the long run...",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
+							"subTasks": [],
 							"isCustom": false
 						}
 					],
@@ -34156,39 +34178,6 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "The quest Save the animals was bugged in betas 2.5, 3 and 3.5, but I could complete it during beta 2. Basically, she will ask you to find the Gryphon I mentioned earlier and then you will need meat from the spiders and berries from the berry bushes you might have seen while walking there.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "I will be detailing the other quests as if the follow ups to the bugged one didn't exists since I don't remember their order exactly. The idea is to find the gryphon after you get out of the dwarves' fields while cooling the fire elementals and then, before going to talk to the water elemental, turn it in to unlock the other quests that ask you for food. This way you can do 3 gathering quests at the same time.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "If the quest works at the end of the questline you will get a free flight to Aerie peak. Make sure you get the FP there before going back to the dwarves in Arathi.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Skip this step after reading",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
 							"xCoord": 93.08,
 							"yCoord": 67.88,
 							"coordsMap": "Arathi Highlands",
@@ -34282,7 +34271,15 @@
 									"isCustom": true
 								},
 								{
-									"comment": "Accept the follow up if it's not bugged anymore",
+									"questId": 26561,
+									"questName": "Finding Fireplume",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"comment": "If Abandoning The Estate is available accept it an turn it in the next step. It should be the last quest in the questline tho",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -34360,6 +34357,24 @@
 								}
 							],
 							"isCustom": true
+						},
+						{
+							"goalName": "Fireplume spotted",
+							"questId": 26561,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [
+								{
+									"comment": "If you saw Fireplume before, recall where and get near him now",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": true
 						}
 					],
 					"onlyForClasses": []
@@ -34400,8 +34415,73 @@
 								}
 							],
 							"type": "Talk to"
+						},
+						{
+							"goalName": "Fireplume spotted",
+							"count": 1,
+							"questId": 26561,
+							"questObjectiveIndex": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [
+								{
+									"comment": "If you haven't yet go do it now",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": true
 						}
 					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 89.91,
+							"yCoord": 71.67,
+							"coordsMap": "Arathi Highlands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Amanda Alestone",
+							"npcId": 45562,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26561,
+									"questName": "Finding Fireplume",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 26562,
+									"questName": "A Bit O' Sweet",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 26563,
+									"questName": "A Bit O' Meat",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
 				},
 				{
 					"stepTasks": [
@@ -34427,16 +34507,36 @@
 									"type": "Get",
 									"subTasks": [],
 									"isCustom": true
+								},
+								{
+									"itemName": "Bushel of Massive Shadowberry",
+									"questId": 26562,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 8,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Creeper Chunks",
+									"questId": 26563,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Blazing Creeper",
+											"npcId": 45572
+										}
+									],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"isCustom": true
-						},
-						{
-							"comment": "If the dwarf's quest wasn't bugged, turn on Track Beasts to try to find Fireplume",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -34481,18 +34581,246 @@
 					]
 				},
 				{
-					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 89.29,
-							"yCoord": 35.27,
+							"xCoord": 89.91,
+							"yCoord": 71.67,
 							"coordsMap": "Arathi Highlands",
-							"comment": "If the dwarf's quest wans't bugged. Turn in the quest about finding the gryphon then accept the follow ups. Go talk to the water ele afterwards",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
+						{
+							"npcName": "Amanda Alestone",
+							"npcId": 45562,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26562,
+									"questName": "A Bit O' Sweet",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 26563,
+									"questName": "A Bit O' Meat",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 26564,
+									"questName": "Baiting Fireplume",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 93.24,
+							"yCoord": 71.22,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Use the bait on the nest",
+							"itemId": 62344,
+							"itemName": "Strong smelling bait",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Fireplume baited",
+									"questId": 26564,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 89.91,
+							"yCoord": 71.67,
+							"coordsMap": "Arathi Highlands",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Amanda Alestone",
+							"npcId": 45562,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Baiting Fireplume",
+									"questId": 26564,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 26565,
+									"questName": "An Urgent Plea",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 93.24,
+							"yCoord": 71.22,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Use the whistle on the nest then ride Fireplume to Aerie Peak",
+							"itemId": 62345,
+							"itemName": "High-Pitched Whistle",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Ride Fireplume to Aerie Peak",
+									"questId": 26565,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						},
+						{
+							"xCoord": 11.78,
+							"yCoord": 46.81,
+							"coordsMap": "The Hinterlands",
+							"comment": "Remember to >>> get the flightpath <<< once you get to Aerie Peak",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Falstad Wildhammer",
+							"npcId": 5635,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "An Urgent Plea",
+									"questId": 26565,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "An Urgent Plea",
+									"questId": 26566,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 11.78,
+							"yCoord": 46.81,
+							"coordsMap": "The Hinterlands",
+							"comment": "Remember to >>> get the flightpath <<< once you get to Aerie Peak. Use the whistle again if the gryphon left",
+							"itemId": 62346,
+							"itemName": "High Pitched Whistle",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"goalName": "Ride Fireplume to the Alestone State",
+							"questId": 26566,
+							"questObjectiveIndex": 1,
+							"count": 1,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [],
+							"isCustom": true
+						},
+						{
+							"xCoord": 89.88,
+							"yCoord": 71.7,
+							"coordsMap": "Arathi Highlands",
+							"comment": "Turn the quest in when you are back in Arathi",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Amanda Alestone",
+							"npcId": 45562,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26566,
+									"questName": "An Urgent Plea",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"comment": "Avandoning the State should unlock here. If you did it before skip this",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
 						{
 							"depth": 0,
 							"isCustom": true,
@@ -34572,35 +34900,9 @@
 									"type": "Comment",
 									"subTasks": [],
 									"isCustom": false
-								},
-								{
-									"comment": "If the dwarf's quest wasn't bugged, go turn the spider meat and the berries quest then do the rest before turning the water elemental's quests.",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
 								}
 							],
 							"isCustom": true
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"comment": "If the dwarf's quest is fixed this is probably where you go do it",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": "Skip this",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -36291,7 +36593,7 @@
 							"xCoord": 76.86,
 							"yCoord": 51.16,
 							"coordsMap": "Ironforge",
-							"comment": "Tram to SW, first aid if you have any mageweave. Save 15 silk for a quest and store it in bank when you get back to booty bay.",
+							"comment": "Tram to SW, first aid if you have any mageweave. Save 15 silk for a quest, use 20 to make 20 regular silk bandages andstore it in bank when you get back to booty bay.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -36594,7 +36896,7 @@
 							"xCoord": 26.59,
 							"yCoord": 76.54,
 							"coordsMap": "Stranglethorn Vale",
-							"comment": "Bank x15 Silk Cloth",
+							"comment": "Bank x15 Silk Cloth and keep 20 on your backpack (or 20 silk bandages))",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -36783,6 +37085,13 @@
 							"comment": "Go here then climb to the goblin's statue. Place a frost trap hugging the statue, tunr on Cower and turn off growl on you pet. Pull the giant and spam distracting shot on CD while running circles around the statue: perma slowed 0% resist chance.",
 							"depth": 0,
 							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "Probably skip considering most things LoS now. If so go back to Booty Bay by land",
+							"depth": 0,
+							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
@@ -37059,13 +37368,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 26.75,
-							"yCoord": 73.67
+							"yCoord": 73.67,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Only if you killed the giant",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -37098,13 +37408,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 26.71,
-							"yCoord": 73.67
+							"yCoord": 73.67,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Only if you killed the giant",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"depth": 0,
@@ -37520,13 +37831,14 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 27.15,
-							"yCoord": 77.01
+							"yCoord": 77.01,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Not doing last part of Bloodsail Bucaneers, too hard and inconsistent now",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
 						},
 						{
 							"npcName": "Fleet Master Seahorn",
@@ -37541,14 +37853,6 @@
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": false
-								},
-								{
-									"questName": "The Bloodsail Buccaneers",
-									"questId": 608,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
 								}
 							],
 							"isCustom": false
@@ -37558,29 +37862,31 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Hardest thing in the entire guide and probably not doable on a non-hunter. Skip this when done reading",
+							"xCoord": 33.57,
+							"yCoord": 70.61,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "You can get up here by climbing the slope even on the side that's facing Booty Bay",
 							"depth": 0,
-							"type": "Comment",
+							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"coordsMap": "Stranglethorn Vale",
-							"xCoord": 29.91,
-							"yCoord": 89.33,
-							"comment": "Go to this ship first and clear the pirates on the deck. Don't pull Garr Salthoof, he will pull the pirates below deck (somehow...)",
+							"npcName": "Dia Foss",
+							"npcId": 45850,
 							"depth": 0,
-							"type": "Go to",
+							"type": "Talk to",
 							"subTasks": [
 								{
-									"comment": "Afterwards heal your pet to full, put it on passive and set your pet to stay outside of the ship (near the palm tree, f.ex.).",
+									"questId": 26892,
+									"questName": "Beastial Allies",
 									"depth": 1,
-									"type": "Comment",
+									"type": "Accept quest",
 									"subTasks": [],
-									"isCustom": false
+									"isCustom": true
 								}
 							],
-							"isCustom": false
+							"isCustom": true
 						}
 					],
 					"onlyForClasses": []
@@ -37588,77 +37894,91 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Go back on board and /target Captain to target Keelhaul. Command your pet to attack him and press dive/sprint once it goes inside the ship. Once Keelhaul is aggroed put your pet on passive again. Your pet will run to the last stay position and will pull Keelhaul outside of his room. Hit/distract shot him and then jump off the ship with disengage towards the opposite direction your pet is going.",
+							"xCoord": 32.79,
+							"yCoord": 69.13,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Focus on the poachers, can try to progress the gorilla quests too",
 							"depth": 0,
-							"type": "Comment",
+							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
+						},
 						{
-							"comment": "Your pet will despawn by distance before dying to mobs and Keelhaul will be chasing you. Once your pet despawns, resummon it, attack Keelhaul with it and feign death after it gets aggro. 1v1 the quest mob and go to the next ship. If your pet died pulling the mobs rez it while the boss runs at you.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"npcName": "Captain Keelhaul",
-							"npcId": 2548,
-							"count": 1,
-							"questId": 608,
-							"questObjectiveIndex": 2,
+							"npcName": "Mistvale Poacher",
+							"npcId": 45851,
+							"count": 8,
+							"questId": 26892,
+							"questObjectiveIndex": 1,
 							"depth": 0,
 							"type": "Kill",
 							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
+							"isCustom": true
+						},
 						{
-							"xCoord": 30.18,
-							"yCoord": 89.42,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "Now to the second ship. Same thing but /target Fleet (Firallon) and try to jump off the ship towards the east (3rd ship)",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
+							"itemName": "Requisition Orders",
+							"questId": 26892,
+							"questObjectiveIndex": 2,
+							"toLootNpcs": [
 								{
-									"npcName": "Fleet Master Firallon",
-									"npcId": 2546,
-									"count": 1,
-									"questId": 608,
-									"questObjectiveIndex": 3,
-									"depth": 1,
-									"type": "Kill",
-									"subTasks": [],
-									"isCustom": false
+									"npcName": "Mistvale Poacher",
+									"npcId": 45851
 								}
 							],
-							"isCustom": false
+							"count": 1,
+							"depth": 0,
+							"type": "Get",
+							"subTasks": [],
+							"isCustom": true
 						}
 					],
 					"onlyForClasses": []
 				},
 				{
+					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 33.57,
+							"yCoord": 70.61,
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Dia Foss",
+							"npcId": 45850,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Beastial Allies",
+									"questId": 26892,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questName": "Beastial Allies",
+									"questId": 26893,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 33.65,
 							"yCoord": 87.48,
-							"coordsMap": "Stranglethorn Vale",
-							"comment": "3rd ship, but this one we will be doing something different. Kill the pirates on deck then get inside the ship. Luckily you can pull everything here one by one and there is only 1 magus you need to fight.",
+							"comment": "Skipping last pirate quest, but getting Cortello¡s Riddle. Kill the pirates on deck then get inside the ship. Luckily you can pull everything here one by one and there is only 1 magus you need to fight.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -37699,30 +38019,6 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "After you get the quest (if you don't find it here skip it, -20k XP and a bag) /target Captian and do the usual or kill it by split pulling him from the mage. If you split pull him, stay away from the mobs or FD will get resisted",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [
-								{
-									"npcName": "Captain Stillwater",
-									"npcId": 2550,
-									"count": 1,
-									"questId": 608,
-									"questObjectiveIndex": 1,
-									"depth": 1,
-									"type": "Kill",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
 							"xCoord": 39.52,
 							"yCoord": 76.6,
 							"coordsMap": "Stranglethorn Vale",
@@ -37743,12 +38039,48 @@
 								}
 							],
 							"isCustom": false
-						},
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
 						{
-							"comment": "Btw, if you are wondering why these kinds of split pulling shenanigans work is because, yes, it's not blizzlike. Social aggroed mobs don't get aggro \"pulses\" when you hit a mob that's \"tethered\" to them, so you can reset and split them by getting aggro on a different unit (you) other than the original target (your pet) and then making the original target despawn.",
+							"xCoord": 36.8,
+							"yCoord": 66.74,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Kill this guy first",
 							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
+							"type": "Go to",
+							"subTasks": [
+								{
+									"npcName": "Walt Palmer",
+									"npcId": 45853,
+									"count": 1,
+									"questId": 26893,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "Buyer's Message",
+									"questId": 26893,
+									"questObjectiveIndex": 2,
+									"toLootNpcs": [
+										{
+											"npcName": "Walt Palmer",
+											"npcId": 45853
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -37823,12 +38155,19 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Stranglethorn Vale",
 							"xCoord": 35.24,
 							"yCoord": 60.45,
-							"coordsMap": "Stranglethorn Vale",
 							"comment": "When you get 10 gorilla fangs go here. The summon is possibly bugged. If it doesn't work just abandone and go back to booty bay",
 							"depth": 0,
 							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"comment": "If you hold till the last wave just pull the white gorilla and run. Then loot it.",
+							"depth": 0,
+							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
@@ -37868,6 +38207,45 @@
 					"onlyForClasses": []
 				},
 				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 33.57,
+							"yCoord": 70.61,
+							"coordsMap": "Stranglethorn Vale",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Dia Foss",
+							"npcId": 45850,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26893,
+									"questName": "Beastial Allies",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 26894,
+									"questName": "Beastial Allies",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
+				},
+				{
 					"stepTasks": [
 						{
 							"xCoord": 26.88,
@@ -37905,6 +38283,124 @@
 						}
 					],
 					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 27.72,
+							"yCoord": 76.74,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Lower level. Target the goblin in black and use the whistle",
+							"itemId": 62751,
+							"itemName": "Foss' Whistle",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"goalName": "Ambush Sidis Faintsnipe",
+									"questId": 26894,
+									"questObjectiveIndex": 1,
+									"count": 1,
+									"depth": 1,
+									"type": "Goal",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 28.22,
+							"yCoord": 76.73,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Turn around and enter the building to your left",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Gavik Grimesail",
+							"npcId": 45336,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Commission for Gavik Grimesail",
+									"questId": 28482,
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"comment": "20 silk bandages",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"itemName": "Silk Bandage",
+									"questId": 28482,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 20,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"questName": "Commission for Gavik Grimesail",
+									"questId": 28482,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 33.57,
+							"yCoord": 70.61,
+							"coordsMap": "Stranglethorn Vale",
+							"comment": "Back to monkee cave one last time",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Dia Foss",
+							"npcId": 45850,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26894,
+									"questName": "Beastial Allies",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
 				},
 				{
 					"stepTasks": [
@@ -37993,37 +38489,6 @@
 									"isCustom": true,
 									"questId": 26905,
 									"questName": "The Janky Helmet",
-									"subTasks": [],
-									"type": "Turn in quest"
-								}
-							],
-							"type": "Talk to"
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
-							"coordsMap": "Stranglethorn Vale",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
-							"xCoord": 27.15,
-							"yCoord": 76.97
-						},
-						{
-							"depth": 0,
-							"isCustom": false,
-							"npcName": "Fleet Master Seahorn",
-							"npcId": 2487,
-							"subTasks": [
-								{
-									"depth": 1,
-									"isCustom": false,
-									"questId": 608,
-									"questName": "The Bloodsail Buccaneers",
 									"subTasks": [],
 									"type": "Turn in quest"
 								}
@@ -48026,7 +48491,7 @@
 							"isCustom": false
 						},
 						{
-							"comment": "After gathering the ones down the beach go back to the camp. Check the lake above it again to see if things have respawned and finish the quest.",
+							"comment": "Finish gathering and back to the camp",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
@@ -48042,16 +48507,6 @@
 									"isCustom": true
 								}
 							],
-							"isCustom": false
-						},
-						{
-							"coordsMap": "Feralas",
-							"xCoord": 62.4,
-							"yCoord": 52.55,
-							"comment": "If respawns are still bugged then go here to gather the last one (one node around the shore of the pond)",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
 							"isCustom": false
 						}
 					],
