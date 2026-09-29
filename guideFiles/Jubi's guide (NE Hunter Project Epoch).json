@@ -49480,13 +49480,6 @@
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
-						},
-						{
-							"comment": "Check fast with eagle eyes if the Twilight mobs in the cave to the west are elite and take note. We will skip some questlines down the line if that's the case.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -51923,15 +51916,7 @@
 							"comment": "Go here and gather 2 of the eggs",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [
-								{
-									"comment": "The quest has always been bugged. If the eggs can't be interacted with abandon quest.",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
+							"subTasks": [],
 							"isCustom": false
 						},
 						{
@@ -53593,10 +53578,10 @@
 							"type": "Go to",
 							"subTasks": [
 								{
+									"coordsMap": "The Hinterlands",
 									"xCoord": 67.71,
 									"yCoord": 53.07,
-									"coordsMap": "The Hinterlands",
-									"comment": "This chicken slaps. Has an execute and enrages when <40% hp. No match for the true and tested method of pilar + frost trap tho. Go to this rock, kill the 2 stalkers that are nearby, summon the chicken and play ring around the rosie with growl off, cower on and a frost trap.",
+									"comment": "This chicken slaps. Has an execute and enrages when <40% hp. Try to kite it/trap when he enrages, your pet isn't though enough.",
 									"depth": 1,
 									"type": "Go to",
 									"subTasks": [],
@@ -54078,16 +54063,6 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 74.77,
-							"yCoord": 12.87,
-							"coordsMap": "Ironforge",
-							"comment": "No data for this quest, couldn't do during beta 3.5 due to no drops bug in SG",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
 							"npcName": "Librarian Mae Paledust",
 							"npcId": 3979,
 							"depth": 0,
@@ -54468,28 +54443,28 @@
 				{
 					"stepTasks": [
 						{
+							"xCoord": 38.27,
+							"yCoord": 28.02,
 							"coordsMap": "Searing Gorge",
-							"xCoord": 37.7,
-							"yCoord": 26.77,
-							"comment": "Only if the Twilight Cultists at the cave to the west weren't elite",
+							"comment": "Maybe it gets removed since its a pre-cata questline :/",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
 						{
-							"npcName": "Lookout Captain Lolo Longstriker",
-							"npcId": 14634,
+							"npcName": "Evonice Sootsmoker",
+							"npcId": 14628,
 							"depth": 0,
 							"type": "Talk to",
 							"subTasks": [
 								{
-									"questName": "Twilight Tactics",
-									"questId": 26854,
+									"questId": 7702,
+									"questName": "Kill 'Em With Sleep Deprivation",
 									"depth": 1,
 									"type": "Accept quest",
 									"subTasks": [],
-									"isCustom": true
+									"isCustom": false
 								}
 							],
 							"isCustom": false
@@ -54504,7 +54479,7 @@
 							"xCoord": 37.63,
 							"yCoord": 26.68,
 							"coordsMap": "Searing Gorge",
-							"comment": "WANTED post",
+							"comment": "WANTED post. Skip Twilight Tactis from the dwarf nearby. Takes too long.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -54677,13 +54652,6 @@
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
-						},
-						{
-							"comment": "Do something",
-							"depth": 0,
-							"subTasks": [],
-							"type": "Comment",
-							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -54762,60 +54730,13 @@
 									"questId": 26864,
 									"depth": 1,
 									"type": "Accept quest",
-									"subTasks": [
-										{
-											"comment": "The quest item never dropped during beta. Should drop from slavers. Unsure what the follow up is. Turn it in as soon as you can, preferably before jumping down to the pit.",
-											"depth": 2,
-											"type": "Comment",
-											"subTasks": [],
-											"isCustom": false
-										}
-									],
+									"subTasks": [],
 									"isCustom": true
 								}
 							],
 							"type": "Talk to"
 						}
 					]
-				},
-				{
-					"stepTasks": [
-						{
-							"comment": "Only if the Twilight Cultists weren't elite. Skip otherwise",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"xCoord": 41.35,
-							"yCoord": 74.85,
-							"coordsMap": "Searing Gorge",
-							"comment": "Go here before killing the elements at the entrance of BRM",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"npcName": "Elementalist Shirleen",
-							"npcId": 47071,
-							"depth": 0,
-							"type": "Talk to",
-							"subTasks": [
-								{
-									"questName": "The Elements, Corrupted",
-									"questId": 26859,
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": true
-								}
-							],
-							"isCustom": true
-						}
-					],
-					"onlyForClasses": []
 				},
 				{
 					"stepTasks": [
@@ -54845,10 +54766,20 @@
 							"isCustom": false
 						},
 						{
+							"xCoord": 36.16,
+							"yCoord": 58.39,
+							"coordsMap": "Searing Gorge",
+							"comment": "Look for enslavers by going down the slope near the tower",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
 							"xCoord": 39.01,
 							"yCoord": 39.13,
 							"coordsMap": "Searing Gorge",
-							"comment": "Backtrack and kill respawning golems, dwarves, spiders (should be almost done) and elementals you need",
+							"comment": "Go down the gorge and lap around to the starting point. Kill respawning golems, dwarves, spiders (should be almost done) and elementals you need after finishing the lap",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [
@@ -54899,13 +54830,6 @@
 									"isCustom": false
 								}
 							],
-							"isCustom": false
-						},
-						{
-							"comment": "If you are doing the elementals then go down the gorge at [35,58] and kill Inferno elementals to progress it",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
 							"isCustom": false
 						},
 						{
@@ -55012,55 +54936,6 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "Do right after previous step -> Some questlines couldn't be finished during beta because the whole area was bugged. Not going to detail them, but this is how I suspect they will go. Obviously if the cultists are elite skip both the cultists + elementals quest line (not worth doing)",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [
-								{
-									"comment": "Kill the Twilight cultists outside the cave/mountains. Then you get a quest to retrieve a relic deep inside the cave. Don't get to the cave inmediately.",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"comment": "Do Enslavers Keep records? will probably ask you to go rescue someone inside the Twilight Cultists cave after getting the documents (caged NPC was there with no aparent purpose).",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [
-										{
-											"comment": "If that's the case then do Retrieving relic + water elementals + escort quest at the same time",
-											"depth": 2,
-											"type": "Comment",
-											"subTasks": [],
-											"isCustom": false
-										}
-									],
-									"isCustom": false
-								},
-								{
-									"comment": "After retrieving the relic you are asked to go interrupt a metting in a cave south WEST of the area (quest text is wrong). Go there at the same time you turn in the escort + elemental quests",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						},
-						{
-							"comment": "From here on no idea how the quests progress. Skip this.",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
 							"comment": "Before dropping into the pit kill the dwarf camps to the east then finish golems. If by some miracle the single slaver (there is another one where the Smiths were) drops the quest item for enslavers records, turn it in and accept the follow up. Guide proceeds as if this quest is still bugged.",
 							"depth": 0,
 							"type": "Comment",
@@ -55076,6 +54951,95 @@
 							"depth": 0,
 							"type": "Kill",
 							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"goalName": "Searched for slaver's records",
+							"questId": 26864,
+							"questObjectiveIndex": 1,
+							"count": 8,
+							"depth": 0,
+							"type": "Goal",
+							"subTasks": [
+								{
+									"comment": "This progresses after looting a dead slaver",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 29.67,
+							"yCoord": 71.83,
+							"coordsMap": "Searing Gorge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Grampy Stoutforge",
+							"npcId": 45834,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26864,
+									"questName": "Do Slavers Keep Records?",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 26865,
+									"questName": "Grampy's Theory",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
+						{
+							"xCoord": 26.69,
+							"yCoord": 55.69,
+							"coordsMap": "Searing Gorge",
+							"comment": "You can just kite the Slave trader to other quest givers. The other NPC doesn't drop anything.",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Slaver's records",
+									"questId": 26865,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Slave Trader",
+											"npcId": 45836
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -55156,12 +55120,50 @@
 							"coordsMap": "Searing Gorge",
 							"xCoord": 43.68,
 							"yCoord": 27.84,
-							"comment": "While running up the staris, at the crossroads, go north and kill every dwarf on the hallway. Then, do the same in the next room. While doing so read the rest of the step to get ready for the next fight.",
+							"comment": "While running up the stairs, at the crossroads, go north and kill every dwarf on the hallway. Then, do the same in the next room. While doing so read the rest of the step to get ready for the next fight.",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"itemName": "Dark Iron Pillow",
+									"questId": 7702,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 20,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "While gathering pillows a bunch of low HP dwarves will spawn. Just lay an explosive trap and pet pull them into it. Double trap/use explosives from quests if necessary.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "An elite will spawn after gathering all the pillows. Was mega OP during playtests. Try to kill as she has been nerfed since and should drop an item that starts a quest. Be careful as she pushes her target around.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						},
+						{
+							"comment": "Red up next steps to get ready for Maltorius's fight.",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
+				},
+				{
+					"stepTasks": [
 						{
 							"comment": "Maltorius can't be LoS cheesed like the rest of the elite casters because he casts Shadow Word: Pain (SWP) on his main target (secondary if available), Power Word: Shield (PWS) on himself and Poly on secondary targets while casting Shadowbolts.",
 							"depth": 0,
@@ -55187,7 +55189,7 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "When he is oom and meleeing your pet you can trap him, cast mend pet/first aid, viper sting (doesn't break freezing trap somehow) and then FD + drink. You can reset the fight while his HP stays the same. To do this tho, make sure you don't have ANYTHING that can put a DoT on him (a certain trinket from a rare in Duskwood *cough*). Furthermore, after you use FD if mend pet's HoT heals your pet then you will be put into combat and won't be able to drink",
+							"comment": "When he is oom and meleeing your pet you can trap him, cast mend pet/first aid, viper sting (didn't break freezing trap somehow in 1Poch, unsure of 2Poch) and then FD + drink. You can reset the fight while his HP stays the same. To do this tho, make sure you don't have ANYTHING that can put a DoT on him (a certain trinket from a rare in Duskwood *cough*). Furthermore, after you use FD if mend pet's HoT heals your pet then you will be put into combat and won't be able to drink",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
@@ -55206,10 +55208,38 @@
 							"isCustom": false
 						},
 						{
-							"comment": "New from beta 3.5: Kill the Shadowforge Librarian patrolling the bridge to progress (and complete) \"The Shadowforge Librarian\"",
+							"comment": "Kill the Shadowforge Librarian patrolling the bridge to progress (and complete) \"The Shadowforge Librarian\"",
 							"depth": 0,
 							"type": "Comment",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"npcName": "Shadowforge Librarian Binderole",
+									"npcId": 45832,
+									"count": 1,
+									"questId": 26863,
+									"questObjectiveIndex": 1,
+									"depth": 1,
+									"type": "Kill",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"itemName": "History of Thaurissan",
+									"questId": 26863,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Shadowforge Librarian Binderole",
+											"npcId": 45832
+										}
+									],
+									"count": 1,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
 							"isCustom": false
 						},
 						{
@@ -55413,7 +55443,7 @@
 									"type": "Get",
 									"subTasks": [
 										{
-											"comment": "Any dwarf dops them",
+											"comment": "Any dwarf drops them",
 											"depth": 2,
 											"type": "Comment",
 											"subTasks": [],
@@ -56219,13 +56249,6 @@
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
-						},
-						{
-							"comment": "Hopefully the slavers quest gets fixed and there is something else to do while down there",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
-							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -56265,6 +56288,38 @@
 						}
 					],
 					"onlyForClasses": []
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 29.67,
+							"yCoord": 71.83,
+							"coordsMap": "Searing Gorge",
+							"comment": "Skip the follow up, not doable solo",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Grampy Stoutforge",
+							"npcId": 45834,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Grampy's Theory",
+									"questId": 26865,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": true
+						}
+					]
 				},
 				{
 					"stepTasks": [
@@ -56508,13 +56563,56 @@
 							"xCoord": 37.85,
 							"yCoord": 30.76,
 							"coordsMap": "Searing Gorge",
-							"comment": "Fly to Stormwind",
+							"comment": "Fly to IF",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						}
 					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 74.77,
+							"yCoord": 12.87,
+							"coordsMap": "Ironforge",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Librarian Mae Paledust",
+							"npcId": 3979,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questId": 26863,
+									"questName": "The Shadowforge Librarian",
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"stepTasks": [
+						{
+							"comment": "Tram to SW",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [],
+							"isCustom": false
+						}
+					],
+					"onlyForClasses": []
 				}
 			],
 			"nextSectionVal": 16,
@@ -57474,13 +57572,6 @@
 							"comment": "Same method of pulling the bridge with your pet as before",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"comment": ">>> MAKE SURE YOU PICK THE COMPASS AS A REWARD <<<",
-							"depth": 0,
-							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
 						},
@@ -64158,58 +64249,6 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"xCoord": 51.88,
-							"yCoord": 31.96,
-							"coordsMap": "Feralas",
-							"comment": "Kill yetis for hides",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [
-								{
-									"itemName": "Rage Scar Yeti Hide",
-									"questId": 7733,
-									"questObjectiveIndex": 1,
-									"toLootNpcs": [],
-									"count": 10,
-									"depth": 1,
-									"type": "Get",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"comment": "AoE down everything at the cave of the mount",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						},
-						{
-							"comment": "If a Pristine Yeti Hide drops accept the quest (skip this otherwise)",
-							"itemId": 18969,
-							"itemName": "Pristine Yeti Hide",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [
-								{
-									"questId": 7735,
-									"questName": "Pristine Yeti Hide",
-									"depth": 1,
-									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": false
-								}
-							],
-							"isCustom": false
-						}
-					]
-				},
-				{
-					"onlyForClasses": [],
-					"stepTasks": [
-						{
 							"xCoord": 51.65,
 							"yCoord": 47.58,
 							"coordsMap": "Feralas",
@@ -64318,7 +64357,7 @@
 							"xCoord": 51.83,
 							"yCoord": 46.33,
 							"coordsMap": "Feralas",
-							"comment": "No more of these questlines. Not worth the time, but finish Fit For A King when level 60 for a blue xbow",
+							"comment": "Finish Fit For A King when level 60 for a blue xbow",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -64342,11 +64381,100 @@
 							"type": "Talk to"
 						},
 						{
-							"comment": "You are killing Yetis now, but there are only 5 spawns for the 8 items required on the next step. What's more, the drop rate is below 40% :/",
+							"comment": "You are killing Yetis now. Accept the follow up. No data for this",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [],
 							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 51.88,
+							"yCoord": 31.96,
+							"coordsMap": "Feralas",
+							"comment": "Kill yetis for hides and theet",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [
+								{
+									"itemName": "Rage Scar Yeti Hide",
+									"questId": 7733,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [],
+									"count": 10,
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "No data for teeth. They drop from the high level yetis only",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "AoE down everything at the cave of the mount",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						},
+						{
+							"comment": "If a Pristine Yeti Hide drops accept the quest (skip this otherwise)",
+							"itemId": 18969,
+							"itemName": "Pristine Yeti Hide",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"questId": 7735,
+									"questName": "Pristine Yeti Hide",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
+							"xCoord": 51.83,
+							"yCoord": 46.33,
+							"coordsMap": "Feralas",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"depth": 0,
+							"isCustom": true,
+							"npcName": "Jrall",
+							"npcId": 45867,
+							"subTasks": [
+								{
+									"comment": "Turn in any quests and leave the follow ups. Not doing them.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
+							"type": "Talk to"
 						}
 					]
 				},
@@ -64501,18 +64629,12 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
-							"coordsMap": "Ironforge",
-							"depth": 0,
-							"isCustom": false,
-							"subTasks": [],
-							"type": "Go to",
 							"xCoord": 31.21,
-							"yCoord": 4.65
-						},
-						{
+							"yCoord": 4.65,
+							"coordsMap": "Ironforge",
 							"comment": "If you see Courier Hammerfall (moving quest marker) accept his quest. Check the Military ward first (south-eastern area)",
 							"depth": 0,
-							"type": "Comment",
+							"type": "Go to",
 							"subTasks": [],
 							"isCustom": false
 						},
@@ -64569,45 +64691,6 @@
 									"isCustom": false
 								}
 							],
-							"isCustom": false
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 74.77,
-							"yCoord": 12.87,
-							"coordsMap": "Ironforge",
-							"comment": "No data for this quest again. I guess it ends here too.",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"npcName": "Librarian Mae Paledust",
-							"npcId": 3979,
-							"depth": 0,
-							"type": "Talk to",
-							"subTasks": [
-								{
-									"questId": 26863,
-									"questName": "The Shadowforge Librarian",
-									"depth": 1,
-									"type": "Turn in quest",
-									"subTasks": [],
-									"isCustom": true
-								}
-							],
-							"isCustom": false
-						},
-						{
-							"comment": "Skip afterwards",
-							"depth": 0,
-							"type": "Comment",
-							"subTasks": [],
 							"isCustom": false
 						}
 					],
