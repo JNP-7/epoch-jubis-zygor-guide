@@ -58425,33 +58425,10 @@
 				{
 					"stepTasks": [
 						{
-							"xCoord": 45.85,
-							"yCoord": 89.44,
-							"coordsMap": "Azshara",
-							"comment": "Wanted Poster below the helipad",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"questName": "Wanted: Cliff Giants",
-							"questId": 27164,
-							"depth": 0,
-							"type": "Accept quest",
-							"subTasks": [],
-							"isCustom": true
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
 							"xCoord": 45.8,
 							"yCoord": 89.58,
 							"coordsMap": "Azshara",
-							"comment": "Up the helipad",
+							"comment": "Up the helipad. Skipping elite giants",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -58548,7 +58525,7 @@
 						},
 						{
 							"comment": "The previous quest just gave you a free HS with no CD to the gnome town. It shouldn't get deleted for the next 5 hours, even if you turn in the quest.",
-							"itemId": 63905,
+							"itemId": 62968,
 							"itemName": "Limited Teleportation Prompter",
 							"depth": 0,
 							"type": "Comment",
@@ -58568,10 +58545,10 @@
 				{
 					"stepTasks": [
 						{
+							"coordsMap": "Azshara",
 							"xCoord": 46.63,
 							"yCoord": 89.5,
-							"coordsMap": "Azshara",
-							"comment": "Ignore the WANTED poster about the dragons outside of her house. Too hard and, on top of that, couldn't even be completed in beta 3.5 (wrong mobs as objectives)...",
+							"comment": "Ignore the WANTED poster about the dragons outside of her house.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -58616,24 +58593,6 @@
 							"type": "Go to",
 							"subTasks": [
 								{
-									"goalName": "Giants slain",
-									"questId": 27164,
-									"questObjectiveIndex": 1,
-									"count": 5,
-									"depth": 1,
-									"type": "Goal",
-									"subTasks": [
-										{
-											"comment": "Both types of giants (Walkers and Breakers) progress the quest",
-											"depth": 2,
-											"type": "Comment",
-											"subTasks": [],
-											"isCustom": false
-										}
-									],
-									"isCustom": true
-								},
-								{
 									"itemName": "Venison Steak",
 									"count": 10,
 									"questId": 27151,
@@ -58659,7 +58618,7 @@
 					"stepTasks": [
 						{
 							"comment": "Once you are done, TP back to gnome town",
-							"itemId": 63905,
+							"itemId": 62968,
 							"itemName": "Limited Teleportation Prompter",
 							"depth": 0,
 							"type": "Comment",
@@ -58704,37 +58663,6 @@
 									"questId": 27152,
 									"depth": 1,
 									"type": "Accept quest",
-									"subTasks": [],
-									"isCustom": true
-								}
-							],
-							"isCustom": true
-						}
-					],
-					"onlyForClasses": []
-				},
-				{
-					"stepTasks": [
-						{
-							"xCoord": 46.63,
-							"yCoord": 89.5,
-							"coordsMap": "Azshara",
-							"depth": 0,
-							"type": "Go to",
-							"subTasks": [],
-							"isCustom": false
-						},
-						{
-							"npcName": "Wendy Wobblesmith",
-							"npcId": 46985,
-							"depth": 0,
-							"type": "Talk to",
-							"subTasks": [
-								{
-									"questName": "Wanted: Cliff Giants",
-									"questId": 27164,
-									"depth": 1,
-									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": true
 								}
@@ -59292,7 +59220,7 @@
 					"stepTasks": [
 						{
 							"comment": ">>> Before teleporting <<< make sure you are only missing, at worst, the following Satyrs: 7 regular satyrs, 6 rogues and/or 5 Hellcallers",
-							"itemId": 63905,
+							"itemId": 62968,
 							"itemName": "Limited Teleportation Prompter",
 							"depth": 0,
 							"type": "Comment",
@@ -59435,7 +59363,7 @@
 					"stepTasks": [
 						{
 							"comment": "Teleport back to town",
-							"itemId": 63905,
+							"itemId": 62968,
 							"itemName": "Limited Teleportation Prompter",
 							"depth": 0,
 							"type": "Comment",
@@ -59722,7 +59650,7 @@
 					"stepTasks": [
 						{
 							"comment": "Teleport back to gnome town",
-							"itemId": 63905,
+							"itemId": 62968,
 							"itemName": "Limited Teleportation Prompter",
 							"depth": 0,
 							"type": "Comment",
@@ -60420,7 +60348,7 @@
 					"stepTasks": [
 						{
 							"comment": "Option 1: Use the teleporter",
-							"itemId": 63905,
+							"itemId": 62968,
 							"itemName": "Limited Teleportation Prompter",
 							"depth": 0,
 							"type": "Comment",
@@ -60644,7 +60572,7 @@
 					"stepTasks": [
 						{
 							"comment": "Option 1: Use the teleporter.",
-							"itemId": 63905,
+							"itemId": 62968,
 							"itemName": "Limited Teleportation Prompter",
 							"depth": 0,
 							"type": "Comment",
@@ -60967,7 +60895,7 @@
 					"stepTasks": [
 						{
 							"comment": "Option 1: Use the teleporter.",
-							"itemId": 63905,
+							"itemId": 62968,
 							"itemName": "Limited Teleportation Prompter",
 							"depth": 0,
 							"type": "Comment",
@@ -61019,7 +60947,7 @@
 					"stepTasks": [
 						{
 							"comment": "Option 1: Use the teleporter. To continue with the gnomes' quests",
-							"itemId": 63905,
+							"itemId": 62968,
 							"itemName": "Limited Teleportation Prompter",
 							"depth": 0,
 							"type": "Comment",
@@ -61189,7 +61117,7 @@
 					"stepTasks": [
 						{
 							"comment": "Option 1: Use the teleporter.",
-							"itemId": 63905,
+							"itemId": 62968,
 							"itemName": "Limited Teleportation Prompter",
 							"depth": 0,
 							"type": "Comment",
@@ -62486,6 +62414,13 @@
 							"subTasks": [
 								{
 									"comment": "Keep your distance with the chimaera as it uses a casted ranged spell (outrange it) and a close range breath attack.",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								},
+								{
+									"comment": "If the chimaera spams breath attacks is not worth kitting. Skip it",
 									"depth": 1,
 									"type": "Comment",
 									"subTasks": [],
@@ -66393,7 +66328,15 @@
 									"count": 1,
 									"depth": 1,
 									"type": "Goal",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"comment": "Changed in rePoch. If you don't complete the quest by exploring, interact with the runes on the site to trigger it.",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"isCustom": true
 								}
 							],
@@ -67183,6 +67126,14 @@
 									"type": "Turn in quest",
 									"subTasks": [],
 									"isCustom": false
+								},
+								{
+									"questId": 27513,
+									"questName": "Shizzle's Flyer Upgraded",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
 								}
 							],
 							"isCustom": false
@@ -67948,6 +67899,30 @@
 								}
 							],
 							"isCustom": false
+						},
+						{
+							"comment": "Need 3 for the other quest",
+							"depth": 0,
+							"type": "Comment",
+							"subTasks": [
+								{
+									"itemName": "Stegodon Plate",
+									"count": 3,
+									"questId": 27513,
+									"questObjectiveIndex": 1,
+									"toLootNpcs": [
+										{
+											"npcName": "Stegodon",
+											"npcId": 6501
+										}
+									],
+									"depth": 1,
+									"type": "Get",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
 						}
 					],
 					"onlyForClasses": []
@@ -68241,10 +68216,49 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 44.18,
+							"yCoord": 11.42,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Back to camp. Make sure you don't leave Ringo behind",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Shizzle",
+							"npcId": 9998,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Shizzle's Flyer Upgraded",
+									"questId": 27513,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								},
+								{
+									"questId": 27514,
+									"questName": "Shizzle's Flyer Deluxe",
+									"depth": 1,
+									"type": "Accept quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 44.31,
 							"yCoord": 10.27,
 							"coordsMap": "Un'Goro Crater",
-							"comment": "Back to camp. Make sure you don't leave Ringo behind",
 							"itemId": 11804,
 							"itemName": "Spraggle's Canteen",
 							"depth": 0,
@@ -68710,30 +68724,10 @@
 				{
 					"stepTasks": [
 						{
-							"comment": "If my italian organized crime degree is right, there are no Devilsaurs in west Un'Goro in Trinity Core (unless fixed by the devs). What's more, only a single spawn is a regular Devilsaur, which is the easiest one for the quest (all 3 types work). If no one is in the area, it should be exactly there. Listing all the spawns now",
+							"comment": "If my italian organized crime degree is right, only a single Devilsaur spawn is a regular Devilsau rin Trinity Core (unless fixed by the devs). It's the easiest one for the quest (all 3 types work). If no one is in the area, it should be exactly there.",
 							"depth": 0,
 							"type": "Comment",
 							"subTasks": [
-								{
-									"xCoord": 49.79,
-									"yCoord": 60.75,
-									"coordsMap": "Un'Goro Crater",
-									"comment": "Always a Tyrant Devilsaur",
-									"depth": 1,
-									"type": "Go to",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"xCoord": 58.44,
-									"yCoord": 61.09,
-									"coordsMap": "Un'Goro Crater",
-									"comment": "Always an Ironhide Devilsaur. Go for this one if the next on the list is not up/can't find",
-									"depth": 1,
-									"type": "Go to",
-									"subTasks": [],
-									"isCustom": false
-								},
 								{
 									"xCoord": 56.9,
 									"yCoord": 50.9,
@@ -68756,7 +68750,18 @@
 											"depth": 2,
 											"type": "Get",
 											"subTasks": [],
-											"isCustom": false
+											"isCustom": true
+										},
+										{
+											"itemName": "Devilsaur Skin",
+											"questId": 27514,
+											"questObjectiveIndex": 1,
+											"toLootNpcs": [],
+											"count": 1,
+											"depth": 2,
+											"type": "Get",
+											"subTasks": [],
+											"isCustom": true
 										},
 										{
 											"comment": "Just like with the Stegodon, place freezing trap and trap/scare beast if things go south. Pet can facetank. Can't kite (too fast) or use frost trap around a tree (semi-ranged attack + very big model)",
@@ -68766,23 +68771,6 @@
 											"isCustom": false
 										}
 									],
-									"isCustom": false
-								},
-								{
-									"xCoord": 71.01,
-									"yCoord": 52.3,
-									"coordsMap": "Un'Goro Crater",
-									"comment": "Always a Tyrant Devilsaur. Doesn't patrol unless devs have fixed it too",
-									"depth": 1,
-									"type": "Go to",
-									"subTasks": [],
-									"isCustom": false
-								},
-								{
-									"comment": "That's it. 3-4 spawns are missing unless fixed. The only other one is King Mosh. Check in the order shown to get closer to the next step (apes cave)",
-									"depth": 1,
-									"type": "Comment",
-									"subTasks": [],
 									"isCustom": false
 								}
 							],
@@ -69105,10 +69093,41 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"xCoord": 44.18,
+							"yCoord": 11.42,
+							"coordsMap": "Un'Goro Crater",
+							"comment": "Tired of running yet? Only 1 more after this and it's done",
+							"depth": 0,
+							"type": "Go to",
+							"subTasks": [],
+							"isCustom": false
+						},
+						{
+							"npcName": "Shizzle",
+							"npcId": 9998,
+							"depth": 0,
+							"type": "Talk to",
+							"subTasks": [
+								{
+									"questName": "Shizzle's Flyer Deluxe",
+									"questId": 27514,
+									"depth": 1,
+									"type": "Turn in quest",
+									"subTasks": [],
+									"isCustom": true
+								}
+							],
+							"isCustom": false
+						}
+					]
+				},
+				{
+					"onlyForClasses": [],
+					"stepTasks": [
+						{
 							"xCoord": 44.35,
 							"yCoord": 10.26,
 							"coordsMap": "Un'Goro Crater",
-							"comment": "Tired of running yet? Only 1 more after this and it's done",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -69492,7 +69511,15 @@
 							"comment": "Fly to Silithus again. Yes, it's weird but the quest makes you go back and forth, devs were not very inspired :/",
 							"depth": 0,
 							"type": "Go to",
-							"subTasks": [],
+							"subTasks": [
+								{
+									"comment": "Skip if you needed both pilars and accept Linken's quest",
+									"depth": 1,
+									"type": "Comment",
+									"subTasks": [],
+									"isCustom": false
+								}
+							],
 							"isCustom": false
 						}
 					],
@@ -69831,7 +69858,15 @@
 									"questId": 27539,
 									"depth": 1,
 									"type": "Turn in quest",
-									"subTasks": [],
+									"subTasks": [
+										{
+											"comment": "Only if 1 pilar was needed",
+											"depth": 2,
+											"type": "Comment",
+											"subTasks": [],
+											"isCustom": false
+										}
+									],
 									"isCustom": true
 								}
 							],
@@ -71524,10 +71559,10 @@
 					"onlyForClasses": [],
 					"stepTasks": [
 						{
+							"coordsMap": "Winterspring",
 							"xCoord": 51.98,
 							"yCoord": 30.39,
-							"coordsMap": "Winterspring",
-							"comment": "You might have noticed some lootable world objects that look like a tear drop and give you a mana consumable. Gather them for a quest down the line.",
+							"comment": "You might have noticed some lootable world objects that look like a tear drops and give you a mana consumable. Gather them for a quest down the line.",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
@@ -75884,10 +75919,10 @@
 				{
 					"stepTasks": [
 						{
-							"coordsMap": "Winterspring",
 							"xCoord": 61.91,
 							"yCoord": 38.37,
-							"comment": "Not available during beta to alliance. If that's the case again just skip all his steps",
+							"coordsMap": "Winterspring",
+							"comment": "Should be available this time",
 							"depth": 0,
 							"type": "Go to",
 							"subTasks": [],
