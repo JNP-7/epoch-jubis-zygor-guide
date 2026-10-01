@@ -4,6 +4,8 @@
 
 You may have seen me using it while leveling during release. I made it by playing the betas (1 to 3.5 and the stress tests) while waiting for the launch of the server.
 
+02/10/2026: Updated most incorrect ids. Re-routed with the changes from Epoch reborn + the insight after leveling on Kezan during the first launch.
+
 ## How to use
 
 - Download the ZygorGuidesViewer addon (WotLK 3.3.5a version). [Link to Felbite.com](https://felbite.com/addon/4698-zygorguides/)
@@ -26,6 +28,8 @@ You may have seen me using it while leveling during release. I made it by playin
 #### One of the custom quests/objectives has a name that has nothing to do with what I'm seeing in game
 
 That's because the devs have changed the underlaying ids of custom quests/items/npcs as of Stress Test 1. If that id happens to be the one some other quest/objective is using, the addon may have queried the server and is thinking that you are trying to track a quest that has nothing to do with what you are actually doing currently.
+
+02/10/2026: Most have been fixed, but some may still be broken.
 
 #### Some steps are not progressing to the next one even though I know I've completed them
 
